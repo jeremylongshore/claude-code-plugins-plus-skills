@@ -55,7 +55,7 @@
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.19.27",
     "typescript": "^5.5.0",
-    "typescript-eslint": "^8.46.0",
+    "typescript-eslint": "^8.51.0",
     "vitest": "^2.0.0",
     "eslint": "^9.39.2"
   }

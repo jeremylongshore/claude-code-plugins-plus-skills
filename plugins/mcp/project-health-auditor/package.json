@@ -26,7 +26,7 @@
     "@modelcontextprotocol/sdk": "^1.25.1",
     "glob": "^11.1.0",
     "simple-git": "^3.30.0",
-    "zod": "^4.2.1"
+    "zod": "^4.3.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
@@ -34,7 +34,7 @@
     "eslint": "^9.39.2",
     "tsx": "^4.21.0",
     "typescript": "^5.5.0",
-    "typescript-eslint": "^8.46.0",
+    "typescript-eslint": "^8.51.0",
     "vitest": "^4.0.8"
   }
 }
