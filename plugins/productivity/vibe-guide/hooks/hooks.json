@@ -1,14 +1,34 @@
 {
-  "hooks": [
-    {
-      "type": "PostToolUse",
-      "matcher": {
-        "toolNames": ["Bash", "Read", "Grep"]
+  "description": "Vibe guide hook that summarizes verbose tool output",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "If the tool output contains diffs, logs, or technical output longer than 10 lines, summarize it in 2-3 plain sentences. Focus on what changed or what was found. If an error occurred, extract the key problem and suggest a fix in plain language."
+          }
+        ]
       },
-      "hook": {
-        "type": "prompt",
-        "prompt": "The tool output is shown below. If it contains diffs, logs, or technical output longer than 10 lines, summarize it in 2-3 plain sentences instead of showing the raw output. Focus on what changed or what was found, not the technical details.\n\nIf an error occurred, extract the key problem and suggest a fix in plain language."
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "If the tool output contains diffs, logs, or technical output longer than 10 lines, summarize it in 2-3 plain sentences. Focus on what changed or what was found. If an error occurred, extract the key problem and suggest a fix in plain language."
+          }
+        ]
+      },
+      {
+        "matcher": "Grep",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "If the tool output contains diffs, logs, or technical output longer than 10 lines, summarize it in 2-3 plain sentences. Focus on what changed or what was found. If an error occurred, extract the key problem and suggest a fix in plain language."
+          }
+        ]
       }
-    }
-  ]
+    ]
+  }
 }
