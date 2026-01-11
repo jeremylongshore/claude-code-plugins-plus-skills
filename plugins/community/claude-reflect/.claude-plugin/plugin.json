@@ -15,6 +15,5 @@
     "CLAUDE.md",
     "memory",
     "learnings"
-  ],
-  "hooks": "./hooks/hooks.json"
+  ]
 }
