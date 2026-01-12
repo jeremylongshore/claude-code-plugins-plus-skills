@@ -25,7 +25,7 @@
     "pnpm": ">=9.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.19.27",
+    "@types/node": "^20.19.28",
     "typescript": "^5.5.0",
     "vitest": "^2.0.0",
     "eslint": "^9.39.2",
