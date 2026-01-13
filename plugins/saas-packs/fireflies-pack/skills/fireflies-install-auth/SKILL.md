@@ -1,13 +1,15 @@
 ---
-name: fireflies-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure fireflies.ai sdk/cli authentication. use when setting
   up a new fireflies.ai integration, configuring api keys, or initializing fireflies.ai
   in your project. trigger with phrases like "install fireflies", "setup fireflies",
   "f...
+name: fireflies-install-auth
 ---
 # Fireflies.ai Install & Auth
+
+This skill provides automated assistance for fireflies install auth tasks.
 
 ## Overview
 Set up Fireflies.ai SDK/CLI and configure authentication credentials.

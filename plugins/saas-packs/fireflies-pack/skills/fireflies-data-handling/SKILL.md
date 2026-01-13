@@ -1,12 +1,14 @@
 ---
-name: fireflies-data-handling
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Implement fireflies.ai pii handling, data retention, and gdpr/ccpa compliance
   patterns. use when handling sensitive data, implementing data redaction, configuring
   retention policies, or ensuring compliance with privacy regulations for fireflies.ai...
+name: fireflies-data-handling
 ---
 # Fireflies.ai Data Handling
+
+This skill provides automated assistance for fireflies data handling tasks.
 
 ## Overview
 Handle sensitive data correctly when integrating with Fireflies.ai.

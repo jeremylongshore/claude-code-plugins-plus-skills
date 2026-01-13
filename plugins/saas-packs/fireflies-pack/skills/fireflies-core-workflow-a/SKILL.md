@@ -1,12 +1,14 @@
 ---
-name: fireflies-core-workflow-a
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute fireflies.ai primary workflow: core workflow a. use when implementing
   primary use case, building main features, or core integration tasks. trigger with
   phrases like "fireflies main workflow", "primary task with fireflies".'
+name: fireflies-core-workflow-a
 ---
 # Fireflies.ai Core Workflow A
+
+This skill provides automated assistance for fireflies core workflow a tasks.
 
 ## Overview
 Primary money-path workflow for Fireflies.ai. This is the most common use case.

@@ -1,12 +1,14 @@
 ---
-name: fireflies-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute fireflies.ai secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "fireflies secondary workflow", "secondary task with fireflies".'
+name: fireflies-core-workflow-b
 ---
 # Fireflies.ai Core Workflow B
+
+This skill provides automated assistance for fireflies core workflow b tasks.
 
 ## Overview
 Secondary workflow for Fireflies.ai. Complements the primary workflow.
