@@ -1,11 +1,11 @@
 ---
-name: optimizing-cache-performance
-license: MIT
 allowed-tools: Read, Write, Bash, Grep
+license: MIT
 description: Execute this skill enables ai assistant to analyze and improve application
   caching strategies. it optimizes cache hit rates, ttl configurations, cache key
   design, and invalidation strategies. use this skill when the user requests to "optimize
   cach...
+name: optimizing-cache-performance
 ---
 # Cache Performance Optimizer
 

@@ -1,11 +1,11 @@
 ---
-name: detecting-memory-leaks
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Detect potential memory leaks and analyze memory usage patterns in code.
   use when troubleshooting performance issues related to memory growth or identifying
   leak sources. trigger with phrases like "detect memory leaks", "analyze memory usage",
   or ...
+name: detecting-memory-leaks
 ---
 # Memory Leak Detector
 

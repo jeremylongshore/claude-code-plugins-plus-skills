@@ -1,11 +1,11 @@
 ---
-name: analyzing-logs
-license: MIT
 allowed-tools: Read, Write, Bash, Grep
+license: MIT
 description: Analyze application logs for performance insights and issue detection
   including slow requests, error patterns, and resource usage. Use when troubleshooting
   performance issues or debugging errors. Trigger with phrases like "analyze logs",
   "find slo...
+name: analyzing-logs
 ---
 # Log Analysis Tool
 

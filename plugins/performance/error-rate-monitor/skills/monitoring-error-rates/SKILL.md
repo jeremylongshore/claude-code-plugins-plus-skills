@@ -1,11 +1,11 @@
 ---
-name: monitoring-error-rates
-license: MIT
 allowed-tools: Read, Bash, Grep, Glob
+license: MIT
 description: Monitor and analyze application error rates to improve reliability. Use
   when tracking errors in applications including HTTP errors, exceptions, and database
   issues. Trigger with phrases like "monitor error rates", "track application errors",
   or "a...
+name: monitoring-error-rates
 ---
 # Error Rate Monitor
 
