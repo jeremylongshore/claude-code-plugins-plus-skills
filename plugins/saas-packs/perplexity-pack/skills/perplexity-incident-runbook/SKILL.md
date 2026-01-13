@@ -1,17 +1,12 @@
 ---
 name: perplexity-incident-runbook
-description: |
-  Execute Perplexity incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to Perplexity-related outages, investigating errors,
-  or running post-incident reviews for Perplexity integration failures.
-  Trigger with phrases like "perplexity incident", "perplexity outage",
-  "perplexity down", "perplexity on-call", "perplexity emergency", "perplexity broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute perplexity incident response procedures with triage, mitigation,
+  and postmortem. use when responding to perplexity-related outages, investigating
+  errors, or running post-incident reviews for perplexity integration failures. trigger
+  with ph...
 ---
-
 # Perplexity Incident Runbook
 
 ## Overview

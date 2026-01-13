@@ -1,17 +1,11 @@
 ---
 name: perplexity-known-pitfalls
-description: |
-  Identify and avoid Perplexity anti-patterns and common integration mistakes.
-  Use when reviewing Perplexity code for issues, onboarding new developers,
-  or auditing existing Perplexity integrations for best practices violations.
-  Trigger with phrases like "perplexity mistakes", "perplexity anti-patterns",
-  "perplexity pitfalls", "perplexity what not to do", "perplexity code review".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Identify and avoid perplexity anti-patterns and common integration mistakes.
+  use when reviewing perplexity code for issues, onboarding new developers, or auditing
+  existing perplexity integrations for best practices violations. trigger with phrases...
 ---
-
 # Perplexity Known Pitfalls
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: perplexity-policy-guardrails
-description: |
-  Implement Perplexity lint rules, policy enforcement, and automated guardrails.
-  Use when setting up code quality rules for Perplexity integrations, implementing
-  pre-commit hooks, or configuring CI policy checks for Perplexity best practices.
-  Trigger with phrases like "perplexity policy", "perplexity lint",
-  "perplexity guardrails", "perplexity best practices check", "perplexity eslint".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement perplexity lint rules, policy enforcement, and automated guardrails.
+  use when setting up code quality rules for perplexity integrations, implementing
+  pre-commit hooks, or configuring ci policy checks for perplexity best practices.
+  trigge...
 ---
-
 # Perplexity Policy & Guardrails
 
 ## Overview

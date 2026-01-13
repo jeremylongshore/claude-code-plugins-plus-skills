@@ -1,17 +1,12 @@
 ---
 name: perplexity-load-scale
-description: |
-  Implement Perplexity load testing, auto-scaling, and capacity planning strategies.
-  Use when running performance tests, configuring horizontal scaling,
-  or planning capacity for Perplexity integrations.
-  Trigger with phrases like "perplexity load test", "perplexity scale",
-  "perplexity performance test", "perplexity capacity", "perplexity k6", "perplexity benchmark".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement perplexity load testing, auto-scaling, and capacity planning
+  strategies. use when running performance tests, configuring horizontal scaling,
+  or planning capacity for perplexity integrations. trigger with phrases like "perplexity
+  load tes...
 ---
-
 # Perplexity Load & Scale
 
 ## Overview

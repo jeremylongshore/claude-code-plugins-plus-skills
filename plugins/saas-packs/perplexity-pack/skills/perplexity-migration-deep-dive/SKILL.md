@@ -1,17 +1,12 @@
 ---
 name: perplexity-migration-deep-dive
-description: |
-  Execute Perplexity major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from Perplexity, performing major version upgrades,
-  or re-platforming existing integrations to Perplexity.
-  Trigger with phrases like "migrate perplexity", "perplexity migration",
-  "switch to perplexity", "perplexity replatform", "perplexity upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute perplexity major re-architecture and migration strategies with
+  strangler fig pattern. use when migrating to or from perplexity, performing major
+  version upgrades, or re-platforming existing integrations to perplexity. trigger
+  with phrases ...
 ---
-
 # Perplexity Migration Deep Dive
 
 ## Overview

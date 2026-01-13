@@ -1,17 +1,12 @@
 ---
 name: perplexity-observability
-description: |
-  Set up comprehensive observability for Perplexity integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for Perplexity operations, setting up dashboards,
-  or configuring alerting for Perplexity integration health.
-  Trigger with phrases like "perplexity monitoring", "perplexity metrics",
-  "perplexity observability", "monitor perplexity", "perplexity alerts", "perplexity tracing".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Set up comprehensive observability for perplexity integrations with metrics,
+  traces, and alerts. use when implementing monitoring for perplexity operations,
+  setting up dashboards, or configuring alerting for perplexity integration health.
+  trigger ...
 ---
-
 # Perplexity Observability
 
 ## Overview

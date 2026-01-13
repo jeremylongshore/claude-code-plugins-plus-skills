@@ -1,17 +1,11 @@
 ---
 name: perplexity-multi-env-setup
-description: |
-  Configure Perplexity across development, staging, and production environments.
-  Use when setting up multi-environment deployments, configuring per-environment secrets,
-  or implementing environment-specific Perplexity configurations.
-  Trigger with phrases like "perplexity environments", "perplexity staging",
-  "perplexity dev prod", "perplexity environment setup", "perplexity config by env".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Perplexity across development, staging, and production environments.
+  Use when setting up multi-environment deployments, configuring per-environment secrets,
+  or implementing environment-specific Perplexity configurations. Trigger with phr...
 ---
-
 # Perplexity Multi-Environment Setup
 
 ## Overview

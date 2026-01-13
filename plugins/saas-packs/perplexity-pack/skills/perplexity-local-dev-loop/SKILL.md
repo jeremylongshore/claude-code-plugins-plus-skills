@@ -1,17 +1,12 @@
 ---
 name: perplexity-local-dev-loop
-description: |
-  Configure Perplexity local development with hot reload and testing.
-  Use when setting up a development environment, configuring test workflows,
-  or establishing a fast iteration cycle with Perplexity.
-  Trigger with phrases like "perplexity dev setup", "perplexity local development",
-  "perplexity dev environment", "develop with perplexity".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Configure Perplexity local development with hot reload and testing. Use
+  when setting up a development environment, configuring test workflows, or establishing
+  a fast iteration cycle with Perplexity. Trigger with phrases like "perplexity dev
+  setup"...
 ---
-
 # Perplexity Local Dev Loop
 
 ## Overview

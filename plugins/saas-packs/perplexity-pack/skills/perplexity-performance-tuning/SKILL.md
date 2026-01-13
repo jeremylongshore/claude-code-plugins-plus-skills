@@ -1,17 +1,12 @@
 ---
 name: perplexity-performance-tuning
-description: |
-  Optimize Perplexity API performance with caching, batching, and connection pooling.
-  Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Perplexity integrations.
-  Trigger with phrases like "perplexity performance", "optimize perplexity",
-  "perplexity latency", "perplexity caching", "perplexity slow", "perplexity batch".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize Perplexity API performance with caching, batching, and connection
+  pooling. Use when experiencing slow API responses, implementing caching strategies,
+  or optimizing request throughput for Perplexity integrations. Trigger with phrases
+  like ...
 ---
-
 # Perplexity Performance Tuning
 
 ## Overview

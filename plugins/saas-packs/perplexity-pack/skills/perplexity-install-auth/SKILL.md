@@ -1,17 +1,12 @@
 ---
 name: perplexity-install-auth
-description: |
-  Install and configure Perplexity SDK/CLI authentication.
-  Use when setting up a new Perplexity integration, configuring API keys,
-  or initializing Perplexity in your project.
-  Trigger with phrases like "install perplexity", "setup perplexity",
-  "perplexity auth", "configure perplexity API key".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Install and configure perplexity sdk/cli authentication. use when setting
+  up a new perplexity integration, configuring api keys, or initializing perplexity
+  in your project. trigger with phrases like "install perplexity", "setup perplexity",
+  "perpl...
 ---
-
 # Perplexity Install & Auth
 
 ## Overview
