@@ -1,17 +1,12 @@
 ---
 name: apollo-common-errors
-description: |
-  Diagnose and fix common Apollo.io API errors.
-  Use when encountering Apollo API errors, debugging integration issues,
-  or troubleshooting failed requests.
-  Trigger with phrases like "apollo error", "apollo api error",
-  "debug apollo", "apollo 401", "apollo 429", "apollo troubleshoot".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Diagnose and fix common apollo.io api errors. use when encountering apollo
+  api errors, debugging integration issues, or troubleshooting failed requests. trigger
+  with phrases like "apollo error", "apollo api error", "debug apollo", "apollo 401",
+  "a...
 ---
-
 # Apollo Common Errors
 
 ## Overview

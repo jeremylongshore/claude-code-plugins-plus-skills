@@ -1,10 +1,10 @@
 ---
 name: analyzing-system-throughput
-description: Analyze and optimize system throughput including request handling, data processing, and resource utilization. Use when identifying capacity limits or evaluating scaling strategies. Trigger with phrases like "analyze throughput", "optimize capacity", or "identify bottlenecks".
-version: 1.0.0
-allowed-tools: "Read, Write, Bash, Grep"
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Bash, Grep
+description: Analyze and optimize system throughput including request handling, data
+  processing, and resource utilization. Use when identifying capacity limits or evaluating
+  scaling strategies. Trigger with phrases like "analyze throughput", "optimize capacity...
 ---
 # Throughput Analyzer
 

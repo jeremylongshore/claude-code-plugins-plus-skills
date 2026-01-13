@@ -1,17 +1,12 @@
 ---
 name: neurodivergent-visual-org
-description: |
-  Creates ADHD-friendly visual organizational tools using Mermaid diagrams
-  optimized for neurodivergent thinking patterns. Auto-detects overwhelm,
-  provides compassionate task breakdowns with realistic time estimates.
-  Use when creating visual task breakdowns, decision trees, or organizational
-  diagrams for neurodivergent users or accessibility-focused projects.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 3.1.1
-author: Jack Reis <hello@jack.digital>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Creates ADHD-friendly visual organizational tools using Mermaid diagrams
+  optimized for neurodivergent thinking patterns. Auto-detects overwhelm, provides
+  compassionate task breakdowns with realistic time estimates. Use when creating visual
+  task br...
 ---
-
 ## Mode System (v3.1.1)
 
 This skill supports four modes to adapt to different cognitive styles and accessibility needs:

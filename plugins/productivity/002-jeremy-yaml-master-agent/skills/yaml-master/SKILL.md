@@ -1,13 +1,10 @@
 ---
 name: yaml-master
-description: |
-  Execute proactive YAML intelligence: automatically activates when working with YAML files.
-  Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: 'Execute proactive yaml intelligence: automatically activates when working
+  with yaml files. use when appropriate context detected. trigger with relevant phrases
+  based on skill purpose.'
 ---
 # YAML Master
 
