@@ -1,13 +1,15 @@
 ---
-name: cursor-codebase-indexing
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Execute set up and optimize cursor codebase indexing. triggers on "cursor
   index setup", "codebase indexing", "index codebase", "cursor semantic search". use
   when working with cursor codebase indexing functionality. trigger with phrases like
   "curso...
+name: cursor-codebase-indexing
 ---
 # Cursor Codebase Indexing
+
+This skill provides automated assistance for cursor codebase indexing tasks.
 
 ## Overview
 

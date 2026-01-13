@@ -1,13 +1,15 @@
 ---
-name: cursor-common-errors
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Execute troubleshoot common cursor ide errors and issues. triggers on
   "cursor error", "cursor not working", "cursor issue", "cursor problem", "fix cursor".
   use when working with cursor common errors functionality. trigger with phrases like
   "cursor...
+name: cursor-common-errors
 ---
 # Cursor Common Errors
+
+This skill provides automated assistance for cursor common errors tasks.
 
 ## Overview
 

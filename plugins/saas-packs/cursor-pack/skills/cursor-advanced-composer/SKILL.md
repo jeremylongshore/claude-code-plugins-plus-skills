@@ -1,13 +1,15 @@
 ---
-name: cursor-advanced-composer
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Manage advanced Cursor Composer techniques for complex edits. Triggers
   on "advanced composer", "composer patterns", "multi-file generation", "composer
   refactoring". Use when working with cursor advanced composer functionality. Trigger
   with phrases...
+name: cursor-advanced-composer
 ---
 # Cursor Advanced Composer
+
+This skill provides automated assistance for cursor advanced composer tasks.
 
 ## Overview
 

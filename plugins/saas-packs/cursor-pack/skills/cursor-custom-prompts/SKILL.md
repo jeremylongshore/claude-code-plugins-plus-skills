@@ -1,13 +1,15 @@
 ---
-name: cursor-custom-prompts
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Create effective custom prompts for Cursor AI. Triggers on "cursor prompts",
   "prompt engineering cursor", "better cursor prompts", "cursor instructions". Use
   when working with cursor custom prompts functionality. Trigger with phrases like
   "cursor ...
+name: cursor-custom-prompts
 ---
 # Cursor Custom Prompts
+
+This skill provides automated assistance for cursor custom prompts tasks.
 
 ## Overview
 

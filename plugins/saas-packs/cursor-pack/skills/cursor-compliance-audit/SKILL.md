@@ -1,13 +1,15 @@
 ---
-name: cursor-compliance-audit
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Execute compliance and security auditing for cursor usage. triggers on
   "cursor compliance", "cursor audit", "cursor security review", "cursor soc2", "cursor
   gdpr". use when analyzing or auditing cursor compliance audit. trigger with phrases
   like "...
+name: cursor-compliance-audit
 ---
 # Cursor Compliance Audit
+
+This skill provides automated assistance for cursor compliance audit tasks.
 
 ## Overview
 

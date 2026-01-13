@@ -1,13 +1,15 @@
 ---
-name: cursor-api-key-management
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Manage API keys and authentication in Cursor. Triggers on "cursor api
   key", "cursor openai key", "cursor anthropic key", "own api key cursor". Use when
   working with APIs or building integrations. Trigger with phrases like "cursor api
   key managemen...
+name: cursor-api-key-management
 ---
 # Cursor Api Key Management
+
+This skill provides automated assistance for cursor api key management tasks.
 
 ## Overview
 

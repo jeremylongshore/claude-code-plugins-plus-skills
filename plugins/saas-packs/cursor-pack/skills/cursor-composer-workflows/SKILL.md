@@ -1,13 +1,15 @@
 ---
-name: cursor-composer-workflows
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Execute master cursor composer for multi-file ai edits. triggers on "cursor
   composer", "multi-file edit", "cursor generate files", "composer workflow", "cursor
   scaffold". use when working with cursor composer workflows functionality. trigger
   with ...
+name: cursor-composer-workflows
 ---
 # Cursor Composer Workflows
+
+This skill provides automated assistance for cursor composer workflows tasks.
 
 ## Overview
 

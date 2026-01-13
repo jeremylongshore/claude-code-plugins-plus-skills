@@ -1,13 +1,15 @@
 ---
-name: cursor-context-management
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Optimize context window usage in Cursor. Triggers on "cursor context",
   "context window", "context limit", "cursor memory", "context management". Use when
   working with cursor context management functionality. Trigger with phrases like
   "cursor conte...
+name: cursor-context-management
 ---
 # Cursor Context Management
+
+This skill provides automated assistance for cursor context management tasks.
 
 ## Overview
 
