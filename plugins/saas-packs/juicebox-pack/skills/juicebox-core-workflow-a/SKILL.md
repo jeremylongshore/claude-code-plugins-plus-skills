@@ -1,122 +1,23 @@
 ---
-name: juicebox-core-workflow-a
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Execute juicebox people search workflow. use when building candidate
   sourcing pipelines, searching for professionals, or implementing talent discovery
   features. trigger with phrases like "juicebox people search", "find candidates juicebox",
   "juice...
+name: juicebox-core-workflow-a
 ---
-# Juicebox People Search Workflow
+# Juicebox Core Workflow A
 
-## Overview
-Implement a complete people search workflow using Juicebox AI for candidate sourcing and talent discovery.
+This skill provides automated assistance for juicebox core workflow a tasks.
 
 ## Prerequisites
 - Juicebox SDK configured
 - Understanding of search query syntax
 - Knowledge of result filtering
 
-## Instructions
 
-### Step 1: Define Search Parameters
-```typescript
-// types/search.ts
-export interface CandidateSearch {
-  role: string;
-  skills: string[];
-  location?: string;
-  experienceYears?: { min?: number; max?: number };
-  companies?: string[];
-  education?: string[];
-}
-
-export function buildSearchQuery(params: CandidateSearch): string {
-  const parts = [params.role];
-
-  if (params.skills.length > 0) {
-    parts.push(`skills:(${params.skills.join(' OR ')})`);
-  }
-
-  if (params.location) {
-    parts.push(`location:"${params.location}"`);
-  }
-
-  return parts.join(' AND ');
-}
-```
-
-### Step 2: Implement Search Pipeline
-```typescript
-// workflows/candidate-search.ts
-import { JuiceboxService } from '../lib/juicebox-client';
-
-export class CandidateSearchPipeline {
-  constructor(private juicebox: JuiceboxService) {}
-
-  async searchCandidates(criteria: CandidateSearch) {
-    const query = buildSearchQuery(criteria);
-
-    // Initial broad search
-    const results = await this.juicebox.searchPeople(query, {
-      limit: 100,
-      fields: ['name', 'title', 'company', 'location', 'skills', 'experience']
-    });
-
-    // Score and rank candidates
-    const scored = results.profiles.map(profile => ({
-      ...profile,
-      score: this.calculateFitScore(profile, criteria)
-    }));
-
-    // Sort by fit score
-    return scored.sort((a, b) => b.score - a.score);
-  }
-
-  private calculateFitScore(profile: Profile, criteria: CandidateSearch): number {
-    let score = 0;
-
-    // Skills match
-    const matchedSkills = profile.skills.filter(s =>
-      criteria.skills.includes(s.toLowerCase())
-    );
-    score += matchedSkills.length * 10;
-
-    // Experience match
-    if (criteria.experienceYears) {
-      const years = profile.experienceYears || 0;
-      if (years >= (criteria.experienceYears.min || 0)) {
-        score += 20;
-      }
-    }
-
-    return score;
-  }
-}
-```
-
-### Step 3: Handle Pagination
-```typescript
-async function* searchAllCandidates(
-  juicebox: JuiceboxService,
-  query: string
-): AsyncGenerator<Profile> {
-  let cursor: string | undefined;
-
-  do {
-    const results = await juicebox.searchPeople(query, {
-      limit: 50,
-      cursor
-    });
-
-    for (const profile of results.profiles) {
-      yield profile;
-    }
-
-    cursor = results.nextCursor;
-  } while (cursor);
-}
-```
+See `{baseDir}/references/implementation.md` for detailed implementation guide.
 
 ## Output
 - Search query builder
@@ -125,34 +26,13 @@ async function* searchAllCandidates(
 - Ranked candidate list
 
 ## Error Handling
-| Error | Cause | Solution |
-|-------|-------|----------|
-| No Results | Query too restrictive | Broaden criteria |
-| Slow Response | Large dataset | Use pagination |
-| Score Issues | Missing data | Handle null values |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Full Pipeline Usage
-```typescript
-const pipeline = new CandidateSearchPipeline(juiceboxService);
-
-const candidates = await pipeline.searchCandidates({
-  role: 'Senior Software Engineer',
-  skills: ['typescript', 'react', 'node.js'],
-  location: 'San Francisco Bay Area',
-  experienceYears: { min: 5 }
-});
-
-console.log(`Found ${candidates.length} matching candidates`);
-candidates.slice(0, 10).forEach(c => {
-  console.log(`${c.name} (Score: ${c.score}) - ${c.title} at ${c.company}`);
-});
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Search Query Syntax](https://juicebox.ai/docs/search/syntax)
 - [Filtering Guide](https://juicebox.ai/docs/search/filters)
-
-## Next Steps
-After implementing search, explore `juicebox-core-workflow-b` for candidate enrichment.
