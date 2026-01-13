@@ -1,16 +1,12 @@
 ---
 name: responding-to-security-incidents
-description: |
-  Analyze and guide security incident response, investigation, and remediation processes.
-  Use when you need to handle security breaches, classify incidents, develop response playbooks, gather forensic evidence, or coordinate remediation efforts.
-  Trigger with phrases like "security incident response", "ransomware attack response", "data breach investigation", "incident playbook", or "security forensics".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Analyze and guide security incident response, investigation, and remediation
+  processes. Use when you need to handle security breaches, classify incidents, develop
+  response playbooks, gather forensic evidence, or coordinate remediation efforts.
+  Tri...
 ---
-
 # Responding To Security Incidents
 
 ## Overview

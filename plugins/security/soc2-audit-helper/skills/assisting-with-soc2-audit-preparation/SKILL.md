@@ -1,16 +1,12 @@
 ---
 name: assisting-with-soc2-audit-preparation
-description: |
-  Execute automate SOC 2 audit preparation including evidence gathering, control assessment, and compliance gap identification.
-  Use when you need to prepare for SOC 2 audits, assess Trust Service Criteria compliance, document security controls, or generate readiness reports.
-  Trigger with phrases like "SOC 2 audit preparation", "SOC 2 readiness assessment", "collect SOC 2 evidence", or "Trust Service Criteria compliance".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute automate soc 2 audit preparation including evidence gathering,
+  control assessment, and compliance gap identification. use when you need to prepare
+  for soc 2 audits, assess trust service criteria compliance, document security controls,
+  or g...
 ---
-
 # Assisting With Soc2 Audit Preparation
 
 ## Overview

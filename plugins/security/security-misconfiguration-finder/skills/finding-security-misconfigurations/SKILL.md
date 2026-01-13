@@ -1,16 +1,11 @@
 ---
 name: finding-security-misconfigurations
-description: |
-  Configure identify security misconfigurations in infrastructure-as-code, application settings, and system configurations.
-  Use when you need to audit Terraform/CloudFormation templates, check application config files, validate system security settings, or ensure compliance with security best practices.
-  Trigger with phrases like "find security misconfigurations", "audit infrastructure security", "check config security", or "scan for misconfigured settings".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Configure identify security misconfigurations in infrastructure-as-code,
+  application settings, and system configurations. Use when you need to audit Terraform/CloudFormation
+  templates, check application config files, validate system security setti...
 ---
-
 # Finding Security Misconfigurations
 
 ## Overview

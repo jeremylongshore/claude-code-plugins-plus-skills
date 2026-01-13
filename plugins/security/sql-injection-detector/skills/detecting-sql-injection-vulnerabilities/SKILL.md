@@ -1,16 +1,12 @@
 ---
 name: detecting-sql-injection-vulnerabilities
-description: |
-  Detect and analyze SQL injection vulnerabilities in application code and database queries.
-  Use when you need to scan code for SQL injection risks, review query construction, validate input sanitization, or implement secure query patterns.
-  Trigger with phrases like "detect SQL injection", "scan for SQLi vulnerabilities", "review database queries", or "check SQL security".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Detect and analyze sql injection vulnerabilities in application code
+  and database queries. use when you need to scan code for sql injection risks, review
+  query construction, validate input sanitization, or implement secure query patterns.
+  trigger ...
 ---
-
 # Detecting Sql Injection Vulnerabilities
 
 ## Overview

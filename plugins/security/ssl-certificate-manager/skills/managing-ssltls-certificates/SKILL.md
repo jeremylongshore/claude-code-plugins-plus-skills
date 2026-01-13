@@ -1,11 +1,11 @@
 ---
 name: managing-ssltls-certificates
-description: |
-  Execute this skill enables AI assistant to manage and monitor ssl/tls certificates using the ssl-certificate-manager plugin. it is activated when the user requests actions related to ssl certificates, such as checking certificate expiry, renewing certificates, ... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read, Bash, Grep, Glob
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Bash, Grep, Glob
+description: Execute this skill enables ai assistant to manage and monitor ssl/tls
+  certificates using the ssl-certificate-manager plugin. it is activated when the
+  user requests actions related to ssl certificates, such as checking certificate
+  expiry, renewing ...
 ---
 # Ssl Certificate Manager
 
