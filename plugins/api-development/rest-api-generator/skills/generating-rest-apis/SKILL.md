@@ -1,12 +1,14 @@
 ---
-name: generating-rest-apis
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Generate complete REST API implementations from OpenAPI specifications
   or database schemas. Use when generating RESTful API implementations. Trigger with
   phrases like "generate REST API", "create RESTful API", or "build REST endpoints".
+name: generating-rest-apis
 ---
 # Generating Rest Apis
+
+This skill provides automated assistance for generating rest apis tasks.
 
 ## Overview
 

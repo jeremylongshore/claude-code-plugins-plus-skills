@@ -1,13 +1,15 @@
 ---
-name: scanning-api-security
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Detect api security vulnerabilities including injection, broken auth,
   and data exposure. use when scanning apis for security vulnerabilities. trigger
   with phrases like "scan api security", "check for vulnerabilities", or "audit api
   security".
+name: scanning-api-security
 ---
 # Scanning Api Security
+
+This skill provides automated assistance for scanning api security tasks.
 
 ## Overview
 

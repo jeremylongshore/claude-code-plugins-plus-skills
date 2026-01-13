@@ -1,12 +1,14 @@
 ---
-name: generating-grpc-services
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Generate gRPC service definitions, stubs, and implementations from Protocol
   Buffers. Use when creating high-performance gRPC services. Trigger with phrases
   like "generate gRPC service", "create gRPC API", or "build gRPC server".
+name: generating-grpc-services
 ---
 # Generating Grpc Services
+
+This skill provides automated assistance for generating grpc services tasks.
 
 ## Overview
 

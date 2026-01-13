@@ -1,12 +1,14 @@
 ---
-name: building-websocket-server
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Build scalable WebSocket servers for real-time bidirectional communication.
   Use when enabling real-time bidirectional communication. Trigger with phrases like
   "build WebSocket server", "add real-time API", or "implement WebSocket".
+name: building-websocket-server
 ---
 # Building Websocket Server
+
+This skill provides automated assistance for building websocket server tasks.
 
 ## Overview
 

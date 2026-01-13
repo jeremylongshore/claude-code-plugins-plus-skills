@@ -1,12 +1,14 @@
 ---
-name: excel-dcf-modeler
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Build discounted cash flow (DCF) valuation models in Excel. Use when
   creating DCF models, calculating enterprise value, or valuing companies. Trigger
   with phrases like 'excel dcf', 'build dcf model', 'calculate enterprise value'.
+name: excel-dcf-modeler
 ---
 # Excel DCF Modeler
+
+This skill provides automated assistance for excel dcf modeler tasks.
 
 ## Overview
 

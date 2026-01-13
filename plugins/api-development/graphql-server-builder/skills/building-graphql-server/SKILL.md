@@ -1,12 +1,14 @@
 ---
-name: building-graphql-server
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Build production-ready GraphQL servers with schema design, resolvers,
   and subscriptions. Use when building GraphQL APIs with schemas and resolvers. Trigger
   with phrases like "build GraphQL API", "create GraphQL server", or "setup GraphQL".
+name: building-graphql-server
 ---
 # Building Graphql Server
+
+This skill provides automated assistance for building graphql server tasks.
 
 ## Overview
 

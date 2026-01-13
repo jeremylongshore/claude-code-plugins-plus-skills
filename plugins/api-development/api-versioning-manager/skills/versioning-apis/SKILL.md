@@ -1,13 +1,15 @@
 ---
-name: versioning-apis
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Implement api versioning with backward compatibility, deprecation notices,
   and migration paths. use when managing api versions and backward compatibility.
   trigger with phrases like "version the api", "manage api versions", or "handle api
   versioning".
+name: versioning-apis
 ---
 # Versioning Apis
+
+This skill provides automated assistance for versioning apis tasks.
 
 ## Overview
 

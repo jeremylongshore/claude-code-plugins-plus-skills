@@ -1,12 +1,14 @@
 ---
-name: throttling-apis
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Implement api throttling policies to protect backend services from overload.
   use when controlling api request rates. trigger with phrases like "throttle api",
   "control request rate", or "add throttling".
+name: throttling-apis
 ---
 # Throttling Apis
+
+This skill provides automated assistance for throttling apis tasks.
 
 ## Overview
 

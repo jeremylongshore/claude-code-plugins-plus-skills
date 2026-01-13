@@ -1,13 +1,15 @@
 ---
-name: changelog-orchestrator
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Draft changelog prs by collecting github/slack/git changes, formatting
   with templates, running quality gates, and preparing a branch/pr. use when generating
   weekly/monthly release notes or when the user asks to create a changelog from recent
   merge...
+name: changelog-orchestrator
 ---
 # Changelog Orchestrator
+
+This skill provides automated assistance for changelog orchestrator tasks.
 
 ## Overview
 

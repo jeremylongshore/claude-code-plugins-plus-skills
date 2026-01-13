@@ -1,12 +1,14 @@
 ---
-name: creating-webhook-handlers
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Create webhook endpoints with signature verification, retry logic, and
   payload validation. Use when receiving and processing webhook events. Trigger with
   phrases like "create webhook", "handle webhook events", or "setup webhook handler".
+name: creating-webhook-handlers
 ---
 # Creating Webhook Handlers
+
+This skill provides automated assistance for creating webhook handlers tasks.
 
 ## Overview
 
