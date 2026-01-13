@@ -1,13 +1,15 @@
 ---
-name: lindy-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure lindy ai sdk/cli authentication. use when setting
   up a new lindy integration, configuring api keys, or initializing lindy in your
   project. trigger with phrases like "install lindy", "setup lindy", "lindy auth",
   "configure lin...
+name: lindy-install-auth
 ---
 # Lindy Install & Auth
+
+This skill provides automated assistance for lindy install auth tasks.
 
 ## Overview
 Set up Lindy AI SDK and configure authentication credentials for AI agent automation.
