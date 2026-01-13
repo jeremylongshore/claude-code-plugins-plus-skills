@@ -1,13 +1,15 @@
 ---
-name: sentry-upgrade-migration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Execute upgrade sentry sdk and migrate between versions. use when upgrading
   sentry sdk, handling breaking changes, or migrating from legacy versions. trigger
   with phrases like "upgrade sentry", "sentry migration", "update sentry sdk", "sentry
   brea...
+name: sentry-upgrade-migration
 ---
 # Sentry Upgrade Migration
+
+This skill provides automated assistance for sentry upgrade migration tasks.
 
 ## Prerequisites
 

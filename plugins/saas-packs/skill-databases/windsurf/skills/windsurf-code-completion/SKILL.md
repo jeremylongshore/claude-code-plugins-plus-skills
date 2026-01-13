@@ -1,13 +1,15 @@
 ---
-name: windsurf-code-completion
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Configure and optimize Supercomplete code suggestions. Activate when
   users mention "code completion", "autocomplete", "supercomplete", "inline suggestions",
   or "ai completions". Handles completion configuration and optimization. Use when
   working w...
+name: windsurf-code-completion
 ---
 # Windsurf Code Completion
+
+This skill provides automated assistance for windsurf code completion tasks.
 
 ## Overview
 

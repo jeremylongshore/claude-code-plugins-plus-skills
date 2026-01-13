@@ -1,12 +1,14 @@
 ---
-name: windsurf-api-development
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Generate API clients and documentation with Cascade. Activate when users
   mention "generate api client", "api documentation", "openapi generation", "sdk generation",
   or "api integration". Handles API development workflows. Use when working with API...
+name: windsurf-api-development
 ---
 # Windsurf Api Development
+
+This skill provides automated assistance for windsurf api development tasks.
 
 ## Overview
 

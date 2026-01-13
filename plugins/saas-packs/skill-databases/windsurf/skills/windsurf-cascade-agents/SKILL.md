@@ -1,13 +1,15 @@
 ---
-name: windsurf-cascade-agents
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep, Glob
+license: MIT
 description: Create custom Cascade agent configurations for specialized tasks. Activate
   when users mention "custom cascade agent", "specialized ai agent", "domain-specific
   cascade", "agent configuration", or "custom ai behavior". Handles custom agent creation
   ...
+name: windsurf-cascade-agents
 ---
 # Windsurf Cascade Agents
+
+This skill provides automated assistance for windsurf cascade agents tasks.
 
 ## Overview
 

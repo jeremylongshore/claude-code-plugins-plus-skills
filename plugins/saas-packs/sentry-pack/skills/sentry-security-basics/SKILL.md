@@ -1,13 +1,15 @@
 ---
-name: sentry-security-basics
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Configure Sentry security settings and data protection. Use when setting
   up data scrubbing, managing sensitive data, or configuring security policies. Trigger
   with phrases like "sentry security", "sentry PII", "sentry data scrubbing", "secure
   sent...
+name: sentry-security-basics
 ---
 # Sentry Security Basics
+
+This skill provides automated assistance for sentry security basics tasks.
 
 ## Prerequisites
 

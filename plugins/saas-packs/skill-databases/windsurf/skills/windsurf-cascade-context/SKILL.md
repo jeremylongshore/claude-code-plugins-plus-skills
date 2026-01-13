@@ -1,13 +1,15 @@
 ---
-name: windsurf-cascade-context
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob
+license: MIT
 description: Manage Cascade context window and memory for complex projects. Activate
   when users mention "cascade context", "ai memory", "context management", "large
   codebase navigation", or "multi-session development". Handles context optimization
   and persiste...
+name: windsurf-cascade-context
 ---
 # Windsurf Cascade Context
+
+This skill provides automated assistance for windsurf cascade context tasks.
 
 ## Overview
 

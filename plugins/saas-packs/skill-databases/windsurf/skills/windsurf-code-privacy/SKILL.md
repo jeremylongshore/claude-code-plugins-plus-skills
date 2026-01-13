@@ -1,13 +1,15 @@
 ---
-name: windsurf-code-privacy
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Configure code privacy and data retention policies. Activate when users
   mention "code privacy", "data retention", "privacy settings", "data governance",
   or "gdpr compliance". Handles privacy and data protection configuration. Use when
   working with...
+name: windsurf-code-privacy
 ---
 # Windsurf Code Privacy
+
+This skill provides automated assistance for windsurf code privacy tasks.
 
 ## Overview
 

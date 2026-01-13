@@ -1,12 +1,14 @@
 ---
-name: windsurf-cicd-github-actions
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Generate and maintain GitHub Actions with Cascade assistance. Activate
   when users mention "github actions", "ci/cd pipeline", "workflow automation", "continuous
   integration", or "deployment pipeline". Handles CI/CD configuration with AI assistance...
+name: windsurf-cicd-github-actions
 ---
 # Windsurf Cicd Github Actions
+
+This skill provides automated assistance for windsurf cicd github actions tasks.
 
 ## Overview
 
