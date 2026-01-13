@@ -1,17 +1,12 @@
 ---
 name: deepgram-common-errors
-description: |
-  Diagnose and fix common Deepgram errors and issues.
-  Use when troubleshooting Deepgram API errors, debugging transcription failures,
-  or resolving integration issues.
-  Trigger with phrases like "deepgram error", "deepgram not working",
-  "fix deepgram", "deepgram troubleshoot", "transcription failed".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Diagnose and fix common deepgram errors and issues. use when troubleshooting
+  deepgram api errors, debugging transcription failures, or resolving integration
+  issues. trigger with phrases like "deepgram error", "deepgram not working", "fix
+  deepgram"...
 ---
-
 # Deepgram Common Errors
 
 ## Overview

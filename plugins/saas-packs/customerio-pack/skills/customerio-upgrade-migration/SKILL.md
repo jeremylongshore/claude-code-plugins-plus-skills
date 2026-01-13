@@ -1,17 +1,12 @@
 ---
 name: customerio-upgrade-migration
-description: |
-  Plan and execute Customer.io SDK upgrades.
-  Use when upgrading SDK versions, migrating integrations,
-  or updating to new API versions.
-  Trigger with phrases like "upgrade customer.io", "customer.io migration",
-  "update customer.io sdk", "customer.io version".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Plan and execute customer.io sdk upgrades. use when upgrading sdk versions,
+  migrating integrations, or updating to new api versions. trigger with phrases like
+  "upgrade customer.io", "customer.io migration", "update customer.io sdk", "customer.io
+  v...
 ---
-
 # Customer.io Upgrade & Migration
 
 ## Overview

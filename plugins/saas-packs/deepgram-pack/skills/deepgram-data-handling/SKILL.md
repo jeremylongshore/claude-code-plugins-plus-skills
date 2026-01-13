@@ -1,17 +1,12 @@
 ---
 name: deepgram-data-handling
-description: |
-  Implement audio data handling best practices for Deepgram integrations.
-  Use when managing audio file storage, implementing data retention policies,
-  or ensuring GDPR/HIPAA compliance for transcription data.
-  Trigger with phrases like "deepgram data", "audio storage", "transcription data",
-  "deepgram GDPR", "deepgram HIPAA", "deepgram privacy".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement audio data handling best practices for deepgram integrations.
+  use when managing audio file storage, implementing data retention policies, or ensuring
+  gdpr/hipaa compliance for transcription data. trigger with phrases like "deepgram
+  data"...
 ---
-
 # Deepgram Data Handling
 
 ## Overview

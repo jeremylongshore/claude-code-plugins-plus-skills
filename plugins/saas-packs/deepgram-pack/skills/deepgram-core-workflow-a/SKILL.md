@@ -1,17 +1,12 @@
 ---
 name: deepgram-core-workflow-a
-description: |
-  Implement speech-to-text transcription workflow with Deepgram.
-  Use when building pre-recorded audio transcription, batch processing,
-  or implementing core transcription features.
-  Trigger with phrases like "deepgram transcription", "speech to text",
-  "transcribe audio", "audio transcription workflow", "batch transcription".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Implement speech-to-text transcription workflow with deepgram. use when
+  building pre-recorded audio transcription, batch processing, or implementing core
+  transcription features. trigger with phrases like "deepgram transcription", "speech
+  to text",...
 ---
-
 # Deepgram Core Workflow A: Pre-recorded Transcription
 
 ## Overview

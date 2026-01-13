@@ -1,17 +1,12 @@
 ---
 name: customerio-sdk-patterns
-description: |
-  Apply production-ready Customer.io SDK patterns.
-  Use when implementing best practices, refactoring integrations,
-  or optimizing Customer.io usage in your application.
-  Trigger with phrases like "customer.io best practices", "customer.io patterns",
-  "production customer.io", "customer.io architecture".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Apply production-ready customer.io sdk patterns. use when implementing
+  best practices, refactoring integrations, or optimizing customer.io usage in your
+  application. trigger with phrases like "customer.io best practices", "customer.io
+  patterns", "...
 ---
-
 # Customer.io SDK Patterns
 
 ## Overview

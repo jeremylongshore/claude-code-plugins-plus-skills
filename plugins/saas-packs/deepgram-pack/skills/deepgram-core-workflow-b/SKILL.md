@@ -1,17 +1,12 @@
 ---
 name: deepgram-core-workflow-b
-description: |
-  Implement real-time streaming transcription with Deepgram.
-  Use when building live transcription, voice interfaces,
-  or real-time audio processing applications.
-  Trigger with phrases like "deepgram streaming", "real-time transcription",
-  "live transcription", "websocket transcription", "voice streaming".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Implement real-time streaming transcription with deepgram. use when building
+  live transcription, voice interfaces, or real-time audio processing applications.
+  trigger with phrases like "deepgram streaming", "real-time transcription", "live
+  transcr...
 ---
-
 # Deepgram Core Workflow B: Real-time Streaming
 
 ## Overview

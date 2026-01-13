@@ -1,17 +1,12 @@
 ---
 name: deepgram-cost-tuning
-description: |
-  Optimize Deepgram costs and usage for budget-conscious deployments.
-  Use when reducing transcription costs, implementing usage controls,
-  or optimizing pricing tier utilization.
-  Trigger with phrases like "deepgram cost", "reduce deepgram spending",
-  "deepgram pricing", "deepgram budget", "optimize deepgram usage".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Optimize Deepgram costs and usage for budget-conscious deployments. Use
+  when reducing transcription costs, implementing usage controls, or optimizing pricing
+  tier utilization. Trigger with phrases like "deepgram cost", "reduce deepgram spending",
+  ...
 ---
-
 # Deepgram Cost Tuning
 
 ## Overview

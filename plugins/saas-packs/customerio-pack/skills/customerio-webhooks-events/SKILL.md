@@ -1,17 +1,12 @@
 ---
 name: customerio-webhooks-events
-description: |
-  Implement Customer.io webhook handling.
-  Use when processing delivery events, handling callbacks,
-  or integrating Customer.io event streams.
-  Trigger with phrases like "customer.io webhook", "customer.io events",
-  "customer.io callback", "customer.io delivery status".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement customer.io webhook handling. use when processing delivery
+  events, handling callbacks, or integrating customer.io event streams. trigger with
+  phrases like "customer.io webhook", "customer.io events", "customer.io callback",
+  "customer.io ...
 ---
-
 # Customer.io Webhooks & Events
 
 ## Overview

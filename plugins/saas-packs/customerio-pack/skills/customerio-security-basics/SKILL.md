@@ -1,17 +1,12 @@
 ---
 name: customerio-security-basics
-description: |
-  Apply Customer.io security best practices.
-  Use when implementing secure integrations, handling PII,
-  or setting up proper access controls.
-  Trigger with phrases like "customer.io security", "customer.io pii",
-  "secure customer.io", "customer.io gdpr".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Apply customer.io security best practices. use when implementing secure
+  integrations, handling pii, or setting up proper access controls. trigger with phrases
+  like "customer.io security", "customer.io pii", "secure customer.io", "customer.io
+  gdpr".
 ---
-
 # Customer.io Security Basics
 
 ## Overview

@@ -1,17 +1,11 @@
 ---
 name: deepgram-ci-integration
-description: |
-  Configure Deepgram CI/CD integration for automated testing and deployment.
-  Use when setting up continuous integration pipelines, automated testing,
-  or deployment workflows for Deepgram integrations.
-  Trigger with phrases like "deepgram CI", "deepgram CD", "deepgram pipeline",
-  "deepgram github actions", "deepgram automated testing".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Deepgram CI/CD integration for automated testing and deployment.
+  Use when setting up continuous integration pipelines, automated testing, or deployment
+  workflows for Deepgram integrations. Trigger with phrases like "deepgram CI", "deepgr...
 ---
-
 # Deepgram CI Integration
 
 ## Overview
