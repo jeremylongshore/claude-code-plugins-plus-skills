@@ -1,12 +1,14 @@
 ---
-name: coderabbit-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute coderabbit secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "coderabbit secondary workflow", "secondary task with coderabbit".'
+name: coderabbit-core-workflow-b
 ---
 # CodeRabbit Core Workflow B
+
+This skill provides automated assistance for coderabbit core workflow b tasks.
 
 ## Overview
 Secondary workflow for CodeRabbit. Complements the primary workflow.

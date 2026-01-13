@@ -1,12 +1,14 @@
 ---
-name: coderabbit-core-workflow-a
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute coderabbit primary workflow: core workflow a. use when implementing
   primary use case, building main features, or core integration tasks. trigger with
   phrases like "coderabbit main workflow", "primary task with coderabbit".'
+name: coderabbit-core-workflow-a
 ---
 # CodeRabbit Core Workflow A
+
+This skill provides automated assistance for coderabbit core workflow a tasks.
 
 ## Overview
 Primary money-path workflow for CodeRabbit. This is the most common use case.
