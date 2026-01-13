@@ -1,17 +1,12 @@
 ---
 name: clay-load-scale
-description: |
-  Implement Clay load testing, auto-scaling, and capacity planning strategies.
-  Use when running performance tests, configuring horizontal scaling,
-  or planning capacity for Clay integrations.
-  Trigger with phrases like "clay load test", "clay scale",
-  "clay performance test", "clay capacity", "clay k6", "clay benchmark".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement clay load testing, auto-scaling, and capacity planning strategies.
+  use when running performance tests, configuring horizontal scaling, or planning
+  capacity for clay integrations. trigger with phrases like "clay load test", "clay
+  scale", ...
 ---
-
 # Clay Load & Scale
 
 ## Overview

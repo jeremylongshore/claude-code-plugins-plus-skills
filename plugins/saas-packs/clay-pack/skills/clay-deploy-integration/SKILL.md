@@ -1,17 +1,12 @@
 ---
 name: clay-deploy-integration
-description: |
-  Deploy Clay integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying Clay-powered applications to production,
-  configuring platform-specific secrets, or setting up deployment pipelines.
-  Trigger with phrases like "deploy clay", "clay Vercel",
-  "clay production deploy", "clay Cloud Run", "clay Fly.io".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Clay integrations to Vercel, Fly.io, and Cloud Run platforms.
+  Use when deploying Clay-powered applications to production, configuring platform-specific
+  secrets, or setting up deployment pipelines. Trigger with phrases like "deploy clay",
+  "c...
 ---
-
 # Clay Deploy Integration
 
 ## Overview

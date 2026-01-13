@@ -1,17 +1,12 @@
 ---
 name: clay-debug-bundle
-description: |
-  Collect Clay debug evidence for support tickets and troubleshooting.
-  Use when encountering persistent issues, preparing support tickets,
-  or collecting diagnostic information for Clay problems.
-  Trigger with phrases like "clay debug", "clay support bundle",
-  "collect clay logs", "clay diagnostic".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Collect clay debug evidence for support tickets and troubleshooting.
+  use when encountering persistent issues, preparing support tickets, or collecting
+  diagnostic information for clay problems. trigger with phrases like "clay debug",
+  "clay support ...
 ---
-
 # Clay Debug Bundle
 
 ## Overview

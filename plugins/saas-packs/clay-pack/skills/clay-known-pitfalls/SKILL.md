@@ -1,17 +1,12 @@
 ---
 name: clay-known-pitfalls
-description: |
-  Identify and avoid Clay anti-patterns and common integration mistakes.
-  Use when reviewing Clay code for issues, onboarding new developers,
-  or auditing existing Clay integrations for best practices violations.
-  Trigger with phrases like "clay mistakes", "clay anti-patterns",
-  "clay pitfalls", "clay what not to do", "clay code review".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Identify and avoid clay anti-patterns and common integration mistakes.
+  use when reviewing clay code for issues, onboarding new developers, or auditing
+  existing clay integrations for best practices violations. trigger with phrases like
+  "clay mistak...
 ---
-
 # Clay Known Pitfalls
 
 ## Overview

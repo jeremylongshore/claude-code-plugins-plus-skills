@@ -1,17 +1,12 @@
 ---
 name: clay-migration-deep-dive
-description: |
-  Execute Clay major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from Clay, performing major version upgrades,
-  or re-platforming existing integrations to Clay.
-  Trigger with phrases like "migrate clay", "clay migration",
-  "switch to clay", "clay replatform", "clay upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute clay major re-architecture and migration strategies with strangler
+  fig pattern. use when migrating to or from clay, performing major version upgrades,
+  or re-platforming existing integrations to clay. trigger with phrases like "migrate
+  clay...
 ---
-
 # Clay Migration Deep Dive
 
 ## Overview

@@ -1,17 +1,11 @@
 ---
 name: clay-hello-world
-description: |
-  Create a minimal working Clay example.
-  Use when starting a new Clay integration, testing your setup,
-  or learning basic Clay API patterns.
-  Trigger with phrases like "clay hello world", "clay example",
-  "clay quick start", "simple clay code".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Create a minimal working Clay example. Use when starting a new Clay integration,
+  testing your setup, or learning basic Clay API patterns. Trigger with phrases like
+  "clay hello world", "clay example", "clay quick start", "simple clay code".
 ---
-
 # Clay Hello World
 
 ## Overview

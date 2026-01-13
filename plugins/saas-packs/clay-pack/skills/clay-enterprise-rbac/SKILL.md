@@ -1,17 +1,12 @@
 ---
 name: clay-enterprise-rbac
-description: |
-  Configure Clay enterprise SSO, role-based access control, and organization management.
-  Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for Clay.
-  Trigger with phrases like "clay SSO", "clay RBAC",
-  "clay enterprise", "clay roles", "clay permissions", "clay SAML".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure Clay enterprise SSO, role-based access control, and organization
+  management. Use when implementing SSO integration, configuring role-based permissions,
+  or setting up organization-level controls for Clay. Trigger with phrases like "clay
+  S...
 ---
-
 # Clay Enterprise RBAC
 
 ## Overview
