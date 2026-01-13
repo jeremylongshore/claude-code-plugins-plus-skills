@@ -1,17 +1,12 @@
 ---
 name: clay-prod-checklist
-description: |
-  Execute Clay production deployment checklist and rollback procedures.
-  Use when deploying Clay integrations to production, preparing for launch,
-  or implementing go-live procedures.
-  Trigger with phrases like "clay production", "deploy clay",
-  "clay go-live", "clay launch checklist".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Execute clay production deployment checklist and rollback procedures.
+  use when deploying clay integrations to production, preparing for launch, or implementing
+  go-live procedures. trigger with phrases like "clay production", "deploy clay",
+  "clay g...
 ---
-
 # Clay Production Checklist
 
 ## Overview

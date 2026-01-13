@@ -1,17 +1,12 @@
 ---
 name: clay-performance-tuning
-description: |
-  Optimize Clay API performance with caching, batching, and connection pooling.
-  Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Clay integrations.
-  Trigger with phrases like "clay performance", "optimize clay",
-  "clay latency", "clay caching", "clay slow", "clay batch".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize Clay API performance with caching, batching, and connection
+  pooling. Use when experiencing slow API responses, implementing caching strategies,
+  or optimizing request throughput for Clay integrations. Trigger with phrases like
+  "clay perfor...
 ---
-
 # Clay Performance Tuning
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: clay-rate-limits
-description: |
-  Implement Clay rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for Clay.
-  Trigger with phrases like "clay rate limit", "clay throttling",
-  "clay 429", "clay retry", "clay backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement clay rate limiting, backoff, and idempotency patterns. use
+  when handling rate limit errors, implementing retry logic, or optimizing api request
+  throughput for clay. trigger with phrases like "clay rate limit", "clay throttling",
+  "clay 42...
 ---
-
 # Clay Rate Limits
 
 ## Overview

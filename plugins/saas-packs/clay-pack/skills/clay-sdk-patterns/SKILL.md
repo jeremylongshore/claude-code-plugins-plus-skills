@@ -1,17 +1,12 @@
 ---
 name: clay-sdk-patterns
-description: |
-  Apply production-ready Clay SDK patterns for TypeScript and Python.
-  Use when implementing Clay integrations, refactoring SDK usage,
-  or establishing team coding standards for Clay.
-  Trigger with phrases like "clay SDK patterns", "clay best practices",
-  "clay code patterns", "idiomatic clay".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready clay sdk patterns for typescript and python. use
+  when implementing clay integrations, refactoring sdk usage, or establishing team
+  coding standards for clay. trigger with phrases like "clay sdk patterns", "clay
+  best practices...
 ---
-
 # Clay SDK Patterns
 
 ## Overview

@@ -1,17 +1,11 @@
 ---
 name: clay-reliability-patterns
-description: |
-  Implement Clay reliability patterns including circuit breakers, idempotency, and graceful degradation.
-  Use when building fault-tolerant Clay integrations, implementing retry strategies,
-  or adding resilience to production Clay services.
-  Trigger with phrases like "clay reliability", "clay circuit breaker",
-  "clay idempotent", "clay resilience", "clay fallback", "clay bulkhead".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement clay reliability patterns including circuit breakers, idempotency,
+  and graceful degradation. use when building fault-tolerant clay integrations, implementing
+  retry strategies, or adding resilience to production clay services. trigger wit...
 ---
-
 # Clay Reliability Patterns
 
 ## Overview

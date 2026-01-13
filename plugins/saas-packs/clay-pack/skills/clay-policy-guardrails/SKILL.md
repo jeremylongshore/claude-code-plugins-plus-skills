@@ -1,17 +1,12 @@
 ---
 name: clay-policy-guardrails
-description: |
-  Implement Clay lint rules, policy enforcement, and automated guardrails.
-  Use when setting up code quality rules for Clay integrations, implementing
-  pre-commit hooks, or configuring CI policy checks for Clay best practices.
-  Trigger with phrases like "clay policy", "clay lint",
-  "clay guardrails", "clay best practices check", "clay eslint".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement clay lint rules, policy enforcement, and automated guardrails.
+  use when setting up code quality rules for clay integrations, implementing pre-commit
+  hooks, or configuring ci policy checks for clay best practices. trigger with phrases
+  lik...
 ---
-
 # Clay Policy & Guardrails
 
 ## Overview

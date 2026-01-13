@@ -1,17 +1,11 @@
 ---
 name: clay-reference-architecture
-description: |
-  Implement Clay reference architecture with best-practice project layout.
-  Use when designing new Clay integrations, reviewing project structure,
-  or establishing architecture standards for Clay applications.
-  Trigger with phrases like "clay architecture", "clay best practices",
-  "clay project structure", "how to organize clay", "clay layout".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Implement clay reference architecture with best-practice project layout.
+  use when designing new clay integrations, reviewing project structure, or establishing
+  architecture standards for clay applications. trigger with phrases like "clay architect...
 ---
-
 # Clay Reference Architecture
 
 ## Overview
