@@ -1,13 +1,15 @@
 ---
-name: plugin-validator
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Validate automatically validates AI assistant code plugin structure,
   schemas, and compliance when user mentions validate plugin, check plugin, or plugin
   errors. runs comprehensive validation specific to AI assistant-code-plugins repository
   standar...
+name: plugin-validator
 ---
 # Plugin Validator
+
+This skill provides automated assistance for plugin validator tasks.
 
 ## Overview
 

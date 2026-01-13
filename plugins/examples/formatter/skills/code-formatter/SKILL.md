@@ -1,13 +1,15 @@
 ---
-name: code-formatter
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute automatically formats and validates code files using prettier
   and other formatting tools. use when users mention "format my code", "fix formatting",
   "apply code style", "check formatting", "make code consistent", or "clean up code
   formatti...
+name: code-formatter
 ---
 # Code Formatter
+
+This skill provides automated assistance for code formatter tasks.
 
 ## Overview
 

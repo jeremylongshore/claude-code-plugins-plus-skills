@@ -1,12 +1,14 @@
 ---
-name: version-bumper
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Bash
+license: MIT
 description: Execute automatically handles semantic version updates across plugin.json
   and marketplace catalog when user mentions version bump, update version, or release.
   ensures version consistency in ai assistant-code-plugins repository. use when appropriat...
+name: version-bumper
 ---
 # Version Bumper
+
+This skill provides automated assistance for version bumper tasks.
 
 ## Overview
 

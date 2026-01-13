@@ -1,12 +1,14 @@
 ---
-name: plugin-auditor
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Audit automatically audits AI assistant code plugins for security vulnerabilities,
   best practices, AI assistant.md compliance, and quality standards when user mentions
   audit plugin, security review, or best practices check. specific to AI assistan...
+name: plugin-auditor
 ---
 # Plugin Auditor
+
+This skill provides automated assistance for plugin auditor tasks.
 
 ## Overview
 

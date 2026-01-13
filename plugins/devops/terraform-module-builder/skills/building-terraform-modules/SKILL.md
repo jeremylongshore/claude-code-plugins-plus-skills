@@ -1,11 +1,11 @@
 ---
-name: building-terraform-modules
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute this skill empowers ai assistant to build reusable terraform
   modules based on user specifications. it leverages the terraform-module-builder
   plugin to generate production-ready, well-documented terraform module code, incorporating
   best pra...
+name: building-terraform-modules
 ---
 # Terraform Module Builder
 
