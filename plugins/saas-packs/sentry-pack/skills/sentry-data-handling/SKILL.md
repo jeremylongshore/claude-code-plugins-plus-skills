@@ -1,12 +1,14 @@
 ---
-name: sentry-data-handling
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Manage sensitive data properly in Sentry. Use when configuring PII scrubbing,
   data retention, GDPR compliance, or data security settings. Trigger with phrases
   like "sentry pii", "sentry gdpr", "sentry data privacy", "scrub sensitive data sentry".
+name: sentry-data-handling
 ---
 # Sentry Data Handling
+
+This skill provides automated assistance for sentry data handling tasks.
 
 ## Prerequisites
 

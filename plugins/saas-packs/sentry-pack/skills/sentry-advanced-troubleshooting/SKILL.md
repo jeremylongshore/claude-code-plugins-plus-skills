@@ -1,13 +1,15 @@
 ---
-name: sentry-advanced-troubleshooting
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Bash
+license: MIT
 description: Execute advanced sentry troubleshooting techniques. use when debugging
   complex sdk issues, missing events, source map problems, or performance anomalies.
   trigger with phrases like "sentry not working", "debug sentry", "sentry events missing",
   "fix...
+name: sentry-advanced-troubleshooting
 ---
 # Sentry Advanced Troubleshooting
+
+This skill provides automated assistance for sentry advanced troubleshooting tasks.
 
 ## Prerequisites
 

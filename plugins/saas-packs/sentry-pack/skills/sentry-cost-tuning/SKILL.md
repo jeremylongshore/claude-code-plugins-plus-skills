@@ -1,12 +1,14 @@
 ---
-name: sentry-cost-tuning
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Optimize Sentry costs and event volume. Use when managing Sentry billing,
   reducing event volume, or optimizing quota usage. Trigger with phrases like "reduce
   sentry costs", "sentry billing", "sentry quota", "optimize sentry spend".
+name: sentry-cost-tuning
 ---
 # Sentry Cost Tuning
+
+This skill provides automated assistance for sentry cost tuning tasks.
 
 ## Prerequisites
 

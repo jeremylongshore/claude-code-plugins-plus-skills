@@ -1,149 +1,21 @@
 ---
-name: retellai-webhooks-events
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Implement retell ai webhook signature validation and event handling.
   use when setting up webhook endpoints, implementing signature verification, or handling
   retell ai event notifications securely. trigger with phrases like "retellai webhook",
   "ret...
+name: retellai-webhooks-events
 ---
-# Retell AI Webhooks & Events
+# Retellai Webhooks Events
 
-## Overview
-Securely handle Retell AI webhooks with signature validation and replay protection.
+This skill provides automated assistance for retellai webhooks events tasks.
 
 ## Prerequisites
 - Retell AI webhook secret configured
 - HTTPS endpoint accessible from internet
 - Understanding of cryptographic signatures
 - Redis or database for idempotency (optional)
-
-## Webhook Endpoint Setup
-
-### Express.js
-```typescript
-import express from 'express';
-import crypto from 'crypto';
-
-const app = express();
-
-// IMPORTANT: Raw body needed for signature verification
-app.post('/webhooks/retellai',
-  express.raw({ type: 'application/json' }),
-  async (req, res) => {
-    const signature = req.headers['x-retellai-signature'] as string;
-    const timestamp = req.headers['x-retellai-timestamp'] as string;
-
-    if (!verifyRetell AISignature(req.body, signature, timestamp)) {
-      return res.status(401).json({ error: 'Invalid signature' });
-    }
-
-    const event = JSON.parse(req.body.toString());
-    await handleRetell AIEvent(event);
-
-    res.status(200).json({ received: true });
-  }
-);
-```
-
-## Signature Verification
-
-```typescript
-function verifyRetell AISignature(
-  payload: Buffer,
-  signature: string,
-  timestamp: string
-): boolean {
-  const secret = process.env.RETELLAI_WEBHOOK_SECRET!;
-
-  // Reject old timestamps (replay attack protection)
-  const timestampAge = Date.now() - parseInt(timestamp) * 1000;
-  if (timestampAge > 300000) { // 5 minutes
-    console.error('Webhook timestamp too old');
-    return false;
-  }
-
-  // Compute expected signature
-  const signedPayload = `${timestamp}.${payload.toString()}`;
-  const expectedSignature = crypto
-    .createHmac('sha256', secret)
-    .update(signedPayload)
-    .digest('hex');
-
-  // Timing-safe comparison
-  return crypto.timingSafeEqual(
-    Buffer.from(signature),
-    Buffer.from(expectedSignature)
-  );
-}
-```
-
-## Event Handler Pattern
-
-```typescript
-type Retell AIEventType = 'resource.created' | 'resource.updated' | 'resource.deleted';
-
-interface Retell AIEvent {
-  id: string;
-  type: Retell AIEventType;
-  data: Record<string, any>;
-  created: string;
-}
-
-const eventHandlers: Record<Retell AIEventType, (data: any) => Promise<void>> = {
-  'resource.created': async (data) => { /* handle */ },
-  'resource.updated': async (data) => { /* handle */ },
-  'resource.deleted': async (data) => { /* handle */ }
-};
-
-async function handleRetell AIEvent(event: Retell AIEvent): Promise<void> {
-  const handler = eventHandlers[event.type];
-
-  if (!handler) {
-    console.log(`Unhandled event type: ${event.type}`);
-    return;
-  }
-
-  try {
-    await handler(event.data);
-    console.log(`Processed ${event.type}: ${event.id}`);
-  } catch (error) {
-    console.error(`Failed to process ${event.type}: ${event.id}`, error);
-    throw error; // Rethrow to trigger retry
-  }
-}
-```
-
-## Idempotency Handling
-
-```typescript
-import { Redis } from 'ioredis';
-
-const redis = new Redis(process.env.REDIS_URL);
-
-async function isEventProcessed(eventId: string): Promise<boolean> {
-  const key = `retellai:event:${eventId}`;
-  const exists = await redis.exists(key);
-  return exists === 1;
-}
-
-async function markEventProcessed(eventId: string): Promise<void> {
-  const key = `retellai:event:${eventId}`;
-  await redis.set(key, '1', 'EX', 86400 * 7); // 7 days TTL
-}
-```
-
-## Webhook Testing
-
-```bash
-# Use Retell AI CLI to send test events
-retellai webhooks trigger resource.created --url http://localhost:3000/webhooks/retellai
-
-# Or use webhook.site for debugging
-curl -X POST https://webhook.site/your-uuid \
-  -H "Content-Type: application/json" \
-  -d '{"type": "resource.created", "data": {}}'
-```
 
 ## Instructions
 
@@ -166,29 +38,13 @@ Prevent duplicate processing with event ID tracking.
 - Replay attack protection active
 
 ## Error Handling
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| Invalid signature | Wrong secret | Verify webhook secret |
-| Timestamp rejected | Clock drift | Check server time sync |
-| Duplicate events | Missing idempotency | Implement event ID tracking |
-| Handler timeout | Slow processing | Use async queue |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Testing Webhooks Locally
-```bash
-# Use ngrok to expose local server
-ngrok http 3000
-
-# Send test webhook
-curl -X POST https://your-ngrok-url/webhooks/retellai \
-  -H "Content-Type: application/json" \
-  -d '{"type": "test", "data": {}}'
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Retell AI Webhooks Guide](https://docs.retellai.com/webhooks)
 - [Webhook Security Best Practices](https://docs.retellai.com/webhooks/security)
-
-## Next Steps
-For performance optimization, see `retellai-performance-tuning`.

@@ -1,13 +1,15 @@
 ---
-name: sentry-common-errors
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Execute troubleshoot common sentry integration issues and fixes. use
   when encountering sentry errors, missing events, or configuration problems. trigger
   with phrases like "sentry not working", "sentry errors missing", "fix sentry", "sentry
   trouble...
+name: sentry-common-errors
 ---
 # Sentry Common Errors
+
+This skill provides automated assistance for sentry common errors tasks.
 
 ## Prerequisites
 

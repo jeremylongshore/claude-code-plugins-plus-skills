@@ -1,13 +1,15 @@
 ---
-name: sentry-deploy-integration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Track deployments and releases in sentry. use when configuring deployment
   tracking, release health, or connecting deployments to error data. trigger with
   phrases like "sentry deploy tracking", "sentry release health", "track deployments
   sentry", "...
+name: sentry-deploy-integration
 ---
 # Sentry Deploy Integration
+
+This skill provides automated assistance for sentry deploy integration tasks.
 
 ## Prerequisites
 

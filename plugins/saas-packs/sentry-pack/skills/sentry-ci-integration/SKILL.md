@@ -1,13 +1,15 @@
 ---
-name: sentry-ci-integration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Manage integrate Sentry with CI/CD pipelines. Use when setting up GitHub
   Actions, GitLab CI, or other CI systems with Sentry releases and source maps. Trigger
   with phrases like "sentry github actions", "sentry CI", "sentry pipeline", "automate
   sen...
+name: sentry-ci-integration
 ---
 # Sentry Ci Integration
+
+This skill provides automated assistance for sentry ci integration tasks.
 
 ## Prerequisites
 

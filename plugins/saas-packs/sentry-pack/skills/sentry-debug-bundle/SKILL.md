@@ -1,13 +1,15 @@
 ---
-name: sentry-debug-bundle
-license: MIT
 allowed-tools: Read, Bash, Grep
+license: MIT
 description: Execute collect debug information for sentry support tickets. use when
   preparing support requests, debugging complex issues, or gathering diagnostic information.
   trigger with phrases like "sentry debug info", "sentry support ticket", "gather
   sentr...
+name: sentry-debug-bundle
 ---
 # Sentry Debug Bundle
+
+This skill provides automated assistance for sentry debug bundle tasks.
 
 ## Prerequisites
 

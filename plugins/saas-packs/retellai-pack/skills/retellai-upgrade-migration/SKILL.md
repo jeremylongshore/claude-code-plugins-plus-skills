@@ -1,16 +1,15 @@
 ---
-name: retellai-upgrade-migration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Analyze, plan, and execute Retell AI SDK upgrades with breaking change
   detection. Use when upgrading Retell AI SDK versions, detecting deprecations, or
   migrating to new API versions. Trigger with phrases like "upgrade retellai", "retellai
   migratio...
+name: retellai-upgrade-migration
 ---
-# Retell AI Upgrade & Migration
+# Retellai Upgrade Migration
 
-## Overview
-Guide for upgrading Retell AI SDK versions and handling breaking changes.
+This skill provides automated assistance for retellai upgrade migration tasks.
 
 ## Prerequisites
 - Current Retell AI SDK installed
@@ -18,28 +17,8 @@ Guide for upgrading Retell AI SDK versions and handling breaking changes.
 - Test suite available
 - Staging environment
 
-## Instructions
 
-### Step 1: Check Current Version
-```bash
-npm list @retellai/sdk
-npm view @retellai/sdk version
-```
-
-### Step 2: Review Changelog
-```bash
-open https://github.com/retellai/sdk/releases
-```
-
-### Step 3: Create Upgrade Branch
-```bash
-git checkout -b upgrade/retellai-sdk-vX.Y.Z
-npm install @retellai/sdk@latest
-npm test
-```
-
-### Step 4: Handle Breaking Changes
-Update import statements, configuration, and method signatures as needed.
+See `{baseDir}/references/implementation.md` for detailed implementation guide.
 
 ## Output
 - Updated SDK version
@@ -48,60 +27,13 @@ Update import statements, configuration, and method signatures as needed.
 - Documented rollback procedure
 
 ## Error Handling
-| SDK Version | API Version | Node.js | Breaking Changes |
-|-------------|-------------|---------|------------------|
-| 3.x | 2024-01 | 18+ | Major refactor |
-| 2.x | 2023-06 | 16+ | Auth changes |
-| 1.x | 2022-01 | 14+ | Initial release |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Import Changes
-```typescript
-// Before (v1.x)
-import { Client } from '@retellai/sdk';
-
-// After (v2.x)
-import { RetellAIClient } from '@retellai/sdk';
-```
-
-### Configuration Changes
-```typescript
-// Before (v1.x)
-const client = new Client({ key: 'xxx' });
-
-// After (v2.x)
-const client = new RetellAIClient({
-  apiKey: 'xxx',
-});
-```
-
-### Rollback Procedure
-```bash
-npm install @retellai/sdk@1.x.x --save-exact
-```
-
-### Deprecation Handling
-```typescript
-// Monitor for deprecation warnings in development
-if (process.env.NODE_ENV === 'development') {
-  process.on('warning', (warning) => {
-    if (warning.name === 'DeprecationWarning') {
-      console.warn('[Retell AI]', warning.message);
-      // Log to tracking system for proactive updates
-    }
-  });
-}
-
-// Common deprecation patterns to watch for:
-// - Renamed methods: client.oldMethod() -> client.newMethod()
-// - Changed parameters: { key: 'x' } -> { apiKey: 'x' }
-// - Removed features: Check release notes before upgrading
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Retell AI Changelog](https://github.com/retellai/sdk/releases)
 - [Retell AI Migration Guide](https://docs.retellai.com/migration)
-
-## Next Steps
-For CI integration during upgrades, see `retellai-ci-integration`.

@@ -1,13 +1,15 @@
 ---
-name: sentry-architecture-variants
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute sentry architecture patterns for different application types.
   use when setting up sentry for monoliths, microservices, serverless, or hybrid architectures.
   trigger with phrases like "sentry monolith setup", "sentry microservices", "sentry
   ...
+name: sentry-architecture-variants
 ---
 # Sentry Architecture Variants
+
+This skill provides automated assistance for sentry architecture variants tasks.
 
 ## Prerequisites
 
