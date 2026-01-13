@@ -1,12 +1,14 @@
 ---
-name: emitting-api-events
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Build event-driven APIs with webhooks, Server-Sent Events, and real-time
   notifications. Use when building event-driven API architectures. Trigger with phrases
   like "add webhooks", "implement events", or "create event-driven API".
+name: emitting-api-events
 ---
 # Emitting Api Events
+
+This skill provides automated assistance for emitting api events tasks.
 
 ## Overview
 

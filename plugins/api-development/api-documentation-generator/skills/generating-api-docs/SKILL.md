@@ -1,12 +1,14 @@
 ---
-name: generating-api-docs
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Create comprehensive API documentation with examples, authentication
   guides, and SDKs. Use when creating comprehensive API documentation. Trigger with
   phrases like "generate API docs", "create API documentation", or "document the API".
+name: generating-api-docs
 ---
 # Generating Api Docs
+
+This skill provides automated assistance for generating api docs tasks.
 
 ## Overview
 

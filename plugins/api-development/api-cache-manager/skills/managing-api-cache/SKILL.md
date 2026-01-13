@@ -1,12 +1,14 @@
 ---
-name: managing-api-cache
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Implement intelligent api response caching with redis, memcached, and
   cdn integration. use when optimizing api performance with caching. trigger with
   phrases like "add caching", "optimize api performance", or "implement cache layer".
+name: managing-api-cache
 ---
 # Managing Api Cache
+
+This skill provides automated assistance for managing api cache tasks.
 
 ## Overview
 

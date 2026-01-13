@@ -1,11 +1,11 @@
 ---
-name: forecasting-time-series-data
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Process this skill enables AI assistant to forecast future values based
   on historical time series data. it analyzes time-dependent data to identify trends,
   seasonality, and other patterns. use this skill when the user asks to predict future
   values...
+name: forecasting-time-series-data
 ---
 # Time Series Forecaster
 

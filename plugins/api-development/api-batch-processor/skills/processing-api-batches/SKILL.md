@@ -1,12 +1,14 @@
 ---
-name: processing-api-batches
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Optimize bulk API requests with batching, throttling, and parallel execution.
   Use when processing bulk API operations efficiently. Trigger with phrases like "process
   bulk requests", "batch API calls", or "handle batch operations".
+name: processing-api-batches
 ---
 # Processing Api Batches
+
+This skill provides automated assistance for processing api batches tasks.
 
 ## Overview
 

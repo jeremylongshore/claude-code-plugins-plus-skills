@@ -1,12 +1,14 @@
 ---
-name: handling-api-errors
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Implement standardized error handling with proper http status codes and
   error responses. use when implementing standardized error handling. trigger with
   phrases like "add error handling", "standardize errors", or "implement error responses".
+name: handling-api-errors
 ---
 # Handling Api Errors
+
+This skill provides automated assistance for handling api errors tasks.
 
 ## Overview
 

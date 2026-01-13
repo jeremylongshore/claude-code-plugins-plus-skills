@@ -1,12 +1,14 @@
 ---
-name: building-api-authentication
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Build secure API authentication systems with OAuth2, JWT, API keys, and
   session management. Use when implementing secure authentication flows. Trigger with
   phrases like "build authentication", "add API auth", or "secure the API".
+name: building-api-authentication
 ---
 # Building Api Authentication
+
+This skill provides automated assistance for building api authentication tasks.
 
 ## Overview
 
