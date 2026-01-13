@@ -1,13 +1,15 @@
 ---
-name: deepgram-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure deepgram sdk/cli authentication. use when setting
   up a new deepgram integration, configuring api keys, or initializing deepgram in
   your project. trigger with phrases like "install deepgram", "setup deepgram", "deepgram
   auth",...
+name: deepgram-install-auth
 ---
 # Deepgram Install & Auth
+
+This skill provides automated assistance for deepgram install auth tasks.
 
 ## Overview
 Set up Deepgram SDK and configure authentication credentials for speech-to-text services.
