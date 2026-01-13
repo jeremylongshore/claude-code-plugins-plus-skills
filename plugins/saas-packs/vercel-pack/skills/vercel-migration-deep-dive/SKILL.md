@@ -1,12 +1,14 @@
 ---
-name: vercel-migration-deep-dive
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Execute vercel major re-architecture and migration strategies with strangler
   fig pattern. use when migrating to or from vercel, performing major version upgrades,
   or re-platforming existing integrations to vercel. trigger with phrases like "migrat...
+name: vercel-migration-deep-dive
 ---
 # Vercel Migration Deep Dive
+
+This skill provides automated assistance for vercel migration deep dive tasks.
 
 ## Prerequisites
 - Current system documentation

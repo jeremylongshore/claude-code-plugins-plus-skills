@@ -1,13 +1,15 @@
 ---
-name: vercel-known-pitfalls
-license: MIT
 allowed-tools: Read, Grep
+license: MIT
 description: Execute identify and avoid vercel anti-patterns and common integration
   mistakes. use when reviewing vercel code for issues, onboarding new developers,
   or auditing existing vercel integrations for best practices violations. trigger
   with phrases lik...
+name: vercel-known-pitfalls
 ---
 # Vercel Known Pitfalls
+
+This skill provides automated assistance for vercel known pitfalls tasks.
 
 ## Prerequisites
 - Access to Vercel codebase for review

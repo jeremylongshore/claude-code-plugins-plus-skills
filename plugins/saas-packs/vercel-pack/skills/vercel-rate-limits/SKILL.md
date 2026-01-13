@@ -1,13 +1,15 @@
 ---
-name: vercel-rate-limits
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Implement vercel rate limiting, backoff, and idempotency patterns. use
   when handling rate limit errors, implementing retry logic, or optimizing api request
   throughput for vercel. trigger with phrases like "vercel rate limit", "vercel throttling",
   ...
+name: vercel-rate-limits
 ---
 # Vercel Rate Limits
+
+This skill provides automated assistance for vercel rate limits tasks.
 
 ## Prerequisites
 - Vercel SDK installed

@@ -1,13 +1,15 @@
 ---
-name: vercel-multi-env-setup
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Configure Vercel across development, staging, and production environments.
   Use when setting up multi-environment deployments, configuring per-environment secrets,
   or implementing environment-specific Vercel configurations. Trigger with phrases
   lik...
+name: vercel-multi-env-setup
 ---
 # Vercel Multi Env Setup
+
+This skill provides automated assistance for vercel multi env setup tasks.
 
 ## Prerequisites
 - Separate Vercel accounts or API keys per environment

@@ -1,12 +1,14 @@
 ---
-name: vercel-policy-guardrails
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Implement vercel lint rules, policy enforcement, and automated guardrails.
   use when setting up code quality rules for vercel integrations, implementing pre-commit
   hooks, or configuring ci policy checks for vercel best practices. trigger with phras...
+name: vercel-policy-guardrails
 ---
 # Vercel Policy Guardrails
+
+This skill provides automated assistance for vercel policy guardrails tasks.
 
 ## Prerequisites
 - ESLint configured in project

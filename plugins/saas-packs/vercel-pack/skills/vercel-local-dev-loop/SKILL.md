@@ -1,13 +1,15 @@
 ---
-name: vercel-local-dev-loop
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Configure Vercel local development with hot reload and testing. Use when
   setting up a development environment, configuring test workflows, or establishing
   a fast iteration cycle with Vercel. Trigger with phrases like "vercel dev setup",
   "vercel lo...
+name: vercel-local-dev-loop
 ---
 # Vercel Local Dev Loop
+
+This skill provides automated assistance for vercel local dev loop tasks.
 
 ## Prerequisites
 - Completed `vercel-install-auth` setup

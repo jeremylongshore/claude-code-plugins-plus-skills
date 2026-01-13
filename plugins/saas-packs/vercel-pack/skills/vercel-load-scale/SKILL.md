@@ -1,13 +1,15 @@
 ---
-name: vercel-load-scale
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Implement vercel load testing, auto-scaling, and capacity planning strategies.
   use when running performance tests, configuring horizontal scaling, or planning
   capacity for vercel integrations. trigger with phrases like "vercel load test",
   "vercel ...
+name: vercel-load-scale
 ---
 # Vercel Load Scale
+
+This skill provides automated assistance for vercel load scale tasks.
 
 ## Prerequisites
 - k6 load testing tool installed
