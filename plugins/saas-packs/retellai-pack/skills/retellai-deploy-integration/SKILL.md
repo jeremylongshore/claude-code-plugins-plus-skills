@@ -1,17 +1,11 @@
 ---
 name: retellai-deploy-integration
-description: |
-  Deploy Retell AI integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying Retell AI-powered applications to production,
-  configuring platform-specific secrets, or setting up deployment pipelines.
-  Trigger with phrases like "deploy retellai", "retellai Vercel",
-  "retellai production deploy", "retellai Cloud Run", "retellai Fly.io".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Retell AI integrations to Vercel, Fly.io, and Cloud Run platforms.
+  Use when deploying Retell AI-powered applications to production, configuring platform-specific
+  secrets, or setting up deployment pipelines. Trigger with phrases like "deploy...
 ---
-
 # Retell AI Deploy Integration
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: retellai-incident-runbook
-description: |
-  Execute Retell AI incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to Retell AI-related outages, investigating errors,
-  or running post-incident reviews for Retell AI integration failures.
-  Trigger with phrases like "retellai incident", "retellai outage",
-  "retellai down", "retellai on-call", "retellai emergency", "retellai broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute retell ai incident response procedures with triage, mitigation,
+  and postmortem. use when responding to retell ai-related outages, investigating
+  errors, or running post-incident reviews for retell ai integration failures. trigger
+  with phras...
 ---
-
 # Retell AI Incident Runbook
 
 ## Overview

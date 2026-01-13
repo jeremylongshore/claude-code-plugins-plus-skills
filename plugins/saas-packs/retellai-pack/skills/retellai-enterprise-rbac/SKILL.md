@@ -1,17 +1,11 @@
 ---
 name: retellai-enterprise-rbac
-description: |
-  Configure Retell AI enterprise SSO, role-based access control, and organization management.
-  Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for Retell AI.
-  Trigger with phrases like "retellai SSO", "retellai RBAC",
-  "retellai enterprise", "retellai roles", "retellai permissions", "retellai SAML".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure Retell AI enterprise SSO, role-based access control, and organization
+  management. Use when implementing SSO integration, configuring role-based permissions,
+  or setting up organization-level controls for Retell AI. Trigger with phrases li...
 ---
-
 # Retell AI Enterprise RBAC
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: retellai-known-pitfalls
-description: |
-  Identify and avoid Retell AI anti-patterns and common integration mistakes.
-  Use when reviewing Retell AI code for issues, onboarding new developers,
-  or auditing existing Retell AI integrations for best practices violations.
-  Trigger with phrases like "retellai mistakes", "retellai anti-patterns",
-  "retellai pitfalls", "retellai what not to do", "retellai code review".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Identify and avoid retell ai anti-patterns and common integration mistakes.
+  use when reviewing retell ai code for issues, onboarding new developers, or auditing
+  existing retell ai integrations for best practices violations. trigger with phrases
+  li...
 ---
-
 # Retell AI Known Pitfalls
 
 ## Overview

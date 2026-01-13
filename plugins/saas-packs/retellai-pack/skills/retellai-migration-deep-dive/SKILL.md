@@ -1,17 +1,12 @@
 ---
 name: retellai-migration-deep-dive
-description: |
-  Execute Retell AI major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from Retell AI, performing major version upgrades,
-  or re-platforming existing integrations to Retell AI.
-  Trigger with phrases like "migrate retellai", "retellai migration",
-  "switch to retellai", "retellai replatform", "retellai upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute retell ai major re-architecture and migration strategies with
+  strangler fig pattern. use when migrating to or from retell ai, performing major
+  version upgrades, or re-platforming existing integrations to retell ai. trigger
+  with phrases lik...
 ---
-
 # Retell AI Migration Deep Dive
 
 ## Overview

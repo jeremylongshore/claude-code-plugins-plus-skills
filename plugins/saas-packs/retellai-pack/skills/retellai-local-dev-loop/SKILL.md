@@ -1,17 +1,12 @@
 ---
 name: retellai-local-dev-loop
-description: |
-  Configure Retell AI local development with hot reload and testing.
-  Use when setting up a development environment, configuring test workflows,
-  or establishing a fast iteration cycle with Retell AI.
-  Trigger with phrases like "retellai dev setup", "retellai local development",
-  "retellai dev environment", "develop with retellai".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Configure Retell AI local development with hot reload and testing. Use
+  when setting up a development environment, configuring test workflows, or establishing
+  a fast iteration cycle with Retell AI. Trigger with phrases like "retellai dev setup",
+  "r...
 ---
-
 # Retell AI Local Dev Loop
 
 ## Overview

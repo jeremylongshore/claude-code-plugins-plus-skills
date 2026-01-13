@@ -1,17 +1,12 @@
 ---
 name: retellai-load-scale
-description: |
-  Implement Retell AI load testing, auto-scaling, and capacity planning strategies.
-  Use when running performance tests, configuring horizontal scaling,
-  or planning capacity for Retell AI integrations.
-  Trigger with phrases like "retellai load test", "retellai scale",
-  "retellai performance test", "retellai capacity", "retellai k6", "retellai benchmark".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement retell ai load testing, auto-scaling, and capacity planning
+  strategies. use when running performance tests, configuring horizontal scaling,
+  or planning capacity for retell ai integrations. trigger with phrases like "retellai
+  load test", ...
 ---
-
 # Retell AI Load & Scale
 
 ## Overview
