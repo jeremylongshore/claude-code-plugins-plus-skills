@@ -1,13 +1,11 @@
 ---
 name: openrouter-team-setup
-description: |
-  Configure OpenRouter for team and organizational use. Use when setting up multi-user access or department billing. Trigger with phrases like 'openrouter team', 'openrouter organization', 'multi-user openrouter', 'openrouter rbac'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Configure OpenRouter for team and organizational use. Use when setting
+  up multi-user access or department billing. Trigger with phrases like 'openrouter
+  team', 'openrouter organization', 'multi-user openrouter', 'openrouter rbac'.
 ---
-
 # Openrouter Team Setup
 
 ## Overview

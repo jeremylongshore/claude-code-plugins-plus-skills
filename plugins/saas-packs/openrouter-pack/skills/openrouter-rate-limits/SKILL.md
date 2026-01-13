@@ -1,13 +1,12 @@
 ---
 name: openrouter-rate-limits
-description: |
-  Handle OpenRouter rate limits with proper backoff strategies. Use when experiencing 429 errors or building high-throughput systems. Trigger with phrases like 'openrouter rate limit', 'openrouter 429', 'openrouter throttle', 'openrouter backoff'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Handle openrouter rate limits with proper backoff strategies. use when
+  experiencing 429 errors or building high-throughput systems. trigger with phrases
+  like 'openrouter rate limit', 'openrouter 429', 'openrouter throttle', 'openrouter
+  backoff'.
 ---
-
 # Openrouter Rate Limits
 
 ## Overview

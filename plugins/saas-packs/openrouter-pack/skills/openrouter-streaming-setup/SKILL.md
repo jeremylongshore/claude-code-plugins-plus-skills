@@ -1,13 +1,11 @@
 ---
 name: openrouter-streaming-setup
-description: |
-  Implement streaming responses with OpenRouter. Use when building real-time chat interfaces or reducing time-to-first-token. Trigger with phrases like 'openrouter streaming', 'openrouter sse', 'stream response', 'real-time openrouter'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement streaming responses with openrouter. use when building real-time
+  chat interfaces or reducing time-to-first-token. trigger with phrases like 'openrouter
+  streaming', 'openrouter sse', 'stream response', 'real-time openrouter'.
 ---
-
 # Openrouter Streaming Setup
 
 ## Overview

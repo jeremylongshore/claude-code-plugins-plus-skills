@@ -1,11 +1,10 @@
 ---
 name: openrouter-sdk-patterns
-description: |
-  Implement common SDK patterns for OpenRouter integration. Use when building production applications. Trigger with phrases like 'openrouter sdk', 'openrouter client pattern', 'openrouter best practices', 'openrouter code patterns'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement common sdk patterns for openrouter integration. use when building
+  production applications. trigger with phrases like 'openrouter sdk', 'openrouter
+  client pattern', 'openrouter best practices', 'openrouter code patterns'.
 ---
 # OpenRouter SDK Patterns
 

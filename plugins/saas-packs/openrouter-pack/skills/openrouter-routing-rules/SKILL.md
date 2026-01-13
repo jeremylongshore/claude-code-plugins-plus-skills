@@ -1,11 +1,10 @@
 ---
 name: openrouter-routing-rules
-description: |
-  Implement intelligent model routing based on request characteristics. Use when optimizing for cost, speed, or quality per request. Trigger with phrases like 'openrouter routing', 'model selection', 'smart routing', 'dynamic model'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement intelligent model routing based on request characteristics.
+  use when optimizing for cost, speed, or quality per request. trigger with phrases
+  like 'openrouter routing', 'model selection', 'smart routing', 'dynamic model'.
 ---
 # OpenRouter Routing Rules
 

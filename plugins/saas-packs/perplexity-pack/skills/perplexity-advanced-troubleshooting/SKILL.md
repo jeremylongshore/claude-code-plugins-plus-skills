@@ -1,17 +1,12 @@
 ---
 name: perplexity-advanced-troubleshooting
-description: |
-  Apply Perplexity advanced debugging techniques for hard-to-diagnose issues.
-  Use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for Perplexity support escalation.
-  Trigger with phrases like "perplexity hard bug", "perplexity mystery error",
-  "perplexity impossible to debug", "difficult perplexity issue", "perplexity deep debug".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Apply perplexity advanced debugging techniques for hard-to-diagnose issues.
+  use when standard troubleshooting fails, investigating complex race conditions,
+  or preparing evidence bundles for perplexity support escalation. trigger with phrases
+  like ...
 ---
-
 # Perplexity Advanced Troubleshooting
 
 ## Overview

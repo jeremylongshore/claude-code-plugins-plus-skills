@@ -1,13 +1,11 @@
 ---
 name: openrouter-reference-architecture
-description: |
-  Execute production reference architecture for OpenRouter deployments. Use when designing or reviewing system architecture. Trigger with phrases like 'openrouter architecture', 'openrouter design', 'production openrouter', 'openrouter infrastructure'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Execute production reference architecture for openrouter deployments.
+  use when designing or reviewing system architecture. trigger with phrases like 'openrouter
+  architecture', 'openrouter design', 'production openrouter', 'openrouter infrastructure'.
 ---
-
 # Openrouter Reference Architecture
 
 ## Overview

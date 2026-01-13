@@ -1,13 +1,11 @@
 ---
 name: openrouter-usage-analytics
-description: |
-  Track and analyze OpenRouter usage patterns. Use when optimizing costs or understanding usage. Trigger with phrases like 'openrouter analytics', 'openrouter usage', 'openrouter metrics', 'track openrouter'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Track and analyze openrouter usage patterns. use when optimizing costs
+  or understanding usage. trigger with phrases like 'openrouter analytics', 'openrouter
+  usage', 'openrouter metrics', 'track openrouter'.
 ---
-
 # Openrouter Usage Analytics
 
 ## Overview
