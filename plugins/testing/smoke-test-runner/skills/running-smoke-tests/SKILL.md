@@ -1,14 +1,10 @@
 ---
 name: running-smoke-tests
-description: |
-  Execute fast smoke tests validating critical functionality after deployment.
-  Use when performing specialized testing.
-  Trigger with phrases like "run smoke tests", "quick validation", or "test critical paths".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute fast smoke tests validating critical functionality after deployment.
+  use when performing specialized testing. trigger with phrases like "run smoke tests",
+  "quick validation", or "test critical paths".
 ---
 # Smoke Test Runner
 

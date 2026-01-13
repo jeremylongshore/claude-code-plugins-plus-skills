@@ -1,14 +1,10 @@
 ---
 name: performing-security-testing
-description: |
-  Test automate security vulnerability testing covering OWASP Top 10, SQL injection, XSS, CSRF, and authentication issues.
-  Use when performing security assessments, penetration tests, or vulnerability scans.
-  Trigger with phrases like "scan for vulnerabilities", "test security", or "run penetration test".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Test automate security vulnerability testing covering OWASP Top 10, SQL
+  injection, XSS, CSRF, and authentication issues. Use when performing security assessments,
+  penetration tests, or vulnerability scans. Trigger with phrases like "scan for vulne...
 ---
 # Security Test Scanner
 

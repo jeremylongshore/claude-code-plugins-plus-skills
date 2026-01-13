@@ -1,14 +1,10 @@
 ---
 name: running-performance-tests
-description: |
-  Execute load testing, stress testing, and performance benchmarking.
-  Use when performing specialized testing.
-  Trigger with phrases like "run load tests", "test performance", or "benchmark the system".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute load testing, stress testing, and performance benchmarking. use
+  when performing specialized testing. trigger with phrases like "run load tests",
+  "test performance", or "benchmark the system".
 ---
 # Performance Test Suite
 

@@ -1,14 +1,10 @@
 ---
 name: running-integration-tests
-description: |
-  Execute integration tests validating component interactions and system integration.
-  Use when performing specialized testing.
-  Trigger with phrases like "run integration tests", "test integration", or "validate component interactions".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute integration tests validating component interactions and system
+  integration. use when performing specialized testing. trigger with phrases like
+  "run integration tests", "test integration", or "validate component interactions".
 ---
 # Integration Test Runner
 

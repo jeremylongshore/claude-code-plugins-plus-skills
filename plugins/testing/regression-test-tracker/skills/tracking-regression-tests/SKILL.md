@@ -1,14 +1,10 @@
 ---
 name: tracking-regression-tests
-description: |
-  Track and manage regression test suites across releases.
-  Use when performing specialized testing.
-  Trigger with phrases like "track regressions", "manage regression suite", or "validate against baseline".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Track and manage regression test suites across releases. use when performing
+  specialized testing. trigger with phrases like "track regressions", "manage regression
+  suite", or "validate against baseline".
 ---
 # Regression Test Tracker
 

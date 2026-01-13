@@ -1,14 +1,10 @@
 ---
 name: testing-load-balancers
-description: |
-  Validate load balancer behavior, failover, and traffic distribution.
-  Use when performing specialized testing.
-  Trigger with phrases like "test load balancer", "validate failover", or "check traffic distribution".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Validate load balancer behavior, failover, and traffic distribution.
+  Use when performing specialized testing. Trigger with phrases like "test load balancer",
+  "validate failover", or "check traffic distribution".
 ---
 # Load Balancer Tester
 
