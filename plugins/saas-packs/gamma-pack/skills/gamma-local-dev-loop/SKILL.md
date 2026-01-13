@@ -1,73 +1,23 @@
 ---
-name: gamma-local-dev-loop
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Set up efficient local development workflow for gamma. use when configuring
   hot reload, mock responses, or optimizing your gamma development experience. trigger
   with phrases like "gamma local dev", "gamma development setup", "gamma hot reload",
   "g...
+name: gamma-local-dev-loop
 ---
 # Gamma Local Dev Loop
 
-## Overview
-Configure an efficient local development workflow with hot reload and mock responses for Gamma presentation development.
+This skill provides automated assistance for gamma local dev loop tasks.
 
 ## Prerequisites
 - Completed `gamma-hello-world` setup
 - Node.js 18+ with nodemon or tsx
 - TypeScript project (recommended)
 
-## Instructions
 
-### Step 1: Install Dev Dependencies
-```bash
-npm install -D nodemon tsx dotenv @types/node
-```
-
-### Step 2: Configure Development Script
-Add to package.json:
-```json
-{
-  "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "dev:mock": "GAMMA_MOCK=true tsx watch src/index.ts"
-  }
-}
-```
-
-### Step 3: Create Mock Client
-```typescript
-// src/gamma-client.ts
-import { GammaClient } from '@gamma/sdk';
-
-const isMock = process.env.GAMMA_MOCK === 'true';
-
-export const gamma = isMock
-  ? createMockClient()
-  : new GammaClient({ apiKey: process.env.GAMMA_API_KEY });
-
-function createMockClient() {
-  return {
-    presentations: {
-      create: async (opts) => ({
-        id: 'mock-123',
-        url: 'https://gamma.app/mock/preview',
-        title: opts.title,
-      }),
-    },
-  };
-}
-```
-
-### Step 4: Set Up Environment Files
-```bash
-# .env.development
-GAMMA_API_KEY=your-dev-key
-GAMMA_MOCK=false
-
-# .env.test
-GAMMA_MOCK=true
-```
+See `{baseDir}/references/implementation.md` for detailed implementation guide.
 
 ## Output
 - Hot reload development server
@@ -76,29 +26,13 @@ GAMMA_MOCK=true
 - Fast iteration cycle
 
 ## Error Handling
-| Error | Cause | Solution |
-|-------|-------|----------|
-| Watch Error | File permissions | Check nodemon config |
-| Mock Mismatch | Mock out of sync | Update mock responses |
-| Env Not Loaded | dotenv not configured | Add `import 'dotenv/config'` |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Watch Mode Development
-```bash
-npm run dev
-# Changes to src/*.ts trigger automatic restart
-```
-
-### Offline Development with Mocks
-```bash
-npm run dev:mock
-# Uses mock responses, no API calls
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [tsx Documentation](https://github.com/esbuild-kit/tsx)
 - [Gamma SDK Mock Guide](https://gamma.app/docs/testing)
-
-## Next Steps
-Proceed to `gamma-sdk-patterns` for advanced SDK usage patterns.

@@ -1,13 +1,15 @@
 ---
-name: gamma-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure gamma api authentication. use when setting up a
   new gamma integration, configuring api keys, or initializing gamma in your project.
   trigger with phrases like "install gamma", "setup gamma", "gamma auth", "configure
   gamma api ...
+name: gamma-install-auth
 ---
 # Gamma Install & Auth
+
+This skill provides automated assistance for gamma install auth tasks.
 
 ## Overview
 Set up Gamma API and configure authentication credentials for AI-powered presentation generation.
