@@ -1,15 +1,12 @@
 ---
 name: klingai-install-auth
-description: |
-  Execute set up Kling AI API authentication and configure API keys. Use when starting a new Kling AI
-  integration or troubleshooting auth issues. Trigger with phrases like 'kling ai setup',
-  'klingai api key', 'kling ai authentication', 'configure klingai'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Execute set up kling ai api authentication and configure api keys. use
+  when starting a new kling ai integration or troubleshooting auth issues. trigger
+  with phrases like 'kling ai setup', 'klingai api key', 'kling ai authentication',
+  'configure kl...
 ---
-
 # Klingai Install Auth
 
 ## Overview
