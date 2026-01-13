@@ -1,17 +1,12 @@
 ---
 name: gamma-enterprise-rbac
-description: |
-  Implement enterprise role-based access control for Gamma integrations.
-  Use when configuring team permissions, multi-tenant access,
-  or enterprise authorization patterns.
-  Trigger with phrases like "gamma RBAC", "gamma permissions",
-  "gamma access control", "gamma enterprise", "gamma roles".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement enterprise role-based access control for gamma integrations.
+  use when configuring team permissions, multi-tenant access, or enterprise authorization
+  patterns. trigger with phrases like "gamma rbac", "gamma permissions", "gamma access
+  con...
 ---
-
 # Gamma Enterprise RBAC
 
 ## Overview

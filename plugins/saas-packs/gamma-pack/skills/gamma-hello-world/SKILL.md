@@ -1,17 +1,12 @@
 ---
 name: gamma-hello-world
-description: |
-  Create a minimal working Gamma example.
-  Use when starting a new Gamma integration, testing your setup,
-  or learning basic Gamma API patterns.
-  Trigger with phrases like "gamma hello world", "gamma example",
-  "gamma quick start", "simple gamma code", "create gamma presentation".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Create a minimal working Gamma example. Use when starting a new Gamma
+  integration, testing your setup, or learning basic Gamma API patterns. Trigger with
+  phrases like "gamma hello world", "gamma example", "gamma quick start", "simple
+  gamma code", ...
 ---
-
 # Gamma Hello World
 
 ## Overview

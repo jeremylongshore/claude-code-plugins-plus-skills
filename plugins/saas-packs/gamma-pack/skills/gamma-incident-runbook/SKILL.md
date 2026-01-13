@@ -1,17 +1,11 @@
 ---
 name: gamma-incident-runbook
-description: |
-  Incident response runbook for Gamma integration issues.
-  Use when experiencing production incidents, outages,
-  or need systematic troubleshooting procedures.
-  Trigger with phrases like "gamma incident", "gamma outage",
-  "gamma down", "gamma emergency", "gamma runbook".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Incident response runbook for gamma integration issues. use when experiencing
+  production incidents, outages, or need systematic troubleshooting procedures. trigger
+  with phrases like "gamma incident", "gamma outage", "gamma down", "gamma emergency"...
 ---
-
 # Gamma Incident Runbook
 
 ## Overview

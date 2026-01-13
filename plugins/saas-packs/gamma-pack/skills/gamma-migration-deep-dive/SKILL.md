@@ -1,17 +1,12 @@
 ---
 name: gamma-migration-deep-dive
-description: |
-  Deep dive into migrating to Gamma from other presentation platforms.
-  Use when migrating from PowerPoint, Google Slides, Canva,
-  or other presentation tools to Gamma.
-  Trigger with phrases like "gamma migration", "migrate to gamma",
-  "gamma import", "gamma from powerpoint", "gamma from google slides".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deep dive into migrating to gamma from other presentation platforms.
+  use when migrating from powerpoint, google slides, canva, or other presentation
+  tools to gamma. trigger with phrases like "gamma migration", "migrate to gamma",
+  "gamma import", "...
 ---
-
 # Gamma Migration Deep Dive
 
 ## Overview

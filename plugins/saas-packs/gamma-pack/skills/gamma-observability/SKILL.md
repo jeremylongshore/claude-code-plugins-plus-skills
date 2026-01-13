@@ -1,17 +1,12 @@
 ---
 name: gamma-observability
-description: |
-  Implement comprehensive observability for Gamma integrations.
-  Use when setting up monitoring, logging, tracing,
-  or building dashboards for Gamma API usage.
-  Trigger with phrases like "gamma monitoring", "gamma logging",
-  "gamma metrics", "gamma observability", "gamma dashboard".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement comprehensive observability for gamma integrations. use when
+  setting up monitoring, logging, tracing, or building dashboards for gamma api usage.
+  trigger with phrases like "gamma monitoring", "gamma logging", "gamma metrics",
+  "gamma obse...
 ---
-
 # Gamma Observability
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: gamma-multi-env-setup
-description: |
-  Configure Gamma across development, staging, and production environments.
-  Use when setting up multi-environment deployments, configuring per-environment secrets,
-  or implementing environment-specific Gamma configurations.
-  Trigger with phrases like "gamma environments", "gamma staging",
-  "gamma dev prod", "gamma environment setup", "gamma config by env".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Gamma across development, staging, and production environments.
+  Use when setting up multi-environment deployments, configuring per-environment secrets,
+  or implementing environment-specific Gamma configurations. Trigger with phrases
+  like ...
 ---
-
 # Gamma Multi-Environment Setup
 
 ## Overview
