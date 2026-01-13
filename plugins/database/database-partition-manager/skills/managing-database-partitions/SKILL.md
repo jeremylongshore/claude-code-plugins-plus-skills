@@ -1,11 +1,11 @@
 ---
-name: managing-database-partitions
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Process use when you need to work with database partitioning. This skill
   provides table partitioning strategies with comprehensive guidance and automation.
   Trigger with phrases like "partition tables", "implement partitioning", or "optimize
   large ...
+name: managing-database-partitions
 ---
 # Database Partition Manager
 

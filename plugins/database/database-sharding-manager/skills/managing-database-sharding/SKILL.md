@@ -1,11 +1,11 @@
 ---
-name: managing-database-sharding
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Process use when you need to work with database sharding. This skill
   provides horizontal sharding strategies with comprehensive guidance and automation.
   Trigger with phrases like "implement sharding", "shard database", or "distribute
   data".
+name: managing-database-sharding
 ---
 # Database Sharding Manager
 

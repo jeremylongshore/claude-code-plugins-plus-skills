@@ -1,11 +1,11 @@
 ---
-name: managing-database-migrations
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Process use when you need to work with database migrations. This skill
   provides schema migration management with comprehensive guidance and automation.
   Trigger with phrases like "create migration", "run migrations", or "manage schema
   versions".
+name: managing-database-migrations
 ---
 # Database Migration Manager
 

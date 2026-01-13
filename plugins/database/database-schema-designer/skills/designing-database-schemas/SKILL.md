@@ -1,10 +1,10 @@
 ---
-name: designing-database-schemas
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Process use when you need to work with database schema design. This skill
   provides schema design and migrations with comprehensive guidance and automation.
   Trigger with phrases like "design schema", "create migration", or "model database".
+name: designing-database-schemas
 ---
 # Database Schema Designer
 
