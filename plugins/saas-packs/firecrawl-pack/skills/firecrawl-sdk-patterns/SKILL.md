@@ -1,17 +1,12 @@
 ---
 name: firecrawl-sdk-patterns
-description: |
-  Apply production-ready FireCrawl SDK patterns for TypeScript and Python.
-  Use when implementing FireCrawl integrations, refactoring SDK usage,
-  or establishing team coding standards for FireCrawl.
-  Trigger with phrases like "firecrawl SDK patterns", "firecrawl best practices",
-  "firecrawl code patterns", "idiomatic firecrawl".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready firecrawl sdk patterns for typescript and python.
+  use when implementing firecrawl integrations, refactoring sdk usage, or establishing
+  team coding standards for firecrawl. trigger with phrases like "firecrawl sdk patterns",
+  ...
 ---
-
 # FireCrawl SDK Patterns
 
 ## Overview

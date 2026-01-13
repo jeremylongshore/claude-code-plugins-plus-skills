@@ -1,17 +1,12 @@
 ---
 name: fireflies-common-errors
-description: |
-  Diagnose and fix Fireflies.ai common errors and exceptions.
-  Use when encountering Fireflies.ai errors, debugging failed requests,
-  or troubleshooting integration issues.
-  Trigger with phrases like "fireflies error", "fix fireflies",
-  "fireflies not working", "debug fireflies".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Diagnose and fix fireflies.ai common errors and exceptions. use when
+  encountering fireflies.ai errors, debugging failed requests, or troubleshooting
+  integration issues. trigger with phrases like "fireflies error", "fix fireflies",
+  "fireflies not w...
 ---
-
 # Fireflies.ai Common Errors
 
 ## Overview

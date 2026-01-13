@@ -1,17 +1,12 @@
 ---
 name: firecrawl-webhooks-events
-description: |
-  Implement FireCrawl webhook signature validation and event handling.
-  Use when setting up webhook endpoints, implementing signature verification,
-  or handling FireCrawl event notifications securely.
-  Trigger with phrases like "firecrawl webhook", "firecrawl events",
-  "firecrawl webhook signature", "handle firecrawl events", "firecrawl notifications".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement firecrawl webhook signature validation and event handling.
+  use when setting up webhook endpoints, implementing signature verification, or handling
+  firecrawl event notifications securely. trigger with phrases like "firecrawl webhook",
+  "fi...
 ---
-
 # FireCrawl Webhooks & Events
 
 ## Overview

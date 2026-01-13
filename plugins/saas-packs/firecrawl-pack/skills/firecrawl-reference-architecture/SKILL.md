@@ -1,17 +1,12 @@
 ---
 name: firecrawl-reference-architecture
-description: |
-  Implement FireCrawl reference architecture with best-practice project layout.
-  Use when designing new FireCrawl integrations, reviewing project structure,
-  or establishing architecture standards for FireCrawl applications.
-  Trigger with phrases like "firecrawl architecture", "firecrawl best practices",
-  "firecrawl project structure", "how to organize firecrawl", "firecrawl layout".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Implement firecrawl reference architecture with best-practice project
+  layout. use when designing new firecrawl integrations, reviewing project structure,
+  or establishing architecture standards for firecrawl applications. trigger with
+  phrases like ...
 ---
-
 # FireCrawl Reference Architecture
 
 ## Overview

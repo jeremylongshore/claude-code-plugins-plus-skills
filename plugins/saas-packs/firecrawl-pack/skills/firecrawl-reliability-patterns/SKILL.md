@@ -1,17 +1,12 @@
 ---
 name: firecrawl-reliability-patterns
-description: |
-  Implement FireCrawl reliability patterns including circuit breakers, idempotency, and graceful degradation.
-  Use when building fault-tolerant FireCrawl integrations, implementing retry strategies,
-  or adding resilience to production FireCrawl services.
-  Trigger with phrases like "firecrawl reliability", "firecrawl circuit breaker",
-  "firecrawl idempotent", "firecrawl resilience", "firecrawl fallback", "firecrawl bulkhead".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement firecrawl reliability patterns including circuit breakers,
+  idempotency, and graceful degradation. use when building fault-tolerant firecrawl
+  integrations, implementing retry strategies, or adding resilience to production
+  firecrawl servic...
 ---
-
 # FireCrawl Reliability Patterns
 
 ## Overview

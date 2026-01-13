@@ -1,17 +1,12 @@
 ---
 name: firecrawl-rate-limits
-description: |
-  Implement FireCrawl rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for FireCrawl.
-  Trigger with phrases like "firecrawl rate limit", "firecrawl throttling",
-  "firecrawl 429", "firecrawl retry", "firecrawl backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement firecrawl rate limiting, backoff, and idempotency patterns.
+  use when handling rate limit errors, implementing retry logic, or optimizing api
+  request throughput for firecrawl. trigger with phrases like "firecrawl rate limit",
+  "firecrawl t...
 ---
-
 # FireCrawl Rate Limits
 
 ## Overview

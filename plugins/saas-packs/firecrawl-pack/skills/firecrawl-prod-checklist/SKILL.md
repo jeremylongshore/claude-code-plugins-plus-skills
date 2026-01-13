@@ -1,17 +1,12 @@
 ---
 name: firecrawl-prod-checklist
-description: |
-  Execute FireCrawl production deployment checklist and rollback procedures.
-  Use when deploying FireCrawl integrations to production, preparing for launch,
-  or implementing go-live procedures.
-  Trigger with phrases like "firecrawl production", "deploy firecrawl",
-  "firecrawl go-live", "firecrawl launch checklist".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Execute firecrawl production deployment checklist and rollback procedures.
+  use when deploying firecrawl integrations to production, preparing for launch, or
+  implementing go-live procedures. trigger with phrases like "firecrawl production",
+  "deploy...
 ---
-
 # FireCrawl Production Checklist
 
 ## Overview
