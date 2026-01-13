@@ -1,17 +1,12 @@
 ---
 name: deepgram-upgrade-migration
-description: |
-  Plan and execute Deepgram SDK upgrades and migrations.
-  Use when upgrading SDK versions, migrating to new API versions,
-  or transitioning between Deepgram models.
-  Trigger with phrases like "upgrade deepgram", "deepgram migration",
-  "update deepgram SDK", "deepgram version upgrade", "migrate deepgram".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Plan and execute deepgram sdk upgrades and migrations. use when upgrading
+  sdk versions, migrating to new api versions, or transitioning between deepgram models.
+  trigger with phrases like "upgrade deepgram", "deepgram migration", "update deepgram
+  s...
 ---
-
 # Deepgram Upgrade Migration
 
 ## Overview

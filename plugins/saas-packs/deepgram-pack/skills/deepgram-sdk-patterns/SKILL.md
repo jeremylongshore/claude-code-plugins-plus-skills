@@ -1,17 +1,12 @@
 ---
 name: deepgram-sdk-patterns
-description: |
-  Apply production-ready Deepgram SDK patterns for TypeScript and Python.
-  Use when implementing Deepgram integrations, refactoring SDK usage,
-  or establishing team coding standards for Deepgram.
-  Trigger with phrases like "deepgram SDK patterns", "deepgram best practices",
-  "deepgram code patterns", "idiomatic deepgram", "deepgram typescript".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready deepgram sdk patterns for typescript and python.
+  use when implementing deepgram integrations, refactoring sdk usage, or establishing
+  team coding standards for deepgram. trigger with phrases like "deepgram sdk patterns",
+  "dee...
 ---
-
 # Deepgram SDK Patterns
 
 ## Overview

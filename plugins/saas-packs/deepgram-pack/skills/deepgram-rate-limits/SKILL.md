@@ -1,17 +1,12 @@
 ---
 name: deepgram-rate-limits
-description: |
-  Implement Deepgram rate limiting and backoff strategies.
-  Use when handling API quotas, implementing request throttling,
-  or dealing with rate limit errors.
-  Trigger with phrases like "deepgram rate limit", "deepgram throttling",
-  "429 error deepgram", "deepgram quota", "deepgram backoff".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Implement deepgram rate limiting and backoff strategies. use when handling
+  api quotas, implementing request throttling, or dealing with rate limit errors.
+  trigger with phrases like "deepgram rate limit", "deepgram throttling", "429 error
+  deepgram"...
 ---
-
 # Deepgram Rate Limits
 
 ## Overview

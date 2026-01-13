@@ -1,17 +1,12 @@
 ---
 name: deepgram-prod-checklist
-description: |
-  Execute Deepgram production deployment checklist.
-  Use when preparing for production launch, auditing production readiness,
-  or verifying deployment configurations.
-  Trigger with phrases like "deepgram production", "deploy deepgram",
-  "deepgram prod checklist", "deepgram go-live", "production ready deepgram".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute deepgram production deployment checklist. use when preparing
+  for production launch, auditing production readiness, or verifying deployment configurations.
+  trigger with phrases like "deepgram production", "deploy deepgram", "deepgram prod
+  c...
 ---
-
 # Deepgram Production Checklist
 
 ## Overview

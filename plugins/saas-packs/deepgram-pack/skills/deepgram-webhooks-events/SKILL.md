@@ -1,17 +1,12 @@
 ---
 name: deepgram-webhooks-events
-description: |
-  Implement Deepgram callback and webhook handling for async transcription.
-  Use when implementing callback URLs, processing async transcription results,
-  or handling Deepgram event notifications.
-  Trigger with phrases like "deepgram callback", "deepgram webhook",
-  "async transcription deepgram", "deepgram events", "deepgram notifications".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement deepgram callback and webhook handling for async transcription.
+  use when implementing callback urls, processing async transcription results, or
+  handling deepgram event notifications. trigger with phrases like "deepgram callback",
+  "deepgr...
 ---
-
 # Deepgram Webhooks Events
 
 ## Overview

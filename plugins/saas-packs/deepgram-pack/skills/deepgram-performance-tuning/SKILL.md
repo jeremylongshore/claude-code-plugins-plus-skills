@@ -1,17 +1,12 @@
 ---
 name: deepgram-performance-tuning
-description: |
-  Optimize Deepgram API performance for faster transcription and lower latency.
-  Use when improving transcription speed, reducing latency,
-  or optimizing audio processing pipelines.
-  Trigger with phrases like "deepgram performance", "speed up deepgram",
-  "optimize transcription", "deepgram latency", "deepgram faster".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Optimize Deepgram API performance for faster transcription and lower
+  latency. Use when improving transcription speed, reducing latency, or optimizing
+  audio processing pipelines. Trigger with phrases like "deepgram performance", "speed
+  up deepgram"...
 ---
-
 # Deepgram Performance Tuning
 
 ## Overview

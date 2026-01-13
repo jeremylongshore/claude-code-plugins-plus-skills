@@ -1,17 +1,12 @@
 ---
 name: exa-advanced-troubleshooting
-description: |
-  Apply Exa advanced debugging techniques for hard-to-diagnose issues.
-  Use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for Exa support escalation.
-  Trigger with phrases like "exa hard bug", "exa mystery error",
-  "exa impossible to debug", "difficult exa issue", "exa deep debug".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Apply exa advanced debugging techniques for hard-to-diagnose issues.
+  use when standard troubleshooting fails, investigating complex race conditions,
+  or preparing evidence bundles for exa support escalation. trigger with phrases like
+  "exa hard bug"...
 ---
-
 # Exa Advanced Troubleshooting
 
 ## Overview

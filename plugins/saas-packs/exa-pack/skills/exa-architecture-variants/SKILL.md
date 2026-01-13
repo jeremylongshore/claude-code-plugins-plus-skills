@@ -1,17 +1,11 @@
 ---
 name: exa-architecture-variants
-description: |
-  Choose and implement Exa validated architecture blueprints for different scales.
-  Use when designing new Exa integrations, choosing between monolith/service/microservice
-  architectures, or planning migration paths for Exa applications.
-  Trigger with phrases like "exa architecture", "exa blueprint",
-  "how to structure exa", "exa project layout", "exa microservice".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Choose and implement exa validated architecture blueprints for different
+  scales. use when designing new exa integrations, choosing between monolith/service/microservice
+  architectures, or planning migration paths for exa applications. trigger with ...
 ---
-
 # Exa Architecture Variants
 
 ## Overview

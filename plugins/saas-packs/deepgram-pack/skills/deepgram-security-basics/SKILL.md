@@ -1,17 +1,12 @@
 ---
 name: deepgram-security-basics
-description: |
-  Apply Deepgram security best practices for API key management and data protection.
-  Use when securing Deepgram integrations, implementing key rotation,
-  or auditing security configurations.
-  Trigger with phrases like "deepgram security", "deepgram API key security",
-  "secure deepgram", "deepgram key rotation", "deepgram data protection".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Apply deepgram security best practices for api key management and data
+  protection. use when securing deepgram integrations, implementing key rotation,
+  or auditing security configurations. trigger with phrases like "deepgram security",
+  "deepgram ap...
 ---
-
 # Deepgram Security Basics
 
 ## Overview

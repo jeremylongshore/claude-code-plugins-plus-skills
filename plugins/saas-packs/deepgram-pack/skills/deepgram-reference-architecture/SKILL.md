@@ -1,17 +1,11 @@
 ---
 name: deepgram-reference-architecture
-description: |
-  Implement Deepgram reference architecture for scalable transcription systems.
-  Use when designing transcription pipelines, building production architectures,
-  or planning Deepgram integration at scale.
-  Trigger with phrases like "deepgram architecture", "transcription pipeline",
-  "deepgram system design", "deepgram at scale", "enterprise deepgram".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement deepgram reference architecture for scalable transcription
+  systems. use when designing transcription pipelines, building production architectures,
+  or planning deepgram integration at scale. trigger with phrases like "deepgram architectur...
 ---
-
 # Deepgram Reference Architecture
 
 ## Overview
