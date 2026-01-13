@@ -1,17 +1,12 @@
 ---
 name: juicebox-sdk-patterns
-description: |
-  Apply production-ready Juicebox SDK patterns.
-  Use when implementing robust error handling, retry logic,
-  or enterprise-grade Juicebox integrations.
-  Trigger with phrases like "juicebox best practices", "juicebox patterns",
-  "production juicebox", "juicebox SDK architecture".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Apply production-ready juicebox sdk patterns. use when implementing robust
+  error handling, retry logic, or enterprise-grade juicebox integrations. trigger
+  with phrases like "juicebox best practices", "juicebox patterns", "production juicebox",
+  "ju...
 ---
-
 # Juicebox SDK Patterns
 
 ## Overview

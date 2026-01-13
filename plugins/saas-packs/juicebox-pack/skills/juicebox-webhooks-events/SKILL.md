@@ -1,17 +1,11 @@
 ---
 name: juicebox-webhooks-events
-description: |
-  Implement Juicebox webhook handling.
-  Use when setting up event notifications, processing webhooks,
-  or integrating real-time updates from Juicebox.
-  Trigger with phrases like "juicebox webhooks", "juicebox events",
-  "juicebox notifications", "juicebox real-time".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement juicebox webhook handling. use when setting up event notifications,
+  processing webhooks, or integrating real-time updates from juicebox. trigger with
+  phrases like "juicebox webhooks", "juicebox events", "juicebox notifications", "juicebo...
 ---
-
 # Juicebox Webhooks & Events
 
 ## Overview

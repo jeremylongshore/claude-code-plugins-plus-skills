@@ -1,17 +1,12 @@
 ---
 name: juicebox-upgrade-migration
-description: |
-  Plan and execute Juicebox SDK upgrades.
-  Use when upgrading SDK versions, migrating between API versions,
-  or handling breaking changes.
-  Trigger with phrases like "upgrade juicebox", "juicebox migration",
-  "update juicebox SDK", "juicebox breaking changes".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Plan and execute juicebox sdk upgrades. use when upgrading sdk versions,
+  migrating between api versions, or handling breaking changes. trigger with phrases
+  like "upgrade juicebox", "juicebox migration", "update juicebox sdk", "juicebox
+  breaking ch...
 ---
-
 # Juicebox Upgrade Migration
 
 ## Overview

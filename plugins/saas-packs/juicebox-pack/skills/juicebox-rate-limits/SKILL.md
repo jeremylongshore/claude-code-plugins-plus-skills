@@ -1,17 +1,11 @@
 ---
 name: juicebox-rate-limits
-description: |
-  Implement Juicebox rate limiting and backoff.
-  Use when handling API quotas, implementing retry logic,
-  or optimizing request throughput.
-  Trigger with phrases like "juicebox rate limit", "juicebox quota",
-  "juicebox throttling", "juicebox backoff".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Implement juicebox rate limiting and backoff. use when handling api quotas,
+  implementing retry logic, or optimizing request throughput. trigger with phrases
+  like "juicebox rate limit", "juicebox quota", "juicebox throttling", "juicebox backoff".
 ---
-
 # Juicebox Rate Limits
 
 ## Overview

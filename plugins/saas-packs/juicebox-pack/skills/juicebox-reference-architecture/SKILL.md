@@ -1,17 +1,12 @@
 ---
 name: juicebox-reference-architecture
-description: |
-  Implement Juicebox reference architecture.
-  Use when designing system architecture, planning integrations,
-  or implementing enterprise-grade Juicebox solutions.
-  Trigger with phrases like "juicebox architecture", "juicebox design",
-  "juicebox system design", "juicebox enterprise".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement juicebox reference architecture. use when designing system
+  architecture, planning integrations, or implementing enterprise-grade juicebox solutions.
+  trigger with phrases like "juicebox architecture", "juicebox design", "juicebox
+  system d...
 ---
-
 # Juicebox Reference Architecture
 
 ## Overview

@@ -1,15 +1,12 @@
 ---
 name: klingai-audit-logging
-description: |
-  Implement comprehensive audit logging for Kling AI operations. Use when tracking API usage,
-  compliance requirements, or security audits. Trigger with phrases like 'klingai audit',
-  'kling ai logging', 'klingai compliance log', 'video generation audit trail'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement comprehensive audit logging for kling ai operations. use when
+  tracking api usage, compliance requirements, or security audits. trigger with phrases
+  like 'klingai audit', 'kling ai logging', 'klingai compliance log', 'video generation
+  aud...
 ---
-
 # Klingai Audit Logging
 
 ## Overview

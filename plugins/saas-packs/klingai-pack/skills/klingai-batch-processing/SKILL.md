@@ -1,15 +1,12 @@
 ---
 name: klingai-batch-processing
-description: |
-  Process multiple video generation requests efficiently with Kling AI. Use when generating
-  multiple videos or building content pipelines. Trigger with phrases like 'klingai batch',
-  'kling ai bulk', 'multiple videos klingai', 'klingai parallel generation'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Process multiple video generation requests efficiently with Kling AI.
+  Use when generating multiple videos or building content pipelines. Trigger with
+  phrases like 'klingai batch', 'kling ai bulk', 'multiple videos klingai', 'klingai
+  parallel gener...
 ---
-
 # Klingai Batch Processing
 
 ## Overview
