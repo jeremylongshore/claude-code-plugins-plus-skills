@@ -1,54 +1,22 @@
 ---
-name: fireflies-security-basics
-license: MIT
 allowed-tools: Read, Write, Grep
+license: MIT
 description: Apply fireflies.ai security best practices for secrets and access control.
   use when securing api keys, implementing least privilege access, or auditing fireflies.ai
   security configuration. trigger with phrases like "fireflies security", "fireflies...
+name: fireflies-security-basics
 ---
-# Fireflies.ai Security Basics
+# Fireflies Security Basics
 
-## Overview
-Security best practices for Fireflies.ai API keys, tokens, and access control.
+This skill provides automated assistance for fireflies security basics tasks.
 
 ## Prerequisites
 - Fireflies.ai SDK installed
 - Understanding of environment variables
 - Access to Fireflies.ai dashboard
 
-## Instructions
 
-### Step 1: Configure Environment Variables
-```bash
-# .env (NEVER commit to git)
-FIREFLIES_API_KEY=sk_live_***
-FIREFLIES_SECRET=***
-
-# .gitignore
-.env
-.env.local
-.env.*.local
-```
-
-### Step 2: Implement Secret Rotation
-```bash
-# 1. Generate new key in Fireflies.ai dashboard
-# 2. Update environment variable
-export FIREFLIES_API_KEY="new_key_here"
-
-# 3. Verify new key works
-curl -H "Authorization: Bearer ${FIREFLIES_API_KEY}" \
-  https://api.fireflies.com/health
-
-# 4. Revoke old key in dashboard
-```
-
-### Step 3: Apply Least Privilege
-| Environment | Recommended Scopes |
-|-------------|-------------------|
-| Development | `read:*` |
-| Staging | `read:*, write:limited` |
-| Production | `Only required scopes` |
+See `{baseDir}/references/implementation.md` for detailed implementation guide.
 
 ## Output
 - Secure API key storage
@@ -56,79 +24,13 @@ curl -H "Authorization: Bearer ${FIREFLIES_API_KEY}" \
 - Audit logging enabled
 
 ## Error Handling
-| Security Issue | Detection | Mitigation |
-|----------------|-----------|------------|
-| Exposed API key | Git scanning | Rotate immediately |
-| Excessive scopes | Audit logs | Reduce permissions |
-| Missing rotation | Key age check | Schedule rotation |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Service Account Pattern
-```typescript
-const clients = {
-  reader: new Fireflies.aiClient({
-    apiKey: process.env.FIREFLIES_READ_KEY,
-  }),
-  writer: new Fireflies.aiClient({
-    apiKey: process.env.FIREFLIES_WRITE_KEY,
-  }),
-};
-```
-
-### Webhook Signature Verification
-```typescript
-import crypto from 'crypto';
-
-function verifyWebhookSignature(
-  payload: string, signature: string, secret: string
-): boolean {
-  const expected = crypto.createHmac('sha256', secret).update(payload).digest('hex');
-  return crypto.timingSafeEqual(Buffer.from(signature), Buffer.from(expected));
-}
-```
-
-### Security Checklist
-- [ ] API keys in environment variables
-- [ ] `.env` files in `.gitignore`
-- [ ] Different keys for dev/staging/prod
-- [ ] Minimal scopes per environment
-- [ ] Webhook signatures validated
-- [ ] Audit logging enabled
-
-### Audit Logging
-```typescript
-interface AuditEntry {
-  timestamp: Date;
-  action: string;
-  userId: string;
-  resource: string;
-  result: 'success' | 'failure';
-  metadata?: Record<string, any>;
-}
-
-async function auditLog(entry: Omit<AuditEntry, 'timestamp'>): Promise<void> {
-  const log: AuditEntry = { ...entry, timestamp: new Date() };
-
-  // Log to Fireflies.ai analytics
-  await firefliesClient.track('audit', log);
-
-  // Also log locally for compliance
-  console.log('[AUDIT]', JSON.stringify(log));
-}
-
-// Usage
-await auditLog({
-  action: 'fireflies.api.call',
-  userId: currentUser.id,
-  resource: '/v1/resource',
-  result: 'success',
-});
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Fireflies.ai Security Guide](https://docs.fireflies.com/security)
 - [Fireflies.ai API Scopes](https://docs.fireflies.com/scopes)
-
-## Next Steps
-For production deployment, see `fireflies-prod-checklist`.
