@@ -1,16 +1,12 @@
 ---
 name: exploring-blockchain-data
-description: |
-  Process query and analyze blockchain data including blocks, transactions, and smart contracts.
-  Use when querying blockchain data and transactions.
-  Trigger with phrases like "explore blockchain", "query transactions", or "check on-chain data".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Process query and analyze blockchain data including blocks, transactions,
+  and smart contracts. Use when querying blockchain data and transactions. Trigger
+  with phrases like "explore blockchain", "query transactions", or "check on-chain
+  data".
 ---
-
 # Exploring Blockchain Data
 
 ## Overview

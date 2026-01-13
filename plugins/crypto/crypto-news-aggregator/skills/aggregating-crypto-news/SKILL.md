@@ -1,16 +1,11 @@
 ---
 name: aggregating-crypto-news
-description: |
-  Execute aggregate breaking crypto news, announcements, and market-moving events in real-time.
-  Use when staying updated on crypto market events.
-  Trigger with phrases like "get crypto news", "check latest announcements", or "scan for updates".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute aggregate breaking crypto news, announcements, and market-moving
+  events in real-time. use when staying updated on crypto market events. trigger with
+  phrases like "get crypto news", "check latest announcements", or "scan for updates".
 ---
-
 # Aggregating Crypto News
 
 ## Overview

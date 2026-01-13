@@ -1,16 +1,11 @@
 ---
 name: generating-trading-signals
-description: |
-  Generate trading signals using technical indicators and on-chain metrics.
-  Use when receiving trading signals and alerts.
-  Trigger with phrases like "get trading signals", "check indicators", or "analyze signals".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Generate trading signals using technical indicators and on-chain metrics.
+  Use when receiving trading signals and alerts. Trigger with phrases like "get trading
+  signals", "check indicators", or "analyze signals".
 ---
-
 # Generating Trading Signals
 
 ## Overview

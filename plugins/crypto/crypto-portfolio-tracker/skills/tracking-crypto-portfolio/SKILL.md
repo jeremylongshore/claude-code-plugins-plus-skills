@@ -1,16 +1,11 @@
 ---
 name: tracking-crypto-portfolio
-description: |
-  Track multi-chain crypto portfolio with real-time valuations and performance metrics.
-  Use when managing multi-chain crypto holdings.
-  Trigger with phrases like "track my portfolio", "check holdings", or "analyze positions".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Track multi-chain crypto portfolio with real-time valuations and performance
+  metrics. use when managing multi-chain crypto holdings. trigger with phrases like
+  "track my portfolio", "check holdings", or "analyze positions".
 ---
-
 # Tracking Crypto Portfolio
 
 ## Overview

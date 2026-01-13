@@ -1,13 +1,12 @@
 ---
 name: spec-writing
-description: |
-  Execute this skill should be used when the user asks about "writing specs", "specs.md format", "how to write specifications", "sprint requirements", "testing configuration", "scope definition", or needs guidance on creating effective sprint specifications for agentic development. Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read
-version: 1.0.0
-author: Damien Laine <damien.laine@gmail.com>
 license: MIT
+allowed-tools: Read
+description: Execute this skill should be used when the user asks about "writing specs",
+  "specs.md format", "how to write specifications", "sprint requirements", "testing
+  configuration", "scope definition", or needs guidance on creating effective sprint
+  specif...
 ---
-
 # Spec Writing
 
 ## Overview
