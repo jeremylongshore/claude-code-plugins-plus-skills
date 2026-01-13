@@ -1,13 +1,15 @@
 ---
-name: sentry-observability
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute integrate sentry with observability stack. use when connecting
   sentry to logging, metrics, apm tools, or building unified observability dashboards.
   trigger with phrases like "sentry observability", "sentry logging integration",
   "sentry met...
+name: sentry-observability
 ---
 # Sentry Observability
+
+This skill provides automated assistance for sentry observability tasks.
 
 ## Prerequisites
 

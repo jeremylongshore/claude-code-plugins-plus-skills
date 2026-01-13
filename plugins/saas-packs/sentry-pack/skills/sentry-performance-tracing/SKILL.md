@@ -1,12 +1,14 @@
 ---
-name: sentry-performance-tracing
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute set up performance monitoring and distributed tracing with sentry.
   use when implementing performance tracking, tracing requests, or monitoring application
   performance. trigger with phrases like "sentry performance", "sentry tracing", "sent...
+name: sentry-performance-tracing
 ---
 # Sentry Performance Tracing
+
+This skill provides automated assistance for sentry performance tracing tasks.
 
 ## Prerequisites
 - Sentry SDK installed

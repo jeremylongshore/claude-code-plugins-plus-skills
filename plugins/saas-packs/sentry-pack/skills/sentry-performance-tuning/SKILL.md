@@ -1,13 +1,15 @@
 ---
-name: sentry-performance-tuning
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Optimize Sentry performance monitoring configuration. Use when tuning
   sample rates, reducing overhead, or improving performance data quality. Trigger
   with phrases like "sentry performance optimize", "tune sentry tracing", "sentry
   overhead", "impro...
+name: sentry-performance-tuning
 ---
 # Sentry Performance Tuning
+
+This skill provides automated assistance for sentry performance tuning tasks.
 
 ## Prerequisites
 

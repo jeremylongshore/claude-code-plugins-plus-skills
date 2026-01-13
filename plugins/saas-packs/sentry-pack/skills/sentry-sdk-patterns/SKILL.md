@@ -1,13 +1,15 @@
 ---
-name: sentry-sdk-patterns
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute best practices for using sentry sdk in typescript and python.
   use when implementing error handling patterns, structuring sentry code, or optimizing
   sdk usage. trigger with phrases like "sentry best practices", "sentry patterns",
   "sentry sd...
+name: sentry-sdk-patterns
 ---
 # Sentry Sdk Patterns
+
+This skill provides automated assistance for sentry sdk patterns tasks.
 
 ## Prerequisites
 - Sentry SDK installed and configured

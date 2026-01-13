@@ -1,12 +1,14 @@
 ---
-name: sentry-reliability-patterns
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Build reliable Sentry integrations. Use when handling SDK failures gracefully,
   implementing retry logic, or ensuring error tracking uptime. Trigger with phrases
   like "sentry reliability", "sentry failover", "sentry sdk failure handling", "resilien...
+name: sentry-reliability-patterns
 ---
 # Sentry Reliability Patterns
+
+This skill provides automated assistance for sentry reliability patterns tasks.
 
 ## Prerequisites
 

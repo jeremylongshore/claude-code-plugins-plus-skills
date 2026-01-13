@@ -1,13 +1,15 @@
 ---
-name: sentry-prod-checklist
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Execute production deployment checklist for sentry integration. use when
   preparing for production deployment, reviewing sentry configuration, or verifying
   production readiness. trigger with phrases like "sentry production", "deploy sentry",
   "sentr...
+name: sentry-prod-checklist
 ---
 # Sentry Prod Checklist
+
+This skill provides automated assistance for sentry prod checklist tasks.
 
 ## Prerequisites
 

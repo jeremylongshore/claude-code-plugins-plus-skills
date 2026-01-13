@@ -1,12 +1,14 @@
 ---
-name: sentry-release-management
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Manage Sentry releases and associate commits. Use when creating releases,
   tracking commits, or managing release artifacts. Trigger with phrases like "sentry
   release", "sentry commits", "manage sentry versions", "sentry release workflow".
+name: sentry-release-management
 ---
 # Sentry Release Management
+
+This skill provides automated assistance for sentry release management tasks.
 
 ## Prerequisites
 

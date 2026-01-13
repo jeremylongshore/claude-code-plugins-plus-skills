@@ -1,13 +1,15 @@
 ---
-name: sentry-policy-guardrails
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement governance and policy guardrails for sentry. use when enforcing
   organizational standards, compliance rules, or standardizing sentry usage across
   teams. trigger with phrases like "sentry governance", "sentry standards", "sentry
   policy", "...
+name: sentry-policy-guardrails
 ---
 # Sentry Policy Guardrails
+
+This skill provides automated assistance for sentry policy guardrails tasks.
 
 ## Prerequisites
 

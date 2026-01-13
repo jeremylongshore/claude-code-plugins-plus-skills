@@ -1,13 +1,15 @@
 ---
-name: sentry-reference-architecture
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Manage best-practice Sentry architecture patterns. Use when designing
   Sentry integration architecture, structuring projects, or planning enterprise rollout.
   Trigger with phrases like "sentry architecture", "sentry best practices", "design
   sentry i...
+name: sentry-reference-architecture
 ---
 # Sentry Reference Architecture
+
+This skill provides automated assistance for sentry reference architecture tasks.
 
 ## Prerequisites
 

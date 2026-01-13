@@ -1,12 +1,14 @@
 ---
-name: sentry-rate-limits
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Manage Sentry rate limits and quota optimization. Use when hitting rate
   limits, optimizing event volume, or managing Sentry costs. Trigger with phrases
   like "sentry rate limit", "sentry quota", "reduce sentry events", "sentry 429".
+name: sentry-rate-limits
 ---
 # Sentry Rate Limits
+
+This skill provides automated assistance for sentry rate limits tasks.
 
 ## Prerequisites
 
