@@ -1,13 +1,12 @@
 ---
 name: api-contract
-description: |
-  Configure this skill should be used when the user asks about "API contract", "api-contract.md", "shared interface", "TypeScript interfaces", "request response schemas", "endpoint design", or needs guidance on designing contracts that coordinate backend and frontend agents. Use when building or modifying API endpoints. Trigger with phrases like 'create API', 'design endpoint', or 'API scaffold'.
-allowed-tools: Read
-version: 1.0.0
-author: Damien Laine <damien.laine@gmail.com>
 license: MIT
+allowed-tools: Read
+description: Configure this skill should be used when the user asks about "API contract",
+  "api-contract.md", "shared interface", "TypeScript interfaces", "request response
+  schemas", "endpoint design", or needs guidance on designing contracts that coordinate
+  ba...
 ---
-
 # Api Contract
 
 ## Overview

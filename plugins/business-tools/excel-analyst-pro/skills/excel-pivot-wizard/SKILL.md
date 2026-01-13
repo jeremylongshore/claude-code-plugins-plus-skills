@@ -1,15 +1,11 @@
 ---
 name: excel-pivot-wizard
-description: |
-  Create advanced Excel pivot tables with calculated fields and slicers.
-  Use when building data summaries or creating interactive dashboards.
-  Trigger with phrases like 'excel pivot', 'create pivot table', 'data summary'.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Create advanced Excel pivot tables with calculated fields and slicers.
+  Use when building data summaries or creating interactive dashboards. Trigger with
+  phrases like 'excel pivot', 'create pivot table', 'data summary'.
 ---
-
 # Excel Pivot Wizard
 
 ## Overview

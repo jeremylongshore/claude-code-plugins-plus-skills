@@ -1,15 +1,12 @@
 ---
 name: excel-variance-analyzer
-description: |
-  Analyze budget vs actual variances in Excel with drill-down and root cause analysis.
-  Use when performing variance analysis or explaining budget differences.
-  Trigger with phrases like 'excel variance', 'analyze budget variance', 'actual vs budget'.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Analyze budget vs actual variances in Excel with drill-down and root
+  cause analysis. Use when performing variance analysis or explaining budget differences.
+  Trigger with phrases like 'excel variance', 'analyze budget variance', 'actual vs
+  budget'.
 ---
-
 # Excel Variance Analyzer
 
 ## Overview

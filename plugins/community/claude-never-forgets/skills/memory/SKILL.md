@@ -1,16 +1,12 @@
 ---
 name: memory
-description: |
-  Execute extract and use project memories from previous sessions for context-aware assistance.
-  Use when recalling past decisions, checking project conventions, or understanding user preferences.
-  Trigger with phrases like "remember when", "like before", or "what was our decision about".
-  
-allowed-tools: Read, Write
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write
+description: Execute extract and use project memories from previous sessions for context-aware
+  assistance. use when recalling past decisions, checking project conventions, or
+  understanding user preferences. trigger with phrases like "remember when", "like
+  befo...
 ---
-
 # Memory
 
 ## Overview

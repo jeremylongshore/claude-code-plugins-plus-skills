@@ -1,15 +1,11 @@
 ---
 name: excel-lbo-modeler
-description: |
-  Build leveraged buyout (LBO) models in Excel with debt schedules and IRR analysis.
-  Use when structuring LBO transactions or analyzing PE returns.
-  Trigger with phrases like 'excel lbo', 'build lbo model', 'calculate pe returns'.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Build leveraged buyout (LBO) models in Excel with debt schedules and
+  IRR analysis. Use when structuring LBO transactions or analyzing PE returns. Trigger
+  with phrases like 'excel lbo', 'build lbo model', 'calculate pe returns'.
 ---
-
 # Excel LBO Modeler
 
 ## Overview

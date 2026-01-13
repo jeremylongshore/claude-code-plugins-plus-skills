@@ -1,13 +1,10 @@
 ---
 name: firestore-operations-manager
-description: |
-  Manage Firebase/Firestore operations including CRUD, queries, batch processing, and index/rule guidance.
-  Use when you need to create/update/query Firestore documents, run batch writes, troubleshoot missing indexes, or plan migrations.
-  Trigger with phrases like "firestore operations", "create firestore document", "batch write", "missing index", or "fix firestore query".
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Manage Firebase/Firestore operations including CRUD, queries, batch processing,
+  and index/rule guidance. Use when you need to create/update/query Firestore documents,
+  run batch writes, troubleshoot missing indexes, or plan migrations. Trigger with...
 ---
 # Firestore Operations Manager
 

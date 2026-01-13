@@ -1,13 +1,12 @@
 ---
 name: agent-patterns
-description: |
-  Execute this skill should be used when the user asks about "SPAWN REQUEST format", "agent reports", "agent coordination", "parallel agents", "report format", "agent communication", or needs to understand how agents coordinate within the sprint system. Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read
-version: 1.0.0
-author: Damien Laine <damien.laine@gmail.com>
 license: MIT
+allowed-tools: Read
+description: Execute this skill should be used when the user asks about "spawn request
+  format", "agent reports", "agent coordination", "parallel agents", "report format",
+  "agent communication", or needs to understand how agents coordinate within the sprint
+  sys...
 ---
-
 # Agent Patterns
 
 ## Overview
