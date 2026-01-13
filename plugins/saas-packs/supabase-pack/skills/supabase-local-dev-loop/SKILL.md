@@ -1,17 +1,12 @@
 ---
 name: supabase-local-dev-loop
-description: |
-  Configure Supabase local development with hot reload and testing.
-  Use when setting up a development environment, configuring test workflows,
-  or establishing a fast iteration cycle with Supabase.
-  Trigger with phrases like "supabase dev setup", "supabase local development",
-  "supabase dev environment", "develop with supabase".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Configure Supabase local development with hot reload and testing. Use
+  when setting up a development environment, configuring test workflows, or establishing
+  a fast iteration cycle with Supabase. Trigger with phrases like "supabase dev setup",
+  "sup...
 ---
-
 # Supabase Local Dev Loop
 
 ## Prerequisites

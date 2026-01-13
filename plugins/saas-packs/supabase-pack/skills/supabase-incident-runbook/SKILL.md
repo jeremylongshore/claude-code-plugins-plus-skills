@@ -1,17 +1,12 @@
 ---
 name: supabase-incident-runbook
-description: |
-  Execute Supabase incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to Supabase-related outages, investigating errors,
-  or running post-incident reviews for Supabase integration failures.
-  Trigger with phrases like "supabase incident", "supabase outage",
-  "supabase down", "supabase on-call", "supabase emergency", "supabase broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute supabase incident response procedures with triage, mitigation,
+  and postmortem. use when responding to supabase-related outages, investigating errors,
+  or running post-incident reviews for supabase integration failures. trigger with
+  phrases ...
 ---
-
 # Supabase Incident Runbook
 
 ## Prerequisites

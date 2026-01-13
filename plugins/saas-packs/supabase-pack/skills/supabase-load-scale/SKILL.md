@@ -1,17 +1,12 @@
 ---
 name: supabase-load-scale
-description: |
-  Implement Supabase load testing, auto-scaling, and capacity planning strategies.
-  Use when running performance tests, configuring horizontal scaling,
-  or planning capacity for Supabase integrations.
-  Trigger with phrases like "supabase load test", "supabase scale",
-  "supabase performance test", "supabase capacity", "supabase k6", "supabase benchmark".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement supabase load testing, auto-scaling, and capacity planning
+  strategies. use when running performance tests, configuring horizontal scaling,
+  or planning capacity for supabase integrations. trigger with phrases like "supabase
+  load test", "s...
 ---
-
 # Supabase Load Scale
 
 ## Prerequisites

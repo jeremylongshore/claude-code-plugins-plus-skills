@@ -1,17 +1,12 @@
 ---
 name: supabase-hello-world
-description: |
-  Create a minimal working Supabase example.
-  Use when starting a new Supabase integration, testing your setup,
-  or learning basic Supabase API patterns.
-  Trigger with phrases like "supabase hello world", "supabase example",
-  "supabase quick start", "simple supabase code".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Create a minimal working Supabase example. Use when starting a new Supabase
+  integration, testing your setup, or learning basic Supabase API patterns. Trigger
+  with phrases like "supabase hello world", "supabase example", "supabase quick start",
+  "si...
 ---
-
 # Supabase Hello World
 
 ## Overview

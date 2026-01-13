@@ -1,17 +1,11 @@
 ---
 name: supabase-deploy-integration
-description: |
-  Deploy Supabase integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying Supabase-powered applications to production,
-  configuring platform-specific secrets, or setting up deployment pipelines.
-  Trigger with phrases like "deploy supabase", "supabase Vercel",
-  "supabase production deploy", "supabase Cloud Run", "supabase Fly.io".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Supabase integrations to Vercel, Fly.io, and Cloud Run platforms.
+  Use when deploying Supabase-powered applications to production, configuring platform-specific
+  secrets, or setting up deployment pipelines. Trigger with phrases like "deploy s...
 ---
-
 # Supabase Deploy Integration
 
 ## Prerequisites

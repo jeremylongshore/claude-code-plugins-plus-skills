@@ -1,17 +1,12 @@
 ---
 name: supabase-known-pitfalls
-description: |
-  Execute identify and avoid Supabase anti-patterns and common integration mistakes.
-  Use when reviewing Supabase code for issues, onboarding new developers,
-  or auditing existing Supabase integrations for best practices violations.
-  Trigger with phrases like "supabase mistakes", "supabase anti-patterns",
-  "supabase pitfalls", "supabase what not to do", "supabase code review".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Execute identify and avoid supabase anti-patterns and common integration
+  mistakes. use when reviewing supabase code for issues, onboarding new developers,
+  or auditing existing supabase integrations for best practices violations. trigger
+  with phras...
 ---
-
 # Supabase Known Pitfalls
 
 ## Prerequisites

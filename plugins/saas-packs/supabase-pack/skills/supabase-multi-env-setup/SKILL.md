@@ -1,17 +1,11 @@
 ---
 name: supabase-multi-env-setup
-description: |
-  Configure Supabase across development, staging, and production environments.
-  Use when setting up multi-environment deployments, configuring per-environment secrets,
-  or implementing environment-specific Supabase configurations.
-  Trigger with phrases like "supabase environments", "supabase staging",
-  "supabase dev prod", "supabase environment setup", "supabase config by env".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Supabase across development, staging, and production environments.
+  Use when setting up multi-environment deployments, configuring per-environment secrets,
+  or implementing environment-specific Supabase configurations. Trigger with phrases...
 ---
-
 # Supabase Multi Env Setup
 
 ## Prerequisites
