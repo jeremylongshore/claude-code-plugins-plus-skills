@@ -1,17 +1,12 @@
 ---
 name: instantly-install-auth
-description: |
-  Install and configure Instantly SDK/CLI authentication.
-  Use when setting up a new Instantly integration, configuring API keys,
-  or initializing Instantly in your project.
-  Trigger with phrases like "install instantly", "setup instantly",
-  "instantly auth", "configure instantly API key".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Install and configure instantly sdk/cli authentication. use when setting
+  up a new instantly integration, configuring api keys, or initializing instantly
+  in your project. trigger with phrases like "install instantly", "setup instantly",
+  "instantly ...
 ---
-
 # Instantly Install & Auth
 
 ## Overview

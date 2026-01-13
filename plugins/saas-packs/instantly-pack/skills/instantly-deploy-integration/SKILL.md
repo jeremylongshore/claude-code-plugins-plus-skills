@@ -1,17 +1,11 @@
 ---
 name: instantly-deploy-integration
-description: |
-  Deploy Instantly integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying Instantly-powered applications to production,
-  configuring platform-specific secrets, or setting up deployment pipelines.
-  Trigger with phrases like "deploy instantly", "instantly Vercel",
-  "instantly production deploy", "instantly Cloud Run", "instantly Fly.io".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Instantly integrations to Vercel, Fly.io, and Cloud Run platforms.
+  Use when deploying Instantly-powered applications to production, configuring platform-specific
+  secrets, or setting up deployment pipelines. Trigger with phrases like "deploy...
 ---
-
 # Instantly Deploy Integration
 
 ## Overview

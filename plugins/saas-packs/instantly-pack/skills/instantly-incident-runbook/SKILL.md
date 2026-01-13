@@ -1,17 +1,12 @@
 ---
 name: instantly-incident-runbook
-description: |
-  Execute Instantly incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to Instantly-related outages, investigating errors,
-  or running post-incident reviews for Instantly integration failures.
-  Trigger with phrases like "instantly incident", "instantly outage",
-  "instantly down", "instantly on-call", "instantly emergency", "instantly broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute instantly incident response procedures with triage, mitigation,
+  and postmortem. use when responding to instantly-related outages, investigating
+  errors, or running post-incident reviews for instantly integration failures. trigger
+  with phras...
 ---
-
 # Instantly Incident Runbook
 
 ## Overview

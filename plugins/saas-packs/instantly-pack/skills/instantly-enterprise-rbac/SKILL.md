@@ -1,17 +1,11 @@
 ---
 name: instantly-enterprise-rbac
-description: |
-  Configure Instantly enterprise SSO, role-based access control, and organization management.
-  Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for Instantly.
-  Trigger with phrases like "instantly SSO", "instantly RBAC",
-  "instantly enterprise", "instantly roles", "instantly permissions", "instantly SAML".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure Instantly enterprise SSO, role-based access control, and organization
+  management. Use when implementing SSO integration, configuring role-based permissions,
+  or setting up organization-level controls for Instantly. Trigger with phrases li...
 ---
-
 # Instantly Enterprise RBAC
 
 ## Overview

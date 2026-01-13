@@ -1,17 +1,12 @@
 ---
 name: instantly-data-handling
-description: |
-  Implement Instantly PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for Instantly integrations.
-  Trigger with phrases like "instantly data", "instantly PII",
-  "instantly GDPR", "instantly data retention", "instantly privacy", "instantly CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement instantly pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for instantly
+  integ...
 ---
-
 # Instantly Data Handling
 
 ## Overview
