@@ -72,7 +72,7 @@ const { totalPlugins, totalCategories } = Astro.props;
     transform: translateX(-50%);
     width: 100%;
     height: 100%;
-    background: radial-gradient(ellipse at top, rgba(16, 185, 129, 0.15) 0%, transparent 70%);
+    background: radial-gradient(ellipse at top, rgba(217, 119, 87, 0.12) 0%, transparent 70%);
     pointer-events: none;
   }
 
@@ -90,11 +90,12 @@ const { totalPlugins, totalCategories } = Astro.props;
     letter-spacing: -0.025em;
     margin-bottom: 1.5rem;
     line-height: 1.1;
+    color: var(--brand-dark);
   }
 
   .hero-subtitle {
     font-size: clamp(1rem, 2vw, 1.25rem);
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     margin-bottom: 2.5rem;
     line-height: 1.6;
     max-width: 700px;
@@ -118,7 +119,7 @@ const { totalPlugins, totalCategories } = Astro.props;
   .stat-number {
     font-size: 2.5rem;
     font-weight: 900;
-    background: linear-gradient(135deg, var(--green-400) 0%, var(--green-300) 100%);
+    background: linear-gradient(135deg, var(--brand-orange) 0%, var(--brand-orange-dark) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -128,7 +129,7 @@ const { totalPlugins, totalCategories } = Astro.props;
 
   .stat-label {
     font-size: 0.875rem;
-    color: var(--slate-500);
+    color: var(--brand-mid-gray);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-weight: 600;
@@ -137,7 +138,7 @@ const { totalPlugins, totalCategories } = Astro.props;
   .stat-divider {
     width: 1px;
     height: 3rem;
-    background: var(--slate-800);
+    background: var(--brand-light-gray);
   }
 
   .quick-install {
@@ -148,7 +149,7 @@ const { totalPlugins, totalCategories } = Astro.props;
   .install-label {
     font-size: 0.875rem;
     font-weight: 600;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 0.75rem;
@@ -156,19 +157,19 @@ const { totalPlugins, totalCategories } = Astro.props;
 
   .install-code-wrapper {
     position: relative;
-    background: var(--slate-900);
-    border: 1px solid var(--slate-800);
+    background: var(--brand-dark);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.75rem;
     padding: 1rem 1rem;
     display: flex;
     align-items: center;
     gap: 1rem;
-    transition: border-color var(--transition-base);
+    transition: border-color 0.2s ease;
   }
 
   .install-code-wrapper:hover {
-    border-color: var(--green-500);
-    box-shadow: 0 0 0 1px var(--green-500);
+    border-color: var(--brand-orange);
+    box-shadow: 0 0 0 1px var(--brand-orange);
   }
 
   .install-code {
@@ -186,28 +187,28 @@ const { totalPlugins, totalCategories } = Astro.props;
     background: transparent;
     border: none;
     padding: 0;
-    color: var(--green-400);
+    color: var(--brand-orange-light);
     font-size: 0.875rem;
   }
 
   .copy-btn {
     flex-shrink: 0;
-    background: var(--green-500);
-    color: var(--slate-950);
+    background: var(--brand-orange);
+    color: white;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     font-weight: 600;
     font-size: 0.875rem;
     cursor: pointer;
-    transition: all var(--transition-base);
-    font-family: var(--font-sans);
+    transition: all 0.2s ease;
+    font-family: 'Poppins', sans-serif;
   }
 
   .copy-btn:hover {
-    background: var(--green-400);
+    background: var(--brand-orange-dark);
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    box-shadow: 0 4px 12px rgba(217, 119, 87, 0.3);
   }
 
   .copy-btn:active {
@@ -218,27 +219,27 @@ const { totalPlugins, totalCategories } = Astro.props;
   .intent-note {
     margin-top: 1rem;
     font-size: 0.875rem;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     line-height: 1.6;
   }
 
   .install-note code {
-    background: rgba(148, 163, 184, 0.12);
-    color: var(--green-300);
+    background: var(--brand-light-gray);
+    color: var(--brand-dark);
     padding: 0.15rem 0.4rem;
     border-radius: 0.35rem;
     font-size: 0.8rem;
   }
 
   .intent-note a {
-    color: var(--green-300);
+    color: var(--brand-orange);
     font-weight: 600;
     text-decoration: none;
-    border-bottom: 1px solid rgba(45, 212, 191, 0.4);
+    border-bottom: 1px solid rgba(217, 119, 87, 0.4);
   }
 
   .intent-note a:hover {
-    border-bottom-color: rgba(45, 212, 191, 0.8);
+    border-bottom-color: rgba(217, 119, 87, 0.8);
   }
 
   @media (max-width: 640px) {

@@ -1,48 +1,60 @@
 /* IBM Plex Mono Font - Loaded from Google Fonts CDN for optimal performance */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
-/* Modern Slate + DevOps Green Theme */
+/* Anthropic Brand Theme - Unified with BaseLayout */
 :root {
-  /* Slate Background Colors */
-  --slate-950: #020617;
-  --slate-900: #0f172a;
-  --slate-850: #131c2f;
-  --slate-800: #1e293b;
-  --slate-700: #334155;
-  --slate-600: #475569;
-  --slate-500: #64748b;
-  --slate-400: #94a3b8;
-  --slate-300: #cbd5e1;
-  --slate-200: #e2e8f0;
-  --slate-100: #f1f5f9;
+  /* Brand Colors - Primary */
+  --brand-dark: #141413;
+  --brand-light: #faf9f5;
+  --brand-mid-gray: #b0aea5;
+  --brand-light-gray: #e8e6dc;
 
-  /* DevOps Green Accent */
-  --green-600: #047857;
-  --green-500: #059669;
-  --green-400: #10b981;
-  --green-300: #34d399;
+  /* Brand Colors - Accent */
+  --brand-orange: #d97757;
+  --brand-orange-dark: #c45e3e;
+  --brand-orange-light: #e8937a;
+  --brand-blue: #6a9bcc;
+  --brand-green: #788c5d;
 
-  /* Additional Accents */
-  --blue-500: #3b82f6;
-  --blue-400: #60a5fa;
+  /* Legacy support - map to brand colors */
+  --slate-950: var(--brand-dark);
+  --slate-900: var(--brand-dark);
+  --slate-850: #1a1a19;
+  --slate-800: var(--brand-light-gray);
+  --slate-700: var(--brand-mid-gray);
+  --slate-600: var(--brand-mid-gray);
+  --slate-500: var(--brand-mid-gray);
+  --slate-400: var(--brand-mid-gray);
+  --slate-300: var(--brand-light-gray);
+  --slate-200: var(--brand-light);
+  --slate-100: var(--brand-light);
+
+  --green-600: var(--brand-orange-dark);
+  --green-500: var(--brand-orange);
+  --green-400: var(--brand-orange);
+  --green-300: var(--brand-orange-light);
+
+  --blue-500: var(--brand-blue);
+  --blue-400: var(--brand-blue);
   --yellow-500: #eab308;
   --red-500: #ef4444;
 
   /* Typography */
-  --font-mono: 'IBM Plex Mono', 'Consolas', 'Monaco', monospace;
-  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', 'SF Mono', Monaco, 'Cascadia Code', monospace;
+  --font-sans: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   /* Shadows */
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-  --shadow-glow: 0 0 20px rgba(16, 185, 129, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08);
+  --shadow-glow: 0 0 20px rgba(217, 119, 87, 0.2);
 
   /* Transitions */
   --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Reset */
@@ -57,10 +69,10 @@ html {
 }
 
 body {
-  font-family: var(--font-sans);
-  background: var(--slate-950);
-  color: var(--slate-200);
-  line-height: 1.6;
+  font-family: 'Lora', Georgia, serif;
+  background: var(--brand-light);
+  color: var(--brand-dark);
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -68,40 +80,41 @@ body {
 
 /* Selection */
 ::selection {
-  background: var(--green-500);
-  color: var(--slate-950);
+  background: var(--brand-orange);
+  color: white;
 }
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', Arial, sans-serif;
   font-weight: 700;
   line-height: 1.2;
-  color: var(--slate-100);
+  color: var(--brand-dark);
 }
 
 a {
-  color: var(--green-400);
+  color: var(--brand-orange);
   text-decoration: none;
   transition: color var(--transition-fast);
 }
 
 a:hover {
-  color: var(--green-300);
+  color: var(--brand-orange-dark);
 }
 
 code {
   font-family: var(--font-mono);
-  background: var(--slate-800);
-  color: var(--green-400);
+  background: var(--brand-light-gray);
+  color: var(--brand-dark);
   padding: 0.125rem 0.375rem;
   border-radius: 0.25rem;
   font-size: 0.875em;
-  border: 1px solid var(--slate-700);
+  border: 1px solid transparent;
 }
 
 pre {
-  background: var(--slate-900);
-  border: 1px solid var(--slate-800);
+  background: var(--brand-dark);
+  border: 1px solid var(--brand-light-gray);
   border-radius: 0.5rem;
   padding: 1rem;
   overflow-x: auto;
@@ -112,7 +125,7 @@ pre code {
   background: transparent;
   border: none;
   padding: 0;
-  color: var(--slate-300);
+  color: var(--brand-orange-light);
 }
 
 /* Utilities */
@@ -123,7 +136,7 @@ pre code {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, var(--green-400) 0%, var(--blue-400) 100%);
+  background: linear-gradient(135deg, var(--brand-orange) 0%, var(--brand-blue) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -139,6 +152,13 @@ pre code {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateX(-50%) translateY(10px); }
+  15% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  85% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
 }
 
 @keyframes slideIn {
@@ -176,21 +196,21 @@ pre code {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--slate-900);
+  background: var(--brand-light);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--slate-700);
+  background: var(--brand-light-gray);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--slate-600);
+  background: var(--brand-mid-gray);
 }
 
 /* Focus styles */
 :focus-visible {
-  outline: 2px solid var(--green-500);
+  outline: 2px solid var(--brand-orange);
   outline-offset: 2px;
 }
 
