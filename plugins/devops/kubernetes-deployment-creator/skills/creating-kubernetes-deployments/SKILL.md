@@ -1,13 +1,15 @@
 ---
-name: creating-kubernetes-deployments
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Deploy use when generating Kubernetes deployment manifests and services.
   Trigger with phrases like "create kubernetes deployment", "generate k8s manifest",
   "deploy app to kubernetes", or "create service and ingress". Produces production-ready
   YAML...
+name: creating-kubernetes-deployments
 ---
 # Creating Kubernetes Deployments
+
+This skill provides automated assistance for creating kubernetes deployments tasks.
 
 ## Overview
 

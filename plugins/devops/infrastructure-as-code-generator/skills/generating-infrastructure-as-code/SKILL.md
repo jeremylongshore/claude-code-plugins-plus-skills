@@ -1,11 +1,11 @@
 ---
-name: generating-infrastructure-as-code
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute use when generating infrastructure as code configurations. trigger
   with phrases like "create terraform config", "generate cloudformation template",
   "write pulumi code", or "iac for aws/gcp/azure". produces production-ready code
   for terrafo...
+name: generating-infrastructure-as-code
 ---
 # Infrastructure As Code Generator
 

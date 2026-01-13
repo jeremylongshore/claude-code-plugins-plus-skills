@@ -1,11 +1,11 @@
 ---
-name: detecting-infrastructure-drift
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute use when detecting infrastructure drift from desired state. trigger
   with phrases like "check for drift", "infrastructure drift detection", "compare
   actual vs desired state", or "detect configuration changes". identifies discrepancies
   betwe...
+name: detecting-infrastructure-drift
 ---
 # Infrastructure Drift Detector
 

@@ -1,13 +1,15 @@
 ---
-name: adk-infra-expert
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute use when provisioning vertex ai adk infrastructure with terraform.
   trigger with phrases like "deploy adk terraform", "agent engine infrastructure",
   "provision adk agent", "vertex ai agent terraform", or "code execution sandbox terraform".
   ...
+name: adk-infra-expert
 ---
 # Adk Infra Expert
+
+This skill provides automated assistance for adk infra expert tasks.
 
 ## Overview
 

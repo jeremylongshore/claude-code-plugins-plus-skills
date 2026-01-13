@@ -1,13 +1,15 @@
 ---
-name: gh-actions-validator
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Validate use when validating GitHub Actions workflows for Google Cloud
   and Vertex AI deployments. Trigger with phrases like "validate github actions",
   "setup workload identity federation", "github actions security", "deploy agent with
   ci/cd", or "...
+name: gh-actions-validator
 ---
 # Gh Actions Validator
+
+This skill provides automated assistance for gh actions validator tasks.
 
 ## Overview
 

@@ -1,13 +1,15 @@
 ---
-name: configuring-load-balancers
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Configure use when configuring load balancers including ALB, NLB, Nginx,
   and HAProxy. Trigger with phrases like "configure load balancer", "create ALB",
   "setup nginx load balancing", or "haproxy configuration". Generates production-ready
   configura...
+name: configuring-load-balancers
 ---
 # Configuring Load Balancers
+
+This skill provides automated assistance for configuring load balancers tasks.
 
 ## Overview
 

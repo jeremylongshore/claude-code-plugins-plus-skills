@@ -1,12 +1,14 @@
 ---
-name: genkit-infra-expert
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute use when deploying genkit applications to production with terraform.
   trigger with phrases like "deploy genkit terraform", "provision genkit infrastructure",
   "firebase functions terraform", "cloud run deployment", or "genkit production infr...
+name: genkit-infra-expert
 ---
 # Genkit Infra Expert
+
+This skill provides automated assistance for genkit infra expert tasks.
 
 ## Overview
 

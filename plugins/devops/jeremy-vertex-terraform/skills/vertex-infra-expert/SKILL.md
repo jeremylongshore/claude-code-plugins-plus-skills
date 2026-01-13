@@ -1,13 +1,15 @@
 ---
-name: vertex-infra-expert
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute use when provisioning vertex ai infrastructure with terraform.
   trigger with phrases like "vertex ai terraform", "deploy gemini terraform", "model
   garden infrastructure", "vertex ai endpoints terraform", or "vector search terraform".
   provis...
+name: vertex-infra-expert
 ---
 # Vertex Infra Expert
+
+This skill provides automated assistance for vertex infra expert tasks.
 
 ## Overview
 
