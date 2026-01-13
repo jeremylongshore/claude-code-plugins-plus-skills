@@ -1,17 +1,12 @@
 ---
 name: vastai-sdk-patterns
-description: |
-  Apply production-ready Vast.ai SDK patterns for TypeScript and Python.
-  Use when implementing Vast.ai integrations, refactoring SDK usage,
-  or establishing team coding standards for Vast.ai.
-  Trigger with phrases like "vastai SDK patterns", "vastai best practices",
-  "vastai code patterns", "idiomatic vastai".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready vast.ai sdk patterns for typescript and python.
+  use when implementing vast.ai integrations, refactoring sdk usage, or establishing
+  team coding standards for vast.ai. trigger with phrases like "vastai sdk patterns",
+  "vastai b...
 ---
-
 # Vast.ai SDK Patterns
 
 ## Overview

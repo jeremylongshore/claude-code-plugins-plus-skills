@@ -1,17 +1,12 @@
 ---
 name: vercel-advanced-troubleshooting
-description: |
-  Execute apply Vercel advanced debugging techniques for hard-to-diagnose issues.
-  Use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for Vercel support escalation.
-  Trigger with phrases like "vercel hard bug", "vercel mystery error",
-  "vercel impossible to debug", "difficult vercel issue", "vercel deep debug".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute apply vercel advanced debugging techniques for hard-to-diagnose
+  issues. use when standard troubleshooting fails, investigating complex race conditions,
+  or preparing evidence bundles for vercel support escalation. trigger with phrases
+  like ...
 ---
-
 # Vercel Advanced Troubleshooting
 
 ## Prerequisites

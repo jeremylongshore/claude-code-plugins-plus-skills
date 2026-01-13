@@ -1,17 +1,12 @@
 ---
 name: vastai-webhooks-events
-description: |
-  Implement Vast.ai webhook signature validation and event handling.
-  Use when setting up webhook endpoints, implementing signature verification,
-  or handling Vast.ai event notifications securely.
-  Trigger with phrases like "vastai webhook", "vastai events",
-  "vastai webhook signature", "handle vastai events", "vastai notifications".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement vast.ai webhook signature validation and event handling. use
+  when setting up webhook endpoints, implementing signature verification, or handling
+  vast.ai event notifications securely. trigger with phrases like "vastai webhook",
+  "vastai ev...
 ---
-
 # Vast.ai Webhooks & Events
 
 ## Overview

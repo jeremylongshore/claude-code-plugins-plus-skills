@@ -1,17 +1,11 @@
 ---
 name: vastai-reference-architecture
-description: |
-  Implement Vast.ai reference architecture with best-practice project layout.
-  Use when designing new Vast.ai integrations, reviewing project structure,
-  or establishing architecture standards for Vast.ai applications.
-  Trigger with phrases like "vastai architecture", "vastai best practices",
-  "vastai project structure", "how to organize vastai", "vastai layout".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Implement vast.ai reference architecture with best-practice project layout.
+  use when designing new vast.ai integrations, reviewing project structure, or establishing
+  architecture standards for vast.ai applications. trigger with phrases like "vasta...
 ---
-
 # Vast.ai Reference Architecture
 
 ## Overview

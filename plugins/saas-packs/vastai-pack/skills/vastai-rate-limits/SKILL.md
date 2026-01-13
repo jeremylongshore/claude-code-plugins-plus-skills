@@ -1,17 +1,11 @@
 ---
 name: vastai-rate-limits
-description: |
-  Implement Vast.ai rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for Vast.ai.
-  Trigger with phrases like "vastai rate limit", "vastai throttling",
-  "vastai 429", "vastai retry", "vastai backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement vast.ai rate limiting, backoff, and idempotency patterns. use
+  when handling rate limit errors, implementing retry logic, or optimizing api request
+  throughput for vast.ai. trigger with phrases like "vastai rate limit", "vastai throttling"...
 ---
-
 # Vast.ai Rate Limits
 
 ## Overview

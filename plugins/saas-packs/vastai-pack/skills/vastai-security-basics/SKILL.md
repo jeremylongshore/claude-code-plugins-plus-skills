@@ -1,17 +1,12 @@
 ---
 name: vastai-security-basics
-description: |
-  Apply Vast.ai security best practices for secrets and access control.
-  Use when securing API keys, implementing least privilege access,
-  or auditing Vast.ai security configuration.
-  Trigger with phrases like "vastai security", "vastai secrets",
-  "secure vastai", "vastai API key security".
-allowed-tools: Read, Write, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Grep
+description: Apply vast.ai security best practices for secrets and access control.
+  use when securing api keys, implementing least privilege access, or auditing vast.ai
+  security configuration. trigger with phrases like "vastai security", "vastai secrets",
+  "secu...
 ---
-
 # Vast.ai Security Basics
 
 ## Overview

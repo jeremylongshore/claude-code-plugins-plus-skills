@@ -1,17 +1,12 @@
 ---
 name: vercel-ci-integration
-description: |
-  Configure Vercel CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating Vercel tests into your build process.
-  Trigger with phrases like "vercel CI", "vercel GitHub Actions",
-  "vercel automated tests", "CI vercel".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Vercel CI/CD integration with GitHub Actions and testing. Use
+  when setting up automated testing, configuring CI pipelines, or integrating Vercel
+  tests into your build process. Trigger with phrases like "vercel CI", "vercel GitHub
+  Actions...
 ---
-
 # Vercel Ci Integration
 
 ## Prerequisites
