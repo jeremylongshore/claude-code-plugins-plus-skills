@@ -1,15 +1,12 @@
 ---
-name: "windsurf-code-completion"
-description: |
-  Configure and optimize Supercomplete code suggestions. Activate when users mention
-  "code completion", "autocomplete", "supercomplete", "inline suggestions",
-  or "ai completions". Handles completion configuration and optimization. Use when working with windsurf code completion functionality. Trigger with phrases like "windsurf code completion", "windsurf completion", "windsurf".
-allowed-tools: Read,Write,Edit
-version: 1.0.0
+name: windsurf-code-completion
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit
+description: Configure and optimize Supercomplete code suggestions. Activate when
+  users mention "code completion", "autocomplete", "supercomplete", "inline suggestions",
+  or "ai completions". Handles completion configuration and optimization. Use when
+  working w...
 ---
-
 # Windsurf Code Completion
 
 ## Overview

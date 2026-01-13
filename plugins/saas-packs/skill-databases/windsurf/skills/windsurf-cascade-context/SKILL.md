@@ -1,15 +1,12 @@
 ---
-name: "windsurf-cascade-context"
-description: |
-  Manage Cascade context window and memory for complex projects. Activate when users mention
-  "cascade context", "ai memory", "context management", "large codebase navigation",
-  or "multi-session development". Handles context optimization and persistence. Use when working with windsurf cascade context functionality. Trigger with phrases like "windsurf cascade context", "windsurf context", "windsurf".
-allowed-tools: Read,Write,Edit,Grep,Glob
-version: 1.0.0
+name: windsurf-cascade-context
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit, Grep, Glob
+description: Manage Cascade context window and memory for complex projects. Activate
+  when users mention "cascade context", "ai memory", "context management", "large
+  codebase navigation", or "multi-session development". Handles context optimization
+  and persiste...
 ---
-
 # Windsurf Cascade Context
 
 ## Overview

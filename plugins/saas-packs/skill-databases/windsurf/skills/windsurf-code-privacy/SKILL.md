@@ -1,15 +1,12 @@
 ---
-name: "windsurf-code-privacy"
-description: |
-  Configure code privacy and data retention policies. Activate when users mention
-  "code privacy", "data retention", "privacy settings", "data governance",
-  or "gdpr compliance". Handles privacy and data protection configuration. Use when working with windsurf code privacy functionality. Trigger with phrases like "windsurf code privacy", "windsurf privacy", "windsurf".
-allowed-tools: Read,Write,Edit
-version: 1.0.0
+name: windsurf-code-privacy
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit
+description: Configure code privacy and data retention policies. Activate when users
+  mention "code privacy", "data retention", "privacy settings", "data governance",
+  or "gdpr compliance". Handles privacy and data protection configuration. Use when
+  working with...
 ---
-
 # Windsurf Code Privacy
 
 ## Overview

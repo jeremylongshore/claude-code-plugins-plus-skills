@@ -1,17 +1,12 @@
 ---
 name: sentry-upgrade-migration
-description: |
-  Execute upgrade Sentry SDK and migrate between versions.
-  Use when upgrading Sentry SDK, handling breaking changes,
-  or migrating from legacy versions.
-  Trigger with phrases like "upgrade sentry", "sentry migration",
-  "update sentry sdk", "sentry breaking changes".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Execute upgrade sentry sdk and migrate between versions. use when upgrading
+  sentry sdk, handling breaking changes, or migrating from legacy versions. trigger
+  with phrases like "upgrade sentry", "sentry migration", "update sentry sdk", "sentry
+  brea...
 ---
-
 # Sentry Upgrade Migration
 
 ## Prerequisites
