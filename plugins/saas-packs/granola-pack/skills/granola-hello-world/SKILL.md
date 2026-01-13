@@ -1,17 +1,12 @@
 ---
 name: granola-hello-world
-description: |
-  Capture your first meeting with Granola and review AI-generated notes.
-  Use when testing Granola setup, learning the interface,
-  or understanding how meeting capture works.
-  Trigger with phrases like "granola hello world", "first granola meeting",
-  "granola test", "granola quick start", "try granola".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Capture your first meeting with granola and review ai-generated notes.
+  use when testing granola setup, learning the interface, or understanding how meeting
+  capture works. trigger with phrases like "granola hello world", "first granola meeting",
+  "g...
 ---
-
 # Granola Hello World
 
 ## Overview

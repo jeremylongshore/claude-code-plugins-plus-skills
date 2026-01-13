@@ -1,17 +1,12 @@
 ---
 name: granola-migration-deep-dive
-description: |
-  Deep dive migration guide from other meeting note tools to Granola.
-  Use when migrating from Otter.ai, Fireflies, Fathom, or other tools,
-  planning data migration, or executing transition strategies.
-  Trigger with phrases like "migrate to granola", "switch to granola",
-  "granola from otter", "granola from fireflies", "granola migration".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Deep dive migration guide from other meeting note tools to granola. use
+  when migrating from otter.ai, fireflies, fathom, or other tools, planning data migration,
+  or executing transition strategies. trigger with phrases like "migrate to granola",
+  "...
 ---
-
 # Granola Migration Deep Dive
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: granola-enterprise-rbac
-description: |
-  Enterprise role-based access control for Granola.
-  Use when configuring user roles, setting permissions,
-  or implementing access control policies.
-  Trigger with phrases like "granola roles", "granola permissions",
-  "granola access control", "granola RBAC", "granola admin".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Enterprise role-based access control for granola. use when configuring
+  user roles, setting permissions, or implementing access control policies. trigger
+  with phrases like "granola roles", "granola permissions", "granola access control",
+  "granola r...
 ---
-
 # Granola Enterprise RBAC
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: granola-cost-tuning
-description: |
-  Optimize Granola costs and select the right pricing plan.
-  Use when evaluating plans, reducing costs,
-  or maximizing value from Granola subscription.
-  Trigger with phrases like "granola cost", "granola pricing",
-  "granola plan", "save money granola", "granola subscription".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize Granola costs and select the right pricing plan. Use when evaluating
+  plans, reducing costs, or maximizing value from Granola subscription. Trigger with
+  phrases like "granola cost", "granola pricing", "granola plan", "save money granola",
+  ...
 ---
-
 # Granola Cost Tuning
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: granola-deploy-integration
-description: |
-  Deploy Granola integrations to Slack, Notion, HubSpot, and other apps.
-  Use when connecting Granola to productivity tools,
-  setting up native integrations, or configuring auto-sync.
-  Trigger with phrases like "granola slack", "granola notion",
-  "granola hubspot", "granola integration", "connect granola".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Deploy Granola integrations to Slack, Notion, HubSpot, and other apps.
+  Use when connecting Granola to productivity tools, setting up native integrations,
+  or configuring auto-sync. Trigger with phrases like "granola slack", "granola notion",
+  "grano...
 ---
-
 # Granola Deploy Integration
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: granola-local-dev-loop
-description: |
-  Integrate Granola meeting notes into your local development workflow.
-  Use when setting up development workflows, accessing notes programmatically,
-  or syncing meeting outcomes with project tools.
-  Trigger with phrases like "granola dev workflow", "granola development",
-  "granola local setup", "granola developer", "granola coding workflow".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Integrate granola meeting notes into your local development workflow.
+  use when setting up development workflows, accessing notes programmatically, or
+  syncing meeting outcomes with project tools. trigger with phrases like "granola
+  dev workflow", "g...
 ---
-
 # Granola Local Dev Loop
 
 ## Overview
