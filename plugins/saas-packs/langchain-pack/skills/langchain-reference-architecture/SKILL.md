@@ -1,17 +1,12 @@
 ---
 name: langchain-reference-architecture
-description: |
-  Implement LangChain reference architecture patterns for production.
-  Use when designing LangChain systems, implementing scalable patterns,
-  or architecting enterprise LLM applications.
-  Trigger with phrases like "langchain architecture", "langchain design",
-  "langchain scalable", "langchain enterprise", "langchain patterns".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement langchain reference architecture patterns for production. use
+  when designing langchain systems, implementing scalable patterns, or architecting
+  enterprise llm applications. trigger with phrases like "langchain architecture",
+  "langchain d...
 ---
-
 # LangChain Reference Architecture
 
 ## Overview

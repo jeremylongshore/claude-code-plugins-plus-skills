@@ -1,17 +1,12 @@
 ---
 name: langchain-prod-checklist
-description: |
-  Execute LangChain production deployment checklist.
-  Use when preparing for production launch, validating deployment readiness,
-  or auditing existing production LangChain applications.
-  Trigger with phrases like "langchain production", "langchain prod ready",
-  "deploy langchain", "langchain launch checklist", "production checklist".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute langchain production deployment checklist. use when preparing
+  for production launch, validating deployment readiness, or auditing existing production
+  langchain applications. trigger with phrases like "langchain production", "langchain
+  prod...
 ---
-
 # LangChain Production Checklist
 
 ## Overview

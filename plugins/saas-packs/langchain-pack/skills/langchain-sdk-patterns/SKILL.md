@@ -1,17 +1,12 @@
 ---
 name: langchain-sdk-patterns
-description: |
-  Apply production-ready LangChain SDK patterns for chains, agents, and memory.
-  Use when implementing LangChain integrations, refactoring code,
-  or establishing team coding standards for LangChain applications.
-  Trigger with phrases like "langchain SDK patterns", "langchain best practices",
-  "langchain code patterns", "idiomatic langchain", "langchain architecture".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready langchain sdk patterns for chains, agents, and
+  memory. use when implementing langchain integrations, refactoring code, or establishing
+  team coding standards for langchain applications. trigger with phrases like "langchain
+  sd...
 ---
-
 # LangChain SDK Patterns
 
 ## Overview

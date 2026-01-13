@@ -1,17 +1,12 @@
 ---
 name: langchain-webhooks-events
-description: |
-  Implement LangChain callback and event handling for webhooks.
-  Use when integrating with external systems, implementing streaming,
-  or building event-driven LangChain applications.
-  Trigger with phrases like "langchain callbacks", "langchain webhooks",
-  "langchain events", "langchain streaming", "callback handler".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement langchain callback and event handling for webhooks. use when
+  integrating with external systems, implementing streaming, or building event-driven
+  langchain applications. trigger with phrases like "langchain callbacks", "langchain
+  webhooks...
 ---
-
 # LangChain Webhooks & Events
 
 ## Overview

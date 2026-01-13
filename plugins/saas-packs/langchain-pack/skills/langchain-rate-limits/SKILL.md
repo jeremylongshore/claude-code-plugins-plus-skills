@@ -1,17 +1,11 @@
 ---
 name: langchain-rate-limits
-description: |
-  Implement LangChain rate limiting and backoff strategies.
-  Use when handling API quotas, implementing retry logic,
-  or optimizing request throughput for LLM providers.
-  Trigger with phrases like "langchain rate limit", "langchain throttling",
-  "langchain backoff", "langchain retry", "API quota".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement langchain rate limiting and backoff strategies. use when handling
+  api quotas, implementing retry logic, or optimizing request throughput for llm providers.
+  trigger with phrases like "langchain rate limit", "langchain throttling", "langch...
 ---
-
 # LangChain Rate Limits
 
 ## Overview

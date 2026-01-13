@@ -1,17 +1,12 @@
 ---
 name: langchain-upgrade-migration
-description: |
-  Plan and execute LangChain SDK upgrades and migrations.
-  Use when upgrading LangChain versions, migrating from legacy patterns,
-  or updating to new APIs after breaking changes.
-  Trigger with phrases like "upgrade langchain", "langchain migration",
-  "langchain breaking changes", "update langchain version", "langchain 0.3".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Plan and execute langchain sdk upgrades and migrations. use when upgrading
+  langchain versions, migrating from legacy patterns, or updating to new apis after
+  breaking changes. trigger with phrases like "upgrade langchain", "langchain migration",
+  "l...
 ---
-
 # LangChain Upgrade Migration
 
 ## Overview

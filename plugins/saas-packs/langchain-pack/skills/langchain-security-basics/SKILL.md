@@ -1,17 +1,11 @@
 ---
 name: langchain-security-basics
-description: |
-  Apply LangChain security best practices for production.
-  Use when securing API keys, preventing prompt injection,
-  or implementing safe LLM interactions.
-  Trigger with phrases like "langchain security", "langchain API key safety",
-  "prompt injection", "langchain secrets", "secure langchain".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply langchain security best practices for production. use when securing
+  api keys, preventing prompt injection, or implementing safe llm interactions. trigger
+  with phrases like "langchain security", "langchain api key safety", "prompt injection",...
 ---
-
 # LangChain Security Basics
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: langchain-multi-env-setup
-description: |
-  Configure LangChain multi-environment setup for dev/staging/prod.
-  Use when managing multiple environments, configuring environment-specific settings,
-  or implementing environment promotion workflows.
-  Trigger with phrases like "langchain environments", "langchain staging",
-  "langchain dev prod", "environment configuration", "langchain env setup".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure LangChain multi-environment setup for dev/staging/prod. Use
+  when managing multiple environments, configuring environment-specific settings,
+  or implementing environment promotion workflows. Trigger with phrases like "langchain
+  environment...
 ---
-
 # LangChain Multi-Environment Setup
 
 ## Overview

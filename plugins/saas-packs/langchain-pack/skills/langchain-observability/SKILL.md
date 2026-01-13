@@ -1,17 +1,12 @@
 ---
 name: langchain-observability
-description: |
-  Set up comprehensive observability for LangChain integrations.
-  Use when implementing monitoring, setting up dashboards,
-  or configuring alerting for LangChain application health.
-  Trigger with phrases like "langchain monitoring", "langchain metrics",
-  "langchain observability", "langchain tracing", "langchain alerts".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Set up comprehensive observability for langchain integrations. use when
+  implementing monitoring, setting up dashboards, or configuring alerting for langchain
+  application health. trigger with phrases like "langchain monitoring", "langchain
+  metrics"...
 ---
-
 # LangChain Observability
 
 ## Overview
