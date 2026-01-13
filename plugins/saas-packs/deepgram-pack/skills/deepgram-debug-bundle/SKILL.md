@@ -1,17 +1,12 @@
 ---
 name: deepgram-debug-bundle
-description: |
-  Collect Deepgram debug evidence for support and troubleshooting.
-  Use when preparing support tickets, investigating issues,
-  or collecting diagnostic information for Deepgram problems.
-  Trigger with phrases like "deepgram debug", "deepgram support",
-  "collect deepgram logs", "deepgram diagnostic", "deepgram debug bundle".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Collect deepgram debug evidence for support and troubleshooting. use
+  when preparing support tickets, investigating issues, or collecting diagnostic information
+  for deepgram problems. trigger with phrases like "deepgram debug", "deepgram support",
+  ...
 ---
-
 # Deepgram Debug Bundle
 
 ## Overview

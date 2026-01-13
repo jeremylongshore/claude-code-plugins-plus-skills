@@ -1,17 +1,12 @@
 ---
 name: deepgram-incident-runbook
-description: |
-  Execute Deepgram incident response procedures for production issues.
-  Use when handling Deepgram outages, debugging production failures,
-  or responding to service degradation.
-  Trigger with phrases like "deepgram incident", "deepgram outage",
-  "deepgram production issue", "deepgram down", "deepgram emergency".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute deepgram incident response procedures for production issues.
+  use when handling deepgram outages, debugging production failures, or responding
+  to service degradation. trigger with phrases like "deepgram incident", "deepgram
+  outage", "deepgr...
 ---
-
 # Deepgram Incident Runbook
 
 ## Overview

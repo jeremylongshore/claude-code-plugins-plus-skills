@@ -1,17 +1,11 @@
 ---
 name: deepgram-enterprise-rbac
-description: |
-  Configure enterprise role-based access control for Deepgram integrations.
-  Use when implementing team permissions, managing API key scopes,
-  or setting up organization-level access controls.
-  Trigger with phrases like "deepgram RBAC", "deepgram permissions",
-  "deepgram access control", "deepgram team roles", "deepgram enterprise".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure enterprise role-based access control for Deepgram integrations.
+  Use when implementing team permissions, managing API key scopes, or setting up organization-level
+  access controls. Trigger with phrases like "deepgram RBAC", "deepgram permi...
 ---
-
 # Deepgram Enterprise RBAC
 
 ## Overview

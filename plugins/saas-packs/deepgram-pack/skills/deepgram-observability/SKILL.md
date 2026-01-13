@@ -1,17 +1,12 @@
 ---
 name: deepgram-observability
-description: |
-  Set up comprehensive observability for Deepgram integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for Deepgram operations, setting up dashboards,
-  or configuring alerting for Deepgram integration health.
-  Trigger with phrases like "deepgram monitoring", "deepgram metrics",
-  "deepgram observability", "monitor deepgram", "deepgram alerts", "deepgram tracing".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Set up comprehensive observability for deepgram integrations with metrics,
+  traces, and alerts. use when implementing monitoring for deepgram operations, setting
+  up dashboards, or configuring alerting for deepgram integration health. trigger
+  with p...
 ---
-
 # Deepgram Observability
 
 ## Overview

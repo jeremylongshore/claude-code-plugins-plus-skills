@@ -1,17 +1,12 @@
 ---
 name: deepgram-hello-world
-description: |
-  Create a minimal working Deepgram transcription example.
-  Use when starting a new Deepgram integration, testing your setup,
-  or learning basic Deepgram API patterns.
-  Trigger with phrases like "deepgram hello world", "deepgram example",
-  "deepgram quick start", "simple transcription", "transcribe audio".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Create a minimal working Deepgram transcription example. Use when starting
+  a new Deepgram integration, testing your setup, or learning basic Deepgram API patterns.
+  Trigger with phrases like "deepgram hello world", "deepgram example", "deepgram
+  qui...
 ---
-
 # Deepgram Hello World
 
 ## Overview

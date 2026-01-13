@@ -1,17 +1,12 @@
 ---
 name: deepgram-multi-env-setup
-description: |
-  Configure Deepgram multi-environment setup for dev, staging, and production.
-  Use when setting up environment-specific configurations, managing multiple
-  Deepgram projects, or implementing environment isolation.
-  Trigger with phrases like "deepgram environments", "deepgram staging",
-  "deepgram dev prod", "multi-environment deepgram", "deepgram config".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Deepgram multi-environment setup for dev, staging, and production.
+  Use when setting up environment-specific configurations, managing multiple Deepgram
+  projects, or implementing environment isolation. Trigger with phrases like "deepgram
+  e...
 ---
-
 # Deepgram Multi-Environment Setup
 
 ## Overview

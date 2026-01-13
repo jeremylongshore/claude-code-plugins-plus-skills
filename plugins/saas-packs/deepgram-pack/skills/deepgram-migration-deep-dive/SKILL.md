@@ -1,17 +1,11 @@
 ---
 name: deepgram-migration-deep-dive
-description: |
-  Deep dive into complex Deepgram migrations and provider transitions.
-  Use when migrating from other transcription providers, planning large-scale
-  migrations, or implementing phased rollout strategies.
-  Trigger with phrases like "deepgram migration", "switch to deepgram",
-  "migrate transcription", "deepgram from AWS", "deepgram from Google".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deep dive into complex deepgram migrations and provider transitions.
+  use when migrating from other transcription providers, planning large-scale migrations,
+  or implementing phased rollout strategies. trigger with phrases like "deepgram migration",...
 ---
-
 # Deepgram Migration Deep Dive
 
 ## Overview
