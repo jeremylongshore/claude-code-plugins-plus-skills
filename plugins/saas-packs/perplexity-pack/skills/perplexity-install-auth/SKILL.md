@@ -1,13 +1,15 @@
 ---
-name: perplexity-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure perplexity sdk/cli authentication. use when setting
   up a new perplexity integration, configuring api keys, or initializing perplexity
   in your project. trigger with phrases like "install perplexity", "setup perplexity",
   "perpl...
+name: perplexity-install-auth
 ---
 # Perplexity Install & Auth
+
+This skill provides automated assistance for perplexity install auth tasks.
 
 ## Overview
 Set up Perplexity SDK/CLI and configure authentication credentials.
