@@ -1,11 +1,11 @@
 ---
-name: performing-regression-analysis
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute this skill empowers ai assistant to perform regression analysis
   and modeling using the regression-analysis-tool plugin. it analyzes datasets, generates
   appropriate regression models (linear, polynomial, etc.), validates the models,
   and pro...
+name: performing-regression-analysis
 ---
 # Regression Analysis Tool
 

@@ -1,11 +1,11 @@
 ---
-name: deploying-machine-learning-models
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Deploy this skill enables AI assistant to deploy machine learning models
   to production environments. it automates the deployment workflow, implements best
   practices for serving models, optimizes performance, and handles potential errors.
   use this ...
+name: deploying-machine-learning-models
 ---
 # Model Deployment Helper
 

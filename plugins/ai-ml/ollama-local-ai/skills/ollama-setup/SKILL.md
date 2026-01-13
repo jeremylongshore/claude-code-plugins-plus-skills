@@ -1,13 +1,15 @@
 ---
-name: ollama-setup
-license: MIT
 allowed-tools: Read, Write, Bash
+license: MIT
 description: 'Configure auto-configure Ollama when user needs local LLM deployment,
   free AI alternatives, or wants to eliminate hosted API costs. Trigger phrases: "install
   ollama", "local AI", "free LLM", "self-hosted AI", "replace OpenAI", "no API costs".
   Use ...'
+name: ollama-setup
 ---
 # Ollama Setup
+
+This skill provides automated assistance for ollama setup tasks.
 
 ## Overview
 

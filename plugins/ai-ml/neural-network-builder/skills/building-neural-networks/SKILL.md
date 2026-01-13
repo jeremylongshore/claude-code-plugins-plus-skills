@@ -1,11 +1,11 @@
 ---
-name: building-neural-networks
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute this skill allows ai assistant to construct and configure neural
   network architectures using the neural-network-builder plugin. it should be used
   when the user requests the creation of a new neural network, modification of an
   existing one,...
+name: building-neural-networks
 ---
 # Neural Network Builder
 

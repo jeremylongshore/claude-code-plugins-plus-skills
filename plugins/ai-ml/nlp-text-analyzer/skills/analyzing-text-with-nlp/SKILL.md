@@ -1,11 +1,11 @@
 ---
-name: analyzing-text-with-nlp
-license: MIT
 allowed-tools: Read, Bash, Grep, Glob
+license: MIT
 description: Execute this skill enables ai assistant to perform natural language processing
   and text analysis using the nlp-text-analyzer plugin. it should be used when the
   user requests analysis of text, including sentiment analysis, keyword extraction,
   topic...
+name: analyzing-text-with-nlp
 ---
 # Nlp Text Analyzer
 
