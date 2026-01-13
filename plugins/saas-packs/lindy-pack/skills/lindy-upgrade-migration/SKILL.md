@@ -1,17 +1,12 @@
 ---
 name: lindy-upgrade-migration
-description: |
-  Guide for upgrading Lindy SDK and migrating between versions.
-  Use when upgrading SDK versions, migrating agents,
-  or handling breaking changes.
-  Trigger with phrases like "upgrade lindy", "lindy migration",
-  "lindy breaking changes", "update lindy SDK".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Guide for upgrading lindy sdk and migrating between versions. use when
+  upgrading sdk versions, migrating agents, or handling breaking changes. trigger
+  with phrases like "upgrade lindy", "lindy migration", "lindy breaking changes",
+  "update lindy sdk".
 ---
-
 # Lindy Upgrade & Migration
 
 ## Overview

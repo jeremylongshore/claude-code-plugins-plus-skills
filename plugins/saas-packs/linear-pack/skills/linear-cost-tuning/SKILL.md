@@ -1,17 +1,12 @@
 ---
 name: linear-cost-tuning
-description: |
-  Optimize Linear API usage and manage costs effectively.
-  Use when reducing API calls, managing rate limits efficiently,
-  or optimizing integration costs.
-  Trigger with phrases like "linear cost", "reduce linear API calls",
-  "linear efficiency", "linear API usage", "optimize linear costs".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Optimize Linear API usage and manage costs effectively. Use when reducing
+  API calls, managing rate limits efficiently, or optimizing integration costs. Trigger
+  with phrases like "linear cost", "reduce linear API calls", "linear efficiency",
+  "linea...
 ---
-
 # Linear Cost Tuning
 
 ## Overview

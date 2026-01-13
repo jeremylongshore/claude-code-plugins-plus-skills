@@ -1,17 +1,12 @@
 ---
 name: linear-data-handling
-description: |
-  Data synchronization, backup, and consistency patterns for Linear.
-  Use when implementing data sync, creating backups,
-  or ensuring data consistency across systems.
-  Trigger with phrases like "linear data sync", "backup linear",
-  "linear data consistency", "sync linear issues", "linear data export".
-allowed-tools: Read, Write, Edit, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep, Bash
+description: Data synchronization, backup, and consistency patterns for linear. use
+  when implementing data sync, creating backups, or ensuring data consistency across
+  systems. trigger with phrases like "linear data sync", "backup linear", "linear
+  data consiste...
 ---
-
 # Linear Data Handling
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: linear-ci-integration
-description: |
-  Configure Linear CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating Linear sync into your build process.
-  Trigger with phrases like "linear CI", "linear GitHub Actions",
-  "linear automated tests", "CI linear pipeline", "linear CI/CD".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Linear CI/CD integration with GitHub Actions and testing. Use
+  when setting up automated testing, configuring CI pipelines, or integrating Linear
+  sync into your build process. Trigger with phrases like "linear CI", "linear GitHub
+  Actions"...
 ---
-
 # Linear CI Integration
 
 ## Overview

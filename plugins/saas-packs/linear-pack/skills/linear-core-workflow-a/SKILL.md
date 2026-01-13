@@ -1,17 +1,12 @@
 ---
 name: linear-core-workflow-a
-description: |
-  Issue lifecycle management with Linear: create, update, and transition issues.
-  Use when implementing issue CRUD operations, state transitions,
-  or building issue management features.
-  Trigger with phrases like "linear issue workflow", "linear issue lifecycle",
-  "create linear issues", "update linear issue", "linear state transition".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: 'Issue lifecycle management with linear: create, update, and transition
+  issues. use when implementing issue crud operations, state transitions, or building
+  issue management features. trigger with phrases like "linear issue workflow", "linear
+  issue ...'
 ---
-
 # Linear Core Workflow A: Issue Lifecycle
 
 ## Overview

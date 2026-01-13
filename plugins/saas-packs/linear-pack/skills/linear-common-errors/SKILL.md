@@ -1,17 +1,12 @@
 ---
 name: linear-common-errors
-description: |
-  Diagnose and fix common Linear API errors.
-  Use when encountering Linear API errors, debugging integration issues,
-  or troubleshooting authentication problems.
-  Trigger with phrases like "linear error", "linear API error",
-  "debug linear", "linear not working", "linear authentication error".
-allowed-tools: Read, Write, Edit, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep, Bash
+description: Diagnose and fix common linear api errors. use when encountering linear
+  api errors, debugging integration issues, or troubleshooting authentication problems.
+  trigger with phrases like "linear error", "linear api error", "debug linear", "linear
+  not...
 ---
-
 # Linear Common Errors
 
 ## Overview

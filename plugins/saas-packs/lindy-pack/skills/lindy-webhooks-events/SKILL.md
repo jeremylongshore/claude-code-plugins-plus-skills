@@ -1,17 +1,11 @@
 ---
 name: lindy-webhooks-events
-description: |
-  Configure Lindy AI webhooks and event handling.
-  Use when setting up webhooks, handling events,
-  or building event-driven integrations.
-  Trigger with phrases like "lindy webhook", "lindy events",
-  "lindy event handler", "lindy callbacks".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure Lindy AI webhooks and event handling. Use when setting up webhooks,
+  handling events, or building event-driven integrations. Trigger with phrases like
+  "lindy webhook", "lindy events", "lindy event handler", "lindy callbacks".
 ---
-
 # Lindy Webhooks & Events
 
 ## Overview
