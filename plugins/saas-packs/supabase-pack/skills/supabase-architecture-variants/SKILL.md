@@ -1,13 +1,15 @@
 ---
-name: supabase-architecture-variants
-license: MIT
 allowed-tools: Read, Grep
+license: MIT
 description: Execute choose and implement supabase validated architecture blueprints
   for different scales. use when designing new supabase integrations, choosing between
   monolith/service/microservice architectures, or planning migration paths for supabase
   appl...
+name: supabase-architecture-variants
 ---
 # Supabase Architecture Variants
+
+This skill provides automated assistance for supabase architecture variants tasks.
 
 ## Prerequisites
 - Understanding of team size and DAU requirements

@@ -1,13 +1,15 @@
 ---
-name: supabase-advanced-troubleshooting
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Execute apply supabase advanced debugging techniques for hard-to-diagnose
   issues. use when standard troubleshooting fails, investigating complex race conditions,
   or preparing evidence bundles for supabase support escalation. trigger with phrases
   l...
+name: supabase-advanced-troubleshooting
 ---
 # Supabase Advanced Troubleshooting
+
+This skill provides automated assistance for supabase advanced troubleshooting tasks.
 
 ## Prerequisites
 - Access to production logs and metrics

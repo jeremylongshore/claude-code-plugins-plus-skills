@@ -1,13 +1,15 @@
 ---
-name: supabase-auth-storage-realtime-core
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute supabase secondary workflow: auth + storage + realtime. use
   when implementing secondary use case, or complementing primary workflow. trigger
   with phrases like "supabase auth storage realtime", "implement full stack features
   with supabase".'
+name: supabase-auth-storage-realtime-core
 ---
 # Supabase Auth + Storage + Realtime
+
+This skill provides automated assistance for supabase auth storage realtime core tasks.
 
 ## Overview
 Implement the core Supabase trifecta: authentication, file storage,

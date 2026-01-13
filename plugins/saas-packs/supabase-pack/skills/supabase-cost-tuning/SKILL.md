@@ -1,12 +1,14 @@
 ---
-name: supabase-cost-tuning
-license: MIT
 allowed-tools: Read, Grep
+license: MIT
 description: Optimize Supabase costs through tier selection, sampling, and usage monitoring.
   Use when analyzing Supabase billing, reducing API costs, or implementing usage monitoring
   and budget alerts. Trigger with phrases like "supabase cost", "supabase billi...
+name: supabase-cost-tuning
 ---
 # Supabase Cost Tuning
+
+This skill provides automated assistance for supabase cost tuning tasks.
 
 ## Prerequisites
 - Access to Supabase billing dashboard

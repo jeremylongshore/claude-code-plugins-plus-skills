@@ -1,13 +1,15 @@
 ---
-name: supabase-ci-integration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Configure Supabase CI/CD integration with GitHub Actions and testing.
   Use when setting up automated testing, configuring CI pipelines, or integrating
   Supabase tests into your build process. Trigger with phrases like "supabase CI",
   "supabase GitHub...
+name: supabase-ci-integration
 ---
 # Supabase Ci Integration
+
+This skill provides automated assistance for supabase ci integration tasks.
 
 ## Prerequisites
 - GitHub repository with Actions enabled

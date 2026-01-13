@@ -1,13 +1,15 @@
 ---
-name: supabase-common-errors
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Execute diagnose and fix supabase common errors and exceptions. use when
   encountering supabase errors, debugging failed requests, or troubleshooting integration
   issues. trigger with phrases like "supabase error", "fix supabase", "supabase not
   work...
+name: supabase-common-errors
 ---
 # Supabase Common Errors
+
+This skill provides automated assistance for supabase common errors tasks.
 
 ## Prerequisites
 - Supabase SDK installed

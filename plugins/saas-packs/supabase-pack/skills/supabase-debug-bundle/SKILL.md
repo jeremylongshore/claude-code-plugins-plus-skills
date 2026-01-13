@@ -1,13 +1,15 @@
 ---
-name: supabase-debug-bundle
-license: MIT
 allowed-tools: Read, Bash, Grep
+license: MIT
 description: Execute collect supabase debug evidence for support tickets and troubleshooting.
   use when encountering persistent issues, preparing support tickets, or collecting
   diagnostic information for supabase problems. trigger with phrases like "supabase
   de...
+name: supabase-debug-bundle
 ---
 # Supabase Debug Bundle
+
+This skill provides automated assistance for supabase debug bundle tasks.
 
 ## Prerequisites
 - Supabase SDK installed

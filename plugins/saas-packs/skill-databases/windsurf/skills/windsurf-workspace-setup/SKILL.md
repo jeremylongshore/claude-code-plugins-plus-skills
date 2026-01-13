@@ -1,13 +1,15 @@
 ---
-name: windsurf-workspace-setup
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Initialize windsurf workspace with project-specific ai rules. activate
   when users mention "create windsurfrules", "setup workspace", "configure project
   ai", "initialize windsurf workspace", or "migrate to windsurf". handles workspace
   configuration...
+name: windsurf-workspace-setup
 ---
 # Windsurf Workspace Setup
+
+This skill provides automated assistance for windsurf workspace setup tasks.
 
 ## Overview
 
