@@ -1,17 +1,12 @@
 ---
 name: replit-security-basics
-description: |
-  Apply Replit security best practices for secrets and access control.
-  Use when securing API keys, implementing least privilege access,
-  or auditing Replit security configuration.
-  Trigger with phrases like "replit security", "replit secrets",
-  "secure replit", "replit API key security".
-allowed-tools: Read, Write, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Grep
+description: Apply replit security best practices for secrets and access control.
+  use when securing api keys, implementing least privilege access, or auditing replit
+  security configuration. trigger with phrases like "replit security", "replit secrets",
+  "secure...
 ---
-
 # Replit Security Basics
 
 ## Overview

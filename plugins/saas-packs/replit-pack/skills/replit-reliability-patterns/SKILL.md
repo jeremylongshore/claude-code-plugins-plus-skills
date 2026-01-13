@@ -1,17 +1,12 @@
 ---
 name: replit-reliability-patterns
-description: |
-  Implement Replit reliability patterns including circuit breakers, idempotency, and graceful degradation.
-  Use when building fault-tolerant Replit integrations, implementing retry strategies,
-  or adding resilience to production Replit services.
-  Trigger with phrases like "replit reliability", "replit circuit breaker",
-  "replit idempotent", "replit resilience", "replit fallback", "replit bulkhead".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement replit reliability patterns including circuit breakers, idempotency,
+  and graceful degradation. use when building fault-tolerant replit integrations,
+  implementing retry strategies, or adding resilience to production replit services.
+  trigg...
 ---
-
 # Replit Reliability Patterns
 
 ## Overview

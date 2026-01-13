@@ -1,17 +1,11 @@
 ---
 name: replit-policy-guardrails
-description: |
-  Implement Replit lint rules, policy enforcement, and automated guardrails.
-  Use when setting up code quality rules for Replit integrations, implementing
-  pre-commit hooks, or configuring CI policy checks for Replit best practices.
-  Trigger with phrases like "replit policy", "replit lint",
-  "replit guardrails", "replit best practices check", "replit eslint".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement replit lint rules, policy enforcement, and automated guardrails.
+  use when setting up code quality rules for replit integrations, implementing pre-commit
+  hooks, or configuring ci policy checks for replit best practices. trigger with phras...
 ---
-
 # Replit Policy & Guardrails
 
 ## Overview

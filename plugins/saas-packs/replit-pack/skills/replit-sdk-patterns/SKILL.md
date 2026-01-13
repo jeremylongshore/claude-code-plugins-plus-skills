@@ -1,17 +1,12 @@
 ---
 name: replit-sdk-patterns
-description: |
-  Apply production-ready Replit SDK patterns for TypeScript and Python.
-  Use when implementing Replit integrations, refactoring SDK usage,
-  or establishing team coding standards for Replit.
-  Trigger with phrases like "replit SDK patterns", "replit best practices",
-  "replit code patterns", "idiomatic replit".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready replit sdk patterns for typescript and python.
+  use when implementing replit integrations, refactoring sdk usage, or establishing
+  team coding standards for replit. trigger with phrases like "replit sdk patterns",
+  "replit best...
 ---
-
 # Replit SDK Patterns
 
 ## Overview

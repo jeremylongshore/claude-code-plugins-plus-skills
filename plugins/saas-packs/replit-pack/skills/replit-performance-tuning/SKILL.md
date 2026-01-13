@@ -1,17 +1,12 @@
 ---
 name: replit-performance-tuning
-description: |
-  Optimize Replit API performance with caching, batching, and connection pooling.
-  Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Replit integrations.
-  Trigger with phrases like "replit performance", "optimize replit",
-  "replit latency", "replit caching", "replit slow", "replit batch".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize Replit API performance with caching, batching, and connection
+  pooling. Use when experiencing slow API responses, implementing caching strategies,
+  or optimizing request throughput for Replit integrations. Trigger with phrases like
+  "replit ...
 ---
-
 # Replit Performance Tuning
 
 ## Overview

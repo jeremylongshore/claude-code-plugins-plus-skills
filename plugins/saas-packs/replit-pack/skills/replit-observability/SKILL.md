@@ -1,17 +1,12 @@
 ---
 name: replit-observability
-description: |
-  Set up comprehensive observability for Replit integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for Replit operations, setting up dashboards,
-  or configuring alerting for Replit integration health.
-  Trigger with phrases like "replit monitoring", "replit metrics",
-  "replit observability", "monitor replit", "replit alerts", "replit tracing".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Set up comprehensive observability for replit integrations with metrics,
+  traces, and alerts. use when implementing monitoring for replit operations, setting
+  up dashboards, or configuring alerting for replit integration health. trigger with
+  phrases...
 ---
-
 # Replit Observability
 
 ## Overview

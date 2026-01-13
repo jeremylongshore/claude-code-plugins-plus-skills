@@ -1,17 +1,12 @@
 ---
 name: replit-reference-architecture
-description: |
-  Implement Replit reference architecture with best-practice project layout.
-  Use when designing new Replit integrations, reviewing project structure,
-  or establishing architecture standards for Replit applications.
-  Trigger with phrases like "replit architecture", "replit best practices",
-  "replit project structure", "how to organize replit", "replit layout".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Implement replit reference architecture with best-practice project layout.
+  use when designing new replit integrations, reviewing project structure, or establishing
+  architecture standards for replit applications. trigger with phrases like "replit
+  a...
 ---
-
 # Replit Reference Architecture
 
 ## Overview
