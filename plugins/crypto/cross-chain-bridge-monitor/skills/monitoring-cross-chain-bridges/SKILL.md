@@ -1,12 +1,14 @@
 ---
-name: monitoring-cross-chain-bridges
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Monitor cross-chain bridge security, liquidity, and transaction status
   across networks. Use when monitoring cross-chain asset transfers. Trigger with phrases
   like "monitor bridges", "check cross-chain", or "track bridge transfers".
+name: monitoring-cross-chain-bridges
 ---
 # Monitoring Cross Chain Bridges
+
+This skill provides automated assistance for monitoring cross chain bridges tasks.
 
 ## Overview
 

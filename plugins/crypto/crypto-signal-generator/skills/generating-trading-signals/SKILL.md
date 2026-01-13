@@ -1,12 +1,14 @@
 ---
-name: generating-trading-signals
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Generate trading signals using technical indicators and on-chain metrics.
   Use when receiving trading signals and alerts. Trigger with phrases like "get trading
   signals", "check indicators", or "analyze signals".
+name: generating-trading-signals
 ---
 # Generating Trading Signals
+
+This skill provides automated assistance for generating trading signals tasks.
 
 ## Overview
 

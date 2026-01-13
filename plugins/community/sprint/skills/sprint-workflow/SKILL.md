@@ -1,13 +1,15 @@
 ---
-name: sprint-workflow
-license: MIT
 allowed-tools: Read
+license: MIT
 description: Execute this skill should be used when the user asks about "how sprints
   work", "sprint phases", "iteration workflow", "convergent development", "sprint
   lifecycle", "when to use sprints", or wants to understand the sprint execution model
   and its co...
+name: sprint-workflow
 ---
 # Sprint Workflow
+
+This skill provides automated assistance for sprint workflow tasks.
 
 ## Overview
 

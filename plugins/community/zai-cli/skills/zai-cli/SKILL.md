@@ -1,13 +1,15 @@
 ---
-name: zai-cli
-license: Apache-2.0
 allowed-tools: Read, Write, Edit, Bash, WebFetch
+license: Apache-2.0
 description: Execute z.ai cli providing vision, search, reader, and github exploration
   via cli and mcp. use when user needs image/video analysis, ocr, ui-to-code conversion,
   error diagnosis, real-time web search, web page to markdown extraction, or github
   code...
+name: zai-cli
 ---
 # Zai Cli
+
+This skill provides automated assistance for zai cli tasks.
 
 ## Overview
 

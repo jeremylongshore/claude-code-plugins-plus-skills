@@ -1,13 +1,15 @@
 ---
-name: spec-writing
-license: MIT
 allowed-tools: Read
+license: MIT
 description: Execute this skill should be used when the user asks about "writing specs",
   "specs.md format", "how to write specifications", "sprint requirements", "testing
   configuration", "scope definition", or needs guidance on creating effective sprint
   specif...
+name: spec-writing
 ---
 # Spec Writing
+
+This skill provides automated assistance for spec writing tasks.
 
 ## Overview
 

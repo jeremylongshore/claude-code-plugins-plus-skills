@@ -1,12 +1,14 @@
 ---
-name: finding-arbitrage-opportunities
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Detect profitable arbitrage opportunities across exchanges and dexs in
   real-time. use when discovering profitable arbitrage across exchanges. trigger with
   phrases like "find arbitrage", "scan for arb opportunities", or "check arbitrage".
+name: finding-arbitrage-opportunities
 ---
 # Finding Arbitrage Opportunities
+
+This skill provides automated assistance for finding arbitrage opportunities tasks.
 
 ## Overview
 

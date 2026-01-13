@@ -1,12 +1,14 @@
 ---
-name: tracking-crypto-portfolio
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Track multi-chain crypto portfolio with real-time valuations and performance
   metrics. use when managing multi-chain crypto holdings. trigger with phrases like
   "track my portfolio", "check holdings", or "analyze positions".
+name: tracking-crypto-portfolio
 ---
 # Tracking Crypto Portfolio
+
+This skill provides automated assistance for tracking crypto portfolio tasks.
 
 ## Overview
 

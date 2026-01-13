@@ -1,12 +1,14 @@
 ---
-name: tracking-crypto-derivatives
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Track futures, options, and perpetual swap positions with p&l calculations.
   use when tracking futures and options positions. trigger with phrases like "track
   derivatives", "check futures positions", or "analyze perps".
+name: tracking-crypto-derivatives
 ---
 # Tracking Crypto Derivatives
+
+This skill provides automated assistance for tracking crypto derivatives tasks.
 
 ## Overview
 

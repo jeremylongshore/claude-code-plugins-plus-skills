@@ -1,12 +1,14 @@
 ---
-name: aggregating-crypto-news
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute aggregate breaking crypto news, announcements, and market-moving
   events in real-time. use when staying updated on crypto market events. trigger with
   phrases like "get crypto news", "check latest announcements", or "scan for updates".
+name: aggregating-crypto-news
 ---
 # Aggregating Crypto News
+
+This skill provides automated assistance for aggregating crypto news tasks.
 
 ## Overview
 

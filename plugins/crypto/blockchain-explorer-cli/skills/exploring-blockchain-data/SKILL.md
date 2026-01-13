@@ -1,13 +1,15 @@
 ---
-name: exploring-blockchain-data
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Process query and analyze blockchain data including blocks, transactions,
   and smart contracts. Use when querying blockchain data and transactions. Trigger
   with phrases like "explore blockchain", "query transactions", or "check on-chain
   data".
+name: exploring-blockchain-data
 ---
 # Exploring Blockchain Data
+
+This skill provides automated assistance for exploring blockchain data tasks.
 
 ## Overview
 
