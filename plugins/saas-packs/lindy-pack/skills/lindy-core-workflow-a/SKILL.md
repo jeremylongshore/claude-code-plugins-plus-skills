@@ -1,17 +1,12 @@
 ---
 name: lindy-core-workflow-a
-description: |
-  Core Lindy workflow for creating and configuring AI agents.
-  Use when building new agents, defining agent behaviors,
-  or setting up agent capabilities.
-  Trigger with phrases like "create lindy agent", "build lindy agent",
-  "lindy agent workflow", "configure lindy agent".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Core lindy workflow for creating and configuring ai agents. use when
+  building new agents, defining agent behaviors, or setting up agent capabilities.
+  trigger with phrases like "create lindy agent", "build lindy agent", "lindy agent
+  workflow", "con...
 ---
-
 # Lindy Core Workflow A: Agent Creation
 
 ## Overview

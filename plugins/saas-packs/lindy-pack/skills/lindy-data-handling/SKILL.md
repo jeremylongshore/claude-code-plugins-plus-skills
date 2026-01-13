@@ -1,17 +1,11 @@
 ---
 name: lindy-data-handling
-description: |
-  Best practices for handling data with Lindy AI.
-  Use when managing sensitive data, implementing data privacy,
-  or ensuring data compliance.
-  Trigger with phrases like "lindy data", "lindy privacy",
-  "lindy PII", "lindy data handling", "lindy GDPR".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Best practices for handling data with lindy ai. use when managing sensitive
+  data, implementing data privacy, or ensuring data compliance. trigger with phrases
+  like "lindy data", "lindy privacy", "lindy pii", "lindy data handling", "lindy gdpr".
 ---
-
 # Lindy Data Handling
 
 ## Overview

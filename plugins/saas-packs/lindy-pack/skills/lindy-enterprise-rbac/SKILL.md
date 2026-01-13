@@ -1,17 +1,12 @@
 ---
 name: lindy-enterprise-rbac
-description: |
-  Configure enterprise role-based access control for Lindy AI.
-  Use when setting up team permissions, managing access,
-  or implementing enterprise security policies.
-  Trigger with phrases like "lindy permissions", "lindy RBAC",
-  "lindy access control", "lindy enterprise security".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure enterprise role-based access control for Lindy AI. Use when
+  setting up team permissions, managing access, or implementing enterprise security
+  policies. Trigger with phrases like "lindy permissions", "lindy RBAC", "lindy access
+  control", ...
 ---
-
 # Lindy Enterprise RBAC
 
 ## Overview
