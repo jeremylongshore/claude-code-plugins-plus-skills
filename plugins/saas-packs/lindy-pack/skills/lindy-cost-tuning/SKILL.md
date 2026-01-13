@@ -1,170 +1,22 @@
 ---
-name: lindy-cost-tuning
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Optimize Lindy AI costs and manage usage efficiently. Use when reducing
   costs, analyzing usage patterns, or optimizing budget allocation. Trigger with phrases
   like "lindy cost", "lindy billing", "reduce lindy spend", "lindy budget".
+name: lindy-cost-tuning
 ---
 # Lindy Cost Tuning
 
-## Overview
-Optimize Lindy AI costs while maintaining service quality.
+This skill provides automated assistance for lindy cost tuning tasks.
 
 ## Prerequisites
 - Access to Lindy billing dashboard
 - Usage data available
 - Understanding of pricing tiers
 
-## Instructions
 
-### Step 1: Analyze Current Usage
-```typescript
-import { Lindy } from '@lindy-ai/sdk';
-
-async function analyzeUsage() {
-  const lindy = new Lindy({ apiKey: process.env.LINDY_API_KEY });
-
-  const usage = await lindy.usage.monthly({
-    startDate: '2025-01-01',
-    endDate: '2025-01-31',
-  });
-
-  const analysis = {
-    totalRuns: usage.agentRuns.total,
-    totalCost: usage.billing.total,
-    costPerRun: usage.billing.total / usage.agentRuns.total,
-    topAgents: usage.byAgent
-      .sort((a: any, b: any) => b.cost - a.cost)
-      .slice(0, 5),
-    peakHours: usage.byHour
-      .sort((a: any, b: any) => b.runs - a.runs)
-      .slice(0, 5),
-  };
-
-  console.log('Usage Analysis:', analysis);
-  return analysis;
-}
-```
-
-### Step 2: Implement Usage Budgets
-```typescript
-interface Budget {
-  monthly: number;
-  daily: number;
-  perAgent: number;
-}
-
-const budget: Budget = {
-  monthly: 500, // $500/month
-  daily: 20,    // $20/day
-  perAgent: 50, // $50/agent/month
-};
-
-async function checkBudget(): Promise<boolean> {
-  const lindy = new Lindy({ apiKey: process.env.LINDY_API_KEY });
-
-  const usage = await lindy.usage.current();
-
-  if (usage.billing.monthly >= budget.monthly) {
-    console.error('Monthly budget exceeded!');
-    await sendAlert('Budget exceeded', { usage, budget });
-    return false;
-  }
-
-  if (usage.billing.today >= budget.daily) {
-    console.warn('Daily budget exceeded');
-    return false;
-  }
-
-  return true;
-}
-```
-
-### Step 3: Optimize Agent Costs
-```typescript
-// Cost-optimized agent configuration
-const optimizedAgent = {
-  name: 'Cost-Efficient Agent',
-  instructions: 'Be brief. Answer in 1-2 sentences.',
-  config: {
-    model: 'gpt-3.5-turbo', // Cheaper model
-    maxTokens: 100,         // Limit output
-    temperature: 0.3,       // Less creative = fewer tokens
-  },
-};
-
-// Route simple queries to cheaper agents
-async function routeQuery(input: string) {
-  const isSimple = input.length < 100 && !input.includes('analyze');
-
-  const agentId = isSimple
-    ? 'agt_cheap_simple'
-    : 'agt_expensive_complex';
-
-  return lindy.agents.run(agentId, { input });
-}
-```
-
-### Step 4: Implement Caching to Reduce Calls
-```typescript
-import NodeCache from 'node-cache';
-
-const cache = new NodeCache({ stdTTL: 3600 }); // 1 hour cache
-
-async function cachedRun(agentId: string, input: string) {
-  const cacheKey = `${agentId}:${input}`;
-
-  // Check cache first (free!)
-  const cached = cache.get(cacheKey);
-  if (cached) {
-    console.log('Cache hit - $0');
-    return cached;
-  }
-
-  // Only call API if cache miss
-  const result = await lindy.agents.run(agentId, { input });
-  cache.set(cacheKey, result);
-
-  console.log('Cache miss - API call made');
-  return result;
-}
-```
-
-### Step 5: Set Up Cost Alerts
-```typescript
-async function setupCostAlerts() {
-  const lindy = new Lindy({ apiKey: process.env.LINDY_API_KEY });
-
-  // Alert at 80% of budget
-  await lindy.billing.alerts.create({
-    threshold: 400, // $400 of $500 budget
-    type: 'monthly',
-    channels: ['email', 'slack'],
-    message: 'Approaching monthly budget limit',
-  });
-
-  // Daily anomaly detection
-  await lindy.billing.alerts.create({
-    threshold: 50, // 50% above average
-    type: 'anomaly',
-    channels: ['slack'],
-    message: 'Unusual spending detected',
-  });
-}
-```
-
-## Cost Optimization Checklist
-```markdown
-[ ] Usage analysis completed
-[ ] Budget limits defined
-[ ] Cost alerts configured
-[ ] Caching implemented
-[ ] Cheaper models for simple tasks
-[ ] Max tokens configured
-[ ] Unused agents identified and disabled
-[ ] Peak usage patterns analyzed
-```
+See `{baseDir}/references/implementation.md` for detailed implementation guide.
 
 ## Output
 - Usage analysis report
@@ -174,43 +26,14 @@ async function setupCostAlerts() {
 - Alert system
 
 ## Error Handling
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| Budget exceeded | High usage | Throttle or pause |
-| Cost spike | Anomaly | Investigate and alert |
-| Cache ineffective | Low hit rate | Tune TTL |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Monthly Cost Report
-```typescript
-async function generateCostReport() {
-  const usage = await analyzeUsage();
-
-  const report = `
-# Lindy Cost Report - ${new Date().toISOString().slice(0, 7)}
-
-## Summary
-- Total Runs: ${usage.totalRuns}
-- Total Cost: $${usage.totalCost.toFixed(2)}
-- Cost per Run: $${usage.costPerRun.toFixed(4)}
-
-## Top Agents by Cost
-${usage.topAgents.map((a: any) => `- ${a.name}: $${a.cost.toFixed(2)}`).join('\n')}
-
-## Recommendations
-${usage.costPerRun > 0.05 ? '- Consider cheaper models for simple tasks' : ''}
-${usage.cacheHitRate < 0.3 ? '- Improve caching strategy' : ''}
-  `;
-
-  return report;
-}
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Lindy Pricing](https://lindy.ai/pricing)
 - [Usage Dashboard](https://app.lindy.ai/usage)
 - [Cost Optimization Guide](https://docs.lindy.ai/cost)
-
-## Next Steps
-Proceed to `lindy-reference-architecture` for architecture patterns.
