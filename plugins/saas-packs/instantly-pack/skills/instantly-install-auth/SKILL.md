@@ -1,13 +1,15 @@
 ---
-name: instantly-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure instantly sdk/cli authentication. use when setting
   up a new instantly integration, configuring api keys, or initializing instantly
   in your project. trigger with phrases like "install instantly", "setup instantly",
   "instantly ...
+name: instantly-install-auth
 ---
 # Instantly Install & Auth
+
+This skill provides automated assistance for instantly install auth tasks.
 
 ## Overview
 Set up Instantly SDK/CLI and configure authentication credentials.

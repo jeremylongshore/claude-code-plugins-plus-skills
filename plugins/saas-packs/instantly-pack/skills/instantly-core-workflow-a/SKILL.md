@@ -1,12 +1,14 @@
 ---
-name: instantly-core-workflow-a
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute instantly primary workflow: core workflow a. use when implementing
   primary use case, building main features, or core integration tasks. trigger with
   phrases like "instantly main workflow", "primary task with instantly".'
+name: instantly-core-workflow-a
 ---
 # Instantly Core Workflow A
+
+This skill provides automated assistance for instantly core workflow a tasks.
 
 ## Overview
 Primary money-path workflow for Instantly. This is the most common use case.

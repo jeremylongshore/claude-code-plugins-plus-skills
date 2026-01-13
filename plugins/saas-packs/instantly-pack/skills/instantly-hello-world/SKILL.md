@@ -1,13 +1,15 @@
 ---
-name: instantly-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working Instantly example. Use when starting a new Instantly
   integration, testing your setup, or learning basic Instantly API patterns. Trigger
   with phrases like "instantly hello world", "instantly example", "instantly quick
   start...
+name: instantly-hello-world
 ---
 # Instantly Hello World
+
+This skill provides automated assistance for instantly hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core Instantly functionality.

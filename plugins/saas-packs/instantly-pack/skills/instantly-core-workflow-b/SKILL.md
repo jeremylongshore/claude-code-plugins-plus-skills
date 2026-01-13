@@ -1,12 +1,14 @@
 ---
-name: instantly-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute instantly secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "instantly secondary workflow", "secondary task with instantly".'
+name: instantly-core-workflow-b
 ---
 # Instantly Core Workflow B
+
+This skill provides automated assistance for instantly core workflow b tasks.
 
 ## Overview
 Secondary workflow for Instantly. Complements the primary workflow.
