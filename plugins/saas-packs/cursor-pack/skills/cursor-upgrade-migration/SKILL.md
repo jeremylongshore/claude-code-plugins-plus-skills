@@ -1,13 +1,15 @@
 ---
-name: cursor-upgrade-migration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Execute upgrade cursor versions and migrate settings. triggers on "upgrade
   cursor", "update cursor", "cursor migration", "cursor new version", "cursor changelog".
   use when working with cursor upgrade migration functionality. trigger with phrases
   l...
+name: cursor-upgrade-migration
 ---
 # Cursor Upgrade Migration
+
+This skill provides automated assistance for cursor upgrade migration tasks.
 
 ## Overview
 

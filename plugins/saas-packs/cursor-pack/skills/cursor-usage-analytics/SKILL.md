@@ -1,13 +1,15 @@
 ---
-name: cursor-usage-analytics
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Track and analyze cursor usage metrics. triggers on "cursor analytics",
   "cursor usage", "cursor metrics", "cursor reporting", "cursor dashboard". use when
   working with cursor usage analytics functionality. trigger with phrases like "cursor
   usage a...
+name: cursor-usage-analytics
 ---
 # Cursor Usage Analytics
+
+This skill provides automated assistance for cursor usage analytics tasks.
 
 ## Overview
 

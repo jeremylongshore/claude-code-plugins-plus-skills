@@ -1,13 +1,15 @@
 ---
-name: cursor-sso-integration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Configure SSO and enterprise authentication in Cursor. Triggers on "cursor
   sso", "cursor saml", "cursor oauth", "enterprise cursor auth", "cursor okta". Use
   when working with cursor sso integration functionality. Trigger with phrases like
   "cursor ...
+name: cursor-sso-integration
 ---
 # Cursor Sso Integration
+
+This skill provides automated assistance for cursor sso integration tasks.
 
 ## Overview
 

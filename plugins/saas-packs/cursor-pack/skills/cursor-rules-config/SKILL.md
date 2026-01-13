@@ -1,13 +1,15 @@
 ---
-name: cursor-rules-config
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Configure .cursorrules for project-specific AI behavior. Triggers on
   "cursorrules", ".cursorrules", "cursor rules", "cursor config", "cursor project
   settings". Use when configuring systems or services. Trigger with phrases like "cursor
   rules confi...
+name: cursor-rules-config
 ---
 # Cursor Rules Config
+
+This skill provides automated assistance for cursor rules config tasks.
 
 ## Overview
 

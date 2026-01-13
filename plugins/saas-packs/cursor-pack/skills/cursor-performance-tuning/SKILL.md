@@ -1,13 +1,15 @@
 ---
-name: cursor-performance-tuning
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Optimize Cursor IDE performance. Triggers on "cursor performance", "cursor
   slow", "cursor optimization", "cursor memory", "speed up cursor". Use when working
   with cursor performance tuning functionality. Trigger with phrases like "cursor
   performan...
+name: cursor-performance-tuning
 ---
 # Cursor Performance Tuning
+
+This skill provides automated assistance for cursor performance tuning tasks.
 
 ## Overview
 

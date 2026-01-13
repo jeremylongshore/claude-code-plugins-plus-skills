@@ -1,13 +1,15 @@
 ---
-name: cursor-prod-checklist
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Execute production readiness checklist for cursor ide setup. triggers
   on "cursor production", "cursor ready", "cursor checklist", "optimize cursor setup".
   use when working with cursor prod checklist functionality. trigger with phrases
   like "cursor...
+name: cursor-prod-checklist
 ---
 # Cursor Prod Checklist
+
+This skill provides automated assistance for cursor prod checklist tasks.
 
 ## Overview
 

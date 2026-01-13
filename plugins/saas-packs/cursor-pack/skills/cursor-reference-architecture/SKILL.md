@@ -1,13 +1,15 @@
 ---
-name: cursor-reference-architecture
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Execute reference architecture patterns for cursor ide projects. triggers
   on "cursor architecture", "cursor project structure", "cursor best practices", "cursor
   team setup". use when working with cursor reference architecture functionality.
   trigge...
+name: cursor-reference-architecture
 ---
 # Cursor Reference Architecture
+
+This skill provides automated assistance for cursor reference architecture tasks.
 
 ## Overview
 

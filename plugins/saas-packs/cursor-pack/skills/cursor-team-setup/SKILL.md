@@ -1,13 +1,15 @@
 ---
-name: cursor-team-setup
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Configure set up Cursor for teams and organizations. Triggers on "cursor
   team", "cursor organization", "cursor business", "cursor enterprise setup". Use
   when working with cursor team setup functionality. Trigger with phrases like "cursor
   team setu...
+name: cursor-team-setup
 ---
 # Cursor Team Setup
+
+This skill provides automated assistance for cursor team setup tasks.
 
 ## Overview
 

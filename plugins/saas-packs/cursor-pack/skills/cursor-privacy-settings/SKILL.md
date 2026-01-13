@@ -1,13 +1,15 @@
 ---
-name: cursor-privacy-settings
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Configure Cursor privacy and data handling settings. Triggers on "cursor
   privacy", "cursor data", "cursor security", "privacy mode", "cursor telemetry".
   Use when working with cursor privacy settings functionality. Trigger with phrases
   like "cursor...
+name: cursor-privacy-settings
 ---
 # Cursor Privacy Settings
+
+This skill provides automated assistance for cursor privacy settings tasks.
 
 ## Overview
 
