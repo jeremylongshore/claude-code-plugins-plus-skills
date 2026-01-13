@@ -1,12 +1,14 @@
 ---
-name: firecrawl-core-workflow-a
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute firecrawl primary workflow: core workflow a. use when implementing
   primary use case, building main features, or core integration tasks. trigger with
   phrases like "firecrawl main workflow", "primary task with firecrawl".'
+name: firecrawl-core-workflow-a
 ---
 # FireCrawl Core Workflow A
+
+This skill provides automated assistance for firecrawl core workflow a tasks.
 
 ## Overview
 Primary money-path workflow for FireCrawl. This is the most common use case.

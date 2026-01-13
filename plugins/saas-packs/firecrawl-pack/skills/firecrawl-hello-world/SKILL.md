@@ -1,13 +1,15 @@
 ---
-name: firecrawl-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working FireCrawl example. Use when starting a new FireCrawl
   integration, testing your setup, or learning basic FireCrawl API patterns. Trigger
   with phrases like "firecrawl hello world", "firecrawl example", "firecrawl quick
   start...
+name: firecrawl-hello-world
 ---
 # FireCrawl Hello World
+
+This skill provides automated assistance for firecrawl hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core FireCrawl functionality.

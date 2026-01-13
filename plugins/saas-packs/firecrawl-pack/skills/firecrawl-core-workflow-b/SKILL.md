@@ -1,12 +1,14 @@
 ---
-name: firecrawl-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute firecrawl secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "firecrawl secondary workflow", "secondary task with firecrawl".'
+name: firecrawl-core-workflow-b
 ---
 # FireCrawl Core Workflow B
+
+This skill provides automated assistance for firecrawl core workflow b tasks.
 
 ## Overview
 Secondary workflow for FireCrawl. Complements the primary workflow.

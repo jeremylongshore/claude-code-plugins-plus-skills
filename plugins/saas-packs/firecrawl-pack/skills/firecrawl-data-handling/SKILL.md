@@ -1,13 +1,15 @@
 ---
-name: firecrawl-data-handling
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Implement firecrawl pii handling, data retention, and gdpr/ccpa compliance
   patterns. use when handling sensitive data, implementing data redaction, configuring
   retention policies, or ensuring compliance with privacy regulations for firecrawl
   integ...
+name: firecrawl-data-handling
 ---
 # FireCrawl Data Handling
+
+This skill provides automated assistance for firecrawl data handling tasks.
 
 ## Overview
 Handle sensitive data correctly when integrating with FireCrawl.

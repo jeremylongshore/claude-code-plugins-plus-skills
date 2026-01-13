@@ -1,15 +1,14 @@
 ---
-name: firecrawl-common-errors
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Diagnose and fix firecrawl common errors and exceptions. use when encountering
   firecrawl errors, debugging failed requests, or troubleshooting integration issues.
   trigger with phrases like "firecrawl error", "fix firecrawl", "firecrawl not working...
+name: firecrawl-common-errors
 ---
-# FireCrawl Common Errors
+# Firecrawl Common Errors
 
-## Overview
-Quick reference for the top 10 most common FireCrawl errors and their solutions.
+This skill provides automated assistance for firecrawl common errors tasks.
 
 ## Prerequisites
 - FireCrawl SDK installed
@@ -34,72 +33,13 @@ Follow the solution steps for your specific error.
 
 ## Error Handling
 
-### Authentication Failed
-**Error Message:**
-```
-Authentication error: Invalid API key
-```
-
-**Cause:** API key is missing, expired, or invalid.
-
-**Solution:**
-```bash
-# Verify API key is set
-echo $FIRECRAWL_API_KEY
-```
-
----
-
-### Rate Limit Exceeded
-**Error Message:**
-```
-Rate limit exceeded. Please retry after X seconds.
-```
-
-**Cause:** Too many requests in a short period.
-
-**Solution:**
-Implement exponential backoff. See `firecrawl-rate-limits` skill.
-
----
-
-### Network Timeout
-**Error Message:**
-```
-Request timeout after 30000ms
-```
-
-**Cause:** Network connectivity or server latency issues.
-
-**Solution:**
-```typescript
-// Increase timeout
-const client = new Client({ timeout: 60000 });
-```
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Diagnostic Commands
-```bash
-# Check FireCrawl status
-curl -s https://status.firecrawl.com
-
-# Verify API connectivity
-curl -I https://api.firecrawl.com
-
-# Check local configuration
-env | grep FIRECRAWL
-```
-
-### Escalation Path
-1. Collect evidence with `firecrawl-debug-bundle`
-2. Check FireCrawl status page
-3. Contact support with request ID
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [FireCrawl Status Page](https://status.firecrawl.com)
 - [FireCrawl Support](https://docs.firecrawl.com/support)
 - [FireCrawl Error Codes](https://docs.firecrawl.com/errors)
-
-## Next Steps
-For comprehensive debugging, see `firecrawl-debug-bundle`.
