@@ -1,11 +1,11 @@
 ---
 name: explaining-machine-learning-models
-description: |
-  Build this skill enables AI assistant to provide interpretability and explainability for machine learning models. it is triggered when the user requests explanations for model predictions, insights into feature importance, or help understanding model behavior... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Build this skill enables AI assistant to provide interpretability and
+  explainability for machine learning models. it is triggered when the user requests
+  explanations for model predictions, insights into feature importance, or help understanding
+  mo...
 ---
 # Model Explainability Tool
 

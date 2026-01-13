@@ -1,11 +1,11 @@
 ---
 name: building-neural-networks
-description: |
-  Execute this skill allows AI assistant to construct and configure neural network architectures using the neural-network-builder plugin. it should be used when the user requests the creation of a new neural network, modification of an existing one, or assistance... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute this skill allows ai assistant to construct and configure neural
+  network architectures using the neural-network-builder plugin. it should be used
+  when the user requests the creation of a new neural network, modification of an
+  existing one,...
 ---
 # Neural Network Builder
 

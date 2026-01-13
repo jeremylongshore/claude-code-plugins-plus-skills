@@ -1,11 +1,11 @@
 ---
 name: tracking-model-versions
-description: |
-  Build this skill enables AI assistant to track and manage ai/ml model versions using the model-versioning-tracker plugin. it should be used when the user asks to manage model versions, track model lineage, log model performance, or implement version control f... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Build this skill enables AI assistant to track and manage ai/ml model
+  versions using the model-versioning-tracker plugin. it should be used when the user
+  asks to manage model versions, track model lineage, log model performance, or implement
+  versi...
 ---
 # Model Versioning Tracker
 
