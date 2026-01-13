@@ -6,7 +6,7 @@ description: |
   or migrating to new API versions.
   Trigger with phrases like "upgrade windsurf", "windsurf migration",
   "windsurf breaking changes", "update windsurf SDK", "analyze windsurf version".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(git:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

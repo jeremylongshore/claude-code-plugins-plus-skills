@@ -6,7 +6,7 @@ description: |
   building main features, or core integration tasks.
   Trigger with phrases like "fireflies main workflow",
   "primary task with fireflies".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or handling Perplexity event notifications securely.
   Trigger with phrases like "perplexity webhook", "perplexity events",
   "perplexity webhook signature", "handle perplexity events", "perplexity notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

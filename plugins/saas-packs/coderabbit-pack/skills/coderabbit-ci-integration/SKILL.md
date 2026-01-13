@@ -6,7 +6,7 @@ description: |
   or integrating CodeRabbit tests into your build process.
   Trigger with phrases like "coderabbit CI", "coderabbit GitHub Actions",
   "coderabbit automated tests", "CI coderabbit".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

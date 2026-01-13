@@ -6,7 +6,7 @@ description: |
   or establishing a fast iteration cycle with Windsurf.
   Trigger with phrases like "windsurf dev setup", "windsurf local development",
   "windsurf dev environment", "develop with windsurf".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

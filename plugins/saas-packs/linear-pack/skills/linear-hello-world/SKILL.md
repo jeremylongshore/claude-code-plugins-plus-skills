@@ -6,7 +6,7 @@ description: |
   or learning basic Linear operations.
   Trigger with phrases like "linear hello world", "first linear issue",
   "create linear issue", "linear API example", "test linear connection".
-allowed-tools: Read, Write, Edit, Bash(npx:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

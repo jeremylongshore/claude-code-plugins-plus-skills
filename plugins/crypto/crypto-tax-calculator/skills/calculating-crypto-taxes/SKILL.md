@@ -5,7 +5,7 @@ description: |
   Use when calculating crypto tax obligations.
   Trigger with phrases like "calculate crypto taxes", "compute tax liability", or "generate tax report".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:tax-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

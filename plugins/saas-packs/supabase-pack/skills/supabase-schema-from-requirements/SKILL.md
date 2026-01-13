@@ -6,7 +6,7 @@ description: |
   Refactoring an existing schema based on new features, or Creating migrations from specification documents.
   Trigger with phrases like "supabase schema from requirements",
   "generate database schema with supabase".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

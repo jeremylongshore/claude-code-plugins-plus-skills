@@ -5,7 +5,7 @@ description: |
   Use when managing multi-chain crypto holdings.
   Trigger with phrases like "track my portfolio", "check holdings", or "analyze positions".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:portfolio-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

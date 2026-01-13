@@ -5,7 +5,7 @@ description: |
   Use when implementing secure authentication flows.
   Trigger with phrases like "build authentication", "add API auth", or "secure the API".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:auth-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

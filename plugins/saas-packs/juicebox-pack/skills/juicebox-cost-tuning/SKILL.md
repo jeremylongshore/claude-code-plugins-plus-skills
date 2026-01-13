@@ -6,7 +6,7 @@ description: |
   or implementing cost-effective Juicebox patterns.
   Trigger with phrases like "juicebox cost", "juicebox budget",
   "optimize juicebox usage", "juicebox pricing".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

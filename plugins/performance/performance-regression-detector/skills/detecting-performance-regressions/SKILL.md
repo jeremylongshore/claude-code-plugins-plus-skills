@@ -2,7 +2,7 @@
 name: detecting-performance-regressions
 description: Automatically detect performance regressions in CI/CD pipelines by comparing metrics against baselines. Use when validating builds or analyzing performance trends. Trigger with phrases like "detect performance regression", "compare performance metrics", or "analyze performance degradation".
 version: 1.0.0
-allowed-tools: "Read, Write, Edit, Grep, Glob, Bash(ci:*), Bash(metrics:*), Bash(testing:*)"
+allowed-tools: "Read, Write, Edit, Grep, Glob, Bash"
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 ---

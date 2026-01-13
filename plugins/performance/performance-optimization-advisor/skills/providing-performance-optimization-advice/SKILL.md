@@ -2,7 +2,7 @@
 name: providing-performance-optimization-advice
 description: Provide comprehensive prioritized performance optimization recommendations for frontend, backend, and infrastructure. Use when analyzing bottlenecks or seeking improvement strategies. Trigger with phrases like "optimize performance", "improve speed", or "performance recommendations".
 version: 1.0.0
-allowed-tools: "Read, Write, Edit, Grep, Glob, Bash(profiling:*), Bash(analysis:*)"
+allowed-tools: "Read, Write, Edit, Grep, Glob, Bash"
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 ---

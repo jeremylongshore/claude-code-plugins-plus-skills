@@ -6,7 +6,7 @@ description: |
   or setting up enterprise security controls.
   Trigger with phrases like "juicebox RBAC", "juicebox permissions",
   "juicebox access control", "juicebox enterprise security".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

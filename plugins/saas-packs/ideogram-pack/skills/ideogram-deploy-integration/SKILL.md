@@ -6,7 +6,7 @@ description: |
   configuring platform-specific secrets, or setting up deployment pipelines.
   Trigger with phrases like "deploy ideogram", "ideogram Vercel",
   "ideogram production deploy", "ideogram Cloud Run", "ideogram Fly.io".
-allowed-tools: Read, Write, Edit, Bash(vercel:*), Bash(fly:*), Bash(gcloud:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

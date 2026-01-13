@@ -6,7 +6,7 @@ description: |
   or collecting diagnostic information for FireCrawl problems.
   Trigger with phrases like "firecrawl debug", "firecrawl support bundle",
   "collect firecrawl logs", "firecrawl diagnostic".
-allowed-tools: Read, Bash(grep:*), Bash(curl:*), Bash(tar:*), Grep
+allowed-tools: Read, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

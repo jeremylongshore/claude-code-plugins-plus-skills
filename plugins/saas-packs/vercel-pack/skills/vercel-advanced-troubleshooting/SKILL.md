@@ -6,7 +6,7 @@ description: |
   or preparing evidence bundles for Vercel support escalation.
   Trigger with phrases like "vercel hard bug", "vercel mystery error",
   "vercel impossible to debug", "difficult vercel issue", "vercel deep debug".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*), Bash(tcpdump:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

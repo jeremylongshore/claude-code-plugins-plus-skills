@@ -6,7 +6,7 @@ description: |
   or initializing Linear in your project.
   Trigger with phrases like "install linear", "setup linear",
   "linear auth", "configure linear API key", "linear SDK setup".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Bash(yarn:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

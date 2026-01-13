@@ -6,7 +6,7 @@ description: |
   or setting up Deepgram in containerized environments.
   Trigger with phrases like "deploy deepgram", "deepgram docker",
   "deepgram kubernetes", "deepgram production deploy", "deepgram cloud".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

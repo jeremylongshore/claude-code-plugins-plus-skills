@@ -6,7 +6,7 @@ description: |
   or enriching prospect data from Apollo.
   Trigger with phrases like "apollo lead search", "search apollo contacts",
   "find leads in apollo", "apollo people search", "enrich contacts apollo".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

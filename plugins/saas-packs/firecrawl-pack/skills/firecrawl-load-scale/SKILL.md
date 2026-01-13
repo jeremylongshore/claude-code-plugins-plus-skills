@@ -6,7 +6,7 @@ description: |
   or planning capacity for FireCrawl integrations.
   Trigger with phrases like "firecrawl load test", "firecrawl scale",
   "firecrawl performance test", "firecrawl capacity", "firecrawl k6", "firecrawl benchmark".
-allowed-tools: Read, Write, Edit, Bash(k6:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

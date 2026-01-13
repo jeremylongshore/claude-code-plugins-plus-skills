@@ -6,7 +6,7 @@ description: |
   or creating on-call procedures.
   Trigger with phrases like "lindy incident", "lindy outage",
   "lindy on-call", "lindy runbook".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

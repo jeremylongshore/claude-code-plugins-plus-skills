@@ -6,7 +6,7 @@ description: |
   or establishing rapid iteration patterns for Deepgram integration.
   Trigger with phrases like "deepgram local dev", "deepgram development setup",
   "deepgram test environment", "deepgram dev workflow".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

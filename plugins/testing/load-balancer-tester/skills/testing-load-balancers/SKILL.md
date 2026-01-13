@@ -5,7 +5,7 @@ description: |
   Use when performing specialized testing.
   Trigger with phrases like "test load balancer", "validate failover", or "check traffic distribution".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:loadbalancer-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

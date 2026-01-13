@@ -5,7 +5,7 @@ description: |
   Use when receiving trading signals and alerts.
   Trigger with phrases like "get trading signals", "check indicators", or "analyze signals".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:signals-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

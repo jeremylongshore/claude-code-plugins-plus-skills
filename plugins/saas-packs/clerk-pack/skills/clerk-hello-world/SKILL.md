@@ -6,7 +6,7 @@ description: |
   or verifying Clerk integration works correctly.
   Trigger with phrases like "clerk hello world", "first clerk request",
   "test clerk auth", "verify clerk setup".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

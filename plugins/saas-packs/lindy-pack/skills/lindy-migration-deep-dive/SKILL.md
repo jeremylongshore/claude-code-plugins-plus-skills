@@ -6,7 +6,7 @@ description: |
   or performing major architecture changes.
   Trigger with phrases like "lindy migration", "migrate to lindy",
   "lindy platform migration", "switch to lindy".
-allowed-tools: Read, Write, Edit, Bash(node:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

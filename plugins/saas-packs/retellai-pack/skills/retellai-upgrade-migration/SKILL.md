@@ -6,7 +6,7 @@ description: |
   or migrating to new API versions.
   Trigger with phrases like "upgrade retellai", "retellai migration",
   "retellai breaking changes", "update retellai SDK", "analyze retellai version".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(git:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

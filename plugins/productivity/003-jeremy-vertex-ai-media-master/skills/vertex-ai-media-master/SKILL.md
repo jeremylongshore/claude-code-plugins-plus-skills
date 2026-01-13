@@ -2,7 +2,7 @@
 name: vertex-ai-media-master
 description: |
   Execute automatic activation for all google vertex ai multimodal operations operations. Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(general:*), Bash(util:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

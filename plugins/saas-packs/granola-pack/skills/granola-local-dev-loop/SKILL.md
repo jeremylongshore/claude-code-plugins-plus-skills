@@ -6,7 +6,7 @@ description: |
   or syncing meeting outcomes with project tools.
   Trigger with phrases like "granola dev workflow", "granola development",
   "granola local setup", "granola developer", "granola coding workflow".
-allowed-tools: Read, Write, Edit, Bash(curl:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

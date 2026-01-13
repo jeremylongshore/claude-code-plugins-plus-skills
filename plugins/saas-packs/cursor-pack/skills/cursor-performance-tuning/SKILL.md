@@ -3,7 +3,7 @@ name: "cursor-performance-tuning"
 description: |
   Optimize Cursor IDE performance. Triggers on "cursor performance",
   "cursor slow", "cursor optimization", "cursor memory", "speed up cursor". Use when working with cursor performance tuning functionality. Trigger with phrases like "cursor performance tuning", "cursor tuning", "cursor".
-allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
+allowed-tools: "Read, Write, Edit, Bash"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

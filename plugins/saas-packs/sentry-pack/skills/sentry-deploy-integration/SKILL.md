@@ -6,7 +6,7 @@ description: |
   or connecting deployments to error data.
   Trigger with phrases like "sentry deploy tracking", "sentry release health",
   "track deployments sentry", "sentry deployment notification".
-allowed-tools: Read, Write, Edit, Bash(sentry-cli:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

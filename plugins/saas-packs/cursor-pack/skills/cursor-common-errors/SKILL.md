@@ -3,7 +3,7 @@ name: "cursor-common-errors"
 description: |
   Execute troubleshoot common Cursor IDE errors and issues. Triggers on "cursor error",
   "cursor not working", "cursor issue", "cursor problem", "fix cursor". Use when working with cursor common errors functionality. Trigger with phrases like "cursor common errors", "cursor errors", "cursor".
-allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
+allowed-tools: "Read, Write, Edit, Bash"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

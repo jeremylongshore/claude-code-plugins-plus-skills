@@ -5,7 +5,7 @@ description: |
   Use when performing specialized testing.
   Trigger with phrases like "fuzz the API", "run fuzzing tests", or "discover edge cases".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:fuzz-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

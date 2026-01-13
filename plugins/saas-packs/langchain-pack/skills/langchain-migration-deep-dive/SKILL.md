@@ -6,7 +6,7 @@ description: |
   or implementing phased migration approaches.
   Trigger with phrases like "langchain migration strategy", "migrate to langchain",
   "langchain refactor", "legacy LLM migration", "langchain transition".
-allowed-tools: Read, Write, Edit, Bash(python:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

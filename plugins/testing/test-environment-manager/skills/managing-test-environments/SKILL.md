@@ -5,7 +5,7 @@ description: |
   Use when performing specialized testing.
   Trigger with phrases like "manage test environment", "provision test env", or "setup test infrastructure".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:env-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

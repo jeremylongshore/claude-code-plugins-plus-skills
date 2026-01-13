@@ -5,7 +5,7 @@ description: |
   Use when analyzing DEX liquidity pools.
   Trigger with phrases like "analyze pool", "check TVL", or "calculate impermanent loss".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:liquidity-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

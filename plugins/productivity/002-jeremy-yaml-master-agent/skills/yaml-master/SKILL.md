@@ -4,7 +4,7 @@ description: |
   Execute proactive YAML intelligence: automatically activates when working with YAML files.
   Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(general:*), Bash(util:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

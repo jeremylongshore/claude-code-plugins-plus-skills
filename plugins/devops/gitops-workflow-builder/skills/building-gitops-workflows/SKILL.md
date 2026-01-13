@@ -2,7 +2,7 @@
 name: building-gitops-workflows
 description: |
   Execute use when constructing GitOps workflows using ArgoCD or Flux. Trigger with phrases like "create GitOps workflow", "setup ArgoCD", "configure Flux", or "automate Kubernetes deployments". Generates production-ready configurations, implements best practices, and ensures security-first approach for continuous deployment.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(kubectl:*), Bash(git:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

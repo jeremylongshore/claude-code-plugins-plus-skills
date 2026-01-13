@@ -6,7 +6,7 @@ description: |
   or running post-incident reviews for Windsurf integration failures.
   Trigger with phrases like "windsurf incident", "windsurf outage",
   "windsurf down", "windsurf on-call", "windsurf emergency", "windsurf broken".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

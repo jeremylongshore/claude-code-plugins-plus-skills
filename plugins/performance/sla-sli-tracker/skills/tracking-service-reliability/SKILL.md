@@ -2,7 +2,7 @@
 name: tracking-service-reliability
 description: Define and track SLAs, SLIs, and SLOs for service reliability including availability, latency, and error rates. Use when establishing reliability targets or monitoring service health. Trigger with phrases like "define SLOs", "track SLI metrics", or "calculate error budget".
 version: 1.0.0
-allowed-tools: "Read, Write, Edit, Grep, Glob, Bash(monitoring:*), Bash(metrics:*)"
+allowed-tools: "Read, Write, Edit, Grep, Glob, Bash"
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 ---

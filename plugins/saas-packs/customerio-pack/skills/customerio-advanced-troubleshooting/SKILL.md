@@ -6,7 +6,7 @@ description: |
   delivery problems, or debugging integration failures.
   Trigger with phrases like "debug customer.io", "customer.io investigation",
   "customer.io troubleshoot", "customer.io incident".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

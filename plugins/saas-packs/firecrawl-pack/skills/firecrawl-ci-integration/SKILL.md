@@ -6,7 +6,7 @@ description: |
   or integrating FireCrawl tests into your build process.
   Trigger with phrases like "firecrawl CI", "firecrawl GitHub Actions",
   "firecrawl automated tests", "CI firecrawl".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

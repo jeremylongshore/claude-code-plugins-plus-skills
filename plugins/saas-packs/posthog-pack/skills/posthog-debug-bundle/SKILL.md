@@ -6,7 +6,7 @@ description: |
   or collecting diagnostic information for PostHog problems.
   Trigger with phrases like "posthog debug", "posthog support bundle",
   "collect posthog logs", "posthog diagnostic".
-allowed-tools: Read, Bash(grep:*), Bash(curl:*), Bash(tar:*), Grep
+allowed-tools: Read, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or collecting diagnostic information for Deepgram problems.
   Trigger with phrases like "deepgram debug", "deepgram support",
   "collect deepgram logs", "deepgram diagnostic", "deepgram debug bundle".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

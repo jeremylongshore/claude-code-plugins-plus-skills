@@ -6,7 +6,7 @@ description: |
   or building debug utilities for Linear.
   Trigger with phrases like "debug linear integration", "linear logging",
   "trace linear API", "linear debugging tools", "linear troubleshooting".
-allowed-tools: Read, Write, Edit, Grep, Bash(node:*), Bash(npx:*)
+allowed-tools: Read, Write, Edit, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

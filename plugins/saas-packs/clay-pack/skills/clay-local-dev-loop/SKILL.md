@@ -6,7 +6,7 @@ description: |
   or establishing a fast iteration cycle with Clay.
   Trigger with phrases like "clay dev setup", "clay local development",
   "clay dev environment", "develop with clay".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

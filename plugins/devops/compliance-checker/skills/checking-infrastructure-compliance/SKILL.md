@@ -6,7 +6,7 @@ description: |
   Trigger with phrases like "check compliance", "validate policies",
   or "audit compliance".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

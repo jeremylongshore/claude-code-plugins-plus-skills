@@ -2,7 +2,7 @@
 name: adk-deployment-specialist
 description: |
   Deploy and orchestrate Vertex AI ADK agents using A2A protocol. Manages AgentCard discovery, task submission, Code Execution Sandbox, and Memory Bank. Use when asked to "deploy ADK agent" or "orchestrate agents". Trigger with phrases like 'deploy', 'infrastructure', or 'CI/CD'.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

@@ -6,7 +6,7 @@ description: |
   or integration problems with Customer.io.
   Trigger with phrases like "customer.io error", "customer.io not working",
   "debug customer.io", "customer.io issue".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

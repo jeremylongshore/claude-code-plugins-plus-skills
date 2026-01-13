@@ -5,7 +5,7 @@ description: |
   Use when monitoring pending blockchain transactions.
   Trigger with phrases like "check mempool", "scan pending txs", or "find MEV".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:mempool-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

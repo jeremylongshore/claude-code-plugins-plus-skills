@@ -6,7 +6,7 @@ description: |
   or troubleshooting failed requests.
   Trigger with phrases like "apollo error", "apollo api error",
   "debug apollo", "apollo 401", "apollo 429", "apollo troubleshoot".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

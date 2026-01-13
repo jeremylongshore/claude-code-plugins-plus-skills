@@ -6,7 +6,7 @@ description: |
   for Juicebox integration work.
   Trigger with phrases like "juicebox local dev", "juicebox development setup",
   "juicebox mock data", "test juicebox locally".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

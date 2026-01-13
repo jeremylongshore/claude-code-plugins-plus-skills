@@ -2,7 +2,7 @@
 name: performing-penetration-testing
 description: Perform security penetration testing to identify vulnerabilities. Use when conducting security assessments. Trigger with 'run pentest', 'security testing', or 'find vulnerabilities'.
 version: 1.0.0
-allowed-tools: "Read, Write, Edit, Grep, Glob, Bash(security:*), Bash(scan:*), Bash(audit:*)"
+allowed-tools: "Read, Write, Edit, Grep, Glob, Bash"
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 ---

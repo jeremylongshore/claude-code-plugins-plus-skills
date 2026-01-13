@@ -5,7 +5,7 @@ description: |
   Use when auditing AI systems for ethical compliance, fairness assessment, or bias detection.
   Trigger with phrases like "evaluate model fairness", "check for bias", or "validate AI ethics".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(python:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

@@ -6,7 +6,7 @@ description: |
   or re-platforming existing integrations to Groq.
   Trigger with phrases like "migrate groq", "groq migration",
   "switch to groq", "groq replatform", "groq upgrade major".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(node:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

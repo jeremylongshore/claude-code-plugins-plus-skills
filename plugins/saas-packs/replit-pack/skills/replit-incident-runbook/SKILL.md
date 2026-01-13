@@ -6,7 +6,7 @@ description: |
   or running post-incident reviews for Replit integration failures.
   Trigger with phrases like "replit incident", "replit outage",
   "replit down", "replit on-call", "replit emergency", "replit broken".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

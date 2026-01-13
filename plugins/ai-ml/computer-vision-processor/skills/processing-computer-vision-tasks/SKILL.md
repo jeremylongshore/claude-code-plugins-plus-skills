@@ -2,7 +2,7 @@
 name: processing-computer-vision-tasks
 description: |
   Process images using object detection, classification, and segmentation. Use when requesting "analyze image", "object detection", "image classification", or "computer vision". Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

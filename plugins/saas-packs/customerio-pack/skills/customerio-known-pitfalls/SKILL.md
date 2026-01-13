@@ -6,7 +6,7 @@ description: |
   or optimizing existing Customer.io implementations.
   Trigger with phrases like "customer.io mistakes", "customer.io anti-patterns",
   "customer.io best practices", "customer.io gotchas".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

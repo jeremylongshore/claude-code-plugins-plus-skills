@@ -6,7 +6,7 @@ description: |
   or establishing a fast iteration cycle with Exa.
   Trigger with phrases like "exa dev setup", "exa local development",
   "exa dev environment", "develop with exa".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

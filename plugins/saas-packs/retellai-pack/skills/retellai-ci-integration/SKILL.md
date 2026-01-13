@@ -6,7 +6,7 @@ description: |
   or integrating Retell AI tests into your build process.
   Trigger with phrases like "retellai CI", "retellai GitHub Actions",
   "retellai automated tests", "CI retellai".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

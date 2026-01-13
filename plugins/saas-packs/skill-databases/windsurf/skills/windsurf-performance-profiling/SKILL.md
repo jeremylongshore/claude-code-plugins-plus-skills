@@ -4,7 +4,7 @@ description: |
   Profile and optimize code with AI-assisted analysis. Activate when users mention
   "performance profiling", "optimize performance", "bottleneck analysis", "profiling",
   or "performance tuning". Handles performance analysis and optimization. Use when working with windsurf performance profiling functionality. Trigger with phrases like "windsurf performance profiling", "windsurf profiling", "windsurf".
-allowed-tools: "Read,Write,Edit,Bash(cmd:*),Grep"
+allowed-tools: "Read,Write,Edit,Bash,Grep"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

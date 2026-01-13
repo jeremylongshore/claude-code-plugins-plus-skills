@@ -5,7 +5,7 @@ description: |
   Use when analyzing data for unusual patterns, outliers, or unexpected deviations from normal behavior.
   Trigger with phrases like "detect anomalies", "find outliers", or "identify unusual patterns".
   
-allowed-tools: Read, Bash(python:*), Grep, Glob
+allowed-tools: Read, Bash, Grep, Glob
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

@@ -6,7 +6,7 @@ description: |
   or responding to Linear-related incidents.
   Trigger with phrases like "linear incident", "linear outage",
   "linear production issue", "debug linear production", "linear down".
-allowed-tools: Read, Write, Edit, Bash(curl:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

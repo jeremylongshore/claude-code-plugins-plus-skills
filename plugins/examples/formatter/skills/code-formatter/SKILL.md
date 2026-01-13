@@ -5,7 +5,7 @@ description: |
   Use when users mention "format my code", "fix formatting", "apply code style",
   "check formatting", "make code consistent", or "clean up code formatting".
   Handles JavaScript, TypeScript, JSON, CSS, Markdown, and many other file types. Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

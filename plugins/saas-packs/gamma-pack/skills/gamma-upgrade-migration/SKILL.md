@@ -6,7 +6,7 @@ description: |
   or migrating to new API versions.
   Trigger with phrases like "gamma upgrade", "gamma migration",
   "gamma new version", "gamma deprecated", "gamma SDK update".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

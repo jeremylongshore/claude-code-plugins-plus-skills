@@ -6,7 +6,7 @@ description: |
   or creating custom integrations via Zapier.
   Trigger with phrases like "granola zapier", "granola automation",
   "granola integration patterns", "granola SDK", "granola API".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

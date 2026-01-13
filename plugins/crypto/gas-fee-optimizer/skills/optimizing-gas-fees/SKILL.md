@@ -5,7 +5,7 @@ description: |
   Use when optimizing blockchain transaction costs.
   Trigger with phrases like "optimize gas", "check gas prices", or "minimize fees".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:gas-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

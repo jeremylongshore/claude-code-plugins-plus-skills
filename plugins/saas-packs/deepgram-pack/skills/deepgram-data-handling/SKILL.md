@@ -6,7 +6,7 @@ description: |
   or ensuring GDPR/HIPAA compliance for transcription data.
   Trigger with phrases like "deepgram data", "audio storage", "transcription data",
   "deepgram GDPR", "deepgram HIPAA", "deepgram privacy".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

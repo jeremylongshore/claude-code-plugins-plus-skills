@@ -6,7 +6,7 @@ description: |
   or planning capacity for Supabase integrations.
   Trigger with phrases like "supabase load test", "supabase scale",
   "supabase performance test", "supabase capacity", "supabase k6", "supabase benchmark".
-allowed-tools: Read, Write, Edit, Bash(k6:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

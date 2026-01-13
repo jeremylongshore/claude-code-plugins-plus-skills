@@ -5,7 +5,7 @@ description: |
   Use when gauging market sentiment and social trends.
   Trigger with phrases like "analyze sentiment", "check market mood", or "gauge social trends".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:sentiment-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

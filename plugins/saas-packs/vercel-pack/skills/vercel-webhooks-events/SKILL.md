@@ -6,7 +6,7 @@ description: |
   or handling Vercel event notifications securely.
   Trigger with phrases like "vercel webhook", "vercel events",
   "vercel webhook signature", "handle vercel events", "vercel notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -5,7 +5,7 @@ description: |
   Use when monitoring cross-chain asset transfers.
   Trigger with phrases like "monitor bridges", "check cross-chain", or "track bridge transfers".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:bridge-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

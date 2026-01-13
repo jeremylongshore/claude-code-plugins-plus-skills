@@ -5,7 +5,7 @@ description: |
   Use when tracking API health and performance metrics.
   Trigger with phrases like "monitor the API", "add API metrics", or "setup API monitoring".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:monitor-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

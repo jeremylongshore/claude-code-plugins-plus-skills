@@ -6,7 +6,7 @@ description: |
   Trigger with phrases like "manage environments", "configure environments",
   or "sync configurations".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

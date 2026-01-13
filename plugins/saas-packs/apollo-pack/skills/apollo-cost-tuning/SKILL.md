@@ -6,7 +6,7 @@ description: |
   or optimizing subscription usage.
   Trigger with phrases like "apollo cost", "apollo credits",
   "apollo billing", "reduce apollo costs", "apollo usage".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

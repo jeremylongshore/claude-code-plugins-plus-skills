@@ -6,7 +6,7 @@ description: |
   pre-commit hooks, or configuring CI policy checks for Perplexity best practices.
   Trigger with phrases like "perplexity policy", "perplexity lint",
   "perplexity guardrails", "perplexity best practices check", "perplexity eslint".
-allowed-tools: Read, Write, Edit, Bash(npx:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

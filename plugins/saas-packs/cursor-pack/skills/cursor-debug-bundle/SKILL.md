@@ -3,7 +3,7 @@ name: "cursor-debug-bundle"
 description: |
   Debug AI suggestions and code generation in Cursor. Triggers on "debug cursor ai",
   "cursor suggestions wrong", "bad cursor completion", "cursor ai debug". Use when debugging issues or troubleshooting. Trigger with phrases like "cursor debug bundle", "cursor bundle", "cursor".
-allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
+allowed-tools: "Read, Write, Edit, Bash"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

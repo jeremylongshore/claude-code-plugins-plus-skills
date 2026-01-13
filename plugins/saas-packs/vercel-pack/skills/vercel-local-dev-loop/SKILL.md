@@ -6,7 +6,7 @@ description: |
   or establishing a fast iteration cycle with Vercel.
   Trigger with phrases like "vercel dev setup", "vercel local development",
   "vercel dev environment", "develop with vercel".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or implementing environment-specific Fireflies.ai configurations.
   Trigger with phrases like "fireflies environments", "fireflies staging",
   "fireflies dev prod", "fireflies environment setup", "fireflies config by env".
-allowed-tools: Read, Write, Edit, Bash(aws:*), Bash(gcloud:*), Bash(vault:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

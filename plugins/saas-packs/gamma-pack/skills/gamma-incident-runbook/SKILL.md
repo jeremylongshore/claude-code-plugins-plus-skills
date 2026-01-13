@@ -6,7 +6,7 @@ description: |
   or need systematic troubleshooting procedures.
   Trigger with phrases like "gamma incident", "gamma outage",
   "gamma down", "gamma emergency", "gamma runbook".
-allowed-tools: Read, Write, Edit, Bash(curl:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

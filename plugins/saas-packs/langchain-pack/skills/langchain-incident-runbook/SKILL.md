@@ -6,7 +6,7 @@ description: |
   or implementing emergency procedures for LLM applications.
   Trigger with phrases like "langchain incident", "langchain outage",
   "langchain production issue", "langchain emergency", "langchain down".
-allowed-tools: Read, Write, Edit, Bash(curl:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

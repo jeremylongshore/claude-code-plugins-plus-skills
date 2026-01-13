@@ -6,7 +6,7 @@ description: |
   or integrating Replit tests into your build process.
   Trigger with phrases like "replit CI", "replit GitHub Actions",
   "replit automated tests", "CI replit".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

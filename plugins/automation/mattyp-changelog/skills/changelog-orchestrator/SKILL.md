@@ -1,7 +1,7 @@
 ---
 name: changelog-orchestrator
 description: Draft changelog PRs by collecting GitHub/Slack/Git changes, formatting with templates, running quality gates, and preparing a branch/PR. Use when generating weekly/monthly release notes or when the user asks to create a changelog from recent merges. Trigger with "changelog weekly", "generate release notes", "draft changelog", "create changelog PR".
-allowed-tools: "Read, Write, Edit, Grep, Glob, Bash(git:*), Bash(gh:*), Bash(python:*), Bash(date:*)"
+allowed-tools: "Read, Write, Edit, Grep, Glob, Bash"
 version: "0.1.0"
 author: "Mattyp <mattyp@claudecodeplugins.io>"
 license: "MIT"

@@ -5,7 +5,7 @@ description: |
   Use when building complex AI systems requiring agent collaboration, task delegation, or workflow coordination.
   Trigger with phrases like "create multi-agent system", "orchestrate agents", or "coordinate agent workflows".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(npm:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

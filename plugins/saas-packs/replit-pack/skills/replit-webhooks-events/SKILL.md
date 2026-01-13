@@ -6,7 +6,7 @@ description: |
   or handling Replit event notifications securely.
   Trigger with phrases like "replit webhook", "replit events",
   "replit webhook signature", "handle replit events", "replit notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

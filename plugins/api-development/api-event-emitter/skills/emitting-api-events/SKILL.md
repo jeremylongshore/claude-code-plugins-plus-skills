@@ -5,7 +5,7 @@ description: |
   Use when building event-driven API architectures.
   Trigger with phrases like "add webhooks", "implement events", or "create event-driven API".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:events-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

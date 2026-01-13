@@ -6,7 +6,7 @@ description: |
   transcription errors, or integration failures.
   Trigger with phrases like "granola error", "granola not working",
   "granola problem", "fix granola", "granola troubleshoot".
-allowed-tools: Read, Write, Edit, Bash(pgrep:*), Bash(ps:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

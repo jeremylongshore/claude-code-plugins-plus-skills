@@ -6,7 +6,7 @@ description: |
   or implementing talent discovery features.
   Trigger with phrases like "juicebox people search", "find candidates juicebox",
   "juicebox talent search", "search professionals juicebox".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

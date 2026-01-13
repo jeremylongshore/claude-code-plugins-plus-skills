@@ -5,7 +5,7 @@ description: |
   Use when optimizing proof-of-stake rewards.
   Trigger with phrases like "optimize staking", "compare validators", or "calculate rewards".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:staking-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

@@ -6,7 +6,7 @@ description: |
   or preparing error reports for Juicebox support team.
   Trigger with phrases like "juicebox debug info", "juicebox support bundle",
   "collect juicebox diagnostics", "juicebox troubleshooting".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

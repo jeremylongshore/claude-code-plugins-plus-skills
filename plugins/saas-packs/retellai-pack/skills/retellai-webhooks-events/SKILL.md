@@ -6,7 +6,7 @@ description: |
   or handling Retell AI event notifications securely.
   Trigger with phrases like "retellai webhook", "retellai events",
   "retellai webhook signature", "handle retellai events", "retellai notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

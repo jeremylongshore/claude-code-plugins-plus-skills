@@ -2,7 +2,7 @@
 name: tracking-application-response-times
 description: Track and optimize application response times across API endpoints, database queries, and service calls. Use when monitoring performance or identifying bottlenecks. Trigger with phrases like "track response times", "monitor API performance", or "analyze latency".
 version: 1.0.0
-allowed-tools: "Read, Write, Edit, Grep, Glob, Bash(monitoring:*), Bash(metrics:*)"
+allowed-tools: "Read, Write, Edit, Grep, Glob, Bash"
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 ---

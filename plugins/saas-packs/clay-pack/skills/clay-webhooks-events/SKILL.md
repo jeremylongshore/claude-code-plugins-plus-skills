@@ -6,7 +6,7 @@ description: |
   or handling Clay event notifications securely.
   Trigger with phrases like "clay webhook", "clay events",
   "clay webhook signature", "handle clay events", "clay notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or alerting for Juicebox integrations.
   Trigger with phrases like "juicebox monitoring", "juicebox metrics",
   "juicebox logging", "juicebox observability".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -3,7 +3,7 @@ name: "cursor-keybindings"
 description: |
   Manage master Cursor keyboard shortcuts and customize keybindings. Triggers on "cursor shortcuts",
   "cursor keybindings", "cursor keyboard", "cursor hotkeys", "cursor commands". Use when working with cursor keybindings functionality. Trigger with phrases like "cursor keybindings", "cursor keybindings", "cursor".
-allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
+allowed-tools: "Read, Write, Edit, Bash"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

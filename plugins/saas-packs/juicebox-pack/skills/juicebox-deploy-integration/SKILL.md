@@ -6,7 +6,7 @@ description: |
   or setting up infrastructure for Juicebox.
   Trigger with phrases like "deploy juicebox", "juicebox production deploy",
   "juicebox infrastructure", "juicebox cloud setup".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or preparing evidence bundles for Replit support escalation.
   Trigger with phrases like "replit hard bug", "replit mystery error",
   "replit impossible to debug", "difficult replit issue", "replit deep debug".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*), Bash(tcpdump:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

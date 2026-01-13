@@ -6,7 +6,7 @@ description: |
   or diagnosing complex issues with Granola.
   Trigger with phrases like "granola debug", "granola diagnostics",
   "granola support bundle", "granola logs", "granola system info".
-allowed-tools: Read, Write, Edit, Bash(system_profiler:*), Bash(log:*), Bash(sw_vers:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

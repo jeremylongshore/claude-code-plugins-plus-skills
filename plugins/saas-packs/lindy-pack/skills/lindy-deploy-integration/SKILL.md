@@ -6,7 +6,7 @@ description: |
   or automating agent deployments.
   Trigger with phrases like "deploy lindy", "lindy deployment",
   "lindy production deploy", "release lindy agents".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(docker:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

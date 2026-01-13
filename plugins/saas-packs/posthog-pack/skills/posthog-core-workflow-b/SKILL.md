@@ -6,7 +6,7 @@ description: |
   or complementing primary workflow.
   Trigger with phrases like "posthog secondary workflow",
   "secondary task with posthog".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or configuring alerting for Deepgram integration health.
   Trigger with phrases like "deepgram monitoring", "deepgram metrics",
   "deepgram observability", "monitor deepgram", "deepgram alerts", "deepgram tracing".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

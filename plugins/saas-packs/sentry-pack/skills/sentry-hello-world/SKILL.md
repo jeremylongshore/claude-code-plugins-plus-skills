@@ -5,7 +5,7 @@ description: |
   Use when testing Sentry integration or verifying error capture works.
   Trigger with phrases like "test sentry", "sentry hello world",
   "verify sentry", "first sentry error".
-allowed-tools: Read, Write, Edit, Bash(node:*), Bash(python:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

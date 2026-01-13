@@ -6,7 +6,7 @@ description: |
   or planning capacity for Perplexity integrations.
   Trigger with phrases like "perplexity load test", "perplexity scale",
   "perplexity performance test", "perplexity capacity", "perplexity k6", "perplexity benchmark".
-allowed-tools: Read, Write, Edit, Bash(k6:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

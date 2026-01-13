@@ -5,7 +5,7 @@ description: |
   Use when creating high-performance gRPC services.
   Trigger with phrases like "generate gRPC service", "create gRPC API", or "build gRPC server".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:grpc-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

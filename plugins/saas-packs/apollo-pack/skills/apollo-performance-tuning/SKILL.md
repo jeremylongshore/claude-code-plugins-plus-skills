@@ -6,7 +6,7 @@ description: |
   or optimizing bulk operations.
   Trigger with phrases like "apollo performance", "optimize apollo",
   "apollo slow", "apollo latency", "speed up apollo".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

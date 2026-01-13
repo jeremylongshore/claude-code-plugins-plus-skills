@@ -3,7 +3,7 @@ name: "cursor-custom-prompts"
 description: |
   Create effective custom prompts for Cursor AI. Triggers on "cursor prompts",
   "prompt engineering cursor", "better cursor prompts", "cursor instructions". Use when working with cursor custom prompts functionality. Trigger with phrases like "cursor custom prompts", "cursor prompts", "cursor".
-allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
+allowed-tools: "Read, Write, Edit, Bash"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

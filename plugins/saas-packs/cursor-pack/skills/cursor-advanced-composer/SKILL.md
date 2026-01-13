@@ -3,7 +3,7 @@ name: "cursor-advanced-composer"
 description: |
   Manage advanced Cursor Composer techniques for complex edits. Triggers on "advanced composer",
   "composer patterns", "multi-file generation", "composer refactoring". Use when working with cursor advanced composer functionality. Trigger with phrases like "cursor advanced composer", "cursor composer", "cursor".
-allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
+allowed-tools: "Read, Write, Edit, Bash"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

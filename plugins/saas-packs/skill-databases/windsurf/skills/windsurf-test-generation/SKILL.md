@@ -4,7 +4,7 @@ description: |
   Generate comprehensive test suites using Cascade. Activate when users mention
   "generate tests", "test coverage", "write unit tests", "create test suite",
   or "tdd assistance". Handles AI-powered test generation. Use when writing or running tests. Trigger with phrases like "windsurf test generation", "windsurf generation", "windsurf".
-allowed-tools: "Read,Write,Edit,Bash(cmd:*),Grep,Glob"
+allowed-tools: "Read,Write,Edit,Bash,Grep,Glob"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

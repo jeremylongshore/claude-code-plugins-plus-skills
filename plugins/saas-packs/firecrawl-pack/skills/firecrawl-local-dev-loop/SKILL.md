@@ -6,7 +6,7 @@ description: |
   or establishing a fast iteration cycle with FireCrawl.
   Trigger with phrases like "firecrawl dev setup", "firecrawl local development",
   "firecrawl dev environment", "develop with firecrawl".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

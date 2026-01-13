@@ -6,7 +6,7 @@ description: |
   or gathering diagnostic information.
   Trigger with phrases like "sentry debug info", "sentry support ticket",
   "gather sentry diagnostics", "sentry debug bundle".
-allowed-tools: Read, Bash(npm:*), Bash(node:*), Grep
+allowed-tools: Read, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

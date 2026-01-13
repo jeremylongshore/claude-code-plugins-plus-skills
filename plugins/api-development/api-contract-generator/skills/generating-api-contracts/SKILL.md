@@ -5,7 +5,7 @@ description: |
   Use when documenting API contracts and specifications.
   Trigger with phrases like "generate API contract", "create OpenAPI spec", or "document API contract".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:contract-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

@@ -6,7 +6,7 @@ description: |
   or resolving integration issues.
   Trigger with phrases like "deepgram error", "deepgram not working",
   "fix deepgram", "deepgram troubleshoot", "transcription failed".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

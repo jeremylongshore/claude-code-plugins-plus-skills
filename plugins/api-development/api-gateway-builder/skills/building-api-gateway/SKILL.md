@@ -5,7 +5,7 @@ description: |
   Use when routing and managing multiple API services.
   Trigger with phrases like "build API gateway", "create API router", or "setup API gateway".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:gateway-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

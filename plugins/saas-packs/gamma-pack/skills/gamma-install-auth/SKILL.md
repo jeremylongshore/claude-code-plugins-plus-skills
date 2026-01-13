@@ -6,7 +6,7 @@ description: |
   or initializing Gamma in your project.
   Trigger with phrases like "install gamma", "setup gamma",
   "gamma auth", "configure gamma API key".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

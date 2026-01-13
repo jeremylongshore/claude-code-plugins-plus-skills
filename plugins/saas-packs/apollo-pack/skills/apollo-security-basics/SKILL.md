@@ -6,7 +6,7 @@ description: |
   or implementing secure data handling.
   Trigger with phrases like "apollo security", "secure apollo api",
   "apollo api key security", "apollo data protection".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

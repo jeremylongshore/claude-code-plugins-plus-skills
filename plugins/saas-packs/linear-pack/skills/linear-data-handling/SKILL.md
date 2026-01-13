@@ -6,7 +6,7 @@ description: |
   or ensuring data consistency across systems.
   Trigger with phrases like "linear data sync", "backup linear",
   "linear data consistency", "sync linear issues", "linear data export".
-allowed-tools: Read, Write, Edit, Grep, Bash(node:*)
+allowed-tools: Read, Write, Edit, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

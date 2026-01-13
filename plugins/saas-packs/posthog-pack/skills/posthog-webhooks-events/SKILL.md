@@ -6,7 +6,7 @@ description: |
   or handling PostHog event notifications securely.
   Trigger with phrases like "posthog webhook", "posthog events",
   "posthog webhook signature", "handle posthog events", "posthog notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

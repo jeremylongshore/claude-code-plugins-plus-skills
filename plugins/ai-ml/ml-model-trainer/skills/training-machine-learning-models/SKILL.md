@@ -2,7 +2,7 @@
 name: training-machine-learning-models
 description: |
   Build train machine learning models with automated workflows. Analyzes datasets, selects model types (classification, regression), configures parameters, trains with cross-validation, and saves model artifacts. Use when asked to "train model" or "evalua... Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

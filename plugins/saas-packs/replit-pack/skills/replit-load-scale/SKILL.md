@@ -6,7 +6,7 @@ description: |
   or planning capacity for Replit integrations.
   Trigger with phrases like "replit load test", "replit scale",
   "replit performance test", "replit capacity", "replit k6", "replit benchmark".
-allowed-tools: Read, Write, Edit, Bash(k6:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

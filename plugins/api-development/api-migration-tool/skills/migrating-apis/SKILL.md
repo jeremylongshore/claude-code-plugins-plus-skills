@@ -5,7 +5,7 @@ description: |
   Use when upgrading APIs between versions.
   Trigger with phrases like "migrate the API", "upgrade API version", or "migrate to new API".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:migrate-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

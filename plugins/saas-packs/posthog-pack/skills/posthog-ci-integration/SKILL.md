@@ -6,7 +6,7 @@ description: |
   or integrating PostHog tests into your build process.
   Trigger with phrases like "posthog CI", "posthog GitHub Actions",
   "posthog automated tests", "CI posthog".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

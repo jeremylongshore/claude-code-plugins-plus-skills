@@ -6,7 +6,7 @@ description: |
   or responding to integration failures.
   Trigger with phrases like "apollo incident", "apollo outage",
   "apollo down", "apollo production issue", "apollo emergency".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

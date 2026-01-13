@@ -6,7 +6,7 @@ description: |
   or establishing a fast iteration cycle with Fireflies.ai.
   Trigger with phrases like "fireflies dev setup", "fireflies local development",
   "fireflies dev environment", "develop with fireflies".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

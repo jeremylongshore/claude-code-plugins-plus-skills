@@ -2,7 +2,7 @@
 name: creating-apm-dashboards
 description: |
   Execute this skill enables AI assistant to create application performance monitoring (apm) dashboards. it is triggered when the user requests the creation of a new apm dashboard, monitoring dashboard, or a dashboard for application performance. the skill helps ... Use when generating or creating new content. Trigger with phrases like 'generate', 'create', or 'scaffold'.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

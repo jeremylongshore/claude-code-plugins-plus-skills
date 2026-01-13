@@ -5,7 +5,7 @@ description: |
   Use when building GraphQL APIs with schemas and resolvers.
   Trigger with phrases like "build GraphQL API", "create GraphQL server", or "setup GraphQL".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:graphql-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

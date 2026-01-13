@@ -6,7 +6,7 @@ description: |
   or initializing Sentry in your project.
   Trigger with phrases like "install sentry", "setup sentry",
   "sentry auth", "configure sentry DSN".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

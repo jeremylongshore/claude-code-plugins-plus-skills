@@ -6,7 +6,7 @@ description: |
   doing pre-launch verification, or auditing production readiness.
   Trigger with phrases like "apollo production checklist", "deploy apollo",
   "apollo go-live", "apollo production ready", "apollo launch checklist".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

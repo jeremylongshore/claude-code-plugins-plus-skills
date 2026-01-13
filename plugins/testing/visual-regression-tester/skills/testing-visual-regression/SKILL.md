@@ -5,7 +5,7 @@ description: |
   Use when detecting unintended UI changes or pixel differences.
   Trigger with phrases like "test visual changes", "compare screenshots", or "detect UI regressions".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:visual-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

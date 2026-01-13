@@ -6,7 +6,7 @@ description: |
   or implementing go-live procedures.
   Trigger with phrases like "perplexity production", "deploy perplexity",
   "perplexity go-live", "perplexity launch checklist".
-allowed-tools: Read, Bash(kubectl:*), Bash(curl:*), Grep
+allowed-tools: Read, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

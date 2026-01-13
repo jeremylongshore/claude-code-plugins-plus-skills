@@ -6,7 +6,7 @@ description: |
   or integrating Perplexity tests into your build process.
   Trigger with phrases like "perplexity CI", "perplexity GitHub Actions",
   "perplexity automated tests", "CI perplexity".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

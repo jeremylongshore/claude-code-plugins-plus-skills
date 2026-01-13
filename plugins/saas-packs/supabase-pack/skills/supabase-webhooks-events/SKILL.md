@@ -6,7 +6,7 @@ description: |
   or handling Supabase event notifications securely.
   Trigger with phrases like "supabase webhook", "supabase events",
   "supabase webhook signature", "handle supabase events", "supabase notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

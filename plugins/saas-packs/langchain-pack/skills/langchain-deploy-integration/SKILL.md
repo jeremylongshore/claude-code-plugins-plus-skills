@@ -6,7 +6,7 @@ description: |
   or setting up production infrastructure for LangChain apps.
   Trigger with phrases like "deploy langchain", "langchain production deploy",
   "langchain cloud run", "langchain docker", "langchain kubernetes".
-allowed-tools: Read, Write, Edit, Bash(docker:*), Bash(gcloud:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or scaling integrations for enterprise workloads.
   Trigger with phrases like "customer.io load test", "customer.io scale",
   "customer.io high volume", "customer.io performance test".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

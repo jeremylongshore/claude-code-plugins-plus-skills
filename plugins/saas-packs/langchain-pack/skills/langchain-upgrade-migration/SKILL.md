@@ -6,7 +6,7 @@ description: |
   or updating to new APIs after breaking changes.
   Trigger with phrases like "upgrade langchain", "langchain migration",
   "langchain breaking changes", "update langchain version", "langchain 0.3".
-allowed-tools: Read, Write, Edit, Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

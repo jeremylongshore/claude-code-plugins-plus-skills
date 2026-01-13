@@ -5,7 +5,7 @@ description: |
   Use when tracking large holder movements.
   Trigger with phrases like "track whales", "monitor large transfers", or "check whale activity".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:whale-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

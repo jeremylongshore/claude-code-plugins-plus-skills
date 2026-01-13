@@ -6,7 +6,7 @@ description: |
   or responding to service degradation.
   Trigger with phrases like "deepgram incident", "deepgram outage",
   "deepgram production issue", "deepgram down", "deepgram emergency".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

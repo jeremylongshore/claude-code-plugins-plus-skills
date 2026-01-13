@@ -6,7 +6,7 @@ description: |
   or establishing a fast iteration cycle with Ideogram.
   Trigger with phrases like "ideogram dev setup", "ideogram local development",
   "ideogram dev environment", "develop with ideogram".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

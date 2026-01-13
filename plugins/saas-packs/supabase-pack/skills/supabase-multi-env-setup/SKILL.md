@@ -6,7 +6,7 @@ description: |
   or implementing environment-specific Supabase configurations.
   Trigger with phrases like "supabase environments", "supabase staging",
   "supabase dev prod", "supabase environment setup", "supabase config by env".
-allowed-tools: Read, Write, Edit, Bash(aws:*), Bash(gcloud:*), Bash(vault:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

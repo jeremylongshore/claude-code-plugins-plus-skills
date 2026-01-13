@@ -5,7 +5,7 @@ description: |
   Use when ensuring cross-browser or device compatibility.
   Trigger with phrases like "test browser compatibility", "check cross-browser", or "validate on browsers".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:browser-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

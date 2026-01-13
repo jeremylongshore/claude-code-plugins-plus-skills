@@ -2,7 +2,7 @@
 name: optimizing-deep-learning-models
 description: |
   Optimize deep learning models using Adam, SGD, and learning rate scheduling to improve accuracy and reduce training time. Use when asked to "optimize deep learning model" or "improve model performance". Trigger with phrases like 'optimize', 'performance', or 'speed up'.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

@@ -5,7 +5,7 @@ description: |
   Use when performing specialized testing.
   Trigger with phrases like "orchestrate tests", "run parallel tests", or "coordinate test execution".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:orchestrate-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

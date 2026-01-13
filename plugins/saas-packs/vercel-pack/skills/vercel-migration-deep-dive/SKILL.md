@@ -6,7 +6,7 @@ description: |
   or re-platforming existing integrations to Vercel.
   Trigger with phrases like "migrate vercel", "vercel migration",
   "switch to vercel", "vercel replatform", "vercel upgrade major".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(node:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

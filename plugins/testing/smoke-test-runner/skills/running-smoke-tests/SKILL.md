@@ -5,7 +5,7 @@ description: |
   Use when performing specialized testing.
   Trigger with phrases like "run smoke tests", "quick validation", or "test critical paths".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:smoke-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

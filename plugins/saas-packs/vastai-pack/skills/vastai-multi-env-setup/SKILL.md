@@ -6,7 +6,7 @@ description: |
   or implementing environment-specific Vast.ai configurations.
   Trigger with phrases like "vastai environments", "vastai staging",
   "vastai dev prod", "vastai environment setup", "vastai config by env".
-allowed-tools: Read, Write, Edit, Bash(aws:*), Bash(gcloud:*), Bash(vault:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or collecting diagnostic information for Exa problems.
   Trigger with phrases like "exa debug", "exa support bundle",
   "collect exa logs", "exa diagnostic".
-allowed-tools: Read, Bash(grep:*), Bash(curl:*), Bash(tar:*), Grep
+allowed-tools: Read, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

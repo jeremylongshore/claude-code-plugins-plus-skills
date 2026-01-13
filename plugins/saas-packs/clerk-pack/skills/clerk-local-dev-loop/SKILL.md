@@ -6,7 +6,7 @@ description: |
   or setting up hot reload with Clerk.
   Trigger with phrases like "clerk local dev", "clerk development",
   "test clerk locally", "clerk dev environment".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   data pipelines, or broadcast campaigns.
   Trigger with phrases like "customer.io segments", "customer.io transactional",
   "customer.io broadcast", "customer.io data pipeline".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

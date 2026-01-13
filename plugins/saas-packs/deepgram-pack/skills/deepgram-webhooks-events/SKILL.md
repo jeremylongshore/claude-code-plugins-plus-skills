@@ -6,7 +6,7 @@ description: |
   or handling Deepgram event notifications.
   Trigger with phrases like "deepgram callback", "deepgram webhook",
   "async transcription deepgram", "deepgram events", "deepgram notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

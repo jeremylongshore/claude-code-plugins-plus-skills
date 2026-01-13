@@ -6,7 +6,7 @@ description: |
   or offline development for Customer.io integrations.
   Trigger with phrases like "customer.io local dev", "test customer.io locally",
   "customer.io development environment", "customer.io sandbox".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

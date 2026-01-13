@@ -6,7 +6,7 @@ description: |
   or optimizing Customer.io usage in your application.
   Trigger with phrases like "customer.io best practices", "customer.io patterns",
   "production customer.io", "customer.io architecture".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

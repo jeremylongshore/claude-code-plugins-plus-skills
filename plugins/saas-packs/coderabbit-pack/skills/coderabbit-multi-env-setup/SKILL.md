@@ -6,7 +6,7 @@ description: |
   or implementing environment-specific CodeRabbit configurations.
   Trigger with phrases like "coderabbit environments", "coderabbit staging",
   "coderabbit dev prod", "coderabbit environment setup", "coderabbit config by env".
-allowed-tools: Read, Write, Edit, Bash(aws:*), Bash(gcloud:*), Bash(vault:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

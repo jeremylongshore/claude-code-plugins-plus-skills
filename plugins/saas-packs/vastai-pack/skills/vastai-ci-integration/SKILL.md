@@ -6,7 +6,7 @@ description: |
   or integrating Vast.ai tests into your build process.
   Trigger with phrases like "vastai CI", "vastai GitHub Actions",
   "vastai automated tests", "CI vastai".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

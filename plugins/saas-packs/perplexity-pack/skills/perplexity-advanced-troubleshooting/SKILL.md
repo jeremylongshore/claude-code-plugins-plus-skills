@@ -6,7 +6,7 @@ description: |
   or preparing evidence bundles for Perplexity support escalation.
   Trigger with phrases like "perplexity hard bug", "perplexity mystery error",
   "perplexity impossible to debug", "difficult perplexity issue", "perplexity deep debug".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*), Bash(tcpdump:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

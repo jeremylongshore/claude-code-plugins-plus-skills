@@ -6,7 +6,7 @@ description: |
   or planning capacity for Clay integrations.
   Trigger with phrases like "clay load test", "clay scale",
   "clay performance test", "clay capacity", "clay k6", "clay benchmark".
-allowed-tools: Read, Write, Edit, Bash(k6:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

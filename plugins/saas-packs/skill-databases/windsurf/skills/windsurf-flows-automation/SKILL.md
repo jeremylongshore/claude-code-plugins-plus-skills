@@ -4,7 +4,7 @@ description: |
   Create and manage Windsurf Flows for repetitive tasks. Activate when users mention
   "windsurf flows", "task automation", "workflow automation", "repetitive tasks",
   or "process automation". Handles Flow creation and management. Use when working with windsurf flows automation functionality. Trigger with phrases like "windsurf flows automation", "windsurf automation", "windsurf".
-allowed-tools: "Read,Write,Edit,Bash(cmd:*)"
+allowed-tools: "Read,Write,Edit,Bash"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

@@ -5,7 +5,7 @@ description: |
   Use when validating API performance under load.
   Trigger with phrases like "load test the API", "stress test API", or "benchmark API performance".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:load-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

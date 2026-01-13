@@ -6,7 +6,7 @@ description: |
   or preparing evidence bundles for Windsurf support escalation.
   Trigger with phrases like "windsurf hard bug", "windsurf mystery error",
   "windsurf impossible to debug", "difficult windsurf issue", "windsurf deep debug".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*), Bash(tcpdump:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

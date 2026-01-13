@@ -6,7 +6,7 @@ description: |
   or running post-incident reviews for Clay integration failures.
   Trigger with phrases like "clay incident", "clay outage",
   "clay down", "clay on-call", "clay emergency", "clay broken".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

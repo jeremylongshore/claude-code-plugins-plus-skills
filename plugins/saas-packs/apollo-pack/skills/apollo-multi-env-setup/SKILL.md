@@ -6,7 +6,7 @@ description: |
   or managing multiple Apollo configurations.
   Trigger with phrases like "apollo environments", "apollo staging",
   "apollo dev prod", "apollo multi-tenant", "apollo env config".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

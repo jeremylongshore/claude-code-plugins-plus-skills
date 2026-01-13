@@ -6,7 +6,7 @@ description: |
   or optimizing request throughput.
   Trigger with phrases like "juicebox rate limit", "juicebox quota",
   "juicebox throttling", "juicebox backoff".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

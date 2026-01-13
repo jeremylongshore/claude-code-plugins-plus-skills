@@ -4,7 +4,7 @@ description: |
   Execute leverage AI-assisted terminal commands and debugging. Activate when users mention
   "terminal help", "command suggestion", "debug terminal", "shell assistance",
   or "cli help". Handles AI-enhanced terminal operations. Use when working with windsurf terminal ai functionality. Trigger with phrases like "windsurf terminal ai", "windsurf ai", "windsurf".
-allowed-tools: "Read,Bash(cmd:*),Grep"
+allowed-tools: "Read,Bash,Grep"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

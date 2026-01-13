@@ -6,7 +6,7 @@ description: |
   or re-platforming existing integrations to CodeRabbit.
   Trigger with phrases like "migrate coderabbit", "coderabbit migration",
   "switch to coderabbit", "coderabbit replatform", "coderabbit upgrade major".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(node:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

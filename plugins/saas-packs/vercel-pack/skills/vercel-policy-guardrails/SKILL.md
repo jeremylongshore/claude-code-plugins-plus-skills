@@ -6,7 +6,7 @@ description: |
   pre-commit hooks, or configuring CI policy checks for Vercel best practices.
   Trigger with phrases like "vercel policy", "vercel lint",
   "vercel guardrails", "vercel best practices check", "vercel eslint".
-allowed-tools: Read, Write, Edit, Bash(npx:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

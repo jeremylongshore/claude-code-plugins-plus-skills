@@ -6,7 +6,7 @@ description: |
   or urgent troubleshooting situations.
   Trigger with phrases like "granola incident", "granola outage",
   "granola emergency", "granola not recording", "granola down".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   for Apollo integrations.
   Trigger with phrases like "apollo monitoring", "apollo metrics",
   "apollo observability", "apollo logging", "apollo alerts".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

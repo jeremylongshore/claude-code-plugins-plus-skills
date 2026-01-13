@@ -6,7 +6,7 @@ description: |
   or other presentation tools to Gamma.
   Trigger with phrases like "gamma migration", "migrate to gamma",
   "gamma import", "gamma from powerpoint", "gamma from google slides".
-allowed-tools: Read, Write, Edit, Bash(node:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

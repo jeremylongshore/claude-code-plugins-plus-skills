@@ -6,7 +6,7 @@ description: |
   or implementing environment-specific Gamma configurations.
   Trigger with phrases like "gamma environments", "gamma staging",
   "gamma dev prod", "gamma environment setup", "gamma config by env".
-allowed-tools: Read, Write, Edit, Bash(aws:*), Bash(gcloud:*), Bash(vault:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

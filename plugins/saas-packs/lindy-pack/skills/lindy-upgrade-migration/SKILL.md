@@ -6,7 +6,7 @@ description: |
   or handling breaking changes.
   Trigger with phrases like "upgrade lindy", "lindy migration",
   "lindy breaking changes", "update lindy SDK".
-allowed-tools: Read, Write, Edit, Bash(npm:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

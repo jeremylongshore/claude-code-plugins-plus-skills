@@ -6,7 +6,7 @@ description: |
   or setting up organization-level access controls.
   Trigger with phrases like "deepgram RBAC", "deepgram permissions",
   "deepgram access control", "deepgram team roles", "deepgram enterprise".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

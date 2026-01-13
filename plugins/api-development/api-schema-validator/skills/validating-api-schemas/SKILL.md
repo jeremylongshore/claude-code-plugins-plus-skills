@@ -5,7 +5,7 @@ description: |
   Use when validating API schemas and contracts.
   Trigger with phrases like "validate API schema", "check OpenAPI spec", or "verify schema".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:schema-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

@@ -6,7 +6,7 @@ description: |
   or updating deprecated API usage.
   Trigger with phrases like "apollo upgrade", "apollo migration",
   "update apollo api", "apollo breaking changes", "apollo deprecation".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

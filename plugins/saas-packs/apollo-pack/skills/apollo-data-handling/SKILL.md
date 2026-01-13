@@ -6,7 +6,7 @@ description: |
   or managing data exports and retention.
   Trigger with phrases like "apollo data", "apollo gdpr", "apollo compliance",
   "apollo data export", "apollo data retention", "apollo pii".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or troubleshooting integration issues.
   Trigger with phrases like "retellai error", "fix retellai",
   "retellai not working", "debug retellai".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

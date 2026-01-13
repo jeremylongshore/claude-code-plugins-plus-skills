@@ -6,7 +6,7 @@ description: |
   or handling Exa event notifications securely.
   Trigger with phrases like "exa webhook", "exa events",
   "exa webhook signature", "handle exa events", "exa notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

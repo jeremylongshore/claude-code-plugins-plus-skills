@@ -6,7 +6,7 @@ description: |
   or optimizing Juicebox integration throughput.
   Trigger with phrases like "juicebox performance", "optimize juicebox",
   "juicebox speed", "juicebox latency".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

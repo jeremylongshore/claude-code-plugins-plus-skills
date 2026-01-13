@@ -6,7 +6,7 @@ description: |
   or migrating to new API versions.
   Trigger with phrases like "upgrade exa", "exa migration",
   "exa breaking changes", "update exa SDK", "analyze exa version".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(git:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

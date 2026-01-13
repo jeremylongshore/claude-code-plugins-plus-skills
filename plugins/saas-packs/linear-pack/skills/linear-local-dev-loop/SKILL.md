@@ -6,7 +6,7 @@ description: |
   or setting up a development workflow with Linear.
   Trigger with phrases like "linear local development", "linear dev setup",
   "test linear locally", "linear development environment".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(npx:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

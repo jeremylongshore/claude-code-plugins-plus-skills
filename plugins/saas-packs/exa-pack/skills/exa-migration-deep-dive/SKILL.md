@@ -6,7 +6,7 @@ description: |
   or re-platforming existing integrations to Exa.
   Trigger with phrases like "migrate exa", "exa migration",
   "switch to exa", "exa replatform", "exa upgrade major".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(node:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

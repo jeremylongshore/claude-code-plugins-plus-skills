@@ -6,7 +6,7 @@ description: |
   or mapping workflows between tools.
   Trigger with phrases like "migrate to linear", "jira to linear",
   "asana to linear", "import to linear", "linear migration".
-allowed-tools: Read, Write, Edit, Bash(node:*), Bash(npx:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

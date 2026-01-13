@@ -5,7 +5,7 @@ description: |
   Use when performing specialized testing.
   Trigger with phrases like "test mobile app", "run iOS tests", or "validate Android functionality".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:mobile-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

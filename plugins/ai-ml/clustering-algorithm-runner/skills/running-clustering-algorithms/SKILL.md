@@ -2,7 +2,7 @@
 name: running-clustering-algorithms
 description: |
   Analyze datasets by running clustering algorithms (K-means, DBSCAN, hierarchical) to identify data groups. Use when requesting "run clustering", "cluster analysis", or "group data points". Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

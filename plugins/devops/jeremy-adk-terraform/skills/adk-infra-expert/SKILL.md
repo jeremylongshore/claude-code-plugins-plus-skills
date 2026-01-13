@@ -2,7 +2,7 @@
 name: adk-infra-expert
 description: |
   Execute use when provisioning Vertex AI ADK infrastructure with Terraform. Trigger with phrases like "deploy ADK terraform", "agent engine infrastructure", "provision ADK agent", "vertex AI agent terraform", or "code execution sandbox terraform". Provisions Agent Engine runtime, 14-day code execution sandbox, Memory Bank, VPC Service Controls, IAM roles, and secure multi-agent infrastructure.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(terraform:*), Bash(gcloud:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

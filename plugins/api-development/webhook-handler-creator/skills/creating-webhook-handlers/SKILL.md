@@ -5,7 +5,7 @@ description: |
   Use when receiving and processing webhook events.
   Trigger with phrases like "create webhook", "handle webhook events", or "setup webhook handler".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:webhook-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

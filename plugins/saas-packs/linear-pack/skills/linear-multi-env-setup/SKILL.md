@@ -6,7 +6,7 @@ description: |
   or implementing environment-specific Linear configurations.
   Trigger with phrases like "linear environments", "linear staging",
   "linear dev prod", "linear environment setup", "multi-environment linear".
-allowed-tools: Read, Write, Edit, Bash(vault:*), Bash(gcloud:*), Bash(aws:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

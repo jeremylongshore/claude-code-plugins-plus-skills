@@ -6,7 +6,7 @@ description: |
   migrations, or implementing phased rollout strategies.
   Trigger with phrases like "deepgram migration", "switch to deepgram",
   "migrate transcription", "deepgram from AWS", "deepgram from Google".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

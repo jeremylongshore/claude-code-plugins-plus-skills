@@ -5,7 +5,7 @@ description: |
   Use when discovering profitable arbitrage across exchanges.
   Trigger with phrases like "find arbitrage", "scan for arb opportunities", or "check arbitrage".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:arbitrage-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

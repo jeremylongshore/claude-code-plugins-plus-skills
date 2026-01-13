@@ -5,7 +5,7 @@ description: |
   Use when ensuring API response correctness.
   Trigger with phrases like "validate responses", "check API responses", or "verify response format".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:validate-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

@@ -5,7 +5,7 @@ description: |
   Use when processing bulk API operations efficiently.
   Trigger with phrases like "process bulk requests", "batch API calls", or "handle batch operations".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:batch-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

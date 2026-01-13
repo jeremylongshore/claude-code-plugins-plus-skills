@@ -2,7 +2,7 @@
 name: collecting-infrastructure-metrics
 description: Collect comprehensive infrastructure performance metrics across compute, storage, network, containers, load balancers, and databases. Use when monitoring system performance or troubleshooting infrastructure issues. Trigger with phrases like "collect infrastructure metrics", "monitor server performance", or "track system resources".
 version: 1.0.0
-allowed-tools: "Read, Write, Edit, Grep, Glob, Bash(metrics:*), Bash(monitoring:*), Bash(system:*)"
+allowed-tools: "Read, Write, Edit, Grep, Glob, Bash"
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 ---

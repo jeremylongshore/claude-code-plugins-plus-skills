@@ -6,7 +6,7 @@ description: |
   or collecting diagnostic information for Replit problems.
   Trigger with phrases like "replit debug", "replit support bundle",
   "collect replit logs", "replit diagnostic".
-allowed-tools: Read, Bash(grep:*), Bash(curl:*), Bash(tar:*), Grep
+allowed-tools: Read, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

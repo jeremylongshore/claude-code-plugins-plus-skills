@@ -6,7 +6,7 @@ description: |
   or collecting diagnostic information for Instantly problems.
   Trigger with phrases like "instantly debug", "instantly support bundle",
   "collect instantly logs", "instantly diagnostic".
-allowed-tools: Read, Bash(grep:*), Bash(curl:*), Bash(tar:*), Grep
+allowed-tools: Read, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

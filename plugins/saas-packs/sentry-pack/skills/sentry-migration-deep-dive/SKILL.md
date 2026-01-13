@@ -6,7 +6,7 @@ description: |
   or other error tracking solutions.
   Trigger with phrases like "migrate to sentry", "sentry migration",
   "switch from rollbar to sentry", "replace bugsnag with sentry".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

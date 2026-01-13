@@ -6,7 +6,7 @@ description: |
   or running post-incident reviews for FireCrawl integration failures.
   Trigger with phrases like "firecrawl incident", "firecrawl outage",
   "firecrawl down", "firecrawl on-call", "firecrawl emergency", "firecrawl broken".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

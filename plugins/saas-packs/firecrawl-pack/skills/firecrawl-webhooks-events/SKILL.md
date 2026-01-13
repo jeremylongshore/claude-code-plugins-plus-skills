@@ -6,7 +6,7 @@ description: |
   or handling FireCrawl event notifications securely.
   Trigger with phrases like "firecrawl webhook", "firecrawl events",
   "firecrawl webhook signature", "handle firecrawl events", "firecrawl notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

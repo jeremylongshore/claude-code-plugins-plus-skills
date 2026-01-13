@@ -6,7 +6,7 @@ description: |
   or migrating between major Linear API versions.
   Trigger with phrases like "upgrade linear SDK", "linear SDK migration",
   "update linear", "linear breaking changes", "linear deprecation".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(npx:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

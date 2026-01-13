@@ -6,7 +6,7 @@ description: |
   managing per-environment configurations, or implementing environment isolation.
   Trigger with phrases like "juicebox environments", "juicebox staging",
   "juicebox dev prod", "juicebox environment setup".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

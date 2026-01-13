@@ -3,7 +3,7 @@ name: "cursor-usage-analytics"
 description: |
   Track and analyze Cursor usage metrics. Triggers on "cursor analytics",
   "cursor usage", "cursor metrics", "cursor reporting", "cursor dashboard". Use when working with cursor usage analytics functionality. Trigger with phrases like "cursor usage analytics", "cursor analytics", "cursor".
-allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
+allowed-tools: "Read, Write, Edit, Bash"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

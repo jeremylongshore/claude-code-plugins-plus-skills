@@ -7,7 +7,7 @@ description: |
   Trigger with phrases like "sentry not working", "debug sentry",
   "sentry events missing", "fix sentry issues".
   
-allowed-tools: "Read, Write, Edit, Grep, Bash(cmd:*)"
+allowed-tools: "Read, Write, Edit, Grep, Bash"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

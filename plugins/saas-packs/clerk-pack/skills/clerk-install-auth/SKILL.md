@@ -6,7 +6,7 @@ description: |
   or initializing Clerk in your project.
   Trigger with phrases like "install clerk", "setup clerk",
   "clerk auth", "configure clerk API key", "add clerk to project".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or handling Groq event notifications securely.
   Trigger with phrases like "groq webhook", "groq events",
   "groq webhook signature", "handle groq events", "groq notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

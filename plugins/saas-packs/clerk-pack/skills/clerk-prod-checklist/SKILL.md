@@ -6,7 +6,7 @@ description: |
   or auditing Clerk implementation before launch.
   Trigger with phrases like "clerk production", "clerk deploy checklist",
   "clerk go-live", "clerk launch ready".
-allowed-tools: Read, Write, Edit, Grep, Bash(npm:*)
+allowed-tools: Read, Write, Edit, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

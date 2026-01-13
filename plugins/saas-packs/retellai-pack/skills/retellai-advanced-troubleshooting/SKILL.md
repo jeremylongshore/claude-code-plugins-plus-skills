@@ -6,7 +6,7 @@ description: |
   or preparing evidence bundles for Retell AI support escalation.
   Trigger with phrases like "retellai hard bug", "retellai mystery error",
   "retellai impossible to debug", "difficult retellai issue", "retellai deep debug".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*), Bash(tcpdump:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

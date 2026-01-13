@@ -6,7 +6,7 @@ description: |
   or systematic debugging of Gamma API problems.
   Trigger with phrases like "gamma debug bundle", "gamma diagnostics",
   "gamma trace", "gamma inspect", "gamma detailed logs".
-allowed-tools: Read, Write, Edit, Bash(node:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

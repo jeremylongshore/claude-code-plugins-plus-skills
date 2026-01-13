@@ -6,7 +6,7 @@ description: |
   or gathering diagnostic information for Apollo problems.
   Trigger with phrases like "apollo debug", "apollo support bundle",
   "collect apollo diagnostics", "apollo troubleshooting info".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

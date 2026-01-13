@@ -6,7 +6,7 @@ description: |
   or re-platforming existing integrations to Windsurf.
   Trigger with phrases like "migrate windsurf", "windsurf migration",
   "switch to windsurf", "windsurf replatform", "windsurf upgrade major".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(node:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

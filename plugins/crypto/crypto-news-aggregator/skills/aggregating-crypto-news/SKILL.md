@@ -5,7 +5,7 @@ description: |
   Use when staying updated on crypto market events.
   Trigger with phrases like "get crypto news", "check latest announcements", or "scan for updates".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:news-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

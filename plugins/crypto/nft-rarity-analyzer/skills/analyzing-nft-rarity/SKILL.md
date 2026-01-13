@@ -5,7 +5,7 @@ description: |
   Use when analyzing NFT collections and rarity.
   Trigger with phrases like "check NFT rarity", "analyze collection", or "calculate floor price".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:nft-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

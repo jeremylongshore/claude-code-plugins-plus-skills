@@ -4,7 +4,7 @@ description: |
   Configure AI interaction audit logging for compliance. Activate when users mention
   "audit logging", "compliance logging", "ai interaction logs", "security audit",
   or "activity tracking". Handles compliance and audit configuration. Use when analyzing or auditing windsurf audit logging. Trigger with phrases like "windsurf audit logging", "windsurf logging", "windsurf".
-allowed-tools: "Read,Write,Edit,Bash(cmd:*)"
+allowed-tools: "Read,Write,Edit,Bash"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

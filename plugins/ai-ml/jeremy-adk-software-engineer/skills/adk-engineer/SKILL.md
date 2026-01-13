@@ -2,7 +2,7 @@
 name: adk-engineer
 description: |
   Execute software engineer specializing in creating production-ready ADK agents with best practices, code structure, testing, and deployment automation. Use when asked to "build ADK agent", "create agent code", or "engineer ADK application". Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

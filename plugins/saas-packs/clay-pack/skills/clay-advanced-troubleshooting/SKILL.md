@@ -6,7 +6,7 @@ description: |
   or preparing evidence bundles for Clay support escalation.
   Trigger with phrases like "clay hard bug", "clay mystery error",
   "clay impossible to debug", "difficult clay issue", "clay deep debug".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*), Bash(tcpdump:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

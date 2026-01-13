@@ -6,7 +6,7 @@ description: |
   or integrating Vercel tests into your build process.
   Trigger with phrases like "vercel CI", "vercel GitHub Actions",
   "vercel automated tests", "CI vercel".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

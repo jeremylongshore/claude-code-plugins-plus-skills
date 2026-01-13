@@ -5,7 +5,7 @@ description: |
   Use when monitoring real-time cryptocurrency prices.
   Trigger with phrases like "check price", "track prices", or "get price alert".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:price-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

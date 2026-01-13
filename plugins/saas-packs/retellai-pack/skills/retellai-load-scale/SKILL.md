@@ -6,7 +6,7 @@ description: |
   or planning capacity for Retell AI integrations.
   Trigger with phrases like "retellai load test", "retellai scale",
   "retellai performance test", "retellai capacity", "retellai k6", "retellai benchmark".
-allowed-tools: Read, Write, Edit, Bash(k6:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

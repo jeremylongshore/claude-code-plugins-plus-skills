@@ -6,7 +6,7 @@ description: |
   pre-commit hooks, or configuring CI policy checks for Clay best practices.
   Trigger with phrases like "clay policy", "clay lint",
   "clay guardrails", "clay best practices check", "clay eslint".
-allowed-tools: Read, Write, Edit, Bash(npx:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

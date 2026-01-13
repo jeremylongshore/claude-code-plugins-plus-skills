@@ -6,7 +6,7 @@ description: |
   real-time web search, web page to markdown extraction, or GitHub code exploration.
   Trigger with phrases like "analyze this image", "search the web for", "read this page",
   "explore this repo", or "use zai". Requires Z_AI_API_KEY.
-allowed-tools: Read, Write, Edit, Bash(cmd:*), WebFetch
+allowed-tools: Read, Write, Edit, Bash, WebFetch
 version: 1.0.0
 license: Apache-2.0
 author: Numman Ali <numman.ali@gmail.com>

@@ -5,7 +5,7 @@ description: |
   Use when performing specialized testing.
   Trigger with phrases like "validate API contract", "run contract tests", or "check consumer contracts".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:contract-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

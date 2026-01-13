@@ -6,7 +6,7 @@ description: |
   or migrating data between Granola accounts.
   Trigger with phrases like "upgrade granola", "granola migration",
   "granola new version", "change granola plan", "granola update".
-allowed-tools: Read, Write, Edit, Bash(brew:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

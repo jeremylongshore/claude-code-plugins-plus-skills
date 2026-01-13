@@ -5,7 +5,7 @@ description: |
   Use when tracking significant price movements.
   Trigger with phrases like "scan market movers", "check biggest gainers", or "find pumps".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:movers-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

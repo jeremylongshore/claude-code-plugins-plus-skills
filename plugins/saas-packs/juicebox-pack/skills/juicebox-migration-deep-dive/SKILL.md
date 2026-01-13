@@ -6,7 +6,7 @@ description: |
   or implementing complex data transformation pipelines.
   Trigger with phrases like "juicebox data migration", "migrate to juicebox",
   "juicebox import", "juicebox bulk migration".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or integrating Ideogram tests into your build process.
   Trigger with phrases like "ideogram CI", "ideogram GitHub Actions",
   "ideogram automated tests", "CI ideogram".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

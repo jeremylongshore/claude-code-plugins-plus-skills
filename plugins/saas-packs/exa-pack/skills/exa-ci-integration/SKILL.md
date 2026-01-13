@@ -6,7 +6,7 @@ description: |
   or integrating Exa tests into your build process.
   Trigger with phrases like "exa CI", "exa GitHub Actions",
   "exa automated tests", "CI exa".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or integrating Gamma tests into your build process.
   Trigger with phrases like "gamma CI", "gamma GitHub Actions",
   "gamma automated tests", "CI gamma", "gamma pipeline".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

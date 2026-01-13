@@ -6,7 +6,7 @@ description: |
   or initializing LangChain in your project.
   Trigger with phrases like "install langchain", "setup langchain",
   "langchain auth", "configure langchain API key", "langchain credentials".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or auditing security configurations.
   Trigger with phrases like "deepgram security", "deepgram API key security",
   "secure deepgram", "deepgram key rotation", "deepgram data protection".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

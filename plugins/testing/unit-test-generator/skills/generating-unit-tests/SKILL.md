@@ -5,7 +5,7 @@ description: |
   Use when creating test coverage for functions, classes, or modules.
   Trigger with phrases like "generate unit tests", "create tests for", or "add test coverage".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:unit-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

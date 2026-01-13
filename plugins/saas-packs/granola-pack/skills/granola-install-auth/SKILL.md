@@ -6,7 +6,7 @@ description: |
   or configuring audio capture permissions.
   Trigger with phrases like "install granola", "setup granola",
   "granola calendar", "configure granola", "granola permissions".
-allowed-tools: Read, Write, Edit, Bash(brew:*), Bash(open:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

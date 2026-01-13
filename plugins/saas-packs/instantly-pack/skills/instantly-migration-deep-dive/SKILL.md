@@ -6,7 +6,7 @@ description: |
   or re-platforming existing integrations to Instantly.
   Trigger with phrases like "migrate instantly", "instantly migration",
   "switch to instantly", "instantly replatform", "instantly upgrade major".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(node:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

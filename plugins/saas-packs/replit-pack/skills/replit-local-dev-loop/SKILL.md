@@ -6,7 +6,7 @@ description: |
   or establishing a fast iteration cycle with Replit.
   Trigger with phrases like "replit dev setup", "replit local development",
   "replit dev environment", "develop with replit".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

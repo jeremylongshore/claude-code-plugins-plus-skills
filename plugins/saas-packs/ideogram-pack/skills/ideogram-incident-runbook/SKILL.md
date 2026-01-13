@@ -6,7 +6,7 @@ description: |
   or running post-incident reviews for Ideogram integration failures.
   Trigger with phrases like "ideogram incident", "ideogram outage",
   "ideogram down", "ideogram on-call", "ideogram emergency", "ideogram broken".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

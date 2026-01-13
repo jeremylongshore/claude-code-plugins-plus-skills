@@ -6,7 +6,7 @@ description: |
   or setting up enterprise security controls.
   Trigger with phrases like "apollo rbac", "apollo permissions",
   "apollo roles", "apollo team access", "apollo enterprise security".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

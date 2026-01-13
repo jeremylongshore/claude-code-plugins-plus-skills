@@ -5,7 +5,7 @@ description: |
   Use when analyzing untested code or coverage gaps.
   Trigger with phrases like "analyze coverage", "check test coverage", or "find untested code".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:coverage-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

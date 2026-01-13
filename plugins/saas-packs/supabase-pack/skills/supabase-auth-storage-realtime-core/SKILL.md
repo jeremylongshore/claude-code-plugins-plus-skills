@@ -6,7 +6,7 @@ description: |
   or complementing primary workflow.
   Trigger with phrases like "supabase auth storage realtime",
   "implement full stack features with supabase".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

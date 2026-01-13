@@ -3,7 +3,7 @@ name: "cursor-install-auth"
 description: |
   Install Cursor IDE and configure authentication. Triggers on "install cursor",
   "setup cursor", "cursor authentication", "cursor login", "cursor license". Use when working with cursor install auth functionality. Trigger with phrases like "cursor install auth", "cursor auth", "cursor".
-allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
+allowed-tools: "Read, Write, Edit, Bash"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

@@ -6,7 +6,7 @@ description: |
   or planning Deepgram integration at scale.
   Trigger with phrases like "deepgram architecture", "transcription pipeline",
   "deepgram system design", "deepgram at scale", "enterprise deepgram".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

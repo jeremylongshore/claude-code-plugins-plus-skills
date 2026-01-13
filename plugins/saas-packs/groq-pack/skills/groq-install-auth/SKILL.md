@@ -6,7 +6,7 @@ description: |
   or initializing Groq in your project.
   Trigger with phrases like "install groq", "setup groq",
   "groq auth", "configure groq API key".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

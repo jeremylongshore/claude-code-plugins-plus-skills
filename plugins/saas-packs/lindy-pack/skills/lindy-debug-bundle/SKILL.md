@@ -6,7 +6,7 @@ description: |
   or preparing support tickets.
   Trigger with phrases like "lindy debug", "lindy diagnostics",
   "lindy support bundle", "investigate lindy issue".
-allowed-tools: Read, Write, Edit, Bash(curl:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

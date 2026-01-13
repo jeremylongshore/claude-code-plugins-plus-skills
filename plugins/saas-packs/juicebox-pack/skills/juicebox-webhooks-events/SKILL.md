@@ -6,7 +6,7 @@ description: |
   or integrating real-time updates from Juicebox.
   Trigger with phrases like "juicebox webhooks", "juicebox events",
   "juicebox notifications", "juicebox real-time".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

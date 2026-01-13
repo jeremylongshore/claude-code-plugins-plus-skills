@@ -5,7 +5,7 @@ description: |
   Use when validating trading strategies with historical data.
   Trigger with phrases like "backtest strategy", "test trading signals", or "validate approach".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:backtest-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

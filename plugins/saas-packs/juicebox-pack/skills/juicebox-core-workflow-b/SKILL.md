@@ -6,7 +6,7 @@ description: |
   or building comprehensive candidate profiles.
   Trigger with phrases like "juicebox enrich profile", "juicebox candidate details",
   "enrich candidate data", "juicebox profile enrichment".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

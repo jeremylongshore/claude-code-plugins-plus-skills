@@ -6,7 +6,7 @@ description: |
   with proper secret management and configuration.
   Trigger with phrases like "gamma deploy", "gamma production",
   "gamma vercel", "gamma AWS", "gamma cloud deployment".
-allowed-tools: Read, Write, Edit, Bash(vercel:*), Bash(aws:*), Bash(gcloud:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

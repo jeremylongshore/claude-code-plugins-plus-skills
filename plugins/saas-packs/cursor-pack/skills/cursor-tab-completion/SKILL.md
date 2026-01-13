@@ -3,7 +3,7 @@ name: "cursor-tab-completion"
 description: |
   Manage master Cursor tab completion and AI code suggestions. Triggers on "cursor completion",
   "cursor tab", "cursor suggestions", "cursor autocomplete", "cursor ghost text". Use when working with cursor tab completion functionality. Trigger with phrases like "cursor tab completion", "cursor completion", "cursor".
-allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
+allowed-tools: "Read, Write, Edit, Bash"
 version: 1.0.0
 license: MIT
 author: "Jeremy Longshore <jeremy@intentsolutions.io>"

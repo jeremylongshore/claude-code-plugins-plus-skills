@@ -6,7 +6,7 @@ description: |
   setting up debug mode, or testing error capture locally.
   Trigger with phrases like "sentry local dev", "sentry development",
   "debug sentry", "sentry dev environment".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

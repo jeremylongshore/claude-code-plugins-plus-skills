@@ -6,7 +6,7 @@ description: |
   or handling Fireflies.ai event notifications securely.
   Trigger with phrases like "fireflies webhook", "fireflies events",
   "fireflies webhook signature", "handle fireflies events", "fireflies notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

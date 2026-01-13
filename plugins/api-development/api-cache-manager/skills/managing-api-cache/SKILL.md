@@ -5,7 +5,7 @@ description: |
   Use when optimizing API performance with caching.
   Trigger with phrases like "add caching", "optimize API performance", or "implement cache layer".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:cache-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

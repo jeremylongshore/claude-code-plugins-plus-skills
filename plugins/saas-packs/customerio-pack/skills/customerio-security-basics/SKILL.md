@@ -6,7 +6,7 @@ description: |
   or setting up proper access controls.
   Trigger with phrases like "customer.io security", "customer.io pii",
   "secure customer.io", "customer.io gdpr".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

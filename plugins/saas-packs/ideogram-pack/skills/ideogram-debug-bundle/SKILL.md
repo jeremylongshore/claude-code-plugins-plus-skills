@@ -6,7 +6,7 @@ description: |
   or collecting diagnostic information for Ideogram problems.
   Trigger with phrases like "ideogram debug", "ideogram support bundle",
   "collect ideogram logs", "ideogram diagnostic".
-allowed-tools: Read, Bash(grep:*), Bash(curl:*), Bash(tar:*), Grep
+allowed-tools: Read, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   Sentry configuration, or verifying production readiness.
   Trigger with phrases like "sentry production", "deploy sentry",
   "sentry checklist", "sentry go-live".
-allowed-tools: Read, Grep, Bash(npm:*), Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

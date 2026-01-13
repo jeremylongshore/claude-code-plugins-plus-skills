@@ -6,7 +6,7 @@ description: |
   or collecting diagnostic information for Groq problems.
   Trigger with phrases like "groq debug", "groq support bundle",
   "collect groq logs", "groq diagnostic".
-allowed-tools: Read, Bash(grep:*), Bash(curl:*), Bash(tar:*), Grep
+allowed-tools: Read, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

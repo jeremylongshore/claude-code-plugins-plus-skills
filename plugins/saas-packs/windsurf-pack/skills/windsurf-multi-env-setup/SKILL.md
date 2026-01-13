@@ -6,7 +6,7 @@ description: |
   or implementing environment-specific Windsurf configurations.
   Trigger with phrases like "windsurf environments", "windsurf staging",
   "windsurf dev prod", "windsurf environment setup", "windsurf config by env".
-allowed-tools: Read, Write, Edit, Bash(aws:*), Bash(gcloud:*), Bash(vault:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

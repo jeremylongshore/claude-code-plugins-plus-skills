@@ -5,7 +5,7 @@ description: |
   Use when tracking futures and options positions.
   Trigger with phrases like "track derivatives", "check futures positions", or "analyze perps".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:derivatives-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

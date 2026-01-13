@@ -6,7 +6,7 @@ description: |
   or handling Windsurf event notifications securely.
   Trigger with phrases like "windsurf webhook", "windsurf events",
   "windsurf webhook signature", "handle windsurf events", "windsurf notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

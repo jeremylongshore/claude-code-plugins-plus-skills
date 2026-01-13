@@ -6,7 +6,7 @@ description: |
   environments with proper isolation.
   Trigger with phrases like "customer.io environments", "customer.io staging",
   "customer.io dev prod", "customer.io workspace".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

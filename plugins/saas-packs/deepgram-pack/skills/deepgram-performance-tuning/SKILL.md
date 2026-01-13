@@ -6,7 +6,7 @@ description: |
   or optimizing audio processing pipelines.
   Trigger with phrases like "deepgram performance", "speed up deepgram",
   "optimize transcription", "deepgram latency", "deepgram faster".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

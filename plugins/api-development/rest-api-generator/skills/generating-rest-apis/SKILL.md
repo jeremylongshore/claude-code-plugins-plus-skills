@@ -5,7 +5,7 @@ description: |
   Use when generating RESTful API implementations.
   Trigger with phrases like "generate REST API", "create RESTful API", or "build REST endpoints".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:rest-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

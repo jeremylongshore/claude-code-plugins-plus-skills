@@ -6,7 +6,7 @@ description: |
   or implementing environment-specific Vercel configurations.
   Trigger with phrases like "vercel environments", "vercel staging",
   "vercel dev prod", "vercel environment setup", "vercel config by env".
-allowed-tools: Read, Write, Edit, Bash(aws:*), Bash(gcloud:*), Bash(vault:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

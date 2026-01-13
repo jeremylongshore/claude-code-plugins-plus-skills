@@ -5,7 +5,7 @@ description: |
   Use when scanning APIs for security vulnerabilities.
   Trigger with phrases like "scan API security", "check for vulnerabilities", or "audit API security".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:security-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

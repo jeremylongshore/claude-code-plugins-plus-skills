@@ -6,7 +6,7 @@ description: |
   or integrating Groq tests into your build process.
   Trigger with phrases like "groq CI", "groq GitHub Actions",
   "groq automated tests", "CI groq".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

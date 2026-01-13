@@ -6,7 +6,7 @@ description: |
   or establishing team development practices.
   Trigger with phrases like "apollo local dev", "apollo development setup",
   "apollo dev environment", "apollo testing locally".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or creating real-time notification systems.
   Trigger with phrases like "granola webhooks", "granola events",
   "granola triggers", "granola real-time", "granola callbacks".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

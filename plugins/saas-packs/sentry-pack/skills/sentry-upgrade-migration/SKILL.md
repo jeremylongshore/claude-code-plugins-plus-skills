@@ -6,7 +6,7 @@ description: |
   or migrating from legacy versions.
   Trigger with phrases like "upgrade sentry", "sentry migration",
   "update sentry sdk", "sentry breaking changes".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

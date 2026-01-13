@@ -4,7 +4,7 @@ description: |
   Build discounted cash flow (DCF) valuation models in Excel. Use when creating
   DCF models, calculating enterprise value, or valuing companies.
   Trigger with phrases like 'excel dcf', 'build dcf model', 'calculate enterprise value'.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

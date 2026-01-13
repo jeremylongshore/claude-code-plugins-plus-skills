@@ -6,7 +6,7 @@ description: |
   or planning capacity for Exa integrations.
   Trigger with phrases like "exa load test", "exa scale",
   "exa performance test", "exa capacity", "exa k6", "exa benchmark".
-allowed-tools: Read, Write, Edit, Bash(k6:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

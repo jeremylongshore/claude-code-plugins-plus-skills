@@ -5,7 +5,7 @@ description: |
   Use when performing specialized testing.
   Trigger with phrases like "track regressions", "manage regression suite", or "validate against baseline".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:regression-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

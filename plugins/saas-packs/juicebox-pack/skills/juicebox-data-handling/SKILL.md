@@ -6,7 +6,7 @@ description: |
   or handling sensitive candidate information.
   Trigger with phrases like "juicebox data privacy", "juicebox GDPR",
   "juicebox PII handling", "juicebox data compliance".
-allowed-tools: Read, Write, Edit, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

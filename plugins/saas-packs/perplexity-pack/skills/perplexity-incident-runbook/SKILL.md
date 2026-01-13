@@ -6,7 +6,7 @@ description: |
   or running post-incident reviews for Perplexity integration failures.
   Trigger with phrases like "perplexity incident", "perplexity outage",
   "perplexity down", "perplexity on-call", "perplexity emergency", "perplexity broken".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

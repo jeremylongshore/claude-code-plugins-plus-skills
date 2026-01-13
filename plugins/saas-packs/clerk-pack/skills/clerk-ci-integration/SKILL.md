@@ -6,7 +6,7 @@ description: |
   or integrating Clerk tests into your build process.
   Trigger with phrases like "clerk CI", "clerk GitHub Actions",
   "clerk automated tests", "CI clerk", "clerk pipeline".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

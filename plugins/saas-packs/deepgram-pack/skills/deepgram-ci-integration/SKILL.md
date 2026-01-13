@@ -6,7 +6,7 @@ description: |
   or deployment workflows for Deepgram integrations.
   Trigger with phrases like "deepgram CI", "deepgram CD", "deepgram pipeline",
   "deepgram github actions", "deepgram automated testing".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

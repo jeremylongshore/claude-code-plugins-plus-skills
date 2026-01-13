@@ -6,7 +6,7 @@ description: |
   or integrating Windsurf tests into your build process.
   Trigger with phrases like "windsurf CI", "windsurf GitHub Actions",
   "windsurf automated tests", "CI windsurf".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

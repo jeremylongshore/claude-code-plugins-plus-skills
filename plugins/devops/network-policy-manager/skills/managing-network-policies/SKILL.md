@@ -2,7 +2,7 @@
 name: managing-network-policies
 description: |
   Execute use when managing Kubernetes network policies and firewall rules. Trigger with phrases like "create network policy", "configure firewall rules", "restrict pod communication", or "setup ingress/egress rules". Generates Kubernetes NetworkPolicy manifests following least privilege and zero-trust principles.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

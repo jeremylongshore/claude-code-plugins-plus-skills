@@ -5,7 +5,7 @@ description: |
   Use when performing specialized testing.
   Trigger with phrases like "run integration tests", "test integration", or "validate component interactions".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:integration-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

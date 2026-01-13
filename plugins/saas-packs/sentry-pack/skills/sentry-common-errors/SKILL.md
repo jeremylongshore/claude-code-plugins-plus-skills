@@ -6,7 +6,7 @@ description: |
   or configuration problems.
   Trigger with phrases like "sentry not working", "sentry errors missing",
   "fix sentry", "sentry troubleshoot".
-allowed-tools: Read, Grep, Bash(npm:*), Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

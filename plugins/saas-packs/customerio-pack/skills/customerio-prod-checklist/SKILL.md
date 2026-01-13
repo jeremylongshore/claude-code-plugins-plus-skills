@@ -6,7 +6,7 @@ description: |
   integration quality, or performing pre-launch audits.
   Trigger with phrases like "customer.io production", "customer.io checklist",
   "deploy customer.io", "customer.io go-live".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

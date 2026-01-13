@@ -6,7 +6,7 @@ description: |
   or preparing evidence bundles for Supabase support escalation.
   Trigger with phrases like "supabase hard bug", "supabase mystery error",
   "supabase impossible to debug", "difficult supabase issue", "supabase deep debug".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*), Bash(tcpdump:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or implementing audit logging.
   Trigger with phrases like "clerk monitoring", "clerk logging",
   "clerk observability", "clerk metrics", "clerk audit log".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

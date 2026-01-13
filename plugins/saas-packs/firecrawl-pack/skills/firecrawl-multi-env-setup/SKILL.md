@@ -6,7 +6,7 @@ description: |
   or implementing environment-specific FireCrawl configurations.
   Trigger with phrases like "firecrawl environments", "firecrawl staging",
   "firecrawl dev prod", "firecrawl environment setup", "firecrawl config by env".
-allowed-tools: Read, Write, Edit, Bash(aws:*), Bash(gcloud:*), Bash(vault:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

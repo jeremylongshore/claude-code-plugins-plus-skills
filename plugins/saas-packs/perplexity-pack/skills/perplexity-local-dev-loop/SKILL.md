@@ -6,7 +6,7 @@ description: |
   or establishing a fast iteration cycle with Perplexity.
   Trigger with phrases like "perplexity dev setup", "perplexity local development",
   "perplexity dev environment", "develop with perplexity".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

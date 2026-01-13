@@ -6,7 +6,7 @@ description: |
   Testing changes before production, or Sharing preview URLs with stakeholders.
   Trigger with phrases like "vercel deploy preview",
   "create preview deployment with vercel".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

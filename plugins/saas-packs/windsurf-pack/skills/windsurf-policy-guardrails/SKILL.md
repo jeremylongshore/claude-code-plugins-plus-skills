@@ -6,7 +6,7 @@ description: |
   pre-commit hooks, or configuring CI policy checks for Windsurf best practices.
   Trigger with phrases like "windsurf policy", "windsurf lint",
   "windsurf guardrails", "windsurf best practices check", "windsurf eslint".
-allowed-tools: Read, Write, Edit, Bash(npx:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

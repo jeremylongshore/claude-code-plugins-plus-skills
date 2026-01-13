@@ -5,7 +5,7 @@ description: |
   Use when finding optimal DeFi yield opportunities.
   Trigger with phrases like "find yield", "optimize returns", or "compare APY".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:yield-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

@@ -6,7 +6,7 @@ description: |
   or enterprise-grade Juicebox integrations.
   Trigger with phrases like "juicebox best practices", "juicebox patterns",
   "production juicebox", "juicebox SDK architecture".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -6,7 +6,7 @@ description: |
   or running post-incident reviews for Retell AI integration failures.
   Trigger with phrases like "retellai incident", "retellai outage",
   "retellai down", "retellai on-call", "retellai emergency", "retellai broken".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

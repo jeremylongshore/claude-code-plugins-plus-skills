@@ -6,7 +6,7 @@ description: |
   or transitioning between Deepgram models.
   Trigger with phrases like "upgrade deepgram", "deepgram migration",
   "update deepgram SDK", "deepgram version upgrade", "migrate deepgram".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

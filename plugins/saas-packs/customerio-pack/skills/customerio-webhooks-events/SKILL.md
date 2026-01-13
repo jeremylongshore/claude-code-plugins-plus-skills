@@ -6,7 +6,7 @@ description: |
   or integrating Customer.io event streams.
   Trigger with phrases like "customer.io webhook", "customer.io events",
   "customer.io callback", "customer.io delivery status".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

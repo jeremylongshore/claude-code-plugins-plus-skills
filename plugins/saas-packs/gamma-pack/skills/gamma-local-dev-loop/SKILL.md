@@ -6,7 +6,7 @@ description: |
   or optimizing your Gamma development experience.
   Trigger with phrases like "gamma local dev", "gamma development setup",
   "gamma hot reload", "gamma mock", "gamma dev workflow".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(node:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

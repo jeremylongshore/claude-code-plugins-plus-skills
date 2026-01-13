@@ -5,7 +5,7 @@ description: |
   Use when performing specialized testing.
   Trigger with phrases like "run load tests", "test performance", or "benchmark the system".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:perf-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

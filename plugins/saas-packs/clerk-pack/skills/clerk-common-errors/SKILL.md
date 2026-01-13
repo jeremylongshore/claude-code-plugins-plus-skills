@@ -6,7 +6,7 @@ description: |
   or configuration problems with Clerk.
   Trigger with phrases like "clerk error", "clerk not working",
   "clerk authentication failed", "clerk issue", "fix clerk".
-allowed-tools: Read, Write, Edit, Grep, Bash(npm:*)
+allowed-tools: Read, Write, Edit, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

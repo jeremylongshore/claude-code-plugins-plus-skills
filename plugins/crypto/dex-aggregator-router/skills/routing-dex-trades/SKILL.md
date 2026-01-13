@@ -5,7 +5,7 @@ description: |
   Use when routing trades for best execution.
   Trigger with phrases like "find best price", "route trade", or "check DEX prices".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:dex-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

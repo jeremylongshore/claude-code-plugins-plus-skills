@@ -7,7 +7,7 @@ description: |
   the deacon, dogs, escalation, or wants to run multiple AI agents on projects simultaneously.
   Handles installation, workspace setup, work tracking, agent lifecycle, crash recovery,
   and all gt/bd CLI operations. Trigger with phrases like "gas town", "gt sling", "fire up the engine".
-allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep, Glob, WebFetch
+allowed-tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch
 version: 1.0.0
 license: Apache-2.0
 author: Numman Ali <numman.ali@gmail.com>

@@ -5,7 +5,7 @@ description: |
   Use when performing specialized testing.
   Trigger with phrases like "generate test report", "create test documentation", or "show test metrics".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(test:report-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

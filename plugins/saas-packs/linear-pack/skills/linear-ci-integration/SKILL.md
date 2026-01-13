@@ -6,7 +6,7 @@ description: |
   or integrating Linear sync into your build process.
   Trigger with phrases like "linear CI", "linear GitHub Actions",
   "linear automated tests", "CI linear pipeline", "linear CI/CD".
-allowed-tools: Read, Write, Edit, Bash(gh:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

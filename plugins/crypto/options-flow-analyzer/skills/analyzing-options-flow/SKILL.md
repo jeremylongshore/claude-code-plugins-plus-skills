@@ -5,7 +5,7 @@ description: |
   Use when tracking institutional options flow.
   Trigger with phrases like "track options flow", "analyze derivatives", or "check institutional".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:options-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

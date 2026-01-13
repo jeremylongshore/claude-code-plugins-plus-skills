@@ -6,7 +6,7 @@ description: |
   or troubleshooting authentication problems.
   Trigger with phrases like "linear error", "linear API error",
   "debug linear", "linear not working", "linear authentication error".
-allowed-tools: Read, Write, Edit, Grep, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

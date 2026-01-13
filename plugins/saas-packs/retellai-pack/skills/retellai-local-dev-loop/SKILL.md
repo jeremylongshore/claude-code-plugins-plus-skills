@@ -6,7 +6,7 @@ description: |
   or establishing a fast iteration cycle with Retell AI.
   Trigger with phrases like "retellai dev setup", "retellai local development",
   "retellai dev environment", "develop with retellai".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

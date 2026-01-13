@@ -5,7 +5,7 @@ description: |
   Use when configuring local testing, hot reload, or development environment.
   Trigger with phrases like "lindy local dev", "lindy development",
   "lindy hot reload", "test lindy locally".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(node:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

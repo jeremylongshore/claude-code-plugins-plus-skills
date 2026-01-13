@@ -6,7 +6,7 @@ description: |
   or auditing Juicebox integration security.
   Trigger with phrases like "juicebox security", "secure juicebox",
   "juicebox API key security", "juicebox access control".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

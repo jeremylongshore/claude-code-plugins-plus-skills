@@ -6,7 +6,7 @@ description: |
   or privacy compliance features.
   Trigger with phrases like "clerk user data", "clerk GDPR",
   "clerk privacy", "clerk data export", "clerk delete user".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

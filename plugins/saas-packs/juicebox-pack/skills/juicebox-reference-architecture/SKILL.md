@@ -6,7 +6,7 @@ description: |
   or implementing enterprise-grade Juicebox solutions.
   Trigger with phrases like "juicebox architecture", "juicebox design",
   "juicebox system design", "juicebox enterprise".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

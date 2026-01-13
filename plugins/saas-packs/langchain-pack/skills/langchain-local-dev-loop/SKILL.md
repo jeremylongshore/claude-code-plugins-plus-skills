@@ -6,7 +6,7 @@ description: |
   or establishing a rapid iteration workflow for LangChain apps.
   Trigger with phrases like "langchain dev setup", "langchain local development",
   "langchain testing", "langchain development workflow".
-allowed-tools: Read, Write, Edit, Bash(pytest:*), Bash(python:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

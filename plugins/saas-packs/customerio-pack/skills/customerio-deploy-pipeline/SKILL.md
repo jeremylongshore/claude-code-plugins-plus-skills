@@ -6,7 +6,7 @@ description: |
   production infrastructure, or automating deployments.
   Trigger with phrases like "deploy customer.io", "customer.io production",
   "customer.io cloud run", "customer.io kubernetes".
-allowed-tools: Read, Write, Edit, Bash(gh:*), Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

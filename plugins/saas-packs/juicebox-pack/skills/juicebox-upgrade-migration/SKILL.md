@@ -6,7 +6,7 @@ description: |
   or handling breaking changes.
   Trigger with phrases like "upgrade juicebox", "juicebox migration",
   "update juicebox SDK", "juicebox breaking changes".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

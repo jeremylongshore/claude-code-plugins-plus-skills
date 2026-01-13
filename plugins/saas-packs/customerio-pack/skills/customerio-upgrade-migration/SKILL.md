@@ -6,7 +6,7 @@ description: |
   or updating to new API versions.
   Trigger with phrases like "upgrade customer.io", "customer.io migration",
   "update customer.io sdk", "customer.io version".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

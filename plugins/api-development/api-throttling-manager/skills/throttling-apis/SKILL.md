@@ -5,7 +5,7 @@ description: |
   Use when controlling API request rates.
   Trigger with phrases like "throttle API", "control request rate", or "add throttling".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:throttle-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

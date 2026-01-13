@@ -6,7 +6,7 @@ description: |
   or performing pre-launch reviews.
   Trigger with phrases like "juicebox production", "deploy juicebox prod",
   "juicebox launch checklist", "juicebox go-live".
-allowed-tools: Read, Grep, Bash(curl:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

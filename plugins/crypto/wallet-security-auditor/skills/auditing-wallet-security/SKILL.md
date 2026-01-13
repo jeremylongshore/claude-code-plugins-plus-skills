@@ -5,7 +5,7 @@ description: |
   Use when auditing wallet security practices.
   Trigger with phrases like "audit wallet", "check security", or "verify signatures".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:wallet-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

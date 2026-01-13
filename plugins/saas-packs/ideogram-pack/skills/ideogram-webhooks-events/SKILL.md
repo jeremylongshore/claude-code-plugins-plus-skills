@@ -6,7 +6,7 @@ description: |
   or handling Ideogram event notifications securely.
   Trigger with phrases like "ideogram webhook", "ideogram events",
   "ideogram webhook signature", "handle ideogram events", "ideogram notifications".
-allowed-tools: Read, Write, Edit, Bash(curl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

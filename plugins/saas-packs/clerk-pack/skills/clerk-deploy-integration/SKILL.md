@@ -6,7 +6,7 @@ description: |
   or when setting up production environment.
   Trigger with phrases like "deploy clerk", "clerk Vercel",
   "clerk Netlify", "clerk production deploy", "clerk Railway".
-allowed-tools: Read, Write, Edit, Bash(vercel:*), Bash(netlify:*), Grep
+allowed-tools: Read, Write, Edit, Bash, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

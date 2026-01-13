@@ -6,7 +6,7 @@ description: |
   or auditing existing production LangChain applications.
   Trigger with phrases like "langchain production", "langchain prod ready",
   "deploy langchain", "langchain launch checklist", "production checklist".
-allowed-tools: Read, Write, Edit, Bash(python:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

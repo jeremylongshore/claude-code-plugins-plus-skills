@@ -6,7 +6,7 @@ description: |
   or preparing evidence bundles for Exa support escalation.
   Trigger with phrases like "exa hard bug", "exa mystery error",
   "exa impossible to debug", "difficult exa issue", "exa deep debug".
-allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*), Bash(tcpdump:*)
+allowed-tools: Read, Grep, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

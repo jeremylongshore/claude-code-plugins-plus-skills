@@ -6,7 +6,7 @@ description: |
   or re-platforming existing integrations to Replit.
   Trigger with phrases like "migrate replit", "replit migration",
   "switch to replit", "replit replatform", "replit upgrade major".
-allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(node:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

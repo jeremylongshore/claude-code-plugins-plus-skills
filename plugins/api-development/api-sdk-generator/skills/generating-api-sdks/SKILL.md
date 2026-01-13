@@ -5,7 +5,7 @@ description: |
   Use when generating client libraries for API consumption.
   Trigger with phrases like "generate SDK", "create client library", or "build API SDK".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:sdk-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

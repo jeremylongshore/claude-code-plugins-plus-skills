@@ -6,7 +6,7 @@ description: |
   or implementing environment-specific Replit configurations.
   Trigger with phrases like "replit environments", "replit staging",
   "replit dev prod", "replit environment setup", "replit config by env".
-allowed-tools: Read, Write, Edit, Bash(aws:*), Bash(gcloud:*), Bash(vault:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

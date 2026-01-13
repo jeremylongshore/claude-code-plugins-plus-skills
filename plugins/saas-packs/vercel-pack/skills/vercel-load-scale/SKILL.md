@@ -6,7 +6,7 @@ description: |
   or planning capacity for Vercel integrations.
   Trigger with phrases like "vercel load test", "vercel scale",
   "vercel performance test", "vercel capacity", "vercel k6", "vercel benchmark".
-allowed-tools: Read, Write, Edit, Bash(k6:*), Bash(kubectl:*)
+allowed-tools: Read, Write, Edit, Bash
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>

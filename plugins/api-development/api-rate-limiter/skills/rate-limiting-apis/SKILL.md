@@ -5,7 +5,7 @@ description: |
   Use when protecting APIs from excessive requests.
   Trigger with phrases like "add rate limiting", "limit API requests", or "implement rate limits".
   
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(api:ratelimit-*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT

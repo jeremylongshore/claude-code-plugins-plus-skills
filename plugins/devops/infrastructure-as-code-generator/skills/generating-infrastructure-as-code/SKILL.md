@@ -2,7 +2,7 @@
 name: generating-infrastructure-as-code
 description: |
   Execute use when generating infrastructure as code configurations. Trigger with phrases like "create Terraform config", "generate CloudFormation template", "write Pulumi code", or "IaC for AWS/GCP/Azure". Produces production-ready code for Terraform, CloudFormation, Pulumi, ARM templates, and CDK across multiple cloud providers.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(terraform:*), Bash(aws:*), Bash(gcloud:*), Bash(az:*)
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
