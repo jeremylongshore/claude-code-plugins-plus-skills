@@ -1,16 +1,15 @@
 ---
-name: apollo-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure apollo.io api authentication. use when setting
   up a new apollo integration, configuring api keys, or initializing apollo client
   in your project. trigger with phrases like "install apollo", "setup apollo api",
   "apollo authenti...
+name: apollo-install-auth
 ---
-# Apollo Install & Auth
+# Apollo Install Auth
 
-## Overview
-Set up Apollo.io API client and configure authentication credentials for B2B sales intelligence access.
+This skill provides automated assistance for apollo install auth tasks.
 
 ## Prerequisites
 - Node.js 18+ or Python 3.10+
@@ -18,57 +17,8 @@ Set up Apollo.io API client and configure authentication credentials for B2B sal
 - Apollo.io account with API access
 - API key from Apollo dashboard (Settings > Integrations > API)
 
-## Instructions
 
-### Step 1: Install SDK/HTTP Client
-```bash
-# Node.js (using axios for REST API)
-npm install axios dotenv
-
-# Python
-pip install requests python-dotenv
-```
-
-### Step 2: Configure Authentication
-```bash
-# Set environment variable
-export APOLLO_API_KEY="your-api-key"
-
-# Or create .env file
-echo 'APOLLO_API_KEY=your-api-key' >> .env
-```
-
-### Step 3: Create Apollo Client
-```typescript
-// apollo-client.ts
-import axios from 'axios';
-import dotenv from 'dotenv';
-
-dotenv.config();
-
-export const apolloClient = axios.create({
-  baseURL: 'https://api.apollo.io/v1',
-  headers: {
-    'Content-Type': 'application/json',
-    'Cache-Control': 'no-cache',
-  },
-  params: {
-    api_key: process.env.APOLLO_API_KEY,
-  },
-});
-```
-
-### Step 4: Verify Connection
-```typescript
-async function verifyConnection() {
-  try {
-    const response = await apolloClient.get('/auth/health');
-    console.log('Apollo connection:', response.status === 200 ? 'OK' : 'Failed');
-  } catch (error) {
-    console.error('Connection failed:', error.message);
-  }
-}
-```
+See `{baseDir}/references/implementation.md` for detailed implementation guide.
 
 ## Output
 - HTTP client configured with Apollo base URL
@@ -76,67 +26,14 @@ async function verifyConnection() {
 - Successful connection verification output
 
 ## Error Handling
-| Error | Cause | Solution |
-|-------|-------|----------|
-| 401 Unauthorized | Invalid API key | Verify key in Apollo dashboard |
-| 403 Forbidden | Insufficient permissions | Check API plan and permissions |
-| 429 Rate Limited | Exceeded quota | Implement backoff, check usage |
-| Network Error | Firewall blocking | Ensure outbound HTTPS to api.apollo.io |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### TypeScript Setup
-```typescript
-import axios, { AxiosInstance } from 'axios';
-
-interface ApolloClientConfig {
-  apiKey: string;
-  baseURL?: string;
-}
-
-export function createApolloClient(config: ApolloClientConfig): AxiosInstance {
-  return axios.create({
-    baseURL: config.baseURL || 'https://api.apollo.io/v1',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    params: {
-      api_key: config.apiKey,
-    },
-  });
-}
-
-const client = createApolloClient({
-  apiKey: process.env.APOLLO_API_KEY!,
-});
-```
-
-### Python Setup
-```python
-import os
-import requests
-from dotenv import load_dotenv
-
-load_dotenv()
-
-class ApolloClient:
-    def __init__(self, api_key: str = None):
-        self.api_key = api_key or os.environ.get('APOLLO_API_KEY')
-        self.base_url = 'https://api.apollo.io/v1'
-
-    def _request(self, method: str, endpoint: str, **kwargs):
-        url = f"{self.base_url}/{endpoint}"
-        params = kwargs.pop('params', {})
-        params['api_key'] = self.api_key
-        return requests.request(method, url, params=params, **kwargs)
-
-client = ApolloClient()
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Apollo API Documentation](https://apolloio.github.io/apollo-api-docs/)
 - [Apollo Dashboard](https://app.apollo.io)
 - [Apollo API Rate Limits](https://apolloio.github.io/apollo-api-docs/#rate-limits)
-
-## Next Steps
-After successful auth, proceed to `apollo-hello-world` for your first API call.
