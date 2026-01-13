@@ -1,17 +1,12 @@
 ---
 name: clerk-ci-integration
-description: |
-  Configure Clerk CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating Clerk tests into your build process.
-  Trigger with phrases like "clerk CI", "clerk GitHub Actions",
-  "clerk automated tests", "CI clerk", "clerk pipeline".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Clerk CI/CD integration with GitHub Actions and testing. Use
+  when setting up automated testing, configuring CI pipelines, or integrating Clerk
+  tests into your build process. Trigger with phrases like "clerk CI", "clerk GitHub
+  Actions", "...
 ---
-
 # Clerk CI Integration
 
 ## Overview

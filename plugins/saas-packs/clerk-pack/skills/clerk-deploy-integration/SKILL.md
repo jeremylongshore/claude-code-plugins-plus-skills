@@ -1,17 +1,12 @@
 ---
 name: clerk-deploy-integration
-description: |
-  Configure Clerk for deployment on various platforms.
-  Use when deploying to Vercel, Netlify, Railway, or other platforms,
-  or when setting up production environment.
-  Trigger with phrases like "deploy clerk", "clerk Vercel",
-  "clerk Netlify", "clerk production deploy", "clerk Railway".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Configure Clerk for deployment on various platforms. Use when deploying
+  to Vercel, Netlify, Railway, or other platforms, or when setting up production environment.
+  Trigger with phrases like "deploy clerk", "clerk Vercel", "clerk Netlify", "clerk
+  p...
 ---
-
 # Clerk Deploy Integration
 
 ## Overview
