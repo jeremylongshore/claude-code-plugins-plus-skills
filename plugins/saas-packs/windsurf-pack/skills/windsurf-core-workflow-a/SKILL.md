@@ -1,12 +1,14 @@
 ---
-name: windsurf-core-workflow-a
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute windsurf primary workflow: core workflow a. use when implementing
   primary use case, building main features, or core integration tasks. trigger with
   phrases like "windsurf main workflow", "primary task with windsurf".'
+name: windsurf-core-workflow-a
 ---
 # Windsurf Core Workflow A
+
+This skill provides automated assistance for windsurf core workflow a tasks.
 
 ## Overview
 Primary money-path workflow for Windsurf. This is the most common use case.

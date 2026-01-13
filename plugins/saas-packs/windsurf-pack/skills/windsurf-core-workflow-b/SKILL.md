@@ -1,12 +1,14 @@
 ---
-name: windsurf-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute windsurf secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "windsurf secondary workflow", "secondary task with windsurf".'
+name: windsurf-core-workflow-b
 ---
 # Windsurf Core Workflow B
+
+This skill provides automated assistance for windsurf core workflow b tasks.
 
 ## Overview
 Secondary workflow for Windsurf. Complements the primary workflow.

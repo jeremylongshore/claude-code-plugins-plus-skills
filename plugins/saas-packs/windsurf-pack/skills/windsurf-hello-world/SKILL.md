@@ -1,13 +1,15 @@
 ---
-name: windsurf-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working Windsurf example. Use when starting a new Windsurf
   integration, testing your setup, or learning basic Windsurf API patterns. Trigger
   with phrases like "windsurf hello world", "windsurf example", "windsurf quick start",
   "si...
+name: windsurf-hello-world
 ---
 # Windsurf Hello World
+
+This skill provides automated assistance for windsurf hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core Windsurf functionality.

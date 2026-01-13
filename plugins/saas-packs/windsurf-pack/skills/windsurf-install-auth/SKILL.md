@@ -1,13 +1,15 @@
 ---
-name: windsurf-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure windsurf sdk/cli authentication. use when setting
   up a new windsurf integration, configuring api keys, or initializing windsurf in
   your project. trigger with phrases like "install windsurf", "setup windsurf", "windsurf
   auth",...
+name: windsurf-install-auth
 ---
 # Windsurf Install & Auth
+
+This skill provides automated assistance for windsurf install auth tasks.
 
 ## Overview
 Set up Windsurf SDK/CLI and configure authentication credentials.
