@@ -1,17 +1,11 @@
 ---
 name: instantly-common-errors
-description: |
-  Diagnose and fix Instantly common errors and exceptions.
-  Use when encountering Instantly errors, debugging failed requests,
-  or troubleshooting integration issues.
-  Trigger with phrases like "instantly error", "fix instantly",
-  "instantly not working", "debug instantly".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Diagnose and fix instantly common errors and exceptions. use when encountering
+  instantly errors, debugging failed requests, or troubleshooting integration issues.
+  trigger with phrases like "instantly error", "fix instantly", "instantly not working...
 ---
-
 # Instantly Common Errors
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: ideogram-rate-limits
-description: |
-  Implement Ideogram rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for Ideogram.
-  Trigger with phrases like "ideogram rate limit", "ideogram throttling",
-  "ideogram 429", "ideogram retry", "ideogram backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement ideogram rate limiting, backoff, and idempotency patterns.
+  use when handling rate limit errors, implementing retry logic, or optimizing api
+  request throughput for ideogram. trigger with phrases like "ideogram rate limit",
+  "ideogram throt...
 ---
-
 # Ideogram Rate Limits
 
 ## Overview

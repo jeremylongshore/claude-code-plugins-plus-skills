@@ -1,17 +1,12 @@
 ---
 name: ideogram-security-basics
-description: |
-  Apply Ideogram security best practices for secrets and access control.
-  Use when securing API keys, implementing least privilege access,
-  or auditing Ideogram security configuration.
-  Trigger with phrases like "ideogram security", "ideogram secrets",
-  "secure ideogram", "ideogram API key security".
-allowed-tools: Read, Write, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Grep
+description: Apply ideogram security best practices for secrets and access control.
+  use when securing api keys, implementing least privilege access, or auditing ideogram
+  security configuration. trigger with phrases like "ideogram security", "ideogram
+  secrets",...
 ---
-
 # Ideogram Security Basics
 
 ## Overview

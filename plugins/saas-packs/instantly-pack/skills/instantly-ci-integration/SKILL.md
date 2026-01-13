@@ -1,17 +1,12 @@
 ---
 name: instantly-ci-integration
-description: |
-  Configure Instantly CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating Instantly tests into your build process.
-  Trigger with phrases like "instantly CI", "instantly GitHub Actions",
-  "instantly automated tests", "CI instantly".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Instantly CI/CD integration with GitHub Actions and testing.
+  Use when setting up automated testing, configuring CI pipelines, or integrating
+  Instantly tests into your build process. Trigger with phrases like "instantly CI",
+  "instantly Gi...
 ---
-
 # Instantly CI Integration
 
 ## Overview

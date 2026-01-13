@@ -1,17 +1,12 @@
 ---
 name: ideogram-performance-tuning
-description: |
-  Optimize Ideogram API performance with caching, batching, and connection pooling.
-  Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Ideogram integrations.
-  Trigger with phrases like "ideogram performance", "optimize ideogram",
-  "ideogram latency", "ideogram caching", "ideogram slow", "ideogram batch".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize Ideogram API performance with caching, batching, and connection
+  pooling. Use when experiencing slow API responses, implementing caching strategies,
+  or optimizing request throughput for Ideogram integrations. Trigger with phrases
+  like "ide...
 ---
-
 # Ideogram Performance Tuning
 
 ## Overview

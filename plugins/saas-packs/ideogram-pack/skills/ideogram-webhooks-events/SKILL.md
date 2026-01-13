@@ -1,17 +1,12 @@
 ---
 name: ideogram-webhooks-events
-description: |
-  Implement Ideogram webhook signature validation and event handling.
-  Use when setting up webhook endpoints, implementing signature verification,
-  or handling Ideogram event notifications securely.
-  Trigger with phrases like "ideogram webhook", "ideogram events",
-  "ideogram webhook signature", "handle ideogram events", "ideogram notifications".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement ideogram webhook signature validation and event handling. use
+  when setting up webhook endpoints, implementing signature verification, or handling
+  ideogram event notifications securely. trigger with phrases like "ideogram webhook",
+  "ideog...
 ---
-
 # Ideogram Webhooks & Events
 
 ## Overview

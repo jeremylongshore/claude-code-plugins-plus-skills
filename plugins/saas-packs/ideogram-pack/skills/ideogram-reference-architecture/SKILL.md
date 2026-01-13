@@ -1,17 +1,12 @@
 ---
 name: ideogram-reference-architecture
-description: |
-  Implement Ideogram reference architecture with best-practice project layout.
-  Use when designing new Ideogram integrations, reviewing project structure,
-  or establishing architecture standards for Ideogram applications.
-  Trigger with phrases like "ideogram architecture", "ideogram best practices",
-  "ideogram project structure", "how to organize ideogram", "ideogram layout".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Implement ideogram reference architecture with best-practice project
+  layout. use when designing new ideogram integrations, reviewing project structure,
+  or establishing architecture standards for ideogram applications. trigger with phrases
+  like "id...
 ---
-
 # Ideogram Reference Architecture
 
 ## Overview
