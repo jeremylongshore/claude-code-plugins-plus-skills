@@ -1,17 +1,12 @@
 ---
 name: replit-load-scale
-description: |
-  Implement Replit load testing, auto-scaling, and capacity planning strategies.
-  Use when running performance tests, configuring horizontal scaling,
-  or planning capacity for Replit integrations.
-  Trigger with phrases like "replit load test", "replit scale",
-  "replit performance test", "replit capacity", "replit k6", "replit benchmark".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement replit load testing, auto-scaling, and capacity planning strategies.
+  use when running performance tests, configuring horizontal scaling, or planning
+  capacity for replit integrations. trigger with phrases like "replit load test",
+  "replit ...
 ---
-
 # Replit Load & Scale
 
 ## Overview

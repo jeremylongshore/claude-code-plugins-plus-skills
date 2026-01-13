@@ -1,17 +1,12 @@
 ---
 name: replit-known-pitfalls
-description: |
-  Identify and avoid Replit anti-patterns and common integration mistakes.
-  Use when reviewing Replit code for issues, onboarding new developers,
-  or auditing existing Replit integrations for best practices violations.
-  Trigger with phrases like "replit mistakes", "replit anti-patterns",
-  "replit pitfalls", "replit what not to do", "replit code review".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Identify and avoid replit anti-patterns and common integration mistakes.
+  use when reviewing replit code for issues, onboarding new developers, or auditing
+  existing replit integrations for best practices violations. trigger with phrases
+  like "repli...
 ---
-
 # Replit Known Pitfalls
 
 ## Overview

@@ -1,17 +1,11 @@
 ---
 name: replit-deploy-integration
-description: |
-  Deploy Replit integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying Replit-powered applications to production,
-  configuring platform-specific secrets, or setting up deployment pipelines.
-  Trigger with phrases like "deploy replit", "replit Vercel",
-  "replit production deploy", "replit Cloud Run", "replit Fly.io".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Replit integrations to Vercel, Fly.io, and Cloud Run platforms.
+  Use when deploying Replit-powered applications to production, configuring platform-specific
+  secrets, or setting up deployment pipelines. Trigger with phrases like "deploy repli...
 ---
-
 # Replit Deploy Integration
 
 ## Overview

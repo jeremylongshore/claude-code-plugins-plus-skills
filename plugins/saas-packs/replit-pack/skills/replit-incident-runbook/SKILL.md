@@ -1,17 +1,12 @@
 ---
 name: replit-incident-runbook
-description: |
-  Execute Replit incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to Replit-related outages, investigating errors,
-  or running post-incident reviews for Replit integration failures.
-  Trigger with phrases like "replit incident", "replit outage",
-  "replit down", "replit on-call", "replit emergency", "replit broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute replit incident response procedures with triage, mitigation,
+  and postmortem. use when responding to replit-related outages, investigating errors,
+  or running post-incident reviews for replit integration failures. trigger with phrases
+  like "...
 ---
-
 # Replit Incident Runbook
 
 ## Overview

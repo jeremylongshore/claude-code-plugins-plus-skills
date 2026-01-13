@@ -1,17 +1,12 @@
 ---
 name: replit-install-auth
-description: |
-  Install and configure Replit SDK/CLI authentication.
-  Use when setting up a new Replit integration, configuring API keys,
-  or initializing Replit in your project.
-  Trigger with phrases like "install replit", "setup replit",
-  "replit auth", "configure replit API key".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Install and configure replit sdk/cli authentication. use when setting
+  up a new replit integration, configuring api keys, or initializing replit in your
+  project. trigger with phrases like "install replit", "setup replit", "replit auth",
+  "configure ...
 ---
-
 # Replit Install & Auth
 
 ## Overview

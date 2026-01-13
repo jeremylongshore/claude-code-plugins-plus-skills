@@ -1,17 +1,12 @@
 ---
 name: replit-local-dev-loop
-description: |
-  Configure Replit local development with hot reload and testing.
-  Use when setting up a development environment, configuring test workflows,
-  or establishing a fast iteration cycle with Replit.
-  Trigger with phrases like "replit dev setup", "replit local development",
-  "replit dev environment", "develop with replit".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Configure Replit local development with hot reload and testing. Use when
+  setting up a development environment, configuring test workflows, or establishing
+  a fast iteration cycle with Replit. Trigger with phrases like "replit dev setup",
+  "replit lo...
 ---
-
 # Replit Local Dev Loop
 
 ## Overview

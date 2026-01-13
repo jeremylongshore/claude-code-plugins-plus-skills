@@ -1,17 +1,12 @@
 ---
 name: replit-enterprise-rbac
-description: |
-  Configure Replit enterprise SSO, role-based access control, and organization management.
-  Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for Replit.
-  Trigger with phrases like "replit SSO", "replit RBAC",
-  "replit enterprise", "replit roles", "replit permissions", "replit SAML".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure Replit enterprise SSO, role-based access control, and organization
+  management. Use when implementing SSO integration, configuring role-based permissions,
+  or setting up organization-level controls for Replit. Trigger with phrases like
+  "re...
 ---
-
 # Replit Enterprise RBAC
 
 ## Overview

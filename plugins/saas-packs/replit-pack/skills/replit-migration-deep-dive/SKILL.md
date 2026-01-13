@@ -1,17 +1,11 @@
 ---
 name: replit-migration-deep-dive
-description: |
-  Execute Replit major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from Replit, performing major version upgrades,
-  or re-platforming existing integrations to Replit.
-  Trigger with phrases like "migrate replit", "replit migration",
-  "switch to replit", "replit replatform", "replit upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute replit major re-architecture and migration strategies with strangler
+  fig pattern. use when migrating to or from replit, performing major version upgrades,
+  or re-platforming existing integrations to replit. trigger with phrases like "migrat...
 ---
-
 # Replit Migration Deep Dive
 
 ## Overview

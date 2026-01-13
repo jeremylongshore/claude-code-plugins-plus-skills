@@ -1,17 +1,12 @@
 ---
 name: replit-debug-bundle
-description: |
-  Collect Replit debug evidence for support tickets and troubleshooting.
-  Use when encountering persistent issues, preparing support tickets,
-  or collecting diagnostic information for Replit problems.
-  Trigger with phrases like "replit debug", "replit support bundle",
-  "collect replit logs", "replit diagnostic".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Collect replit debug evidence for support tickets and troubleshooting.
+  use when encountering persistent issues, preparing support tickets, or collecting
+  diagnostic information for replit problems. trigger with phrases like "replit debug",
+  "replit ...
 ---
-
 # Replit Debug Bundle
 
 ## Overview
