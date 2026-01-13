@@ -1,13 +1,15 @@
 ---
-name: langchain-incident-runbook
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Incident response procedures for langchain production issues. use when
   responding to production incidents, diagnosing outages, or implementing emergency
   procedures for llm applications. trigger with phrases like "langchain incident",
   "langchain ou...
+name: langchain-incident-runbook
 ---
 # LangChain Incident Runbook
+
+This skill provides automated assistance for langchain incident runbook tasks.
 
 ## Overview
 Standard operating procedures for responding to LangChain production incidents with diagnosis, mitigation, and recovery steps.
