@@ -1,149 +1,21 @@
 ---
-name: windsurf-webhooks-events
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Implement windsurf webhook signature validation and event handling. use
   when setting up webhook endpoints, implementing signature verification, or handling
   windsurf event notifications securely. trigger with phrases like "windsurf webhook",
   "winds...
+name: windsurf-webhooks-events
 ---
-# Windsurf Webhooks & Events
+# Windsurf Webhooks Events
 
-## Overview
-Securely handle Windsurf webhooks with signature validation and replay protection.
+This skill provides automated assistance for windsurf webhooks events tasks.
 
 ## Prerequisites
 - Windsurf webhook secret configured
 - HTTPS endpoint accessible from internet
 - Understanding of cryptographic signatures
 - Redis or database for idempotency (optional)
-
-## Webhook Endpoint Setup
-
-### Express.js
-```typescript
-import express from 'express';
-import crypto from 'crypto';
-
-const app = express();
-
-// IMPORTANT: Raw body needed for signature verification
-app.post('/webhooks/windsurf',
-  express.raw({ type: 'application/json' }),
-  async (req, res) => {
-    const signature = req.headers['x-windsurf-signature'] as string;
-    const timestamp = req.headers['x-windsurf-timestamp'] as string;
-
-    if (!verifyWindsurfSignature(req.body, signature, timestamp)) {
-      return res.status(401).json({ error: 'Invalid signature' });
-    }
-
-    const event = JSON.parse(req.body.toString());
-    await handleWindsurfEvent(event);
-
-    res.status(200).json({ received: true });
-  }
-);
-```
-
-## Signature Verification
-
-```typescript
-function verifyWindsurfSignature(
-  payload: Buffer,
-  signature: string,
-  timestamp: string
-): boolean {
-  const secret = process.env.WINDSURF_WEBHOOK_SECRET!;
-
-  // Reject old timestamps (replay attack protection)
-  const timestampAge = Date.now() - parseInt(timestamp) * 1000;
-  if (timestampAge > 300000) { // 5 minutes
-    console.error('Webhook timestamp too old');
-    return false;
-  }
-
-  // Compute expected signature
-  const signedPayload = `${timestamp}.${payload.toString()}`;
-  const expectedSignature = crypto
-    .createHmac('sha256', secret)
-    .update(signedPayload)
-    .digest('hex');
-
-  // Timing-safe comparison
-  return crypto.timingSafeEqual(
-    Buffer.from(signature),
-    Buffer.from(expectedSignature)
-  );
-}
-```
-
-## Event Handler Pattern
-
-```typescript
-type WindsurfEventType = 'resource.created' | 'resource.updated' | 'resource.deleted';
-
-interface WindsurfEvent {
-  id: string;
-  type: WindsurfEventType;
-  data: Record<string, any>;
-  created: string;
-}
-
-const eventHandlers: Record<WindsurfEventType, (data: any) => Promise<void>> = {
-  'resource.created': async (data) => { /* handle */ },
-  'resource.updated': async (data) => { /* handle */ },
-  'resource.deleted': async (data) => { /* handle */ }
-};
-
-async function handleWindsurfEvent(event: WindsurfEvent): Promise<void> {
-  const handler = eventHandlers[event.type];
-
-  if (!handler) {
-    console.log(`Unhandled event type: ${event.type}`);
-    return;
-  }
-
-  try {
-    await handler(event.data);
-    console.log(`Processed ${event.type}: ${event.id}`);
-  } catch (error) {
-    console.error(`Failed to process ${event.type}: ${event.id}`, error);
-    throw error; // Rethrow to trigger retry
-  }
-}
-```
-
-## Idempotency Handling
-
-```typescript
-import { Redis } from 'ioredis';
-
-const redis = new Redis(process.env.REDIS_URL);
-
-async function isEventProcessed(eventId: string): Promise<boolean> {
-  const key = `windsurf:event:${eventId}`;
-  const exists = await redis.exists(key);
-  return exists === 1;
-}
-
-async function markEventProcessed(eventId: string): Promise<void> {
-  const key = `windsurf:event:${eventId}`;
-  await redis.set(key, '1', 'EX', 86400 * 7); // 7 days TTL
-}
-```
-
-## Webhook Testing
-
-```bash
-# Use Windsurf CLI to send test events
-windsurf webhooks trigger resource.created --url http://localhost:3000/webhooks/windsurf
-
-# Or use webhook.site for debugging
-curl -X POST https://webhook.site/your-uuid \
-  -H "Content-Type: application/json" \
-  -d '{"type": "resource.created", "data": {}}'
-```
 
 ## Instructions
 
@@ -166,29 +38,13 @@ Prevent duplicate processing with event ID tracking.
 - Replay attack protection active
 
 ## Error Handling
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| Invalid signature | Wrong secret | Verify webhook secret |
-| Timestamp rejected | Clock drift | Check server time sync |
-| Duplicate events | Missing idempotency | Implement event ID tracking |
-| Handler timeout | Slow processing | Use async queue |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Testing Webhooks Locally
-```bash
-# Use ngrok to expose local server
-ngrok http 3000
-
-# Send test webhook
-curl -X POST https://your-ngrok-url/webhooks/windsurf \
-  -H "Content-Type: application/json" \
-  -d '{"type": "test", "data": {}}'
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Windsurf Webhooks Guide](https://docs.windsurf.com/webhooks)
 - [Webhook Security Best Practices](https://docs.windsurf.com/webhooks/security)
-
-## Next Steps
-For performance optimization, see `windsurf-performance-tuning`.

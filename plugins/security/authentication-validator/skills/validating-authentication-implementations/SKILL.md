@@ -1,10 +1,10 @@
 ---
-name: validating-authentication-implementations
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Validate authentication mechanisms for security weaknesses and compliance.
   Use when reviewing login systems or auth flows. Trigger with 'validate authentication',
   'check auth security', or 'review login'.
+name: validating-authentication-implementations
 ---
 # Authentication Validator
 

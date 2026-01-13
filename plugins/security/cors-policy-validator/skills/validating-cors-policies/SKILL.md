@@ -1,10 +1,10 @@
 ---
-name: validating-cors-policies
-license: MIT
 allowed-tools: Read, WebFetch, WebSearch, Grep
+license: MIT
 description: Validate CORS policies for security issues and misconfigurations. Use
   when reviewing cross-origin resource sharing. Trigger with 'validate CORS', 'check
   CORS policy', or 'review cross-origin'.
+name: validating-cors-policies
 ---
 # Cors Policy Validator
 

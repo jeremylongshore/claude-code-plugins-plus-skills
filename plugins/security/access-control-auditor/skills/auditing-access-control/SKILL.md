@@ -1,10 +1,10 @@
 ---
-name: auditing-access-control
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Audit access control implementations for security vulnerabilities and
   misconfigurations. Use when reviewing authentication and authorization. Trigger
   with 'audit access control', 'check permissions', or 'validate authorization'.
+name: auditing-access-control
 ---
 # Access Control Auditor
 
