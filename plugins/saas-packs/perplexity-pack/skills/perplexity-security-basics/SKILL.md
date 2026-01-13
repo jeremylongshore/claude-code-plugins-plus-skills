@@ -1,55 +1,23 @@
 ---
-name: perplexity-security-basics
-license: MIT
 allowed-tools: Read, Write, Grep
+license: MIT
 description: Apply perplexity security best practices for secrets and access control.
   use when securing api keys, implementing least privilege access, or auditing perplexity
   security configuration. trigger with phrases like "perplexity security", "perplexity
   s...
+name: perplexity-security-basics
 ---
 # Perplexity Security Basics
 
-## Overview
-Security best practices for Perplexity API keys, tokens, and access control.
+This skill provides automated assistance for perplexity security basics tasks.
 
 ## Prerequisites
 - Perplexity SDK installed
 - Understanding of environment variables
 - Access to Perplexity dashboard
 
-## Instructions
 
-### Step 1: Configure Environment Variables
-```bash
-# .env (NEVER commit to git)
-PERPLEXITY_API_KEY=sk_live_***
-PERPLEXITY_SECRET=***
-
-# .gitignore
-.env
-.env.local
-.env.*.local
-```
-
-### Step 2: Implement Secret Rotation
-```bash
-# 1. Generate new key in Perplexity dashboard
-# 2. Update environment variable
-export PERPLEXITY_API_KEY="new_key_here"
-
-# 3. Verify new key works
-curl -H "Authorization: Bearer ${PERPLEXITY_API_KEY}" \
-  https://api.perplexity.com/health
-
-# 4. Revoke old key in dashboard
-```
-
-### Step 3: Apply Least Privilege
-| Environment | Recommended Scopes |
-|-------------|-------------------|
-| Development | `read:*` |
-| Staging | `read:*, write:limited` |
-| Production | `Only required scopes` |
+See `{baseDir}/references/implementation.md` for detailed implementation guide.
 
 ## Output
 - Secure API key storage
@@ -57,79 +25,13 @@ curl -H "Authorization: Bearer ${PERPLEXITY_API_KEY}" \
 - Audit logging enabled
 
 ## Error Handling
-| Security Issue | Detection | Mitigation |
-|----------------|-----------|------------|
-| Exposed API key | Git scanning | Rotate immediately |
-| Excessive scopes | Audit logs | Reduce permissions |
-| Missing rotation | Key age check | Schedule rotation |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Service Account Pattern
-```typescript
-const clients = {
-  reader: new PerplexityClient({
-    apiKey: process.env.PERPLEXITY_READ_KEY,
-  }),
-  writer: new PerplexityClient({
-    apiKey: process.env.PERPLEXITY_WRITE_KEY,
-  }),
-};
-```
-
-### Webhook Signature Verification
-```typescript
-import crypto from 'crypto';
-
-function verifyWebhookSignature(
-  payload: string, signature: string, secret: string
-): boolean {
-  const expected = crypto.createHmac('sha256', secret).update(payload).digest('hex');
-  return crypto.timingSafeEqual(Buffer.from(signature), Buffer.from(expected));
-}
-```
-
-### Security Checklist
-- [ ] API keys in environment variables
-- [ ] `.env` files in `.gitignore`
-- [ ] Different keys for dev/staging/prod
-- [ ] Minimal scopes per environment
-- [ ] Webhook signatures validated
-- [ ] Audit logging enabled
-
-### Audit Logging
-```typescript
-interface AuditEntry {
-  timestamp: Date;
-  action: string;
-  userId: string;
-  resource: string;
-  result: 'success' | 'failure';
-  metadata?: Record<string, any>;
-}
-
-async function auditLog(entry: Omit<AuditEntry, 'timestamp'>): Promise<void> {
-  const log: AuditEntry = { ...entry, timestamp: new Date() };
-
-  // Log to Perplexity analytics
-  await perplexityClient.track('audit', log);
-
-  // Also log locally for compliance
-  console.log('[AUDIT]', JSON.stringify(log));
-}
-
-// Usage
-await auditLog({
-  action: 'perplexity.api.call',
-  userId: currentUser.id,
-  resource: '/v1/resource',
-  result: 'success',
-});
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Perplexity Security Guide](https://docs.perplexity.com/security)
 - [Perplexity API Scopes](https://docs.perplexity.com/scopes)
-
-## Next Steps
-For production deployment, see `perplexity-prod-checklist`.

@@ -1,191 +1,21 @@
 ---
-name: perplexity-reference-architecture
-license: MIT
 allowed-tools: Read, Grep
+license: MIT
 description: Implement perplexity reference architecture with best-practice project
   layout. use when designing new perplexity integrations, reviewing project structure,
   or establishing architecture standards for perplexity applications. trigger with
   phrases li...
+name: perplexity-reference-architecture
 ---
 # Perplexity Reference Architecture
 
-## Overview
-Production-ready architecture patterns for Perplexity integrations.
+This skill provides automated assistance for perplexity reference architecture tasks.
 
 ## Prerequisites
 - Understanding of layered architecture
 - Perplexity SDK knowledge
 - TypeScript project setup
 - Testing framework configured
-
-## Project Structure
-
-```
-my-perplexity-project/
-├── src/
-│   ├── perplexity/
-│   │   ├── client.ts           # Singleton client wrapper
-│   │   ├── config.ts           # Environment configuration
-│   │   ├── types.ts            # TypeScript types
-│   │   ├── errors.ts           # Custom error classes
-│   │   └── handlers/
-│   │       ├── webhooks.ts     # Webhook handlers
-│   │       └── events.ts       # Event processing
-│   ├── services/
-│   │   └── perplexity/
-│   │       ├── index.ts        # Service facade
-│   │       ├── sync.ts         # Data synchronization
-│   │       └── cache.ts        # Caching layer
-│   ├── api/
-│   │   └── perplexity/
-│   │       └── webhook.ts      # Webhook endpoint
-│   └── jobs/
-│       └── perplexity/
-│           └── sync.ts         # Background sync job
-├── tests/
-│   ├── unit/
-│   │   └── perplexity/
-│   └── integration/
-│       └── perplexity/
-├── config/
-│   ├── perplexity.development.json
-│   ├── perplexity.staging.json
-│   └── perplexity.production.json
-└── docs/
-    └── perplexity/
-        ├── SETUP.md
-        └── RUNBOOK.md
-```
-
-## Layer Architecture
-
-```
-┌─────────────────────────────────────────┐
-│             API Layer                    │
-│   (Controllers, Routes, Webhooks)        │
-├─────────────────────────────────────────┤
-│           Service Layer                  │
-│  (Business Logic, Orchestration)         │
-├─────────────────────────────────────────┤
-│          Perplexity Layer        │
-│   (Client, Types, Error Handling)        │
-├─────────────────────────────────────────┤
-│         Infrastructure Layer             │
-│    (Cache, Queue, Monitoring)            │
-└─────────────────────────────────────────┘
-```
-
-## Key Components
-
-### Step 1: Client Wrapper
-```typescript
-// src/perplexity/client.ts
-export class PerplexityService {
-  private client: PerplexityClient;
-  private cache: Cache;
-  private monitor: Monitor;
-
-  constructor(config: PerplexityConfig) {
-    this.client = new PerplexityClient(config);
-    this.cache = new Cache(config.cacheOptions);
-    this.monitor = new Monitor('perplexity');
-  }
-
-  async get(id: string): Promise<Resource> {
-    return this.cache.getOrFetch(id, () =>
-      this.monitor.track('get', () => this.client.get(id))
-    );
-  }
-}
-```
-
-### Step 2: Error Boundary
-```typescript
-// src/perplexity/errors.ts
-export class PerplexityServiceError extends Error {
-  constructor(
-    message: string,
-    public readonly code: string,
-    public readonly retryable: boolean,
-    public readonly originalError?: Error
-  ) {
-    super(message);
-    this.name = 'PerplexityServiceError';
-  }
-}
-
-export function wrapPerplexityError(error: unknown): PerplexityServiceError {
-  // Transform SDK errors to application errors
-}
-```
-
-### Step 3: Health Check
-```typescript
-// src/perplexity/health.ts
-export async function checkPerplexityHealth(): Promise<HealthStatus> {
-  try {
-    const start = Date.now();
-    await perplexityClient.ping();
-    return {
-      status: 'healthy',
-      latencyMs: Date.now() - start,
-    };
-  } catch (error) {
-    return { status: 'unhealthy', error: error.message };
-  }
-}
-```
-
-## Data Flow Diagram
-
-```
-User Request
-     │
-     ▼
-┌─────────────┐
-│   API       │
-│   Gateway   │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐    ┌─────────────┐
-│   Service   │───▶│   Cache     │
-│   Layer     │    │   (Redis)   │
-└──────┬──────┘    └─────────────┘
-       │
-       ▼
-┌─────────────┐
-│ Perplexity    │
-│   Client    │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│ Perplexity    │
-│   API       │
-└─────────────┘
-```
-
-## Configuration Management
-
-```typescript
-// config/perplexity.ts
-export interface PerplexityConfig {
-  apiKey: string;
-  environment: 'development' | 'staging' | 'production';
-  timeout: number;
-  retries: number;
-  cache: {
-    enabled: boolean;
-    ttlSeconds: number;
-  };
-}
-
-export function loadPerplexityConfig(): PerplexityConfig {
-  const env = process.env.NODE_ENV || 'development';
-  return require(`./perplexity.${env}.json`);
-}
-```
 
 ## Instructions
 
@@ -208,26 +38,13 @@ Add health check endpoint for Perplexity connectivity.
 - Health checks configured
 
 ## Error Handling
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| Circular dependencies | Wrong layering | Separate concerns by layer |
-| Config not loading | Wrong paths | Verify config file locations |
-| Type errors | Missing types | Add Perplexity types |
-| Test isolation | Shared state | Use dependency injection |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Setup Script
-```bash
-# Create reference structure
-mkdir -p src/perplexity/{handlers} src/services/perplexity src/api/perplexity
-touch src/perplexity/{client,config,types,errors}.ts
-touch src/services/perplexity/{index,sync,cache}.ts
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Perplexity SDK Documentation](https://docs.perplexity.com/sdk)
 - [Perplexity Best Practices](https://docs.perplexity.com/best-practices)
-
-## Flagship Skills
-For multi-environment setup, see `perplexity-multi-env-setup`.
