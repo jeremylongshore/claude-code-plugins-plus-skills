@@ -1,13 +1,15 @@
 ---
-name: granola-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Capture your first meeting with granola and review ai-generated notes.
   use when testing granola setup, learning the interface, or understanding how meeting
   capture works. trigger with phrases like "granola hello world", "first granola meeting",
   "g...
+name: granola-hello-world
 ---
 # Granola Hello World
+
+This skill provides automated assistance for granola hello world tasks.
 
 ## Overview
 Capture your first meeting with Granola and understand how AI-generated notes work.
