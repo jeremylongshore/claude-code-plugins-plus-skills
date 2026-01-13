@@ -1,14 +1,11 @@
 ---
 name: automating-api-testing
-description: |
-  Test automate API endpoint testing including request generation, validation, and comprehensive test coverage for REST and GraphQL APIs.
-  Use when testing API contracts, validating OpenAPI specifications, or ensuring endpoint reliability.
-  Trigger with phrases like "test the API", "generate API tests", or "validate API contracts".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Test automate API endpoint testing including request generation, validation,
+  and comprehensive test coverage for REST and GraphQL APIs. Use when testing API
+  contracts, validating OpenAPI specifications, or ensuring endpoint reliability.
+  Trigger wi...
 ---
 # Api Test Automation
 

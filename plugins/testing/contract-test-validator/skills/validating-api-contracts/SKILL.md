@@ -1,14 +1,10 @@
 ---
 name: validating-api-contracts
-description: |
-  Validate API contracts using consumer-driven contract testing (Pact, Spring Cloud Contract).
-  Use when performing specialized testing.
-  Trigger with phrases like "validate API contract", "run contract tests", or "check consumer contracts".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Validate API contracts using consumer-driven contract testing (Pact,
+  Spring Cloud Contract). Use when performing specialized testing. Trigger with phrases
+  like "validate API contract", "run contract tests", or "check consumer contracts".
 ---
 # Contract Test Validator
 

@@ -1,14 +1,10 @@
 ---
 name: running-e2e-tests
-description: |
-  Execute end-to-end tests covering full user workflows across frontend and backend.
-  Use when performing specialized testing.
-  Trigger with phrases like "run end-to-end tests", "test user flows", or "execute E2E suite".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute end-to-end tests covering full user workflows across frontend
+  and backend. use when performing specialized testing. trigger with phrases like
+  "run end-to-end tests", "test user flows", or "execute e2e suite".
 ---
 # E2E Test Framework
 

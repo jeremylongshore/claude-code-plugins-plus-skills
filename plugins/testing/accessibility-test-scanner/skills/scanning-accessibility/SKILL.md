@@ -1,14 +1,11 @@
 ---
 name: scanning-accessibility
-description: |
-  Validate WCAG compliance and accessibility standards (ARIA, keyboard navigation).
-  Use when auditing WCAG compliance or screen reader compatibility.
-  Trigger with phrases like "scan accessibility", "check WCAG compliance", or "validate screen readers".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Validate WCAG compliance and accessibility standards (ARIA, keyboard
+  navigation). Use when auditing WCAG compliance or screen reader compatibility. Trigger
+  with phrases like "scan accessibility", "check WCAG compliance", or "validate screen
+  readers".
 ---
 # Accessibility Test Scanner
 

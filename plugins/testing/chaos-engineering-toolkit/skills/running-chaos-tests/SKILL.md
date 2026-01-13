@@ -1,14 +1,10 @@
 ---
 name: running-chaos-tests
-description: |
-  Execute chaos engineering experiments to test system resilience.
-  Use when performing specialized testing.
-  Trigger with phrases like "run chaos tests", "test resilience", or "inject failures".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute chaos engineering experiments to test system resilience. use
+  when performing specialized testing. trigger with phrases like "run chaos tests",
+  "test resilience", or "inject failures".
 ---
 # Chaos Engineering Toolkit
 

@@ -1,14 +1,10 @@
 ---
 name: managing-database-tests
-description: |
-  Test database testing including fixtures, transactions, and rollback management.
-  Use when performing specialized testing.
-  Trigger with phrases like "test the database", "run database tests", or "validate data integrity".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Test database testing including fixtures, transactions, and rollback
+  management. Use when performing specialized testing. Trigger with phrases like "test
+  the database", "run database tests", or "validate data integrity".
 ---
 # Database Test Manager
 

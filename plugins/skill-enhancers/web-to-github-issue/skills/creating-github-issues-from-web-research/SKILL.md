@@ -1,11 +1,10 @@
 ---
 name: creating-github-issues-from-web-research
-description: |
-  Execute this skill enhances AI assistant's ability to conduct web research and translate findings into actionable github issues. it automates the process of extracting key information from web search results and formatting it into a well-structured issue, ready... Use when managing version control. Trigger with phrases like 'commit', 'branch', or 'git'.
-allowed-tools: Read, WebFetch, WebSearch, Grep
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, WebFetch, WebSearch, Grep
+description: Execute this skill enhances ai assistant's ability to conduct web research
+  and translate findings into actionable github issues. it automates the process of
+  extracting key information from web search results and formatting it into a well-structure...
 ---
 # Web To Github Issue
 
