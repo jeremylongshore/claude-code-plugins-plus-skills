@@ -1,11 +1,10 @@
 ---
 name: openrouter-model-routing
-description: |
-  Implement advanced model routing with A/B testing. Use when optimizing model selection or running experiments. Trigger with phrases like 'openrouter a/b test', 'model experiment', 'openrouter routing', 'model comparison'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement advanced model routing with a/b testing. use when optimizing
+  model selection or running experiments. trigger with phrases like 'openrouter a/b
+  test', 'model experiment', 'openrouter routing', 'model comparison'.
 ---
 # OpenRouter Model Routing
 

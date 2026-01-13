@@ -1,13 +1,11 @@
 ---
 name: openrouter-openai-compat
-description: |
-  Configure OpenRouter as an OpenAI API drop-in replacement. Use when migrating from OpenAI or using OpenAI-compatible libraries. Trigger with phrases like 'openrouter openai', 'openrouter drop-in', 'openrouter compatibility', 'migrate to openrouter'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Configure OpenRouter as an OpenAI API drop-in replacement. Use when migrating
+  from OpenAI or using OpenAI-compatible libraries. Trigger with phrases like 'openrouter
+  openai', 'openrouter drop-in', 'openrouter compatibility', 'migrate to openrouter'.
 ---
-
 # Openrouter Openai Compat
 
 ## Overview

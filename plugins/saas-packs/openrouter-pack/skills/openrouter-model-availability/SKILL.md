@@ -1,13 +1,12 @@
 ---
 name: openrouter-model-availability
-description: |
-  Build check model availability and implement fallback chains. Use when building resilient systems or handling model outages. Trigger with phrases like 'openrouter availability', 'openrouter fallback', 'openrouter model down', 'openrouter health check'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Build check model availability and implement fallback chains. Use when
+  building resilient systems or handling model outages. Trigger with phrases like
+  'openrouter availability', 'openrouter fallback', 'openrouter model down', 'openrouter
+  health ch...
 ---
-
 # Openrouter Model Availability
 
 ## Overview

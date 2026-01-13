@@ -1,13 +1,11 @@
 ---
 name: openrouter-multi-provider
-description: |
-  Execute work with multiple providers through OpenRouter. Use when comparing providers or building provider-agnostic systems. Trigger with phrases like 'openrouter providers', 'openrouter multi-model', 'compare models', 'provider selection'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Execute work with multiple providers through openrouter. use when comparing
+  providers or building provider-agnostic systems. trigger with phrases like 'openrouter
+  providers', 'openrouter multi-model', 'compare models', 'provider selection'.
 ---
-
 # Openrouter Multi Provider
 
 ## Overview

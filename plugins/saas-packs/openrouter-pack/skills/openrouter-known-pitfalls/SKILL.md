@@ -1,13 +1,11 @@
 ---
 name: openrouter-known-pitfalls
-description: |
-  Execute avoid common OpenRouter mistakes and anti-patterns. Use when reviewing code or onboarding developers. Trigger with phrases like 'openrouter pitfalls', 'openrouter mistakes', 'openrouter gotchas', 'openrouter common issues'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Execute avoid common openrouter mistakes and anti-patterns. use when
+  reviewing code or onboarding developers. trigger with phrases like 'openrouter pitfalls',
+  'openrouter mistakes', 'openrouter gotchas', 'openrouter common issues'.
 ---
-
 # Openrouter Known Pitfalls
 
 ## Overview

@@ -1,13 +1,11 @@
 ---
 name: openrouter-performance-tuning
-description: |
-  Optimize OpenRouter performance and latency. Use when reducing response times or improving throughput. Trigger with phrases like 'openrouter performance', 'openrouter latency', 'speed up openrouter', 'openrouter optimization'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Optimize OpenRouter performance and latency. Use when reducing response
+  times or improving throughput. Trigger with phrases like 'openrouter performance',
+  'openrouter latency', 'speed up openrouter', 'openrouter optimization'.
 ---
-
 # Openrouter Performance Tuning
 
 ## Overview
