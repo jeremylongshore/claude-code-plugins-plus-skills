@@ -1,17 +1,12 @@
 ---
 name: customerio-hello-world
-description: |
-  Create a minimal working Customer.io example.
-  Use when learning Customer.io basics, testing SDK setup,
-  or creating your first messaging integration.
-  Trigger with phrases like "customer.io hello world", "first customer.io message",
-  "test customer.io", "customer.io example".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Create a minimal working Customer.io example. Use when learning Customer.io
+  basics, testing SDK setup, or creating your first messaging integration. Trigger
+  with phrases like "customer.io hello world", "first customer.io message", "test
+  customer.i...
 ---
-
 # Customer.io Hello World
 
 ## Overview

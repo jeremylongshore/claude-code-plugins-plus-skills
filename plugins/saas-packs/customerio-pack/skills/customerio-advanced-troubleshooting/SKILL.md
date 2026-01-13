@@ -1,17 +1,12 @@
 ---
 name: customerio-advanced-troubleshooting
-description: |
-  Apply Customer.io advanced debugging techniques.
-  Use when diagnosing complex issues, investigating
-  delivery problems, or debugging integration failures.
-  Trigger with phrases like "debug customer.io", "customer.io investigation",
-  "customer.io troubleshoot", "customer.io incident".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Apply customer.io advanced debugging techniques. use when diagnosing
+  complex issues, investigating delivery problems, or debugging integration failures.
+  trigger with phrases like "debug customer.io", "customer.io investigation", "customer.io
+  troub...
 ---
-
 # Customer.io Advanced Troubleshooting
 
 ## Overview

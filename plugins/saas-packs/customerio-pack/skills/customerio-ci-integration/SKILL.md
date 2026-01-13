@@ -1,17 +1,12 @@
 ---
 name: customerio-ci-integration
-description: |
-  Configure Customer.io CI/CD integration.
-  Use when setting up automated testing, deployment pipelines,
-  or continuous integration for Customer.io integrations.
-  Trigger with phrases like "customer.io ci", "customer.io github actions",
-  "customer.io pipeline", "customer.io automated testing".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Customer.io CI/CD integration. Use when setting up automated
+  testing, deployment pipelines, or continuous integration for Customer.io integrations.
+  Trigger with phrases like "customer.io ci", "customer.io github actions", "customer.io
+  pi...
 ---
-
 # Customer.io CI Integration
 
 ## Overview

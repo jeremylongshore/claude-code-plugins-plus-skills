@@ -1,17 +1,12 @@
 ---
 name: customerio-debug-bundle
-description: |
-  Collect Customer.io debug evidence for support.
-  Use when creating support tickets, reporting issues,
-  or documenting integration problems.
-  Trigger with phrases like "customer.io debug", "customer.io support ticket",
-  "collect customer.io logs", "customer.io diagnostics".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Collect customer.io debug evidence for support. use when creating support
+  tickets, reporting issues, or documenting integration problems. trigger with phrases
+  like "customer.io debug", "customer.io support ticket", "collect customer.io logs",
+  "cus...
 ---
-
 # Customer.io Debug Bundle
 
 ## Overview

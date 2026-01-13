@@ -1,17 +1,11 @@
 ---
 name: customerio-known-pitfalls
-description: |
-  Identify and avoid Customer.io anti-patterns.
-  Use when reviewing integrations, avoiding common mistakes,
-  or optimizing existing Customer.io implementations.
-  Trigger with phrases like "customer.io mistakes", "customer.io anti-patterns",
-  "customer.io best practices", "customer.io gotchas".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Identify and avoid customer.io anti-patterns. use when reviewing integrations,
+  avoiding common mistakes, or optimizing existing customer.io implementations. trigger
+  with phrases like "customer.io mistakes", "customer.io anti-patterns", "customer.i...
 ---
-
 # Customer.io Known Pitfalls
 
 ## Overview

@@ -1,17 +1,11 @@
 ---
 name: customerio-cost-tuning
-description: |
-  Optimize Customer.io costs and usage.
-  Use when reducing expenses, optimizing usage,
-  or right-sizing your Customer.io plan.
-  Trigger with phrases like "customer.io cost", "reduce customer.io spend",
-  "customer.io billing", "customer.io pricing".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Optimize Customer.io costs and usage. Use when reducing expenses, optimizing
+  usage, or right-sizing your Customer.io plan. Trigger with phrases like "customer.io
+  cost", "reduce customer.io spend", "customer.io billing", "customer.io pricing".
 ---
-
 # Customer.io Cost Tuning
 
 ## Overview
