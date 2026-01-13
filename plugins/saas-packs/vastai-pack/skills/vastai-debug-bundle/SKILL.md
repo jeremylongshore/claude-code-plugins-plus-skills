@@ -1,17 +1,12 @@
 ---
 name: vastai-debug-bundle
-description: |
-  Collect Vast.ai debug evidence for support tickets and troubleshooting.
-  Use when encountering persistent issues, preparing support tickets,
-  or collecting diagnostic information for Vast.ai problems.
-  Trigger with phrases like "vastai debug", "vastai support bundle",
-  "collect vastai logs", "vastai diagnostic".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Collect vast.ai debug evidence for support tickets and troubleshooting.
+  use when encountering persistent issues, preparing support tickets, or collecting
+  diagnostic information for vast.ai problems. trigger with phrases like "vastai debug",
+  "vasta...
 ---
-
 # Vast.ai Debug Bundle
 
 ## Overview

@@ -1,17 +1,11 @@
 ---
 name: vastai-core-workflow-a
-description: |
-  Execute Vast.ai primary workflow: Core Workflow A.
-  Use when implementing primary use case,
-  building main features, or core integration tasks.
-  Trigger with phrases like "vastai main workflow",
-  "primary task with vastai".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: 'Execute vast.ai primary workflow: core workflow a. use when implementing
+  primary use case, building main features, or core integration tasks. trigger with
+  phrases like "vastai main workflow", "primary task with vastai".'
 ---
-
 # Vast.ai Core Workflow A
 
 ## Overview

@@ -1,17 +1,11 @@
 ---
 name: vastai-core-workflow-b
-description: |
-  Execute Vast.ai secondary workflow: Core Workflow B.
-  Use when implementing secondary use case,
-  or complementing primary workflow.
-  Trigger with phrases like "vastai secondary workflow",
-  "secondary task with vastai".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: 'Execute vast.ai secondary workflow: core workflow b. use when implementing
+  secondary use case, or complementing primary workflow. trigger with phrases like
+  "vastai secondary workflow", "secondary task with vastai".'
 ---
-
 # Vast.ai Core Workflow B
 
 ## Overview

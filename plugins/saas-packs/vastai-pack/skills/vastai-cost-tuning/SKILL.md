@@ -1,17 +1,11 @@
 ---
 name: vastai-cost-tuning
-description: |
-  Optimize Vast.ai costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Vast.ai billing, reducing API costs,
-  or implementing usage monitoring and budget alerts.
-  Trigger with phrases like "vastai cost", "vastai billing",
-  "reduce vastai costs", "vastai pricing", "vastai expensive", "vastai budget".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Optimize Vast.ai costs through tier selection, sampling, and usage monitoring.
+  Use when analyzing Vast.ai billing, reducing API costs, or implementing usage monitoring
+  and budget alerts. Trigger with phrases like "vastai cost", "vastai billing", "...
 ---
-
 # Vast.ai Cost Tuning
 
 ## Overview

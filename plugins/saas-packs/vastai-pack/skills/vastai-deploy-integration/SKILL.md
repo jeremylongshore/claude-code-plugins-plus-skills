@@ -1,17 +1,11 @@
 ---
 name: vastai-deploy-integration
-description: |
-  Deploy Vast.ai integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying Vast.ai-powered applications to production,
-  configuring platform-specific secrets, or setting up deployment pipelines.
-  Trigger with phrases like "deploy vastai", "vastai Vercel",
-  "vastai production deploy", "vastai Cloud Run", "vastai Fly.io".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Vast.ai integrations to Vercel, Fly.io, and Cloud Run platforms.
+  Use when deploying Vast.ai-powered applications to production, configuring platform-specific
+  secrets, or setting up deployment pipelines. Trigger with phrases like "deploy vas...
 ---
-
 # Vast.ai Deploy Integration
 
 ## Overview

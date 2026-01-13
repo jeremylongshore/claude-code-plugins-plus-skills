@@ -1,17 +1,12 @@
 ---
 name: vastai-common-errors
-description: |
-  Diagnose and fix Vast.ai common errors and exceptions.
-  Use when encountering Vast.ai errors, debugging failed requests,
-  or troubleshooting integration issues.
-  Trigger with phrases like "vastai error", "fix vastai",
-  "vastai not working", "debug vastai".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Diagnose and fix vast.ai common errors and exceptions. use when encountering
+  vast.ai errors, debugging failed requests, or troubleshooting integration issues.
+  trigger with phrases like "vastai error", "fix vastai", "vastai not working", "debug
+  vas...
 ---
-
 # Vast.ai Common Errors
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: vastai-data-handling
-description: |
-  Implement Vast.ai PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for Vast.ai integrations.
-  Trigger with phrases like "vastai data", "vastai PII",
-  "vastai GDPR", "vastai data retention", "vastai privacy", "vastai CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement vast.ai pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for vast.ai
+  integrati...
 ---
-
 # Vast.ai Data Handling
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: vastai-ci-integration
-description: |
-  Configure Vast.ai CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating Vast.ai tests into your build process.
-  Trigger with phrases like "vastai CI", "vastai GitHub Actions",
-  "vastai automated tests", "CI vastai".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Vast.ai CI/CD integration with GitHub Actions and testing.
+  Use when setting up automated testing, configuring CI pipelines, or integrating
+  Vast.ai tests into your build process. Trigger with phrases like "vastai CI", "vastai
+  GitHub Actio...
 ---
-
 # Vast.ai CI Integration
 
 ## Overview
