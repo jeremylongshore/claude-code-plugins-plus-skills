@@ -1,17 +1,12 @@
 ---
 name: linear-sdk-patterns
-description: |
-  TypeScript/JavaScript SDK patterns and best practices for Linear.
-  Use when learning SDK idioms, implementing common patterns,
-  or optimizing Linear API usage.
-  Trigger with phrases like "linear SDK patterns", "linear best practices",
-  "linear typescript", "linear API patterns", "linear SDK idioms".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Typescript/javascript sdk patterns and best practices for linear. use
+  when learning sdk idioms, implementing common patterns, or optimizing linear api
+  usage. trigger with phrases like "linear sdk patterns", "linear best practices",
+  "linear typescr...
 ---
-
 # Linear SDK Patterns
 
 ## Overview

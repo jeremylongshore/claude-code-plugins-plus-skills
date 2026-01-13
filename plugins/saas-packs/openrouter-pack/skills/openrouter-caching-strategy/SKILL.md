@@ -1,13 +1,11 @@
 ---
 name: openrouter-caching-strategy
-description: |
-  Implement response caching for OpenRouter efficiency. Use when optimizing costs or reducing latency for repeated queries. Trigger with phrases like 'openrouter cache', 'cache llm responses', 'openrouter redis', 'semantic caching'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement response caching for openrouter efficiency. use when optimizing
+  costs or reducing latency for repeated queries. trigger with phrases like 'openrouter
+  cache', 'cache llm responses', 'openrouter redis', 'semantic caching'.
 ---
-
 # Openrouter Caching Strategy
 
 ## Overview

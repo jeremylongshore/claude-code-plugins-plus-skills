@@ -1,17 +1,12 @@
 ---
 name: linear-reference-architecture
-description: |
-  Production-grade Linear integration architecture patterns.
-  Use when designing system architecture, planning integrations,
-  or reviewing architectural decisions.
-  Trigger with phrases like "linear architecture", "linear system design",
-  "linear integration patterns", "linear best practices architecture".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Production-grade linear integration architecture patterns. use when designing
+  system architecture, planning integrations, or reviewing architectural decisions.
+  trigger with phrases like "linear architecture", "linear system design", "linear
+  integr...
 ---
-
 # Linear Reference Architecture
 
 ## Overview

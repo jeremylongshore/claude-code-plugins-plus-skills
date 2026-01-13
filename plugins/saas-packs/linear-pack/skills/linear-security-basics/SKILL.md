@@ -1,17 +1,12 @@
 ---
 name: linear-security-basics
-description: |
-  Secure API key management and OAuth best practices for Linear.
-  Use when setting up authentication securely, implementing OAuth flows,
-  or hardening Linear integrations.
-  Trigger with phrases like "linear security", "linear API key security",
-  "linear OAuth", "secure linear integration", "linear secrets management".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Secure api key management and oauth best practices for linear. use when
+  setting up authentication securely, implementing oauth flows, or hardening linear
+  integrations. trigger with phrases like "linear security", "linear api key security",
+  "linear...
 ---
-
 # Linear Security Basics
 
 ## Overview

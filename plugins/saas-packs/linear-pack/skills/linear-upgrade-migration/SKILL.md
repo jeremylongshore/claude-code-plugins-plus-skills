@@ -1,17 +1,12 @@
 ---
 name: linear-upgrade-migration
-description: |
-  Upgrade Linear SDK versions and migrate breaking changes.
-  Use when updating to a new SDK version, handling deprecations,
-  or migrating between major Linear API versions.
-  Trigger with phrases like "upgrade linear SDK", "linear SDK migration",
-  "update linear", "linear breaking changes", "linear deprecation".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Upgrade linear sdk versions and migrate breaking changes. use when updating
+  to a new sdk version, handling deprecations, or migrating between major linear api
+  versions. trigger with phrases like "upgrade linear sdk", "linear sdk migration",
+  "updat...
 ---
-
 # Linear Upgrade Migration
 
 ## Overview

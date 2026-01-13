@@ -1,13 +1,11 @@
 ---
 name: openrouter-audit-logging
-description: |
-  Implement audit logging for OpenRouter compliance. Use when meeting regulatory requirements or security audits. Trigger with phrases like 'openrouter audit', 'openrouter compliance log', 'openrouter security log', 'audit trail'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement audit logging for openrouter compliance. use when meeting regulatory
+  requirements or security audits. trigger with phrases like 'openrouter audit', 'openrouter
+  compliance log', 'openrouter security log', 'audit trail'.
 ---
-
 # Openrouter Audit Logging
 
 ## Overview
