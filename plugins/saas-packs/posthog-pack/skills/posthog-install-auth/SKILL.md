@@ -1,13 +1,15 @@
 ---
-name: posthog-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure posthog sdk/cli authentication. use when setting
   up a new posthog integration, configuring api keys, or initializing posthog in your
   project. trigger with phrases like "install posthog", "setup posthog", "posthog
   auth", "conf...
+name: posthog-install-auth
 ---
 # PostHog Install & Auth
+
+This skill provides automated assistance for posthog install auth tasks.
 
 ## Overview
 Set up PostHog SDK/CLI and configure authentication credentials.

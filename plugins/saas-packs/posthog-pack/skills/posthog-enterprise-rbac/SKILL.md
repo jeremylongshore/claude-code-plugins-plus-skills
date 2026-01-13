@@ -1,175 +1,21 @@
 ---
-name: posthog-enterprise-rbac
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Configure PostHog enterprise SSO, role-based access control, and organization
   management. Use when implementing SSO integration, configuring role-based permissions,
   or setting up organization-level controls for PostHog. Trigger with phrases like
   "...
+name: posthog-enterprise-rbac
 ---
-# PostHog Enterprise RBAC
+# Posthog Enterprise Rbac
 
-## Overview
-Configure enterprise-grade access control for PostHog integrations.
+This skill provides automated assistance for posthog enterprise rbac tasks.
 
 ## Prerequisites
 - PostHog Enterprise tier subscription
 - Identity Provider (IdP) with SAML/OIDC support
 - Understanding of role-based access patterns
 - Audit logging infrastructure
-
-## Role Definitions
-
-| Role | Permissions | Use Case |
-|------|-------------|----------|
-| Admin | Full access | Platform administrators |
-| Developer | Read/write, no delete | Active development |
-| Viewer | Read-only | Stakeholders, auditors |
-| Service | API access only | Automated systems |
-
-## Role Implementation
-
-```typescript
-enum PostHogRole {
-  Admin = 'admin',
-  Developer = 'developer',
-  Viewer = 'viewer',
-  Service = 'service',
-}
-
-interface PostHogPermissions {
-  read: boolean;
-  write: boolean;
-  delete: boolean;
-  admin: boolean;
-}
-
-const ROLE_PERMISSIONS: Record<PostHogRole, PostHogPermissions> = {
-  admin: { read: true, write: true, delete: true, admin: true },
-  developer: { read: true, write: true, delete: false, admin: false },
-  viewer: { read: true, write: false, delete: false, admin: false },
-  service: { read: true, write: true, delete: false, admin: false },
-};
-
-function checkPermission(
-  role: PostHogRole,
-  action: keyof PostHogPermissions
-): boolean {
-  return ROLE_PERMISSIONS[role][action];
-}
-```
-
-## SSO Integration
-
-### SAML Configuration
-
-```typescript
-// PostHog SAML setup
-const samlConfig = {
-  entryPoint: 'https://idp.company.com/saml/sso',
-  issuer: 'https://posthog.com/saml/metadata',
-  cert: process.env.SAML_CERT,
-  callbackUrl: 'https://app.yourcompany.com/auth/posthog/callback',
-};
-
-// Map IdP groups to PostHog roles
-const groupRoleMapping: Record<string, PostHogRole> = {
-  'Engineering': PostHogRole.Developer,
-  'Platform-Admins': PostHogRole.Admin,
-  'Data-Team': PostHogRole.Viewer,
-};
-```
-
-### OAuth2/OIDC Integration
-
-```typescript
-import { OAuth2Client } from '@posthog/sdk';
-
-const oauthClient = new OAuth2Client({
-  clientId: process.env.POSTHOG_OAUTH_CLIENT_ID!,
-  clientSecret: process.env.POSTHOG_OAUTH_CLIENT_SECRET!,
-  redirectUri: 'https://app.yourcompany.com/auth/posthog/callback',
-  scopes: ['read', 'write'],
-});
-```
-
-## Organization Management
-
-```typescript
-interface PostHogOrganization {
-  id: string;
-  name: string;
-  ssoEnabled: boolean;
-  enforceSso: boolean;
-  allowedDomains: string[];
-  defaultRole: PostHogRole;
-}
-
-async function createOrganization(
-  config: PostHogOrganization
-): Promise<void> {
-  await posthogClient.organizations.create({
-    ...config,
-    settings: {
-      sso: {
-        enabled: config.ssoEnabled,
-        enforced: config.enforceSso,
-        domains: config.allowedDomains,
-      },
-    },
-  });
-}
-```
-
-## Access Control Middleware
-
-```typescript
-function requirePostHogPermission(
-  requiredPermission: keyof PostHogPermissions
-) {
-  return async (req: Request, res: Response, next: NextFunction) => {
-    const user = req.user as { posthogRole: PostHogRole };
-
-    if (!checkPermission(user.posthogRole, requiredPermission)) {
-      return res.status(403).json({
-        error: 'Forbidden',
-        message: `Missing permission: ${requiredPermission}`,
-      });
-    }
-
-    next();
-  };
-}
-
-// Usage
-app.delete('/posthog/resource/:id',
-  requirePostHogPermission('delete'),
-  deleteResourceHandler
-);
-```
-
-## Audit Trail
-
-```typescript
-interface PostHogAuditEntry {
-  timestamp: Date;
-  userId: string;
-  role: PostHogRole;
-  action: string;
-  resource: string;
-  success: boolean;
-  ipAddress: string;
-}
-
-async function logPostHogAccess(entry: PostHogAuditEntry): Promise<void> {
-  await auditDb.insert(entry);
-
-  // Alert on suspicious activity
-  if (entry.action === 'delete' && !entry.success) {
-    await alertOnSuspiciousActivity(entry);
-  }
-}
-```
 
 ## Instructions
 
@@ -192,26 +38,14 @@ Track all access for compliance.
 - Audit trail enabled
 
 ## Error Handling
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| SSO login fails | Wrong callback URL | Verify IdP config |
-| Permission denied | Missing role mapping | Update group mappings |
-| Token expired | Short TTL | Refresh token logic |
-| Audit gaps | Async logging failed | Check log pipeline |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Permission Check
-```typescript
-if (!checkPermission(user.role, 'write')) {
-  throw new ForbiddenError('Write permission required');
-}
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [PostHog Enterprise Guide](https://docs.posthog.com/enterprise)
 - [SAML 2.0 Specification](https://wiki.oasis-open.org/security/FrontPage)
 - [OpenID Connect Spec](https://openid.net/specs/openid-connect-core-1_0.html)
-
-## Next Steps
-For major migrations, see `posthog-migration-deep-dive`.

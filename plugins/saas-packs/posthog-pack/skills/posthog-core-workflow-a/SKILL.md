@@ -1,12 +1,14 @@
 ---
-name: posthog-core-workflow-a
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute posthog primary workflow: core workflow a. use when implementing
   primary use case, building main features, or core integration tasks. trigger with
   phrases like "posthog main workflow", "primary task with posthog".'
+name: posthog-core-workflow-a
 ---
 # PostHog Core Workflow A
+
+This skill provides automated assistance for posthog core workflow a tasks.
 
 ## Overview
 Primary money-path workflow for PostHog. This is the most common use case.

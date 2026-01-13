@@ -1,12 +1,14 @@
 ---
-name: posthog-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute posthog secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "posthog secondary workflow", "secondary task with posthog".'
+name: posthog-core-workflow-b
 ---
 # PostHog Core Workflow B
+
+This skill provides automated assistance for posthog core workflow b tasks.
 
 ## Overview
 Secondary workflow for PostHog. Complements the primary workflow.

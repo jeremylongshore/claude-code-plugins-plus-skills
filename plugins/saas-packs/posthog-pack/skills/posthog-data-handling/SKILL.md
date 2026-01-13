@@ -1,13 +1,15 @@
 ---
-name: posthog-data-handling
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Implement posthog pii handling, data retention, and gdpr/ccpa compliance
   patterns. use when handling sensitive data, implementing data redaction, configuring
   retention policies, or ensuring compliance with privacy regulations for posthog
   integrati...
+name: posthog-data-handling
 ---
 # PostHog Data Handling
+
+This skill provides automated assistance for posthog data handling tasks.
 
 ## Overview
 Handle sensitive data correctly when integrating with PostHog.
