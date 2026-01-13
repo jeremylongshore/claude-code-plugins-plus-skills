@@ -1,11 +1,11 @@
 ---
-name: implementing-database-audit-logging
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Process use when you need to track database changes for compliance and
   security monitoring. This skill implements audit logging using triggers, application-level
   logging, CDC, or native logs. Trigger with phrases like "implement database audit
   log...
+name: implementing-database-audit-logging
 ---
 # Database Audit Logger
 

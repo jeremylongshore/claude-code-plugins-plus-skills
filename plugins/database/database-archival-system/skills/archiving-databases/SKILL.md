@@ -1,11 +1,11 @@
 ---
-name: archiving-databases
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Process use when you need to archive historical database records to reduce
   primary database size. This skill automates moving old data to archive tables or
   cold storage (S3, Azure Blob, GCS). Trigger with phrases like "archive old database
   records...
+name: archiving-databases
 ---
 # Database Archival System
 

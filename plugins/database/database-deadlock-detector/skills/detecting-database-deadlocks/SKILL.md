@@ -1,10 +1,10 @@
 ---
-name: detecting-database-deadlocks
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Process use when you need to work with deadlock detection. This skill
   provides deadlock detection and resolution with comprehensive guidance and automation.
   Trigger with phrases like "detect deadlocks", "resolve deadlocks", or "prevent deadlocks".
+name: detecting-database-deadlocks
 ---
 # Database Deadlock Detector
 

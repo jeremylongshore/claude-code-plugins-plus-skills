@@ -1,11 +1,11 @@
 ---
-name: optimizing-database-connection-pooling
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Process use when you need to work with connection management. This skill
   provides connection pooling and management with comprehensive guidance and automation.
   Trigger with phrases like "manage connections", "configure pooling", or "optimize
   conne...
+name: optimizing-database-connection-pooling
 ---
 # Database Connection Pooler
 
