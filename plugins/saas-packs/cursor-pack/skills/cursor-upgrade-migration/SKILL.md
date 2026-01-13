@@ -1,14 +1,12 @@
 ---
-name: "cursor-upgrade-migration"
-description: |
-  Execute upgrade Cursor versions and migrate settings. Triggers on "upgrade cursor",
-  "update cursor", "cursor migration", "cursor new version", "cursor changelog". Use when working with cursor upgrade migration functionality. Trigger with phrases like "cursor upgrade migration", "cursor migration", "cursor".
-allowed-tools: "Read, Write, Edit, Bash"
-version: 1.0.0
+name: cursor-upgrade-migration
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit, Bash
+description: Execute upgrade cursor versions and migrate settings. triggers on "upgrade
+  cursor", "update cursor", "cursor migration", "cursor new version", "cursor changelog".
+  use when working with cursor upgrade migration functionality. trigger with phrases
+  l...
 ---
-
 # Cursor Upgrade Migration
 
 ## Overview

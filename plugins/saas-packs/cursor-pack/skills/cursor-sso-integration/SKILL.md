@@ -1,14 +1,12 @@
 ---
-name: "cursor-sso-integration"
-description: |
-  Configure SSO and enterprise authentication in Cursor. Triggers on "cursor sso",
-  "cursor saml", "cursor oauth", "enterprise cursor auth", "cursor okta". Use when working with cursor sso integration functionality. Trigger with phrases like "cursor sso integration", "cursor integration", "cursor".
-allowed-tools: "Read, Write, Edit, Bash"
-version: 1.0.0
+name: cursor-sso-integration
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit, Bash
+description: Configure SSO and enterprise authentication in Cursor. Triggers on "cursor
+  sso", "cursor saml", "cursor oauth", "enterprise cursor auth", "cursor okta". Use
+  when working with cursor sso integration functionality. Trigger with phrases like
+  "cursor ...
 ---
-
 # Cursor Sso Integration
 
 ## Overview

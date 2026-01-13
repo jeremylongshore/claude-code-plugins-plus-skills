@@ -1,14 +1,12 @@
 ---
-name: "cursor-privacy-settings"
-description: |
-  Configure Cursor privacy and data handling settings. Triggers on "cursor privacy",
-  "cursor data", "cursor security", "privacy mode", "cursor telemetry". Use when working with cursor privacy settings functionality. Trigger with phrases like "cursor privacy settings", "cursor settings", "cursor".
-allowed-tools: "Read, Write, Edit, Bash"
-version: 1.0.0
+name: cursor-privacy-settings
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Cursor privacy and data handling settings. Triggers on "cursor
+  privacy", "cursor data", "cursor security", "privacy mode", "cursor telemetry".
+  Use when working with cursor privacy settings functionality. Trigger with phrases
+  like "cursor...
 ---
-
 # Cursor Privacy Settings
 
 ## Overview
