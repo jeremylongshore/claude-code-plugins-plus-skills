@@ -1,17 +1,12 @@
 ---
 name: posthog-multi-env-setup
-description: |
-  Configure PostHog across development, staging, and production environments.
-  Use when setting up multi-environment deployments, configuring per-environment secrets,
-  or implementing environment-specific PostHog configurations.
-  Trigger with phrases like "posthog environments", "posthog staging",
-  "posthog dev prod", "posthog environment setup", "posthog config by env".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure PostHog across development, staging, and production environments.
+  Use when setting up multi-environment deployments, configuring per-environment secrets,
+  or implementing environment-specific PostHog configurations. Trigger with phrases
+  l...
 ---
-
 # PostHog Multi-Environment Setup
 
 ## Overview

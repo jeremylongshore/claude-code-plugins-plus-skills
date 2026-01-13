@@ -1,17 +1,12 @@
 ---
 name: posthog-sdk-patterns
-description: |
-  Apply production-ready PostHog SDK patterns for TypeScript and Python.
-  Use when implementing PostHog integrations, refactoring SDK usage,
-  or establishing team coding standards for PostHog.
-  Trigger with phrases like "posthog SDK patterns", "posthog best practices",
-  "posthog code patterns", "idiomatic posthog".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready posthog sdk patterns for typescript and python.
+  use when implementing posthog integrations, refactoring sdk usage, or establishing
+  team coding standards for posthog. trigger with phrases like "posthog sdk patterns",
+  "posthog...
 ---
-
 # PostHog SDK Patterns
 
 ## Overview

@@ -1,17 +1,11 @@
 ---
 name: posthog-migration-deep-dive
-description: |
-  Execute PostHog major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from PostHog, performing major version upgrades,
-  or re-platforming existing integrations to PostHog.
-  Trigger with phrases like "migrate posthog", "posthog migration",
-  "switch to posthog", "posthog replatform", "posthog upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute posthog major re-architecture and migration strategies with strangler
+  fig pattern. use when migrating to or from posthog, performing major version upgrades,
+  or re-platforming existing integrations to posthog. trigger with phrases like "mig...
 ---
-
 # PostHog Migration Deep Dive
 
 ## Overview

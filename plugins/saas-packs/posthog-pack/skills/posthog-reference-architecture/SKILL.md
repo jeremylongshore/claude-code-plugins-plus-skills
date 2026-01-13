@@ -1,17 +1,11 @@
 ---
 name: posthog-reference-architecture
-description: |
-  Implement PostHog reference architecture with best-practice project layout.
-  Use when designing new PostHog integrations, reviewing project structure,
-  or establishing architecture standards for PostHog applications.
-  Trigger with phrases like "posthog architecture", "posthog best practices",
-  "posthog project structure", "how to organize posthog", "posthog layout".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Implement posthog reference architecture with best-practice project layout.
+  use when designing new posthog integrations, reviewing project structure, or establishing
+  architecture standards for posthog applications. trigger with phrases like "posth...
 ---
-
 # PostHog Reference Architecture
 
 ## Overview

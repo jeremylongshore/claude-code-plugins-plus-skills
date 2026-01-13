@@ -1,17 +1,12 @@
 ---
 name: posthog-performance-tuning
-description: |
-  Optimize PostHog API performance with caching, batching, and connection pooling.
-  Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for PostHog integrations.
-  Trigger with phrases like "posthog performance", "optimize posthog",
-  "posthog latency", "posthog caching", "posthog slow", "posthog batch".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize PostHog API performance with caching, batching, and connection
+  pooling. Use when experiencing slow API responses, implementing caching strategies,
+  or optimizing request throughput for PostHog integrations. Trigger with phrases
+  like "posth...
 ---
-
 # PostHog Performance Tuning
 
 ## Overview

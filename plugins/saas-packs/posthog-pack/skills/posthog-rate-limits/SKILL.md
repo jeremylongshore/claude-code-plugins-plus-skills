@@ -1,17 +1,12 @@
 ---
 name: posthog-rate-limits
-description: |
-  Implement PostHog rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for PostHog.
-  Trigger with phrases like "posthog rate limit", "posthog throttling",
-  "posthog 429", "posthog retry", "posthog backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement posthog rate limiting, backoff, and idempotency patterns. use
+  when handling rate limit errors, implementing retry logic, or optimizing api request
+  throughput for posthog. trigger with phrases like "posthog rate limit", "posthog
+  throttlin...
 ---
-
 # PostHog Rate Limits
 
 ## Overview

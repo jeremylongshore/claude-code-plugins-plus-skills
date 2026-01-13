@@ -1,17 +1,12 @@
 ---
 name: posthog-observability
-description: |
-  Set up comprehensive observability for PostHog integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for PostHog operations, setting up dashboards,
-  or configuring alerting for PostHog integration health.
-  Trigger with phrases like "posthog monitoring", "posthog metrics",
-  "posthog observability", "monitor posthog", "posthog alerts", "posthog tracing".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Set up comprehensive observability for posthog integrations with metrics,
+  traces, and alerts. use when implementing monitoring for posthog operations, setting
+  up dashboards, or configuring alerting for posthog integration health. trigger with
+  phra...
 ---
-
 # PostHog Observability
 
 ## Overview
