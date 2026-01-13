@@ -1,13 +1,15 @@
 ---
-name: vercel-upgrade-migration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Execute analyze, plan, and execute vercel sdk upgrades with breaking
   change detection. use when upgrading vercel sdk versions, detecting deprecations,
   or migrating to new api versions. trigger with phrases like "upgrade vercel", "vercel
   migration"...
+name: vercel-upgrade-migration
 ---
 # Vercel Upgrade Migration
+
+This skill provides automated assistance for vercel upgrade migration tasks.
 
 ## Prerequisites
 - Current Vercel SDK installed

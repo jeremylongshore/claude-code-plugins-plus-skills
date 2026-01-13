@@ -1,12 +1,14 @@
 ---
-name: vercel-security-basics
-license: MIT
 allowed-tools: Read, Write, Grep
+license: MIT
 description: Execute apply vercel security best practices for secrets and access control.
   use when securing api keys, implementing least privilege access, or auditing vercel
   security configuration. trigger with phrases like "vercel security", "vercel secrets",...
+name: vercel-security-basics
 ---
 # Vercel Security Basics
+
+This skill provides automated assistance for vercel security basics tasks.
 
 ## Prerequisites
 - Vercel SDK installed

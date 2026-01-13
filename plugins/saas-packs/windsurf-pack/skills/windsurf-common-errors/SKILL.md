@@ -1,16 +1,15 @@
 ---
-name: windsurf-common-errors
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Diagnose and fix windsurf common errors and exceptions. use when encountering
   windsurf errors, debugging failed requests, or troubleshooting integration issues.
   trigger with phrases like "windsurf error", "fix windsurf", "windsurf not working",
   "d...
+name: windsurf-common-errors
 ---
 # Windsurf Common Errors
 
-## Overview
-Quick reference for the top 10 most common Windsurf errors and their solutions.
+This skill provides automated assistance for windsurf common errors tasks.
 
 ## Prerequisites
 - Windsurf SDK installed
@@ -35,72 +34,13 @@ Follow the solution steps for your specific error.
 
 ## Error Handling
 
-### Authentication Failed
-**Error Message:**
-```
-Authentication error: Invalid API key
-```
-
-**Cause:** API key is missing, expired, or invalid.
-
-**Solution:**
-```bash
-# Verify API key is set
-echo $WINDSURF_API_KEY
-```
-
----
-
-### Rate Limit Exceeded
-**Error Message:**
-```
-Rate limit exceeded. Please retry after X seconds.
-```
-
-**Cause:** Too many requests in a short period.
-
-**Solution:**
-Implement exponential backoff. See `windsurf-rate-limits` skill.
-
----
-
-### Network Timeout
-**Error Message:**
-```
-Request timeout after 30000ms
-```
-
-**Cause:** Network connectivity or server latency issues.
-
-**Solution:**
-```typescript
-// Increase timeout
-const client = new Client({ timeout: 60000 });
-```
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Diagnostic Commands
-```bash
-# Check Windsurf status
-curl -s https://status.windsurf.com
-
-# Verify API connectivity
-curl -I https://api.windsurf.com
-
-# Check local configuration
-env | grep WINDSURF
-```
-
-### Escalation Path
-1. Collect evidence with `windsurf-debug-bundle`
-2. Check Windsurf status page
-3. Contact support with request ID
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Windsurf Status Page](https://status.windsurf.com)
 - [Windsurf Support](https://docs.windsurf.com/support)
 - [Windsurf Error Codes](https://docs.windsurf.com/errors)
-
-## Next Steps
-For comprehensive debugging, see `windsurf-debug-bundle`.

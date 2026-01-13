@@ -1,13 +1,15 @@
 ---
-name: vercel-reference-architecture
-license: MIT
 allowed-tools: Read, Grep
+license: MIT
 description: Implement vercel reference architecture with best-practice project layout.
   use when designing new vercel integrations, reviewing project structure, or establishing
   architecture standards for vercel applications. trigger with phrases like "vercel
   a...
+name: vercel-reference-architecture
 ---
 # Vercel Reference Architecture
+
+This skill provides automated assistance for vercel reference architecture tasks.
 
 ## Prerequisites
 - Understanding of layered architecture

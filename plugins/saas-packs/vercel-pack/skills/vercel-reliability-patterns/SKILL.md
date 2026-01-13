@@ -1,13 +1,15 @@
 ---
-name: vercel-reliability-patterns
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Implement vercel reliability patterns including circuit breakers, idempotency,
   and graceful degradation. use when building fault-tolerant vercel integrations,
   implementing retry strategies, or adding resilience to production vercel services.
   trigg...
+name: vercel-reliability-patterns
 ---
 # Vercel Reliability Patterns
+
+This skill provides automated assistance for vercel reliability patterns tasks.
 
 ## Prerequisites
 - Understanding of circuit breaker pattern
