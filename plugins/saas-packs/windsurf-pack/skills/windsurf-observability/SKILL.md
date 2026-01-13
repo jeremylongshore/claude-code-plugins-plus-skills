@@ -1,17 +1,12 @@
 ---
 name: windsurf-observability
-description: |
-  Set up comprehensive observability for Windsurf integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for Windsurf operations, setting up dashboards,
-  or configuring alerting for Windsurf integration health.
-  Trigger with phrases like "windsurf monitoring", "windsurf metrics",
-  "windsurf observability", "monitor windsurf", "windsurf alerts", "windsurf tracing".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Set up comprehensive observability for windsurf integrations with metrics,
+  traces, and alerts. use when implementing monitoring for windsurf operations, setting
+  up dashboards, or configuring alerting for windsurf integration health. trigger
+  with p...
 ---
-
 # Windsurf Observability
 
 ## Overview

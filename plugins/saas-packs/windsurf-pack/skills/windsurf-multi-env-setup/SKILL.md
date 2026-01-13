@@ -1,17 +1,11 @@
 ---
 name: windsurf-multi-env-setup
-description: |
-  Configure Windsurf across development, staging, and production environments.
-  Use when setting up multi-environment deployments, configuring per-environment secrets,
-  or implementing environment-specific Windsurf configurations.
-  Trigger with phrases like "windsurf environments", "windsurf staging",
-  "windsurf dev prod", "windsurf environment setup", "windsurf config by env".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Windsurf across development, staging, and production environments.
+  Use when setting up multi-environment deployments, configuring per-environment secrets,
+  or implementing environment-specific Windsurf configurations. Trigger with phrases...
 ---
-
 # Windsurf Multi-Environment Setup
 
 ## Overview

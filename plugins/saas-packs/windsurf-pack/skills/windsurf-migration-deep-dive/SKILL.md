@@ -1,17 +1,12 @@
 ---
 name: windsurf-migration-deep-dive
-description: |
-  Execute Windsurf major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from Windsurf, performing major version upgrades,
-  or re-platforming existing integrations to Windsurf.
-  Trigger with phrases like "migrate windsurf", "windsurf migration",
-  "switch to windsurf", "windsurf replatform", "windsurf upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute windsurf major re-architecture and migration strategies with
+  strangler fig pattern. use when migrating to or from windsurf, performing major
+  version upgrades, or re-platforming existing integrations to windsurf. trigger with
+  phrases like "...
 ---
-
 # Windsurf Migration Deep Dive
 
 ## Overview

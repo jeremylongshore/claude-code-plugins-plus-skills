@@ -1,17 +1,12 @@
 ---
 name: windsurf-rate-limits
-description: |
-  Implement Windsurf rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for Windsurf.
-  Trigger with phrases like "windsurf rate limit", "windsurf throttling",
-  "windsurf 429", "windsurf retry", "windsurf backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement windsurf rate limiting, backoff, and idempotency patterns.
+  use when handling rate limit errors, implementing retry logic, or optimizing api
+  request throughput for windsurf. trigger with phrases like "windsurf rate limit",
+  "windsurf throt...
 ---
-
 # Windsurf Rate Limits
 
 ## Overview

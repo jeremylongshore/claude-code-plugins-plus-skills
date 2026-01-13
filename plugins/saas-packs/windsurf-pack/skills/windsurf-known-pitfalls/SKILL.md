@@ -1,17 +1,12 @@
 ---
 name: windsurf-known-pitfalls
-description: |
-  Identify and avoid Windsurf anti-patterns and common integration mistakes.
-  Use when reviewing Windsurf code for issues, onboarding new developers,
-  or auditing existing Windsurf integrations for best practices violations.
-  Trigger with phrases like "windsurf mistakes", "windsurf anti-patterns",
-  "windsurf pitfalls", "windsurf what not to do", "windsurf code review".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Identify and avoid windsurf anti-patterns and common integration mistakes.
+  use when reviewing windsurf code for issues, onboarding new developers, or auditing
+  existing windsurf integrations for best practices violations. trigger with phrases
+  like ...
 ---
-
 # Windsurf Known Pitfalls
 
 ## Overview

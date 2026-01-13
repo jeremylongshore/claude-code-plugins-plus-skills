@@ -1,17 +1,12 @@
 ---
 name: windsurf-performance-tuning
-description: |
-  Optimize Windsurf API performance with caching, batching, and connection pooling.
-  Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Windsurf integrations.
-  Trigger with phrases like "windsurf performance", "optimize windsurf",
-  "windsurf latency", "windsurf caching", "windsurf slow", "windsurf batch".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize Windsurf API performance with caching, batching, and connection
+  pooling. Use when experiencing slow API responses, implementing caching strategies,
+  or optimizing request throughput for Windsurf integrations. Trigger with phrases
+  like "win...
 ---
-
 # Windsurf Performance Tuning
 
 ## Overview

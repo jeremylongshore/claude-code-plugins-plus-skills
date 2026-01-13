@@ -1,17 +1,12 @@
 ---
 name: windsurf-load-scale
-description: |
-  Implement Windsurf load testing, auto-scaling, and capacity planning strategies.
-  Use when running performance tests, configuring horizontal scaling,
-  or planning capacity for Windsurf integrations.
-  Trigger with phrases like "windsurf load test", "windsurf scale",
-  "windsurf performance test", "windsurf capacity", "windsurf k6", "windsurf benchmark".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement windsurf load testing, auto-scaling, and capacity planning
+  strategies. use when running performance tests, configuring horizontal scaling,
+  or planning capacity for windsurf integrations. trigger with phrases like "windsurf
+  load test", "w...
 ---
-
 # Windsurf Load & Scale
 
 ## Overview

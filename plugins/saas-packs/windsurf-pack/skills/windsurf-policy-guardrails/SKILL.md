@@ -1,17 +1,11 @@
 ---
 name: windsurf-policy-guardrails
-description: |
-  Implement Windsurf lint rules, policy enforcement, and automated guardrails.
-  Use when setting up code quality rules for Windsurf integrations, implementing
-  pre-commit hooks, or configuring CI policy checks for Windsurf best practices.
-  Trigger with phrases like "windsurf policy", "windsurf lint",
-  "windsurf guardrails", "windsurf best practices check", "windsurf eslint".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement windsurf lint rules, policy enforcement, and automated guardrails.
+  use when setting up code quality rules for windsurf integrations, implementing pre-commit
+  hooks, or configuring ci policy checks for windsurf best practices. trigger with...
 ---
-
 # Windsurf Policy & Guardrails
 
 ## Overview

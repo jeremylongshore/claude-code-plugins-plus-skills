@@ -1,17 +1,12 @@
 ---
 name: windsurf-local-dev-loop
-description: |
-  Configure Windsurf local development with hot reload and testing.
-  Use when setting up a development environment, configuring test workflows,
-  or establishing a fast iteration cycle with Windsurf.
-  Trigger with phrases like "windsurf dev setup", "windsurf local development",
-  "windsurf dev environment", "develop with windsurf".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Configure Windsurf local development with hot reload and testing. Use
+  when setting up a development environment, configuring test workflows, or establishing
+  a fast iteration cycle with Windsurf. Trigger with phrases like "windsurf dev setup",
+  "win...
 ---
-
 # Windsurf Local Dev Loop
 
 ## Overview

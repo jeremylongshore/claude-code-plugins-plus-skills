@@ -1,17 +1,12 @@
 ---
 name: windsurf-prod-checklist
-description: |
-  Execute Windsurf production deployment checklist and rollback procedures.
-  Use when deploying Windsurf integrations to production, preparing for launch,
-  or implementing go-live procedures.
-  Trigger with phrases like "windsurf production", "deploy windsurf",
-  "windsurf go-live", "windsurf launch checklist".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Execute windsurf production deployment checklist and rollback procedures.
+  use when deploying windsurf integrations to production, preparing for launch, or
+  implementing go-live procedures. trigger with phrases like "windsurf production",
+  "deploy wi...
 ---
-
 # Windsurf Production Checklist
 
 ## Overview
