@@ -1,10 +1,10 @@
 ---
-name: scanning-for-secrets
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Detect exposed secrets, api keys, and credentials in code. use when auditing
   for secret leaks. trigger with 'scan for secrets', 'find exposed keys', or 'check
   credentials'.
+name: scanning-for-secrets
 ---
 # Secret Scanner
 

@@ -1,12 +1,14 @@
 ---
-name: finding-security-misconfigurations
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Configure identify security misconfigurations in infrastructure-as-code,
   application settings, and system configurations. Use when you need to audit Terraform/CloudFormation
   templates, check application config files, validate system security setti...
+name: finding-security-misconfigurations
 ---
 # Finding Security Misconfigurations
+
+This skill provides automated assistance for finding security misconfigurations tasks.
 
 ## Overview
 

@@ -1,13 +1,15 @@
 ---
-name: generating-security-audit-reports
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Generate comprehensive security audit reports for applications and systems.
   Use when you need to assess security posture, identify vulnerabilities, evaluate
   compliance status, or create formal security documentation. Trigger with phrases
   like "cre...
+name: generating-security-audit-reports
 ---
 # Generating Security Audit Reports
+
+This skill provides automated assistance for generating security audit reports tasks.
 
 ## Overview
 

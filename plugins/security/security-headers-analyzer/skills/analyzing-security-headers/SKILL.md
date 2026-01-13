@@ -1,13 +1,15 @@
 ---
-name: analyzing-security-headers
-license: MIT
 allowed-tools: Read, WebFetch, WebSearch, Grep
+license: MIT
 description: Analyze HTTP security headers of web domains to identify vulnerabilities
   and misconfigurations. Use when you need to audit website security headers, assess
   header compliance, or get security recommendations for web applications. Trigger
   with phras...
+name: analyzing-security-headers
 ---
 # Analyzing Security Headers
+
+This skill provides automated assistance for analyzing security headers tasks.
 
 ## Overview
 

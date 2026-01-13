@@ -1,12 +1,14 @@
 ---
-name: checking-session-security
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Analyze session management implementations to identify security vulnerabilities
   in web applications. Use when you need to audit session handling, check for session
   fixation risks, review session timeout configurations, or validate session ID gener...
+name: checking-session-security
 ---
 # Checking Session Security
+
+This skill provides automated assistance for checking session security tasks.
 
 ## Overview
 
