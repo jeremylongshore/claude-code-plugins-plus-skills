@@ -1,17 +1,12 @@
 ---
 name: fireflies-prod-checklist
-description: |
-  Execute Fireflies.ai production deployment checklist and rollback procedures.
-  Use when deploying Fireflies.ai integrations to production, preparing for launch,
-  or implementing go-live procedures.
-  Trigger with phrases like "fireflies production", "deploy fireflies",
-  "fireflies go-live", "fireflies launch checklist".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Execute fireflies.ai production deployment checklist and rollback procedures.
+  use when deploying fireflies.ai integrations to production, preparing for launch,
+  or implementing go-live procedures. trigger with phrases like "fireflies production",
+  "...
 ---
-
 # Fireflies.ai Production Checklist
 
 ## Overview

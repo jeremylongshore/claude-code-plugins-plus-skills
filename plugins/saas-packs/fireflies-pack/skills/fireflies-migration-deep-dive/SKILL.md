@@ -1,17 +1,12 @@
 ---
 name: fireflies-migration-deep-dive
-description: |
-  Execute Fireflies.ai major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from Fireflies.ai, performing major version upgrades,
-  or re-platforming existing integrations to Fireflies.ai.
-  Trigger with phrases like "migrate fireflies", "fireflies migration",
-  "switch to fireflies", "fireflies replatform", "fireflies upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute fireflies.ai major re-architecture and migration strategies with
+  strangler fig pattern. use when migrating to or from fireflies.ai, performing major
+  version upgrades, or re-platforming existing integrations to fireflies.ai. trigger
+  with ph...
 ---
-
 # Fireflies.ai Migration Deep Dive
 
 ## Overview

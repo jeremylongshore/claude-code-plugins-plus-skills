@@ -1,17 +1,12 @@
 ---
 name: fireflies-sdk-patterns
-description: |
-  Apply production-ready Fireflies.ai SDK patterns for TypeScript and Python.
-  Use when implementing Fireflies.ai integrations, refactoring SDK usage,
-  or establishing team coding standards for Fireflies.ai.
-  Trigger with phrases like "fireflies SDK patterns", "fireflies best practices",
-  "fireflies code patterns", "idiomatic fireflies".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready fireflies.ai sdk patterns for typescript and python.
+  use when implementing fireflies.ai integrations, refactoring sdk usage, or establishing
+  team coding standards for fireflies.ai. trigger with phrases like "fireflies sdk
+  pa...
 ---
-
 # Fireflies.ai SDK Patterns
 
 ## Overview

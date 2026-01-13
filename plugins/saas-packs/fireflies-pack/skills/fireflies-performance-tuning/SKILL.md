@@ -1,17 +1,12 @@
 ---
 name: fireflies-performance-tuning
-description: |
-  Optimize Fireflies.ai API performance with caching, batching, and connection pooling.
-  Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Fireflies.ai integrations.
-  Trigger with phrases like "fireflies performance", "optimize fireflies",
-  "fireflies latency", "fireflies caching", "fireflies slow", "fireflies batch".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize Fireflies.ai API performance with caching, batching, and connection
+  pooling. Use when experiencing slow API responses, implementing caching strategies,
+  or optimizing request throughput for Fireflies.ai integrations. Trigger with phrases
+  l...
 ---
-
 # Fireflies.ai Performance Tuning
 
 ## Overview

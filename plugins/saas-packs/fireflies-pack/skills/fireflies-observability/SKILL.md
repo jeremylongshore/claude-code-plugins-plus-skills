@@ -1,17 +1,12 @@
 ---
 name: fireflies-observability
-description: |
-  Set up comprehensive observability for Fireflies.ai integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for Fireflies.ai operations, setting up dashboards,
-  or configuring alerting for Fireflies.ai integration health.
-  Trigger with phrases like "fireflies monitoring", "fireflies metrics",
-  "fireflies observability", "monitor fireflies", "fireflies alerts", "fireflies tracing".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Set up comprehensive observability for fireflies.ai integrations with
+  metrics, traces, and alerts. use when implementing monitoring for fireflies.ai operations,
+  setting up dashboards, or configuring alerting for fireflies.ai integration health.
+  tr...
 ---
-
 # Fireflies.ai Observability
 
 ## Overview

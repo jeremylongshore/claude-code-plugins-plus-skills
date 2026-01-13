@@ -1,17 +1,12 @@
 ---
 name: fireflies-reference-architecture
-description: |
-  Implement Fireflies.ai reference architecture with best-practice project layout.
-  Use when designing new Fireflies.ai integrations, reviewing project structure,
-  or establishing architecture standards for Fireflies.ai applications.
-  Trigger with phrases like "fireflies architecture", "fireflies best practices",
-  "fireflies project structure", "how to organize fireflies", "fireflies layout".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Implement fireflies.ai reference architecture with best-practice project
+  layout. use when designing new fireflies.ai integrations, reviewing project structure,
+  or establishing architecture standards for fireflies.ai applications. trigger with
+  phra...
 ---
-
 # Fireflies.ai Reference Architecture
 
 ## Overview

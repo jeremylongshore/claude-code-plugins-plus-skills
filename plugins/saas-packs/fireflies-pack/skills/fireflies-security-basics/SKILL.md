@@ -1,17 +1,11 @@
 ---
 name: fireflies-security-basics
-description: |
-  Apply Fireflies.ai security best practices for secrets and access control.
-  Use when securing API keys, implementing least privilege access,
-  or auditing Fireflies.ai security configuration.
-  Trigger with phrases like "fireflies security", "fireflies secrets",
-  "secure fireflies", "fireflies API key security".
-allowed-tools: Read, Write, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Grep
+description: Apply fireflies.ai security best practices for secrets and access control.
+  use when securing api keys, implementing least privilege access, or auditing fireflies.ai
+  security configuration. trigger with phrases like "fireflies security", "fireflies...
 ---
-
 # Fireflies.ai Security Basics
 
 ## Overview
