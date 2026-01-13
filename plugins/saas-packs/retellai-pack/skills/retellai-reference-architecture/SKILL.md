@@ -1,191 +1,21 @@
 ---
-name: retellai-reference-architecture
-license: MIT
 allowed-tools: Read, Grep
+license: MIT
 description: Implement retell ai reference architecture with best-practice project
   layout. use when designing new retell ai integrations, reviewing project structure,
   or establishing architecture standards for retell ai applications. trigger with
   phrases like ...
+name: retellai-reference-architecture
 ---
-# Retell AI Reference Architecture
+# Retellai Reference Architecture
 
-## Overview
-Production-ready architecture patterns for Retell AI integrations.
+This skill provides automated assistance for retellai reference architecture tasks.
 
 ## Prerequisites
 - Understanding of layered architecture
 - Retell AI SDK knowledge
 - TypeScript project setup
 - Testing framework configured
-
-## Project Structure
-
-```
-my-retellai-project/
-├── src/
-│   ├── retellai/
-│   │   ├── client.ts           # Singleton client wrapper
-│   │   ├── config.ts           # Environment configuration
-│   │   ├── types.ts            # TypeScript types
-│   │   ├── errors.ts           # Custom error classes
-│   │   └── handlers/
-│   │       ├── webhooks.ts     # Webhook handlers
-│   │       └── events.ts       # Event processing
-│   ├── services/
-│   │   └── retellai/
-│   │       ├── index.ts        # Service facade
-│   │       ├── sync.ts         # Data synchronization
-│   │       └── cache.ts        # Caching layer
-│   ├── api/
-│   │   └── retellai/
-│   │       └── webhook.ts      # Webhook endpoint
-│   └── jobs/
-│       └── retellai/
-│           └── sync.ts         # Background sync job
-├── tests/
-│   ├── unit/
-│   │   └── retellai/
-│   └── integration/
-│       └── retellai/
-├── config/
-│   ├── retellai.development.json
-│   ├── retellai.staging.json
-│   └── retellai.production.json
-└── docs/
-    └── retellai/
-        ├── SETUP.md
-        └── RUNBOOK.md
-```
-
-## Layer Architecture
-
-```
-┌─────────────────────────────────────────┐
-│             API Layer                    │
-│   (Controllers, Routes, Webhooks)        │
-├─────────────────────────────────────────┤
-│           Service Layer                  │
-│  (Business Logic, Orchestration)         │
-├─────────────────────────────────────────┤
-│          Retell AI Layer        │
-│   (Client, Types, Error Handling)        │
-├─────────────────────────────────────────┤
-│         Infrastructure Layer             │
-│    (Cache, Queue, Monitoring)            │
-└─────────────────────────────────────────┘
-```
-
-## Key Components
-
-### Step 1: Client Wrapper
-```typescript
-// src/retellai/client.ts
-export class Retell AIService {
-  private client: RetellAIClient;
-  private cache: Cache;
-  private monitor: Monitor;
-
-  constructor(config: Retell AIConfig) {
-    this.client = new RetellAIClient(config);
-    this.cache = new Cache(config.cacheOptions);
-    this.monitor = new Monitor('retellai');
-  }
-
-  async get(id: string): Promise<Resource> {
-    return this.cache.getOrFetch(id, () =>
-      this.monitor.track('get', () => this.client.get(id))
-    );
-  }
-}
-```
-
-### Step 2: Error Boundary
-```typescript
-// src/retellai/errors.ts
-export class Retell AIServiceError extends Error {
-  constructor(
-    message: string,
-    public readonly code: string,
-    public readonly retryable: boolean,
-    public readonly originalError?: Error
-  ) {
-    super(message);
-    this.name = 'Retell AIServiceError';
-  }
-}
-
-export function wrapRetell AIError(error: unknown): Retell AIServiceError {
-  // Transform SDK errors to application errors
-}
-```
-
-### Step 3: Health Check
-```typescript
-// src/retellai/health.ts
-export async function checkRetell AIHealth(): Promise<HealthStatus> {
-  try {
-    const start = Date.now();
-    await retellaiClient.ping();
-    return {
-      status: 'healthy',
-      latencyMs: Date.now() - start,
-    };
-  } catch (error) {
-    return { status: 'unhealthy', error: error.message };
-  }
-}
-```
-
-## Data Flow Diagram
-
-```
-User Request
-     │
-     ▼
-┌─────────────┐
-│   API       │
-│   Gateway   │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐    ┌─────────────┐
-│   Service   │───▶│   Cache     │
-│   Layer     │    │   (Redis)   │
-└──────┬──────┘    └─────────────┘
-       │
-       ▼
-┌─────────────┐
-│ Retell AI    │
-│   Client    │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│ Retell AI    │
-│   API       │
-└─────────────┘
-```
-
-## Configuration Management
-
-```typescript
-// config/retellai.ts
-export interface Retell AIConfig {
-  apiKey: string;
-  environment: 'development' | 'staging' | 'production';
-  timeout: number;
-  retries: number;
-  cache: {
-    enabled: boolean;
-    ttlSeconds: number;
-  };
-}
-
-export function loadRetell AIConfig(): Retell AIConfig {
-  const env = process.env.NODE_ENV || 'development';
-  return require(`./retellai.${env}.json`);
-}
-```
 
 ## Instructions
 
@@ -208,26 +38,13 @@ Add health check endpoint for Retell AI connectivity.
 - Health checks configured
 
 ## Error Handling
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| Circular dependencies | Wrong layering | Separate concerns by layer |
-| Config not loading | Wrong paths | Verify config file locations |
-| Type errors | Missing types | Add Retell AI types |
-| Test isolation | Shared state | Use dependency injection |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Setup Script
-```bash
-# Create reference structure
-mkdir -p src/retellai/{handlers} src/services/retellai src/api/retellai
-touch src/retellai/{client,config,types,errors}.ts
-touch src/services/retellai/{index,sync,cache}.ts
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Retell AI SDK Documentation](https://docs.retellai.com/sdk)
 - [Retell AI Best Practices](https://docs.retellai.com/best-practices)
-
-## Flagship Skills
-For multi-environment setup, see `retellai-multi-env-setup`.
