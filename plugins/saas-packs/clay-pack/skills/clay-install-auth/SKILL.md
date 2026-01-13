@@ -1,13 +1,15 @@
 ---
-name: clay-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure clay sdk/cli authentication. use when setting up
   a new clay integration, configuring api keys, or initializing clay in your project.
   trigger with phrases like "install clay", "setup clay", "clay auth", "configure
   clay api key".
+name: clay-install-auth
 ---
 # Clay Install & Auth
+
+This skill provides automated assistance for clay install auth tasks.
 
 ## Overview
 Set up Clay SDK/CLI and configure authentication credentials.

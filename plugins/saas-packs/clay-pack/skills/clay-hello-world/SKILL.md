@@ -1,12 +1,14 @@
 ---
-name: clay-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working Clay example. Use when starting a new Clay integration,
   testing your setup, or learning basic Clay API patterns. Trigger with phrases like
   "clay hello world", "clay example", "clay quick start", "simple clay code".
+name: clay-hello-world
 ---
 # Clay Hello World
+
+This skill provides automated assistance for clay hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core Clay functionality.
