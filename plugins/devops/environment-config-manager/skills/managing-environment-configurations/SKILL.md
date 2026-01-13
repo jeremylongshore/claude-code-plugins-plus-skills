@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Implement environment and configuration management with comprehensive
-  guidance and automation. use when you need to work with environment configuration.
-  trigger with phrases like "manage environments", "configure environments", or "sync
-  configurat...
 name: managing-environment-configurations
+description: |
+  Implement environment and configuration management with comprehensive guidance and automation. use when you need to work with environment configuration. trigger with phrases like "manage environments", "configure environments", or "sync configurat...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Environment Config Manager
 

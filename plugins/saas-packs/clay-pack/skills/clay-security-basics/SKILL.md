@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Grep
-license: MIT
-description: Apply clay security best practices for secrets and access control. use
-  when securing api keys, implementing least privilege access, or auditing clay security
-  configuration. trigger with phrases like "clay security", "clay secrets", "secure
-  clay", ...
 name: clay-security-basics
+description: |
+  Apply clay security best practices for secrets and access control. use when securing api keys, implementing least privilege access, or auditing clay security configuration. trigger with phrases like "clay security", "clay secrets", "secure clay", ...
+allowed-tools: Read, Write, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Security Basics
 

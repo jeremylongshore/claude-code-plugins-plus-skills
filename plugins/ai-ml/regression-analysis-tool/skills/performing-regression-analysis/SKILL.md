@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute this skill empowers ai assistant to perform regression analysis
-  and modeling using the regression-analysis-tool plugin. it analyzes datasets, generates
-  appropriate regression models (linear, polynomial, etc.), validates the models,
-  and pro...
 name: performing-regression-analysis
+description: |
+  Execute this skill empowers ai assistant to perform regression analysis and modeling using the regression-analysis-tool plugin. it analyzes datasets, generates appropriate regression models (linear, polynomial, etc.), validates the models, and pro...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Regression Analysis Tool
 

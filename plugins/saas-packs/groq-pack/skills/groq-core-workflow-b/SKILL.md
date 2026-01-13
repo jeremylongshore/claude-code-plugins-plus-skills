@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute groq secondary workflow: core workflow b. use when implementing
-  secondary use case, or complementing primary workflow. trigger with phrases like
-  "groq secondary workflow", "secondary task with groq".'
 name: groq-core-workflow-b
+description: |
+  Execute groq secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like "groq secondary workflow", "secondary task with groq".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Groq Core Workflow B
 

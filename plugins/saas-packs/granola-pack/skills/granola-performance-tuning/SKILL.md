@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Optimize Granola transcription quality and note performance. Use when
-  improving transcription accuracy, reducing processing time, or enhancing note quality.
-  Trigger with phrases like "granola performance", "granola accuracy", "granola quality",
-  "i...
 name: granola-performance-tuning
+description: |
+  Optimize Granola transcription quality and note performance. Use when improving transcription accuracy, reducing processing time, or enhancing note quality. Trigger with phrases like "granola performance", "granola accuracy", "granola quality", "i...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Granola Performance Tuning
 

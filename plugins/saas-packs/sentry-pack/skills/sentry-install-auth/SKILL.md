@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure sentry sdk authentication. use when setting up
-  a new sentry integration, configuring dsn, or initializing sentry in your project.
-  trigger with phrases like "install sentry", "setup sentry", "sentry auth", "configure
-  sentry dsn".
 name: sentry-install-auth
+description: |
+  Install and configure sentry sdk authentication. use when setting up a new sentry integration, configuring dsn, or initializing sentry in your project. trigger with phrases like "install sentry", "setup sentry", "sentry auth", "configure sentry dsn".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Install Auth
 

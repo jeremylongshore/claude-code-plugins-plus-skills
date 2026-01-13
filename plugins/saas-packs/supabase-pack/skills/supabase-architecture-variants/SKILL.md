@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Execute choose and implement supabase validated architecture blueprints
-  for different scales. use when designing new supabase integrations, choosing between
-  monolith/service/microservice architectures, or planning migration paths for supabase
-  appl...
 name: supabase-architecture-variants
+description: |
+  Execute choose and implement supabase validated architecture blueprints for different scales. use when designing new supabase integrations, choosing between monolith/service/microservice architectures, or planning migration paths for supabase appl...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Architecture Variants
 

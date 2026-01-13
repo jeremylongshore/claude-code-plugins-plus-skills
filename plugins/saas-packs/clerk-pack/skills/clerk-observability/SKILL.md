@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Implement monitoring, logging, and observability for clerk authentication.
-  use when setting up monitoring, debugging auth issues in production, or implementing
-  audit logging. trigger with phrases like "clerk monitoring", "clerk logging", "clerk
-  ob...
 name: clerk-observability
+description: |
+  Implement monitoring, logging, and observability for clerk authentication. use when setting up monitoring, debugging auth issues in production, or implementing audit logging. trigger with phrases like "clerk monitoring", "clerk logging", "clerk ob...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Observability
 

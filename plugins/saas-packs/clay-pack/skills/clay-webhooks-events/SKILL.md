@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement clay webhook signature validation and event handling. use when
-  setting up webhook endpoints, implementing signature verification, or handling clay
-  event notifications securely. trigger with phrases like "clay webhook", "clay events",
-  "cl...
 name: clay-webhooks-events
+description: |
+  Implement clay webhook signature validation and event handling. use when setting up webhook endpoints, implementing signature verification, or handling clay event notifications securely. trigger with phrases like "clay webhook", "clay events", "cl...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Webhooks Events
 

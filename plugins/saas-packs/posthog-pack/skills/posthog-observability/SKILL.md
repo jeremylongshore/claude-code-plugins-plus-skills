@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Set up comprehensive observability for posthog integrations with metrics,
-  traces, and alerts. use when implementing monitoring for posthog operations, setting
-  up dashboards, or configuring alerting for posthog integration health. trigger with
-  phra...
 name: posthog-observability
+description: |
+  Set up comprehensive observability for posthog integrations with metrics, traces, and alerts. use when implementing monitoring for posthog operations, setting up dashboards, or configuring alerting for posthog integration health. trigger with phra...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Posthog Observability
 

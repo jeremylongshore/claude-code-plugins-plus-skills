@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement vercel webhook signature validation and event handling. use
-  when setting up webhook endpoints, implementing signature verification, or handling
-  vercel event notifications securely. trigger with phrases like "vercel webhook",
-  "vercel even...
 name: vercel-webhooks-events
+description: |
+  Implement vercel webhook signature validation and event handling. use when setting up webhook endpoints, implementing signature verification, or handling vercel event notifications securely. trigger with phrases like "vercel webhook", "vercel even...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Webhooks Events
 

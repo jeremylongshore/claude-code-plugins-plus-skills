@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute coderabbit incident response procedures with triage, mitigation,
-  and postmortem. use when responding to coderabbit-related outages, investigating
-  errors, or running post-incident reviews for coderabbit integration failures. trigger
-  with ph...
 name: coderabbit-incident-runbook
+description: |
+  Execute coderabbit incident response procedures with triage, mitigation, and postmortem. use when responding to coderabbit-related outages, investigating errors, or running post-incident reviews for coderabbit integration failures. trigger with ph...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Coderabbit Incident Runbook
 

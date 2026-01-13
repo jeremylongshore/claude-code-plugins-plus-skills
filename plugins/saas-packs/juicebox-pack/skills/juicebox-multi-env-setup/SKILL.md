@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Juicebox multi-environment setup. Use when setting up dev/staging/production
-  environments, managing per-environment configurations, or implementing environment
-  isolation. Trigger with phrases like "juicebox environments", "juicebox stagi...
 name: juicebox-multi-env-setup
+description: |
+  Configure Juicebox multi-environment setup. Use when setting up dev/staging/production environments, managing per-environment configurations, or implementing environment isolation. Trigger with phrases like "juicebox environments", "juicebox stagi...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Multi Env Setup
 

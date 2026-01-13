@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix firecrawl common errors and exceptions. use when encountering
-  firecrawl errors, debugging failed requests, or troubleshooting integration issues.
-  trigger with phrases like "firecrawl error", "fix firecrawl", "firecrawl not working...
 name: firecrawl-common-errors
+description: |
+  Diagnose and fix firecrawl common errors and exceptions. use when encountering firecrawl errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "firecrawl error", "fix firecrawl", "firecrawl not working...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firecrawl Common Errors
 

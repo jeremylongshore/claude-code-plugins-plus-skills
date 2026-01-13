@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute production readiness checklist for cursor ide setup. triggers
-  on "cursor production", "cursor ready", "cursor checklist", "optimize cursor setup".
-  use when working with cursor prod checklist functionality. trigger with phrases
-  like "cursor...
 name: cursor-prod-checklist
+description: |
+  Execute production readiness checklist for cursor ide setup. triggers on "cursor production", "cursor ready", "cursor checklist", "optimize cursor setup". use when working with cursor prod checklist functionality. trigger with phrases like "cursor...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Prod Checklist
 

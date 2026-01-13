@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Optimize Fireflies.ai API performance with caching, batching, and connection
-  pooling. Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Fireflies.ai integrations. Trigger with phrases
-  l...
 name: fireflies-performance-tuning
+description: |
+  Optimize Fireflies.ai API performance with caching, batching, and connection pooling. Use when experiencing slow API responses, implementing caching strategies, or optimizing request throughput for Fireflies.ai integrations. Trigger with phrases l...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Fireflies Performance Tuning
 

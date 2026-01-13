@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement clay reliability patterns including circuit breakers, idempotency,
-  and graceful degradation. use when building fault-tolerant clay integrations, implementing
-  retry strategies, or adding resilience to production clay services. trigger wit...
 name: clay-reliability-patterns
+description: |
+  Implement clay reliability patterns including circuit breakers, idempotency, and graceful degradation. use when building fault-tolerant clay integrations, implementing retry strategies, or adding resilience to production clay services. trigger wit...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Reliability Patterns
 

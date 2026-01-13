@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Retell AI local development with hot reload and testing. Use
-  when setting up a development environment, configuring test workflows, or establishing
-  a fast iteration cycle with Retell AI. Trigger with phrases like "retellai dev setup",
-  "r...
 name: retellai-local-dev-loop
+description: |
+  Configure Retell AI local development with hot reload and testing. Use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with Retell AI. Trigger with phrases like "retellai dev setup", "r...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Local Dev Loop
 

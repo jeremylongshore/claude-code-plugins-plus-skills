@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Set up local development workflow with clerk. use when configuring development
-  environment, testing auth locally, or setting up hot reload with clerk. trigger
-  with phrases like "clerk local dev", "clerk development", "test clerk locally",
-  "clerk d...
 name: clerk-local-dev-loop
+description: |
+  Set up local development workflow with clerk. use when configuring development environment, testing auth locally, or setting up hot reload with clerk. trigger with phrases like "clerk local dev", "clerk development", "test clerk locally", "clerk d...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Local Dev Loop
 

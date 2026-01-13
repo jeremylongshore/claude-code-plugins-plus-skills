@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Generate API clients and documentation with Cascade. Activate when users
-  mention "generate api client", "api documentation", "openapi generation", "sdk generation",
-  or "api integration". Handles API development workflows. Use when working with API...
 name: windsurf-api-development
+description: |
+  Generate API clients and documentation with Cascade. Activate when users mention "generate api client", "api documentation", "openapi generation", "sdk generation", or "api integration". Handles API development workflows. Use when working with API...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Api Development
 

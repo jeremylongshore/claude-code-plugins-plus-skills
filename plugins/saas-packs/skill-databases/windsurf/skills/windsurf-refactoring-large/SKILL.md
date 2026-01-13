@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep, Glob
-license: MIT
-description: Manage large-scale refactoring with Cascade coordination. Activate when
-  users mention "large refactoring", "codebase migration", "architecture refactor",
-  "major refactoring", or "system-wide changes". Handles complex refactoring operations.
-  Use wh...
 name: windsurf-refactoring-large
+description: |
+  Manage large-scale refactoring with Cascade coordination. Activate when users mention "large refactoring", "codebase migration", "architecture refactor", "major refactoring", or "system-wide changes". Handles complex refactoring operations. Use wh...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep, Glob
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Refactoring Large
 

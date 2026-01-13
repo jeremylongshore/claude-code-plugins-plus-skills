@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Implement customer.io core feature integration. use when implementing
-  segments, transactional messages, data pipelines, or broadcast campaigns. trigger
-  with phrases like "customer.io segments", "customer.io transactional", "customer.io
-  broadcast",...
 name: customerio-core-feature
+description: |
+  Implement customer.io core feature integration. use when implementing segments, transactional messages, data pipelines, or broadcast campaigns. trigger with phrases like "customer.io segments", "customer.io transactional", "customer.io broadcast",...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Customerio Core Feature
 

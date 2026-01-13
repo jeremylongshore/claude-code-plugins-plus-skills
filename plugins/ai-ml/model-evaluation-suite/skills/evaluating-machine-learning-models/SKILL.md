@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Build this skill allows AI assistant to evaluate machine learning models
-  using a comprehensive suite of metrics. it should be used when the user requests
-  model performance analysis, validation, or testing. AI assistant can use this skill
-  to assess...
 name: evaluating-machine-learning-models
+description: |
+  Build this skill allows AI assistant to evaluate machine learning models using a comprehensive suite of metrics. it should be used when the user requests model performance analysis, validation, or testing. AI assistant can use this skill to assess...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Model Evaluation Suite
 

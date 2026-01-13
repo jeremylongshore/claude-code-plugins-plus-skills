@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement supabase webhook signature validation and event handling. use
-  when setting up webhook endpoints, implementing signature verification, or handling
-  supabase event notifications securely. trigger with phrases like "supabase webhook",
-  "supab...
 name: supabase-webhooks-events
+description: |
+  Implement supabase webhook signature validation and event handling. use when setting up webhook endpoints, implementing signature verification, or handling supabase event notifications securely. trigger with phrases like "supabase webhook", "supab...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Webhooks Events
 

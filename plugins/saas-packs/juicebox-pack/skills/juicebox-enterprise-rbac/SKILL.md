@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Juicebox enterprise role-based access control. Use when implementing
-  team permissions, configuring access policies, or setting up enterprise security
-  controls. Trigger with phrases like "juicebox RBAC", "juicebox permissions", "juicebox
-  ...
 name: juicebox-enterprise-rbac
+description: |
+  Configure Juicebox enterprise role-based access control. Use when implementing team permissions, configuring access policies, or setting up enterprise security controls. Trigger with phrases like "juicebox RBAC", "juicebox permissions", "juicebox ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Enterprise Rbac
 

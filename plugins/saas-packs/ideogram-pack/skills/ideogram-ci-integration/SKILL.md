@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Ideogram CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines, or integrating
-  Ideogram tests into your build process. Trigger with phrases like "ideogram CI",
-  "ideogram GitHub...
 name: ideogram-ci-integration
+description: |
+  Configure Ideogram CI/CD integration with GitHub Actions and testing. Use when setting up automated testing, configuring CI pipelines, or integrating Ideogram tests into your build process. Trigger with phrases like "ideogram CI", "ideogram GitHub...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ideogram Ci Integration
 

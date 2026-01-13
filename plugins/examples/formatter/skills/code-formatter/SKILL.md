@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute automatically formats and validates code files using prettier
-  and other formatting tools. use when users mention "format my code", "fix formatting",
-  "apply code style", "check formatting", "make code consistent", or "clean up code
-  formatti...
 name: code-formatter
+description: |
+  Execute automatically formats and validates code files using prettier and other formatting tools. use when users mention "format my code", "fix formatting", "apply code style", "check formatting", "make code consistent", or "clean up code formatti...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Code Formatter
 

@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Implement apollo.io email sequences and outreach workflow. use when building
-  automated email campaigns, creating sequences, or managing outreach through apollo.
-  trigger with phrases like "apollo email sequence", "apollo outreach", "apollo campaign...
 name: apollo-core-workflow-b
+description: |
+  Implement apollo.io email sequences and outreach workflow. use when building automated email campaigns, creating sequences, or managing outreach through apollo. trigger with phrases like "apollo email sequence", "apollo outreach", "apollo campaign...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Core Workflow B
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Optimize Clerk authentication performance. Use when improving auth response
-  times, reducing latency, or optimizing Clerk SDK usage. Trigger with phrases like
-  "clerk performance", "clerk optimization", "clerk slow", "clerk latency", "optimize
-  clerk".
 name: clerk-performance-tuning
+description: |
+  Optimize Clerk authentication performance. Use when improving auth response times, reducing latency, or optimizing Clerk SDK usage. Trigger with phrases like "clerk performance", "clerk optimization", "clerk slow", "clerk latency", "optimize clerk".
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Performance Tuning
 

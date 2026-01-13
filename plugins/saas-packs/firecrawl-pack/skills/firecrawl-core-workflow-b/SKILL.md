@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute firecrawl secondary workflow: core workflow b. use when implementing
-  secondary use case, or complementing primary workflow. trigger with phrases like
-  "firecrawl secondary workflow", "secondary task with firecrawl".'
 name: firecrawl-core-workflow-b
+description: |
+  Execute firecrawl secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like "firecrawl secondary workflow", "secondary task with firecrawl".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # FireCrawl Core Workflow B
 

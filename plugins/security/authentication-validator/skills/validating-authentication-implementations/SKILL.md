@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Validate authentication mechanisms for security weaknesses and compliance.
-  Use when reviewing login systems or auth flows. Trigger with 'validate authentication',
-  'check auth security', or 'review login'.
 name: validating-authentication-implementations
+description: |
+  Validate authentication mechanisms for security weaknesses and compliance. Use when reviewing login systems or auth flows. Trigger with 'validate authentication', 'check auth security', or 'review login'.
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Authentication Validator
 

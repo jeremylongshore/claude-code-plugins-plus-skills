@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Create optimized Dockerfiles with AI-driven best practices. Activate
-  when users mention "create dockerfile", "container image", "docker optimization",
-  "containerize application", or "docker best practices". Handles Docker configuration
-  generation....
 name: windsurf-dockerfile-generation
+description: |
+  Create optimized Dockerfiles with AI-driven best practices. Activate when users mention "create dockerfile", "container image", "docker optimization", "containerize application", or "docker best practices". Handles Docker configuration generation....
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Dockerfile Generation
 

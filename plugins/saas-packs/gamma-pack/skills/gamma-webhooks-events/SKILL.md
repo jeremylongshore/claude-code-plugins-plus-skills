@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Handle gamma webhooks and events for real-time updates. use when implementing
-  webhook receivers, processing events, or building real-time gamma integrations.
-  trigger with phrases like "gamma webhooks", "gamma events", "gamma notifications",
-  "gamma...
 name: gamma-webhooks-events
+description: |
+  Handle gamma webhooks and events for real-time updates. use when implementing webhook receivers, processing events, or building real-time gamma integrations. trigger with phrases like "gamma webhooks", "gamma events", "gamma notifications", "gamma...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gamma Webhooks Events
 

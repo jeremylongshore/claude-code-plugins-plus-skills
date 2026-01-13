@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Deploy LangChain integrations to production environments. Use when deploying
-  to cloud platforms, configuring containers, or setting up production infrastructure
-  for LangChain apps. Trigger with phrases like "deploy langchain", "langchain productio...
 name: langchain-deploy-integration
+description: |
+  Deploy LangChain integrations to production environments. Use when deploying to cloud platforms, configuring containers, or setting up production infrastructure for LangChain apps. Trigger with phrases like "deploy langchain", "langchain productio...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Deploy Integration
 

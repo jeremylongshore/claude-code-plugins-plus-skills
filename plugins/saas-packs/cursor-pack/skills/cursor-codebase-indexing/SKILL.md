@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute set up and optimize cursor codebase indexing. triggers on "cursor
-  index setup", "codebase indexing", "index codebase", "cursor semantic search". use
-  when working with cursor codebase indexing functionality. trigger with phrases like
-  "curso...
 name: cursor-codebase-indexing
+description: |
+  Execute set up and optimize cursor codebase indexing. triggers on "cursor index setup", "codebase indexing", "index codebase", "cursor semantic search". use when working with cursor codebase indexing functionality. trigger with phrases like "curso...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Codebase Indexing
 

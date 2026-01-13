@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Analyze, plan, and execute Perplexity SDK upgrades with breaking change
-  detection. Use when upgrading Perplexity SDK versions, detecting deprecations, or
-  migrating to new API versions. Trigger with phrases like "upgrade perplexity", "perplexity
-  mi...
 name: perplexity-upgrade-migration
+description: |
+  Analyze, plan, and execute Perplexity SDK upgrades with breaking change detection. Use when upgrading Perplexity SDK versions, detecting deprecations, or migrating to new API versions. Trigger with phrases like "upgrade perplexity", "perplexity mi...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Upgrade Migration
 

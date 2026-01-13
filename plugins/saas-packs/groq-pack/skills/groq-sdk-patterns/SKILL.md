@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply production-ready groq sdk patterns for typescript and python. use
-  when implementing groq integrations, refactoring sdk usage, or establishing team
-  coding standards for groq. trigger with phrases like "groq sdk patterns", "groq
-  best practices...
 name: groq-sdk-patterns
+description: |
+  Apply production-ready groq sdk patterns for typescript and python. use when implementing groq integrations, refactoring sdk usage, or establishing team coding standards for groq. trigger with phrases like "groq sdk patterns", "groq best practices...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Groq Sdk Patterns
 

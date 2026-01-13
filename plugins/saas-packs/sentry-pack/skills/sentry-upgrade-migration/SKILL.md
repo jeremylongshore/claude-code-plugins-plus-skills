@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Execute upgrade sentry sdk and migrate between versions. use when upgrading
-  sentry sdk, handling breaking changes, or migrating from legacy versions. trigger
-  with phrases like "upgrade sentry", "sentry migration", "update sentry sdk", "sentry
-  brea...
 name: sentry-upgrade-migration
+description: |
+  Execute upgrade sentry sdk and migrate between versions. use when upgrading sentry sdk, handling breaking changes, or migrating from legacy versions. trigger with phrases like "upgrade sentry", "sentry migration", "update sentry sdk", "sentry brea...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Upgrade Migration
 

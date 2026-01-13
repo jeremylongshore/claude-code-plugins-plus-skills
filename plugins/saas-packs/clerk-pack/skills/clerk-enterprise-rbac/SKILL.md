@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Configure enterprise SSO, role-based access control, and organization
-  management. Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls. Trigger with phrases like "clerk SSO",
-  "clerk R...
 name: clerk-enterprise-rbac
+description: |
+  Configure enterprise SSO, role-based access control, and organization management. Use when implementing SSO integration, configuring role-based permissions, or setting up organization-level controls. Trigger with phrases like "clerk SSO", "clerk R...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Enterprise Rbac
 

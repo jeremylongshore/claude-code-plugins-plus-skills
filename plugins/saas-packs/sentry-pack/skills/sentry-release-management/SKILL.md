@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Manage Sentry releases and associate commits. Use when creating releases,
-  tracking commits, or managing release artifacts. Trigger with phrases like "sentry
-  release", "sentry commits", "manage sentry versions", "sentry release workflow".
 name: sentry-release-management
+description: |
+  Manage Sentry releases and associate commits. Use when creating releases, tracking commits, or managing release artifacts. Trigger with phrases like "sentry release", "sentry commits", "manage sentry versions", "sentry release workflow".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Release Management
 

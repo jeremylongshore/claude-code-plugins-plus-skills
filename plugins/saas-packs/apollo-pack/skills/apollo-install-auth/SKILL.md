@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure apollo.io api authentication. use when setting
-  up a new apollo integration, configuring api keys, or initializing apollo client
-  in your project. trigger with phrases like "install apollo", "setup apollo api",
-  "apollo authenti...
 name: apollo-install-auth
+description: |
+  Install and configure apollo.io api authentication. use when setting up a new apollo integration, configuring api keys, or initializing apollo client in your project. trigger with phrases like "install apollo", "setup apollo api", "apollo authenti...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Install Auth
 

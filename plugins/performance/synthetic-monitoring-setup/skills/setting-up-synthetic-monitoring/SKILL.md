@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Setup synthetic monitoring for proactive performance tracking including
-  uptime checks, transaction monitoring, and api health. use when implementing availability
-  monitoring or tracking critical user journeys. trigger with phrases like "setup
-  synth...
 name: setting-up-synthetic-monitoring
+description: |
+  Setup synthetic monitoring for proactive performance tracking including uptime checks, transaction monitoring, and api health. use when implementing availability monitoring or tracking critical user journeys. trigger with phrases like "setup synth...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Synthetic Monitoring Setup
 

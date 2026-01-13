@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute fireflies.ai incident response procedures with triage, mitigation,
-  and postmortem. use when responding to fireflies.ai-related outages, investigating
-  errors, or running post-incident reviews for fireflies.ai integration failures.
-  trigger w...
 name: fireflies-incident-runbook
+description: |
+  Execute fireflies.ai incident response procedures with triage, mitigation, and postmortem. use when responding to fireflies.ai-related outages, investigating errors, or running post-incident reviews for fireflies.ai integration failures. trigger w...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Fireflies Incident Runbook
 

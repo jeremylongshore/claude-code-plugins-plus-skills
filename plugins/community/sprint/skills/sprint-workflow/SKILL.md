@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read
-license: MIT
-description: Execute this skill should be used when the user asks about "how sprints
-  work", "sprint phases", "iteration workflow", "convergent development", "sprint
-  lifecycle", "when to use sprints", or wants to understand the sprint execution model
-  and its co...
 name: sprint-workflow
+description: |
+  Execute this skill should be used when the user asks about "how sprints work", "sprint phases", "iteration workflow", "convergent development", "sprint lifecycle", "when to use sprints", or wants to understand the sprint execution model and its co...
+allowed-tools: Read
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sprint Workflow
 

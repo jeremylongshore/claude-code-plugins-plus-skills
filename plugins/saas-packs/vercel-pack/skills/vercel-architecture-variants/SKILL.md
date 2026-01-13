@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Execute choose and implement vercel validated architecture blueprints
-  for different scales. use when designing new vercel integrations, choosing between
-  monolith/service/microservice architectures, or planning migration paths for vercel
-  applicatio...
 name: vercel-architecture-variants
+description: |
+  Execute choose and implement vercel validated architecture blueprints for different scales. use when designing new vercel integrations, choosing between monolith/service/microservice architectures, or planning migration paths for vercel applicatio...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Architecture Variants
 

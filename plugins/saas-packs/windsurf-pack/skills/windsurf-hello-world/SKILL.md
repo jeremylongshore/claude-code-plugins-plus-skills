@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Windsurf example. Use when starting a new Windsurf
-  integration, testing your setup, or learning basic Windsurf API patterns. Trigger
-  with phrases like "windsurf hello world", "windsurf example", "windsurf quick start",
-  "si...
 name: windsurf-hello-world
+description: |
+  Create a minimal working Windsurf example. Use when starting a new Windsurf integration, testing your setup, or learning basic Windsurf API patterns. Trigger with phrases like "windsurf hello world", "windsurf example", "windsurf quick start", "si...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Hello World
 

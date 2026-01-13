@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Define and track slas, slis, and slos for service reliability including
-  availability, latency, and error rates. use when establishing reliability targets
-  or monitoring service health. trigger with phrases like "define slos", "track sli
-  metrics", o...
 name: tracking-service-reliability
+description: |
+  Define and track slas, slis, and slos for service reliability including availability, latency, and error rates. use when establishing reliability targets or monitoring service health. trigger with phrases like "define slos", "track sli metrics", o...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sla Sli Tracker
 

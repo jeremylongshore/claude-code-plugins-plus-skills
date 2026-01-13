@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Incident response procedures for granola meeting capture issues. use
-  when handling meeting capture failures, system outages, or urgent troubleshooting
-  situations. trigger with phrases like "granola incident", "granola outage", "granola
-  emergency",...
 name: granola-incident-runbook
+description: |
+  Incident response procedures for granola meeting capture issues. use when handling meeting capture failures, system outages, or urgent troubleshooting situations. trigger with phrases like "granola incident", "granola outage", "granola emergency",...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Granola Incident Runbook
 

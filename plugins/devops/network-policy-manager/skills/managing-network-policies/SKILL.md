@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when managing kubernetes network policies and firewall rules.
-  trigger with phrases like "create network policy", "configure firewall rules", "restrict
-  pod communication", or "setup ingress/egress rules". generates kubernetes networkpol...
 name: managing-network-policies
+description: |
+  Execute use when managing kubernetes network policies and firewall rules. trigger with phrases like "create network policy", "configure firewall rules", "restrict pod communication", or "setup ingress/egress rules". generates kubernetes networkpol...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Network Policy Manager
 

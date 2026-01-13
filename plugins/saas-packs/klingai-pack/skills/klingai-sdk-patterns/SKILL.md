@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Implement common sdk patterns for kling ai integration. use when building
-  production applications with kling ai. trigger with phrases like 'klingai sdk',
-  'kling ai client', 'klingai patterns', 'kling ai best practices'.
 name: klingai-sdk-patterns
+description: |
+  Implement common sdk patterns for kling ai integration. use when building production applications with kling ai. trigger with phrases like 'klingai sdk', 'kling ai client', 'klingai patterns', 'kling ai best practices'.
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Sdk Patterns
 

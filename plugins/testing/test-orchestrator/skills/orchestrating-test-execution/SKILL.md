@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Test coordinate parallel test execution across multiple environments
-  and frameworks. Use when performing specialized testing. Trigger with phrases like
-  "orchestrate tests", "run parallel tests", or "coordinate test execution".
 name: orchestrating-test-execution
+description: |
+  Test coordinate parallel test execution across multiple environments and frameworks. Use when performing specialized testing. Trigger with phrases like "orchestrate tests", "run parallel tests", or "coordinate test execution".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Test Orchestrator
 

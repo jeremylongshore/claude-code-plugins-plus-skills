@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement posthog webhook signature validation and event handling. use
-  when setting up webhook endpoints, implementing signature verification, or handling
-  posthog event notifications securely. trigger with phrases like "posthog webhook",
-  "posthog ...
 name: posthog-webhooks-events
+description: |
+  Implement posthog webhook signature validation and event handling. use when setting up webhook endpoints, implementing signature verification, or handling posthog event notifications securely. trigger with phrases like "posthog webhook", "posthog ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Posthog Webhooks Events
 

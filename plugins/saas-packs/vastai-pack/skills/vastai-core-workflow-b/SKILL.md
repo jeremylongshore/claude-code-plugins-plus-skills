@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute vast.ai secondary workflow: core workflow b. use when implementing
-  secondary use case, or complementing primary workflow. trigger with phrases like
-  "vastai secondary workflow", "secondary task with vastai".'
 name: vastai-core-workflow-b
+description: |
+  Execute vast.ai secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like "vastai secondary workflow", "secondary task with vastai".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vast.ai Core Workflow B
 

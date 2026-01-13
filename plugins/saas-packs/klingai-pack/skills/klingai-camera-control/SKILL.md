@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Manage control camera movements in Kling AI video generation. Use when
-  creating cinematic effects, dynamic shots, or specific camera movements. Trigger
-  with phrases like 'klingai camera', 'kling ai camera motion', 'klingai cinematic',
-  'klingai pan...
 name: klingai-camera-control
+description: |
+  Manage control camera movements in Kling AI video generation. Use when creating cinematic effects, dynamic shots, or specific camera movements. Trigger with phrases like 'klingai camera', 'kling ai camera motion', 'klingai cinematic', 'klingai pan...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Camera Control
 

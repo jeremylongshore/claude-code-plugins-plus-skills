@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure and handle Linear webhooks for real-time event processing.
-  Use when setting up webhooks, handling Linear events, or building real-time integrations.
-  Trigger with phrases like "linear webhooks", "linear events", "linear real-time",
-  "handl...
 name: linear-webhooks-events
+description: |
+  Configure and handle Linear webhooks for real-time event processing. Use when setting up webhooks, handling Linear events, or building real-time integrations. Trigger with phrases like "linear webhooks", "linear events", "linear real-time", "handl...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Webhooks Events
 

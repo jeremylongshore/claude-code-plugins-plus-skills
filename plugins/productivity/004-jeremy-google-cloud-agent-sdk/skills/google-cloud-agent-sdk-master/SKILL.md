@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, WebFetch, WebSearch, Grep
-license: MIT
-description: Execute automatic activation for all google cloud agent development kit
-  (adk) use when appropriate context detected. trigger with relevant phrases based
-  on skill purpose.
 name: google-cloud-agent-sdk-master
+description: |
+  Execute automatic activation for all google cloud agent development kit (adk) use when appropriate context detected. trigger with relevant phrases based on skill purpose.
+allowed-tools: Read, WebFetch, WebSearch, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Google Cloud Agent SDK Master
 

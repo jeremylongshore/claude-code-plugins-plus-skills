@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply production-ready deepgram sdk patterns for typescript and python.
-  use when implementing deepgram integrations, refactoring sdk usage, or establishing
-  team coding standards for deepgram. trigger with phrases like "deepgram sdk patterns",
-  "dee...
 name: deepgram-sdk-patterns
+description: |
+  Apply production-ready deepgram sdk patterns for typescript and python. use when implementing deepgram integrations, refactoring sdk usage, or establishing team coding standards for deepgram. trigger with phrases like "deepgram sdk patterns", "dee...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Deepgram Sdk Patterns
 

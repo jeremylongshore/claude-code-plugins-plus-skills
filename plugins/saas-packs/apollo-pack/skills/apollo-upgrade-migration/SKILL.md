@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Plan and execute apollo.io sdk upgrades. use when upgrading apollo api
-  versions, migrating to new endpoints, or updating deprecated api usage. trigger
-  with phrases like "apollo upgrade", "apollo migration", "update apollo api", "apollo
-  breaking ch...
 name: apollo-upgrade-migration
+description: |
+  Plan and execute apollo.io sdk upgrades. use when upgrading apollo api versions, migrating to new endpoints, or updating deprecated api usage. trigger with phrases like "apollo upgrade", "apollo migration", "update apollo api", "apollo breaking ch...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Upgrade Migration
 

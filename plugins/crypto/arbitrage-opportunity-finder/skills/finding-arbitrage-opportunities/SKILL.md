@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Detect profitable arbitrage opportunities across exchanges and dexs in
-  real-time. use when discovering profitable arbitrage across exchanges. trigger with
-  phrases like "find arbitrage", "scan for arb opportunities", or "check arbitrage".
 name: finding-arbitrage-opportunities
+description: |
+  Detect profitable arbitrage opportunities across exchanges and dexs in real-time. use when discovering profitable arbitrage across exchanges. trigger with phrases like "find arbitrage", "scan for arb opportunities", or "check arbitrage".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Finding Arbitrage Opportunities
 

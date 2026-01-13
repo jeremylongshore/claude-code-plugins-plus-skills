@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Set up apollo.io monitoring and observability. use when implementing
-  logging, metrics, tracing, and alerting for apollo integrations. trigger with phrases
-  like "apollo monitoring", "apollo metrics", "apollo observability", "apollo logging",
-  "apoll...
 name: apollo-observability
+description: |
+  Set up apollo.io monitoring and observability. use when implementing logging, metrics, tracing, and alerting for apollo integrations. trigger with phrases like "apollo monitoring", "apollo metrics", "apollo observability", "apollo logging", "apoll...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Observability
 

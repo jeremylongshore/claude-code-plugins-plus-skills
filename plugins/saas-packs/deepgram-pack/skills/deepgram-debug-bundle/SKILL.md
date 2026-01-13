@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Collect deepgram debug evidence for support and troubleshooting. use
-  when preparing support tickets, investigating issues, or collecting diagnostic information
-  for deepgram problems. trigger with phrases like "deepgram debug", "deepgram support",
-  ...
 name: deepgram-debug-bundle
+description: |
+  Collect deepgram debug evidence for support and troubleshooting. use when preparing support tickets, investigating issues, or collecting diagnostic information for deepgram problems. trigger with phrases like "deepgram debug", "deepgram support", ...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Deepgram Debug Bundle
 

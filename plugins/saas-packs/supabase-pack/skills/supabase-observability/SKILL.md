@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Execute set up comprehensive observability for supabase integrations
-  with metrics, traces, and alerts. use when implementing monitoring for supabase
-  operations, setting up dashboards, or configuring alerting for supabase integration
-  health. trigge...
 name: supabase-observability
+description: |
+  Execute set up comprehensive observability for supabase integrations with metrics, traces, and alerts. use when implementing monitoring for supabase operations, setting up dashboards, or configuring alerting for supabase integration health. trigge...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Observability
 

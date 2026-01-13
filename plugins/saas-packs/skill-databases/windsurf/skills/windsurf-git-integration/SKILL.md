@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Git integration with Cascade AI assistance. Activate when users
-  mention "git setup", "version control", "commit messages", "branch management",
-  or "source control". Handles Git configuration and AI-assisted workflows. Use when
-  working wi...
 name: windsurf-git-integration
+description: |
+  Configure Git integration with Cascade AI assistance. Activate when users mention "git setup", "version control", "commit messages", "branch management", or "source control". Handles Git configuration and AI-assisted workflows. Use when working wi...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Git Integration
 

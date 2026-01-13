@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Clay example. Use when starting a new Clay integration,
-  testing your setup, or learning basic Clay API patterns. Trigger with phrases like
-  "clay hello world", "clay example", "clay quick start", "simple clay code".
 name: clay-hello-world
+description: |
+  Create a minimal working Clay example. Use when starting a new Clay integration, testing your setup, or learning basic Clay API patterns. Trigger with phrases like "clay hello world", "clay example", "clay quick start", "simple clay code".
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Hello World
 

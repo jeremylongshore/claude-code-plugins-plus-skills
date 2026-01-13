@@ -1,7 +1,7 @@
 ---
 name: "database-test-helper"
 description: |
-  Assist with database test helper operations. Auto-activating skill for Test Automation.
+  Assist with assist with assist with database test helper operations. Auto-activating skill for Test Automation.
   Triggers on: database test helper, database test helper
   Part of the Test Automation skill category. Use when writing or running tests. Trigger with phrases like "database test helper", "database helper", "database".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"

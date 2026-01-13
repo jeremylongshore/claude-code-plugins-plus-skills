@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute supabase secondary workflow: auth + storage + realtime. use
-  when implementing secondary use case, or complementing primary workflow. trigger
-  with phrases like "supabase auth storage realtime", "implement full stack features
-  with supabase".'
 name: supabase-auth-storage-realtime-core
+description: |
+  Execute supabase secondary workflow: auth + storage + realtime. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like "supabase auth storage realtime", "implement full stack features with supabase".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Auth + Storage + Realtime
 

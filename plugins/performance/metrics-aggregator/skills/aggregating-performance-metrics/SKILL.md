@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Bash, Grep
-license: MIT
-description: Aggregate and centralize performance metrics from applications, systems,
-  databases, caches, and services. use when consolidating monitoring data from multiple
-  sources. trigger with phrases like "aggregate metrics", "centralize monitoring",
-  or "col...
 name: aggregating-performance-metrics
+description: |
+  Aggregate and centralize performance metrics from applications, systems, databases, caches, and services. use when consolidating monitoring data from multiple sources. trigger with phrases like "aggregate metrics", "centralize monitoring", or "col...
+allowed-tools: Read, Write, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Metrics Aggregator
 

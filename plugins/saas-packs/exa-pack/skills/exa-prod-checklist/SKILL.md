@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep
-license: MIT
-description: Execute exa production deployment checklist and rollback procedures.
-  use when deploying exa integrations to production, preparing for launch, or implementing
-  go-live procedures. trigger with phrases like "exa production", "deploy exa", "exa
-  go-liv...
 name: exa-prod-checklist
+description: |
+  Execute exa production deployment checklist and rollback procedures. use when deploying exa integrations to production, preparing for launch, or implementing go-live procedures. trigger with phrases like "exa production", "deploy exa", "exa go-liv...
+allowed-tools: Read, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Prod Checklist
 

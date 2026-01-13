@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Process use when you need to work with connection management. This skill
-  provides connection pooling and management with comprehensive guidance and automation.
-  Trigger with phrases like "manage connections", "configure pooling", or "optimize
-  conne...
 name: optimizing-database-connection-pooling
+description: |
+  Process use when you need to work with connection management. This skill provides connection pooling and management with comprehensive guidance and automation. Trigger with phrases like "manage connections", "configure pooling", or "optimize conne...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Database Connection Pooler
 

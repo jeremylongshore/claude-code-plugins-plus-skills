@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Provide comprehensive prioritized performance optimization recommendations
-  for frontend, backend, and infrastructure. use when analyzing bottlenecks or seeking
-  improvement strategies. trigger with phrases like "optimize performance", "improve
-  spee...
 name: providing-performance-optimization-advice
+description: |
+  Provide comprehensive prioritized performance optimization recommendations for frontend, backend, and infrastructure. use when analyzing bottlenecks or seeking improvement strategies. trigger with phrases like "optimize performance", "improve spee...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Performance Optimization Advisor
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement clay load testing, auto-scaling, and capacity planning strategies.
-  use when running performance tests, configuring horizontal scaling, or planning
-  capacity for clay integrations. trigger with phrases like "clay load test", "clay
-  scale", ...
 name: clay-load-scale
+description: |
+  Implement clay load testing, auto-scaling, and capacity planning strategies. use when running performance tests, configuring horizontal scaling, or planning capacity for clay integrations. trigger with phrases like "clay load test", "clay scale", ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Load Scale
 

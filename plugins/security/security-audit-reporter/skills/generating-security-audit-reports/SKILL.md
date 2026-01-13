@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Generate comprehensive security audit reports for applications and systems.
-  Use when you need to assess security posture, identify vulnerabilities, evaluate
-  compliance status, or create formal security documentation. Trigger with phrases
-  like "cre...
 name: generating-security-audit-reports
+description: |
+  Generate comprehensive security audit reports for applications and systems. Use when you need to assess security posture, identify vulnerabilities, evaluate compliance status, or create formal security documentation. Trigger with phrases like "cre...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Generating Security Audit Reports
 

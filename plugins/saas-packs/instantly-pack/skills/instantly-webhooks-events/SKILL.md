@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement instantly webhook signature validation and event handling.
-  use when setting up webhook endpoints, implementing signature verification, or handling
-  instantly event notifications securely. trigger with phrases like "instantly webhook",
-  "in...
 name: instantly-webhooks-events
+description: |
+  Implement instantly webhook signature validation and event handling. use when setting up webhook endpoints, implementing signature verification, or handling instantly event notifications securely. trigger with phrases like "instantly webhook", "in...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Instantly Webhooks Events
 

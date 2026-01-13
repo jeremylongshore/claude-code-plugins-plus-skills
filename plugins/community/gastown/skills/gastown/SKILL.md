@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch
-license: Apache-2.0
-description: Manage multi-agent orchestrator for Claude Code. Use when user mentions
-  gastown, gas town, gt commands, bd commands, convoys, polecats, crew, rigs, slinging
-  work, multi-agent coordination, beads, hooks, molecules, workflows, the witness,
-  the mayor...
 name: gastown
+description: |
+  Manage multi-agent orchestrator for Claude Code. Use when user mentions gastown, gas town, gt commands, bd commands, convoys, polecats, crew, rigs, slinging work, multi-agent coordination, beads, hooks, molecules, workflows, the witness, the mayor...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep, Glob, WebFetch
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: Apache-2.0
 ---
 # Gastown
 

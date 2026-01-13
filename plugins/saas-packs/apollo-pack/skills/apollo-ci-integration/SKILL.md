@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Apollo.io CI/CD integration. Use when setting up automated
-  testing, continuous integration, or deployment pipelines for Apollo integrations.
-  Trigger with phrases like "apollo ci", "apollo github actions", "apollo pipeline",
-  "apollo ci/cd...
 name: apollo-ci-integration
+description: |
+  Configure Apollo.io CI/CD integration. Use when setting up automated testing, continuous integration, or deployment pipelines for Apollo integrations. Trigger with phrases like "apollo ci", "apollo github actions", "apollo pipeline", "apollo ci/cd...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Ci Integration
 

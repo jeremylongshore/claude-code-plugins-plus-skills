@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Execute capture your first error with sentry and verify it appears in
-  the dashboard. use when testing sentry integration or verifying error capture works.
-  trigger with phrases like "test sentry", "sentry hello world", "verify sentry",
-  "first sentr...
 name: sentry-hello-world
+description: |
+  Execute capture your first error with sentry and verify it appears in the dashboard. use when testing sentry integration or verifying error capture works. trigger with phrases like "test sentry", "sentry hello world", "verify sentry", "first sentr...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Hello World
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Manage advanced Cursor Composer techniques for complex edits. Triggers
-  on "advanced composer", "composer patterns", "multi-file generation", "composer
-  refactoring". Use when working with cursor advanced composer functionality. Trigger
-  with phrases...
 name: cursor-advanced-composer
+description: |
+  Manage advanced Cursor Composer techniques for complex edits. Triggers on "advanced composer", "composer patterns", "multi-file generation", "composer refactoring". Use when working with cursor advanced composer functionality. Trigger with phrases...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Advanced Composer
 

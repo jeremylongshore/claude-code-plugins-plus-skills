@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Configure Windsurf themes and visual settings for accessibility. Activate
-  when users mention "change theme", "customize colors", "accessibility settings",
-  "visual preferences", or "dark mode". Handles theme configuration and accessibility
-  complian...
 name: windsurf-theme-customization
+description: |
+  Configure Windsurf themes and visual settings for accessibility. Activate when users mention "change theme", "customize colors", "accessibility settings", "visual preferences", or "dark mode". Handles theme configuration and accessibility complian...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Theme Customization
 

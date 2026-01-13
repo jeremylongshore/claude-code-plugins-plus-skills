@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Process use when you need to work with database schema design. This skill
-  provides schema design and migrations with comprehensive guidance and automation.
-  Trigger with phrases like "design schema", "create migration", or "model database".
 name: designing-database-schemas
+description: |
+  Process use when you need to work with database schema design. This skill provides schema design and migrations with comprehensive guidance and automation. Trigger with phrases like "design schema", "create migration", or "model database".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Database Schema Designer
 

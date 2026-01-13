@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Configure Sentry security settings and data protection. Use when setting
-  up data scrubbing, managing sensitive data, or configuring security policies. Trigger
-  with phrases like "sentry security", "sentry PII", "sentry data scrubbing", "secure
-  sent...
 name: sentry-security-basics
+description: |
+  Configure Sentry security settings and data protection. Use when setting up data scrubbing, managing sensitive data, or configuring security policies. Trigger with phrases like "sentry security", "sentry PII", "sentry data scrubbing", "secure sent...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Security Basics
 

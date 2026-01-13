@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Grep
-license: MIT
-description: Apply fireflies.ai security best practices for secrets and access control.
-  use when securing api keys, implementing least privilege access, or auditing fireflies.ai
-  security configuration. trigger with phrases like "fireflies security", "fireflies...
 name: fireflies-security-basics
+description: |
+  Apply fireflies.ai security best practices for secrets and access control. use when securing api keys, implementing least privilege access, or auditing fireflies.ai security configuration. trigger with phrases like "fireflies security", "fireflies...
+allowed-tools: Read, Write, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Fireflies Security Basics
 

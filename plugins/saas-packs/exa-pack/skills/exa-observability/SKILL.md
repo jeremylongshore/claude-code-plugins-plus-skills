@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Set up comprehensive observability for exa integrations with metrics,
-  traces, and alerts. use when implementing monitoring for exa operations, setting
-  up dashboards, or configuring alerting for exa integration health. trigger with
-  phrases like "ex...
 name: exa-observability
+description: |
+  Set up comprehensive observability for exa integrations with metrics, traces, and alerts. use when implementing monitoring for exa operations, setting up dashboards, or configuring alerting for exa integration health. trigger with phrases like "ex...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Observability
 

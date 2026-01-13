@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep
-license: MIT
-description: Collect clay debug evidence for support tickets and troubleshooting.
-  use when encountering persistent issues, preparing support tickets, or collecting
-  diagnostic information for clay problems. trigger with phrases like "clay debug",
-  "clay support ...
 name: clay-debug-bundle
+description: |
+  Collect clay debug evidence for support tickets and troubleshooting. use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for clay problems. trigger with phrases like "clay debug", "clay support ...
+allowed-tools: Read, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Debug Bundle
 

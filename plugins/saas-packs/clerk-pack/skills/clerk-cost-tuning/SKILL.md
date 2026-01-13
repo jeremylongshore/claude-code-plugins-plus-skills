@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Optimize Clerk costs and understand pricing. Use when planning budget,
-  reducing costs, or understanding Clerk pricing model. Trigger with phrases like
-  "clerk cost", "clerk pricing", "reduce clerk cost", "clerk billing", "clerk budget".
 name: clerk-cost-tuning
+description: |
+  Optimize Clerk costs and understand pricing. Use when planning budget, reducing costs, or understanding Clerk pricing model. Trigger with phrases like "clerk cost", "clerk pricing", "reduce clerk cost", "clerk billing", "clerk budget".
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Cost Tuning
 

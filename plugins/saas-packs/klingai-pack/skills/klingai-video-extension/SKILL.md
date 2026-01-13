@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Execute extend video duration using kling ai continuation features. use
-  when creating longer videos from shorter clips or building seamless sequences. trigger
-  with phrases like 'klingai extend video', 'kling ai video continuation', 'klingai
-  longer...
 name: klingai-video-extension
+description: |
+  Execute extend video duration using kling ai continuation features. use when creating longer videos from shorter clips or building seamless sequences. trigger with phrases like 'klingai extend video', 'kling ai video continuation', 'klingai longer...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Video Extension
 

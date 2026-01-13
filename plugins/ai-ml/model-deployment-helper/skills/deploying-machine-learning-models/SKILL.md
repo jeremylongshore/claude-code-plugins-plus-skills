@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Deploy this skill enables AI assistant to deploy machine learning models
-  to production environments. it automates the deployment workflow, implements best
-  practices for serving models, optimizes performance, and handles potential errors.
-  use this ...
 name: deploying-machine-learning-models
+description: |
+  Deploy this skill enables AI assistant to deploy machine learning models to production environments. it automates the deployment workflow, implements best practices for serving models, optimizes performance, and handles potential errors. use this ...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Model Deployment Helper
 

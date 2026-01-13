@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute instantly secondary workflow: core workflow b. use when implementing
-  secondary use case, or complementing primary workflow. trigger with phrases like
-  "instantly secondary workflow", "secondary task with instantly".'
 name: instantly-core-workflow-b
+description: |
+  Execute instantly secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like "instantly secondary workflow", "secondary task with instantly".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Instantly Core Workflow B
 

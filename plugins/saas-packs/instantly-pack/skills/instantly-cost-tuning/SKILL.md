@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Optimize Instantly costs through tier selection, sampling, and usage
-  monitoring. Use when analyzing Instantly billing, reducing API costs, or implementing
-  usage monitoring and budget alerts. Trigger with phrases like "instantly cost",
-  "instantly b...
 name: instantly-cost-tuning
+description: |
+  Optimize Instantly costs through tier selection, sampling, and usage monitoring. Use when analyzing Instantly billing, reducing API costs, or implementing usage monitoring and budget alerts. Trigger with phrases like "instantly cost", "instantly b...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Instantly Cost Tuning
 

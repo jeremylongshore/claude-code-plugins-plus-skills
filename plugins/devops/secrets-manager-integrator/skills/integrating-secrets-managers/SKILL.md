@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Manage this skill enables AI assistant to seamlessly integrate with various
-  secrets managers like hashicorp vault and aws secrets manager. it generates configurations
-  and setup code, ensuring best practices for secure credential management. use th...
 name: integrating-secrets-managers
+description: |
+  Manage this skill enables AI assistant to seamlessly integrate with various secrets managers like hashicorp vault and aws secrets manager. it generates configurations and setup code, ensuring best practices for secure credential management. use th...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Secrets Manager Integrator
 

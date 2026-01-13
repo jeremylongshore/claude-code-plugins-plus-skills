@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Grep
-license: MIT
-description: Apply posthog security best practices for secrets and access control.
-  use when securing api keys, implementing least privilege access, or auditing posthog
-  security configuration. trigger with phrases like "posthog security", "posthog secrets",
-  "se...
 name: posthog-security-basics
+description: |
+  Apply posthog security best practices for secrets and access control. use when securing api keys, implementing least privilege access, or auditing posthog security configuration. trigger with phrases like "posthog security", "posthog secrets", "se...
+allowed-tools: Read, Write, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Posthog Security Basics
 

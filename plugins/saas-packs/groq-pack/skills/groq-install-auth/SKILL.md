@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure groq sdk/cli authentication. use when setting up
-  a new groq integration, configuring api keys, or initializing groq in your project.
-  trigger with phrases like "install groq", "setup groq", "groq auth", "configure
-  groq api key".
 name: groq-install-auth
+description: |
+  Install and configure groq sdk/cli authentication. use when setting up a new groq integration, configuring api keys, or initializing groq in your project. trigger with phrases like "install groq", "setup groq", "groq auth", "configure groq api key".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Groq Install & Auth
 

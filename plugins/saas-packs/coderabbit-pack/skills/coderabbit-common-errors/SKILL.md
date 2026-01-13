@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix coderabbit common errors and exceptions. use when encountering
-  coderabbit errors, debugging failed requests, or troubleshooting integration issues.
-  trigger with phrases like "coderabbit error", "fix coderabbit", "coderabbit not
-  wo...
 name: coderabbit-common-errors
+description: |
+  Diagnose and fix coderabbit common errors and exceptions. use when encountering coderabbit errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "coderabbit error", "fix coderabbit", "coderabbit not wo...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Coderabbit Common Errors
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement vercel reliability patterns including circuit breakers, idempotency,
-  and graceful degradation. use when building fault-tolerant vercel integrations,
-  implementing retry strategies, or adding resilience to production vercel services.
-  trigg...
 name: vercel-reliability-patterns
+description: |
+  Implement vercel reliability patterns including circuit breakers, idempotency, and graceful degradation. use when building fault-tolerant vercel integrations, implementing retry strategies, or adding resilience to production vercel services. trigg...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Reliability Patterns
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep
-license: MIT
-description: Collect vast.ai debug evidence for support tickets and troubleshooting.
-  use when encountering persistent issues, preparing support tickets, or collecting
-  diagnostic information for vast.ai problems. trigger with phrases like "vastai debug",
-  "vasta...
 name: vastai-debug-bundle
+description: |
+  Collect vast.ai debug evidence for support tickets and troubleshooting. use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for vast.ai problems. trigger with phrases like "vastai debug", "vasta...
+allowed-tools: Read, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vastai Debug Bundle
 

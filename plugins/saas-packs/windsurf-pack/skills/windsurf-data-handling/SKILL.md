@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement windsurf pii handling, data retention, and gdpr/ccpa compliance
-  patterns. use when handling sensitive data, implementing data redaction, configuring
-  retention policies, or ensuring compliance with privacy regulations for windsurf
-  integra...
 name: windsurf-data-handling
+description: |
+  Implement windsurf pii handling, data retention, and gdpr/ccpa compliance patterns. use when handling sensitive data, implementing data redaction, configuring retention policies, or ensuring compliance with privacy regulations for windsurf integra...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Data Handling
 

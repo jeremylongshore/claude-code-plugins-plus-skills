@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Set up comprehensive observability for clay integrations with metrics,
-  traces, and alerts. use when implementing monitoring for clay operations, setting
-  up dashboards, or configuring alerting for clay integration health. trigger with
-  phrases like ...
 name: clay-observability
+description: |
+  Set up comprehensive observability for clay integrations with metrics, traces, and alerts. use when implementing monitoring for clay operations, setting up dashboards, or configuring alerting for clay integration health. trigger with phrases like ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Observability
 

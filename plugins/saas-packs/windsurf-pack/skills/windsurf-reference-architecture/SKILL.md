@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Implement windsurf reference architecture with best-practice project
-  layout. use when designing new windsurf integrations, reviewing project structure,
-  or establishing architecture standards for windsurf applications. trigger with phrases
-  like "wi...
 name: windsurf-reference-architecture
+description: |
+  Implement windsurf reference architecture with best-practice project layout. use when designing new windsurf integrations, reviewing project structure, or establishing architecture standards for windsurf applications. trigger with phrases like "wi...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Reference Architecture
 

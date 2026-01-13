@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute coderabbit major re-architecture and migration strategies with
-  strangler fig pattern. use when migrating to or from coderabbit, performing major
-  version upgrades, or re-platforming existing integrations to coderabbit. trigger
-  with phrases ...
 name: coderabbit-migration-deep-dive
+description: |
+  Execute coderabbit major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from coderabbit, performing major version upgrades, or re-platforming existing integrations to coderabbit. trigger with phrases ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Coderabbit Migration Deep Dive
 

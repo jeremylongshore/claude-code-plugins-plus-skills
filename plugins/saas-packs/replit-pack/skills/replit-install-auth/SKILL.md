@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure replit sdk/cli authentication. use when setting
-  up a new replit integration, configuring api keys, or initializing replit in your
-  project. trigger with phrases like "install replit", "setup replit", "replit auth",
-  "configure ...
 name: replit-install-auth
+description: |
+  Install and configure replit sdk/cli authentication. use when setting up a new replit integration, configuring api keys, or initializing replit in your project. trigger with phrases like "install replit", "setup replit", "replit auth", "configure ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Install & Auth
 

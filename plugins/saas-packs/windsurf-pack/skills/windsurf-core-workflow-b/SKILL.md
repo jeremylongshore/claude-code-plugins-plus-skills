@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute windsurf secondary workflow: core workflow b. use when implementing
-  secondary use case, or complementing primary workflow. trigger with phrases like
-  "windsurf secondary workflow", "secondary task with windsurf".'
 name: windsurf-core-workflow-b
+description: |
+  Execute windsurf secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like "windsurf secondary workflow", "secondary task with windsurf".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Core Workflow B
 

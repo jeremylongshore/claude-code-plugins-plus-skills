@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Apply clay advanced debugging techniques for hard-to-diagnose issues.
-  use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for clay support escalation. trigger with phrases
-  like "clay hard b...
 name: clay-advanced-troubleshooting
+description: |
+  Apply clay advanced debugging techniques for hard-to-diagnose issues. use when standard troubleshooting fails, investigating complex race conditions, or preparing evidence bundles for clay support escalation. trigger with phrases like "clay hard b...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Advanced Troubleshooting
 

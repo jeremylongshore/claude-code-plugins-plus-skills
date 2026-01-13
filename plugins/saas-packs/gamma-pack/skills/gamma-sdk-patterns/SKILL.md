@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Learn idiomatic gamma sdk patterns and best practices. use when implementing
-  complex presentation workflows, handling async operations, or structuring gamma
-  code. trigger with phrases like "gamma patterns", "gamma best practices", "gamma
-  sdk usage...
 name: gamma-sdk-patterns
+description: |
+  Learn idiomatic gamma sdk patterns and best practices. use when implementing complex presentation workflows, handling async operations, or structuring gamma code. trigger with phrases like "gamma patterns", "gamma best practices", "gamma sdk usage...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gamma Sdk Patterns
 

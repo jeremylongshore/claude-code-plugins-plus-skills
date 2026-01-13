@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Audit access control implementations for security vulnerabilities and
-  misconfigurations. Use when reviewing authentication and authorization. Trigger
-  with 'audit access control', 'check permissions', or 'validate authorization'.
 name: auditing-access-control
+description: |
+  Audit access control implementations for security vulnerabilities and misconfigurations. Use when reviewing authentication and authorization. Trigger with 'audit access control', 'check permissions', or 'validate authorization'.
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Access Control Auditor
 

@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute vercel major re-architecture and migration strategies with strangler
-  fig pattern. use when migrating to or from vercel, performing major version upgrades,
-  or re-platforming existing integrations to vercel. trigger with phrases like "migrat...
 name: vercel-migration-deep-dive
+description: |
+  Execute vercel major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from vercel, performing major version upgrades, or re-platforming existing integrations to vercel. trigger with phrases like "migrat...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Migration Deep Dive
 

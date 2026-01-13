@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
-Migrates SKILL.md files to 2025 schema by adding:
-- allowed-tools field (auto-detected from skill purpose)
-- version: 1.0.0 field
-- Enhanced descriptions with clear trigger phrases
+Migrate SKILL.md files to the 2025 schema.
 
-Addresses:
-- Schema gap (96% missing allowed-tools/version)
-- Activation visibility (users don't know when skills activate)
+Adds any missing required enterprise fields:
+- allowed-tools (auto-detected from skill content)
+- version (defaults to 1.0.0)
+- author (defaults to Intent Solutions author string)
+- license (defaults to MIT)
+
+Also optionally enhances descriptions with clear trigger phrases.
 """
 
 import os
@@ -15,17 +16,23 @@ import re
 import sys
 from pathlib import Path
 
+# Keep defaults aligned with scripts/validate-skills-schema.py
+DEFAULT_AUTHOR = "Jeremy Longshore <jeremy@intentsolutions.io>"
+DEFAULT_LICENSE = "MIT"
+
 # Tool categorization rules
 TOOL_PATTERNS = {
-    'read-only': 'Read, Grep, Glob, Bash',
-    'code-editing': 'Read, Write, Edit, Grep, Glob, Bash',
+    'read-only': 'Read, Grep, Glob',
+    'code-editing': 'Read, Write, Edit, Grep, Glob, Bash(cmd:*)',
     'web-research': 'Read, WebFetch, WebSearch, Grep',
-    'database': 'Read, Write, Bash, Grep',
-    'testing': 'Read, Bash, Grep, Glob',
-    'analysis': 'Read, Grep, Glob, Bash',
-    'deployment': 'Read, Write, Bash, Grep',
+    'database': 'Read, Write, Grep, Bash(cmd:*)',
+    'testing': 'Read, Grep, Glob, Bash(cmd:*)',
+    'analysis': 'Read, Grep, Glob, Bash(cmd:*)',
+    'deployment': 'Read, Write, Grep, Bash(cmd:*)',
     'documentation': 'Read, Write, Grep, Glob',
 }
+
+RE_FRONTMATTER = re.compile(r'^---\n(.*?)\n---\n(.*)$', re.DOTALL)
 
 def detect_tool_category(skill_content, skill_name):
     """Auto-detect appropriate tool set based on skill description"""
@@ -51,7 +58,7 @@ def detect_tool_category(skill_content, skill_name):
 
 def extract_frontmatter(content):
     """Extract YAML frontmatter from markdown"""
-    match = re.match(r'^---\n(.*?)\n---\n(.*)$', content, re.DOTALL)
+    match = RE_FRONTMATTER.match(content)
     if not match:
         return None, None, None
 
@@ -97,7 +104,7 @@ def reconstruct_frontmatter(frontmatter):
     """Reconstruct YAML frontmatter from dict"""
     lines = []
 
-    # Order: name, description, allowed-tools, version
+    # Order: name, description, allowed-tools, version, author, license
     if 'name' in frontmatter:
         lines.append(f"name: {frontmatter['name']}")
 
@@ -111,10 +118,19 @@ def reconstruct_frontmatter(frontmatter):
             lines.append(f"description: {desc}")
 
     if 'allowed-tools' in frontmatter:
-        lines.append(f"allowed-tools: {frontmatter['allowed-tools']}")
+        tools = str(frontmatter['allowed-tools']).strip()
+        # Avoid unscoped Bash (warned by validator).
+        tools = re.sub(r'(^|,\\s*)Bash(\\s*,|$)', r'\\1Bash(cmd:*)\\2', tools)
+        lines.append(f"allowed-tools: {tools}")
 
     if 'version' in frontmatter:
         lines.append(f"version: {frontmatter['version']}")
+
+    if 'author' in frontmatter:
+        lines.append(f"author: {frontmatter['author']}")
+
+    if 'license' in frontmatter:
+        lines.append(f"license: {frontmatter['license']}")
 
     return '\n'.join(lines)
 
@@ -163,8 +179,10 @@ def migrate_skill_file(file_path, dry_run=False):
     # Check if already migrated
     has_allowed_tools = 'allowed-tools' in frontmatter
     has_version = 'version' in frontmatter
+    has_author = 'author' in frontmatter
+    has_license = 'license' in frontmatter
 
-    if has_allowed_tools and has_version:
+    if has_allowed_tools and has_version and has_author and has_license:
         print(f"✅ Already migrated: {file_path}")
         return False
 
@@ -180,6 +198,15 @@ def migrate_skill_file(file_path, dry_run=False):
     if not has_version:
         frontmatter['version'] = '1.0.0'
         changes.append("version")
+
+    # Add enterprise defaults
+    if not has_author:
+        frontmatter['author'] = DEFAULT_AUTHOR
+        changes.append("author")
+
+    if not has_license:
+        frontmatter['license'] = DEFAULT_LICENSE
+        changes.append("license")
 
     # Enhance description with trigger phrases
     if 'description' in frontmatter:
@@ -216,13 +243,38 @@ def main():
     parser = argparse.ArgumentParser(description='Migrate SKILL.md files to 2025 schema')
     parser.add_argument('--dry-run', action='store_true', help='Preview changes without writing')
     parser.add_argument('--limit', type=int, help='Limit number of files to process')
-    parser.add_argument('path', nargs='?', default='/home/user/claude-code-plugins-plus/plugins',
-                       help='Path to plugins directory')
+    parser.add_argument(
+        'path',
+        nargs='?',
+        default=None,
+        help='Path to scan (defaults to repo root plugins/).',
+    )
+    parser.add_argument(
+        '--include-standalone-skills',
+        action='store_true',
+        help='Also scan repo root skills/ directory.',
+    )
 
     args = parser.parse_args()
 
-    plugins_dir = Path(args.path)
-    skill_files = list(plugins_dir.rglob('skills/*/SKILL.md'))
+    repo_root = Path(__file__).resolve().parent.parent
+    scan_roots = []
+
+    if args.path:
+        scan_roots.append(Path(args.path))
+    else:
+        scan_roots.append(repo_root / "plugins")
+        if args.include_standalone_skills:
+            scan_roots.append(repo_root / "skills")
+
+    skill_files = []
+    for root in scan_roots:
+        if not root.exists():
+            continue
+        if root.name == "skills":
+            skill_files.extend(root.rglob('*/SKILL.md'))
+        else:
+            skill_files.extend(root.rglob('skills/*/SKILL.md'))
 
     if args.limit:
         skill_files = skill_files[:args.limit]

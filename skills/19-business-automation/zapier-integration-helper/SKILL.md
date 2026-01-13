@@ -1,7 +1,7 @@
 ---
 name: "zapier-integration-helper"
 description: |
-  Assist with zapier integration helper operations. Auto-activating skill for Business Automation.
+  Assist with assist with assist with zapier integration helper operations. Auto-activating skill for Business Automation.
   Triggers on: zapier integration helper, zapier integration helper
   Part of the Business Automation skill category. Use when working with APIs or building integrations. Trigger with phrases like "zapier integration helper", "zapier helper", "zapier".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"

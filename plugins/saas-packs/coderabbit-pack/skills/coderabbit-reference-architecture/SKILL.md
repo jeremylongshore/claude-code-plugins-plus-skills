@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Implement coderabbit reference architecture with best-practice project
-  layout. use when designing new coderabbit integrations, reviewing project structure,
-  or establishing architecture standards for coderabbit applications. trigger with
-  phrases li...
 name: coderabbit-reference-architecture
+description: |
+  Implement coderabbit reference architecture with best-practice project layout. use when designing new coderabbit integrations, reviewing project structure, or establishing architecture standards for coderabbit applications. trigger with phrases li...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Coderabbit Reference Architecture
 

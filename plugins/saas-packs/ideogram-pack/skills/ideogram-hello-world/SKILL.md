@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Ideogram example. Use when starting a new Ideogram
-  integration, testing your setup, or learning basic Ideogram API patterns. Trigger
-  with phrases like "ideogram hello world", "ideogram example", "ideogram quick start",
-  "si...
 name: ideogram-hello-world
+description: |
+  Create a minimal working Ideogram example. Use when starting a new Ideogram integration, testing your setup, or learning basic Ideogram API patterns. Trigger with phrases like "ideogram hello world", "ideogram example", "ideogram quick start", "si...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ideogram Hello World
 

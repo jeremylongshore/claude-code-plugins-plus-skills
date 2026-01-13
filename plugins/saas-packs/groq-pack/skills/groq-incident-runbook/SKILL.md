@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute groq incident response procedures with triage, mitigation, and
-  postmortem. use when responding to groq-related outages, investigating errors, or
-  running post-incident reviews for groq integration failures. trigger with phrases
-  like "groq i...
 name: groq-incident-runbook
+description: |
+  Execute groq incident response procedures with triage, mitigation, and postmortem. use when responding to groq-related outages, investigating errors, or running post-incident reviews for groq integration failures. trigger with phrases like "groq i...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Groq Incident Runbook
 

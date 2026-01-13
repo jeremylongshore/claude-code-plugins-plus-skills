@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure .cursorrules for project-specific AI behavior. Triggers on
-  "cursorrules", ".cursorrules", "cursor rules", "cursor config", "cursor project
-  settings". Use when configuring systems or services. Trigger with phrases like "cursor
-  rules confi...
 name: cursor-rules-config
+description: |
+  Configure .cursorrules for project-specific AI behavior. Triggers on "cursorrules", ".cursorrules", "cursor rules", "cursor config", "cursor project settings". Use when configuring systems or services. Trigger with phrases like "cursor rules confi...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Rules Config
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure deepgram sdk/cli authentication. use when setting
-  up a new deepgram integration, configuring api keys, or initializing deepgram in
-  your project. trigger with phrases like "install deepgram", "setup deepgram", "deepgram
-  auth",...
 name: deepgram-install-auth
+description: |
+  Install and configure deepgram sdk/cli authentication. use when setting up a new deepgram integration, configuring api keys, or initializing deepgram in your project. trigger with phrases like "install deepgram", "setup deepgram", "deepgram auth",...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Deepgram Install & Auth
 

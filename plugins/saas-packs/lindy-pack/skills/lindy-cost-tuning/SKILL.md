@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Optimize Lindy AI costs and manage usage efficiently. Use when reducing
-  costs, analyzing usage patterns, or optimizing budget allocation. Trigger with phrases
-  like "lindy cost", "lindy billing", "reduce lindy spend", "lindy budget".
 name: lindy-cost-tuning
+description: |
+  Optimize Lindy AI costs and manage usage efficiently. Use when reducing costs, analyzing usage patterns, or optimizing budget allocation. Trigger with phrases like "lindy cost", "lindy billing", "reduce lindy spend", "lindy budget".
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Cost Tuning
 

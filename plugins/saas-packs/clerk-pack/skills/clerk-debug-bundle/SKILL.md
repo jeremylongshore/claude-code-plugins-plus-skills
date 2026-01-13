@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Collect comprehensive debug information for clerk issues. use when troubleshooting
-  complex problems, preparing support tickets, or diagnosing intermittent issues.
-  trigger with phrases like "clerk debug", "clerk diagnostics", "clerk support ticket"...
 name: clerk-debug-bundle
+description: |
+  Collect comprehensive debug information for clerk issues. use when troubleshooting complex problems, preparing support tickets, or diagnosing intermittent issues. trigger with phrases like "clerk debug", "clerk diagnostics", "clerk support ticket"...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Debug Bundle
 

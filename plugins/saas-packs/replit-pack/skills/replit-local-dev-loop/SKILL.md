@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Replit local development with hot reload and testing. Use when
-  setting up a development environment, configuring test workflows, or establishing
-  a fast iteration cycle with Replit. Trigger with phrases like "replit dev setup",
-  "replit lo...
 name: replit-local-dev-loop
+description: |
+  Configure Replit local development with hot reload and testing. Use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with Replit. Trigger with phrases like "replit dev setup", "replit lo...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Local Dev Loop
 

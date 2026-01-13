@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Replit example. Use when starting a new Replit
-  integration, testing your setup, or learning basic Replit API patterns. Trigger
-  with phrases like "replit hello world", "replit example", "replit quick start",
-  "simple replit ...
 name: replit-hello-world
+description: |
+  Create a minimal working Replit example. Use when starting a new Replit integration, testing your setup, or learning basic Replit API patterns. Trigger with phrases like "replit hello world", "replit example", "replit quick start", "simple replit ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Hello World
 

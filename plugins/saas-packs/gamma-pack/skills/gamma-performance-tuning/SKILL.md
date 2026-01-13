@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Optimize Gamma API performance and reduce latency. Use when experiencing
-  slow response times, optimizing throughput, or improving user experience with Gamma
-  integrations. Trigger with phrases like "gamma performance", "gamma slow", "gamma
-  latency"...
 name: gamma-performance-tuning
+description: |
+  Optimize Gamma API performance and reduce latency. Use when experiencing slow response times, optimizing throughput, or improving user experience with Gamma integrations. Trigger with phrases like "gamma performance", "gamma slow", "gamma latency"...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gamma Performance Tuning
 

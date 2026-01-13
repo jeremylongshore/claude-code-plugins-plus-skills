@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Grep
-license: MIT
-description: Apply exa security best practices for secrets and access control. use
-  when securing api keys, implementing least privilege access, or auditing exa security
-  configuration. trigger with phrases like "exa security", "exa secrets", "secure
-  exa", "exa ...
 name: exa-security-basics
+description: |
+  Apply exa security best practices for secrets and access control. use when securing api keys, implementing least privilege access, or auditing exa security configuration. trigger with phrases like "exa security", "exa secrets", "secure exa", "exa ...
+allowed-tools: Read, Write, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Security Basics
 

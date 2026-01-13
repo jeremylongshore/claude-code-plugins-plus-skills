@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement exa webhook signature validation and event handling. use when
-  setting up webhook endpoints, implementing signature verification, or handling exa
-  event notifications securely. trigger with phrases like "exa webhook", "exa events",
-  "exa we...
 name: exa-webhooks-events
+description: |
+  Implement exa webhook signature validation and event handling. use when setting up webhook endpoints, implementing signature verification, or handling exa event notifications securely. trigger with phrases like "exa webhook", "exa events", "exa we...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Webhooks Events
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute fireflies.ai major re-architecture and migration strategies with
-  strangler fig pattern. use when migrating to or from fireflies.ai, performing major
-  version upgrades, or re-platforming existing integrations to fireflies.ai. trigger
-  with ph...
 name: fireflies-migration-deep-dive
+description: |
+  Execute fireflies.ai major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from fireflies.ai, performing major version upgrades, or re-platforming existing integrations to fireflies.ai. trigger with ph...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Fireflies Migration Deep Dive
 

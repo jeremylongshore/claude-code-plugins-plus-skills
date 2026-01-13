@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Perplexity example. Use when starting a new
-  Perplexity integration, testing your setup, or learning basic Perplexity API patterns.
-  Trigger with phrases like "perplexity hello world", "perplexity example", "perplexity
-  quick...
 name: perplexity-hello-world
+description: |
+  Create a minimal working Perplexity example. Use when starting a new Perplexity integration, testing your setup, or learning basic Perplexity API patterns. Trigger with phrases like "perplexity hello world", "perplexity example", "perplexity quick...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Hello World
 

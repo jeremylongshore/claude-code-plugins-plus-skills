@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement core gamma workflow for presentation editing and export. use
-  when modifying existing presentations, exporting to various formats, or managing
-  presentation assets. trigger with phrases like "gamma edit presentation", "gamma
-  export", "gamm...
 name: gamma-core-workflow-b
+description: |
+  Implement core gamma workflow for presentation editing and export. use when modifying existing presentations, exporting to various formats, or managing presentation assets. trigger with phrases like "gamma edit presentation", "gamma export", "gamm...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gamma Core Workflow B
 

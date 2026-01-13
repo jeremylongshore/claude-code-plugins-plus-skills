@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix posthog common errors and exceptions. use when encountering
-  posthog errors, debugging failed requests, or troubleshooting integration issues.
-  trigger with phrases like "posthog error", "fix posthog", "posthog not working",
-  "debug ...
 name: posthog-common-errors
+description: |
+  Diagnose and fix posthog common errors and exceptions. use when encountering posthog errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "posthog error", "fix posthog", "posthog not working", "debug ...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Posthog Common Errors
 

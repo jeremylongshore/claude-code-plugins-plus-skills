@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Set up comprehensive observability for instantly integrations with metrics,
-  traces, and alerts. use when implementing monitoring for instantly operations, setting
-  up dashboards, or configuring alerting for instantly integration health. trigger
-  wit...
 name: instantly-observability
+description: |
+  Set up comprehensive observability for instantly integrations with metrics, traces, and alerts. use when implementing monitoring for instantly operations, setting up dashboards, or configuring alerting for instantly integration health. trigger wit...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Instantly Observability
 

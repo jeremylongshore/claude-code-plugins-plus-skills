@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Implement firecrawl reference architecture with best-practice project
-  layout. use when designing new firecrawl integrations, reviewing project structure,
-  or establishing architecture standards for firecrawl applications. trigger with
-  phrases like ...
 name: firecrawl-reference-architecture
+description: |
+  Implement firecrawl reference architecture with best-practice project layout. use when designing new firecrawl integrations, reviewing project structure, or establishing architecture standards for firecrawl applications. trigger with phrases like ...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firecrawl Reference Architecture
 

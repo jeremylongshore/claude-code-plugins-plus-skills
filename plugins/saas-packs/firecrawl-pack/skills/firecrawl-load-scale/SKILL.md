@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement firecrawl load testing, auto-scaling, and capacity planning
-  strategies. use when running performance tests, configuring horizontal scaling,
-  or planning capacity for firecrawl integrations. trigger with phrases like "firecrawl
-  load test",...
 name: firecrawl-load-scale
+description: |
+  Implement firecrawl load testing, auto-scaling, and capacity planning strategies. use when running performance tests, configuring horizontal scaling, or planning capacity for firecrawl integrations. trigger with phrases like "firecrawl load test",...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firecrawl Load Scale
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure langchain sdk/cli authentication. use when setting
-  up a new langchain integration, configuring api keys, or initializing langchain
-  in your project. trigger with phrases like "install langchain", "setup langchain",
-  "langchain ...
 name: langchain-install-auth
+description: |
+  Install and configure langchain sdk/cli authentication. use when setting up a new langchain integration, configuring api keys, or initializing langchain in your project. trigger with phrases like "install langchain", "setup langchain", "langchain ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Install Auth
 

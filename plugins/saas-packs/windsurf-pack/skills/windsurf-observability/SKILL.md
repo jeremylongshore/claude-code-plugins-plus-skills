@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Set up comprehensive observability for windsurf integrations with metrics,
-  traces, and alerts. use when implementing monitoring for windsurf operations, setting
-  up dashboards, or configuring alerting for windsurf integration health. trigger
-  with p...
 name: windsurf-observability
+description: |
+  Set up comprehensive observability for windsurf integrations with metrics, traces, and alerts. use when implementing monitoring for windsurf operations, setting up dashboards, or configuring alerting for windsurf integration health. trigger with p...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Observability
 

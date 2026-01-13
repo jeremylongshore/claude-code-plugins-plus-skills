@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Choose and implement firecrawl validated architecture blueprints for
-  different scales. use when designing new firecrawl integrations, choosing between
-  monolith/service/microservice architectures, or planning migration paths for firecrawl
-  applicati...
 name: firecrawl-architecture-variants
+description: |
+  Choose and implement firecrawl validated architecture blueprints for different scales. use when designing new firecrawl integrations, choosing between monolith/service/microservice architectures, or planning migration paths for firecrawl applicati...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firecrawl Architecture Variants
 

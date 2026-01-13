@@ -1,7 +1,7 @@
 ---
 name: "apdex-score-calculator"
 description: |
-  Calculate apdex score calculator operations. Auto-activating skill for Performance Testing.
+  Calculate calculate calculate apdex score calculator operations. Auto-activating skill for Performance Testing.
   Triggers on: apdex score calculator, apdex score calculator
   Part of the Performance Testing skill category. Use when working with apdex score calculator functionality. Trigger with phrases like "apdex score calculator", "apdex calculator", "apdex".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"

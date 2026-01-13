@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when generating helm charts for kubernetes applications.
-  trigger with phrases like "create helm chart", "generate chart for app", "package
-  kubernetes deployment", or "helm template". produces production-ready charts with
-  chart.yaml, va...
 name: generating-helm-charts
+description: |
+  Execute use when generating helm charts for kubernetes applications. trigger with phrases like "create helm chart", "generate chart for app", "package kubernetes deployment", or "helm template". produces production-ready charts with chart.yaml, va...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Helm Chart Generator
 

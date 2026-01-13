@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement juicebox webhook handling. use when setting up event notifications,
-  processing webhooks, or integrating real-time updates from juicebox. trigger with
-  phrases like "juicebox webhooks", "juicebox events", "juicebox notifications", "juicebo...
 name: juicebox-webhooks-events
+description: |
+  Implement juicebox webhook handling. use when setting up event notifications, processing webhooks, or integrating real-time updates from juicebox. trigger with phrases like "juicebox webhooks", "juicebox events", "juicebox notifications", "juicebo...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Webhooks Events
 

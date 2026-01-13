@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Optimize LangChain application performance and latency. Use when reducing
-  response times, optimizing throughput, or improving the efficiency of LangChain
-  pipelines. Trigger with phrases like "langchain performance", "langchain optimization",
-  "lang...
 name: langchain-performance-tuning
+description: |
+  Optimize LangChain application performance and latency. Use when reducing response times, optimizing throughput, or improving the efficiency of LangChain pipelines. Trigger with phrases like "langchain performance", "langchain optimization", "lang...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Performance Tuning
 

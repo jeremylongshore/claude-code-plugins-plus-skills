@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Implement apollo.io lead search and enrichment workflow. use when building
-  lead generation features, searching for contacts, or enriching prospect data from
-  apollo. trigger with phrases like "apollo lead search", "search apollo contacts",
-  "find le...
 name: apollo-core-workflow-a
+description: |
+  Implement apollo.io lead search and enrichment workflow. use when building lead generation features, searching for contacts, or enriching prospect data from apollo. trigger with phrases like "apollo lead search", "search apollo contacts", "find le...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Core Workflow A
 

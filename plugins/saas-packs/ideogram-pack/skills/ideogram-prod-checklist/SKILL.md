@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep
-license: MIT
-description: Execute ideogram production deployment checklist and rollback procedures.
-  use when deploying ideogram integrations to production, preparing for launch, or
-  implementing go-live procedures. trigger with phrases like "ideogram production",
-  "deploy id...
 name: ideogram-prod-checklist
+description: |
+  Execute ideogram production deployment checklist and rollback procedures. use when deploying ideogram integrations to production, preparing for launch, or implementing go-live procedures. trigger with phrases like "ideogram production", "deploy id...
+allowed-tools: Read, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ideogram Prod Checklist
 

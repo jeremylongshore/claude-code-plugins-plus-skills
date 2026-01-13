@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Bash, Grep
-license: MIT
-description: Execute this skill enables ai assistant to analyze and improve application
-  caching strategies. it optimizes cache hit rates, ttl configurations, cache key
-  design, and invalidation strategies. use this skill when the user requests to "optimize
-  cach...
 name: optimizing-cache-performance
+description: |
+  Execute this skill enables ai assistant to analyze and improve application caching strategies. it optimizes cache hit rates, ttl configurations, cache key design, and invalidation strategies. use this skill when the user requests to "optimize cach...
+allowed-tools: Read, Write, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cache Performance Optimizer
 

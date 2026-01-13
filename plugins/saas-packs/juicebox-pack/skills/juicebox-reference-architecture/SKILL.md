@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement juicebox reference architecture. use when designing system
-  architecture, planning integrations, or implementing enterprise-grade juicebox solutions.
-  trigger with phrases like "juicebox architecture", "juicebox design", "juicebox
-  system d...
 name: juicebox-reference-architecture
+description: |
+  Implement juicebox reference architecture. use when designing system architecture, planning integrations, or implementing enterprise-grade juicebox solutions. trigger with phrases like "juicebox architecture", "juicebox design", "juicebox system d...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Reference Architecture
 

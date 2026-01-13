@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute retell ai secondary workflow: core workflow b. use when implementing
-  secondary use case, or complementing primary workflow. trigger with phrases like
-  "retellai secondary workflow", "secondary task with retellai".'
 name: retellai-core-workflow-b
+description: |
+  Execute retell ai secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like "retellai secondary workflow", "secondary task with retellai".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retell AI Core Workflow B
 

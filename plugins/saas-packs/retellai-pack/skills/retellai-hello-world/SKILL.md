@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Retell AI example. Use when starting a new Retell
-  AI integration, testing your setup, or learning basic Retell AI API patterns. Trigger
-  with phrases like "retellai hello world", "retellai example", "retellai quick start",
-  ...
 name: retellai-hello-world
+description: |
+  Create a minimal working Retell AI example. Use when starting a new Retell AI integration, testing your setup, or learning basic Retell AI API patterns. Trigger with phrases like "retellai hello world", "retellai example", "retellai quick start", ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retell AI Hello World
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix ideogram common errors and exceptions. use when encountering
-  ideogram errors, debugging failed requests, or troubleshooting integration issues.
-  trigger with phrases like "ideogram error", "fix ideogram", "ideogram not working",
-  "d...
 name: ideogram-common-errors
+description: |
+  Diagnose and fix ideogram common errors and exceptions. use when encountering ideogram errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "ideogram error", "fix ideogram", "ideogram not working", "d...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ideogram Common Errors
 

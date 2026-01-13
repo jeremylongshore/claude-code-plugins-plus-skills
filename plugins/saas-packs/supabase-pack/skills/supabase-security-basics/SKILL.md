@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Grep
-license: MIT
-description: Execute apply supabase security best practices for secrets and access
-  control. use when securing api keys, implementing least privilege access, or auditing
-  supabase security configuration. trigger with phrases like "supabase security",
-  "supabase s...
 name: supabase-security-basics
+description: |
+  Execute apply supabase security best practices for secrets and access control. use when securing api keys, implementing least privilege access, or auditing supabase security configuration. trigger with phrases like "supabase security", "supabase s...
+allowed-tools: Read, Write, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Security Basics
 

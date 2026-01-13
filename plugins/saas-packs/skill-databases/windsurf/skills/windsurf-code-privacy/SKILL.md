@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Configure code privacy and data retention policies. Activate when users
-  mention "code privacy", "data retention", "privacy settings", "data governance",
-  or "gdpr compliance". Handles privacy and data protection configuration. Use when
-  working with...
 name: windsurf-code-privacy
+description: |
+  Configure code privacy and data retention policies. Activate when users mention "code privacy", "data retention", "privacy settings", "data governance", or "gdpr compliance". Handles privacy and data protection configuration. Use when working with...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Code Privacy
 

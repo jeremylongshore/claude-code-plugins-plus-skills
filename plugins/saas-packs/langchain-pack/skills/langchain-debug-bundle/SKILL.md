@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Collect langchain debug evidence for troubleshooting and support. use
-  when preparing bug reports, collecting traces, or gathering diagnostic information
-  for complex issues. trigger with phrases like "langchain debug bundle", "langchain
-  diagnostics...
 name: langchain-debug-bundle
+description: |
+  Collect langchain debug evidence for troubleshooting and support. use when preparing bug reports, collecting traces, or gathering diagnostic information for complex issues. trigger with phrases like "langchain debug bundle", "langchain diagnostics...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Debug Bundle
 

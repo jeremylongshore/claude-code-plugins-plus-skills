@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when constructing gitops workflows using argocd or flux.
-  trigger with phrases like "create gitops workflow", "setup argocd", "configure flux",
-  or "automate kubernetes deployments". generates production-ready configurations,
-  implements ...
 name: building-gitops-workflows
+description: |
+  Execute use when constructing gitops workflows using argocd or flux. trigger with phrases like "create gitops workflow", "setup argocd", "configure flux", or "automate kubernetes deployments". generates production-ready configurations, implements ...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gitops Workflow Builder
 

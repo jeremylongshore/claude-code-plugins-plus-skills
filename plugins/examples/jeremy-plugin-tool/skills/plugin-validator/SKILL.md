@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Validate automatically validates AI assistant code plugin structure,
-  schemas, and compliance when user mentions validate plugin, check plugin, or plugin
-  errors. runs comprehensive validation specific to AI assistant-code-plugins repository
-  standar...
 name: plugin-validator
+description: |
+  Validate automatically validates AI assistant code plugin structure, schemas, and compliance when user mentions validate plugin, check plugin, or plugin errors. runs comprehensive validation specific to AI assistant-code-plugins repository standar...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Plugin Validator
 

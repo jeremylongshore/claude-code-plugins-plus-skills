@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Implement supabase reference architecture with best-practice project
-  layout. use when designing new supabase integrations, reviewing project structure,
-  or establishing architecture standards for supabase applications. trigger with phrases
-  like "su...
 name: supabase-reference-architecture
+description: |
+  Implement supabase reference architecture with best-practice project layout. use when designing new supabase integrations, reviewing project structure, or establishing architecture standards for supabase applications. trigger with phrases like "su...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Reference Architecture
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Upgrade clerk sdk versions and handle breaking changes. use when upgrading
-  clerk packages, migrating to new sdk versions, or handling deprecation warnings.
-  trigger with phrases like "upgrade clerk", "clerk migration", "update clerk sdk",
-  "clerk br...
 name: clerk-upgrade-migration
+description: |
+  Upgrade clerk sdk versions and handle breaking changes. use when upgrading clerk packages, migrating to new sdk versions, or handling deprecation warnings. trigger with phrases like "upgrade clerk", "clerk migration", "update clerk sdk", "clerk br...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Upgrade Migration
 

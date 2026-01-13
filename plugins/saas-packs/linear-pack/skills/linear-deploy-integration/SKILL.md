@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Deploy Linear-integrated applications and track deployments. Use when
-  deploying to production, setting up deployment tracking, or integrating Linear with
-  deployment platforms. Trigger with phrases like "deploy linear integration", "linear
-  deployme...
 name: linear-deploy-integration
+description: |
+  Deploy Linear-integrated applications and track deployments. Use when deploying to production, setting up deployment tracking, or integrating Linear with deployment platforms. Trigger with phrases like "deploy linear integration", "linear deployme...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Deploy Integration
 

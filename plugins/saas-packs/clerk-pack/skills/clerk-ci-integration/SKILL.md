@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Clerk CI/CD integration with GitHub Actions and testing. Use
-  when setting up automated testing, configuring CI pipelines, or integrating Clerk
-  tests into your build process. Trigger with phrases like "clerk CI", "clerk GitHub
-  Actions", "...
 name: clerk-ci-integration
+description: |
+  Configure Clerk CI/CD integration with GitHub Actions and testing. Use when setting up automated testing, configuring CI pipelines, or integrating Clerk tests into your build process. Trigger with phrases like "clerk CI", "clerk GitHub Actions", "...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Ci Integration
 

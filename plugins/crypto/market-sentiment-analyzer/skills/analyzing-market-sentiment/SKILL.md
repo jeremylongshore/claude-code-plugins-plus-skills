@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Analyze crypto market sentiment from social media, news, and on-chain
-  metrics. Use when gauging market sentiment and social trends. Trigger with phrases
-  like "analyze sentiment", "check market mood", or "gauge social trends".
 name: analyzing-market-sentiment
+description: |
+  Analyze crypto market sentiment from social media, news, and on-chain metrics. Use when gauging market sentiment and social trends. Trigger with phrases like "analyze sentiment", "check market mood", or "gauge social trends".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Analyzing Market Sentiment
 

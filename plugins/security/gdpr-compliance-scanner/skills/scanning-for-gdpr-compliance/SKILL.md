@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Scan for gdpr compliance issues in data handling and privacy practices.
-  use when ensuring eu data protection compliance. trigger with 'scan gdpr compliance',
-  'check data privacy', or 'validate gdpr'.
 name: scanning-for-gdpr-compliance
+description: |
+  Scan for gdpr compliance issues in data handling and privacy practices. use when ensuring eu data protection compliance. trigger with 'scan gdpr compliance', 'check data privacy', or 'validate gdpr'.
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gdpr Compliance Scanner
 

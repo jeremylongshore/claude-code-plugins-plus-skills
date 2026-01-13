@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute ideogram secondary workflow: core workflow b. use when implementing
-  secondary use case, or complementing primary workflow. trigger with phrases like
-  "ideogram secondary workflow", "secondary task with ideogram".'
 name: ideogram-core-workflow-b
+description: |
+  Execute ideogram secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like "ideogram secondary workflow", "secondary task with ideogram".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ideogram Core Workflow B
 

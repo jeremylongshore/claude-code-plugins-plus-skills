@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Juicebox local development workflow. Use when setting up local
-  testing, mock data, or development environment for Juicebox integration work. Trigger
-  with phrases like "juicebox local dev", "juicebox development setup", "juicebox
-  mock dat...
 name: juicebox-local-dev-loop
+description: |
+  Configure Juicebox local development workflow. Use when setting up local testing, mock data, or development environment for Juicebox integration work. Trigger with phrases like "juicebox local dev", "juicebox development setup", "juicebox mock dat...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Local Dev Loop
 

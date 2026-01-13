@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Grep
-license: MIT
-description: Apply perplexity security best practices for secrets and access control.
-  use when securing api keys, implementing least privilege access, or auditing perplexity
-  security configuration. trigger with phrases like "perplexity security", "perplexity
-  s...
 name: perplexity-security-basics
+description: |
+  Apply perplexity security best practices for secrets and access control. use when securing api keys, implementing least privilege access, or auditing perplexity security configuration. trigger with phrases like "perplexity security", "perplexity s...
+allowed-tools: Read, Write, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Security Basics
 

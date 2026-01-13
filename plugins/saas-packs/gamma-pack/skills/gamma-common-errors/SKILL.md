@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Debug and resolve common Gamma API errors. Use when encountering authentication
-  failures, rate limits, generation errors, or unexpected API responses. Trigger with
-  phrases like "gamma error", "gamma not working", "gamma API error", "gamma debug",
-  ...
 name: gamma-common-errors
+description: |
+  Debug and resolve common Gamma API errors. Use when encountering authentication failures, rate limits, generation errors, or unexpected API responses. Trigger with phrases like "gamma error", "gamma not working", "gamma API error", "gamma debug", ...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gamma Common Errors
 

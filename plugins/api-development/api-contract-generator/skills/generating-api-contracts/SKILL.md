@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Generate API contracts and OpenAPI specifications from code or design
-  documents. Use when documenting API contracts and specifications. Trigger with phrases
-  like "generate API contract", "create OpenAPI spec", or "document API contract".
 name: generating-api-contracts
+description: |
+  Generate API contracts and OpenAPI specifications from code or design documents. Use when documenting API contracts and specifications. Trigger with phrases like "generate API contract", "create OpenAPI spec", or "document API contract".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Generating Api Contracts
 

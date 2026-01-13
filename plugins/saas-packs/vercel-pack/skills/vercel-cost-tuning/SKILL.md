@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Optimize Vercel costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Vercel billing, reducing API costs, or implementing usage monitoring
-  and budget alerts. Trigger with phrases like "vercel cost", "vercel billing", "re...
 name: vercel-cost-tuning
+description: |
+  Optimize Vercel costs through tier selection, sampling, and usage monitoring. Use when analyzing Vercel billing, reducing API costs, or implementing usage monitoring and budget alerts. Trigger with phrases like "vercel cost", "vercel billing", "re...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Cost Tuning
 

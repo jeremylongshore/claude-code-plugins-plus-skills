@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep, Glob
-license: MIT
-description: Configure Cascade AI agent for new team projects. Activate when users
-  mention "setup cascade", "configure windsurf ai", "initialize cascade agent", "new
-  windsurf project", or "onboard team to windsurf". Handles agent configuration, context
-  setting...
 name: windsurf-cascade-onboarding
+description: |
+  Configure Cascade AI agent for new team projects. Activate when users mention "setup cascade", "configure windsurf ai", "initialize cascade agent", "new windsurf project", or "onboard team to windsurf". Handles agent configuration, context setting...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep, Glob
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Cascade Onboarding
 

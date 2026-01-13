@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Groq example. Use when starting a new Groq integration,
-  testing your setup, or learning basic Groq API patterns. Trigger with phrases like
-  "groq hello world", "groq example", "groq quick start", "simple groq code".
 name: groq-hello-world
+description: |
+  Create a minimal working Groq example. Use when starting a new Groq integration, testing your setup, or learning basic Groq API patterns. Trigger with phrases like "groq hello world", "groq example", "groq quick start", "simple groq code".
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Groq Hello World
 

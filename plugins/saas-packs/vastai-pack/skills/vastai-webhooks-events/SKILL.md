@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement vast.ai webhook signature validation and event handling. use
-  when setting up webhook endpoints, implementing signature verification, or handling
-  vast.ai event notifications securely. trigger with phrases like "vastai webhook",
-  "vastai ev...
 name: vastai-webhooks-events
+description: |
+  Implement vast.ai webhook signature validation and event handling. use when setting up webhook endpoints, implementing signature verification, or handling vast.ai event notifications securely. trigger with phrases like "vastai webhook", "vastai ev...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vastai Webhooks Events
 

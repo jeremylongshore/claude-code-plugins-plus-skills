@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Understand granola usage limits, quotas, and plan restrictions. use when
-  hitting usage limits, planning capacity, or understanding plan differences. trigger
-  with phrases like "granola limits", "granola quota", "granola usage", "granola plan
-  limits...
 name: granola-rate-limits
+description: |
+  Understand granola usage limits, quotas, and plan restrictions. use when hitting usage limits, planning capacity, or understanding plan differences. trigger with phrases like "granola limits", "granola quota", "granola usage", "granola plan limits...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Granola Rate Limits
 

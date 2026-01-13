@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix exa common errors and exceptions. use when encountering
-  exa errors, debugging failed requests, or troubleshooting integration issues. trigger
-  with phrases like "exa error", "fix exa", "exa not working", "debug exa".
 name: exa-common-errors
+description: |
+  Diagnose and fix exa common errors and exceptions. use when encountering exa errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "exa error", "fix exa", "exa not working", "debug exa".
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Common Errors
 

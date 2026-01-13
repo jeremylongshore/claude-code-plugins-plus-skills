@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep
-license: MIT
-description: Collect replit debug evidence for support tickets and troubleshooting.
-  use when encountering persistent issues, preparing support tickets, or collecting
-  diagnostic information for replit problems. trigger with phrases like "replit debug",
-  "replit ...
 name: replit-debug-bundle
+description: |
+  Collect replit debug evidence for support tickets and troubleshooting. use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for replit problems. trigger with phrases like "replit debug", "replit ...
+allowed-tools: Read, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Debug Bundle
 

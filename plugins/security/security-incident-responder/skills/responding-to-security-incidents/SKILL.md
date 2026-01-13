@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Analyze and guide security incident response, investigation, and remediation
-  processes. Use when you need to handle security breaches, classify incidents, develop
-  response playbooks, gather forensic evidence, or coordinate remediation efforts.
-  Tri...
 name: responding-to-security-incidents
+description: |
+  Analyze and guide security incident response, investigation, and remediation processes. Use when you need to handle security breaches, classify incidents, develop response playbooks, gather forensic evidence, or coordinate remediation efforts. Tri...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Responding To Security Incidents
 

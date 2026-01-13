@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when setting up log aggregation solutions using elk, loki,
-  or splunk. trigger with phrases like "setup log aggregation", "deploy elk stack",
-  "configure loki", or "install splunk". generates production-ready configurations
-  for data inge...
 name: setting-up-log-aggregation
+description: |
+  Execute use when setting up log aggregation solutions using elk, loki, or splunk. trigger with phrases like "setup log aggregation", "deploy elk stack", "configure loki", or "install splunk". generates production-ready configurations for data inge...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Log Aggregation Setup
 

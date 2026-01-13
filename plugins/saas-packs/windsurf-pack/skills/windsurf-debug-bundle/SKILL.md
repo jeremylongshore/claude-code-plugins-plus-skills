@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep
-license: MIT
-description: Collect windsurf debug evidence for support tickets and troubleshooting.
-  use when encountering persistent issues, preparing support tickets, or collecting
-  diagnostic information for windsurf problems. trigger with phrases like "windsurf
-  debug", "w...
 name: windsurf-debug-bundle
+description: |
+  Collect windsurf debug evidence for support tickets and troubleshooting. use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for windsurf problems. trigger with phrases like "windsurf debug", "w...
+allowed-tools: Read, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Debug Bundle
 

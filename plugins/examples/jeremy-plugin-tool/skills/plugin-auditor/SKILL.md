@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Audit automatically audits AI assistant code plugins for security vulnerabilities,
-  best practices, AI assistant.md compliance, and quality standards when user mentions
-  audit plugin, security review, or best practices check. specific to AI assistan...
 name: plugin-auditor
+description: |
+  Audit automatically audits AI assistant code plugins for security vulnerabilities, best practices, AI assistant.md compliance, and quality standards when user mentions audit plugin, security review, or best practices check. specific to AI assistan...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Plugin Auditor
 

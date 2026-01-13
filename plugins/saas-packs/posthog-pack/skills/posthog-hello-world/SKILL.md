@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working PostHog example. Use when starting a new PostHog
-  integration, testing your setup, or learning basic PostHog API patterns. Trigger
-  with phrases like "posthog hello world", "posthog example", "posthog quick start",
-  "simple p...
 name: posthog-hello-world
+description: |
+  Create a minimal working PostHog example. Use when starting a new PostHog integration, testing your setup, or learning basic PostHog API patterns. Trigger with phrases like "posthog hello world", "posthog example", "posthog quick start", "simple p...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # PostHog Hello World
 

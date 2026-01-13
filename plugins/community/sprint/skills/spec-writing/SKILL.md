@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read
-license: MIT
-description: Execute this skill should be used when the user asks about "writing specs",
-  "specs.md format", "how to write specifications", "sprint requirements", "testing
-  configuration", "scope definition", or needs guidance on creating effective sprint
-  specif...
 name: spec-writing
+description: |
+  Execute this skill should be used when the user asks about "writing specs", "specs.md format", "how to write specifications", "sprint requirements", "testing configuration", "scope definition", or needs guidance on creating effective sprint specif...
+allowed-tools: Read
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Spec Writing
 

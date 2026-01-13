@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Supabase example. Use when starting a new Supabase
-  integration, testing your setup, or learning basic Supabase API patterns. Trigger
-  with phrases like "supabase hello world", "supabase example", "supabase quick start",
-  "si...
 name: supabase-hello-world
+description: |
+  Create a minimal working Supabase example. Use when starting a new Supabase integration, testing your setup, or learning basic Supabase API patterns. Trigger with phrases like "supabase hello world", "supabase example", "supabase quick start", "si...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Hello World
 

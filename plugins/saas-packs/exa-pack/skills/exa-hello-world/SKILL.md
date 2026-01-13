@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Exa example. Use when starting a new Exa integration,
-  testing your setup, or learning basic Exa API patterns. Trigger with phrases like
-  "exa hello world", "exa example", "exa quick start", "simple exa code".
 name: exa-hello-world
+description: |
+  Create a minimal working Exa example. Use when starting a new Exa integration, testing your setup, or learning basic Exa API patterns. Trigger with phrases like "exa hello world", "exa example", "exa quick start", "simple exa code".
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Hello World
 

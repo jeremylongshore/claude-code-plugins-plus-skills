@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Handle linear api rate limiting and quotas effectively. use when dealing
-  with rate limit errors, implementing throttling, or optimizing api usage patterns.
-  trigger with phrases like "linear rate limit", "linear throttling", "linear api
-  quota", "li...
 name: linear-rate-limits
+description: |
+  Handle linear api rate limiting and quotas effectively. use when dealing with rate limit errors, implementing throttling, or optimizing api usage patterns. trigger with phrases like "linear rate limit", "linear throttling", "linear api quota", "li...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Rate Limits
 

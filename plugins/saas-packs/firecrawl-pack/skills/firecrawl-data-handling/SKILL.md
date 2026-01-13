@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement firecrawl pii handling, data retention, and gdpr/ccpa compliance
-  patterns. use when handling sensitive data, implementing data redaction, configuring
-  retention policies, or ensuring compliance with privacy regulations for firecrawl
-  integ...
 name: firecrawl-data-handling
+description: |
+  Implement firecrawl pii handling, data retention, and gdpr/ccpa compliance patterns. use when handling sensitive data, implementing data redaction, configuring retention policies, or ensuring compliance with privacy regulations for firecrawl integ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # FireCrawl Data Handling
 

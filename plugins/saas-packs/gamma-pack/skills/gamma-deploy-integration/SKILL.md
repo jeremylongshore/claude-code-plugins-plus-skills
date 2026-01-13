@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Deploy Gamma-integrated applications to production environments. Use
-  when deploying to Vercel, AWS, GCP, or other cloud platforms with proper secret
-  management and configuration. Trigger with phrases like "gamma deploy", "gamma production",
-  "gamma...
 name: gamma-deploy-integration
+description: |
+  Deploy Gamma-integrated applications to production environments. Use when deploying to Vercel, AWS, GCP, or other cloud platforms with proper secret management and configuration. Trigger with phrases like "gamma deploy", "gamma production", "gamma...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gamma Deploy Integration
 

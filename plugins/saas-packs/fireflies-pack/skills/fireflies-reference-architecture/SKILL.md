@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Implement fireflies.ai reference architecture with best-practice project
-  layout. use when designing new fireflies.ai integrations, reviewing project structure,
-  or establishing architecture standards for fireflies.ai applications. trigger with
-  phra...
 name: fireflies-reference-architecture
+description: |
+  Implement fireflies.ai reference architecture with best-practice project layout. use when designing new fireflies.ai integrations, reviewing project structure, or establishing architecture standards for fireflies.ai applications. trigger with phra...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Fireflies Reference Architecture
 

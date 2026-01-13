@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Process use when you need to implement multi-tier caching to improve
-  database performance. This skill sets up Redis, in-memory caching, and CDN layers
-  to reduce database load. Trigger with phrases like "implement database caching",
-  "add Redis cach...
 name: implementing-database-caching
+description: |
+  Process use when you need to implement multi-tier caching to improve database performance. This skill sets up Redis, in-memory caching, and CDN layers to reduce database load. Trigger with phrases like "implement database caching", "add Redis cach...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Database Cache Layer
 

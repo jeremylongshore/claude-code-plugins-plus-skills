@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Execute set up comprehensive logging and debugging for kling ai. use
-  when investigating issues or monitoring requests. trigger with phrases like 'klingai
-  debug', 'kling ai logging', 'trace klingai', 'monitor klingai requests'.
 name: klingai-debug-bundle
+description: |
+  Execute set up comprehensive logging and debugging for kling ai. use when investigating issues or monitoring requests. trigger with phrases like 'klingai debug', 'kling ai logging', 'trace klingai', 'monitor klingai requests'.
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Debug Bundle
 

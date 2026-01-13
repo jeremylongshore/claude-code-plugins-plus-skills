@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Configure Vercel enterprise SSO, role-based access control, and organization
-  management. Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for Vercel. Trigger with phrases like
-  "ve...
 name: vercel-enterprise-rbac
+description: |
+  Configure Vercel enterprise SSO, role-based access control, and organization management. Use when implementing SSO integration, configuring role-based permissions, or setting up organization-level controls for Vercel. Trigger with phrases like "ve...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Enterprise Rbac
 

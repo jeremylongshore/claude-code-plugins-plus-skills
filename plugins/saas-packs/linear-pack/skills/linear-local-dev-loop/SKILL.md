@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Set up local linear development environment and testing workflow. use
-  when configuring local development, testing integrations, or setting up a development
-  workflow with linear. trigger with phrases like "linear local development", "linear
-  dev set...
 name: linear-local-dev-loop
+description: |
+  Set up local linear development environment and testing workflow. use when configuring local development, testing integrations, or setting up a development workflow with linear. trigger with phrases like "linear local development", "linear dev set...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Local Dev Loop
 

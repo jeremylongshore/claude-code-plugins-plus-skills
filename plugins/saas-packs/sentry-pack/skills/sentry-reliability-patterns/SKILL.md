@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Build reliable Sentry integrations. Use when handling SDK failures gracefully,
-  implementing retry logic, or ensuring error tracking uptime. Trigger with phrases
-  like "sentry reliability", "sentry failover", "sentry sdk failure handling", "resilien...
 name: sentry-reliability-patterns
+description: |
+  Build reliable Sentry integrations. Use when handling SDK failures gracefully, implementing retry logic, or ensuring error tracking uptime. Trigger with phrases like "sentry reliability", "sentry failover", "sentry sdk failure handling", "resilien...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Reliability Patterns
 

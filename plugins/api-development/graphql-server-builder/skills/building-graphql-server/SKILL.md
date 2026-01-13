@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Build production-ready GraphQL servers with schema design, resolvers,
-  and subscriptions. Use when building GraphQL APIs with schemas and resolvers. Trigger
-  with phrases like "build GraphQL API", "create GraphQL server", or "setup GraphQL".
 name: building-graphql-server
+description: |
+  Build production-ready GraphQL servers with schema design, resolvers, and subscriptions. Use when building GraphQL APIs with schemas and resolvers. Trigger with phrases like "build GraphQL API", "create GraphQL server", or "setup GraphQL".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Building Graphql Server
 

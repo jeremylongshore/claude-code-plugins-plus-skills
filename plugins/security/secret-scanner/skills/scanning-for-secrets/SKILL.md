@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Detect exposed secrets, api keys, and credentials in code. use when auditing
-  for secret leaks. trigger with 'scan for secrets', 'find exposed keys', or 'check
-  credentials'.
 name: scanning-for-secrets
+description: |
+  Detect exposed secrets, api keys, and credentials in code. use when auditing for secret leaks. trigger with 'scan for secrets', 'find exposed keys', or 'check credentials'.
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Secret Scanner
 

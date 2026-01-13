@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Reference architectures for lindy ai integrations. use when designing
-  systems, planning architecture, or implementing production patterns. trigger with
-  phrases like "lindy architecture", "lindy design", "lindy system design", "lindy
-  patterns".
 name: lindy-reference-architecture
+description: |
+  Reference architectures for lindy ai integrations. use when designing systems, planning architecture, or implementing production patterns. trigger with phrases like "lindy architecture", "lindy design", "lindy system design", "lindy patterns".
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Reference Architecture
 

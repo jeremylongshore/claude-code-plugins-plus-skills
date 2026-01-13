@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Execute apply production-ready vercel sdk patterns for typescript and
-  python. use when implementing vercel integrations, refactoring sdk usage, or establishing
-  team coding standards for vercel. trigger with phrases like "vercel sdk patterns",
-  "ver...
 name: vercel-sdk-patterns
+description: |
+  Execute apply production-ready vercel sdk patterns for typescript and python. use when implementing vercel integrations, refactoring sdk usage, or establishing team coding standards for vercel. trigger with phrases like "vercel sdk patterns", "ver...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Sdk Patterns
 

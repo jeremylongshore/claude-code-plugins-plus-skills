@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Create and manage Windsurf Flows for repetitive tasks. Activate when
-  users mention "windsurf flows", "task automation", "workflow automation", "repetitive
-  tasks", or "process automation". Handles Flow creation and management. Use when
-  working with...
 name: windsurf-flows-automation
+description: |
+  Create and manage Windsurf Flows for repetitive tasks. Activate when users mention "windsurf flows", "task automation", "workflow automation", "repetitive tasks", or "process automation". Handles Flow creation and management. Use when working with...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Flows Automation
 

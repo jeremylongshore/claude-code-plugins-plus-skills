@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Optimize Perplexity API performance with caching, batching, and connection
-  pooling. Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Perplexity integrations. Trigger with phrases
-  like ...
 name: perplexity-performance-tuning
+description: |
+  Optimize Perplexity API performance with caching, batching, and connection pooling. Use when experiencing slow API responses, implementing caching strategies, or optimizing request throughput for Perplexity integrations. Trigger with phrases like ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Performance Tuning
 

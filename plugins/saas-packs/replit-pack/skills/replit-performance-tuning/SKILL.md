@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Optimize Replit API performance with caching, batching, and connection
-  pooling. Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Replit integrations. Trigger with phrases like
-  "replit ...
 name: replit-performance-tuning
+description: |
+  Optimize Replit API performance with caching, batching, and connection pooling. Use when experiencing slow API responses, implementing caching strategies, or optimizing request throughput for Replit integrations. Trigger with phrases like "replit ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Performance Tuning
 

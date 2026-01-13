@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep
-license: MIT
-description: Collect perplexity debug evidence for support tickets and troubleshooting.
-  use when encountering persistent issues, preparing support tickets, or collecting
-  diagnostic information for perplexity problems. trigger with phrases like "perplexity
-  debu...
 name: perplexity-debug-bundle
+description: |
+  Collect perplexity debug evidence for support tickets and troubleshooting. use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for perplexity problems. trigger with phrases like "perplexity debu...
+allowed-tools: Read, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Debug Bundle
 

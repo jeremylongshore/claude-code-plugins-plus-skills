@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement exa lint rules, policy enforcement, and automated guardrails.
-  use when setting up code quality rules for exa integrations, implementing pre-commit
-  hooks, or configuring ci policy checks for exa best practices. trigger with phrases
-  like "...
 name: exa-policy-guardrails
+description: |
+  Implement exa lint rules, policy enforcement, and automated guardrails. use when setting up code quality rules for exa integrations, implementing pre-commit hooks, or configuring ci policy checks for exa best practices. trigger with phrases like "...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Policy Guardrails
 

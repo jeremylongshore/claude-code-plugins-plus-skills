@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Identify and avoid firecrawl anti-patterns and common integration mistakes.
-  use when reviewing firecrawl code for issues, onboarding new developers, or auditing
-  existing firecrawl integrations for best practices violations. trigger with phrases
-  li...
 name: firecrawl-known-pitfalls
+description: |
+  Identify and avoid firecrawl anti-patterns and common integration mistakes. use when reviewing firecrawl code for issues, onboarding new developers, or auditing existing firecrawl integrations for best practices violations. trigger with phrases li...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firecrawl Known Pitfalls
 

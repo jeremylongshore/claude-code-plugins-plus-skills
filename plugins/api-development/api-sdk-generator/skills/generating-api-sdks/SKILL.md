@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Generate client SDKs in multiple languages from OpenAPI specifications.
-  Use when generating client libraries for API consumption. Trigger with phrases like
-  "generate SDK", "create client library", or "build API SDK".
 name: generating-api-sdks
+description: |
+  Generate client SDKs in multiple languages from OpenAPI specifications. Use when generating client libraries for API consumption. Trigger with phrases like "generate SDK", "create client library", or "build API SDK".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Generating Api Sdks
 

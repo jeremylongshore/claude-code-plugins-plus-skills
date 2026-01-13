@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, WebFetch, WebSearch, Grep, Bash
-license: MIT
-description: Validate messaging consistency across website, GitHub repos, and local
-  documentation generating read-only discrepancy reports. Use when checking content
-  alignment or finding mixed messaging. Trigger with phrases like "check consistency",
-  "validate...
 name: 000-jeremy-content-consistency-validator
+description: |
+  Validate messaging consistency across website, GitHub repos, and local documentation generating read-only discrepancy reports. Use when checking content alignment or finding mixed messaging. Trigger with phrases like "check consistency", "validate...
+allowed-tools: Read, WebFetch, WebSearch, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # 000 Jeremy Content Consistency Validator
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Production readiness checklist for gamma integration. use when preparing
-  to deploy gamma integration to production, or auditing existing production setup.
-  trigger with phrases like "gamma production", "gamma prod ready", "gamma go live",
-  "gamma de...
 name: gamma-prod-checklist
+description: |
+  Production readiness checklist for gamma integration. use when preparing to deploy gamma integration to production, or auditing existing production setup. trigger with phrases like "gamma production", "gamma prod ready", "gamma go live", "gamma de...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gamma Prod Checklist
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Optimize Vast.ai API performance with caching, batching, and connection
-  pooling. Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Vast.ai integrations. Trigger with phrases
-  like "vasta...
 name: vastai-performance-tuning
+description: |
+  Optimize Vast.ai API performance with caching, batching, and connection pooling. Use when experiencing slow API responses, implementing caching strategies, or optimizing request throughput for Vast.ai integrations. Trigger with phrases like "vasta...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vastai Performance Tuning
 

@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Implement api migrations between versions, platforms, or frameworks with
-  minimal downtime. use when upgrading apis between versions. trigger with phrases
-  like "migrate the api", "upgrade api version", or "migrate to new api".
 name: migrating-apis
+description: |
+  Implement api migrations between versions, platforms, or frameworks with minimal downtime. use when upgrading apis between versions. trigger with phrases like "migrate the api", "upgrade api version", or "migrate to new api".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Migrating Apis
 

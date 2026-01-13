@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Optimize Windsurf costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Windsurf billing, reducing API costs, or implementing usage monitoring
-  and budget alerts. Trigger with phrases like "windsurf cost", "windsurf billi...
 name: windsurf-cost-tuning
+description: |
+  Optimize Windsurf costs through tier selection, sampling, and usage monitoring. Use when analyzing Windsurf billing, reducing API costs, or implementing usage monitoring and budget alerts. Trigger with phrases like "windsurf cost", "windsurf billi...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Cost Tuning
 

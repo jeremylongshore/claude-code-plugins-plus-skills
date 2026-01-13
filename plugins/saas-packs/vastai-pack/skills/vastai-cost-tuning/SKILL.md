@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Optimize Vast.ai costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Vast.ai billing, reducing API costs, or implementing usage monitoring
-  and budget alerts. Trigger with phrases like "vastai cost", "vastai billing", "...
 name: vastai-cost-tuning
+description: |
+  Optimize Vast.ai costs through tier selection, sampling, and usage monitoring. Use when analyzing Vast.ai billing, reducing API costs, or implementing usage monitoring and budget alerts. Trigger with phrases like "vastai cost", "vastai billing", "...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vastai Cost Tuning
 

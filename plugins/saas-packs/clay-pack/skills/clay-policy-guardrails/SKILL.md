@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement clay lint rules, policy enforcement, and automated guardrails.
-  use when setting up code quality rules for clay integrations, implementing pre-commit
-  hooks, or configuring ci policy checks for clay best practices. trigger with phrases
-  lik...
 name: clay-policy-guardrails
+description: |
+  Implement clay lint rules, policy enforcement, and automated guardrails. use when setting up code quality rules for clay integrations, implementing pre-commit hooks, or configuring ci policy checks for clay best practices. trigger with phrases lik...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Policy Guardrails
 

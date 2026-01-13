@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute calculate nft rarity scores and floor prices across collections
-  and marketplaces. use when analyzing nft collections and rarity. trigger with phrases
-  like "check nft rarity", "analyze collection", or "calculate floor price".
 name: analyzing-nft-rarity
+description: |
+  Execute calculate nft rarity scores and floor prices across collections and marketplaces. use when analyzing nft collections and rarity. trigger with phrases like "check nft rarity", "analyze collection", or "calculate floor price".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Analyzing Nft Rarity
 

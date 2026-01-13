@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Data export, retention, and gdpr compliance for granola. use when managing
-  data exports, configuring retention policies, or ensuring regulatory compliance.
-  trigger with phrases like "granola export", "granola data", "granola gdpr", "granola
-  retent...
 name: granola-data-handling
+description: |
+  Data export, retention, and gdpr compliance for granola. use when managing data exports, configuring retention policies, or ensuring regulatory compliance. trigger with phrases like "granola export", "granola data", "granola gdpr", "granola retent...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Granola Data Handling
 

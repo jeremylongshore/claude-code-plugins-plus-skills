@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute supabase major re-architecture and migration strategies with
-  strangler fig pattern. use when migrating to or from supabase, performing major
-  version upgrades, or re-platforming existing integrations to supabase. trigger with
-  phrases like "...
 name: supabase-migration-deep-dive
+description: |
+  Execute supabase major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from supabase, performing major version upgrades, or re-platforming existing integrations to supabase. trigger with phrases like "...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Migration Deep Dive
 

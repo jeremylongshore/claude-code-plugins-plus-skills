@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Configure Vast.ai enterprise SSO, role-based access control, and organization
-  management. Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for Vast.ai. Trigger with phrases like
-  "...
 name: vastai-enterprise-rbac
+description: |
+  Configure Vast.ai enterprise SSO, role-based access control, and organization management. Use when implementing SSO integration, configuring role-based permissions, or setting up organization-level controls for Vast.ai. Trigger with phrases like "...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vastai Enterprise Rbac
 

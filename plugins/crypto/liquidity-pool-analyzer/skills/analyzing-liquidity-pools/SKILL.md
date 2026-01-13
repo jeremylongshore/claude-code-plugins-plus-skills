@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Analyze liquidity pool metrics including TVL, volume, fees, and impermanent
-  loss. Use when analyzing DEX liquidity pools. Trigger with phrases like "analyze
-  pool", "check TVL", or "calculate impermanent loss".
 name: analyzing-liquidity-pools
+description: |
+  Analyze liquidity pool metrics including TVL, volume, fees, and impermanent loss. Use when analyzing DEX liquidity pools. Trigger with phrases like "analyze pool", "check TVL", or "calculate impermanent loss".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Analyzing Liquidity Pools
 

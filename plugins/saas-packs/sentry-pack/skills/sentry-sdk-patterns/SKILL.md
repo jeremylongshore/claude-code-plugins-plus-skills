@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Execute best practices for using sentry sdk in typescript and python.
-  use when implementing error handling patterns, structuring sentry code, or optimizing
-  sdk usage. trigger with phrases like "sentry best practices", "sentry patterns",
-  "sentry sd...
 name: sentry-sdk-patterns
+description: |
+  Execute best practices for using sentry sdk in typescript and python. use when implementing error handling patterns, structuring sentry code, or optimizing sdk usage. trigger with phrases like "sentry best practices", "sentry patterns", "sentry sd...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Sdk Patterns
 

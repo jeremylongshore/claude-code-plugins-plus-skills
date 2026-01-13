@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Create your first project with Cursor AI features. Triggers on "cursor
-  hello world", "first cursor project", "cursor getting started", "try cursor ai",
-  "cursor basics". Use when working with cursor hello world functionality. Trigger
-  with phrases l...
 name: cursor-hello-world
+description: |
+  Create your first project with Cursor AI features. Triggers on "cursor hello world", "first cursor project", "cursor getting started", "try cursor ai", "cursor basics". Use when working with cursor hello world functionality. Trigger with phrases l...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Hello World
 

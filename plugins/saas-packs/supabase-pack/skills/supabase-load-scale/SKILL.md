@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement supabase load testing, auto-scaling, and capacity planning
-  strategies. use when running performance tests, configuring horizontal scaling,
-  or planning capacity for supabase integrations. trigger with phrases like "supabase
-  load test", "s...
 name: supabase-load-scale
+description: |
+  Implement supabase load testing, auto-scaling, and capacity planning strategies. use when running performance tests, configuring horizontal scaling, or planning capacity for supabase integrations. trigger with phrases like "supabase load test", "s...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Load Scale
 

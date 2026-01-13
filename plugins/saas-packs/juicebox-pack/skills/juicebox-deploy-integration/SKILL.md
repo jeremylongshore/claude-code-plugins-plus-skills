@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Deploy Juicebox integrations to production. Use when deploying to cloud
-  platforms, configuring production environments, or setting up infrastructure for
-  Juicebox. Trigger with phrases like "deploy juicebox", "juicebox production deploy",
-  "juicebox...
 name: juicebox-deploy-integration
+description: |
+  Deploy Juicebox integrations to production. Use when deploying to cloud platforms, configuring production environments, or setting up infrastructure for Juicebox. Trigger with phrases like "deploy juicebox", "juicebox production deploy", "juicebox...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Deploy Integration
 

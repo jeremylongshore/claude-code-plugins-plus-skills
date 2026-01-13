@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Implement ideogram reference architecture with best-practice project
-  layout. use when designing new ideogram integrations, reviewing project structure,
-  or establishing architecture standards for ideogram applications. trigger with phrases
-  like "id...
 name: ideogram-reference-architecture
+description: |
+  Implement ideogram reference architecture with best-practice project layout. use when designing new ideogram integrations, reviewing project structure, or establishing architecture standards for ideogram applications. trigger with phrases like "id...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ideogram Reference Architecture
 

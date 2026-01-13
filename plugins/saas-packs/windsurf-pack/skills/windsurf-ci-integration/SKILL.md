@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Windsurf CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines, or integrating
-  Windsurf tests into your build process. Trigger with phrases like "windsurf CI",
-  "windsurf GitHub...
 name: windsurf-ci-integration
+description: |
+  Configure Windsurf CI/CD integration with GitHub Actions and testing. Use when setting up automated testing, configuring CI pipelines, or integrating Windsurf tests into your build process. Trigger with phrases like "windsurf CI", "windsurf GitHub...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Ci Integration
 

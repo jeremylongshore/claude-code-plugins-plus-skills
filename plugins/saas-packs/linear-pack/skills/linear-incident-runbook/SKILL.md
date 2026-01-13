@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Production incident response procedures for linear integrations. use
-  when handling production issues, diagnosing outages, or responding to linear-related
-  incidents. trigger with phrases like "linear incident", "linear outage", "linear
-  production i...
 name: linear-incident-runbook
+description: |
+  Production incident response procedures for linear integrations. use when handling production issues, diagnosing outages, or responding to linear-related incidents. trigger with phrases like "linear incident", "linear outage", "linear production i...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Incident Runbook
 

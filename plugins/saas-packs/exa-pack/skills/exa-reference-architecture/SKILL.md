@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Implement exa reference architecture with best-practice project layout.
-  use when designing new exa integrations, reviewing project structure, or establishing
-  architecture standards for exa applications. trigger with phrases like "exa architecture"...
 name: exa-reference-architecture
+description: |
+  Implement exa reference architecture with best-practice project layout. use when designing new exa integrations, reviewing project structure, or establishing architecture standards for exa applications. trigger with phrases like "exa architecture"...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Reference Architecture
 

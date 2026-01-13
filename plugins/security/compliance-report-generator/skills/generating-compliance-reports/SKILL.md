@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Generate comprehensive compliance reports for security standards. Use
-  when creating compliance documentation. Trigger with 'generate compliance report',
-  'compliance status', or 'audit compliance'.
 name: generating-compliance-reports
+description: |
+  Generate comprehensive compliance reports for security standards. Use when creating compliance documentation. Trigger with 'generate compliance report', 'compliance status', or 'audit compliance'.
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Compliance Report Generator
 

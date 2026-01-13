@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement retell ai reliability patterns including circuit breakers,
-  idempotency, and graceful degradation. use when building fault-tolerant retell ai
-  integrations, implementing retry strategies, or adding resilience to production
-  retell ai servic...
 name: retellai-reliability-patterns
+description: |
+  Implement retell ai reliability patterns including circuit breakers, idempotency, and graceful degradation. use when building fault-tolerant retell ai integrations, implementing retry strategies, or adding resilience to production retell ai servic...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Reliability Patterns
 

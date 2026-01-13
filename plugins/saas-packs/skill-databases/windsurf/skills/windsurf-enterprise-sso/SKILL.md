@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure enterprise SSO integration for Windsurf. Activate when users
-  mention "sso configuration", "single sign-on", "enterprise authentication", "saml
-  setup", or "identity provider". Handles enterprise identity integration. Use when
-  working with...
 name: windsurf-enterprise-sso
+description: |
+  Configure enterprise SSO integration for Windsurf. Activate when users mention "sso configuration", "single sign-on", "enterprise authentication", "saml setup", or "identity provider". Handles enterprise identity integration. Use when working with...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Enterprise Sso
 

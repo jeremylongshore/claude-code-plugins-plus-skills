@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Optimize Apollo.io API performance. Use when improving API response times,
-  reducing latency, or optimizing bulk operations. Trigger with phrases like "apollo
-  performance", "optimize apollo", "apollo slow", "apollo latency", "speed up apollo".
 name: apollo-performance-tuning
+description: |
+  Optimize Apollo.io API performance. Use when improving API response times, reducing latency, or optimizing bulk operations. Trigger with phrases like "apollo performance", "optimize apollo", "apollo slow", "apollo latency", "speed up apollo".
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Performance Tuning
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Grep
-license: MIT
-description: Apply retell ai security best practices for secrets and access control.
-  use when securing api keys, implementing least privilege access, or auditing retell
-  ai security configuration. trigger with phrases like "retellai security", "retellai
-  secrets...
 name: retellai-security-basics
+description: |
+  Apply retell ai security best practices for secrets and access control. use when securing api keys, implementing least privilege access, or auditing retell ai security configuration. trigger with phrases like "retellai security", "retellai secrets...
+allowed-tools: Read, Write, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Security Basics
 

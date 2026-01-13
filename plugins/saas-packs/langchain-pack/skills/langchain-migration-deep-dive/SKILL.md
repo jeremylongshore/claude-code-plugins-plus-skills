@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Complex migration strategies for langchain applications. use when migrating
-  from legacy llm frameworks, refactoring large codebases, or implementing phased
-  migration approaches. trigger with phrases like "langchain migration strategy",
-  "migrate to...
 name: langchain-migration-deep-dive
+description: |
+  Complex migration strategies for langchain applications. use when migrating from legacy llm frameworks, refactoring large codebases, or implementing phased migration approaches. trigger with phrases like "langchain migration strategy", "migrate to...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Migration Deep Dive
 

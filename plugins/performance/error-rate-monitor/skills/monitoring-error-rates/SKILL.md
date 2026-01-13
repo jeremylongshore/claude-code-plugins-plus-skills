@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep, Glob
-license: MIT
-description: Monitor and analyze application error rates to improve reliability. Use
-  when tracking errors in applications including HTTP errors, exceptions, and database
-  issues. Trigger with phrases like "monitor error rates", "track application errors",
-  or "a...
 name: monitoring-error-rates
+description: |
+  Monitor and analyze application error rates to improve reliability. Use when tracking errors in applications including HTTP errors, exceptions, and database issues. Trigger with phrases like "monitor error rates", "track application errors", or "a...
+allowed-tools: Read, Bash(cmd:*), Grep, Glob
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Error Rate Monitor
 

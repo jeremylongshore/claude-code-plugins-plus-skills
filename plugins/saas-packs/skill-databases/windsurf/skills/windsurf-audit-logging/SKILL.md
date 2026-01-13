@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure AI interaction audit logging for compliance. Activate when
-  users mention "audit logging", "compliance logging", "ai interaction logs", "security
-  audit", or "activity tracking". Handles compliance and audit configuration. Use
-  when analyzi...
 name: windsurf-audit-logging
+description: |
+  Configure AI interaction audit logging for compliance. Activate when users mention "audit logging", "compliance logging", "ai interaction logs", "security audit", or "activity tracking". Handles compliance and audit configuration. Use when analyzi...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Audit Logging
 

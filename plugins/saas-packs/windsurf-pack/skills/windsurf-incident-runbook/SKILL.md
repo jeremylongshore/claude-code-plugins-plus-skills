@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute windsurf incident response procedures with triage, mitigation,
-  and postmortem. use when responding to windsurf-related outages, investigating errors,
-  or running post-incident reviews for windsurf integration failures. trigger with
-  phrases ...
 name: windsurf-incident-runbook
+description: |
+  Execute windsurf incident response procedures with triage, mitigation, and postmortem. use when responding to windsurf-related outages, investigating errors, or running post-incident reviews for windsurf integration failures. trigger with phrases ...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Incident Runbook
 

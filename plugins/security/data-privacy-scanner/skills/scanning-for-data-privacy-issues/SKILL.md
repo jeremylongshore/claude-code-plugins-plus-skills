@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Scan for data privacy issues and sensitive information exposure. use
-  when reviewing data handling practices. trigger with 'scan privacy issues', 'check
-  sensitive data', or 'validate data protection'.
 name: scanning-for-data-privacy-issues
+description: |
+  Scan for data privacy issues and sensitive information exposure. use when reviewing data handling practices. trigger with 'scan privacy issues', 'check sensitive data', or 'validate data protection'.
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Data Privacy Scanner
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Fireflies.ai example. Use when starting a new
-  Fireflies.ai integration, testing your setup, or learning basic Fireflies.ai API
-  patterns. Trigger with phrases like "fireflies hello world", "fireflies example",
-  "fireflies qu...
 name: fireflies-hello-world
+description: |
+  Create a minimal working Fireflies.ai example. Use when starting a new Fireflies.ai integration, testing your setup, or learning basic Fireflies.ai API patterns. Trigger with phrases like "fireflies hello world", "fireflies example", "fireflies qu...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Fireflies.ai Hello World
 

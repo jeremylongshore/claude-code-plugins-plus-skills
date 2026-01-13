@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Execute migrate to sentry from other error tracking tools. use when migrating
-  from rollbar, bugsnag, raygun, or other error tracking solutions. trigger with phrases
-  like "migrate to sentry", "sentry migration", "switch from rollbar to sentry", "re...
 name: sentry-migration-deep-dive
+description: |
+  Execute migrate to sentry from other error tracking tools. use when migrating from rollbar, bugsnag, raygun, or other error tracking solutions. trigger with phrases like "migrate to sentry", "sentry migration", "switch from rollbar to sentry", "re...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Migration Deep Dive
 

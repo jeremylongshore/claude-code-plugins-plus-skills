@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Set up comprehensive observability for fireflies.ai integrations with
-  metrics, traces, and alerts. use when implementing monitoring for fireflies.ai operations,
-  setting up dashboards, or configuring alerting for fireflies.ai integration health.
-  tr...
 name: fireflies-observability
+description: |
+  Set up comprehensive observability for fireflies.ai integrations with metrics, traces, and alerts. use when implementing monitoring for fireflies.ai operations, setting up dashboards, or configuring alerting for fireflies.ai integration health. tr...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Fireflies Observability
 

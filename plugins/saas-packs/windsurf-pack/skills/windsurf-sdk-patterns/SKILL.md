@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply production-ready windsurf sdk patterns for typescript and python.
-  use when implementing windsurf integrations, refactoring sdk usage, or establishing
-  team coding standards for windsurf. trigger with phrases like "windsurf sdk patterns",
-  "win...
 name: windsurf-sdk-patterns
+description: |
+  Apply production-ready windsurf sdk patterns for typescript and python. use when implementing windsurf integrations, refactoring sdk usage, or establishing team coding standards for windsurf. trigger with phrases like "windsurf sdk patterns", "win...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Sdk Patterns
 

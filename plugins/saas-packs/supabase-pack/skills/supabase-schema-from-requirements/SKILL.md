@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute supabase primary workflow: schema from requirements. use when
-  starting a new project with defined data requirements, refactoring an existing schema
-  based on new features, or creating migrations from specification documents. trigger
-  with ph...'
 name: supabase-schema-from-requirements
+description: |
+  Execute supabase primary workflow: schema from requirements. use when starting a new project with defined data requirements, refactoring an existing schema based on new features, or creating migrations from specification documents. trigger with ph...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Schema from Requirements
 

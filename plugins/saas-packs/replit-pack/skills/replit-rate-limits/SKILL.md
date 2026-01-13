@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement replit rate limiting, backoff, and idempotency patterns. use
-  when handling rate limit errors, implementing retry logic, or optimizing api request
-  throughput for replit. trigger with phrases like "replit rate limit", "replit throttling",
-  ...
 name: replit-rate-limits
+description: |
+  Implement replit rate limiting, backoff, and idempotency patterns. use when handling rate limit errors, implementing retry logic, or optimizing api request throughput for replit. trigger with phrases like "replit rate limit", "replit throttling", ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Rate Limits
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute clay incident response procedures with triage, mitigation, and
-  postmortem. use when responding to clay-related outages, investigating errors, or
-  running post-incident reviews for clay integration failures. trigger with phrases
-  like "clay i...
 name: clay-incident-runbook
+description: |
+  Execute clay incident response procedures with triage, mitigation, and postmortem. use when responding to clay-related outages, investigating errors, or running post-incident reviews for clay integration failures. trigger with phrases like "clay i...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Incident Runbook
 

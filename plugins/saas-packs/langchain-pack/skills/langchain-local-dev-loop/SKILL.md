@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure LangChain local development workflow with hot reload and testing.
-  Use when setting up development environment, configuring test fixtures, or establishing
-  a rapid iteration workflow for LangChain apps. Trigger with phrases like "langchain...
 name: langchain-local-dev-loop
+description: |
+  Configure LangChain local development workflow with hot reload and testing. Use when setting up development environment, configuring test fixtures, or establishing a rapid iteration workflow for LangChain apps. Trigger with phrases like "langchain...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Local Dev Loop
 

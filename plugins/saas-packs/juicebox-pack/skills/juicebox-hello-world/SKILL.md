@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Create a minimal working Juicebox example. Use when getting started with
-  Juicebox, creating your first search, or testing basic people search functionality.
-  Trigger with phrases like "juicebox hello world", "first juicebox search", "simple
-  juicebo...
 name: juicebox-hello-world
+description: |
+  Create a minimal working Juicebox example. Use when getting started with Juicebox, creating your first search, or testing basic people search functionality. Trigger with phrases like "juicebox hello world", "first juicebox search", "simple juicebo...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Hello World
 

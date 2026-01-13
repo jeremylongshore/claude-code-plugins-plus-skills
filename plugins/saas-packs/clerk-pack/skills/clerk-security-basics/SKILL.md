@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Implement security best practices with clerk authentication. use when
-  securing your application, reviewing auth implementation, or hardening clerk configuration.
-  trigger with phrases like "clerk security", "secure clerk", "clerk best practices",
-  "...
 name: clerk-security-basics
+description: |
+  Implement security best practices with clerk authentication. use when securing your application, reviewing auth implementation, or hardening clerk configuration. trigger with phrases like "clerk security", "secure clerk", "clerk best practices", "...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Security Basics
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Apply retell ai advanced debugging techniques for hard-to-diagnose issues.
-  use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for retell ai support escalation. trigger with phrases
-  like "r...
 name: retellai-advanced-troubleshooting
+description: |
+  Apply retell ai advanced debugging techniques for hard-to-diagnose issues. use when standard troubleshooting fails, investigating complex race conditions, or preparing evidence bundles for retell ai support escalation. trigger with phrases like "r...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Advanced Troubleshooting
 

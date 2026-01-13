@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix customer.io common errors. use when troubleshooting
-  api errors, delivery issues, or integration problems with customer.io. trigger with
-  phrases like "customer.io error", "customer.io not working", "debug customer.io",
-  "customer.io...
 name: customerio-common-errors
+description: |
+  Diagnose and fix customer.io common errors. use when troubleshooting api errors, delivery issues, or integration problems with customer.io. trigger with phrases like "customer.io error", "customer.io not working", "debug customer.io", "customer.io...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Customerio Common Errors
 

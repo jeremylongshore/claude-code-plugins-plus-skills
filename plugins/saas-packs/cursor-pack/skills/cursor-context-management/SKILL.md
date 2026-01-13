@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Optimize context window usage in Cursor. Triggers on "cursor context",
-  "context window", "context limit", "cursor memory", "context management". Use when
-  working with cursor context management functionality. Trigger with phrases like
-  "cursor conte...
 name: cursor-context-management
+description: |
+  Optimize context window usage in Cursor. Triggers on "cursor context", "context window", "context limit", "cursor memory", "context management". Use when working with cursor context management functionality. Trigger with phrases like "cursor conte...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Context Management
 

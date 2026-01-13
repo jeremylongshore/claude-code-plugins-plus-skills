@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Analyze session management implementations to identify security vulnerabilities
-  in web applications. Use when you need to audit session handling, check for session
-  fixation risks, review session timeout configurations, or validate session ID gener...
 name: checking-session-security
+description: |
+  Analyze session management implementations to identify security vulnerabilities in web applications. Use when you need to audit session handling, check for session fixation risks, review session timeout configurations, or validate session ID gener...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Checking Session Security
 

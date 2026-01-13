@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute retell ai major re-architecture and migration strategies with
-  strangler fig pattern. use when migrating to or from retell ai, performing major
-  version upgrades, or re-platforming existing integrations to retell ai. trigger
-  with phrases lik...
 name: retellai-migration-deep-dive
+description: |
+  Execute retell ai major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from retell ai, performing major version upgrades, or re-platforming existing integrations to retell ai. trigger with phrases lik...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Migration Deep Dive
 

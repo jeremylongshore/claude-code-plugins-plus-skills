@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Process use when you need to work with database documentation. This skill
-  provides automated documentation generation with comprehensive guidance and automation.
-  Trigger with phrases like "generate docs", "document schema", or "create database
-  doc...
 name: database-documentation-gen
+description: |
+  Process use when you need to work with database documentation. This skill provides automated documentation generation with comprehensive guidance and automation. Trigger with phrases like "generate docs", "document schema", or "create database doc...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Database Documentation Gen
 

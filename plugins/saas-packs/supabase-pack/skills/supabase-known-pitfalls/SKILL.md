@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Execute identify and avoid supabase anti-patterns and common integration
-  mistakes. use when reviewing supabase code for issues, onboarding new developers,
-  or auditing existing supabase integrations for best practices violations. trigger
-  with phras...
 name: supabase-known-pitfalls
+description: |
+  Execute identify and avoid supabase anti-patterns and common integration mistakes. use when reviewing supabase code for issues, onboarding new developers, or auditing existing supabase integrations for best practices violations. trigger with phras...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Known Pitfalls
 

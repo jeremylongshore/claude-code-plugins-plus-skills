@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Automates software development overnight using git hooks to enforce test-driven
-  use when appropriate context detected. trigger with relevant phrases based on skill
-  purpose.
 name: overnight-development
+description: |
+  Automates software development overnight using git hooks to enforce test-driven use when appropriate context detected. trigger with relevant phrases based on skill purpose.
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Overnight Development
 

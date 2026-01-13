@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement langchain callback and event handling for webhooks. use when
-  integrating with external systems, implementing streaming, or building event-driven
-  langchain applications. trigger with phrases like "langchain callbacks", "langchain
-  webhooks...
 name: langchain-webhooks-events
+description: |
+  Implement langchain callback and event handling for webhooks. use when integrating with external systems, implementing streaming, or building event-driven langchain applications. trigger with phrases like "langchain callbacks", "langchain webhooks...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Webhooks Events
 

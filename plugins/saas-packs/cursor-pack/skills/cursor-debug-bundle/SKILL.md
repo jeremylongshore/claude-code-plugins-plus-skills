@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Debug AI suggestions and code generation in Cursor. Triggers on "debug
-  cursor ai", "cursor suggestions wrong", "bad cursor completion", "cursor ai debug".
-  Use when debugging issues or troubleshooting. Trigger with phrases like "cursor
-  debug bundle...
 name: cursor-debug-bundle
+description: |
+  Debug AI suggestions and code generation in Cursor. Triggers on "debug cursor ai", "cursor suggestions wrong", "bad cursor completion", "cursor ai debug". Use when debugging issues or troubleshooting. Trigger with phrases like "cursor debug bundle...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Debug Bundle
 

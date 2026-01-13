@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure clay sdk/cli authentication. use when setting up
-  a new clay integration, configuring api keys, or initializing clay in your project.
-  trigger with phrases like "install clay", "setup clay", "clay auth", "configure
-  clay api key".
 name: clay-install-auth
+description: |
+  Install and configure clay sdk/cli authentication. use when setting up a new clay integration, configuring api keys, or initializing clay in your project. trigger with phrases like "install clay", "setup clay", "clay auth", "configure clay api key".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Install & Auth
 

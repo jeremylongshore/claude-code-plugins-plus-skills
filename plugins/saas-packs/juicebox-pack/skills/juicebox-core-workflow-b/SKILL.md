@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Implement juicebox candidate enrichment workflow. use when enriching
-  profile data, gathering additional candidate details, or building comprehensive
-  candidate profiles. trigger with phrases like "juicebox enrich profile", "juicebox
-  candidate detai...
 name: juicebox-core-workflow-b
+description: |
+  Implement juicebox candidate enrichment workflow. use when enriching profile data, gathering additional candidate details, or building comprehensive candidate profiles. trigger with phrases like "juicebox enrich profile", "juicebox candidate detai...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Core Workflow B
 

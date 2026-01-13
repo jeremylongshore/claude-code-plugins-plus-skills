@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute ideogram incident response procedures with triage, mitigation,
-  and postmortem. use when responding to ideogram-related outages, investigating errors,
-  or running post-incident reviews for ideogram integration failures. trigger with
-  phrases ...
 name: ideogram-incident-runbook
+description: |
+  Execute ideogram incident response procedures with triage, mitigation, and postmortem. use when responding to ideogram-related outages, investigating errors, or running post-incident reviews for ideogram integration failures. trigger with phrases ...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ideogram Incident Runbook
 

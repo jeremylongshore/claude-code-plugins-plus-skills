@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Bash
-license: MIT
-description: 'Configure auto-configure Ollama when user needs local LLM deployment,
-  free AI alternatives, or wants to eliminate hosted API costs. Trigger phrases: "install
-  ollama", "local AI", "free LLM", "self-hosted AI", "replace OpenAI", "no API costs".
-  Use ...'
 name: ollama-setup
+description: |
+  Configure auto-configure Ollama when user needs local LLM deployment, free AI alternatives, or wants to eliminate hosted API costs. Trigger phrases: "install ollama", "local AI", "free LLM", "self-hosted AI", "replace OpenAI", "no API costs". Use ...
+allowed-tools: Read, Write, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ollama Setup
 

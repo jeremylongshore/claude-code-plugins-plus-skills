@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute firebase platform expert with vertex ai gemini integration for
-  authentication, firestore, storage, functions, hosting, and ai-powered features.
-  use when asked to "setup firebase", "deploy to firebase", or "integrate vertex ai
-  with firebase...
 name: firebase-vertex-ai
+description: |
+  Execute firebase platform expert with vertex ai gemini integration for authentication, firestore, storage, functions, hosting, and ai-powered features. use when asked to "setup firebase", "deploy to firebase", or "integrate vertex ai with firebase...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firebase Vertex AI
 

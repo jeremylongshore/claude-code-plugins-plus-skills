@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement coderabbit webhook signature validation and event handling.
-  use when setting up webhook endpoints, implementing signature verification, or handling
-  coderabbit event notifications securely. trigger with phrases like "coderabbit webhook",
-  ...
 name: coderabbit-webhooks-events
+description: |
+  Implement coderabbit webhook signature validation and event handling. use when setting up webhook endpoints, implementing signature verification, or handling coderabbit event notifications securely. trigger with phrases like "coderabbit webhook", ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Coderabbit Webhooks Events
 

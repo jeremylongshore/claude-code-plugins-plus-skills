@@ -4,14 +4,14 @@ description: |
   Process identify anomalies and outliers in datasets using machine learning algorithms.
   Use when analyzing data for unusual patterns, outliers, or unexpected deviations from normal behavior.
   Trigger with phrases like "detect anomalies", "find outliers", or "identify unusual patterns".
-  
-allowed-tools: Read, Bash, Grep, Glob
+allowed-tools: Read, Bash(cmd:*), Grep, Glob
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
 ---
-
 # Detecting Data Anomalies
+
+This skill provides automated assistance for detecting data anomalies tasks.
 
 ## Overview
 

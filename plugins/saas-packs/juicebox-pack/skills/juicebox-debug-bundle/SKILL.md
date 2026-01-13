@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Collect juicebox debug evidence for support. use when creating support
-  tickets, gathering diagnostic info, or preparing error reports for juicebox support
-  team. trigger with phrases like "juicebox debug info", "juicebox support bundle",
-  "collect j...
 name: juicebox-debug-bundle
+description: |
+  Collect juicebox debug evidence for support. use when creating support tickets, gathering diagnostic info, or preparing error reports for juicebox support team. trigger with phrases like "juicebox debug info", "juicebox support bundle", "collect j...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Debug Bundle
 

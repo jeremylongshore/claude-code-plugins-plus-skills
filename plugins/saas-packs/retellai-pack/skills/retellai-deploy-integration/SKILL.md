@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Deploy Retell AI integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying Retell AI-powered applications to production, configuring platform-specific
-  secrets, or setting up deployment pipelines. Trigger with phrases like "deploy...
 name: retellai-deploy-integration
+description: |
+  Deploy Retell AI integrations to Vercel, Fly.io, and Cloud Run platforms. Use when deploying Retell AI-powered applications to production, configuring platform-specific secrets, or setting up deployment pipelines. Trigger with phrases like "deploy...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Deploy Integration
 

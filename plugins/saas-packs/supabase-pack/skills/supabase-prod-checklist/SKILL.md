@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep
-license: MIT
-description: Execute supabase production deployment checklist and rollback procedures.
-  use when deploying supabase integrations to production, preparing for launch, or
-  implementing go-live procedures. trigger with phrases like "supabase production",
-  "deploy su...
 name: supabase-prod-checklist
+description: |
+  Execute supabase production deployment checklist and rollback procedures. use when deploying supabase integrations to production, preparing for launch, or implementing go-live procedures. trigger with phrases like "supabase production", "deploy su...
+allowed-tools: Read, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Prod Checklist
 

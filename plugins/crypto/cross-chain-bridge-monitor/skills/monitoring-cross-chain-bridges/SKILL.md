@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Monitor cross-chain bridge security, liquidity, and transaction status
-  across networks. Use when monitoring cross-chain asset transfers. Trigger with phrases
-  like "monitor bridges", "check cross-chain", or "track bridge transfers".
 name: monitoring-cross-chain-bridges
+description: |
+  Monitor cross-chain bridge security, liquidity, and transaction status across networks. Use when monitoring cross-chain asset transfers. Trigger with phrases like "monitor bridges", "check cross-chain", or "track bridge transfers".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Monitoring Cross Chain Bridges
 

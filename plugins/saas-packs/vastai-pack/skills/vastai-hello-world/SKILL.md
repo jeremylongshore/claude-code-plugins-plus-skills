@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Vast.ai example. Use when starting a new Vast.ai
-  integration, testing your setup, or learning basic Vast.ai API patterns. Trigger
-  with phrases like "vastai hello world", "vastai example", "vastai quick start",
-  "simple vast...
 name: vastai-hello-world
+description: |
+  Create a minimal working Vast.ai example. Use when starting a new Vast.ai integration, testing your setup, or learning basic Vast.ai API patterns. Trigger with phrases like "vastai hello world", "vastai example", "vastai quick start", "simple vast...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vast.ai Hello World
 

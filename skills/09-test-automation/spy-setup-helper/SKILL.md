@@ -1,7 +1,7 @@
 ---
 name: "spy-setup-helper"
 description: |
-  Assist with spy setup helper operations. Auto-activating skill for Test Automation.
+  Assist with assist with assist with spy setup helper operations. Auto-activating skill for Test Automation.
   Triggers on: spy setup helper, spy setup helper
   Part of the Test Automation skill category. Use when working with spy setup helper functionality. Trigger with phrases like "spy setup helper", "spy helper", "spy".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"

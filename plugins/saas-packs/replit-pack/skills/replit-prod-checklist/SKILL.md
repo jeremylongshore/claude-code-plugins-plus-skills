@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep
-license: MIT
-description: Execute replit production deployment checklist and rollback procedures.
-  use when deploying replit integrations to production, preparing for launch, or implementing
-  go-live procedures. trigger with phrases like "replit production", "deploy replit",...
 name: replit-prod-checklist
+description: |
+  Execute replit production deployment checklist and rollback procedures. use when deploying replit integrations to production, preparing for launch, or implementing go-live procedures. trigger with phrases like "replit production", "deploy replit",...
+allowed-tools: Read, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Prod Checklist
 

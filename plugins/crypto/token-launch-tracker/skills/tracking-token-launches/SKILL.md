@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Monitor new token launches, IDOs, and fair launches with contract verification.
-  Use when discovering new token launches. Trigger with phrases like "track launches",
-  "find new tokens", or "monitor IDOs".
 name: tracking-token-launches
+description: |
+  Monitor new token launches, IDOs, and fair launches with contract verification. Use when discovering new token launches. Trigger with phrases like "track launches", "find new tokens", or "monitor IDOs".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Tracking Token Launches
 

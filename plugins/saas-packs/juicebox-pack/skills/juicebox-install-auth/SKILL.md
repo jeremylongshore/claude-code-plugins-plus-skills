@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure juicebox sdk/cli authentication. use when setting
-  up a new juicebox integration, configuring api keys, or initializing juicebox in
-  your project. trigger with phrases like "install juicebox", "setup juicebox", "juicebox
-  auth",...
 name: juicebox-install-auth
+description: |
+  Install and configure juicebox sdk/cli authentication. use when setting up a new juicebox integration, configuring api keys, or initializing juicebox in your project. trigger with phrases like "install juicebox", "setup juicebox", "juicebox auth",...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Install & Auth
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute replit incident response procedures with triage, mitigation,
-  and postmortem. use when responding to replit-related outages, investigating errors,
-  or running post-incident reviews for replit integration failures. trigger with phrases
-  like "...
 name: replit-incident-runbook
+description: |
+  Execute replit incident response procedures with triage, mitigation, and postmortem. use when responding to replit-related outages, investigating errors, or running post-incident reviews for replit integration failures. trigger with phrases like "...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Incident Runbook
 

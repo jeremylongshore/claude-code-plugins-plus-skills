@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Configure webhooks for Kling AI job completion notifications. Use when
-  building event-driven video pipelines or need real-time job status updates. Trigger
-  with phrases like 'klingai webhook', 'kling ai callback', 'klingai notifications',
-  'video co...
 name: klingai-webhook-config
+description: |
+  Configure webhooks for Kling AI job completion notifications. Use when building event-driven video pipelines or need real-time job status updates. Trigger with phrases like 'klingai webhook', 'kling ai callback', 'klingai notifications', 'video co...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Kling AI Webhook Configuration
 

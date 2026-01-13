@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when generating conventional commit messages from staged
-  git changes. trigger with phrases like "create commit message", "generate smart
-  commit", "/commit-smart", or "/gc". automatically analyzes changes to determine
-  commit type (feat,...
 name: generating-smart-commits
+description: |
+  Execute use when generating conventional commit messages from staged git changes. trigger with phrases like "create commit message", "generate smart commit", "/commit-smart", or "/gc". automatically analyzes changes to determine commit type (feat,...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Git Commit Smart
 

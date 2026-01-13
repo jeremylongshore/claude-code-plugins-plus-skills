@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement replit lint rules, policy enforcement, and automated guardrails.
-  use when setting up code quality rules for replit integrations, implementing pre-commit
-  hooks, or configuring ci policy checks for replit best practices. trigger with phras...
 name: replit-policy-guardrails
+description: |
+  Implement replit lint rules, policy enforcement, and automated guardrails. use when setting up code quality rules for replit integrations, implementing pre-commit hooks, or configuring ci policy checks for replit best practices. trigger with phras...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Policy Guardrails
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement security best practices for lindy ai integrations. use when
-  securing api keys, configuring permissions, or implementing security controls. trigger
-  with phrases like "lindy security", "secure lindy", "lindy api key security", "lindy
-  permi...
 name: lindy-security-basics
+description: |
+  Implement security best practices for lindy ai integrations. use when securing api keys, configuring permissions, or implementing security controls. trigger with phrases like "lindy security", "secure lindy", "lindy api key security", "lindy permi...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Security Basics
 

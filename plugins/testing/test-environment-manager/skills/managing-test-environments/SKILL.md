@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Test provision and manage isolated test environments with configuration
-  and data. Use when performing specialized testing. Trigger with phrases like "manage
-  test environment", "provision test env", or "setup test infrastructure".
 name: managing-test-environments
+description: |
+  Test provision and manage isolated test environments with configuration and data. Use when performing specialized testing. Trigger with phrases like "manage test environment", "provision test env", or "setup test infrastructure".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Test Environment Manager
 

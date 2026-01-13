@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure and enforce code quality with AI-assisted linting. Activate
-  when users mention "configure linting", "eslint setup", "code quality rules", "linting
-  configuration", or "code standards". Handles linting tool configuration. Use when
-  configur...
 name: windsurf-linting-config
+description: |
+  Configure and enforce code quality with AI-assisted linting. Activate when users mention "configure linting", "eslint setup", "code quality rules", "linting configuration", or "code standards". Handles linting tool configuration. Use when configur...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Linting Config
 

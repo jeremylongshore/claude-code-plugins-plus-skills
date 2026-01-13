@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Optimize Linear API queries and caching for better performance. Use when
-  improving response times, reducing API calls, or implementing caching strategies.
-  Trigger with phrases like "linear performance", "optimize linear", "linear caching",
-  "linear...
 name: linear-performance-tuning
+description: |
+  Optimize Linear API queries and caching for better performance. Use when improving response times, reducing API calls, or implementing caching strategies. Trigger with phrases like "linear performance", "optimize linear", "linear caching", "linear...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Performance Tuning
 

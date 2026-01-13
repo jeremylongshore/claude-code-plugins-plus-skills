@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement supabase rate limiting, backoff, and idempotency patterns.
-  use when handling rate limit errors, implementing retry logic, or optimizing api
-  request throughput for supabase. trigger with phrases like "supabase rate limit",
-  "supabase throt...
 name: supabase-rate-limits
+description: |
+  Implement supabase rate limiting, backoff, and idempotency patterns. use when handling rate limit errors, implementing retry logic, or optimizing api request throughput for supabase. trigger with phrases like "supabase rate limit", "supabase throt...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Rate Limits
 

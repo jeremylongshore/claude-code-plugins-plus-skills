@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Identify and avoid replit anti-patterns and common integration mistakes.
-  use when reviewing replit code for issues, onboarding new developers, or auditing
-  existing replit integrations for best practices violations. trigger with phrases
-  like "repli...
 name: replit-known-pitfalls
+description: |
+  Identify and avoid replit anti-patterns and common integration mistakes. use when reviewing replit code for issues, onboarding new developers, or auditing existing replit integrations for best practices violations. trigger with phrases like "repli...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Known Pitfalls
 

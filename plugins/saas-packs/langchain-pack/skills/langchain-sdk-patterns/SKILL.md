@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply production-ready langchain sdk patterns for chains, agents, and
-  memory. use when implementing langchain integrations, refactoring code, or establishing
-  team coding standards for langchain applications. trigger with phrases like "langchain
-  sd...
 name: langchain-sdk-patterns
+description: |
+  Apply production-ready langchain sdk patterns for chains, agents, and memory. use when implementing langchain integrations, refactoring code, or establishing team coding standards for langchain applications. trigger with phrases like "langchain sd...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Sdk Patterns
 

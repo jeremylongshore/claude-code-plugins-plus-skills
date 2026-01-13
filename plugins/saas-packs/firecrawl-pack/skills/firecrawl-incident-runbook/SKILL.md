@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute firecrawl incident response procedures with triage, mitigation,
-  and postmortem. use when responding to firecrawl-related outages, investigating
-  errors, or running post-incident reviews for firecrawl integration failures. trigger
-  with phras...
 name: firecrawl-incident-runbook
+description: |
+  Execute firecrawl incident response procedures with triage, mitigation, and postmortem. use when responding to firecrawl-related outages, investigating errors, or running post-incident reviews for firecrawl integration failures. trigger with phras...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firecrawl Incident Runbook
 

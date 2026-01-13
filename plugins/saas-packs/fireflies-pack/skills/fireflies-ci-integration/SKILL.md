@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Fireflies.ai CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines, or integrating
-  Fireflies.ai tests into your build process. Trigger with phrases like "fireflies
-  CI", "firefl...
 name: fireflies-ci-integration
+description: |
+  Configure Fireflies.ai CI/CD integration with GitHub Actions and testing. Use when setting up automated testing, configuring CI pipelines, or integrating Fireflies.ai tests into your build process. Trigger with phrases like "fireflies CI", "firefl...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Fireflies Ci Integration
 

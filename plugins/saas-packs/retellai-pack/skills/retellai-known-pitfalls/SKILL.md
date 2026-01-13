@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Identify and avoid retell ai anti-patterns and common integration mistakes.
-  use when reviewing retell ai code for issues, onboarding new developers, or auditing
-  existing retell ai integrations for best practices violations. trigger with phrases
-  li...
 name: retellai-known-pitfalls
+description: |
+  Identify and avoid retell ai anti-patterns and common integration mistakes. use when reviewing retell ai code for issues, onboarding new developers, or auditing existing retell ai integrations for best practices violations. trigger with phrases li...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Known Pitfalls
 

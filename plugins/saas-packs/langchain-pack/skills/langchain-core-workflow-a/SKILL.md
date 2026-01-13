@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Build LangChain chains and prompts for structured LLM workflows. Use
-  when creating prompt templates, building LCEL chains, or implementing sequential
-  processing pipelines. Trigger with phrases like "langchain chains", "langchain prompts",
-  "LCEL wo...
 name: langchain-core-workflow-a
+description: |
+  Build LangChain chains and prompts for structured LLM workflows. Use when creating prompt templates, building LCEL chains, or implementing sequential processing pipelines. Trigger with phrases like "langchain chains", "langchain prompts", "LCEL wo...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Core Workflow A
 

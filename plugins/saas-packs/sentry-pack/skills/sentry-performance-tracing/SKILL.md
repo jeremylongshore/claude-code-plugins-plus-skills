@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Execute set up performance monitoring and distributed tracing with sentry.
-  use when implementing performance tracking, tracing requests, or monitoring application
-  performance. trigger with phrases like "sentry performance", "sentry tracing", "sent...
 name: sentry-performance-tracing
+description: |
+  Execute set up performance monitoring and distributed tracing with sentry. use when implementing performance tracking, tracing requests, or monitoring application performance. trigger with phrases like "sentry performance", "sentry tracing", "sent...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Performance Tracing
 

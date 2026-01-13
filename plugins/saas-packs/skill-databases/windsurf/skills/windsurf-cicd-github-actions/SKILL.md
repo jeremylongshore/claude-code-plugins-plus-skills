@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Generate and maintain GitHub Actions with Cascade assistance. Activate
-  when users mention "github actions", "ci/cd pipeline", "workflow automation", "continuous
-  integration", or "deployment pipeline". Handles CI/CD configuration with AI assistance...
 name: windsurf-cicd-github-actions
+description: |
+  Generate and maintain GitHub Actions with Cascade assistance. Activate when users mention "github actions", "ci/cd pipeline", "workflow automation", "continuous integration", or "deployment pipeline". Handles CI/CD configuration with AI assistance...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Cicd Github Actions
 

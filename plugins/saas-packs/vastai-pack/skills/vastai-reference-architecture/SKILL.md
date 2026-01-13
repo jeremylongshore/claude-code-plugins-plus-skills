@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Implement vast.ai reference architecture with best-practice project layout.
-  use when designing new vast.ai integrations, reviewing project structure, or establishing
-  architecture standards for vast.ai applications. trigger with phrases like "vasta...
 name: vastai-reference-architecture
+description: |
+  Implement vast.ai reference architecture with best-practice project layout. use when designing new vast.ai integrations, reviewing project structure, or establishing architecture standards for vast.ai applications. trigger with phrases like "vasta...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vastai Reference Architecture
 

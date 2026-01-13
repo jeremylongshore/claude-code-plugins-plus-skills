@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute this skill enables ai assistant to conduct a security-focused
-  code review using the security-agent plugin. it analyzes code for potential vulnerabilities
-  like sql injection, xss, authentication flaws, and insecure dependencies. ai assistan...
 name: performing-security-code-review
+description: |
+  Execute this skill enables ai assistant to conduct a security-focused code review using the security-agent plugin. it analyzes code for potential vulnerabilities like sql injection, xss, authentication flaws, and insecure dependencies. ai assistan...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Security Agent
 

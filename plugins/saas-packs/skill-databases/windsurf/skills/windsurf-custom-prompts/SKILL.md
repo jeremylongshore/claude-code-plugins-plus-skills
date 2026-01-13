@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob
-license: MIT
-description: Create and manage custom prompt libraries for Cascade. Activate when
-  users mention "custom prompts", "prompt library", "prompt templates", "cascade prompts",
-  or "prompt management". Handles prompt library creation and organization. Use when
-  workin...
 name: windsurf-custom-prompts
+description: |
+  Create and manage custom prompt libraries for Cascade. Activate when users mention "custom prompts", "prompt library", "prompt templates", "cascade prompts", or "prompt management". Handles prompt library creation and organization. Use when workin...
+allowed-tools: Read, Write, Edit, Grep, Glob
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Custom Prompts
 

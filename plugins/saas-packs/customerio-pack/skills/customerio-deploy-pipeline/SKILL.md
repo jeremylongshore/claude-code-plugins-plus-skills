@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Deploy Customer.io integrations to production. Use when deploying to
-  cloud platforms, setting up production infrastructure, or automating deployments.
-  Trigger with phrases like "deploy customer.io", "customer.io production", "customer.io
-  cloud run...
 name: customerio-deploy-pipeline
+description: |
+  Deploy Customer.io integrations to production. Use when deploying to cloud platforms, setting up production infrastructure, or automating deployments. Trigger with phrases like "deploy customer.io", "customer.io production", "customer.io cloud run...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Customerio Deploy Pipeline
 

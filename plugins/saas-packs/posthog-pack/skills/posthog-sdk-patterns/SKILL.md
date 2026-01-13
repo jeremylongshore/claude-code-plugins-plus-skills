@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply production-ready posthog sdk patterns for typescript and python.
-  use when implementing posthog integrations, refactoring sdk usage, or establishing
-  team coding standards for posthog. trigger with phrases like "posthog sdk patterns",
-  "posthog...
 name: posthog-sdk-patterns
+description: |
+  Apply production-ready posthog sdk patterns for typescript and python. use when implementing posthog integrations, refactoring sdk usage, or establishing team coding standards for posthog. trigger with phrases like "posthog sdk patterns", "posthog...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Posthog Sdk Patterns
 

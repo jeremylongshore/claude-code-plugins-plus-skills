@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when you need to work with compliance checking. this skill
-  provides compliance monitoring and validation with comprehensive guidance and automation.
-  trigger with phrases like "check compliance", "validate policies", or "audit compliance".
 name: checking-infrastructure-compliance
+description: |
+  Execute use when you need to work with compliance checking. this skill provides compliance monitoring and validation with comprehensive guidance and automation. trigger with phrases like "check compliance", "validate policies", or "audit compliance".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Compliance Checker
 

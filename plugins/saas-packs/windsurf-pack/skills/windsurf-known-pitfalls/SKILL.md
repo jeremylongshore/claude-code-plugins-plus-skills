@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Identify and avoid windsurf anti-patterns and common integration mistakes.
-  use when reviewing windsurf code for issues, onboarding new developers, or auditing
-  existing windsurf integrations for best practices violations. trigger with phrases
-  like ...
 name: windsurf-known-pitfalls
+description: |
+  Identify and avoid windsurf anti-patterns and common integration mistakes. use when reviewing windsurf code for issues, onboarding new developers, or auditing existing windsurf integrations for best practices violations. trigger with phrases like ...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Known Pitfalls
 

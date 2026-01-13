@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute vercel primary workflow: deploy preview. use when deploying
-  a preview for a pull request, testing changes before production, or sharing preview
-  urls with stakeholders. trigger with phrases like "vercel deploy preview", "create
-  preview depl...'
 name: vercel-deploy-preview
+description: |
+  Execute vercel primary workflow: deploy preview. use when deploying a preview for a pull request, testing changes before production, or sharing preview urls with stakeholders. trigger with phrases like "vercel deploy preview", "create preview depl...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Deploy Preview
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Process use when you need to work with database indexing. This skill
-  provides index design and optimization with comprehensive guidance and automation.
-  Trigger with phrases like "create indexes", "optimize indexes", or "improve query
-  performance".
 name: analyzing-database-indexes
+description: |
+  Process use when you need to work with database indexing. This skill provides index design and optimization with comprehensive guidance and automation. Trigger with phrases like "create indexes", "optimize indexes", or "improve query performance".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Database Index Advisor
 

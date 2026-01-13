@@ -1,7 +1,7 @@
 ---
 name: "file-format-converter"
 description: |
-  Convert file format converter operations. Auto-activating skill for Data Pipelines.
+  Convert convert convert file format converter operations. Auto-activating skill for Data Pipelines.
   Triggers on: file format converter, file format converter
   Part of the Data Pipelines skill category. Use when working with file format converter functionality. Trigger with phrases like "file format converter", "file converter", "file".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"

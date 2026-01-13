@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute review crypto wallet security including private key management
-  and transaction signing. use when auditing wallet security practices. trigger with
-  phrases like "audit wallet", "check security", or "verify signatures".
 name: auditing-wallet-security
+description: |
+  Execute review crypto wallet security including private key management and transaction signing. use when auditing wallet security practices. trigger with phrases like "audit wallet", "check security", or "verify signatures".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Auditing Wallet Security
 

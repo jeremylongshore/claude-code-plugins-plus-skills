@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement replit reliability patterns including circuit breakers, idempotency,
-  and graceful degradation. use when building fault-tolerant replit integrations,
-  implementing retry strategies, or adding resilience to production replit services.
-  trigg...
 name: replit-reliability-patterns
+description: |
+  Implement replit reliability patterns including circuit breakers, idempotency, and graceful degradation. use when building fault-tolerant replit integrations, implementing retry strategies, or adding resilience to production replit services. trigg...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Reliability Patterns
 

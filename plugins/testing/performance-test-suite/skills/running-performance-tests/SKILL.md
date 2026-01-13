@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute load testing, stress testing, and performance benchmarking. use
-  when performing specialized testing. trigger with phrases like "run load tests",
-  "test performance", or "benchmark the system".
 name: running-performance-tests
+description: |
+  Execute load testing, stress testing, and performance benchmarking. use when performing specialized testing. trigger with phrases like "run load tests", "test performance", or "benchmark the system".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Performance Test Suite
 

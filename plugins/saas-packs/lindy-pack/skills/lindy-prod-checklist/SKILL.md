@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Production readiness checklist for lindy ai deployments. use when preparing
-  for production, reviewing deployment, or auditing production setup. trigger with
-  phrases like "lindy production", "lindy prod ready", "lindy go live", "lindy deployment
-  ch...
 name: lindy-prod-checklist
+description: |
+  Production readiness checklist for lindy ai deployments. use when preparing for production, reviewing deployment, or auditing production setup. trigger with phrases like "lindy production", "lindy prod ready", "lindy go live", "lindy deployment ch...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Prod Checklist
 

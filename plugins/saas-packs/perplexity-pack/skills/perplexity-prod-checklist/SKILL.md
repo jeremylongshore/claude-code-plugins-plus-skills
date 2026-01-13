@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep
-license: MIT
-description: Execute perplexity production deployment checklist and rollback procedures.
-  use when deploying perplexity integrations to production, preparing for launch,
-  or implementing go-live procedures. trigger with phrases like "perplexity production",
-  "dep...
 name: perplexity-prod-checklist
+description: |
+  Execute perplexity production deployment checklist and rollback procedures. use when deploying perplexity integrations to production, preparing for launch, or implementing go-live procedures. trigger with phrases like "perplexity production", "dep...
+allowed-tools: Read, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Prod Checklist
 

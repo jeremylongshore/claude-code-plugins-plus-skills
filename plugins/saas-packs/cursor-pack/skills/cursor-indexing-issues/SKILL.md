@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Manage troubleshoot Cursor codebase indexing problems. Triggers on "cursor
-  indexing", "cursor index", "cursor codebase", "@codebase not working", "cursor search
-  broken". Use when working with cursor indexing issues functionality. Trigger with
-  phra...
 name: cursor-indexing-issues
+description: |
+  Manage troubleshoot Cursor codebase indexing problems. Triggers on "cursor indexing", "cursor index", "cursor codebase", "@codebase not working", "cursor search broken". Use when working with cursor indexing issues functionality. Trigger with phra...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Indexing Issues
 

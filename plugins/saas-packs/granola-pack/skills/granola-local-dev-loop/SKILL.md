@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Integrate granola meeting notes into your local development workflow.
-  use when setting up development workflows, accessing notes programmatically, or
-  syncing meeting outcomes with project tools. trigger with phrases like "granola
-  dev workflow", "g...
 name: granola-local-dev-loop
+description: |
+  Integrate granola meeting notes into your local development workflow. use when setting up development workflows, accessing notes programmatically, or syncing meeting outcomes with project tools. trigger with phrases like "granola dev workflow", "g...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Granola Local Dev Loop
 

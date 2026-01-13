@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement enterprise role-based access control for langchain applications.
-  use when implementing user permissions, multi-tenant access, or enterprise security
-  controls for llm applications. trigger with phrases like "langchain rbac", "langchain
-  pe...
 name: langchain-enterprise-rbac
+description: |
+  Implement enterprise role-based access control for langchain applications. use when implementing user permissions, multi-tenant access, or enterprise security controls for llm applications. trigger with phrases like "langchain rbac", "langchain pe...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Enterprise Rbac
 

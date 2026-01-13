@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Process use when you need to archive historical database records to reduce
-  primary database size. This skill automates moving old data to archive tables or
-  cold storage (S3, Azure Blob, GCS). Trigger with phrases like "archive old database
-  records...
 name: archiving-databases
+description: |
+  Process use when you need to archive historical database records to reduce primary database size. This skill automates moving old data to archive tables or cold storage (S3, Azure Blob, GCS). Trigger with phrases like "archive old database records...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Database Archival System
 

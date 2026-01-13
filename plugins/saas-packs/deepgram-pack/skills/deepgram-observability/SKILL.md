@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Set up comprehensive observability for deepgram integrations with metrics,
-  traces, and alerts. use when implementing monitoring for deepgram operations, setting
-  up dashboards, or configuring alerting for deepgram integration health. trigger
-  with p...
 name: deepgram-observability
+description: |
+  Set up comprehensive observability for deepgram integrations with metrics, traces, and alerts. use when implementing monitoring for deepgram operations, setting up dashboards, or configuring alerting for deepgram integration health. trigger with p...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Deepgram Observability
 

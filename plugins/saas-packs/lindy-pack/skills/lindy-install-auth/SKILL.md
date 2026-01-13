@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure lindy ai sdk/cli authentication. use when setting
-  up a new lindy integration, configuring api keys, or initializing lindy in your
-  project. trigger with phrases like "install lindy", "setup lindy", "lindy auth",
-  "configure lin...
 name: lindy-install-auth
+description: |
+  Install and configure lindy ai sdk/cli authentication. use when setting up a new lindy integration, configuring api keys, or initializing lindy in your project. trigger with phrases like "install lindy", "setup lindy", "lindy auth", "configure lin...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Install & Auth
 

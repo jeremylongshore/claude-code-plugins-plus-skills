@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Track real-time cryptocurrency prices across exchanges with historical
-  data and alerts. use when monitoring real-time cryptocurrency prices. trigger with
-  phrases like "check price", "track prices", or "get price alert".
 name: tracking-crypto-prices
+description: |
+  Track real-time cryptocurrency prices across exchanges with historical data and alerts. use when monitoring real-time cryptocurrency prices. trigger with phrases like "check price", "track prices", or "get price alert".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Tracking Crypto Prices
 

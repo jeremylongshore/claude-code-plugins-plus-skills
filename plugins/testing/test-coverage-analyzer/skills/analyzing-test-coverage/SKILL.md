@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Analyze code coverage metrics and identify untested code paths. Use when
-  analyzing untested code or coverage gaps. Trigger with phrases like "analyze coverage",
-  "check test coverage", or "find untested code".
 name: analyzing-test-coverage
+description: |
+  Analyze code coverage metrics and identify untested code paths. Use when analyzing untested code or coverage gaps. Trigger with phrases like "analyze coverage", "check test coverage", or "find untested code".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Test Coverage Analyzer
 

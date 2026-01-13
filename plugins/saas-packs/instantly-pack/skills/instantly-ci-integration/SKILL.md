@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Instantly CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines, or integrating
-  Instantly tests into your build process. Trigger with phrases like "instantly CI",
-  "instantly Gi...
 name: instantly-ci-integration
+description: |
+  Configure Instantly CI/CD integration with GitHub Actions and testing. Use when setting up automated testing, configuring CI pipelines, or integrating Instantly tests into your build process. Trigger with phrases like "instantly CI", "instantly Gi...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Instantly Ci Integration
 

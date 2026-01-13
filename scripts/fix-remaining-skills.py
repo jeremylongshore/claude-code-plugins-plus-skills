@@ -10,6 +10,8 @@ import json
 from pathlib import Path
 from typing import Dict, List
 
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
 # Skills that need immediate attention (from audit report)
 PRIORITY_SKILLS = {
     "excel-skills": [
@@ -77,9 +79,9 @@ SKIP_SKILLS = [
     "vertex-agent-builder"
 ]
 
-def find_skill_path(skill_name: str, base_path: str = "/home/jeremy/000-projects/claude-code-plugins") -> Path:
-    """Find the path to a skill directory."""
-    for skill_file in Path(base_path).rglob('SKILL.md'):
+def find_skill_path(skill_name: str, base_path: Path) -> Path | None:
+    """Find the path to a skill directory under base_path."""
+    for skill_file in base_path.rglob('SKILL.md'):
         if skill_file.parent.name == skill_name:
             return skill_file.parent
     return None
@@ -109,7 +111,7 @@ def create_fix_plan() -> Dict:
         }
 
         for skill_name in skills:
-            skill_path = find_skill_path(skill_name)
+            skill_path = find_skill_path(skill_name, base_path=REPO_ROOT)
             if skill_path:
                 readme_path = skill_path / "scripts" / "README.md"
                 todos = get_todo_items(readme_path)
@@ -132,6 +134,18 @@ def create_fix_plan() -> Dict:
 def main():
     """Main function to coordinate the fix process."""
     print("🔧 Planning fixes for remaining skills with issues...\n")
+
+    import argparse
+    parser = argparse.ArgumentParser(description="Plan fixes for remaining skills")
+    parser.add_argument(
+        "--repo-root",
+        default=None,
+        help="Repo root to scan (defaults to scripts/..)",
+    )
+    args = parser.parse_args()
+
+    global REPO_ROOT
+    REPO_ROOT = Path(args.repo_root).resolve() if args.repo_root else Path(__file__).resolve().parent.parent
 
     # Create fix plan
     plan = create_fix_plan()

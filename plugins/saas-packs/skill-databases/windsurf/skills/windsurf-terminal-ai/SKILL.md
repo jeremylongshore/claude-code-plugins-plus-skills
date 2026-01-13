@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep
-license: MIT
-description: Execute leverage ai-assisted terminal commands and debugging. activate
-  when users mention "terminal help", "command suggestion", "debug terminal", "shell
-  assistance", or "cli help". handles ai-enhanced terminal operations. use when working
-  with wi...
 name: windsurf-terminal-ai
+description: |
+  Execute leverage ai-assisted terminal commands and debugging. activate when users mention "terminal help", "command suggestion", "debug terminal", "shell assistance", or "cli help". handles ai-enhanced terminal operations. use when working with wi...
+allowed-tools: Read, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Terminal Ai
 

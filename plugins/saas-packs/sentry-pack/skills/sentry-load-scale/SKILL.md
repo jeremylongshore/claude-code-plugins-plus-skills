@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Manage scale Sentry for high-traffic applications. Use when optimizing
-  for high event volumes, managing costs at scale, or tuning for performance. Trigger
-  with phrases like "sentry high traffic", "scale sentry", "sentry high volume", "sentry
-  milli...
 name: sentry-load-scale
+description: |
+  Manage scale Sentry for high-traffic applications. Use when optimizing for high event volumes, managing costs at scale, or tuning for performance. Trigger with phrases like "sentry high traffic", "scale sentry", "sentry high volume", "sentry milli...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Load Scale
 

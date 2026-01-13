@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement posthog pii handling, data retention, and gdpr/ccpa compliance
-  patterns. use when handling sensitive data, implementing data redaction, configuring
-  retention policies, or ensuring compliance with privacy regulations for posthog
-  integrati...
 name: posthog-data-handling
+description: |
+  Implement posthog pii handling, data retention, and gdpr/ccpa compliance patterns. use when handling sensitive data, implementing data redaction, configuring retention policies, or ensuring compliance with privacy regulations for posthog integrati...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # PostHog Data Handling
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply production-ready perplexity sdk patterns for typescript and python.
-  use when implementing perplexity integrations, refactoring sdk usage, or establishing
-  team coding standards for perplexity. trigger with phrases like "perplexity sdk
-  pattern...
 name: perplexity-sdk-patterns
+description: |
+  Apply production-ready perplexity sdk patterns for typescript and python. use when implementing perplexity integrations, refactoring sdk usage, or establishing team coding standards for perplexity. trigger with phrases like "perplexity sdk pattern...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Sdk Patterns
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Optimize Apollo.io costs and credit usage. Use when managing Apollo credits,
-  reducing API costs, or optimizing subscription usage. Trigger with phrases like
-  "apollo cost", "apollo credits", "apollo billing", "reduce apollo costs", "apollo
-  usage".
 name: apollo-cost-tuning
+description: |
+  Optimize Apollo.io costs and credit usage. Use when managing Apollo credits, reducing API costs, or optimizing subscription usage. Trigger with phrases like "apollo cost", "apollo credits", "apollo billing", "reduce apollo costs", "apollo usage".
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Cost Tuning
 

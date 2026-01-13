@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute enables ai assistant to manage sugar's autonomous development
-  workflows. it allows ai assistant to create tasks, view the status of the system,
-  review pending tasks, and start autonomous execution mode. use this skill when the
-  user asks to...
 name: managing-autonomous-development
+description: |
+  Execute enables ai assistant to manage sugar's autonomous development workflows. it allows ai assistant to create tasks, view the status of the system, review pending tasks, and start autonomous execution mode. use this skill when the user asks to...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sugar
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure customer.io sdk/cli authentication. use when setting
-  up a new customer.io integration, configuring api keys, or initializing customer.io
-  in your project. trigger with phrases like "install customer.io", "setup customer.io",
-  "...
 name: customerio-install-auth
+description: |
+  Install and configure customer.io sdk/cli authentication. use when setting up a new customer.io integration, configuring api keys, or initializing customer.io in your project. trigger with phrases like "install customer.io", "setup customer.io", "...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Customerio Install Auth
 

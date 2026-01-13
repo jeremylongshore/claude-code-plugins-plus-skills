@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Perplexity local development with hot reload and testing. Use
-  when setting up a development environment, configuring test workflows, or establishing
-  a fast iteration cycle with Perplexity. Trigger with phrases like "perplexity dev
-  setup"...
 name: perplexity-local-dev-loop
+description: |
+  Configure Perplexity local development with hot reload and testing. Use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with Perplexity. Trigger with phrases like "perplexity dev setup"...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Local Dev Loop
 

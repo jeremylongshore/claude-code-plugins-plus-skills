@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Configure CodeRabbit enterprise SSO, role-based access control, and organization
-  management. Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for CodeRabbit. Trigger with phrases ...
 name: coderabbit-enterprise-rbac
+description: |
+  Configure CodeRabbit enterprise SSO, role-based access control, and organization management. Use when implementing SSO integration, configuring role-based permissions, or setting up organization-level controls for CodeRabbit. Trigger with phrases ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Coderabbit Enterprise Rbac
 

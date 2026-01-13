@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Execute integrate kling ai video generation into ci/cd pipelines. use
-  when automating video content generation in build pipelines. trigger with phrases
-  like 'klingai ci', 'kling ai github actions', 'klingai automation', 'automated video
-  generation'.
 name: klingai-ci-integration
+description: |
+  Execute integrate kling ai video generation into ci/cd pipelines. use when automating video content generation in build pipelines. trigger with phrases like 'klingai ci', 'kling ai github actions', 'klingai automation', 'automated video generation'.
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Ci Integration
 

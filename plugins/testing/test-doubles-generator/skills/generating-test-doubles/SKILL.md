@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Generate mocks, stubs, spies, and fakes for dependency isolation. Use
-  when creating mocks, stubs, or test isolation fixtures. Trigger with phrases like
-  "generate mocks", "create test doubles", or "setup stubs".
 name: generating-test-doubles
+description: |
+  Generate mocks, stubs, spies, and fakes for dependency isolation. Use when creating mocks, stubs, or test isolation fixtures. Trigger with phrases like "generate mocks", "create test doubles", or "setup stubs".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Test Doubles Generator
 

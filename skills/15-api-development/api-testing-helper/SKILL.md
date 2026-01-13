@@ -1,7 +1,7 @@
 ---
 name: "api-testing-helper"
 description: |
-  Assist with api testing helper operations. Auto-activating skill for API Development.
+  Assist with assist with assist with api testing helper operations. Auto-activating skill for API Development.
   Triggers on: api testing helper, api testing helper
   Part of the API Development skill category. Use when working with APIs or building integrations. Trigger with phrases like "api testing helper", "api helper", "api".
 allowed-tools: "Read, Write, Edit, Bash(curl:*), Grep"

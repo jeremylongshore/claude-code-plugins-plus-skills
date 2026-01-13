@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Set up juicebox monitoring and observability. use when implementing logging,
-  metrics, tracing, or alerting for juicebox integrations. trigger with phrases like
-  "juicebox monitoring", "juicebox metrics", "juicebox logging", "juicebox observability".
 name: juicebox-observability
+description: |
+  Set up juicebox monitoring and observability. use when implementing logging, metrics, tracing, or alerting for juicebox integrations. trigger with phrases like "juicebox monitoring", "juicebox metrics", "juicebox logging", "juicebox observability".
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Observability
 

@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute posthog secondary workflow: core workflow b. use when implementing
-  secondary use case, or complementing primary workflow. trigger with phrases like
-  "posthog secondary workflow", "secondary task with posthog".'
 name: posthog-core-workflow-b
+description: |
+  Execute posthog secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like "posthog secondary workflow", "secondary task with posthog".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # PostHog Core Workflow B
 

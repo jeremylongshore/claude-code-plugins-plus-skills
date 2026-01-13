@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Implement vercel reference architecture with best-practice project layout.
-  use when designing new vercel integrations, reviewing project structure, or establishing
-  architecture standards for vercel applications. trigger with phrases like "vercel
-  a...
 name: vercel-reference-architecture
+description: |
+  Implement vercel reference architecture with best-practice project layout. use when designing new vercel integrations, reviewing project structure, or establishing architecture standards for vercel applications. trigger with phrases like "vercel a...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Reference Architecture
 

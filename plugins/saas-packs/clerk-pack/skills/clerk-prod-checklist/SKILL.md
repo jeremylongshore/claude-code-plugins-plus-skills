@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Bash
-license: MIT
-description: Production readiness checklist for clerk deployment. use when preparing
-  to deploy, reviewing production configuration, or auditing clerk implementation
-  before launch. trigger with phrases like "clerk production", "clerk deploy checklist",
-  "clerk g...
 name: clerk-prod-checklist
+description: |
+  Production readiness checklist for clerk deployment. use when preparing to deploy, reviewing production configuration, or auditing clerk implementation before launch. trigger with phrases like "clerk production", "clerk deploy checklist", "clerk g...
+allowed-tools: Read, Write, Edit, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Prod Checklist
 

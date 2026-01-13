@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Track and optimize application response times across api endpoints, database
-  queries, and service calls. use when monitoring performance or identifying bottlenecks.
-  trigger with phrases like "track response times", "monitor api performance", or
-  "a...
 name: tracking-application-response-times
+description: |
+  Track and optimize application response times across api endpoints, database queries, and service calls. use when monitoring performance or identifying bottlenecks. trigger with phrases like "track response times", "monitor api performance", or "a...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Response Time Tracker
 

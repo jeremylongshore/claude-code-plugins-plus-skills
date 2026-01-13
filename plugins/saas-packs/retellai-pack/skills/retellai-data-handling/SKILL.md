@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement retell ai pii handling, data retention, and gdpr/ccpa compliance
-  patterns. use when handling sensitive data, implementing data redaction, configuring
-  retention policies, or ensuring compliance with privacy regulations for retell ai
-  integ...
 name: retellai-data-handling
+description: |
+  Implement retell ai pii handling, data retention, and gdpr/ccpa compliance patterns. use when handling sensitive data, implementing data redaction, configuring retention policies, or ensuring compliance with privacy regulations for retell ai integ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retell AI Data Handling
 

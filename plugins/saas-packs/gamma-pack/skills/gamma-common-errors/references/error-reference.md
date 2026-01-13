@@ -1,0 +1,110 @@
+# Error Reference
+
+## Error Reference
+
+### Authentication Errors (401/403)
+
+```typescript
+// Error: Invalid API Key
+{
+  "error": "unauthorized",
+  "message": "Invalid or expired API key"
+}
+```
+
+**Solutions:**
+1. Verify API key in Gamma dashboard
+2. Check environment variable is set: `echo $GAMMA_API_KEY`
+3. Ensure key hasn't been rotated
+4. Check for trailing whitespace in key
+
+### Rate Limit Errors (429)
+
+```typescript
+// Error: Rate Limited
+{
+  "error": "rate_limited",
+  "message": "Too many requests",
+  "retry_after": 60
+}
+```
+
+**Solutions:**
+1. Implement exponential backoff
+2. Check rate limit headers: `X-RateLimit-Remaining`
+3. Upgrade plan for higher limits
+4. Queue requests with delays
+
+```typescript
+async function withRetry(fn: () => Promise<any>, maxRetries = 3) {
+  for (let i = 0; i < maxRetries; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (err.code === 'rate_limited' && i < maxRetries - 1) {
+        const delay = (err.retryAfter || Math.pow(2, i)) * 1000;
+        await new Promise(r => setTimeout(r, delay));
+        continue;
+      }
+      throw err;
+    }
+  }
+}
+```
+
+### Generation Errors (400/500)
+
+```typescript
+// Error: Generation Failed
+{
+  "error": "generation_failed",
+  "message": "Unable to generate presentation",
+  "details": "Content too complex"
+}
+```
+
+**Solutions:**
+1. Simplify prompt or reduce slide count
+2. Remove special characters from content
+3. Check content length limits
+4. Try different style setting
+
+### Timeout Errors
+
+```typescript
+// Error: Request Timeout
+{
+  "error": "timeout",
+  "message": "Request timed out after 30000ms"
+}
+```
+
+**Solutions:**
+1. Increase client timeout setting
+2. Use async job pattern for large presentations
+3. Check network connectivity
+4. Reduce request complexity
+
+```typescript
+const gamma = new GammaClient({
+  apiKey: process.env.GAMMA_API_KEY,
+  timeout: 60000, // 60 seconds
+});
+```
+
+### Export Errors
+
+```typescript
+// Error: Export Failed
+{
+  "error": "export_failed",
+  "message": "Unable to export presentation",
+  "format": "pdf"
+}
+```
+
+**Solutions:**
+1. Verify presentation exists and is complete
+2. Check supported export formats
+3. Ensure no pending generation jobs
+4. Try exporting with lower quality setting

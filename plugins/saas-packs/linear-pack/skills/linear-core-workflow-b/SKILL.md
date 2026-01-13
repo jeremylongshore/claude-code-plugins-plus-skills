@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Project and cycle management workflows with linear. use when implementing
-  sprint planning, managing projects and roadmaps, or organizing work into cycles.
-  trigger with phrases like "linear project", "linear cycle", "linear sprint", "linear
-  roadmap...
 name: linear-core-workflow-b
+description: |
+  Project and cycle management workflows with linear. use when implementing sprint planning, managing projects and roadmaps, or organizing work into cycles. trigger with phrases like "linear project", "linear cycle", "linear sprint", "linear roadmap...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Core Workflow B
 

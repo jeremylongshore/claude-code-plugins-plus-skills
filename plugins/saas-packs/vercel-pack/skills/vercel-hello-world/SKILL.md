@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Vercel example. Use when starting a new Vercel
-  integration, testing your setup, or learning basic Vercel API patterns. Trigger
-  with phrases like "vercel hello world", "vercel example", "vercel quick start",
-  "simple vercel ...
 name: vercel-hello-world
+description: |
+  Create a minimal working Vercel example. Use when starting a new Vercel integration, testing your setup, or learning basic Vercel API patterns. Trigger with phrases like "vercel hello world", "vercel example", "vercel quick start", "simple vercel ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Hello World
 

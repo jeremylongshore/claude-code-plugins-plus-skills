@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when provisioning vertex ai adk infrastructure with terraform.
-  trigger with phrases like "deploy adk terraform", "agent engine infrastructure",
-  "provision adk agent", "vertex ai agent terraform", or "code execution sandbox terraform".
-  ...
 name: adk-infra-expert
+description: |
+  Execute use when provisioning vertex ai adk infrastructure with terraform. trigger with phrases like "deploy adk terraform", "agent engine infrastructure", "provision adk agent", "vertex ai agent terraform", or "code execution sandbox terraform". ...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Adk Infra Expert
 

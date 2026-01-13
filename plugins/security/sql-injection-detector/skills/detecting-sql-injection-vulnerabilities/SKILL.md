@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Detect and analyze sql injection vulnerabilities in application code
-  and database queries. use when you need to scan code for sql injection risks, review
-  query construction, validate input sanitization, or implement secure query patterns.
-  trigger ...
 name: detecting-sql-injection-vulnerabilities
+description: |
+  Detect and analyze sql injection vulnerabilities in application code and database queries. use when you need to scan code for sql injection risks, review query construction, validate input sanitization, or implement secure query patterns. trigger ...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Detecting Sql Injection Vulnerabilities
 

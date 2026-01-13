@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Grep
-license: MIT
-description: Apply vast.ai security best practices for secrets and access control.
-  use when securing api keys, implementing least privilege access, or auditing vast.ai
-  security configuration. trigger with phrases like "vastai security", "vastai secrets",
-  "secu...
 name: vastai-security-basics
+description: |
+  Apply vast.ai security best practices for secrets and access control. use when securing api keys, implementing least privilege access, or auditing vast.ai security configuration. trigger with phrases like "vastai security", "vastai secrets", "secu...
+allowed-tools: Read, Write, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vastai Security Basics
 

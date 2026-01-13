@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Analyze code, infrastructure, and configurations by conducting comprehensive
-  security audits. It leverages tools within the security-pro-pack plugin, including
-  vulnerability scanning, compliance checking, and cryptography review. Use when assessin...
 name: performing-security-audits
+description: |
+  Analyze code, infrastructure, and configurations by conducting comprehensive security audits. It leverages tools within the security-pro-pack plugin, including vulnerability scanning, compliance checking, and cryptography review. Use when assessin...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Security Pro Pack
 

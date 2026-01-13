@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix perplexity common errors and exceptions. use when encountering
-  perplexity errors, debugging failed requests, or troubleshooting integration issues.
-  trigger with phrases like "perplexity error", "fix perplexity", "perplexity not
-  wo...
 name: perplexity-common-errors
+description: |
+  Diagnose and fix perplexity common errors and exceptions. use when encountering perplexity errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "perplexity error", "fix perplexity", "perplexity not wo...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Common Errors
 

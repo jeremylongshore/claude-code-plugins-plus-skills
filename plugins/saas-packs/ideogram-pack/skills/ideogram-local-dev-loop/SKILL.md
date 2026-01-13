@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Ideogram local development with hot reload and testing. Use
-  when setting up a development environment, configuring test workflows, or establishing
-  a fast iteration cycle with Ideogram. Trigger with phrases like "ideogram dev setup",
-  "ide...
 name: ideogram-local-dev-loop
+description: |
+  Configure Ideogram local development with hot reload and testing. Use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with Ideogram. Trigger with phrases like "ideogram dev setup", "ide...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ideogram Local Dev Loop
 

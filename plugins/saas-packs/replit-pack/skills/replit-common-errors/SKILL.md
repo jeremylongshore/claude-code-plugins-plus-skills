@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix replit common errors and exceptions. use when encountering
-  replit errors, debugging failed requests, or troubleshooting integration issues.
-  trigger with phrases like "replit error", "fix replit", "replit not working", "debug
-  replit".
 name: replit-common-errors
+description: |
+  Diagnose and fix replit common errors and exceptions. use when encountering replit errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "replit error", "fix replit", "replit not working", "debug replit".
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Common Errors
 

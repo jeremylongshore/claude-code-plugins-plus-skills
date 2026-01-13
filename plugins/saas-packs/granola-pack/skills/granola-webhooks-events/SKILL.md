@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Handle granola webhook events and build event-driven automations. use
-  when building custom integrations, processing meeting events, or creating real-time
-  notification systems. trigger with phrases like "granola webhooks", "granola events",
-  "granol...
 name: granola-webhooks-events
+description: |
+  Handle granola webhook events and build event-driven automations. use when building custom integrations, processing meeting events, or creating real-time notification systems. trigger with phrases like "granola webhooks", "granola events", "granol...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Granola Webhooks Events
 

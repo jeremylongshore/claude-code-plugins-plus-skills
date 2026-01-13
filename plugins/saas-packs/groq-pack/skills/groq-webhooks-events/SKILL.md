@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement groq webhook signature validation and event handling. use when
-  setting up webhook endpoints, implementing signature verification, or handling groq
-  event notifications securely. trigger with phrases like "groq webhook", "groq events",
-  "gr...
 name: groq-webhooks-events
+description: |
+  Implement groq webhook signature validation and event handling. use when setting up webhook endpoints, implementing signature verification, or handling groq event notifications securely. trigger with phrases like "groq webhook", "groq events", "gr...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Groq Webhooks Events
 

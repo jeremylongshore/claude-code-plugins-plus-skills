@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix fireflies.ai common errors and exceptions. use when
-  encountering fireflies.ai errors, debugging failed requests, or troubleshooting
-  integration issues. trigger with phrases like "fireflies error", "fix fireflies",
-  "fireflies not w...
 name: fireflies-common-errors
+description: |
+  Diagnose and fix fireflies.ai common errors and exceptions. use when encountering fireflies.ai errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "fireflies error", "fix fireflies", "fireflies not w...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Fireflies Common Errors
 

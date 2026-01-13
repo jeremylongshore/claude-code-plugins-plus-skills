@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Advanced migration strategies for lindy ai integrations. use when migrating
-  from other platforms, consolidating agents, or performing major architecture changes.
-  trigger with phrases like "lindy migration", "migrate to lindy", "lindy platform
-  migr...
 name: lindy-migration-deep-dive
+description: |
+  Advanced migration strategies for lindy ai integrations. use when migrating from other platforms, consolidating agents, or performing major architecture changes. trigger with phrases like "lindy migration", "migrate to lindy", "lindy platform migr...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Migration Deep Dive
 

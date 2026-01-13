@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Optimize local development workflow with Cursor. Triggers on "cursor
-  workflow", "cursor development loop", "cursor productivity", "cursor daily workflow".
-  Use when working with cursor local dev loop functionality. Trigger with phrases
-  like "cursor...
 name: cursor-local-dev-loop
+description: |
+  Optimize local development workflow with Cursor. Triggers on "cursor workflow", "cursor development loop", "cursor productivity", "cursor daily workflow". Use when working with cursor local dev loop functionality. Trigger with phrases like "cursor...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Local Dev Loop
 

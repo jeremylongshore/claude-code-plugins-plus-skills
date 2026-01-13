@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply langchain security best practices for production. use when securing
-  api keys, preventing prompt injection, or implementing safe llm interactions. trigger
-  with phrases like "langchain security", "langchain api key safety", "prompt injection",...
 name: langchain-security-basics
+description: |
+  Apply langchain security best practices for production. use when securing api keys, preventing prompt injection, or implementing safe llm interactions. trigger with phrases like "langchain security", "langchain api key safety", "prompt injection",...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Security Basics
 

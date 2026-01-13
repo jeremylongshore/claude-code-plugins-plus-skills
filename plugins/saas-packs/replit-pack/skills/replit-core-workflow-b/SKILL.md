@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute replit secondary workflow: core workflow b. use when implementing
-  secondary use case, or complementing primary workflow. trigger with phrases like
-  "replit secondary workflow", "secondary task with replit".'
 name: replit-core-workflow-b
+description: |
+  Execute replit secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like "replit secondary workflow", "secondary task with replit".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Core Workflow B
 

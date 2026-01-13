@@ -1,7 +1,7 @@
 ---
 name: "throughput-calculator"
 description: |
-  Calculate throughput calculator operations. Auto-activating skill for Performance Testing.
+  Calculate calculate calculate throughput calculator operations. Auto-activating skill for Performance Testing.
   Triggers on: throughput calculator, throughput calculator
   Part of the Performance Testing skill category. Use when working with throughput calculator functionality. Trigger with phrases like "throughput calculator", "throughput calculator", "throughput".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"

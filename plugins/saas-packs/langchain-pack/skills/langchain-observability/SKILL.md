@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Set up comprehensive observability for langchain integrations. use when
-  implementing monitoring, setting up dashboards, or configuring alerting for langchain
-  application health. trigger with phrases like "langchain monitoring", "langchain
-  metrics"...
 name: langchain-observability
+description: |
+  Set up comprehensive observability for langchain integrations. use when implementing monitoring, setting up dashboards, or configuring alerting for langchain application health. trigger with phrases like "langchain monitoring", "langchain metrics"...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Observability
 

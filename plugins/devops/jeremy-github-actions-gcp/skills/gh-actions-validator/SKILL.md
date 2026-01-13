@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Validate use when validating GitHub Actions workflows for Google Cloud
-  and Vertex AI deployments. Trigger with phrases like "validate github actions",
-  "setup workload identity federation", "github actions security", "deploy agent with
-  ci/cd", or "...
 name: gh-actions-validator
+description: |
+  Validate use when validating GitHub Actions workflows for Google Cloud and Vertex AI deployments. Trigger with phrases like "validate github actions", "setup workload identity federation", "github actions security", "deploy agent with ci/cd", or "...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gh Actions Validator
 

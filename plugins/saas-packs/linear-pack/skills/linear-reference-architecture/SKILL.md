@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Production-grade linear integration architecture patterns. use when designing
-  system architecture, planning integrations, or reviewing architectural decisions.
-  trigger with phrases like "linear architecture", "linear system design", "linear
-  integr...
 name: linear-reference-architecture
+description: |
+  Production-grade linear integration architecture patterns. use when designing system architecture, planning integrations, or reviewing architectural decisions. trigger with phrases like "linear architecture", "linear system design", "linear integr...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Reference Architecture
 

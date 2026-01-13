@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Set up comprehensive observability for perplexity integrations with metrics,
-  traces, and alerts. use when implementing monitoring for perplexity operations,
-  setting up dashboards, or configuring alerting for perplexity integration health.
-  trigger ...
 name: perplexity-observability
+description: |
+  Set up comprehensive observability for perplexity integrations with metrics, traces, and alerts. use when implementing monitoring for perplexity operations, setting up dashboards, or configuring alerting for perplexity integration health. trigger ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Observability
 

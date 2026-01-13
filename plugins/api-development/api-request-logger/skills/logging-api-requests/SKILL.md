@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Monitor and log API requests with correlation IDs, performance metrics,
-  and security audit trails. Use when auditing API requests and responses. Trigger
-  with phrases like "log API requests", "add API logging", or "track API calls".
 name: logging-api-requests
+description: |
+  Monitor and log API requests with correlation IDs, performance metrics, and security audit trails. Use when auditing API requests and responses. Trigger with phrases like "log API requests", "add API logging", or "track API calls".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Logging Api Requests
 

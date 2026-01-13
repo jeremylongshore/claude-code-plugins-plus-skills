@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix vast.ai common errors and exceptions. use when encountering
-  vast.ai errors, debugging failed requests, or troubleshooting integration issues.
-  trigger with phrases like "vastai error", "fix vastai", "vastai not working", "debug
-  vas...
 name: vastai-common-errors
+description: |
+  Diagnose and fix vast.ai common errors and exceptions. use when encountering vast.ai errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "vastai error", "fix vastai", "vastai not working", "debug vas...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vastai Common Errors
 

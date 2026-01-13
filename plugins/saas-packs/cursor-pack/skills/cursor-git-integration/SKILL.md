@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Manage integrate Git workflows with Cursor IDE. Triggers on "cursor git",
-  "git in cursor", "cursor version control", "cursor commit", "cursor branch". Use
-  when working with cursor git integration functionality. Trigger with phrases like
-  "cursor gi...
 name: cursor-git-integration
+description: |
+  Manage integrate Git workflows with Cursor IDE. Triggers on "cursor git", "git in cursor", "cursor version control", "cursor commit", "cursor branch". Use when working with cursor git integration functionality. Trigger with phrases like "cursor gi...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Git Integration
 

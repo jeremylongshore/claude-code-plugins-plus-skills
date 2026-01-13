@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Implement content policy compliance for kling ai. use when ensuring generated
-  content meets guidelines or filtering inappropriate prompts. trigger with phrases
-  like 'klingai content policy', 'kling ai moderation', 'safe video generation', 'klingai...
 name: klingai-content-policy
+description: |
+  Implement content policy compliance for kling ai. use when ensuring generated content meets guidelines or filtering inappropriate prompts. trigger with phrases like 'klingai content policy', 'kling ai moderation', 'safe video generation', 'klingai...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Content Policy
 

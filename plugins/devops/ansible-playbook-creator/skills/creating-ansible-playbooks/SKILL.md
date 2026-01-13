@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when you need to work with ansible automation. this skill
-  provides ansible playbook creation with comprehensive guidance and automation. trigger
-  with phrases like "create ansible playbook", "automate with ansible", or "configure
-  with a...
 name: creating-ansible-playbooks
+description: |
+  Execute use when you need to work with ansible automation. this skill provides ansible playbook creation with comprehensive guidance and automation. trigger with phrases like "create ansible playbook", "automate with ansible", or "configure with a...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ansible Playbook Creator
 

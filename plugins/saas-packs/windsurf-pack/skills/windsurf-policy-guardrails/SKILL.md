@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement windsurf lint rules, policy enforcement, and automated guardrails.
-  use when setting up code quality rules for windsurf integrations, implementing pre-commit
-  hooks, or configuring ci policy checks for windsurf best practices. trigger with...
 name: windsurf-policy-guardrails
+description: |
+  Implement windsurf lint rules, policy enforcement, and automated guardrails. use when setting up code quality rules for windsurf integrations, implementing pre-commit hooks, or configuring ci policy checks for windsurf best practices. trigger with...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Policy Guardrails
 

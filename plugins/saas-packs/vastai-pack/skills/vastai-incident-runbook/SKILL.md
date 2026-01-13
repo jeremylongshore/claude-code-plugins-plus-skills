@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute vast.ai incident response procedures with triage, mitigation,
-  and postmortem. use when responding to vast.ai-related outages, investigating errors,
-  or running post-incident reviews for vast.ai integration failures. trigger with
-  phrases lik...
 name: vastai-incident-runbook
+description: |
+  Execute vast.ai incident response procedures with triage, mitigation, and postmortem. use when responding to vast.ai-related outages, investigating errors, or running post-incident reviews for vast.ai integration failures. trigger with phrases lik...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vastai Incident Runbook
 

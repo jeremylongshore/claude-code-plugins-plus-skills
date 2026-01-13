@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute apollo.io production deployment checklist. use when preparing
-  to deploy apollo integrations to production, doing pre-launch verification, or auditing
-  production readiness. trigger with phrases like "apollo production checklist", "deploy
-  ap...
 name: apollo-prod-checklist
+description: |
+  Execute apollo.io production deployment checklist. use when preparing to deploy apollo integrations to production, doing pre-launch verification, or auditing production readiness. trigger with phrases like "apollo production checklist", "deploy ap...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Prod Checklist
 

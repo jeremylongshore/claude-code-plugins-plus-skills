@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Manage master Cursor tab completion and AI code suggestions. Triggers
-  on "cursor completion", "cursor tab", "cursor suggestions", "cursor autocomplete",
-  "cursor ghost text". Use when working with cursor tab completion functionality.
-  Trigger with p...
 name: cursor-tab-completion
+description: |
+  Manage master Cursor tab completion and AI code suggestions. Triggers on "cursor completion", "cursor tab", "cursor suggestions", "cursor autocomplete", "cursor ghost text". Use when working with cursor tab completion functionality. Trigger with p...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Tab Completion
 

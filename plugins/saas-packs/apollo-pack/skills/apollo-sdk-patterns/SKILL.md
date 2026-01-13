@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply production-ready apollo.io sdk patterns. use when implementing
-  apollo integrations, refactoring api usage, or establishing team coding standards.
-  trigger with phrases like "apollo sdk patterns", "apollo best practices", "apollo
-  code patterns...
 name: apollo-sdk-patterns
+description: |
+  Apply production-ready apollo.io sdk patterns. use when implementing apollo integrations, refactoring api usage, or establishing team coding standards. trigger with phrases like "apollo sdk patterns", "apollo best practices", "apollo code patterns...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Sdk Patterns
 

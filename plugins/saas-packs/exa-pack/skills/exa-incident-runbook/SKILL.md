@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute exa incident response procedures with triage, mitigation, and
-  postmortem. use when responding to exa-related outages, investigating errors, or
-  running post-incident reviews for exa integration failures. trigger with phrases
-  like "exa incid...
 name: exa-incident-runbook
+description: |
+  Execute exa incident response procedures with triage, mitigation, and postmortem. use when responding to exa-related outages, investigating errors, or running post-incident reviews for exa integration failures. trigger with phrases like "exa incid...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Incident Runbook
 

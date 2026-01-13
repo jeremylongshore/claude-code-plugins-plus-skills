@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute compare staking rewards across validators and networks with roi
-  calculations. use when optimizing proof-of-stake rewards. trigger with phrases like
-  "optimize staking", "compare validators", or "calculate rewards".
 name: optimizing-staking-rewards
+description: |
+  Execute compare staking rewards across validators and networks with roi calculations. use when optimizing proof-of-stake rewards. trigger with phrases like "optimize staking", "compare validators", or "calculate rewards".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Optimizing Staking Rewards
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Create your first authenticated request with Clerk. Use when making initial
-  API calls, testing authentication, or verifying Clerk integration works correctly.
-  Trigger with phrases like "clerk hello world", "first clerk request", "test clerk
-  auth",...
 name: clerk-hello-world
+description: |
+  Create your first authenticated request with Clerk. Use when making initial API calls, testing authentication, or verifying Clerk integration works correctly. Trigger with phrases like "clerk hello world", "first clerk request", "test clerk auth",...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Hello World
 

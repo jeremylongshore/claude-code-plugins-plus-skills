@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Install cursor ide and configure authentication. triggers on "install
-  cursor", "setup cursor", "cursor authentication", "cursor login", "cursor license".
-  use when working with cursor install auth functionality. trigger with phrases like
-  "cursor in...
 name: cursor-install-auth
+description: |
+  Install cursor ide and configure authentication. triggers on "install cursor", "setup cursor", "cursor authentication", "cursor login", "cursor license". use when working with cursor install auth functionality. trigger with phrases like "cursor in...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Install Auth
 

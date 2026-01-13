@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Track and analyze cursor usage metrics. triggers on "cursor analytics",
-  "cursor usage", "cursor metrics", "cursor reporting", "cursor dashboard". use when
-  working with cursor usage analytics functionality. trigger with phrases like "cursor
-  usage a...
 name: cursor-usage-analytics
+description: |
+  Track and analyze cursor usage metrics. triggers on "cursor analytics", "cursor usage", "cursor metrics", "cursor reporting", "cursor dashboard". use when working with cursor usage analytics functionality. trigger with phrases like "cursor usage a...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Usage Analytics
 

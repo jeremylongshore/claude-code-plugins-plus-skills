@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute exa secondary workflow: core workflow b. use when implementing
-  secondary use case, or complementing primary workflow. trigger with phrases like
-  "exa secondary workflow", "secondary task with exa".'
 name: exa-core-workflow-b
+description: |
+  Execute exa secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like "exa secondary workflow", "secondary task with exa".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Core Workflow B
 

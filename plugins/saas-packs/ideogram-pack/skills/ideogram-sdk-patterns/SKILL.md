@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply production-ready ideogram sdk patterns for typescript and python.
-  use when implementing ideogram integrations, refactoring sdk usage, or establishing
-  team coding standards for ideogram. trigger with phrases like "ideogram sdk patterns",
-  "ide...
 name: ideogram-sdk-patterns
+description: |
+  Apply production-ready ideogram sdk patterns for typescript and python. use when implementing ideogram integrations, refactoring sdk usage, or establishing team coding standards for ideogram. trigger with phrases like "ideogram sdk patterns", "ide...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ideogram Sdk Patterns
 

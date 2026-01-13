@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, WebFetch, WebSearch, Grep
-license: MIT
-description: Analyze HTTP security headers of web domains to identify vulnerabilities
-  and misconfigurations. Use when you need to audit website security headers, assess
-  header compliance, or get security recommendations for web applications. Trigger
-  with phras...
 name: analyzing-security-headers
+description: |
+  Analyze HTTP security headers of web domains to identify vulnerabilities and misconfigurations. Use when you need to audit website security headers, assess header compliance, or get security recommendations for web applications. Trigger with phras...
+allowed-tools: Read, WebFetch, WebSearch, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Analyzing Security Headers
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Configure Kling AI for team and organization use. Use when setting up
-  shared access, managing team API keys, or organizing projects. Trigger with phrases
-  like 'klingai team', 'kling ai organization', 'klingai multi-user', 'shared klingai
-  access'.
 name: klingai-team-setup
+description: |
+  Configure Kling AI for team and organization use. Use when setting up shared access, managing team API keys, or organizing projects. Trigger with phrases like 'klingai team', 'kling ai organization', 'klingai multi-user', 'shared klingai access'.
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Team Setup
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Bash, Grep
-license: MIT
-description: Analyze application logs for performance insights and issue detection
-  including slow requests, error patterns, and resource usage. Use when troubleshooting
-  performance issues or debugging errors. Trigger with phrases like "analyze logs",
-  "find slo...
 name: analyzing-logs
+description: |
+  Analyze application logs for performance insights and issue detection including slow requests, error patterns, and resource usage. Use when troubleshooting performance issues or debugging errors. Trigger with phrases like "analyze logs", "find slo...
+allowed-tools: Read, Write, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Log Analysis Tool
 

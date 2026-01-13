@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Bash
-license: MIT
-description: Build and deploy production-ready generative AI agents using Vertex AI,
-  Gemini models, and Google Cloud infrastructure with RAG, function calling, and multi-modal
-  capabilities. Use when appropriate context detected. Trigger with relevant phrases
-  b...
 name: vertex-agent-builder
+description: |
+  Build and deploy production-ready generative AI agents using Vertex AI, Gemini models, and Google Cloud infrastructure with RAG, function calling, and multi-modal capabilities. Use when appropriate context detected. Trigger with relevant phrases b...
+allowed-tools: Read, Write, Edit, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vertex AI Agent Builder
 

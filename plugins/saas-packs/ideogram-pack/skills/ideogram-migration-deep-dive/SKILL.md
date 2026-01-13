@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute ideogram major re-architecture and migration strategies with
-  strangler fig pattern. use when migrating to or from ideogram, performing major
-  version upgrades, or re-platforming existing integrations to ideogram. trigger with
-  phrases like "...
 name: ideogram-migration-deep-dive
+description: |
+  Execute ideogram major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from ideogram, performing major version upgrades, or re-platforming existing integrations to ideogram. trigger with phrases like "...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ideogram Migration Deep Dive
 

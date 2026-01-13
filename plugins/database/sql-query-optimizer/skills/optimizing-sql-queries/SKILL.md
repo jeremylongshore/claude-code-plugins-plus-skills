@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when you need to work with query optimization. this skill
-  provides query performance analysis with comprehensive guidance and automation.
-  trigger with phrases like "optimize queries", "analyze performance", or "improve
-  query speed".
 name: optimizing-sql-queries
+description: |
+  Execute use when you need to work with query optimization. this skill provides query performance analysis with comprehensive guidance and automation. trigger with phrases like "optimize queries", "analyze performance", or "improve query speed".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sql Query Optimizer
 

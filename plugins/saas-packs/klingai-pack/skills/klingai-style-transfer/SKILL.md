@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Manage apply artistic styles to Kling AI video generation. Use when creating
-  stylized videos, matching brand aesthetics, or artistic effects. Trigger with phrases
-  like 'klingai style', 'kling ai artistic', 'klingai video style', 'stylize klingai
-  v...
 name: klingai-style-transfer
+description: |
+  Manage apply artistic styles to Kling AI video generation. Use when creating stylized videos, matching brand aesthetics, or artistic effects. Trigger with phrases like 'klingai style', 'kling ai artistic', 'klingai video style', 'stylize klingai v...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Style Transfer
 

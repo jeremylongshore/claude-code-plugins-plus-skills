@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute posthog incident response procedures with triage, mitigation,
-  and postmortem. use when responding to posthog-related outages, investigating errors,
-  or running post-incident reviews for posthog integration failures. trigger with
-  phrases lik...
 name: posthog-incident-runbook
+description: |
+  Execute posthog incident response procedures with triage, mitigation, and postmortem. use when responding to posthog-related outages, investigating errors, or running post-incident reviews for posthog integration failures. trigger with phrases lik...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Posthog Incident Runbook
 

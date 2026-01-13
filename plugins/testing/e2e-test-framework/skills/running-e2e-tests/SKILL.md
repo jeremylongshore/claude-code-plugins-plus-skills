@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute end-to-end tests covering full user workflows across frontend
-  and backend. use when performing specialized testing. trigger with phrases like
-  "run end-to-end tests", "test user flows", or "execute e2e suite".
 name: running-e2e-tests
+description: |
+  Execute end-to-end tests covering full user workflows across frontend and backend. use when performing specialized testing. trigger with phrases like "run end-to-end tests", "test user flows", or "execute e2e suite".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # E2E Test Framework
 

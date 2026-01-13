@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Zapier integration patterns and automation workflows for granola. use
-  when building automated workflows, connecting granola to other apps, or creating
-  custom integrations via zapier. trigger with phrases like "granola zapier", "granola
-  automation"...
 name: granola-sdk-patterns
+description: |
+  Zapier integration patterns and automation workflows for granola. use when building automated workflows, connecting granola to other apps, or creating custom integrations via zapier. trigger with phrases like "granola zapier", "granola automation"...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Granola Sdk Patterns
 

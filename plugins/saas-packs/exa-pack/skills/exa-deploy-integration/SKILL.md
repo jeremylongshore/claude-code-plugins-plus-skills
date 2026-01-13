@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Deploy Exa integrations to Vercel, Fly.io, and Cloud Run platforms. Use
-  when deploying Exa-powered applications to production, configuring platform-specific
-  secrets, or setting up deployment pipelines. Trigger with phrases like "deploy exa",
-  "exa ...
 name: exa-deploy-integration
+description: |
+  Deploy Exa integrations to Vercel, Fly.io, and Cloud Run platforms. Use when deploying Exa-powered applications to production, configuring platform-specific secrets, or setting up deployment pipelines. Trigger with phrases like "deploy exa", "exa ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Deploy Integration
 

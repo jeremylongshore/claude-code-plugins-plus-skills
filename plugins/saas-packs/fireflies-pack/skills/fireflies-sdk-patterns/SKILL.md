@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply production-ready fireflies.ai sdk patterns for typescript and python.
-  use when implementing fireflies.ai integrations, refactoring sdk usage, or establishing
-  team coding standards for fireflies.ai. trigger with phrases like "fireflies sdk
-  pa...
 name: fireflies-sdk-patterns
+description: |
+  Apply production-ready fireflies.ai sdk patterns for typescript and python. use when implementing fireflies.ai integrations, refactoring sdk usage, or establishing team coding standards for fireflies.ai. trigger with phrases like "fireflies sdk pa...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Fireflies Sdk Patterns
 

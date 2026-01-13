@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Plan and execute langchain sdk upgrades and migrations. use when upgrading
-  langchain versions, migrating from legacy patterns, or updating to new apis after
-  breaking changes. trigger with phrases like "upgrade langchain", "langchain migration",
-  "l...
 name: langchain-upgrade-migration
+description: |
+  Plan and execute langchain sdk upgrades and migrations. use when upgrading langchain versions, migrating from legacy patterns, or updating to new apis after breaking changes. trigger with phrases like "upgrade langchain", "langchain migration", "l...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Upgrade Migration
 

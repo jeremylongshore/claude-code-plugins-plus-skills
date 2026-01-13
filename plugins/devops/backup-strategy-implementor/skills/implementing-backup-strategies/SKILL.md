@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when you need to work with backup and recovery. this skill
-  provides backup automation and disaster recovery with comprehensive guidance and
-  automation. trigger with phrases like "create backups", "automate backups", or "implement
-  disas...
 name: implementing-backup-strategies
+description: |
+  Execute use when you need to work with backup and recovery. this skill provides backup automation and disaster recovery with comprehensive guidance and automation. trigger with phrases like "create backups", "automate backups", or "implement disas...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Backup Strategy Implementor
 

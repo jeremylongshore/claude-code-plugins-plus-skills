@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Clay local development with hot reload and testing. Use when
-  setting up a development environment, configuring test workflows, or establishing
-  a fast iteration cycle with Clay. Trigger with phrases like "clay dev setup", "clay
-  local deve...
 name: clay-local-dev-loop
+description: |
+  Configure Clay local development with hot reload and testing. Use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with Clay. Trigger with phrases like "clay dev setup", "clay local deve...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Local Dev Loop
 

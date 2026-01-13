@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute diagnose and fix vercel common errors and exceptions. use when
-  encountering vercel errors, debugging failed requests, or troubleshooting integration
-  issues. trigger with phrases like "vercel error", "fix vercel", "vercel not working",
-  "deb...
 name: vercel-common-errors
+description: |
+  Execute diagnose and fix vercel common errors and exceptions. use when encountering vercel errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "vercel error", "fix vercel", "vercel not working", "deb...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Common Errors
 

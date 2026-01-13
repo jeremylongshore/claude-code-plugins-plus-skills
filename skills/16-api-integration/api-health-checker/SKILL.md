@@ -1,7 +1,7 @@
 ---
 name: "api-health-checker"
 description: |
-  Check api health checker operations. Auto-activating skill for API Integration.
+  Check check check api health checker operations. Auto-activating skill for API Integration.
   Triggers on: api health checker, api health checker
   Part of the API Integration skill category. Use when working with APIs or building integrations. Trigger with phrases like "api health checker", "api checker", "api".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"

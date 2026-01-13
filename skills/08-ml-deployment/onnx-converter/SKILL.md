@@ -1,7 +1,7 @@
 ---
 name: "onnx-converter"
 description: |
-  Convert onnx converter operations. Auto-activating skill for ML Deployment.
+  Convert convert convert onnx converter operations. Auto-activating skill for ML Deployment.
   Triggers on: onnx converter, onnx converter
   Part of the ML Deployment skill category. Use when working with onnx converter functionality. Trigger with phrases like "onnx converter", "onnx converter", "onnx".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"

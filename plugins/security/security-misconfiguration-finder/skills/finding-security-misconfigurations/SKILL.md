@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Configure identify security misconfigurations in infrastructure-as-code,
-  application settings, and system configurations. Use when you need to audit Terraform/CloudFormation
-  templates, check application config files, validate system security setti...
 name: finding-security-misconfigurations
+description: |
+  Configure identify security misconfigurations in infrastructure-as-code, application settings, and system configurations. Use when you need to audit Terraform/CloudFormation templates, check application config files, validate system security setti...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Finding Security Misconfigurations
 

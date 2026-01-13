@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute replit primary workflow: core workflow a. use when implementing
-  primary use case, building main features, or core integration tasks. trigger with
-  phrases like "replit main workflow", "primary task with replit".'
 name: replit-core-workflow-a
+description: |
+  Execute replit primary workflow: core workflow a. use when implementing primary use case, building main features, or core integration tasks. trigger with phrases like "replit main workflow", "primary task with replit".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Core Workflow A
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure deployment pipelines for Lindy AI integrations. Use when deploying
-  to production, setting up staging environments, or automating agent deployments.
-  Trigger with phrases like "deploy lindy", "lindy deployment", "lindy production
-  deploy", ...
 name: lindy-deploy-integration
+description: |
+  Configure deployment pipelines for Lindy AI integrations. Use when deploying to production, setting up staging environments, or automating agent deployments. Trigger with phrases like "deploy lindy", "lindy deployment", "lindy production deploy", ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Deploy Integration
 

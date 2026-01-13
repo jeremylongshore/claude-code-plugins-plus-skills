@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Glob
-license: MIT
-description: Analyze team AI usage patterns and productivity metrics. Activate when
-  users mention "usage analytics", "ai metrics", "productivity tracking", "usage reports",
-  or "roi analysis". Handles analytics and reporting configuration. Use when working
-  with...
 name: windsurf-usage-analytics
+description: |
+  Analyze team AI usage patterns and productivity metrics. Activate when users mention "usage analytics", "ai metrics", "productivity tracking", "usage reports", or "roi analysis". Handles analytics and reporting configuration. Use when working with...
+allowed-tools: Read, Grep, Glob
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Usage Analytics
 

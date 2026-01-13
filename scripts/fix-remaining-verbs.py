@@ -131,8 +131,17 @@ def fix_skill_file(filepath: Path) -> bool:
     return False
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Fix remaining action verb issues")
+    parser.add_argument(
+        "--input",
+        default="/tmp/remaining.json",
+        help="Path to JSON audit output (default: /tmp/remaining.json)",
+    )
+    args = parser.parse_args()
+
     # Load remaining gaps
-    with open('/tmp/remaining.json') as f:
+    with open(args.input) as f:
         data = json.load(f)
 
     # Find skills missing action verbs

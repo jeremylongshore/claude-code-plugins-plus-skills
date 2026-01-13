@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Build use when you need to work with NoSQL data modeling. This skill
-  provides NoSQL database design with comprehensive guidance and automation. Trigger
-  with phrases like "model NoSQL data", "design document structure", or "optimize
-  NoSQL schema".
 name: modeling-nosql-data
+description: |
+  Build use when you need to work with NoSQL data modeling. This skill provides NoSQL database design with comprehensive guidance and automation. Trigger with phrases like "model NoSQL data", "design document structure", or "optimize NoSQL schema".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Nosql Data Modeler
 

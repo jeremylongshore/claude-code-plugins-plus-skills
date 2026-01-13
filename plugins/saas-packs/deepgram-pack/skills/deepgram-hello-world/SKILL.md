@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Deepgram transcription example. Use when starting
-  a new Deepgram integration, testing your setup, or learning basic Deepgram API patterns.
-  Trigger with phrases like "deepgram hello world", "deepgram example", "deepgram
-  qui...
 name: deepgram-hello-world
+description: |
+  Create a minimal working Deepgram transcription example. Use when starting a new Deepgram integration, testing your setup, or learning basic Deepgram API patterns. Trigger with phrases like "deepgram hello world", "deepgram example", "deepgram qui...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Deepgram Hello World
 

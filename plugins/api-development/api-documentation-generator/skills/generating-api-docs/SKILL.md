@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Create comprehensive API documentation with examples, authentication
-  guides, and SDKs. Use when creating comprehensive API documentation. Trigger with
-  phrases like "generate API docs", "create API documentation", or "document the API".
 name: generating-api-docs
+description: |
+  Create comprehensive API documentation with examples, authentication guides, and SDKs. Use when creating comprehensive API documentation. Trigger with phrases like "generate API docs", "create API documentation", or "document the API".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Generating Api Docs
 

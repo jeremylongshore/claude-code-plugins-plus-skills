@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Optimize Windsurf API performance with caching, batching, and connection
-  pooling. Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Windsurf integrations. Trigger with phrases
-  like "win...
 name: windsurf-performance-tuning
+description: |
+  Optimize Windsurf API performance with caching, batching, and connection pooling. Use when experiencing slow API responses, implementing caching strategies, or optimizing request throughput for Windsurf integrations. Trigger with phrases like "win...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Performance Tuning
 

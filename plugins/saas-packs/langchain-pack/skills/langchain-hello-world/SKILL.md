@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working LangChain example. Use when starting a new LangChain
-  integration, testing your setup, or learning basic LangChain patterns with chains
-  and prompts. Trigger with phrases like "langchain hello world", "langchain example",
-  "l...
 name: langchain-hello-world
+description: |
+  Create a minimal working LangChain example. Use when starting a new LangChain integration, testing your setup, or learning basic LangChain patterns with chains and prompts. Trigger with phrases like "langchain hello world", "langchain example", "l...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Hello World
 

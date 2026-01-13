@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Test backtest crypto trading strategies against historical data with
-  performance metrics. Use when validating trading strategies with historical data.
-  Trigger with phrases like "backtest strategy", "test trading signals", or "validate
-  approach".
 name: backtesting-trading-strategies
+description: |
+  Test backtest crypto trading strategies against historical data with performance metrics. Use when validating trading strategies with historical data. Trigger with phrases like "backtest strategy", "test trading signals", or "validate approach".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Backtesting Trading Strategies
 

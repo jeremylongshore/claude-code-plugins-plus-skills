@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Process use when you need to ensure database integrity through comprehensive
-  data validation. This skill validates data types, ranges, formats, referential integrity,
-  and business rules. Trigger with phrases like "validate database data", "impleme...
 name: validating-database-integrity
+description: |
+  Process use when you need to ensure database integrity through comprehensive data validation. This skill validates data types, ranges, formats, referential integrity, and business rules. Trigger with phrases like "validate database data", "impleme...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Data Validation Engine
 

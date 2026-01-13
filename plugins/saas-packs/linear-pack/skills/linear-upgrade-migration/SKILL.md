@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Upgrade linear sdk versions and migrate breaking changes. use when updating
-  to a new sdk version, handling deprecations, or migrating between major linear api
-  versions. trigger with phrases like "upgrade linear sdk", "linear sdk migration",
-  "updat...
 name: linear-upgrade-migration
+description: |
+  Upgrade linear sdk versions and migrate breaking changes. use when updating to a new sdk version, handling deprecations, or migrating between major linear api versions. trigger with phrases like "upgrade linear sdk", "linear sdk migration", "updat...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Upgrade Migration
 

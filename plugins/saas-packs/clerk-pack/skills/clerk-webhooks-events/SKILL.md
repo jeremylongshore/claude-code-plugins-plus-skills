@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Clerk webhooks and handle authentication events. Use when setting
-  up user sync, handling auth events, or integrating Clerk with external systems.
-  Trigger with phrases like "clerk webhooks", "clerk events", "clerk user sync", "clerk
-  notif...
 name: clerk-webhooks-events
+description: |
+  Configure Clerk webhooks and handle authentication events. Use when setting up user sync, handling auth events, or integrating Clerk with external systems. Trigger with phrases like "clerk webhooks", "clerk events", "clerk user sync", "clerk notif...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Webhooks Events
 

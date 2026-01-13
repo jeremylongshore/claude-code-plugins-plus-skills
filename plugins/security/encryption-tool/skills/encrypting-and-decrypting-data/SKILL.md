@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Validate encryption implementations and cryptographic practices. Use
-  when reviewing data security measures. Trigger with 'check encryption', 'validate
-  crypto', or 'review security keys'.
 name: encrypting-and-decrypting-data
+description: |
+  Validate encryption implementations and cryptographic practices. Use when reviewing data security measures. Trigger with 'check encryption', 'validate crypto', or 'review security keys'.
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Encryption Tool
 

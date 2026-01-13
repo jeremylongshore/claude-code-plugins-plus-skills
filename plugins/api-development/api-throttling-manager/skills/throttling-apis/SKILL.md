@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Implement api throttling policies to protect backend services from overload.
-  use when controlling api request rates. trigger with phrases like "throttle api",
-  "control request rate", or "add throttling".
 name: throttling-apis
+description: |
+  Implement api throttling policies to protect backend services from overload. use when controlling api request rates. trigger with phrases like "throttle api", "control request rate", or "add throttling".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Throttling Apis
 

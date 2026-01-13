@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Apply firecrawl advanced debugging techniques for hard-to-diagnose issues.
-  use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for firecrawl support escalation. trigger with phrases
-  like "f...
 name: firecrawl-advanced-troubleshooting
+description: |
+  Apply firecrawl advanced debugging techniques for hard-to-diagnose issues. use when standard troubleshooting fails, investigating complex race conditions, or preparing evidence bundles for firecrawl support escalation. trigger with phrases like "f...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firecrawl Advanced Troubleshooting
 

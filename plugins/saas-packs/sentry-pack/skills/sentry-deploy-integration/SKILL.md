@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Track deployments and releases in sentry. use when configuring deployment
-  tracking, release health, or connecting deployments to error data. trigger with
-  phrases like "sentry deploy tracking", "sentry release health", "track deployments
-  sentry", "...
 name: sentry-deploy-integration
+description: |
+  Track deployments and releases in sentry. use when configuring deployment tracking, release health, or connecting deployments to error data. trigger with phrases like "sentry deploy tracking", "sentry release health", "track deployments sentry", "...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Deploy Integration
 

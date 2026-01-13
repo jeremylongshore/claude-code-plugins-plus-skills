@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement perplexity load testing, auto-scaling, and capacity planning
-  strategies. use when running performance tests, configuring horizontal scaling,
-  or planning capacity for perplexity integrations. trigger with phrases like "perplexity
-  load tes...
 name: perplexity-load-scale
+description: |
+  Implement perplexity load testing, auto-scaling, and capacity planning strategies. use when running performance tests, configuring horizontal scaling, or planning capacity for perplexity integrations. trigger with phrases like "perplexity load tes...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Load Scale
 

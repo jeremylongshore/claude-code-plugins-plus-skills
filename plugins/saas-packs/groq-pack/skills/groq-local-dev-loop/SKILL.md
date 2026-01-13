@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Groq local development with hot reload and testing. Use when
-  setting up a development environment, configuring test workflows, or establishing
-  a fast iteration cycle with Groq. Trigger with phrases like "groq dev setup", "groq
-  local deve...
 name: groq-local-dev-loop
+description: |
+  Configure Groq local development with hot reload and testing. Use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with Groq. Trigger with phrases like "groq dev setup", "groq local deve...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Groq Local Dev Loop
 

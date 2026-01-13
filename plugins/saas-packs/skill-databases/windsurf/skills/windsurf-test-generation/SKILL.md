@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep, Glob
-license: MIT
-description: Generate comprehensive test suites using Cascade. Activate when users
-  mention "generate tests", "test coverage", "write unit tests", "create test suite",
-  or "tdd assistance". Handles AI-powered test generation. Use when writing or running
-  tests. T...
 name: windsurf-test-generation
+description: |
+  Generate comprehensive test suites using Cascade. Activate when users mention "generate tests", "test coverage", "write unit tests", "create test suite", or "tdd assistance". Handles AI-powered test generation. Use when writing or running tests. T...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep, Glob
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Test Generation
 

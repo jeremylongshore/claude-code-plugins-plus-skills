@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read
-license: MIT
-description: Configure this skill should be used when the user asks about "API contract",
-  "api-contract.md", "shared interface", "TypeScript interfaces", "request response
-  schemas", "endpoint design", or needs guidance on designing contracts that coordinate
-  ba...
 name: api-contract
+description: |
+  Configure this skill should be used when the user asks about "API contract", "api-contract.md", "shared interface", "TypeScript interfaces", "request response schemas", "endpoint design", or needs guidance on designing contracts that coordinate ba...
+allowed-tools: Read
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Api Contract
 

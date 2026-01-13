@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure firecrawl sdk/cli authentication. use when setting
-  up a new firecrawl integration, configuring api keys, or initializing firecrawl
-  in your project. trigger with phrases like "install firecrawl", "setup firecrawl",
-  "firecrawl ...
 name: firecrawl-install-auth
+description: |
+  Install and configure firecrawl sdk/cli authentication. use when setting up a new firecrawl integration, configuring api keys, or initializing firecrawl in your project. trigger with phrases like "install firecrawl", "setup firecrawl", "firecrawl ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # FireCrawl Install & Auth
 

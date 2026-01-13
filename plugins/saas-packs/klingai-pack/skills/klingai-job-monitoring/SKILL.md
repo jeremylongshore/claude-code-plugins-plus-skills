@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Monitor and track Kling AI video generation jobs. Use when managing multiple
-  generations or building job dashboards. Trigger with phrases like 'klingai job status',
-  'track klingai jobs', 'kling ai monitoring', 'klingai job queue'.
 name: klingai-job-monitoring
+description: |
+  Monitor and track Kling AI video generation jobs. Use when managing multiple generations or building job dashboards. Trigger with phrases like 'klingai job status', 'track klingai jobs', 'kling ai monitoring', 'klingai job queue'.
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Job Monitoring
 

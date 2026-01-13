@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix retell ai common errors and exceptions. use when encountering
-  retell ai errors, debugging failed requests, or troubleshooting integration issues.
-  trigger with phrases like "retellai error", "fix retellai", "retellai not working",
-  ...
 name: retellai-common-errors
+description: |
+  Diagnose and fix retell ai common errors and exceptions. use when encountering retell ai errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "retellai error", "fix retellai", "retellai not working", ...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Common Errors
 

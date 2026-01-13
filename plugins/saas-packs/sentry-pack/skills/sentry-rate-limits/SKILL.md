@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Manage Sentry rate limits and quota optimization. Use when hitting rate
-  limits, optimizing event volume, or managing Sentry costs. Trigger with phrases
-  like "sentry rate limit", "sentry quota", "reduce sentry events", "sentry 429".
 name: sentry-rate-limits
+description: |
+  Manage Sentry rate limits and quota optimization. Use when hitting rate limits, optimizing event volume, or managing Sentry costs. Trigger with phrases like "sentry rate limit", "sentry quota", "reduce sentry events", "sentry 429".
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Rate Limits
 

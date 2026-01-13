@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute integration tests validating component interactions and system
-  integration. use when performing specialized testing. trigger with phrases like
-  "run integration tests", "test integration", or "validate component interactions".
 name: running-integration-tests
+description: |
+  Execute integration tests validating component interactions and system integration. use when performing specialized testing. trigger with phrases like "run integration tests", "test integration", or "validate component interactions".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Integration Test Runner
 

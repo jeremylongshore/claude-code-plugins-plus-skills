@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement apollo.io reference architecture. use when designing apollo
-  integrations, establishing patterns, or building production-grade sales intelligence
-  systems. trigger with phrases like "apollo architecture", "apollo system design",
-  "apollo in...
 name: apollo-reference-architecture
+description: |
+  Implement apollo.io reference architecture. use when designing apollo integrations, establishing patterns, or building production-grade sales intelligence systems. trigger with phrases like "apollo architecture", "apollo system design", "apollo in...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Reference Architecture
 

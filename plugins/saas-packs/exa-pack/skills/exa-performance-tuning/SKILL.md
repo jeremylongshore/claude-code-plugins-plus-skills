@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Optimize Exa API performance with caching, batching, and connection pooling.
-  Use when experiencing slow API responses, implementing caching strategies, or optimizing
-  request throughput for Exa integrations. Trigger with phrases like "exa performan...
 name: exa-performance-tuning
+description: |
+  Optimize Exa API performance with caching, batching, and connection pooling. Use when experiencing slow API responses, implementing caching strategies, or optimizing request throughput for Exa integrations. Trigger with phrases like "exa performan...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Performance Tuning
 

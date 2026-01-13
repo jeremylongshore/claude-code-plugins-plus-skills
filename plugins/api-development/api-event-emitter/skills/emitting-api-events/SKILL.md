@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Build event-driven APIs with webhooks, Server-Sent Events, and real-time
-  notifications. Use when building event-driven API architectures. Trigger with phrases
-  like "add webhooks", "implement events", or "create event-driven API".
 name: emitting-api-events
+description: |
+  Build event-driven APIs with webhooks, Server-Sent Events, and real-time notifications. Use when building event-driven API architectures. Trigger with phrases like "add webhooks", "implement events", or "create event-driven API".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Emitting Api Events
 

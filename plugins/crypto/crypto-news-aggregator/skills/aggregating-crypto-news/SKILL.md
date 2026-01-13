@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute aggregate breaking crypto news, announcements, and market-moving
-  events in real-time. use when staying updated on crypto market events. trigger with
-  phrases like "get crypto news", "check latest announcements", or "scan for updates".
 name: aggregating-crypto-news
+description: |
+  Execute aggregate breaking crypto news, announcements, and market-moving events in real-time. use when staying updated on crypto market events. trigger with phrases like "get crypto news", "check latest announcements", or "scan for updates".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Aggregating Crypto News
 

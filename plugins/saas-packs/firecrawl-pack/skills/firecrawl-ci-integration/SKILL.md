@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure FireCrawl CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines, or integrating
-  FireCrawl tests into your build process. Trigger with phrases like "firecrawl CI",
-  "firecrawl Gi...
 name: firecrawl-ci-integration
+description: |
+  Configure FireCrawl CI/CD integration with GitHub Actions and testing. Use when setting up automated testing, configuring CI pipelines, or integrating FireCrawl tests into your build process. Trigger with phrases like "firecrawl CI", "firecrawl Gi...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firecrawl Ci Integration
 

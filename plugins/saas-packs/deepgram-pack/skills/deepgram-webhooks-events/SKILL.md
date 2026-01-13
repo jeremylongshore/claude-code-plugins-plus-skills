@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement deepgram callback and webhook handling for async transcription.
-  use when implementing callback urls, processing async transcription results, or
-  handling deepgram event notifications. trigger with phrases like "deepgram callback",
-  "deepgr...
 name: deepgram-webhooks-events
+description: |
+  Implement deepgram callback and webhook handling for async transcription. use when implementing callback urls, processing async transcription results, or handling deepgram event notifications. trigger with phrases like "deepgram callback", "deepgr...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Deepgram Webhooks Events
 

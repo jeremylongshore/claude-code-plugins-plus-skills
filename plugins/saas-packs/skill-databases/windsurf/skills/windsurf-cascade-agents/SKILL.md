@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep, Glob
-license: MIT
-description: Create custom Cascade agent configurations for specialized tasks. Activate
-  when users mention "custom cascade agent", "specialized ai agent", "domain-specific
-  cascade", "agent configuration", or "custom ai behavior". Handles custom agent creation
-  ...
 name: windsurf-cascade-agents
+description: |
+  Create custom Cascade agent configurations for specialized tasks. Activate when users mention "custom cascade agent", "specialized ai agent", "domain-specific cascade", "agent configuration", or "custom ai behavior". Handles custom agent creation ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep, Glob
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Cascade Agents
 

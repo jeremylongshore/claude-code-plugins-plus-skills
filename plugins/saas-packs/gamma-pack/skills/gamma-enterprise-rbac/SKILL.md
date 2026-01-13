@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement enterprise role-based access control for gamma integrations.
-  use when configuring team permissions, multi-tenant access, or enterprise authorization
-  patterns. trigger with phrases like "gamma rbac", "gamma permissions", "gamma access
-  con...
 name: gamma-enterprise-rbac
+description: |
+  Implement enterprise role-based access control for gamma integrations. use when configuring team permissions, multi-tenant access, or enterprise authorization patterns. trigger with phrases like "gamma rbac", "gamma permissions", "gamma access con...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gamma Enterprise Rbac
 

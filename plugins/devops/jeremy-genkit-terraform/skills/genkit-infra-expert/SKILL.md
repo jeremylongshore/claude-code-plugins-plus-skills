@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when deploying genkit applications to production with terraform.
-  trigger with phrases like "deploy genkit terraform", "provision genkit infrastructure",
-  "firebase functions terraform", "cloud run deployment", or "genkit production infr...
 name: genkit-infra-expert
+description: |
+  Execute use when deploying genkit applications to production with terraform. trigger with phrases like "deploy genkit terraform", "provision genkit infrastructure", "firebase functions terraform", "cloud run deployment", or "genkit production infr...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Genkit Infra Expert
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Typescript/javascript sdk patterns and best practices for linear. use
-  when learning sdk idioms, implementing common patterns, or optimizing linear api
-  usage. trigger with phrases like "linear sdk patterns", "linear best practices",
-  "linear typescr...
 name: linear-sdk-patterns
+description: |
+  Typescript/javascript sdk patterns and best practices for linear. use when learning sdk idioms, implementing common patterns, or optimizing linear api usage. trigger with phrases like "linear sdk patterns", "linear best practices", "linear typescr...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Sdk Patterns
 

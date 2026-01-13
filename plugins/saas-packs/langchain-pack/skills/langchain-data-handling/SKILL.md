@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement langchain data privacy and handling best practices. use when
-  handling sensitive data, implementing pii protection, or ensuring data compliance
-  in llm applications. trigger with phrases like "langchain data privacy", "langchain
-  pii", "lan...
 name: langchain-data-handling
+description: |
+  Implement langchain data privacy and handling best practices. use when handling sensitive data, implementing pii protection, or ensuring data compliance in llm applications. trigger with phrases like "langchain data privacy", "langchain pii", "lan...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Data Handling
 

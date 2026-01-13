@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute upgrade cursor versions and migrate settings. triggers on "upgrade
-  cursor", "update cursor", "cursor migration", "cursor new version", "cursor changelog".
-  use when working with cursor upgrade migration functionality. trigger with phrases
-  l...
 name: cursor-upgrade-migration
+description: |
+  Execute upgrade cursor versions and migrate settings. triggers on "upgrade cursor", "update cursor", "cursor migration", "cursor new version", "cursor changelog". use when working with cursor upgrade migration functionality. trigger with phrases l...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Upgrade Migration
 

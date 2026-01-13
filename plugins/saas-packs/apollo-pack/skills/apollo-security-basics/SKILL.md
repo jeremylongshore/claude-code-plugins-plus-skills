@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Apply apollo.io api security best practices. use when securing apollo
-  integrations, managing api keys, or implementing secure data handling. trigger with
-  phrases like "apollo security", "secure apollo api", "apollo api key security",
-  "apollo data ...
 name: apollo-security-basics
+description: |
+  Apply apollo.io api security best practices. use when securing apollo integrations, managing api keys, or implementing secure data handling. trigger with phrases like "apollo security", "secure apollo api", "apollo api key security", "apollo data ...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Security Basics
 

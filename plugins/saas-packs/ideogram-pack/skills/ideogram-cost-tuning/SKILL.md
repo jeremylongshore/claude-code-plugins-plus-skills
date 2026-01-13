@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Optimize Ideogram costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Ideogram billing, reducing API costs, or implementing usage monitoring
-  and budget alerts. Trigger with phrases like "ideogram cost", "ideogram billi...
 name: ideogram-cost-tuning
+description: |
+  Optimize Ideogram costs through tier selection, sampling, and usage monitoring. Use when analyzing Ideogram billing, reducing API costs, or implementing usage monitoring and budget alerts. Trigger with phrases like "ideogram cost", "ideogram billi...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ideogram Cost Tuning
 

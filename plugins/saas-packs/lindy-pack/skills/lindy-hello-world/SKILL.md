@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Lindy AI agent example. Use when starting a
-  new Lindy integration, testing your setup, or learning basic Lindy API patterns.
-  Trigger with phrases like "lindy hello world", "lindy example", "lindy quick start",
-  "simple lind...
 name: lindy-hello-world
+description: |
+  Create a minimal working Lindy AI agent example. Use when starting a new Lindy integration, testing your setup, or learning basic Lindy API patterns. Trigger with phrases like "lindy hello world", "lindy example", "lindy quick start", "simple lind...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Hello World
 

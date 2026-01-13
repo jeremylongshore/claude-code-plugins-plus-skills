@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure fireflies.ai sdk/cli authentication. use when setting
-  up a new fireflies.ai integration, configuring api keys, or initializing fireflies.ai
-  in your project. trigger with phrases like "install fireflies", "setup fireflies",
-  "f...
 name: fireflies-install-auth
+description: |
+  Install and configure fireflies.ai sdk/cli authentication. use when setting up a new fireflies.ai integration, configuring api keys, or initializing fireflies.ai in your project. trigger with phrases like "install fireflies", "setup fireflies", "f...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Fireflies.ai Install & Auth
 

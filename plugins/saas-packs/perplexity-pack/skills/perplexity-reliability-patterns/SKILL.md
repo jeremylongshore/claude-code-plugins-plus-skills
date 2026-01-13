@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement perplexity reliability patterns including circuit breakers,
-  idempotency, and graceful degradation. use when building fault-tolerant perplexity
-  integrations, implementing retry strategies, or adding resilience to production
-  perplexity ser...
 name: perplexity-reliability-patterns
+description: |
+  Implement perplexity reliability patterns including circuit breakers, idempotency, and graceful degradation. use when building fault-tolerant perplexity integrations, implementing retry strategies, or adding resilience to production perplexity ser...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Reliability Patterns
 

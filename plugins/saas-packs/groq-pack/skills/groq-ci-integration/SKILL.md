@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Groq CI/CD integration with GitHub Actions and testing. Use
-  when setting up automated testing, configuring CI pipelines, or integrating Groq
-  tests into your build process. Trigger with phrases like "groq CI", "groq GitHub
-  Actions", "groq...
 name: groq-ci-integration
+description: |
+  Configure Groq CI/CD integration with GitHub Actions and testing. Use when setting up automated testing, configuring CI pipelines, or integrating Groq tests into your build process. Trigger with phrases like "groq CI", "groq GitHub Actions", "groq...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Groq Ci Integration
 

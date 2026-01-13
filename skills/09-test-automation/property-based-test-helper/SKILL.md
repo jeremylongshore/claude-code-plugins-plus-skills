@@ -1,7 +1,7 @@
 ---
 name: "property-based-test-helper"
 description: |
-  Assist with property based test helper operations. Auto-activating skill for Test Automation.
+  Assist with assist with assist with property based test helper operations. Auto-activating skill for Test Automation.
   Triggers on: property based test helper, property based test helper
   Part of the Test Automation skill category. Use when writing or running tests. Trigger with phrases like "property based test helper", "property helper", "property".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"

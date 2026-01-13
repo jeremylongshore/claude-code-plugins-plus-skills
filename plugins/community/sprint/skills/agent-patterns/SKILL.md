@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read
-license: MIT
-description: Execute this skill should be used when the user asks about "spawn request
-  format", "agent reports", "agent coordination", "parallel agents", "report format",
-  "agent communication", or needs to understand how agents coordinate within the sprint
-  sys...
 name: agent-patterns
+description: |
+  Execute this skill should be used when the user asks about "spawn request format", "agent reports", "agent coordination", "parallel agents", "report format", "agent communication", or needs to understand how agents coordinate within the sprint sys...
+allowed-tools: Read
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Agent Patterns
 

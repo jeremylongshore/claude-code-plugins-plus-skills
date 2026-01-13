@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Apollo.io data management and compliance. use when handling contact data,
-  implementing gdpr compliance, or managing data exports and retention. trigger with
-  phrases like "apollo data", "apollo gdpr", "apollo compliance", "apollo data export",
-  "apo...
 name: apollo-data-handling
+description: |
+  Apollo.io data management and compliance. use when handling contact data, implementing gdpr compliance, or managing data exports and retention. trigger with phrases like "apollo data", "apollo gdpr", "apollo compliance", "apollo data export", "apo...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Data Handling
 

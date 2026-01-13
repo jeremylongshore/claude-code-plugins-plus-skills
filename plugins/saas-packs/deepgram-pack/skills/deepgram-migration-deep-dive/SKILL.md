@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Deep dive into complex deepgram migrations and provider transitions.
-  use when migrating from other transcription providers, planning large-scale migrations,
-  or implementing phased rollout strategies. trigger with phrases like "deepgram migration",...
 name: deepgram-migration-deep-dive
+description: |
+  Deep dive into complex deepgram migrations and provider transitions. use when migrating from other transcription providers, planning large-scale migrations, or implementing phased rollout strategies. trigger with phrases like "deepgram migration",...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Deepgram Migration Deep Dive
 

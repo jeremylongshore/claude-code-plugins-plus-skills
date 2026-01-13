@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep
-license: MIT
-description: Execute coderabbit production deployment checklist and rollback procedures.
-  use when deploying coderabbit integrations to production, preparing for launch,
-  or implementing go-live procedures. trigger with phrases like "coderabbit production",
-  "dep...
 name: coderabbit-prod-checklist
+description: |
+  Execute coderabbit production deployment checklist and rollback procedures. use when deploying coderabbit integrations to production, preparing for launch, or implementing go-live procedures. trigger with phrases like "coderabbit production", "dep...
+allowed-tools: Read, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Coderabbit Prod Checklist
 

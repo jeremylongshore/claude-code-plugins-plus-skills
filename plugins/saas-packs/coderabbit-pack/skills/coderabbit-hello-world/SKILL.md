@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working CodeRabbit example. Use when starting a new
-  CodeRabbit integration, testing your setup, or learning basic CodeRabbit API patterns.
-  Trigger with phrases like "coderabbit hello world", "coderabbit example", "coderabbit
-  quick...
 name: coderabbit-hello-world
+description: |
+  Create a minimal working CodeRabbit example. Use when starting a new CodeRabbit integration, testing your setup, or learning basic CodeRabbit API patterns. Trigger with phrases like "coderabbit hello world", "coderabbit example", "coderabbit quick...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # CodeRabbit Hello World
 

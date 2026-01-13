@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Instantly local development with hot reload and testing. Use
-  when setting up a development environment, configuring test workflows, or establishing
-  a fast iteration cycle with Instantly. Trigger with phrases like "instantly dev
-  setup", "...
 name: instantly-local-dev-loop
+description: |
+  Configure Instantly local development with hot reload and testing. Use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with Instantly. Trigger with phrases like "instantly dev setup", "...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Instantly Local Dev Loop
 

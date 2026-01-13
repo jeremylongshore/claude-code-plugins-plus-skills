@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute replit major re-architecture and migration strategies with strangler
-  fig pattern. use when migrating to or from replit, performing major version upgrades,
-  or re-platforming existing integrations to replit. trigger with phrases like "migrat...
 name: replit-migration-deep-dive
+description: |
+  Execute replit major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from replit, performing major version upgrades, or re-platforming existing integrations to replit. trigger with phrases like "migrat...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Migration Deep Dive
 

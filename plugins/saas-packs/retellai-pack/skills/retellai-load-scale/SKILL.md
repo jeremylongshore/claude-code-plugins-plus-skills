@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement retell ai load testing, auto-scaling, and capacity planning
-  strategies. use when running performance tests, configuring horizontal scaling,
-  or planning capacity for retell ai integrations. trigger with phrases like "retellai
-  load test", ...
 name: retellai-load-scale
+description: |
+  Implement retell ai load testing, auto-scaling, and capacity planning strategies. use when running performance tests, configuring horizontal scaling, or planning capacity for retell ai integrations. trigger with phrases like "retellai load test", ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Load Scale
 

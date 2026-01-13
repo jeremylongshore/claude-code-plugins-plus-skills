@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Implement sophisticated rate limiting with sliding windows, token buckets,
-  and quotas. use when protecting apis from excessive requests. trigger with phrases
-  like "add rate limiting", "limit api requests", or "implement rate limits".
 name: rate-limiting-apis
+description: |
+  Implement sophisticated rate limiting with sliding windows, token buckets, and quotas. use when protecting apis from excessive requests. trigger with phrases like "add rate limiting", "limit api requests", or "implement rate limits".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Rate Limiting Apis
 

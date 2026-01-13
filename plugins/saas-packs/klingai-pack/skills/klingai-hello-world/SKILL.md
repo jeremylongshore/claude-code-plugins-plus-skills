@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Create your first Kling AI video generation with a simple example. Use
-  when learning Kling AI or testing your setup. Trigger with phrases like 'kling ai
-  hello world', 'first kling ai video', 'klingai quickstart', 'test klingai'.
 name: klingai-hello-world
+description: |
+  Create your first Kling AI video generation with a simple example. Use when learning Kling AI or testing your setup. Trigger with phrases like 'kling ai hello world', 'first kling ai video', 'klingai quickstart', 'test klingai'.
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Hello World
 

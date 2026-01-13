@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Execute set up local development workflow with sentry. use when configuring
-  sentry for development environments, setting up debug mode, or testing error capture
-  locally. trigger with phrases like "sentry local dev", "sentry development", "debug
-  se...
 name: sentry-local-dev-loop
+description: |
+  Execute set up local development workflow with sentry. use when configuring sentry for development environments, setting up debug mode, or testing error capture locally. trigger with phrases like "sentry local dev", "sentry development", "debug se...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Local Dev Loop
 

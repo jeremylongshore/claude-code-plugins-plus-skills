@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Exa local development with hot reload and testing. Use when
-  setting up a development environment, configuring test workflows, or establishing
-  a fast iteration cycle with Exa. Trigger with phrases like "exa dev setup", "exa
-  local developm...
 name: exa-local-dev-loop
+description: |
+  Configure Exa local development with hot reload and testing. Use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with Exa. Trigger with phrases like "exa dev setup", "exa local developm...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Local Dev Loop
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure windsurf sdk/cli authentication. use when setting
-  up a new windsurf integration, configuring api keys, or initializing windsurf in
-  your project. trigger with phrases like "install windsurf", "setup windsurf", "windsurf
-  auth",...
 name: windsurf-install-auth
+description: |
+  Install and configure windsurf sdk/cli authentication. use when setting up a new windsurf integration, configuring api keys, or initializing windsurf in your project. trigger with phrases like "install windsurf", "setup windsurf", "windsurf auth",...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Install & Auth
 

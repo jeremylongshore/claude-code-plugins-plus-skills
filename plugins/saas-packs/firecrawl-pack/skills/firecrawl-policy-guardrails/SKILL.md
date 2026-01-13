@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement firecrawl lint rules, policy enforcement, and automated guardrails.
-  use when setting up code quality rules for firecrawl integrations, implementing
-  pre-commit hooks, or configuring ci policy checks for firecrawl best practices.
-  trigger w...
 name: firecrawl-policy-guardrails
+description: |
+  Implement firecrawl lint rules, policy enforcement, and automated guardrails. use when setting up code quality rules for firecrawl integrations, implementing pre-commit hooks, or configuring ci policy checks for firecrawl best practices. trigger w...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firecrawl Policy Guardrails
 

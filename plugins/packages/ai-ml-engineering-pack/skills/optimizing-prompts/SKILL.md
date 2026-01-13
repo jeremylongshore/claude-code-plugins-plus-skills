@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute this skill optimizes prompts for large language models (llms)
-  to reduce token usage, lower costs, and improve performance. it analyzes the prompt,
-  identifies areas for simplification and redundancy removal, and rewrites the prompt
-  to be mo...
 name: optimizing-prompts
+description: |
+  Execute this skill optimizes prompts for large language models (llms) to reduce token usage, lower costs, and improve performance. it analyzes the prompt, identifies areas for simplification and redundancy removal, and rewrites the prompt to be mo...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ai Ml Engineering Pack
 

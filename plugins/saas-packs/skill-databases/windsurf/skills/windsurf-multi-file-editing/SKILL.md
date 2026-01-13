@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob
-license: MIT
-description: Manage multi-file edits with Cascade coordination. Activate when users
-  mention "multi-file edit", "edit multiple files", "cross-file changes", "refactor
-  across files", or "batch modifications". Handles coordinated multi-file operations.
-  Use when w...
 name: windsurf-multi-file-editing
+description: |
+  Manage multi-file edits with Cascade coordination. Activate when users mention "multi-file edit", "edit multiple files", "cross-file changes", "refactor across files", or "batch modifications". Handles coordinated multi-file operations. Use when w...
+allowed-tools: Read, Write, Edit, Grep, Glob
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Multi File Editing
 

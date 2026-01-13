@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Choose and implement perplexity validated architecture blueprints for
-  different scales. use when designing new perplexity integrations, choosing between
-  monolith/service/microservice architectures, or planning migration paths for perplexity
-  applic...
 name: perplexity-architecture-variants
+description: |
+  Choose and implement perplexity validated architecture blueprints for different scales. use when designing new perplexity integrations, choosing between monolith/service/microservice architectures, or planning migration paths for perplexity applic...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Architecture Variants
 

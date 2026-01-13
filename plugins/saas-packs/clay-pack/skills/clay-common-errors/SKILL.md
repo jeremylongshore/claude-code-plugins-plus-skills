@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix clay common errors and exceptions. use when encountering
-  clay errors, debugging failed requests, or troubleshooting integration issues. trigger
-  with phrases like "clay error", "fix clay", "clay not working", "debug clay".
 name: clay-common-errors
+description: |
+  Diagnose and fix clay common errors and exceptions. use when encountering clay errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "clay error", "fix clay", "clay not working", "debug clay".
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Common Errors
 

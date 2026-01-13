@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement supabase reliability patterns including circuit breakers, idempotency,
-  and graceful degradation. use when building fault-tolerant supabase integrations,
-  implementing retry strategies, or adding resilience to production supabase services....
 name: supabase-reliability-patterns
+description: |
+  Implement supabase reliability patterns including circuit breakers, idempotency, and graceful degradation. use when building fault-tolerant supabase integrations, implementing retry strategies, or adding resilience to production supabase services....
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Reliability Patterns
 

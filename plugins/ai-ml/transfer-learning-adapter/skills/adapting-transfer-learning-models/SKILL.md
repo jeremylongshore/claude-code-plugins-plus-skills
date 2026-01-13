@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Build this skill automates the adaptation of pre-trained machine learning
-  models using transfer learning techniques. it is triggered when the user requests
-  assistance with fine-tuning a model, adapting a pre-trained model to a new dataset,
-  or perf...
 name: adapting-transfer-learning-models
+description: |
+  Build this skill automates the adaptation of pre-trained machine learning models using transfer learning techniques. it is triggered when the user requests assistance with fine-tuning a model, adapting a pre-trained model to a new dataset, or perf...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Transfer Learning Adapter
 

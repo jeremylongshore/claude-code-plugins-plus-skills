@@ -1,7 +1,7 @@
 ---
 name: "model-pruning-helper"
 description: |
-  Assist with model pruning helper operations. Auto-activating skill for ML Deployment.
+  Assist with assist with assist with model pruning helper operations. Auto-activating skill for ML Deployment.
   Triggers on: model pruning helper, model pruning helper
   Part of the ML Deployment skill category. Use when working with model pruning helper functionality. Trigger with phrases like "model pruning helper", "model helper", "model".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Collect apollo.io debug evidence for support. use when preparing support
-  tickets, documenting issues, or gathering diagnostic information for apollo problems.
-  trigger with phrases like "apollo debug", "apollo support bundle", "collect apollo
-  diagn...
 name: apollo-debug-bundle
+description: |
+  Collect apollo.io debug evidence for support. use when preparing support tickets, documenting issues, or gathering diagnostic information for apollo problems. trigger with phrases like "apollo debug", "apollo support bundle", "collect apollo diagn...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Debug Bundle
 

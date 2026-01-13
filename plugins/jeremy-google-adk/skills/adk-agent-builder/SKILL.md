@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Bash
-license: MIT
-description: Build production-ready AI agents using Google's Agent Development Kit
-  with AI assistant integration, React patterns, multi-agent orchestration, and comprehensive
-  tool libraries. Use when appropriate context detected. Trigger with relevant phrases
-  ...
 name: adk-agent-builder
+description: |
+  Build production-ready AI agents using Google's Agent Development Kit with AI assistant integration, React patterns, multi-agent orchestration, and comprehensive tool libraries. Use when appropriate context detected. Trigger with relevant phrases ...
+allowed-tools: Read, Write, Edit, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # ADK Agent Builder
 

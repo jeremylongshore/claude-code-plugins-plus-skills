@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure coderabbit sdk/cli authentication. use when setting
-  up a new coderabbit integration, configuring api keys, or initializing coderabbit
-  in your project. trigger with phrases like "install coderabbit", "setup coderabbit",
-  "coder...
 name: coderabbit-install-auth
+description: |
+  Install and configure coderabbit sdk/cli authentication. use when setting up a new coderabbit integration, configuring api keys, or initializing coderabbit in your project. trigger with phrases like "install coderabbit", "setup coderabbit", "coder...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # CodeRabbit Install & Auth
 

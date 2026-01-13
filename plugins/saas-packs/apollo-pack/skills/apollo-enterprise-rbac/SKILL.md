@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Enterprise role-based access control for apollo.io. use when implementing
-  team permissions, restricting data access, or setting up enterprise security controls.
-  trigger with phrases like "apollo rbac", "apollo permissions", "apollo roles", "apollo...
 name: apollo-enterprise-rbac
+description: |
+  Enterprise role-based access control for apollo.io. use when implementing team permissions, restricting data access, or setting up enterprise security controls. trigger with phrases like "apollo rbac", "apollo permissions", "apollo roles", "apollo...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Enterprise Rbac
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Implement replit reference architecture with best-practice project layout.
-  use when designing new replit integrations, reviewing project structure, or establishing
-  architecture standards for replit applications. trigger with phrases like "replit
-  a...
 name: replit-reference-architecture
+description: |
+  Implement replit reference architecture with best-practice project layout. use when designing new replit integrations, reviewing project structure, or establishing architecture standards for replit applications. trigger with phrases like "replit a...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Reference Architecture
 

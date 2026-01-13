@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Handle user data, privacy, and gdpr compliance with clerk. use when implementing
-  data export, user deletion, or privacy compliance features. trigger with phrases
-  like "clerk user data", "clerk gdpr", "clerk privacy", "clerk data export", "clerk
-  de...
 name: clerk-data-handling
+description: |
+  Handle user data, privacy, and gdpr compliance with clerk. use when implementing data export, user deletion, or privacy compliance features. trigger with phrases like "clerk user data", "clerk gdpr", "clerk privacy", "clerk data export", "clerk de...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Data Handling
 

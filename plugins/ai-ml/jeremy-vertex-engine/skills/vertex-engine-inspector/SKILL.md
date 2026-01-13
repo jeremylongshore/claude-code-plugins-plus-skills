@@ -2,13 +2,14 @@
 name: vertex-engine-inspector
 description: |
   Execute inspect and validate Vertex AI Agent Engine deployments including Code Execution Sandbox, Memory Bank, A2A protocol compliance, and security posture. Generates production readiness scores. Use when asked to "inspect agent engine" or "validate depl... Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read, Grep, Glob, Bash
+allowed-tools: Read, Grep, Glob, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
 ---
-
 # Vertex Engine Inspector
+
+This skill provides automated assistance for vertex engine inspector tasks.
 
 ## Overview
 

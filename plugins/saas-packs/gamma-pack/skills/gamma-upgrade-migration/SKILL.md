@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Upgrade gamma sdk versions and migrate between api versions. use when
-  upgrading sdk packages, handling deprecations, or migrating to new api versions.
-  trigger with phrases like "gamma upgrade", "gamma migration", "gamma new version",
-  "gamma deprec...
 name: gamma-upgrade-migration
+description: |
+  Upgrade gamma sdk versions and migrate between api versions. use when upgrading sdk packages, handling deprecations, or migrating to new api versions. trigger with phrases like "gamma upgrade", "gamma migration", "gamma new version", "gamma deprec...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gamma Upgrade Migration
 

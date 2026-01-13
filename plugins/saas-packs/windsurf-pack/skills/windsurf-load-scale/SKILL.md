@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement windsurf load testing, auto-scaling, and capacity planning
-  strategies. use when running performance tests, configuring horizontal scaling,
-  or planning capacity for windsurf integrations. trigger with phrases like "windsurf
-  load test", "w...
 name: windsurf-load-scale
+description: |
+  Implement windsurf load testing, auto-scaling, and capacity planning strategies. use when running performance tests, configuring horizontal scaling, or planning capacity for windsurf integrations. trigger with phrases like "windsurf load test", "w...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Load Scale
 

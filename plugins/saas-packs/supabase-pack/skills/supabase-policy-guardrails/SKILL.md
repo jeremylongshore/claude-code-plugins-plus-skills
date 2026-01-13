@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement supabase lint rules, policy enforcement, and automated guardrails.
-  use when setting up code quality rules for supabase integrations, implementing pre-commit
-  hooks, or configuring ci policy checks for supabase best practices. trigger with...
 name: supabase-policy-guardrails
+description: |
+  Implement supabase lint rules, policy enforcement, and automated guardrails. use when setting up code quality rules for supabase integrations, implementing pre-commit hooks, or configuring ci policy checks for supabase best practices. trigger with...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Policy Guardrails
 

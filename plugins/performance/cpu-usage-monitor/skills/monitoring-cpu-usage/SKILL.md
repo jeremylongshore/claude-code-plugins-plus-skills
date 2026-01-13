@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Monitor this skill enables AI assistant to monitor and analyze cpu usage
-  patterns within applications. it helps identify cpu hotspots, analyze algorithmic
-  complexity, and detect blocking operations. use this skill when the user asks to
-  "monitor cp...
 name: monitoring-cpu-usage
+description: |
+  Monitor this skill enables AI assistant to monitor and analyze cpu usage patterns within applications. it helps identify cpu hotspots, analyze algorithmic complexity, and detect blocking operations. use this skill when the user asks to "monitor cp...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cpu Usage Monitor
 

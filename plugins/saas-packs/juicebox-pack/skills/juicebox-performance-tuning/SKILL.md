@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Optimize Juicebox API performance. Use when improving response times,
-  reducing latency, or optimizing Juicebox integration throughput. Trigger with phrases
-  like "juicebox performance", "optimize juicebox", "juicebox speed", "juicebox latency".
 name: juicebox-performance-tuning
+description: |
+  Optimize Juicebox API performance. Use when improving response times, reducing latency, or optimizing Juicebox integration throughput. Trigger with phrases like "juicebox performance", "optimize juicebox", "juicebox speed", "juicebox latency".
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Performance Tuning
 

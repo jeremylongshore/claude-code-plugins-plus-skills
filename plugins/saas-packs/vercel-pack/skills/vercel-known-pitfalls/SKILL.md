@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Execute identify and avoid vercel anti-patterns and common integration
-  mistakes. use when reviewing vercel code for issues, onboarding new developers,
-  or auditing existing vercel integrations for best practices violations. trigger
-  with phrases lik...
 name: vercel-known-pitfalls
+description: |
+  Execute identify and avoid vercel anti-patterns and common integration mistakes. use when reviewing vercel code for issues, onboarding new developers, or auditing existing vercel integrations for best practices violations. trigger with phrases lik...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Known Pitfalls
 

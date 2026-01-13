@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Implement real-time streaming transcription with deepgram. use when building
-  live transcription, voice interfaces, or real-time audio processing applications.
-  trigger with phrases like "deepgram streaming", "real-time transcription", "live
-  transcr...
 name: deepgram-core-workflow-b
+description: |
+  Implement real-time streaming transcription with deepgram. use when building live transcription, voice interfaces, or real-time audio processing applications. trigger with phrases like "deepgram streaming", "real-time transcription", "live transcr...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Deepgram Core Workflow B
 

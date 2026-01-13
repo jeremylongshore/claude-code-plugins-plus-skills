@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Apply replit advanced debugging techniques for hard-to-diagnose issues.
-  use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for replit support escalation. trigger with phrases
-  like "replit ...
 name: replit-advanced-troubleshooting
+description: |
+  Apply replit advanced debugging techniques for hard-to-diagnose issues. use when standard troubleshooting fails, investigating complex race conditions, or preparing evidence bundles for replit support escalation. trigger with phrases like "replit ...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Advanced Troubleshooting
 

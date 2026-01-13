@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply production-ready clay sdk patterns for typescript and python. use
-  when implementing clay integrations, refactoring sdk usage, or establishing team
-  coding standards for clay. trigger with phrases like "clay sdk patterns", "clay
-  best practices...
 name: clay-sdk-patterns
+description: |
+  Apply production-ready clay sdk patterns for typescript and python. use when implementing clay integrations, refactoring sdk usage, or establishing team coding standards for clay. trigger with phrases like "clay sdk patterns", "clay best practices...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Sdk Patterns
 

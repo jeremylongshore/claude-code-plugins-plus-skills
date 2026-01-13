@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute this skill enables ai assistant to create application performance
-  monitoring (apm) dashboards. it is triggered when the user requests the creation
-  of a new apm dashboard, monitoring dashboard, or a dashboard for application performance.
-  th...
 name: creating-apm-dashboards
+description: |
+  Execute this skill enables ai assistant to create application performance monitoring (apm) dashboards. it is triggered when the user requests the creation of a new apm dashboard, monitoring dashboard, or a dashboard for application performance. th...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apm Dashboard Creator
 

@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Troubleshoot common lindy ai errors and issues. use when encountering
-  errors, debugging agent failures, or resolving integration problems. trigger with
-  phrases like "lindy error", "lindy not working", "debug lindy", "lindy troubleshoot".
 name: lindy-common-errors
+description: |
+  Troubleshoot common lindy ai errors and issues. use when encountering errors, debugging agent failures, or resolving integration problems. trigger with phrases like "lindy error", "lindy not working", "debug lindy", "lindy troubleshoot".
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Common Errors
 

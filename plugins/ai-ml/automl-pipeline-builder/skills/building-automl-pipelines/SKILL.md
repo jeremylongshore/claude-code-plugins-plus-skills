@@ -4,14 +4,14 @@ description: |
   Build automated machine learning pipelines with feature engineering, model selection, and hyperparameter tuning.
   Use when automating ML workflows from data preparation through model deployment.
   Trigger with phrases like "build automl pipeline", "automate ml workflow", or "create automated training pipeline".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
 ---
-
 # Building Automl Pipelines
+
+This skill provides automated assistance for building automl pipelines tasks.
 
 ## Overview
 

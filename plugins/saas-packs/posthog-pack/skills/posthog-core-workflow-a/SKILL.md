@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute posthog primary workflow: core workflow a. use when implementing
-  primary use case, building main features, or core integration tasks. trigger with
-  phrases like "posthog main workflow", "primary task with posthog".'
 name: posthog-core-workflow-a
+description: |
+  Execute posthog primary workflow: core workflow a. use when implementing primary use case, building main features, or core integration tasks. trigger with phrases like "posthog main workflow", "primary task with posthog".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # PostHog Core Workflow A
 

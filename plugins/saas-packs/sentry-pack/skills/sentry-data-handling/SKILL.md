@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Manage sensitive data properly in Sentry. Use when configuring PII scrubbing,
-  data retention, GDPR compliance, or data security settings. Trigger with phrases
-  like "sentry pii", "sentry gdpr", "sentry data privacy", "scrub sensitive data sentry".
 name: sentry-data-handling
+description: |
+  Manage sensitive data properly in Sentry. Use when configuring PII scrubbing, data retention, GDPR compliance, or data security settings. Trigger with phrases like "sentry pii", "sentry gdpr", "sentry data privacy", "scrub sensitive data sentry".
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Data Handling
 

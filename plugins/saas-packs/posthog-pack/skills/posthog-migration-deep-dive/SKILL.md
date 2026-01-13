@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute posthog major re-architecture and migration strategies with strangler
-  fig pattern. use when migrating to or from posthog, performing major version upgrades,
-  or re-platforming existing integrations to posthog. trigger with phrases like "mig...
 name: posthog-migration-deep-dive
+description: |
+  Execute posthog major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from posthog, performing major version upgrades, or re-platforming existing integrations to posthog. trigger with phrases like "mig...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Posthog Migration Deep Dive
 

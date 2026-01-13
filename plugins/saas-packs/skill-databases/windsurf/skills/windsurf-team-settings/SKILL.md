@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Manage team-wide Windsurf settings and AI policies. Activate when users
-  mention "team settings", "organization config", "team policies", "shared settings",
-  or "team standardization". Handles team configuration management. Use when working
-  with win...
 name: windsurf-team-settings
+description: |
+  Manage team-wide Windsurf settings and AI policies. Activate when users mention "team settings", "organization config", "team policies", "shared settings", or "team standardization". Handles team configuration management. Use when working with win...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Team Settings
 

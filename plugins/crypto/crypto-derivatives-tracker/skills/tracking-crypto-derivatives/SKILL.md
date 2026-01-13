@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Track futures, options, and perpetual swap positions with p&l calculations.
-  use when tracking futures and options positions. trigger with phrases like "track
-  derivatives", "check futures positions", or "analyze perps".
 name: tracking-crypto-derivatives
+description: |
+  Track futures, options, and perpetual swap positions with p&l calculations. use when tracking futures and options positions. trigger with phrases like "track derivatives", "check futures positions", or "analyze perps".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Tracking Crypto Derivatives
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute langchain production deployment checklist. use when preparing
-  for production launch, validating deployment readiness, or auditing existing production
-  langchain applications. trigger with phrases like "langchain production", "langchain
-  prod...
 name: langchain-prod-checklist
+description: |
+  Execute langchain production deployment checklist. use when preparing for production launch, validating deployment readiness, or auditing existing production langchain applications. trigger with phrases like "langchain production", "langchain prod...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Prod Checklist
 

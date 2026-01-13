@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Collect comprehensive infrastructure performance metrics across compute,
-  storage, network, containers, load balancers, and databases. use when monitoring
-  system performance or troubleshooting infrastructure issues. trigger with phrases
-  like "colle...
 name: collecting-infrastructure-metrics
+description: |
+  Collect comprehensive infrastructure performance metrics across compute, storage, network, containers, load balancers, and databases. use when monitoring system performance or troubleshooting infrastructure issues. trigger with phrases like "colle...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Infrastructure Metrics Collector
 

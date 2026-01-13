@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Implement session management and middleware with clerk. use when managing
-  user sessions, configuring route protection, or implementing token refresh logic.
-  trigger with phrases like "clerk session", "clerk middleware", "clerk route protection",
-  "c...
 name: clerk-core-workflow-b
+description: |
+  Implement session management and middleware with clerk. use when managing user sessions, configuring route protection, or implementing token refresh logic. trigger with phrases like "clerk session", "clerk middleware", "clerk route protection", "c...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Core Workflow B
 

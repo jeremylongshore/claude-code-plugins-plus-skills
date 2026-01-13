@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement perplexity lint rules, policy enforcement, and automated guardrails.
-  use when setting up code quality rules for perplexity integrations, implementing
-  pre-commit hooks, or configuring ci policy checks for perplexity best practices.
-  trigge...
 name: perplexity-policy-guardrails
+description: |
+  Implement perplexity lint rules, policy enforcement, and automated guardrails. use when setting up code quality rules for perplexity integrations, implementing pre-commit hooks, or configuring ci policy checks for perplexity best practices. trigge...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Policy Guardrails
 

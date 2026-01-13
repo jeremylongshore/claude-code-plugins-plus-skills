@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix groq common errors and exceptions. use when encountering
-  groq errors, debugging failed requests, or troubleshooting integration issues. trigger
-  with phrases like "groq error", "fix groq", "groq not working", "debug groq".
 name: groq-common-errors
+description: |
+  Diagnose and fix groq common errors and exceptions. use when encountering groq errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "groq error", "fix groq", "groq not working", "debug groq".
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Groq Common Errors
 

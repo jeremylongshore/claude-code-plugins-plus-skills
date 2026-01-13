@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Manage master Cursor keyboard shortcuts and customize keybindings. Triggers
-  on "cursor shortcuts", "cursor keybindings", "cursor keyboard", "cursor hotkeys",
-  "cursor commands". Use when working with cursor keybindings functionality. Trigger
-  with p...
 name: cursor-keybindings
+description: |
+  Manage master Cursor keyboard shortcuts and customize keybindings. Triggers on "cursor shortcuts", "cursor keybindings", "cursor keyboard", "cursor hotkeys", "cursor commands". Use when working with cursor keybindings functionality. Trigger with p...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Keybindings
 

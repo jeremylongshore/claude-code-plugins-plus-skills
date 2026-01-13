@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement replit load testing, auto-scaling, and capacity planning strategies.
-  use when running performance tests, configuring horizontal scaling, or planning
-  capacity for replit integrations. trigger with phrases like "replit load test",
-  "replit ...
 name: replit-load-scale
+description: |
+  Implement replit load testing, auto-scaling, and capacity planning strategies. use when running performance tests, configuring horizontal scaling, or planning capacity for replit integrations. trigger with phrases like "replit load test", "replit ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Load Scale
 

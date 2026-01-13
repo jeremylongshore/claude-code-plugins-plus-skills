@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute this skill empowers ai assistant to construct recommendation
-  systems using collaborative filtering, content-based filtering, or hybrid approaches.
-  it analyzes user preferences, item features, and interaction data to generate personalized
-  r...
 name: building-recommendation-systems
+description: |
+  Execute this skill empowers ai assistant to construct recommendation systems using collaborative filtering, content-based filtering, or hybrid approaches. it analyzes user preferences, item features, and interaction data to generate personalized r...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Recommendation Engine
 

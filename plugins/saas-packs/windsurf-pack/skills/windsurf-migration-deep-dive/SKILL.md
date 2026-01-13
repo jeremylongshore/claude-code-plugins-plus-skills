@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute windsurf major re-architecture and migration strategies with
-  strangler fig pattern. use when migrating to or from windsurf, performing major
-  version upgrades, or re-platforming existing integrations to windsurf. trigger with
-  phrases like "...
 name: windsurf-migration-deep-dive
+description: |
+  Execute windsurf major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from windsurf, performing major version upgrades, or re-platforming existing integrations to windsurf. trigger with phrases like "...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Migration Deep Dive
 

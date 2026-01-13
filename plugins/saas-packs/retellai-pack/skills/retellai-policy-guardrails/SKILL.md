@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement retell ai lint rules, policy enforcement, and automated guardrails.
-  use when setting up code quality rules for retell ai integrations, implementing
-  pre-commit hooks, or configuring ci policy checks for retell ai best practices.
-  trigger w...
 name: retellai-policy-guardrails
+description: |
+  Implement retell ai lint rules, policy enforcement, and automated guardrails. use when setting up code quality rules for retell ai integrations, implementing pre-commit hooks, or configuring ci policy checks for retell ai best practices. trigger w...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Policy Guardrails
 

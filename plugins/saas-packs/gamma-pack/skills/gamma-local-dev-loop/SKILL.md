@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Set up efficient local development workflow for gamma. use when configuring
-  hot reload, mock responses, or optimizing your gamma development experience. trigger
-  with phrases like "gamma local dev", "gamma development setup", "gamma hot reload",
-  "g...
 name: gamma-local-dev-loop
+description: |
+  Set up efficient local development workflow for gamma. use when configuring hot reload, mock responses, or optimizing your gamma development experience. trigger with phrases like "gamma local dev", "gamma development setup", "gamma hot reload", "g...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gamma Local Dev Loop
 

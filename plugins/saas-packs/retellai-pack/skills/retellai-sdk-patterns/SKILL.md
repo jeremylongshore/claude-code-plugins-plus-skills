@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply production-ready retell ai sdk patterns for typescript and python.
-  use when implementing retell ai integrations, refactoring sdk usage, or establishing
-  team coding standards for retell ai. trigger with phrases like "retellai sdk patterns",
-  "...
 name: retellai-sdk-patterns
+description: |
+  Apply production-ready retell ai sdk patterns for typescript and python. use when implementing retell ai integrations, refactoring sdk usage, or establishing team coding standards for retell ai. trigger with phrases like "retellai sdk patterns", "...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Sdk Patterns
 

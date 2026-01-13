@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement vast.ai pii handling, data retention, and gdpr/ccpa compliance
-  patterns. use when handling sensitive data, implementing data redaction, configuring
-  retention policies, or ensuring compliance with privacy regulations for vast.ai
-  integrati...
 name: vastai-data-handling
+description: |
+  Implement vast.ai pii handling, data retention, and gdpr/ccpa compliance patterns. use when handling sensitive data, implementing data redaction, configuring retention policies, or ensuring compliance with privacy regulations for vast.ai integrati...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vast.ai Data Handling
 

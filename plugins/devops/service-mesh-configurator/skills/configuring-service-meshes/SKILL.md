@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Configure this skill configures service meshes like istio and linkerd
-  for microservices. it generates production-ready configurations, implements best
-  practices, and ensures a security-first approach. use this skill when the user asks
-  to "configur...
 name: configuring-service-meshes
+description: |
+  Configure this skill configures service meshes like istio and linkerd for microservices. it generates production-ready configurations, implements best practices, and ensures a security-first approach. use this skill when the user asks to "configur...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Service Mesh Configurator
 

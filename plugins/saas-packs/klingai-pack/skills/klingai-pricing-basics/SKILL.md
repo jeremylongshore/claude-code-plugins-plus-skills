@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Manage understand Kling AI pricing, credits, and cost optimization. Use
-  when budgeting or optimizing costs for video generation. Trigger with phrases like
-  'kling ai pricing', 'klingai credits', 'kling ai cost', 'klingai budget'.
 name: klingai-pricing-basics
+description: |
+  Manage understand Kling AI pricing, credits, and cost optimization. Use when budgeting or optimizing costs for video generation. Trigger with phrases like 'kling ai pricing', 'klingai credits', 'kling ai cost', 'klingai budget'.
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Pricing Basics
 

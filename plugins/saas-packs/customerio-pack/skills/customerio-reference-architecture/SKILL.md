@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement customer.io reference architecture. use when designing integrations,
-  planning architecture, or implementing enterprise patterns. trigger with phrases
-  like "customer.io architecture", "customer.io design", "customer.io enterprise",
-  "custo...
 name: customerio-reference-architecture
+description: |
+  Implement customer.io reference architecture. use when designing integrations, planning architecture, or implementing enterprise patterns. trigger with phrases like "customer.io architecture", "customer.io design", "customer.io enterprise", "custo...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Customerio Reference Architecture
 

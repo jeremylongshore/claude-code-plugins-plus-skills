@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute analyze, plan, and execute supabase sdk upgrades with breaking
-  change detection. use when upgrading supabase sdk versions, detecting deprecations,
-  or migrating to new api versions. trigger with phrases like "upgrade supabase",
-  "supabase mi...
 name: supabase-upgrade-migration
+description: |
+  Execute analyze, plan, and execute supabase sdk upgrades with breaking change detection. use when upgrading supabase sdk versions, detecting deprecations, or migrating to new api versions. trigger with phrases like "upgrade supabase", "supabase mi...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Upgrade Migration
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Write, Read, Grep, Bash
-license: MIT
-description: Create automatically creates new AI assistant code plugins with proper
-  structure, validation, and marketplace integration when user mentions creating a
-  plugin, new plugin, or plugin from template. specific to AI assistant-code-plugins
-  repository w...
 name: plugin-creator
+description: |
+  Create automatically creates new AI assistant code plugins with proper structure, validation, and marketplace integration when user mentions creating a plugin, new plugin, or plugin from template. specific to AI assistant-code-plugins repository w...
+allowed-tools: Write, Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Plugin Creator
 

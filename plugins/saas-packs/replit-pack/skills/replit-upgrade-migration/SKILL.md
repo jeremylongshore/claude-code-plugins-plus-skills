@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Analyze, plan, and execute Replit SDK upgrades with breaking change detection.
-  Use when upgrading Replit SDK versions, detecting deprecations, or migrating to
-  new API versions. Trigger with phrases like "upgrade replit", "replit migration",
-  "repli...
 name: replit-upgrade-migration
+description: |
+  Analyze, plan, and execute Replit SDK upgrades with breaking change detection. Use when upgrading Replit SDK versions, detecting deprecations, or migrating to new API versions. Trigger with phrases like "upgrade replit", "replit migration", "repli...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Upgrade Migration
 

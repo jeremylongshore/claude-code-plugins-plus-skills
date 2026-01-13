@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Comprehensive debugging toolkit for lindy ai agents. use when investigating
-  complex issues, collecting diagnostics, or preparing support tickets. trigger with
-  phrases like "lindy debug", "lindy diagnostics", "lindy support bundle", "investigate
-  li...
 name: lindy-debug-bundle
+description: |
+  Comprehensive debugging toolkit for lindy ai agents. use when investigating complex issues, collecting diagnostics, or preparing support tickets. trigger with phrases like "lindy debug", "lindy diagnostics", "lindy support bundle", "investigate li...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Debug Bundle
 

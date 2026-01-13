@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure and select AI models in Cursor. Triggers on "cursor model",
-  "cursor gpt", "cursor claude", "change cursor model", "cursor ai model". Use when
-  working with cursor model selection functionality. Trigger with phrases like "cursor
-  model sele...
 name: cursor-model-selection
+description: |
+  Configure and select AI models in Cursor. Triggers on "cursor model", "cursor gpt", "cursor claude", "change cursor model", "cursor ai model". Use when working with cursor model selection functionality. Trigger with phrases like "cursor model sele...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Model Selection
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Generate videos from static images using Kling AI. Use when animating
-  images, creating motion from stills, or building image-based content. Trigger with
-  phrases like 'klingai image to video', 'kling ai animate image', 'klingai img2vid',
-  'animate p...
 name: klingai-image-to-video
+description: |
+  Generate videos from static images using Kling AI. Use when animating images, creating motion from stills, or building image-based content. Trigger with phrases like 'klingai image to video', 'kling ai animate image', 'klingai img2vid', 'animate p...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Image To Video
 

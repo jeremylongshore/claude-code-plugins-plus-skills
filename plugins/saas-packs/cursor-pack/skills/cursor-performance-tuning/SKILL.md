@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Optimize Cursor IDE performance. Triggers on "cursor performance", "cursor
-  slow", "cursor optimization", "cursor memory", "speed up cursor". Use when working
-  with cursor performance tuning functionality. Trigger with phrases like "cursor
-  performan...
 name: cursor-performance-tuning
+description: |
+  Optimize Cursor IDE performance. Triggers on "cursor performance", "cursor slow", "cursor optimization", "cursor memory", "speed up cursor". Use when working with cursor performance tuning functionality. Trigger with phrases like "cursor performan...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Performance Tuning
 

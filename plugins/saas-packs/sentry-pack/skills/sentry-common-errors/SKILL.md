@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute troubleshoot common sentry integration issues and fixes. use
-  when encountering sentry errors, missing events, or configuration problems. trigger
-  with phrases like "sentry not working", "sentry errors missing", "fix sentry", "sentry
-  trouble...
 name: sentry-common-errors
+description: |
+  Execute troubleshoot common sentry integration issues and fixes. use when encountering sentry errors, missing events, or configuration problems. trigger with phrases like "sentry not working", "sentry errors missing", "fix sentry", "sentry trouble...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Common Errors
 

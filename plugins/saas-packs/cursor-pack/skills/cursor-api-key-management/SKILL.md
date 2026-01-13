@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Manage API keys and authentication in Cursor. Triggers on "cursor api
-  key", "cursor openai key", "cursor anthropic key", "own api key cursor". Use when
-  working with APIs or building integrations. Trigger with phrases like "cursor api
-  key managemen...
 name: cursor-api-key-management
+description: |
+  Manage API keys and authentication in Cursor. Triggers on "cursor api key", "cursor openai key", "cursor anthropic key", "own api key cursor". Use when working with APIs or building integrations. Trigger with phrases like "cursor api key managemen...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Api Key Management
 

@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Optimize PostHog costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing PostHog billing, reducing API costs, or implementing usage monitoring
-  and budget alerts. Trigger with phrases like "posthog cost", "posthog billing",...
 name: posthog-cost-tuning
+description: |
+  Optimize PostHog costs through tier selection, sampling, and usage monitoring. Use when analyzing PostHog billing, reducing API costs, or implementing usage monitoring and budget alerts. Trigger with phrases like "posthog cost", "posthog billing",...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Posthog Cost Tuning
 

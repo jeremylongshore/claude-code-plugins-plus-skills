@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Bash
-license: MIT
-description: Execute automatically handles semantic version updates across plugin.json
-  and marketplace catalog when user mentions version bump, update version, or release.
-  ensures version consistency in ai assistant-code-plugins repository. use when appropriat...
 name: version-bumper
+description: |
+  Execute automatically handles semantic version updates across plugin.json and marketplace catalog when user mentions version bump, update version, or release. ensures version consistency in ai assistant-code-plugins repository. use when appropriat...
+allowed-tools: Read, Write, Edit, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Version Bumper
 

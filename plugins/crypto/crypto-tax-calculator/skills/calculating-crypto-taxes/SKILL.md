@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute calculate cryptocurrency tax obligations with cost basis tracking
-  and jurisdiction rules. use when calculating crypto tax obligations. trigger with
-  phrases like "calculate crypto taxes", "compute tax liability", or "generate tax
-  report".
 name: calculating-crypto-taxes
+description: |
+  Execute calculate cryptocurrency tax obligations with cost basis tracking and jurisdiction rules. use when calculating crypto tax obligations. trigger with phrases like "calculate crypto taxes", "compute tax liability", or "generate tax report".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Calculating Crypto Taxes
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement observability for lindy ai integrations. use when setting up
-  monitoring, logging, tracing, or building dashboards for lindy operations. trigger
-  with phrases like "lindy monitoring", "lindy observability", "lindy metrics", "lindy
-  logging"...
 name: lindy-observability
+description: |
+  Implement observability for lindy ai integrations. use when setting up monitoring, logging, tracing, or building dashboards for lindy operations. trigger with phrases like "lindy monitoring", "lindy observability", "lindy metrics", "lindy logging"...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Observability
 

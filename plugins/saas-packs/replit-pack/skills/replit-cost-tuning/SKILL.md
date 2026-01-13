@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Optimize Replit costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Replit billing, reducing API costs, or implementing usage monitoring
-  and budget alerts. Trigger with phrases like "replit cost", "replit billing", "re...
 name: replit-cost-tuning
+description: |
+  Optimize Replit costs through tier selection, sampling, and usage monitoring. Use when analyzing Replit billing, reducing API costs, or implementing usage monitoring and budget alerts. Trigger with phrases like "replit cost", "replit billing", "re...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Replit Cost Tuning
 

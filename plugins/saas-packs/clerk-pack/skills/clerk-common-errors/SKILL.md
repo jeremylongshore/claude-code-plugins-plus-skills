@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Bash
-license: MIT
-description: Troubleshoot common clerk errors and issues. use when encountering authentication
-  errors, sdk issues, or configuration problems with clerk. trigger with phrases like
-  "clerk error", "clerk not working", "clerk authentication failed", "clerk issue",...
 name: clerk-common-errors
+description: |
+  Troubleshoot common clerk errors and issues. use when encountering authentication errors, sdk issues, or configuration problems with clerk. trigger with phrases like "clerk error", "clerk not working", "clerk authentication failed", "clerk issue",...
+allowed-tools: Read, Write, Edit, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Common Errors
 

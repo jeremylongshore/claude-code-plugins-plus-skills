@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Generate gRPC service definitions, stubs, and implementations from Protocol
-  Buffers. Use when creating high-performance gRPC services. Trigger with phrases
-  like "generate gRPC service", "create gRPC API", or "build gRPC server".
 name: generating-grpc-services
+description: |
+  Generate gRPC service definitions, stubs, and implementations from Protocol Buffers. Use when creating high-performance gRPC services. Trigger with phrases like "generate gRPC service", "create gRPC API", or "build gRPC server".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Generating Grpc Services
 

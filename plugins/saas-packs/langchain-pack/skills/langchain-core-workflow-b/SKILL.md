@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Build LangChain agents with tools for autonomous task execution. Use
-  when creating AI agents, implementing tool calling, or building autonomous workflows
-  with decision-making. Trigger with phrases like "langchain agents", "langchain tools",
-  "tool ...
 name: langchain-core-workflow-b
+description: |
+  Build LangChain agents with tools for autonomous task execution. Use when creating AI agents, implementing tool calling, or building autonomous workflows with decision-making. Trigger with phrases like "langchain agents", "langchain tools", "tool ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Langchain Core Workflow B
 

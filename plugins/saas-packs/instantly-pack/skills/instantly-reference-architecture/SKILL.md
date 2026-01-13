@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Implement instantly reference architecture with best-practice project
-  layout. use when designing new instantly integrations, reviewing project structure,
-  or establishing architecture standards for instantly applications. trigger with
-  phrases like ...
 name: instantly-reference-architecture
+description: |
+  Implement instantly reference architecture with best-practice project layout. use when designing new instantly integrations, reviewing project structure, or establishing architecture standards for instantly applications. trigger with phrases like ...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Instantly Reference Architecture
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Apply production-ready customer.io sdk patterns. use when implementing
-  best practices, refactoring integrations, or optimizing customer.io usage in your
-  application. trigger with phrases like "customer.io best practices", "customer.io
-  patterns", "...
 name: customerio-sdk-patterns
+description: |
+  Apply production-ready customer.io sdk patterns. use when implementing best practices, refactoring integrations, or optimizing customer.io usage in your application. trigger with phrases like "customer.io best practices", "customer.io patterns", "...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Customerio Sdk Patterns
 

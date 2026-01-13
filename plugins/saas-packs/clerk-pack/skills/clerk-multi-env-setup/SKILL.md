@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Clerk for multiple environments (dev, staging, production).
-  Use when setting up environment-specific configurations, managing multiple Clerk
-  instances, or implementing environment promotion. Trigger with phrases like "clerk
-  environments"...
 name: clerk-multi-env-setup
+description: |
+  Configure Clerk for multiple environments (dev, staging, production). Use when setting up environment-specific configurations, managing multiple Clerk instances, or implementing environment promotion. Trigger with phrases like "clerk environments"...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Multi Env Setup
 

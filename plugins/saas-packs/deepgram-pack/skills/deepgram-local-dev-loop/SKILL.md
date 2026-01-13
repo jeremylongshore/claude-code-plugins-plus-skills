@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Deepgram local development workflow with testing and iteration.
-  Use when setting up development environment, configuring test fixtures, or establishing
-  rapid iteration patterns for Deepgram integration. Trigger with phrases like "deepgra...
 name: deepgram-local-dev-loop
+description: |
+  Configure Deepgram local development workflow with testing and iteration. Use when setting up development environment, configuring test fixtures, or establishing rapid iteration patterns for Deepgram integration. Trigger with phrases like "deepgra...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Deepgram Local Dev Loop
 

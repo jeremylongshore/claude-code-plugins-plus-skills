@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Linear across development, staging, and production environments.
-  Use when setting up multi-environment deployments, managing per-environment API
-  keys, or implementing environment-specific Linear configurations. Trigger with phrases
-  like ...
 name: linear-multi-env-setup
+description: |
+  Configure Linear across development, staging, and production environments. Use when setting up multi-environment deployments, managing per-environment API keys, or implementing environment-specific Linear configurations. Trigger with phrases like ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Multi Env Setup
 

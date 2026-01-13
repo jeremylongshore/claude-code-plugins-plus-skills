@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep, Glob
-license: MIT
-description: Execute this skill enables ai assistant to detect and resolve performance
-  bottlenecks in applications. it analyzes cpu, memory, i/o, and database performance
-  to identify areas of concern. use this skill when you need to diagnose slow application
-  p...
 name: detecting-performance-bottlenecks
+description: |
+  Execute this skill enables ai assistant to detect and resolve performance bottlenecks in applications. it analyzes cpu, memory, i/o, and database performance to identify areas of concern. use this skill when you need to diagnose slow application p...
+allowed-tools: Read, Bash(cmd:*), Grep, Glob
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Bottleneck Detector
 

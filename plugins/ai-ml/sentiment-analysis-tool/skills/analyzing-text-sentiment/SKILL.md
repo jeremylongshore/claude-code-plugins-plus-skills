@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Bash, Grep
-license: MIT
-description: Execute this skill enables ai assistant to analyze the sentiment of text
-  data. it identifies the emotional tone expressed in text, classifying it as positive,
-  negative, or neutral. use this skill when a user requests sentiment analysis, opinion
-  mi...
 name: analyzing-text-sentiment
+description: |
+  Execute this skill enables ai assistant to analyze the sentiment of text data. it identifies the emotional tone expressed in text, classifying it as positive, negative, or neutral. use this skill when a user requests sentiment analysis, opinion mi...
+allowed-tools: Read, Write, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentiment Analysis Tool
 

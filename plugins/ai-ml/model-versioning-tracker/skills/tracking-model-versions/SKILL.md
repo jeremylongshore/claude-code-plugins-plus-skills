@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Build this skill enables AI assistant to track and manage ai/ml model
-  versions using the model-versioning-tracker plugin. it should be used when the user
-  asks to manage model versions, track model lineage, log model performance, or implement
-  versi...
 name: tracking-model-versions
+description: |
+  Build this skill enables AI assistant to track and manage ai/ml model versions using the model-versioning-tracker plugin. it should be used when the user asks to manage model versions, track model lineage, log model performance, or implement versi...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Model Versioning Tracker
 

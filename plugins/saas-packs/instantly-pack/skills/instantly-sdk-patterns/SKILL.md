@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply production-ready instantly sdk patterns for typescript and python.
-  use when implementing instantly integrations, refactoring sdk usage, or establishing
-  team coding standards for instantly. trigger with phrases like "instantly sdk patterns",
-  ...
 name: instantly-sdk-patterns
+description: |
+  Apply production-ready instantly sdk patterns for typescript and python. use when implementing instantly integrations, refactoring sdk usage, or establishing team coding standards for instantly. trigger with phrases like "instantly sdk patterns", ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Instantly Sdk Patterns
 

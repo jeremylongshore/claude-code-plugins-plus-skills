@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement customer.io webhook handling. use when processing delivery
-  events, handling callbacks, or integrating customer.io event streams. trigger with
-  phrases like "customer.io webhook", "customer.io events", "customer.io callback",
-  "customer.io ...
 name: customerio-webhooks-events
+description: |
+  Implement customer.io webhook handling. use when processing delivery events, handling callbacks, or integrating customer.io event streams. trigger with phrases like "customer.io webhook", "customer.io events", "customer.io callback", "customer.io ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Customerio Webhooks Events
 

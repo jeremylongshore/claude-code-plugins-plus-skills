@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute this skill automates the setup of distributed tracing for microservices.
-  it helps developers implement end-to-end request visibility by configuring context
-  propagation, span creation, trace collection, and analysis. use this skill when
-  the...
 name: setting-up-distributed-tracing
+description: |
+  Execute this skill automates the setup of distributed tracing for microservices. it helps developers implement end-to-end request visibility by configuring context propagation, span creation, trace collection, and analysis. use this skill when the...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Distributed Tracing Setup
 

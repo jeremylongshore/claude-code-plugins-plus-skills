@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute diagnose and fix supabase common errors and exceptions. use when
-  encountering supabase errors, debugging failed requests, or troubleshooting integration
-  issues. trigger with phrases like "supabase error", "fix supabase", "supabase not
-  work...
 name: supabase-common-errors
+description: |
+  Execute diagnose and fix supabase common errors and exceptions. use when encountering supabase errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "supabase error", "fix supabase", "supabase not work...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Common Errors
 

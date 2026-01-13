@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when you need to work with security and compliance. this
-  skill provides security scanning and vulnerability detection with comprehensive
-  guidance and automation. trigger with phrases like "scan for vulnerabilities", "implement
-  security...
 name: scanning-container-security
+description: |
+  Execute use when you need to work with security and compliance. this skill provides security scanning and vulnerability detection with comprehensive guidance and automation. trigger with phrases like "scan for vulnerabilities", "implement security...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Container Security Scanner
 

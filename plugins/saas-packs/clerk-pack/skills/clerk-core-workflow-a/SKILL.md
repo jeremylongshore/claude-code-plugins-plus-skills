@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Implement user sign-up and sign-in flows with clerk. use when building
-  authentication ui, customizing sign-in experience, or implementing oauth social
-  login. trigger with phrases like "clerk sign-in", "clerk sign-up", "clerk login
-  flow", "clerk oa...
 name: clerk-core-workflow-a
+description: |
+  Implement user sign-up and sign-in flows with clerk. use when building authentication ui, customizing sign-in experience, or implementing oauth social login. trigger with phrases like "clerk sign-in", "clerk sign-up", "clerk login flow", "clerk oa...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Core Workflow A
 

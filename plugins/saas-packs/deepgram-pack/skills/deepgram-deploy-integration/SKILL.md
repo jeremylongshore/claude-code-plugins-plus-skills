@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Deploy Deepgram integrations to production environments. Use when deploying
-  to cloud platforms, configuring production infrastructure, or setting up Deepgram
-  in containerized environments. Trigger with phrases like "deploy deepgram", "deepgram
-  doc...
 name: deepgram-deploy-integration
+description: |
+  Deploy Deepgram integrations to production environments. Use when deploying to cloud platforms, configuring production infrastructure, or setting up Deepgram in containerized environments. Trigger with phrases like "deploy deepgram", "deepgram doc...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Deepgram Deploy Integration
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Understand and manage gamma api rate limits effectively. use when hitting
-  rate limits, optimizing api usage, or implementing request queuing systems. trigger
-  with phrases like "gamma rate limit", "gamma quota", "gamma 429", "gamma throttle",
-  "gamm...
 name: gamma-rate-limits
+description: |
+  Understand and manage gamma api rate limits effectively. use when hitting rate limits, optimizing api usage, or implementing request queuing systems. trigger with phrases like "gamma rate limit", "gamma quota", "gamma 429", "gamma throttle", "gamm...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gamma Rate Limits
 

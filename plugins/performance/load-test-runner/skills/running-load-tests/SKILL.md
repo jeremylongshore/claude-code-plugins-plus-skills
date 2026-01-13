@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Create and execute load tests for performance validation using k6, JMeter,
-  and Artillery. Use when validating application performance under load conditions
-  or identifying bottlenecks. Trigger with phrases like "run load test", "create stress
-  test"...
 name: running-load-tests
+description: |
+  Create and execute load tests for performance validation using k6, JMeter, and Artillery. Use when validating application performance under load conditions or identifying bottlenecks. Trigger with phrases like "run load test", "create stress test"...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Load Test Runner
 

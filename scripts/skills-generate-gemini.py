@@ -9,10 +9,94 @@ import os
 import sys
 from pathlib import Path
 import google.generativeai as genai
+import re
 
 # Configure Gemini
 genai.configure(api_key=os.environ.get('GOOGLE_API_KEY') or os.environ.get('GEMINI_API_KEY'))
 model = genai.GenerativeModel('gemini-2.0-flash-exp')  # Fast and cheap!
+
+DEFAULT_AUTHOR = "Jeremy Longshore <jeremy@intentsolutions.io>"
+DEFAULT_LICENSE = "MIT"
+
+RE_FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---\s*\n(.*)$", re.DOTALL)
+
+def _parse_frontmatter_fields(skill_md: str) -> dict:
+    m = RE_FRONTMATTER.match(skill_md.strip())
+    if not m:
+        return {}
+    raw = m.group(1)
+    fields = {}
+    for line in raw.splitlines():
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        if ":" not in line:
+            continue
+        key, val = line.split(":", 1)
+        key = key.strip()
+        val = val.strip().strip('"').strip("'")
+        if key and val:
+            fields[key] = val
+    return fields
+
+def _slugify(text: str) -> str:
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-", text.strip().lower()).strip("-")
+    return slug or "generated-skill"
+
+def _ensure_required_frontmatter(skill_md: str, fallback_name: str) -> str:
+    m = RE_FRONTMATTER.match(skill_md.strip())
+    if not m:
+        # If Gemini returns malformed content, wrap it conservatively.
+        return (
+            "---\n"
+            f"name: {_slugify(fallback_name)}\n"
+            "description: |\n"
+            "  Generated skill.\n"
+            "allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)\n"
+            "version: 1.0.0\n"
+            f"author: {DEFAULT_AUTHOR}\n"
+            f"license: {DEFAULT_LICENSE}\n"
+            "---\n\n"
+            + skill_md.strip()
+            + "\n"
+        )
+
+    fm_raw, body = m.group(1), m.group(2)
+    fields = _parse_frontmatter_fields(skill_md)
+
+    name = fields.get("name") or _slugify(fallback_name)
+    # Normalize required fields if missing.
+    required = {
+        "name": _slugify(name),
+        "description": fields.get("description") or "Generated skill.\n\nUse when relevant context is detected. Trigger with relevant phrases.",
+        "allowed-tools": fields.get("allowed-tools") or "Read, Write, Edit, Grep, Glob, Bash(cmd:*)",
+        "version": fields.get("version") or "1.0.0",
+        "author": fields.get("author") or DEFAULT_AUTHOR,
+        "license": fields.get("license") or DEFAULT_LICENSE,
+    }
+
+    # Rebuild frontmatter in a stable order, then append any extra keys from the original block as-is.
+    out = ["---"]
+    out.append(f"name: {required['name']}")
+    out.append("description: |")
+    for line in required["description"].splitlines():
+        out.append(f"  {line}".rstrip())
+    out.append(f"allowed-tools: {re.sub(r'(^|,\\s*)Bash(\\s*,|$)', r'\\1Bash(cmd:*)\\2', required['allowed-tools'])}")
+    out.append(f"version: {required['version']}")
+    out.append(f"author: {required['author']}")
+    out.append(f"license: {required['license']}")
+
+    known = {"name", "description", "allowed-tools", "version", "author", "license"}
+    for line in fm_raw.splitlines():
+        if ":" not in line:
+            continue
+        key = line.split(":", 1)[0].strip()
+        if key in known:
+            continue
+        if line.strip():
+            out.append(line.rstrip())
+
+    out.append("---")
+    return "\n".join(out) + "\n" + body.lstrip()
 
 def read_plugin_context(plugin_path):
     """Read plugin files to understand what it does"""
@@ -69,7 +153,10 @@ Generate a SKILL.md file that follows this EXACT format:
 	description: |
 	  [2-3 sentences explaining WHEN this skill activates automatically and WHAT it does.
 	  Focus on the trigger conditions and the value it provides.]
-	allowed-tools: "Read, Grep, Glob, Edit, Write, Bash(git:*), Bash(python:*)"
+	allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+	version: 1.0.0
+	author: Jeremy Longshore <jeremy@intentsolutions.io>
+	license: MIT
 	---
 
 ## How It Works
@@ -247,8 +334,12 @@ def process_plugin(plugin, repo_root, marketplace_extended):
         print(f"  ❌ Failed to generate skill")
         return
 
+    skill_content = _ensure_required_frontmatter(skill_content, fallback_name=plugin_path.name)
+    fm = _parse_frontmatter_fields(skill_content)
+    skill_slug = _slugify(fm.get("name") or plugin_path.name)
+
     # Create skills directory
-    skills_dir = plugin_path / 'skills' / 'skill-adapter'
+    skills_dir = plugin_path / 'skills' / skill_slug
     skills_dir.mkdir(parents=True, exist_ok=True)
 
     # Write SKILL.md

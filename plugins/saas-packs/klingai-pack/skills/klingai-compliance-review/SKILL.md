@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Execute conduct compliance reviews for kling ai integrations. use when
-  preparing for audits, ensuring regulatory compliance, or reviewing security posture.
-  trigger with phrases like 'klingai compliance', 'kling ai audit prep', 'klingai
-  security re...
 name: klingai-compliance-review
+description: |
+  Execute conduct compliance reviews for kling ai integrations. use when preparing for audits, ensuring regulatory compliance, or reviewing security posture. trigger with phrases like 'klingai compliance', 'kling ai audit prep', 'klingai security re...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Compliance Review
 

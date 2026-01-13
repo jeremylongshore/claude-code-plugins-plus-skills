@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute supabase incident response procedures with triage, mitigation,
-  and postmortem. use when responding to supabase-related outages, investigating errors,
-  or running post-incident reviews for supabase integration failures. trigger with
-  phrases ...
 name: supabase-incident-runbook
+description: |
+  Execute supabase incident response procedures with triage, mitigation, and postmortem. use when responding to supabase-related outages, investigating errors, or running post-incident reviews for supabase integration failures. trigger with phrases ...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Incident Runbook
 

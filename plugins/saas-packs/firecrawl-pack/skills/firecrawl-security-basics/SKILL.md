@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Grep
-license: MIT
-description: Apply firecrawl security best practices for secrets and access control.
-  use when securing api keys, implementing least privilege access, or auditing firecrawl
-  security configuration. trigger with phrases like "firecrawl security", "firecrawl
-  secre...
 name: firecrawl-security-basics
+description: |
+  Apply firecrawl security best practices for secrets and access control. use when securing api keys, implementing least privilege access, or auditing firecrawl security configuration. trigger with phrases like "firecrawl security", "firecrawl secre...
+allowed-tools: Read, Write, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firecrawl Security Basics
 

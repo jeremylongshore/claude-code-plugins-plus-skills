@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Manage work with multiple repositories in Cursor. Triggers on "cursor
-  multi repo", "cursor multiple projects", "cursor monorepo", "cursor workspace".
-  Use when working with cursor multi repo functionality. Trigger with phrases like
-  "cursor multi re...
 name: cursor-multi-repo
+description: |
+  Manage work with multiple repositories in Cursor. Triggers on "cursor multi repo", "cursor multiple projects", "cursor monorepo", "cursor workspace". Use when working with cursor multi repo functionality. Trigger with phrases like "cursor multi re...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Multi Repo
 

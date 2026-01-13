@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure linear sdk/cli authentication. use when setting
-  up a new linear integration, configuring api keys, or initializing linear in your
-  project. trigger with phrases like "install linear", "setup linear", "linear auth",
-  "configure ...
 name: linear-install-auth
+description: |
+  Install and configure linear sdk/cli authentication. use when setting up a new linear integration, configuring api keys, or initializing linear in your project. trigger with phrases like "install linear", "setup linear", "linear auth", "configure ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Install Auth
 

@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Generate realistic test data including edge cases and boundary conditions.
-  Use when creating realistic fixtures or edge case test data. Trigger with phrases
-  like "generate test data", "create fixtures", or "setup test database".
 name: generating-test-data
+description: |
+  Generate realistic test data including edge cases and boundary conditions. Use when creating realistic fixtures or edge case test data. Trigger with phrases like "generate test data", "create fixtures", or "setup test database".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Test Data Generator
 

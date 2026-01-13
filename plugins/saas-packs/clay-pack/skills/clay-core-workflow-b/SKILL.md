@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute clay secondary workflow: core workflow b. use when implementing
-  secondary use case, or complementing primary workflow. trigger with phrases like
-  "clay secondary workflow", "secondary task with clay".'
 name: clay-core-workflow-b
+description: |
+  Execute clay secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like "clay secondary workflow", "secondary task with clay".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Core Workflow B
 

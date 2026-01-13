@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute troubleshoot common cursor ide errors and issues. triggers on
-  "cursor error", "cursor not working", "cursor issue", "cursor problem", "fix cursor".
-  use when working with cursor common errors functionality. trigger with phrases like
-  "cursor...
 name: cursor-common-errors
+description: |
+  Execute troubleshoot common cursor ide errors and issues. triggers on "cursor error", "cursor not working", "cursor issue", "cursor problem", "fix cursor". use when working with cursor common errors functionality. trigger with phrases like "cursor...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Common Errors
 

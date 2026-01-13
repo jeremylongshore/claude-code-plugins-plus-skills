@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Execute set up comprehensive observability for vercel integrations with
-  metrics, traces, and alerts. use when implementing monitoring for vercel operations,
-  setting up dashboards, or configuring alerting for vercel integration health. trigger
-  with...
 name: vercel-observability
+description: |
+  Execute set up comprehensive observability for vercel integrations with metrics, traces, and alerts. use when implementing monitoring for vercel operations, setting up dashboards, or configuring alerting for vercel integration health. trigger with...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Observability
 

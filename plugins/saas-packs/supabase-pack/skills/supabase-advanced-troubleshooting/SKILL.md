@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute apply supabase advanced debugging techniques for hard-to-diagnose
-  issues. use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for supabase support escalation. trigger with phrases
-  l...
 name: supabase-advanced-troubleshooting
+description: |
+  Execute apply supabase advanced debugging techniques for hard-to-diagnose issues. use when standard troubleshooting fails, investigating complex race conditions, or preparing evidence bundles for supabase support escalation. trigger with phrases l...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Advanced Troubleshooting
 

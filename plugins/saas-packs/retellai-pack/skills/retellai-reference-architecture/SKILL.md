@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Implement retell ai reference architecture with best-practice project
-  layout. use when designing new retell ai integrations, reviewing project structure,
-  or establishing architecture standards for retell ai applications. trigger with
-  phrases like ...
 name: retellai-reference-architecture
+description: |
+  Implement retell ai reference architecture with best-practice project layout. use when designing new retell ai integrations, reviewing project structure, or establishing architecture standards for retell ai applications. trigger with phrases like ...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Reference Architecture
 

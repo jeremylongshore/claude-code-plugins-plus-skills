@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Incident response procedures for clerk authentication issues. use when
-  handling auth outages, security incidents, or production authentication problems.
-  trigger with phrases like "clerk incident", "clerk outage", "clerk down", "auth
-  not working", ...
 name: clerk-incident-runbook
+description: |
+  Incident response procedures for clerk authentication issues. use when handling auth outages, security incidents, or production authentication problems. trigger with phrases like "clerk incident", "clerk outage", "clerk down", "auth not working", ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clerk Incident Runbook
 

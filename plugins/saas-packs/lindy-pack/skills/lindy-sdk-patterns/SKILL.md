@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Lindy ai sdk best practices and common patterns. use when learning sdk
-  patterns, optimizing api usage, or implementing advanced agent features. trigger
-  with phrases like "lindy sdk patterns", "lindy best practices", "lindy api patterns",
-  "lindy co...
 name: lindy-sdk-patterns
+description: |
+  Lindy ai sdk best practices and common patterns. use when learning sdk patterns, optimizing api usage, or implementing advanced agent features. trigger with phrases like "lindy sdk patterns", "lindy best practices", "lindy api patterns", "lindy co...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Sdk Patterns
 

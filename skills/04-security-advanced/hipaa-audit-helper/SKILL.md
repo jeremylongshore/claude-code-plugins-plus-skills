@@ -1,7 +1,7 @@
 ---
 name: "hipaa-audit-helper"
 description: |
-  Assist with hipaa audit helper operations. Auto-activating skill for Security Advanced.
+  Assist with assist with assist with hipaa audit helper operations. Auto-activating skill for Security Advanced.
   Triggers on: hipaa audit helper, hipaa audit helper
   Part of the Security Advanced skill category. Use when analyzing or auditing hipaa audit helper. Trigger with phrases like "hipaa audit helper", "hipaa helper", "hipaa".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"

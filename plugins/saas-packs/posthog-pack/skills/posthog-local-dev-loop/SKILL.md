@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure PostHog local development with hot reload and testing. Use
-  when setting up a development environment, configuring test workflows, or establishing
-  a fast iteration cycle with PostHog. Trigger with phrases like "posthog dev setup",
-  "postho...
 name: posthog-local-dev-loop
+description: |
+  Configure PostHog local development with hot reload and testing. Use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with PostHog. Trigger with phrases like "posthog dev setup", "postho...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Posthog Local Dev Loop
 

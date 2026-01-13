@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Deploy CodeRabbit integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying CodeRabbit-powered applications to production, configuring platform-specific
-  secrets, or setting up deployment pipelines. Trigger with phrases like "depl...
 name: coderabbit-deploy-integration
+description: |
+  Deploy CodeRabbit integrations to Vercel, Fly.io, and Cloud Run platforms. Use when deploying CodeRabbit-powered applications to production, configuring platform-specific secrets, or setting up deployment pipelines. Trigger with phrases like "depl...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Coderabbit Deploy Integration
 

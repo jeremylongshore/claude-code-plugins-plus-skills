@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement audio data handling best practices for deepgram integrations.
-  use when managing audio file storage, implementing data retention policies, or ensuring
-  gdpr/hipaa compliance for transcription data. trigger with phrases like "deepgram
-  data"...
 name: deepgram-data-handling
+description: |
+  Implement audio data handling best practices for deepgram integrations. use when managing audio file storage, implementing data retention policies, or ensuring gdpr/hipaa compliance for transcription data. trigger with phrases like "deepgram data"...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Deepgram Data Handling
 

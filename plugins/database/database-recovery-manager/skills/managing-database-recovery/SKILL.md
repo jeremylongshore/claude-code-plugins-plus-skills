@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Process use when you need to work with database operations. This skill
-  provides database management and optimization with comprehensive guidance and automation.
-  Trigger with phrases like "manage database", "optimize database", or "configure
-  databa...
 name: managing-database-recovery
+description: |
+  Process use when you need to work with database operations. This skill provides database management and optimization with comprehensive guidance and automation. Trigger with phrases like "manage database", "optimize database", or "configure databa...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Database Recovery Manager
 

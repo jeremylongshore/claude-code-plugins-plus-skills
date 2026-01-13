@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob
-license: MIT
-description: Manage Cascade context window and memory for complex projects. Activate
-  when users mention "cascade context", "ai memory", "context management", "large
-  codebase navigation", or "multi-session development". Handles context optimization
-  and persiste...
 name: windsurf-cascade-context
+description: |
+  Manage Cascade context window and memory for complex projects. Activate when users mention "cascade context", "ai memory", "context management", "large codebase navigation", or "multi-session development". Handles context optimization and persiste...
+allowed-tools: Read, Write, Edit, Grep, Glob
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Cascade Context
 

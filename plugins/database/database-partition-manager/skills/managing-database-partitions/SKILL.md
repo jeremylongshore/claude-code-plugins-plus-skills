@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Process use when you need to work with database partitioning. This skill
-  provides table partitioning strategies with comprehensive guidance and automation.
-  Trigger with phrases like "partition tables", "implement partitioning", or "optimize
-  large ...
 name: managing-database-partitions
+description: |
+  Process use when you need to work with database partitioning. This skill provides table partitioning strategies with comprehensive guidance and automation. Trigger with phrases like "partition tables", "implement partitioning", or "optimize large ...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Database Partition Manager
 

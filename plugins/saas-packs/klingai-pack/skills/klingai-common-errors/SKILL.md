@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Execute diagnose and fix common kling ai api errors. use when troubleshooting
-  failed video generation or api issues. trigger with phrases like 'kling ai error',
-  'klingai not working', 'fix klingai', 'klingai failed'.
 name: klingai-common-errors
+description: |
+  Execute diagnose and fix common kling ai api errors. use when troubleshooting failed video generation or api issues. trigger with phrases like 'kling ai error', 'klingai not working', 'fix klingai', 'klingai failed'.
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Kling AI Common Errors
 

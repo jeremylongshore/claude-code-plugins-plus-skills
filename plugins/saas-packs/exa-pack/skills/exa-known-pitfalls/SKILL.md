@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Identify and avoid exa anti-patterns and common integration mistakes.
-  use when reviewing exa code for issues, onboarding new developers, or auditing existing
-  exa integrations for best practices violations. trigger with phrases like "exa mistakes",...
 name: exa-known-pitfalls
+description: |
+  Identify and avoid exa anti-patterns and common integration mistakes. use when reviewing exa code for issues, onboarding new developers, or auditing existing exa integrations for best practices violations. trigger with phrases like "exa mistakes",...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Known Pitfalls
 

@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Monitor blockchain mempools for pending transactions, front-running,
-  and MEV opportunities. Use when monitoring pending blockchain transactions. Trigger
-  with phrases like "check mempool", "scan pending txs", or "find MEV".
 name: analyzing-mempool
+description: |
+  Monitor blockchain mempools for pending transactions, front-running, and MEV opportunities. Use when monitoring pending blockchain transactions. Trigger with phrases like "check mempool", "scan pending txs", or "find MEV".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Analyzing Mempool
 

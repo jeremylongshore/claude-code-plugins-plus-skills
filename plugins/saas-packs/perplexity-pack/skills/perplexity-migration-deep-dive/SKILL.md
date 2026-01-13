@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute perplexity major re-architecture and migration strategies with
-  strangler fig pattern. use when migrating to or from perplexity, performing major
-  version upgrades, or re-platforming existing integrations to perplexity. trigger
-  with phrases ...
 name: perplexity-migration-deep-dive
+description: |
+  Execute perplexity major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from perplexity, performing major version upgrades, or re-platforming existing integrations to perplexity. trigger with phrases ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Migration Deep Dive
 

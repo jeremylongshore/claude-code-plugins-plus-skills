@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute reference architecture patterns for cursor ide projects. triggers
-  on "cursor architecture", "cursor project structure", "cursor best practices", "cursor
-  team setup". use when working with cursor reference architecture functionality.
-  trigge...
 name: cursor-reference-architecture
+description: |
+  Execute reference architecture patterns for cursor ide projects. triggers on "cursor architecture", "cursor project structure", "cursor best practices", "cursor team setup". use when working with cursor reference architecture functionality. trigge...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Reference Architecture
 

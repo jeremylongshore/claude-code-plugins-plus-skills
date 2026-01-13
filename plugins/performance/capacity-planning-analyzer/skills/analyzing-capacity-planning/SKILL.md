@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute this skill enables ai assistant to analyze capacity requirements
-  and plan for future growth. it uses the capacity-planning-analyzer plugin to assess
-  current utilization, forecast growth trends, and recommend scaling strategies. use
-  this sk...
 name: analyzing-capacity-planning
+description: |
+  Execute this skill enables ai assistant to analyze capacity requirements and plan for future growth. it uses the capacity-planning-analyzer plugin to assess current utilization, forecast growth trends, and recommend scaling strategies. use this sk...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Capacity Planning Analyzer
 

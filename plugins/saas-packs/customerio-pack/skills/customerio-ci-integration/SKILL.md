@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Customer.io CI/CD integration. Use when setting up automated
-  testing, deployment pipelines, or continuous integration for Customer.io integrations.
-  Trigger with phrases like "customer.io ci", "customer.io github actions", "customer.io
-  pi...
 name: customerio-ci-integration
+description: |
+  Configure Customer.io CI/CD integration. Use when setting up automated testing, deployment pipelines, or continuous integration for Customer.io integrations. Trigger with phrases like "customer.io ci", "customer.io github actions", "customer.io pi...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Customerio Ci Integration
 

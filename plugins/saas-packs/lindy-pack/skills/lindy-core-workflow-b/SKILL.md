@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Core lindy workflow for automating tasks and scheduling agents. use when
-  setting up automated workflows, scheduling agent runs, or creating trigger-based
-  automations. trigger with phrases like "lindy automation", "schedule lindy agent",
-  "lindy wor...
 name: lindy-core-workflow-b
+description: |
+  Core lindy workflow for automating tasks and scheduling agents. use when setting up automated workflows, scheduling agent runs, or creating trigger-based automations. trigger with phrases like "lindy automation", "schedule lindy agent", "lindy wor...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Core Workflow B
 

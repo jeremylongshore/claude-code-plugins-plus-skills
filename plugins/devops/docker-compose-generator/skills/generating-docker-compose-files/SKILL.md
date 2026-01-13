@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when you need to work with docker compose. this skill provides
-  docker compose file generation with comprehensive guidance and automation. trigger
-  with phrases like "generate docker-compose", "create compose file", or "configure
-  multi-c...
 name: generating-docker-compose-files
+description: |
+  Execute use when you need to work with docker compose. this skill provides docker compose file generation with comprehensive guidance and automation. trigger with phrases like "generate docker-compose", "create compose file", or "configure multi-c...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Docker Compose Generator
 

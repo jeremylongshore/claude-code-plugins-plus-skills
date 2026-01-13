@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Analyze, plan, and execute Clay SDK upgrades with breaking change detection.
-  Use when upgrading Clay SDK versions, detecting deprecations, or migrating to new
-  API versions. Trigger with phrases like "upgrade clay", "clay migration", "clay
-  breaking...
 name: clay-upgrade-migration
+description: |
+  Analyze, plan, and execute Clay SDK upgrades with breaking change detection. Use when upgrading Clay SDK versions, detecting deprecations, or migrating to new API versions. Trigger with phrases like "upgrade clay", "clay migration", "clay breaking...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Upgrade Migration
 

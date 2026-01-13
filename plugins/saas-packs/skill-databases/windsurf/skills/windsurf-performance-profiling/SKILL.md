@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Profile and optimize code with ai-assisted analysis. activate when users
-  mention "performance profiling", "optimize performance", "bottleneck analysis",
-  "profiling", or "performance tuning". handles performance analysis and optimization.
-  use when ...
 name: windsurf-performance-profiling
+description: |
+  Profile and optimize code with ai-assisted analysis. activate when users mention "performance profiling", "optimize performance", "bottleneck analysis", "profiling", or "performance tuning". handles performance analysis and optimization. use when ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Performance Profiling
 

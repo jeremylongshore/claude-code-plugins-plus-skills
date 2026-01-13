@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Diagnose and fix windsurf common errors and exceptions. use when encountering
-  windsurf errors, debugging failed requests, or troubleshooting integration issues.
-  trigger with phrases like "windsurf error", "fix windsurf", "windsurf not working",
-  "d...
 name: windsurf-common-errors
+description: |
+  Diagnose and fix windsurf common errors and exceptions. use when encountering windsurf errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like "windsurf error", "fix windsurf", "windsurf not working", "d...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Common Errors
 

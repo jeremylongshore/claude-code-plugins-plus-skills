@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute exa primary workflow: core workflow a. use when implementing
-  primary use case, building main features, or core integration tasks. trigger with
-  phrases like "exa main workflow", "primary task with exa".'
 name: exa-core-workflow-a
+description: |
+  Execute exa primary workflow: core workflow a. use when implementing primary use case, building main features, or core integration tasks. trigger with phrases like "exa main workflow", "primary task with exa".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Core Workflow A
 

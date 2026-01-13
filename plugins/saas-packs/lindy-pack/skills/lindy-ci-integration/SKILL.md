@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Lindy AI CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines, or integrating
-  Lindy tests into your build process. Trigger with phrases like "lindy CI", "lindy
-  GitHub Actions"...
 name: lindy-ci-integration
+description: |
+  Configure Lindy AI CI/CD integration with GitHub Actions and testing. Use when setting up automated testing, configuring CI pipelines, or integrating Lindy tests into your build process. Trigger with phrases like "lindy CI", "lindy GitHub Actions"...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Ci Integration
 

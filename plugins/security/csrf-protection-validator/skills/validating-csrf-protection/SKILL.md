@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Validate CSRF protection implementations for security gaps. Use when
-  reviewing form security or state-changing operations. Trigger with 'validate CSRF',
-  'check CSRF protection', or 'review token security'.
 name: validating-csrf-protection
+description: |
+  Validate CSRF protection implementations for security gaps. Use when reviewing form security or state-changing operations. Trigger with 'validate CSRF', 'check CSRF protection', or 'review token security'.
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Csrf Protection Validator
 

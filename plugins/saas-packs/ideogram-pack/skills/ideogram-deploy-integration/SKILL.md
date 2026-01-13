@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Deploy Ideogram integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying Ideogram-powered applications to production, configuring platform-specific
-  secrets, or setting up deployment pipelines. Trigger with phrases like "deploy i...
 name: ideogram-deploy-integration
+description: |
+  Deploy Ideogram integrations to Vercel, Fly.io, and Cloud Run platforms. Use when deploying Ideogram-powered applications to production, configuring platform-specific secrets, or setting up deployment pipelines. Trigger with phrases like "deploy i...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ideogram Deploy Integration
 

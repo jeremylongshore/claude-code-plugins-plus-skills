@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Configure and optimize Supercomplete code suggestions. Activate when
-  users mention "code completion", "autocomplete", "supercomplete", "inline suggestions",
-  or "ai completions". Handles completion configuration and optimization. Use when
-  working w...
 name: windsurf-code-completion
+description: |
+  Configure and optimize Supercomplete code suggestions. Activate when users mention "code completion", "autocomplete", "supercomplete", "inline suggestions", or "ai completions". Handles completion configuration and optimization. Use when working w...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Windsurf Code Completion
 

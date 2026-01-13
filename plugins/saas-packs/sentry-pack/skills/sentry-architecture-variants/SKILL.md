@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Execute sentry architecture patterns for different application types.
-  use when setting up sentry for monoliths, microservices, serverless, or hybrid architectures.
-  trigger with phrases like "sentry monolith setup", "sentry microservices", "sentry
-  ...
 name: sentry-architecture-variants
+description: |
+  Execute sentry architecture patterns for different application types. use when setting up sentry for monoliths, microservices, serverless, or hybrid architectures. trigger with phrases like "sentry monolith setup", "sentry microservices", "sentry ...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Architecture Variants
 

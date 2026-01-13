@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Execute common sentry pitfalls and how to avoid them. use when troubleshooting
-  sentry issues, reviewing configurations, or preventing common mistakes. trigger
-  with phrases like "sentry mistakes", "sentry pitfalls", "sentry common issues",
-  "sentry ...
 name: sentry-known-pitfalls
+description: |
+  Execute common sentry pitfalls and how to avoid them. use when troubleshooting sentry issues, reviewing configurations, or preventing common mistakes. trigger with phrases like "sentry mistakes", "sentry pitfalls", "sentry common issues", "sentry ...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Known Pitfalls
 

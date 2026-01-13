@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Meeting preparation and template setup workflow with granola. use when
-  preparing for important meetings, setting up note templates, or configuring meeting-specific
-  capture settings. trigger with phrases like "granola meeting prep", "granola templa...
 name: granola-core-workflow-a
+description: |
+  Meeting preparation and template setup workflow with granola. use when preparing for important meetings, setting up note templates, or configuring meeting-specific capture settings. trigger with phrases like "granola meeting prep", "granola templa...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Granola Core Workflow A
 

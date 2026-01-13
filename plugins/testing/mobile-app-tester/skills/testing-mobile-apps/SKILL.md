@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute mobile app testing on ios and android devices/simulators. use
-  when performing specialized testing. trigger with phrases like "test mobile app",
-  "run ios tests", or "validate android functionality".
 name: testing-mobile-apps
+description: |
+  Execute mobile app testing on ios and android devices/simulators. use when performing specialized testing. trigger with phrases like "test mobile app", "run ios tests", or "validate android functionality".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Mobile App Tester
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Create a minimal working Customer.io example. Use when learning Customer.io
-  basics, testing SDK setup, or creating your first messaging integration. Trigger
-  with phrases like "customer.io hello world", "first customer.io message", "test
-  customer.i...
 name: customerio-hello-world
+description: |
+  Create a minimal working Customer.io example. Use when learning Customer.io basics, testing SDK setup, or creating your first messaging integration. Trigger with phrases like "customer.io hello world", "first customer.io message", "test customer.i...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Customerio Hello World
 

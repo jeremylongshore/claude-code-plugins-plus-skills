@@ -1,14 +1,17 @@
 ---
-allowed-tools: Read, Grep, Glob, Bash
+name: pi-pathfinder
+description: |
+  Analyze installed plugins to select the best match for a request, then extract and apply the relevant skills to the current task.
+  Use when you want automatic plugin/skill selection instead of manually picking a plugin.
+  Trigger with phrases like "pi pathfinder", "pick the right plugin", "which plugin should I use", or "route this request to the best plugin".
+allowed-tools: Read, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
-description: Execute analyzes existing plugins to extract their capabilities, then
-  adapts and applies those skills to the current task. acts as a universal skill chameleon
-  that learns from other plugins. activates when you request "skill adapter" functionality...
-name: skill-adapter
 ---
-# Skill Adapter
+# PI Pathfinder
 
-This skill provides automated assistance for skill adapter tasks.
+This skill provides automated assistance for routing requests to the best plugin skills.
 
 ## Overview
 

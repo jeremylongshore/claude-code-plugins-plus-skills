@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Configure Granola CI/CD integration with automated workflows. Use when
-  setting up automated meeting note processing, integrating with development pipelines,
-  or building Zapier automations. Trigger with phrases like "granola CI", "granola
-  automatio...
 name: granola-ci-integration
+description: |
+  Configure Granola CI/CD integration with automated workflows. Use when setting up automated meeting note processing, integrating with development pipelines, or building Zapier automations. Trigger with phrases like "granola CI", "granola automatio...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Granola Ci Integration
 

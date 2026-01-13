@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute retell ai primary workflow: core workflow a. use when implementing
-  primary use case, building main features, or core integration tasks. trigger with
-  phrases like "retellai main workflow", "primary task with retellai".'
 name: retellai-core-workflow-a
+description: |
+  Execute retell ai primary workflow: core workflow a. use when implementing primary use case, building main features, or core integration tasks. trigger with phrases like "retellai main workflow", "primary task with retellai".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retell AI Core Workflow A
 

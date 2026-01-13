@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Execute use when you need to work with containerization. this skill provides
-  container management and orchestration with comprehensive guidance and automation.
-  trigger with phrases like "containerize app", "manage containers", or "orchestrate
-  depl...
 name: managing-container-registries
+description: |
+  Execute use when you need to work with containerization. this skill provides container management and orchestration with comprehensive guidance and automation. trigger with phrases like "containerize app", "manage containers", or "orchestrate depl...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Container Registry Manager
 

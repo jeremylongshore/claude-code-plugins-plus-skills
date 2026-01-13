@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Process use when you need to work with security and compliance. This
-  skill provides security scanning and vulnerability detection with comprehensive
-  guidance and automation. Trigger with phrases like "scan for vulnerabilities", "implement
-  security...
 name: scanning-database-security
+description: |
+  Process use when you need to work with security and compliance. This skill provides security scanning and vulnerability detection with comprehensive guidance and automation. Trigger with phrases like "scan for vulnerabilities", "implement security...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Database Security Scanner
 

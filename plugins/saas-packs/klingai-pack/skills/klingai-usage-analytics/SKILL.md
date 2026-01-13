@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Build usage analytics and reporting for Kling AI. Use when tracking generation
-  patterns, analyzing costs, or creating dashboards. Trigger with phrases like 'klingai
-  analytics', 'kling ai usage report', 'klingai metrics', 'video generation stats'.
 name: klingai-usage-analytics
+description: |
+  Build usage analytics and reporting for Kling AI. Use when tracking generation patterns, analyzing costs, or creating dashboards. Trigger with phrases like 'klingai analytics', 'kling ai usage report', 'klingai metrics', 'video generation stats'.
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Usage Analytics
 

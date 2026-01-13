@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute vercel incident response procedures with triage, mitigation,
-  and postmortem. use when responding to vercel-related outages, investigating errors,
-  or running post-incident reviews for vercel integration failures. trigger with phrases
-  like "...
 name: vercel-incident-runbook
+description: |
+  Execute vercel incident response procedures with triage, mitigation, and postmortem. use when responding to vercel-related outages, investigating errors, or running post-incident reviews for vercel integration failures. trigger with phrases like "...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Incident Runbook
 

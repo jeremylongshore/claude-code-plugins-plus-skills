@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Identify and avoid customer.io anti-patterns. use when reviewing integrations,
-  avoiding common mistakes, or optimizing existing customer.io implementations. trigger
-  with phrases like "customer.io mistakes", "customer.io anti-patterns", "customer.i...
 name: customerio-known-pitfalls
+description: |
+  Identify and avoid customer.io anti-patterns. use when reviewing integrations, avoiding common mistakes, or optimizing existing customer.io implementations. trigger with phrases like "customer.io mistakes", "customer.io anti-patterns", "customer.i...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Customerio Known Pitfalls
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Vercel local development with hot reload and testing. Use when
-  setting up a development environment, configuring test workflows, or establishing
-  a fast iteration cycle with Vercel. Trigger with phrases like "vercel dev setup",
-  "vercel lo...
 name: vercel-local-dev-loop
+description: |
+  Configure Vercel local development with hot reload and testing. Use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with Vercel. Trigger with phrases like "vercel dev setup", "vercel lo...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vercel Local Dev Loop
 

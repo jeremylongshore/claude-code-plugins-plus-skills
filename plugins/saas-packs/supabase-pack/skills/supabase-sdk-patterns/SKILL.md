@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Execute apply production-ready supabase sdk patterns for typescript and
-  python. use when implementing supabase integrations, refactoring sdk usage, or establishing
-  team coding standards for supabase. trigger with phrases like "supabase sdk pattern...
 name: supabase-sdk-patterns
+description: |
+  Execute apply production-ready supabase sdk patterns for typescript and python. use when implementing supabase integrations, refactoring sdk usage, or establishing team coding standards for supabase. trigger with phrases like "supabase sdk pattern...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Supabase Sdk Patterns
 

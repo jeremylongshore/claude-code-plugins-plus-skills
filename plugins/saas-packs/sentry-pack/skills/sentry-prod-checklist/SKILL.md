@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute production deployment checklist for sentry integration. use when
-  preparing for production deployment, reviewing sentry configuration, or verifying
-  production readiness. trigger with phrases like "sentry production", "deploy sentry",
-  "sentr...
 name: sentry-prod-checklist
+description: |
+  Execute production deployment checklist for sentry integration. use when preparing for production deployment, reviewing sentry configuration, or verifying production readiness. trigger with phrases like "sentry production", "deploy sentry", "sentr...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Sentry Prod Checklist
 

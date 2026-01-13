@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute clay major re-architecture and migration strategies with strangler
-  fig pattern. use when migrating to or from clay, performing major version upgrades,
-  or re-platforming existing integrations to clay. trigger with phrases like "migrate
-  clay...
 name: clay-migration-deep-dive
+description: |
+  Execute clay major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from clay, performing major version upgrades, or re-platforming existing integrations to clay. trigger with phrases like "migrate clay...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Clay Migration Deep Dive
 

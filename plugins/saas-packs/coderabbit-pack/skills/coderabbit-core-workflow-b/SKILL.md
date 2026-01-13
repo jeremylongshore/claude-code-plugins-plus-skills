@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute coderabbit secondary workflow: core workflow b. use when implementing
-  secondary use case, or complementing primary workflow. trigger with phrases like
-  "coderabbit secondary workflow", "secondary task with coderabbit".'
 name: coderabbit-core-workflow-b
+description: |
+  Execute coderabbit secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like "coderabbit secondary workflow", "secondary task with coderabbit".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # CodeRabbit Core Workflow B
 

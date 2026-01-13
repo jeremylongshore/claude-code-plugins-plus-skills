@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Apply production-ready firecrawl sdk patterns for typescript and python.
-  use when implementing firecrawl integrations, refactoring sdk usage, or establishing
-  team coding standards for firecrawl. trigger with phrases like "firecrawl sdk patterns",
-  ...
 name: firecrawl-sdk-patterns
+description: |
+  Apply production-ready firecrawl sdk patterns for typescript and python. use when implementing firecrawl integrations, refactoring sdk usage, or establishing team coding standards for firecrawl. trigger with phrases like "firecrawl sdk patterns", ...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firecrawl Sdk Patterns
 

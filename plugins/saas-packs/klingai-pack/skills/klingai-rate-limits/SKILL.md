@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Handle kling ai rate limits with proper backoff strategies. use when
-  experiencing 429 errors or building high-throughput systems. trigger with phrases
-  like 'klingai rate limit', 'kling ai 429', 'klingai throttle', 'klingai backoff'.
 name: klingai-rate-limits
+description: |
+  Handle kling ai rate limits with proper backoff strategies. use when experiencing 429 errors or building high-throughput systems. trigger with phrases like 'klingai rate limit', 'kling ai 429', 'klingai throttle', 'klingai backoff'.
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Klingai Rate Limits
 

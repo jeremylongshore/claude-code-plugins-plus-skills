@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Implement api versioning with backward compatibility, deprecation notices,
-  and migration paths. use when managing api versions and backward compatibility.
-  trigger with phrases like "version the api", "manage api versions", or "handle api
-  versioning".
 name: versioning-apis
+description: |
+  Implement api versioning with backward compatibility, deprecation notices, and migration paths. use when managing api versions and backward compatibility. trigger with phrases like "version the api", "manage api versions", or "handle api versioning".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Versioning Apis
 

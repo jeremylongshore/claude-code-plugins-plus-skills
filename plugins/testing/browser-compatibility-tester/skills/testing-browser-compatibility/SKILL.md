@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Test across multiple browsers and devices for cross-browser compatibility.
-  Use when ensuring cross-browser or device compatibility. Trigger with phrases like
-  "test browser compatibility", "check cross-browser", or "validate on browsers".
 name: testing-browser-compatibility
+description: |
+  Test across multiple browsers and devices for cross-browser compatibility. Use when ensuring cross-browser or device compatibility. Trigger with phrases like "test browser compatibility", "check cross-browser", or "validate on browsers".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Browser Compatibility Tester
 

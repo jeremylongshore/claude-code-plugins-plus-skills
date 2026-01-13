@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Create diagnostic bundles for Granola troubleshooting. Use when preparing
-  support requests, collecting system information, or diagnosing complex issues with
-  Granola. Trigger with phrases like "granola debug", "granola diagnostics", "granola
-  suppor...
 name: granola-debug-bundle
+description: |
+  Create diagnostic bundles for Granola troubleshooting. Use when preparing support requests, collecting system information, or diagnosing complex issues with Granola. Trigger with phrases like "granola debug", "granola diagnostics", "granola suppor...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Granola Debug Bundle
 

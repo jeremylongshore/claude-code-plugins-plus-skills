@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Execute retell ai incident response procedures with triage, mitigation,
-  and postmortem. use when responding to retell ai-related outages, investigating
-  errors, or running post-incident reviews for retell ai integration failures. trigger
-  with phras...
 name: retellai-incident-runbook
+description: |
+  Execute retell ai incident response procedures with triage, mitigation, and postmortem. use when responding to retell ai-related outages, investigating errors, or running post-incident reviews for retell ai integration failures. trigger with phras...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Incident Runbook
 

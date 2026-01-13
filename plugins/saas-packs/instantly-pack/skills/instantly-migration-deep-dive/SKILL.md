@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute instantly major re-architecture and migration strategies with
-  strangler fig pattern. use when migrating to or from instantly, performing major
-  version upgrades, or re-platforming existing integrations to instantly. trigger
-  with phrases lik...
 name: instantly-migration-deep-dive
+description: |
+  Execute instantly major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from instantly, performing major version upgrades, or re-platforming existing integrations to instantly. trigger with phrases lik...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Instantly Migration Deep Dive
 

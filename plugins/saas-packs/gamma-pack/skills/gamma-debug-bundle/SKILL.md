@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Comprehensive debugging toolkit for gamma integration issues. use when
-  you need detailed diagnostics, request tracing, or systematic debugging of gamma
-  api problems. trigger with phrases like "gamma debug bundle", "gamma diagnostics",
-  "gamma trace...
 name: gamma-debug-bundle
+description: |
+  Comprehensive debugging toolkit for gamma integration issues. use when you need detailed diagnostics, request tracing, or systematic debugging of gamma api problems. trigger with phrases like "gamma debug bundle", "gamma diagnostics", "gamma trace...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gamma Debug Bundle
 

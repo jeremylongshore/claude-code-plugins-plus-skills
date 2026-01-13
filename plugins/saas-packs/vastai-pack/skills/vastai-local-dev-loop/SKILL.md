@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Vast.ai local development with hot reload and testing. Use
-  when setting up a development environment, configuring test workflows, or establishing
-  a fast iteration cycle with Vast.ai. Trigger with phrases like "vastai dev setup",
-  "vastai ...
 name: vastai-local-dev-loop
+description: |
+  Configure Vast.ai local development with hot reload and testing. Use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with Vast.ai. Trigger with phrases like "vastai dev setup", "vastai ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Vastai Local Dev Loop
 

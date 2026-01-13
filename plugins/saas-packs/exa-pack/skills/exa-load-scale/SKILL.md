@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Implement exa load testing, auto-scaling, and capacity planning strategies.
-  use when running performance tests, configuring horizontal scaling, or planning
-  capacity for exa integrations. trigger with phrases like "exa load test", "exa scale",
-  "exa...
 name: exa-load-scale
+description: |
+  Implement exa load testing, auto-scaling, and capacity planning strategies. use when running performance tests, configuring horizontal scaling, or planning capacity for exa integrations. trigger with phrases like "exa load test", "exa scale", "exa...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Exa Load Scale
 

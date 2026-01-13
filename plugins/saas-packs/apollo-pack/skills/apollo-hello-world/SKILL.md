@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Create a minimal working Apollo.io example. Use when starting a new Apollo
-  integration, testing your setup, or learning basic Apollo API patterns. Trigger
-  with phrases like "apollo hello world", "apollo example", "apollo quick start",
-  "simple apol...
 name: apollo-hello-world
+description: |
+  Create a minimal working Apollo.io example. Use when starting a new Apollo integration, testing your setup, or learning basic Apollo API patterns. Trigger with phrases like "apollo hello world", "apollo example", "apollo quick start", "simple apol...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Hello World
 

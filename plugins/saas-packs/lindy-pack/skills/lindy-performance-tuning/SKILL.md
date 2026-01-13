@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Optimize Lindy AI agent performance and response times. Use when improving
-  latency, optimizing throughput, or reducing response times. Trigger with phrases
-  like "lindy performance", "lindy slow", "optimize lindy", "lindy latency".
 name: lindy-performance-tuning
+description: |
+  Optimize Lindy AI agent performance and response times. Use when improving latency, optimizing throughput, or reducing response times. Trigger with phrases like "lindy performance", "lindy slow", "optimize lindy", "lindy latency".
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Lindy Performance Tuning
 

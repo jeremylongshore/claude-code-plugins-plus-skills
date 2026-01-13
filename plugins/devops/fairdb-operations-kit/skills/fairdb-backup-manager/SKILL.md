@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Manage use when you need to work with backup and recovery. This skill
-  provides backup automation and disaster recovery with comprehensive guidance and
-  automation. Trigger with phrases like "create backups", "automate backups", or "implement
-  disast...
 name: fairdb-backup-manager
+description: |
+  Manage use when you need to work with backup and recovery. This skill provides backup automation and disaster recovery with comprehensive guidance and automation. Trigger with phrases like "create backups", "automate backups", or "implement disast...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Fairdb Backup Manager
 

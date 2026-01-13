@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Execute master cursor composer for multi-file ai edits. triggers on "cursor
-  composer", "multi-file edit", "cursor generate files", "composer workflow", "cursor
-  scaffold". use when working with cursor composer workflows functionality. trigger
-  with ...
 name: cursor-composer-workflows
+description: |
+  Execute master cursor composer for multi-file ai edits. triggers on "cursor composer", "multi-file edit", "cursor generate files", "composer workflow", "cursor scaffold". use when working with cursor composer workflows functionality. trigger with ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Cursor Composer Workflows
 

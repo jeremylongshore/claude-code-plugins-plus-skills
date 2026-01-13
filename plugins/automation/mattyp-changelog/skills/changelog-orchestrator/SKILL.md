@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Draft changelog prs by collecting github/slack/git changes, formatting
-  with templates, running quality gates, and preparing a branch/pr. use when generating
-  weekly/monthly release notes or when the user asks to create a changelog from recent
-  merge...
 name: changelog-orchestrator
+description: |
+  Draft changelog prs by collecting github/slack/git changes, formatting with templates, running quality gates, and preparing a branch/pr. use when generating weekly/monthly release notes or when the user asks to create a changelog from recent merge...
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Changelog Orchestrator
 

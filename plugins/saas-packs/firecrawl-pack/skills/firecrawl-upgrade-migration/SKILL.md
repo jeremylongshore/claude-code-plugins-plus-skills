@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Analyze, plan, and execute FireCrawl SDK upgrades with breaking change
-  detection. Use when upgrading FireCrawl SDK versions, detecting deprecations, or
-  migrating to new API versions. Trigger with phrases like "upgrade firecrawl", "firecrawl
-  migrat...
 name: firecrawl-upgrade-migration
+description: |
+  Analyze, plan, and execute FireCrawl SDK upgrades with breaking change detection. Use when upgrading FireCrawl SDK versions, detecting deprecations, or migrating to new API versions. Trigger with phrases like "upgrade firecrawl", "firecrawl migrat...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firecrawl Upgrade Migration
 

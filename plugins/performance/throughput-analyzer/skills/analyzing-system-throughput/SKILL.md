@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Bash, Grep
-license: MIT
-description: Analyze and optimize system throughput including request handling, data
-  processing, and resource utilization. Use when identifying capacity limits or evaluating
-  scaling strategies. Trigger with phrases like "analyze throughput", "optimize capacity...
 name: analyzing-system-throughput
+description: |
+  Analyze and optimize system throughput including request handling, data processing, and resource utilization. Use when identifying capacity limits or evaluating scaling strategies. Trigger with phrases like "analyze throughput", "optimize capacity...
+allowed-tools: Read, Write, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Throughput Analyzer
 

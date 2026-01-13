@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep
-license: MIT
-description: Implement perplexity reference architecture with best-practice project
-  layout. use when designing new perplexity integrations, reviewing project structure,
-  or establishing architecture standards for perplexity applications. trigger with
-  phrases li...
 name: perplexity-reference-architecture
+description: |
+  Implement perplexity reference architecture with best-practice project layout. use when designing new perplexity integrations, reviewing project structure, or establishing architecture standards for perplexity applications. trigger with phrases li...
+allowed-tools: Read, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Perplexity Reference Architecture
 

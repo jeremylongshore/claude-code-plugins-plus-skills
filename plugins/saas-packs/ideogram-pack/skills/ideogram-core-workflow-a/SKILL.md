@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: 'Execute ideogram primary workflow: core workflow a. use when implementing
-  primary use case, building main features, or core integration tasks. trigger with
-  phrases like "ideogram main workflow", "primary task with ideogram".'
 name: ideogram-core-workflow-a
+description: |
+  Execute ideogram primary workflow: core workflow a. use when implementing primary use case, building main features, or core integration tasks. trigger with phrases like "ideogram main workflow", "primary task with ideogram".
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Ideogram Core Workflow A
 

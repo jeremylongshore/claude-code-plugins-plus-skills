@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Apply customer.io advanced debugging techniques. use when diagnosing
-  complex issues, investigating delivery problems, or debugging integration failures.
-  trigger with phrases like "debug customer.io", "customer.io investigation", "customer.io
-  troub...
 name: customerio-advanced-troubleshooting
+description: |
+  Apply customer.io advanced debugging techniques. use when diagnosing complex issues, investigating delivery problems, or debugging integration failures. trigger with phrases like "debug customer.io", "customer.io investigation", "customer.io troub...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Customerio Advanced Troubleshooting
 

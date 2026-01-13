@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Implement enterprise role-based access control with linear. use when
-  setting up team permissions, implementing sso, or managing access control for linear
-  integrations. trigger with phrases like "linear rbac", "linear permissions", "linear
-  enterpri...
 name: linear-enterprise-rbac
+description: |
+  Implement enterprise role-based access control with linear. use when setting up team permissions, implementing sso, or managing access control for linear integrations. trigger with phrases like "linear rbac", "linear permissions", "linear enterpri...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Enterprise Rbac
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Bash, Grep
-license: MIT
-description: Execute retell ai production deployment checklist and rollback procedures.
-  use when deploying retell ai integrations to production, preparing for launch, or
-  implementing go-live procedures. trigger with phrases like "retellai production",
-  "deploy ...
 name: retellai-prod-checklist
+description: |
+  Execute retell ai production deployment checklist and rollback procedures. use when deploying retell ai integrations to production, preparing for launch, or implementing go-live procedures. trigger with phrases like "retellai production", "deploy ...
+allowed-tools: Read, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Retellai Prod Checklist
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Execute juicebox people search workflow. use when building candidate
-  sourcing pipelines, searching for professionals, or implementing talent discovery
-  features. trigger with phrases like "juicebox people search", "find candidates juicebox",
-  "juice...
 name: juicebox-core-workflow-a
+description: |
+  Execute juicebox people search workflow. use when building candidate sourcing pipelines, searching for professionals, or implementing talent discovery features. trigger with phrases like "juicebox people search", "find candidates juicebox", "juice...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Core Workflow A
 

@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Customer.io local development workflow. Use when setting up
-  local testing, development environment, or offline development for Customer.io integrations.
-  Trigger with phrases like "customer.io local dev", "test customer.io locally", "cust...
 name: customerio-local-dev-loop
+description: |
+  Configure Customer.io local development workflow. Use when setting up local testing, development environment, or offline development for Customer.io integrations. Trigger with phrases like "customer.io local dev", "test customer.io locally", "cust...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Customerio Local Dev Loop
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Plan and execute customer.io sdk upgrades. use when upgrading sdk versions,
-  migrating integrations, or updating to new api versions. trigger with phrases like
-  "upgrade customer.io", "customer.io migration", "update customer.io sdk", "customer.io
-  v...
 name: customerio-upgrade-migration
+description: |
+  Plan and execute customer.io sdk upgrades. use when upgrading sdk versions, migrating integrations, or updating to new api versions. trigger with phrases like "upgrade customer.io", "customer.io migration", "update customer.io sdk", "customer.io v...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Customerio Upgrade Migration
 

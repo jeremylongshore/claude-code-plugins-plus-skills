@@ -1,7 +1,7 @@
 ---
 name: "snapshot-test-helper"
 description: |
-  Assist with snapshot test helper operations. Auto-activating skill for Test Automation.
+  Assist with assist with assist with snapshot test helper operations. Auto-activating skill for Test Automation.
   Triggers on: snapshot test helper, snapshot test helper
   Part of the Test Automation skill category. Use when writing or running tests. Trigger with phrases like "snapshot test helper", "snapshot helper", "snapshot".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"

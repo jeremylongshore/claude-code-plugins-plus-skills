@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Grep
-license: MIT
-description: Apply groq security best practices for secrets and access control. use
-  when securing api keys, implementing least privilege access, or auditing groq security
-  configuration. trigger with phrases like "groq security", "groq secrets", "secure
-  groq", ...
 name: groq-security-basics
+description: |
+  Apply groq security best practices for secrets and access control. use when securing api keys, implementing least privilege access, or auditing groq security configuration. trigger with phrases like "groq security", "groq secrets", "secure groq", ...
+allowed-tools: Read, Write, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Groq Security Basics
 

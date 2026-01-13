@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep
-license: MIT
-description: Production readiness checklist for linear integrations. use when preparing
-  to deploy a linear integration to production, reviewing production requirements,
-  or auditing existing deployments. trigger with phrases like "linear production checklist",
-  ...
 name: linear-prod-checklist
+description: |
+  Production readiness checklist for linear integrations. use when preparing to deploy a linear integration to production, reviewing production requirements, or auditing existing deployments. trigger with phrases like "linear production checklist", ...
+allowed-tools: Read, Write, Edit, Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Linear Prod Checklist
 

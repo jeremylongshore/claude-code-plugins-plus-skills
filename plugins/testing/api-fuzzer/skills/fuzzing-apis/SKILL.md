@@ -1,10 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-license: MIT
-description: Configure perform API fuzzing to discover edge cases, crashes, and security
-  vulnerabilities. Use when performing specialized testing. Trigger with phrases like
-  "fuzz the API", "run fuzzing tests", or "discover edge cases".
 name: fuzzing-apis
+description: |
+  Configure perform API fuzzing to discover edge cases, crashes, and security vulnerabilities. Use when performing specialized testing. Trigger with phrases like "fuzz the API", "run fuzzing tests", or "discover edge cases".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Api Fuzzer
 

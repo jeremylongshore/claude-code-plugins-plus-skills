@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Grep, Bash
-license: MIT
-description: Apply juicebox security best practices. use when securing api keys, implementing
-  access controls, or auditing juicebox integration security. trigger with phrases
-  like "juicebox security", "secure juicebox", "juicebox api key security", "juicebox
-  a...
 name: juicebox-security-basics
+description: |
+  Apply juicebox security best practices. use when securing api keys, implementing access controls, or auditing juicebox integration security. trigger with phrases like "juicebox security", "secure juicebox", "juicebox api key security", "juicebox a...
+allowed-tools: Read, Grep, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Security Basics
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit
-license: MIT
-description: Implement firecrawl reliability patterns including circuit breakers,
-  idempotency, and graceful degradation. use when building fault-tolerant firecrawl
-  integrations, implementing retry strategies, or adding resilience to production
-  firecrawl servic...
 name: firecrawl-reliability-patterns
+description: |
+  Implement firecrawl reliability patterns including circuit breakers, idempotency, and graceful degradation. use when building fault-tolerant firecrawl integrations, implementing retry strategies, or adding resilience to production firecrawl servic...
+allowed-tools: Read, Write, Edit
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Firecrawl Reliability Patterns
 

@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Advanced juicebox data migration strategies. use when migrating from
-  other recruiting platforms, performing bulk data imports, or implementing complex
-  data transformation pipelines. trigger with phrases like "juicebox data migration",
-  "migrate to ...
 name: juicebox-migration-deep-dive
+description: |
+  Advanced juicebox data migration strategies. use when migrating from other recruiting platforms, performing bulk data imports, or implementing complex data transformation pipelines. trigger with phrases like "juicebox data migration", "migrate to ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Juicebox Migration Deep Dive
 

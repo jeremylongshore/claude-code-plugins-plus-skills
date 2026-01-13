@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Install and configure gamma api authentication. use when setting up a
-  new gamma integration, configuring api keys, or initializing gamma in your project.
-  trigger with phrases like "install gamma", "setup gamma", "gamma auth", "configure
-  gamma api ...
 name: gamma-install-auth
+description: |
+  Install and configure gamma api authentication. use when setting up a new gamma integration, configuring api keys, or initializing gamma in your project. trigger with phrases like "install gamma", "setup gamma", "gamma auth", "configure gamma api ...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Gamma Install & Auth
 

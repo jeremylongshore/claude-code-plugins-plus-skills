@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash
-license: MIT
-description: Install and configure granola ai meeting notes app with calendar integration.
-  use when setting up granola for the first time, connecting calendar accounts, or
-  configuring audio capture permissions. trigger with phrases like "install granola",
-  "set...
 name: granola-install-auth
+description: |
+  Install and configure granola ai meeting notes app with calendar integration. use when setting up granola for the first time, connecting calendar accounts, or configuring audio capture permissions. trigger with phrases like "install granola", "set...
+allowed-tools: Read, Write, Edit, Bash(cmd:*)
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Granola Install Auth
 

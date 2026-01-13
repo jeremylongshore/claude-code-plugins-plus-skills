@@ -1,11 +1,11 @@
 ---
-allowed-tools: Read, Write, Edit, Bash, Grep
-license: MIT
-description: Configure Apollo.io local development workflow. Use when setting up development
-  environment, testing API calls locally, or establishing team development practices.
-  Trigger with phrases like "apollo local dev", "apollo development setup", "apollo
-  d...
 name: apollo-local-dev-loop
+description: |
+  Configure Apollo.io local development workflow. Use when setting up development environment, testing API calls locally, or establishing team development practices. Trigger with phrases like "apollo local dev", "apollo development setup", "apollo d...
+allowed-tools: Read, Write, Edit, Bash(cmd:*), Grep
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+license: MIT
 ---
 # Apollo Local Dev Loop
 
