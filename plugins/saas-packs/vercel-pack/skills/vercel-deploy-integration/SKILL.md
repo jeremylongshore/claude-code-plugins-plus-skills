@@ -1,12 +1,14 @@
 ---
-name: vercel-deploy-integration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Deploy Vercel integrations to Vercel, Fly.io, and Cloud Run platforms.
   Use when deploying Vercel-powered applications to production, configuring platform-specific
   secrets, or setting up deployment pipelines. Trigger with phrases like "deploy verce...
+name: vercel-deploy-integration
 ---
 # Vercel Deploy Integration
+
+This skill provides automated assistance for vercel deploy integration tasks.
 
 ## Prerequisites
 - Vercel API keys for production environment

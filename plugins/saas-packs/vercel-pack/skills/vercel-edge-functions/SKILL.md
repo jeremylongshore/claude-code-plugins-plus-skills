@@ -1,12 +1,14 @@
 ---
-name: vercel-edge-functions
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute vercel secondary workflow: edge functions. use when api routes
   with minimal latency, or complementing primary workflow. trigger with phrases like
   "vercel edge function", "deploy edge function with vercel".'
+name: vercel-edge-functions
 ---
 # Vercel Edge Functions
+
+This skill provides automated assistance for vercel edge functions tasks.
 
 ## Overview
 Build and deploy Edge Functions for ultra-low latency at the edge.

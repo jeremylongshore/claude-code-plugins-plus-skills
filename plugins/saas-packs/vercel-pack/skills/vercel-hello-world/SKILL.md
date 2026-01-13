@@ -1,13 +1,15 @@
 ---
-name: vercel-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working Vercel example. Use when starting a new Vercel
   integration, testing your setup, or learning basic Vercel API patterns. Trigger
   with phrases like "vercel hello world", "vercel example", "vercel quick start",
   "simple vercel ...
+name: vercel-hello-world
 ---
 # Vercel Hello World
+
+This skill provides automated assistance for vercel hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core Vercel functionality.

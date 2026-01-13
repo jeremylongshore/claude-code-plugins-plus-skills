@@ -1,12 +1,14 @@
 ---
-name: vercel-cost-tuning
-license: MIT
 allowed-tools: Read, Grep
+license: MIT
 description: Optimize Vercel costs through tier selection, sampling, and usage monitoring.
   Use when analyzing Vercel billing, reducing API costs, or implementing usage monitoring
   and budget alerts. Trigger with phrases like "vercel cost", "vercel billing", "re...
+name: vercel-cost-tuning
 ---
 # Vercel Cost Tuning
+
+This skill provides automated assistance for vercel cost tuning tasks.
 
 ## Prerequisites
 - Access to Vercel billing dashboard

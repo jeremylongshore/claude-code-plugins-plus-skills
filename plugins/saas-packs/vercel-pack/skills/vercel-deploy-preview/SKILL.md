@@ -1,13 +1,15 @@
 ---
-name: vercel-deploy-preview
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute vercel primary workflow: deploy preview. use when deploying
   a preview for a pull request, testing changes before production, or sharing preview
   urls with stakeholders. trigger with phrases like "vercel deploy preview", "create
   preview depl...'
+name: vercel-deploy-preview
 ---
 # Vercel Deploy Preview
+
+This skill provides automated assistance for vercel deploy preview tasks.
 
 ## Overview
 Deploy preview environments for pull requests and branches.

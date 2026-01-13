@@ -1,13 +1,15 @@
 ---
-name: vercel-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure vercel sdk/cli authentication. use when setting
   up a new vercel integration, configuring api keys, or initializing vercel in your
   project. trigger with phrases like "install vercel", "setup vercel", "vercel auth",
   "configure ...
+name: vercel-install-auth
 ---
 # Vercel Install & Auth
+
+This skill provides automated assistance for vercel install auth tasks.
 
 ## Overview
 Set up Vercel SDK/CLI and configure authentication credentials.

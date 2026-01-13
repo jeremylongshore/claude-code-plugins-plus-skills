@@ -1,13 +1,15 @@
 ---
-name: vercel-incident-runbook
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Execute vercel incident response procedures with triage, mitigation,
   and postmortem. use when responding to vercel-related outages, investigating errors,
   or running post-incident reviews for vercel integration failures. trigger with phrases
   like "...
+name: vercel-incident-runbook
 ---
 # Vercel Incident Runbook
+
+This skill provides automated assistance for vercel incident runbook tasks.
 
 ## Prerequisites
 - Access to Vercel dashboard and status page

@@ -1,13 +1,15 @@
 ---
-name: vercel-debug-bundle
-license: MIT
 allowed-tools: Read, Bash, Grep
+license: MIT
 description: Execute collect vercel debug evidence for support tickets and troubleshooting.
   use when encountering persistent issues, preparing support tickets, or collecting
   diagnostic information for vercel problems. trigger with phrases like "vercel debug",
   ...
+name: vercel-debug-bundle
 ---
 # Vercel Debug Bundle
+
+This skill provides automated assistance for vercel debug bundle tasks.
 
 ## Prerequisites
 - Vercel SDK installed
