@@ -1,12 +1,14 @@
 ---
-name: klingai-debug-bundle
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute set up comprehensive logging and debugging for kling ai. use
   when investigating issues or monitoring requests. trigger with phrases like 'klingai
   debug', 'kling ai logging', 'trace klingai', 'monitor klingai requests'.
+name: klingai-debug-bundle
 ---
 # Klingai Debug Bundle
+
+This skill provides automated assistance for klingai debug bundle tasks.
 
 ## Overview
 

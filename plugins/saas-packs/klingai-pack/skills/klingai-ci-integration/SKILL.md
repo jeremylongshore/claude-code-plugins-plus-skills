@@ -1,13 +1,15 @@
 ---
-name: klingai-ci-integration
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute integrate kling ai video generation into ci/cd pipelines. use
   when automating video content generation in build pipelines. trigger with phrases
   like 'klingai ci', 'kling ai github actions', 'klingai automation', 'automated video
   generation'.
+name: klingai-ci-integration
 ---
 # Klingai Ci Integration
+
+This skill provides automated assistance for klingai ci integration tasks.
 
 ## Overview
 

@@ -1,13 +1,15 @@
 ---
-name: klingai-cost-controls
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement cost controls and budget management for kling ai. use when
   managing spending limits, tracking costs, or preventing budget overruns. trigger
   with phrases like 'klingai cost', 'kling ai budget', 'klingai spending', 'video
   generation costs'.
+name: klingai-cost-controls
 ---
 # Klingai Cost Controls
+
+This skill provides automated assistance for klingai cost controls tasks.
 
 ## Overview
 

@@ -1,12 +1,14 @@
 ---
-name: klingai-common-errors
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute diagnose and fix common kling ai api errors. use when troubleshooting
   failed video generation or api issues. trigger with phrases like 'kling ai error',
   'klingai not working', 'fix klingai', 'klingai failed'.
+name: klingai-common-errors
 ---
 # Kling AI Common Errors
+
+This skill provides automated assistance for klingai common errors tasks.
 
 ## Overview
 

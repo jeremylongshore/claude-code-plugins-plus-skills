@@ -1,13 +1,15 @@
 ---
-name: klingai-compliance-review
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute conduct compliance reviews for kling ai integrations. use when
   preparing for audits, ensuring regulatory compliance, or reviewing security posture.
   trigger with phrases like 'klingai compliance', 'kling ai audit prep', 'klingai
   security re...
+name: klingai-compliance-review
 ---
 # Klingai Compliance Review
+
+This skill provides automated assistance for klingai compliance review tasks.
 
 ## Overview
 

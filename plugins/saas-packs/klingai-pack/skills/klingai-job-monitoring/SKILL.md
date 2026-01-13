@@ -1,12 +1,14 @@
 ---
-name: klingai-job-monitoring
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Monitor and track Kling AI video generation jobs. Use when managing multiple
   generations or building job dashboards. Trigger with phrases like 'klingai job status',
   'track klingai jobs', 'kling ai monitoring', 'klingai job queue'.
+name: klingai-job-monitoring
 ---
 # Klingai Job Monitoring
+
+This skill provides automated assistance for klingai job monitoring tasks.
 
 ## Overview
 

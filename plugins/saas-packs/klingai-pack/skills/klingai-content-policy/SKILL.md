@@ -1,12 +1,14 @@
 ---
-name: klingai-content-policy
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement content policy compliance for kling ai. use when ensuring generated
   content meets guidelines or filtering inappropriate prompts. trigger with phrases
   like 'klingai content policy', 'kling ai moderation', 'safe video generation', 'klingai...
+name: klingai-content-policy
 ---
 # Klingai Content Policy
+
+This skill provides automated assistance for klingai content policy tasks.
 
 ## Overview
 

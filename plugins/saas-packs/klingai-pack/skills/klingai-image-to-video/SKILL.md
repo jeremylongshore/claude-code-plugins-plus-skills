@@ -1,13 +1,15 @@
 ---
-name: klingai-image-to-video
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Generate videos from static images using Kling AI. Use when animating
   images, creating motion from stills, or building image-based content. Trigger with
   phrases like 'klingai image to video', 'kling ai animate image', 'klingai img2vid',
   'animate p...
+name: klingai-image-to-video
 ---
 # Klingai Image To Video
+
+This skill provides automated assistance for klingai image to video tasks.
 
 ## Overview
 

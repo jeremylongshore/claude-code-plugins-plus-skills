@@ -1,12 +1,14 @@
 ---
-name: klingai-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Create your first Kling AI video generation with a simple example. Use
   when learning Kling AI or testing your setup. Trigger with phrases like 'kling ai
   hello world', 'first kling ai video', 'klingai quickstart', 'test klingai'.
+name: klingai-hello-world
 ---
 # Klingai Hello World
+
+This skill provides automated assistance for klingai hello world tasks.
 
 ## Overview
 
