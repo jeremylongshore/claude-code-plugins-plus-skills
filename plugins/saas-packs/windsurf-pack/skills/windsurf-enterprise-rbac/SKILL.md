@@ -1,17 +1,11 @@
 ---
 name: windsurf-enterprise-rbac
-description: |
-  Configure Windsurf enterprise SSO, role-based access control, and organization management.
-  Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for Windsurf.
-  Trigger with phrases like "windsurf SSO", "windsurf RBAC",
-  "windsurf enterprise", "windsurf roles", "windsurf permissions", "windsurf SAML".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure Windsurf enterprise SSO, role-based access control, and organization
+  management. Use when implementing SSO integration, configuring role-based permissions,
+  or setting up organization-level controls for Windsurf. Trigger with phrases like...
 ---
-
 # Windsurf Enterprise RBAC
 
 ## Overview

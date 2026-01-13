@@ -1,17 +1,11 @@
 ---
 name: windsurf-deploy-integration
-description: |
-  Deploy Windsurf integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying Windsurf-powered applications to production,
-  configuring platform-specific secrets, or setting up deployment pipelines.
-  Trigger with phrases like "deploy windsurf", "windsurf Vercel",
-  "windsurf production deploy", "windsurf Cloud Run", "windsurf Fly.io".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Windsurf integrations to Vercel, Fly.io, and Cloud Run platforms.
+  Use when deploying Windsurf-powered applications to production, configuring platform-specific
+  secrets, or setting up deployment pipelines. Trigger with phrases like "deploy w...
 ---
-
 # Windsurf Deploy Integration
 
 ## Overview

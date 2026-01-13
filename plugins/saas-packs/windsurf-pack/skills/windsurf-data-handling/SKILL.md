@@ -1,17 +1,12 @@
 ---
 name: windsurf-data-handling
-description: |
-  Implement Windsurf PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for Windsurf integrations.
-  Trigger with phrases like "windsurf data", "windsurf PII",
-  "windsurf GDPR", "windsurf data retention", "windsurf privacy", "windsurf CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement windsurf pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for windsurf
+  integra...
 ---
-
 # Windsurf Data Handling
 
 ## Overview

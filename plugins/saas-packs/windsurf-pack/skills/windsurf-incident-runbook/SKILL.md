@@ -1,17 +1,12 @@
 ---
 name: windsurf-incident-runbook
-description: |
-  Execute Windsurf incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to Windsurf-related outages, investigating errors,
-  or running post-incident reviews for Windsurf integration failures.
-  Trigger with phrases like "windsurf incident", "windsurf outage",
-  "windsurf down", "windsurf on-call", "windsurf emergency", "windsurf broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute windsurf incident response procedures with triage, mitigation,
+  and postmortem. use when responding to windsurf-related outages, investigating errors,
+  or running post-incident reviews for windsurf integration failures. trigger with
+  phrases ...
 ---
-
 # Windsurf Incident Runbook
 
 ## Overview
