@@ -1,12 +1,14 @@
 ---
-name: clay-core-workflow-a
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute clay primary workflow: core workflow a. use when implementing
   primary use case, building main features, or core integration tasks. trigger with
   phrases like "clay main workflow", "primary task with clay".'
+name: clay-core-workflow-a
 ---
 # Clay Core Workflow A
+
+This skill provides automated assistance for clay core workflow a tasks.
 
 ## Overview
 Primary money-path workflow for Clay. This is the most common use case.

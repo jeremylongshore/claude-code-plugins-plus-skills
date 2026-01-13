@@ -1,70 +1,23 @@
 ---
-name: clay-ci-integration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Configure Clay CI/CD integration with GitHub Actions and testing. Use
   when setting up automated testing, configuring CI pipelines, or integrating Clay
   tests into your build process. Trigger with phrases like "clay CI", "clay GitHub
   Actions", "clay...
+name: clay-ci-integration
 ---
-# Clay CI Integration
+# Clay Ci Integration
 
-## Overview
-Set up CI/CD pipelines for Clay integrations with automated testing.
+This skill provides automated assistance for clay ci integration tasks.
 
 ## Prerequisites
 - GitHub repository with Actions enabled
 - Clay test API key
 - npm/pnpm project configured
 
-## Instructions
 
-### Step 1: Create GitHub Actions Workflow
-Create `.github/workflows/clay-integration.yml`:
-
-```yaml
-name: Clay Integration Tests
-
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-
-env:
-  CLAY_API_KEY: ${{ secrets.CLAY_API_KEY }}
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    env:
-      CLAY_API_KEY: ${{ secrets.CLAY_API_KEY }}
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-      - run: npm ci
-      - run: npm test -- --coverage
-      - run: npm run test:integration
-```
-
-### Step 2: Configure Secrets
-```bash
-gh secret set CLAY_API_KEY --body "sk_test_***"
-```
-
-### Step 3: Add Integration Tests
-```typescript
-describe('Clay Integration', () => {
-  it.skipIf(!process.env.CLAY_API_KEY)('should connect', async () => {
-    const client = getClayClient();
-    const result = await client.healthCheck();
-    expect(result.status).toBe('ok');
-  });
-});
-```
+See `{baseDir}/references/implementation.md` for detailed implementation guide.
 
 ## Output
 - Automated test pipeline
@@ -73,47 +26,13 @@ describe('Clay Integration', () => {
 - Release workflow ready
 
 ## Error Handling
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| Secret not found | Missing configuration | Add secret via `gh secret set` |
-| Tests timeout | Network issues | Increase timeout or mock |
-| Auth failures | Invalid key | Check secret value |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Release Workflow
-```yaml
-on:
-  push:
-    tags: ['v*']
-
-jobs:
-  release:
-    runs-on: ubuntu-latest
-    env:
-      CLAY_API_KEY: ${{ secrets.CLAY_API_KEY_PROD }}
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-      - run: npm ci
-      - name: Verify Clay production readiness
-        run: npm run test:integration
-      - run: npm run build
-      - run: npm publish
-```
-
-### Branch Protection
-```yaml
-required_status_checks:
-  - "test"
-  - "clay-integration"
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [Clay CI Guide](https://docs.clay.com/ci)
-
-## Next Steps
-For deployment patterns, see `clay-deploy-integration`.

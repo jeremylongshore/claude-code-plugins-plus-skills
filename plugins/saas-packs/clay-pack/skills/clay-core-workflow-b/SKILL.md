@@ -1,12 +1,14 @@
 ---
-name: clay-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute clay secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "clay secondary workflow", "secondary task with clay".'
+name: clay-core-workflow-b
 ---
 # Clay Core Workflow B
+
+This skill provides automated assistance for clay core workflow b tasks.
 
 ## Overview
 Secondary workflow for Clay. Complements the primary workflow.
