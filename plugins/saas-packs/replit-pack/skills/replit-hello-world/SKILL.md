@@ -1,13 +1,15 @@
 ---
-name: replit-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working Replit example. Use when starting a new Replit
   integration, testing your setup, or learning basic Replit API patterns. Trigger
   with phrases like "replit hello world", "replit example", "replit quick start",
   "simple replit ...
+name: replit-hello-world
 ---
 # Replit Hello World
+
+This skill provides automated assistance for replit hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core Replit functionality.

@@ -1,13 +1,15 @@
 ---
-name: replit-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure replit sdk/cli authentication. use when setting
   up a new replit integration, configuring api keys, or initializing replit in your
   project. trigger with phrases like "install replit", "setup replit", "replit auth",
   "configure ...
+name: replit-install-auth
 ---
 # Replit Install & Auth
+
+This skill provides automated assistance for replit install auth tasks.
 
 ## Overview
 Set up Replit SDK/CLI and configure authentication credentials.
