@@ -1,17 +1,12 @@
 ---
 name: clerk-migration-deep-dive
-description: |
-  Migrate from other authentication providers to Clerk.
-  Use when migrating from Auth0, Firebase, Supabase Auth, NextAuth,
-  or custom authentication solutions.
-  Trigger with phrases like "migrate to clerk", "clerk migration",
-  "switch to clerk", "auth0 to clerk", "firebase auth to clerk".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Migrate from other authentication providers to clerk. use when migrating
+  from auth0, firebase, supabase auth, nextauth, or custom authentication solutions.
+  trigger with phrases like "migrate to clerk", "clerk migration", "switch to clerk",
+  "auth0 ...
 ---
-
 # Clerk Migration Deep Dive
 
 ## Overview

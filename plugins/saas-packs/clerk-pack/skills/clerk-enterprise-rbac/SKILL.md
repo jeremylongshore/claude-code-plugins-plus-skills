@@ -1,17 +1,12 @@
 ---
 name: clerk-enterprise-rbac
-description: |
-  Configure enterprise SSO, role-based access control, and organization management.
-  Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls.
-  Trigger with phrases like "clerk SSO", "clerk RBAC",
-  "clerk enterprise", "clerk roles", "clerk permissions", "clerk SAML".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Configure enterprise SSO, role-based access control, and organization
+  management. Use when implementing SSO integration, configuring role-based permissions,
+  or setting up organization-level controls. Trigger with phrases like "clerk SSO",
+  "clerk R...
 ---
-
 # Clerk Enterprise RBAC
 
 ## Overview

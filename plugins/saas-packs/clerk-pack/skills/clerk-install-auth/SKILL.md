@@ -1,17 +1,12 @@
 ---
 name: clerk-install-auth
-description: |
-  Install and configure Clerk SDK/CLI authentication.
-  Use when setting up a new Clerk integration, configuring API keys,
-  or initializing Clerk in your project.
-  Trigger with phrases like "install clerk", "setup clerk",
-  "clerk auth", "configure clerk API key", "add clerk to project".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Install and configure clerk sdk/cli authentication. use when setting
+  up a new clerk integration, configuring api keys, or initializing clerk in your
+  project. trigger with phrases like "install clerk", "setup clerk", "clerk auth",
+  "configure clerk ...
 ---
-
 # Clerk Install & Auth
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: clerk-local-dev-loop
-description: |
-  Set up local development workflow with Clerk.
-  Use when configuring development environment, testing auth locally,
-  or setting up hot reload with Clerk.
-  Trigger with phrases like "clerk local dev", "clerk development",
-  "test clerk locally", "clerk dev environment".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Set up local development workflow with clerk. use when configuring development
+  environment, testing auth locally, or setting up hot reload with clerk. trigger
+  with phrases like "clerk local dev", "clerk development", "test clerk locally",
+  "clerk d...
 ---
-
 # Clerk Local Dev Loop
 
 ## Overview
