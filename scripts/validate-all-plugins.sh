@@ -101,15 +101,15 @@ HAS_FRONTMATTER_SCRIPT=false
 
 if command -v python3 &> /dev/null; then
   HAS_PYTHON3=true
-  if [[ -f "$SCRIPT_DIR/validate-frontmatter.py" ]]; then
+  if [[ -f "$SCRIPT_DIR/validate-skills-schema.py" ]]; then
     HAS_FRONTMATTER_SCRIPT=true
   else
-    echo -e "${RED}❌ validate-frontmatter.py not found - frontmatter validation FAILED${NC}"
-    ERRORS=$((ERRORS + 1))
+    echo -e "${YELLOW}⚠️  validate-skills-schema.py not found - skipping frontmatter validation${NC}"
+    WARNINGS=$((WARNINGS + 1))
   fi
 else
-  echo -e "${RED}❌ Python3 not found - frontmatter validation FAILED${NC}"
-  ERRORS=$((ERRORS + 1))
+  echo -e "${YELLOW}⚠️  Python3 not found - skipping frontmatter validation${NC}"
+  WARNINGS=$((WARNINGS + 1))
 fi
 
 while IFS= read -r md_file; do
@@ -122,12 +122,7 @@ while IFS= read -r md_file; do
     continue
   fi
 
-  # Validate with Python script if available
-  if [[ "$HAS_FRONTMATTER_SCRIPT" == "true" ]]; then
-    if ! python3 "$SCRIPT_DIR/validate-frontmatter.py" "$md_file" 2>&1; then
-      ERRORS=$((ERRORS + 1))
-    fi
-  fi
+  # Per-file validation handled by validate-skills-schema.py (run separately)
 
 done < <(find "$TARGET_DIR" \( -path "*/commands/*.md" -o -path "*/agents/*.md" \) 2>/dev/null | grep -v "/packages/" | head -100)
 

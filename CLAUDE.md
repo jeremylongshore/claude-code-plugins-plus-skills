@@ -4,131 +4,111 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-Claude Code plugins marketplace and learning hub. Live at https://claudecodeplugins.io/
+Claude Code plugins marketplace (270+ plugins, 739 skills). Live at https://claudecodeplugins.io/
 
-**Monorepo structure:** pnpm workspaces (v9.15.9+) with:
-- MCP server plugins in `plugins/mcp/*` (TypeScript/Node.js)
-- SaaS skill packs in `plugins/saas-packs/*-pack`
-- Instruction-based plugins in `plugins/[category]/*` (Markdown)
-- Astro website in `marketplace/` (uses npm, not pnpm)
-- Shared packages in `packages/` (CLI, validator, analytics)
+**Monorepo structure:** pnpm workspaces (v9.15.9+)
+- `plugins/mcp/*` - MCP server plugins (TypeScript, ~2% of plugins)
+- `plugins/[category]/*` - AI instruction plugins (Markdown, ~98%)
+- `plugins/saas-packs/*-pack` - SaaS skill packs
+- `marketplace/` - Astro website (**uses npm, not pnpm**)
+- `packages/` - CLI, validator, analytics
 
-**Package Manager Rules:**
-- **Root & workspaces:** Use `pnpm` (enforced via CI)
-- **Marketplace only:** Use `npm` (separate project)
-- CI fails if npm/yarn used in workspace root
+**Package manager:** `pnpm` at root, `npm` for marketplace only.
 
 ## Essential Commands
 
-### Before ANY Commit (MANDATORY)
 ```bash
-pnpm run sync-marketplace           # Regenerates marketplace.json from .extended.json
-./scripts/validate-all-plugins.sh   # Full validation (or quick-test.sh for ~30s check)
-git add .claude-plugin/marketplace.json  # Commit BOTH catalog files
+# Before ANY commit (MANDATORY)
+pnpm run sync-marketplace           # Regenerate marketplace.json from .extended.json
+./scripts/validate-all-plugins.sh   # Full validation
+./scripts/quick-test.sh             # Fast validation (~30s)
+
+# Build & test
+pnpm install && pnpm build          # Install and build all
+pnpm test && pnpm typecheck         # Run tests and type check
+
+# Single MCP plugin
+cd plugins/mcp/[name]/ && pnpm build && chmod +x dist/index.js
+
+# Marketplace website
+cd marketplace/ && npm run dev      # Dev server at localhost:4321
+
+# Validation
+./scripts/validate-all-plugins.sh plugins/[category]/[name]/
+python3 scripts/validate-skills-schema.py   # 2025 skills schema + grading
 ```
 
-### Build & Test
-```bash
-pnpm install                        # Install all dependencies
-pnpm build                          # Build all packages
-pnpm test                           # Run all tests
-pnpm typecheck                      # TypeScript validation
-pnpm lint                           # ESLint
+## Two Catalog System (Critical)
+
+| File | Purpose | Edit? |
+|------|---------|-------|
+| `.claude-plugin/marketplace.extended.json` | Source of truth with extended metadata | ✅ Yes |
+| `.claude-plugin/marketplace.json` | CLI-compatible (auto-generated) | ❌ Never |
+
+Run `pnpm run sync-marketplace` after editing `.extended.json`. CI fails if out of sync.
+
+## Plugin Structure
+
+### AI Instruction Plugins
+```
+plugins/[category]/[plugin-name]/
+├── .claude-plugin/plugin.json    # Required: name, version, description, author
+├── README.md
+├── commands/*.md                 # Slash commands
+├── agents/*.md                   # Custom agents
+└── skills/[skill-name]/SKILL.md  # Auto-activating skills
 ```
 
-### Single MCP Plugin Development
-```bash
-cd plugins/mcp/[plugin-name]/
-pnpm build                          # Compile TypeScript → dist/
-pnpm test                           # Run plugin tests
-chmod +x dist/index.js              # Make executable (required)
+### MCP Server Plugins
+```
+plugins/mcp/[plugin-name]/
+├── .claude-plugin/plugin.json
+├── src/*.ts                      # TypeScript source
+├── dist/index.js                 # Must be executable with shebang
+├── package.json
+└── .mcp.json
 ```
 
-### Marketplace Website
-```bash
-cd marketplace/
-npm run dev                         # Dev server at localhost:4321
-npm run build                       # Production build
+### SKILL.md Frontmatter (2025 Spec)
+```yaml
+---
+name: skill-name
+description: |
+  When to use this skill. Include trigger phrases.
+allowed-tools: Read, Write, Edit, Bash(npm:*), Glob
+version: 1.0.0
+author: Name <email>
+---
 ```
 
-### Validation
-```bash
-./scripts/validate-all-plugins.sh plugins/[category]/[name]/  # Single plugin
-python3 scripts/validate-skills-schema.py                      # Skills 2025 schema
-python3 scripts/validate-frontmatter.py                        # Frontmatter only
-```
-
-### Local Plugin Testing
-```bash
-/plugin marketplace add /home/jeremy/000-projects/claude-code-plugins
-/plugin install [plugin-name]@claude-code-plugins-plus
-```
-
-## Critical Architecture: Two Catalog System
-
-**Source of Truth:** `.claude-plugin/marketplace.extended.json`
-- Edit this file when adding/updating plugins
-- Contains extended metadata: `featured`, `mcpTools`, `pricing`
-
-**Generated File:** `.claude-plugin/marketplace.json`
-- Auto-generated by `pnpm run sync-marketplace`
-- **NEVER edit directly** - CI fails if out of sync
-
-**Why Two Catalogs:** Claude CLI enforces strict JSON schema (no extra fields). Extended version tracks website-specific metadata.
-
-## Plugin Types
-
-### AI Instruction Plugins (~98%)
-- Markdown files with YAML frontmatter, no code execution
-- Location: `plugins/[category]/[plugin-name]/`
-- Key files: `.claude-plugin/plugin.json`, `README.md`, `commands/*.md`, `skills/*/SKILL.md`
-
-### MCP Server Plugins (~2%)
-- TypeScript/Node.js using `@modelcontextprotocol/sdk`
-- Location: `plugins/mcp/[plugin-name]/`
-- Build: TypeScript → `dist/index.js` (must be executable with shebang)
-
-### Agent Skills
-- Auto-activating capabilities at `skills/[skill-name]/SKILL.md`
-- Required 2025 frontmatter: `name`, `description`, `allowed-tools`, `version`
-- Model IDs: Use `sonnet` or `haiku` (not `opus` - deprecated)
+Valid tools: `Read`, `Write`, `Edit`, `Bash`, `Glob`, `Grep`, `WebFetch`, `WebSearch`, `Task`, `TodoWrite`, `NotebookEdit`, `AskUserQuestion`, `Skill`
 
 ## Adding a New Plugin
 
-1. Copy template from `templates/` (minimal, command, agent, or full)
-2. Edit `.claude-plugin/plugin.json`
-3. Create `README.md`
-4. Add entry to `.claude-plugin/marketplace.extended.json`
-5. Run `pnpm run sync-marketplace`
-6. Validate: `./scripts/validate-all-plugins.sh plugins/[category]/[name]/`
-
-## Key Identifiers
-
-- **Marketplace Slug:** `claude-code-plugins-plus`
-- **Install Command:** `/plugin marketplace add jeremylongshore/claude-code-plugins`
-- **Website:** https://claudecodeplugins.io/
+1. Copy from `templates/` (minimal, command, agent, or full)
+2. Create `.claude-plugin/plugin.json` with required fields
+3. Add entry to `.claude-plugin/marketplace.extended.json`
+4. `pnpm run sync-marketplace`
+5. `./scripts/validate-all-plugins.sh plugins/[category]/[name]/`
 
 ## Conventions
 
 - **Hooks:** Use `${CLAUDE_PLUGIN_ROOT}` for portability
-- **Scripts:** All `.sh` files must be executable
-- **Semver:** All plugins use semantic versioning
-- **Security:** No hardcoded secrets, all MCP tools use Zod schemas
+- **Scripts:** All `.sh` files must be `chmod +x`
+- **Model IDs in skills:** Use `sonnet` or `haiku` (not `opus`)
 
-## Learning Lab
+## Key Identifiers
 
-Located at `workspace/lab/` - teaches production agent workflows with empirical verification patterns. Includes guides, reference implementation, and exercises.
+- **Slug:** `claude-code-plugins-plus`
+- **Install:** `/plugin marketplace add jeremylongshore/claude-code-plugins`
 
----
+## Task Tracking (Beads)
 
-## Task Tracking (Beads / bd)
+See `AGENTS.md` for full protocol. Work isn't done until `git push` succeeds.
 
-See `AGENTS.md` for session workflow. Key commands:
 ```bash
 bd ready                            # Available tasks
 bd update <id> --status in_progress # Claim task
 bd close <id> --reason "..."        # Complete task
-bd sync                             # Sync with git (MANDATORY at session end)
+bd sync && git push                 # MANDATORY at session end
 ```
-
-**Critical:** Work isn't done until `git push` succeeds.
