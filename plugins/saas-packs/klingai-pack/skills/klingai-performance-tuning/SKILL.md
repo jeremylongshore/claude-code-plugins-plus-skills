@@ -1,15 +1,12 @@
 ---
 name: klingai-performance-tuning
-description: |
-  Optimize Kling AI performance for speed and quality. Use when improving generation times,
-  reducing costs, or enhancing output quality. Trigger with phrases like 'klingai performance',
-  'kling ai optimization', 'faster klingai', 'klingai quality settings'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Optimize Kling AI performance for speed and quality. Use when improving
+  generation times, reducing costs, or enhancing output quality. Trigger with phrases
+  like 'klingai performance', 'kling ai optimization', 'faster klingai', 'klingai
+  quality set...
 ---
-
 # Klingai Performance Tuning
 
 ## Overview

@@ -1,15 +1,12 @@
 ---
 name: klingai-reference-architecture
-description: |
-  Execute production-ready reference architecture for Kling AI video platforms. Use when designing
-  scalable video generation systems. Trigger with phrases like 'klingai architecture',
-  'kling ai system design', 'video platform architecture', 'klingai production setup'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Execute production-ready reference architecture for kling ai video platforms.
+  use when designing scalable video generation systems. trigger with phrases like
+  'klingai architecture', 'kling ai system design', 'video platform architecture',
+  'klingai...
 ---
-
 # Klingai Reference Architecture
 
 ## Overview

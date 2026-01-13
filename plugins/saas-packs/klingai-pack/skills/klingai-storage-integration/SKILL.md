@@ -1,15 +1,12 @@
 ---
 name: klingai-storage-integration
-description: |
-  Execute integrate Kling AI video output with cloud storage providers. Use when storing generated
-  videos in S3, GCS, or Azure Blob. Trigger with phrases like 'klingai storage', 'save klingai video',
-  'kling ai cloud storage', 'klingai s3 upload'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Execute integrate kling ai video output with cloud storage providers.
+  use when storing generated videos in s3, gcs, or azure blob. trigger with phrases
+  like 'klingai storage', 'save klingai video', 'kling ai cloud storage', 'klingai
+  s3 upload'.
 ---
-
 # Klingai Storage Integration
 
 ## Overview
