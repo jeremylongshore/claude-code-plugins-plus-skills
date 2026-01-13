@@ -1,16 +1,11 @@
 ---
 name: generating-api-docs
-description: |
-  Create comprehensive API documentation with examples, authentication guides, and SDKs.
-  Use when creating comprehensive API documentation.
-  Trigger with phrases like "generate API docs", "create API documentation", or "document the API".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Create comprehensive API documentation with examples, authentication
+  guides, and SDKs. Use when creating comprehensive API documentation. Trigger with
+  phrases like "generate API docs", "create API documentation", or "document the API".
 ---
-
 # Generating Api Docs
 
 ## Overview

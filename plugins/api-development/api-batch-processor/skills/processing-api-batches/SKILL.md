@@ -1,16 +1,11 @@
 ---
 name: processing-api-batches
-description: |
-  Optimize bulk API requests with batching, throttling, and parallel execution.
-  Use when processing bulk API operations efficiently.
-  Trigger with phrases like "process bulk requests", "batch API calls", or "handle batch operations".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Optimize bulk API requests with batching, throttling, and parallel execution.
+  Use when processing bulk API operations efficiently. Trigger with phrases like "process
+  bulk requests", "batch API calls", or "handle batch operations".
 ---
-
 # Processing Api Batches
 
 ## Overview

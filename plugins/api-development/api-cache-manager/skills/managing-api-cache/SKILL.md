@@ -1,16 +1,11 @@
 ---
 name: managing-api-cache
-description: |
-  Implement intelligent API response caching with Redis, Memcached, and CDN integration.
-  Use when optimizing API performance with caching.
-  Trigger with phrases like "add caching", "optimize API performance", or "implement cache layer".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Implement intelligent api response caching with redis, memcached, and
+  cdn integration. use when optimizing api performance with caching. trigger with
+  phrases like "add caching", "optimize api performance", or "implement cache layer".
 ---
-
 # Managing Api Cache
 
 ## Overview

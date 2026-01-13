@@ -1,16 +1,11 @@
 ---
 name: handling-api-errors
-description: |
-  Implement standardized error handling with proper HTTP status codes and error responses.
-  Use when implementing standardized error handling.
-  Trigger with phrases like "add error handling", "standardize errors", or "implement error responses".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Implement standardized error handling with proper http status codes and
+  error responses. use when implementing standardized error handling. trigger with
+  phrases like "add error handling", "standardize errors", or "implement error responses".
 ---
-
 # Handling Api Errors
 
 ## Overview

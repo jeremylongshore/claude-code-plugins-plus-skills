@@ -1,16 +1,11 @@
 ---
 name: building-api-authentication
-description: |
-  Build secure API authentication systems with OAuth2, JWT, API keys, and session management.
-  Use when implementing secure authentication flows.
-  Trigger with phrases like "build authentication", "add API auth", or "secure the API".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Build secure API authentication systems with OAuth2, JWT, API keys, and
+  session management. Use when implementing secure authentication flows. Trigger with
+  phrases like "build authentication", "add API auth", or "secure the API".
 ---
-
 # Building Api Authentication
 
 ## Overview

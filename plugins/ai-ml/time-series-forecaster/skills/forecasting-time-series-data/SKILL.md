@@ -1,11 +1,11 @@
 ---
 name: forecasting-time-series-data
-description: |
-  Process this skill enables AI assistant to forecast future values based on historical time series data. it analyzes time-dependent data to identify trends, seasonality, and other patterns. use this skill when the user asks to predict future values of a time ser... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Process this skill enables AI assistant to forecast future values based
+  on historical time series data. it analyzes time-dependent data to identify trends,
+  seasonality, and other patterns. use this skill when the user asks to predict future
+  values...
 ---
 # Time Series Forecaster
 
