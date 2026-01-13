@@ -1,17 +1,12 @@
 ---
 name: ideogram-hello-world
-description: |
-  Create a minimal working Ideogram example.
-  Use when starting a new Ideogram integration, testing your setup,
-  or learning basic Ideogram API patterns.
-  Trigger with phrases like "ideogram hello world", "ideogram example",
-  "ideogram quick start", "simple ideogram code".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Create a minimal working Ideogram example. Use when starting a new Ideogram
+  integration, testing your setup, or learning basic Ideogram API patterns. Trigger
+  with phrases like "ideogram hello world", "ideogram example", "ideogram quick start",
+  "si...
 ---
-
 # Ideogram Hello World
 
 ## Overview

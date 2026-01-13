@@ -1,17 +1,12 @@
 ---
 name: ideogram-debug-bundle
-description: |
-  Collect Ideogram debug evidence for support tickets and troubleshooting.
-  Use when encountering persistent issues, preparing support tickets,
-  or collecting diagnostic information for Ideogram problems.
-  Trigger with phrases like "ideogram debug", "ideogram support bundle",
-  "collect ideogram logs", "ideogram diagnostic".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Collect ideogram debug evidence for support tickets and troubleshooting.
+  use when encountering persistent issues, preparing support tickets, or collecting
+  diagnostic information for ideogram problems. trigger with phrases like "ideogram
+  debug", "i...
 ---
-
 # Ideogram Debug Bundle
 
 ## Overview

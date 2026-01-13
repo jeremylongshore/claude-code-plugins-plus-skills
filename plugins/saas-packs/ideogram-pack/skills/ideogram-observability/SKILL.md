@@ -1,17 +1,12 @@
 ---
 name: ideogram-observability
-description: |
-  Set up comprehensive observability for Ideogram integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for Ideogram operations, setting up dashboards,
-  or configuring alerting for Ideogram integration health.
-  Trigger with phrases like "ideogram monitoring", "ideogram metrics",
-  "ideogram observability", "monitor ideogram", "ideogram alerts", "ideogram tracing".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Set up comprehensive observability for ideogram integrations with metrics,
+  traces, and alerts. use when implementing monitoring for ideogram operations, setting
+  up dashboards, or configuring alerting for ideogram integration health. trigger
+  with p...
 ---
-
 # Ideogram Observability
 
 ## Overview

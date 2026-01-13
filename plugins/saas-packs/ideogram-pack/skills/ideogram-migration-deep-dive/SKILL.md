@@ -1,17 +1,12 @@
 ---
 name: ideogram-migration-deep-dive
-description: |
-  Execute Ideogram major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from Ideogram, performing major version upgrades,
-  or re-platforming existing integrations to Ideogram.
-  Trigger with phrases like "migrate ideogram", "ideogram migration",
-  "switch to ideogram", "ideogram replatform", "ideogram upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute ideogram major re-architecture and migration strategies with
+  strangler fig pattern. use when migrating to or from ideogram, performing major
+  version upgrades, or re-platforming existing integrations to ideogram. trigger with
+  phrases like "...
 ---
-
 # Ideogram Migration Deep Dive
 
 ## Overview

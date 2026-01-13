@@ -1,17 +1,11 @@
 ---
 name: ideogram-multi-env-setup
-description: |
-  Configure Ideogram across development, staging, and production environments.
-  Use when setting up multi-environment deployments, configuring per-environment secrets,
-  or implementing environment-specific Ideogram configurations.
-  Trigger with phrases like "ideogram environments", "ideogram staging",
-  "ideogram dev prod", "ideogram environment setup", "ideogram config by env".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Ideogram across development, staging, and production environments.
+  Use when setting up multi-environment deployments, configuring per-environment secrets,
+  or implementing environment-specific Ideogram configurations. Trigger with phrases...
 ---
-
 # Ideogram Multi-Environment Setup
 
 ## Overview

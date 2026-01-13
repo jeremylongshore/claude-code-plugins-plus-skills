@@ -1,17 +1,12 @@
 ---
 name: ideogram-incident-runbook
-description: |
-  Execute Ideogram incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to Ideogram-related outages, investigating errors,
-  or running post-incident reviews for Ideogram integration failures.
-  Trigger with phrases like "ideogram incident", "ideogram outage",
-  "ideogram down", "ideogram on-call", "ideogram emergency", "ideogram broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute ideogram incident response procedures with triage, mitigation,
+  and postmortem. use when responding to ideogram-related outages, investigating errors,
+  or running post-incident reviews for ideogram integration failures. trigger with
+  phrases ...
 ---
-
 # Ideogram Incident Runbook
 
 ## Overview
