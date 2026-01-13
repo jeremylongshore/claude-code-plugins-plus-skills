@@ -1,16 +1,15 @@
 ---
-name: clerk-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure clerk sdk/cli authentication. use when setting
   up a new clerk integration, configuring api keys, or initializing clerk in your
   project. trigger with phrases like "install clerk", "setup clerk", "clerk auth",
   "configure clerk ...
+name: clerk-install-auth
 ---
-# Clerk Install & Auth
+# Clerk Install Auth
 
-## Overview
-Set up Clerk SDK and configure authentication credentials for your application.
+This skill provides automated assistance for clerk install auth tasks.
 
 ## Prerequisites
 - Node.js 18+ (Next.js, React, Express, etc.)
@@ -18,72 +17,8 @@ Set up Clerk SDK and configure authentication credentials for your application.
 - Clerk account with API access
 - Publishable and Secret keys from Clerk dashboard
 
-## Instructions
 
-### Step 1: Install SDK
-```bash
-# Next.js
-npm install @clerk/nextjs
-
-# React
-npm install @clerk/clerk-react
-
-# Express/Node.js
-npm install @clerk/express
-
-# Remix
-npm install @clerk/remix
-```
-
-### Step 2: Configure Environment Variables
-```bash
-# Create .env.local file
-cat >> .env.local << 'EOF'
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...
-CLERK_SECRET_KEY=sk_test_...
-EOF
-```
-
-### Step 3: Add ClerkProvider (Next.js App Router)
-```typescript
-// app/layout.tsx
-import { ClerkProvider } from '@clerk/nextjs'
-
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <ClerkProvider>
-      <html lang="en">
-        <body>{children}</body>
-      </html>
-    </ClerkProvider>
-  )
-}
-```
-
-### Step 4: Add Middleware
-```typescript
-// middleware.ts
-import { clerkMiddleware } from '@clerk/nextjs/server'
-
-export default clerkMiddleware()
-
-export const config = {
-  matcher: [
-    '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
-    '/(api|trpc)(.*)',
-  ],
-}
-```
-
-### Step 5: Verify Connection
-```typescript
-import { auth } from '@clerk/nextjs/server'
-
-export async function GET() {
-  const { userId } = await auth()
-  return Response.json({ authenticated: !!userId })
-}
-```
+See `{baseDir}/references/implementation.md` for detailed implementation guide.
 
 ## Output
 - Installed SDK package in node_modules
@@ -92,60 +27,14 @@ export async function GET() {
 - Middleware protecting routes
 
 ## Error Handling
-| Error | Cause | Solution |
-|-------|-------|----------|
-| Invalid API Key | Incorrect or mismatched keys | Verify keys in Clerk dashboard match environment |
-| ClerkProvider Missing | SDK used outside provider | Wrap app root with ClerkProvider |
-| Middleware Not Running | Matcher misconfigured | Check matcher regex in middleware.ts |
-| Module Not Found | Installation failed | Run `npm install @clerk/nextjs` again |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Next.js App Router Setup
-```typescript
-// app/layout.tsx
-import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
-
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <ClerkProvider>
-      <html lang="en">
-        <body>
-          <header>
-            <SignedOut>
-              <SignInButton />
-            </SignedOut>
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
-          </header>
-          {children}
-        </body>
-      </html>
-    </ClerkProvider>
-  )
-}
-```
-
-### React SPA Setup
-```typescript
-import { ClerkProvider } from '@clerk/clerk-react'
-
-const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
-
-function App() {
-  return (
-    <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
-      <Router />
-    </ClerkProvider>
-  )
-}
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Clerk Documentation](https://clerk.com/docs)
 - [Clerk Dashboard](https://dashboard.clerk.com)
 - [Clerk Status](https://status.clerk.com)
-
-## Next Steps
-After successful auth, proceed to `clerk-hello-world` for your first authenticated request.
