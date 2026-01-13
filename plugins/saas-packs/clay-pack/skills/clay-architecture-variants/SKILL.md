@@ -1,17 +1,11 @@
 ---
 name: clay-architecture-variants
-description: |
-  Choose and implement Clay validated architecture blueprints for different scales.
-  Use when designing new Clay integrations, choosing between monolith/service/microservice
-  architectures, or planning migration paths for Clay applications.
-  Trigger with phrases like "clay architecture", "clay blueprint",
-  "how to structure clay", "clay project layout", "clay microservice".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Choose and implement clay validated architecture blueprints for different
+  scales. use when designing new clay integrations, choosing between monolith/service/microservice
+  architectures, or planning migration paths for clay applications. trigger wi...
 ---
-
 # Clay Architecture Variants
 
 ## Overview

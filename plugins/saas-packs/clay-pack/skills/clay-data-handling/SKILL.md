@@ -1,17 +1,12 @@
 ---
 name: clay-data-handling
-description: |
-  Implement Clay PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for Clay integrations.
-  Trigger with phrases like "clay data", "clay PII",
-  "clay GDPR", "clay data retention", "clay privacy", "clay CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement clay pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for clay integrations.
+  t...
 ---
-
 # Clay Data Handling
 
 ## Overview

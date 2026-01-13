@@ -1,17 +1,12 @@
 ---
 name: apollo-webhooks-events
-description: |
-  Implement Apollo.io webhook handling.
-  Use when receiving Apollo webhooks, processing event notifications,
-  or building event-driven integrations.
-  Trigger with phrases like "apollo webhooks", "apollo events",
-  "apollo notifications", "apollo webhook handler", "apollo triggers".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement apollo.io webhook handling. use when receiving apollo webhooks,
+  processing event notifications, or building event-driven integrations. trigger with
+  phrases like "apollo webhooks", "apollo events", "apollo notifications", "apollo
+  webhook ...
 ---
-
 # Apollo Webhooks Events
 
 ## Overview

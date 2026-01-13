@@ -1,17 +1,12 @@
 ---
 name: clay-advanced-troubleshooting
-description: |
-  Apply Clay advanced debugging techniques for hard-to-diagnose issues.
-  Use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for Clay support escalation.
-  Trigger with phrases like "clay hard bug", "clay mystery error",
-  "clay impossible to debug", "difficult clay issue", "clay deep debug".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Apply clay advanced debugging techniques for hard-to-diagnose issues.
+  use when standard troubleshooting fails, investigating complex race conditions,
+  or preparing evidence bundles for clay support escalation. trigger with phrases
+  like "clay hard b...
 ---
-
 # Clay Advanced Troubleshooting
 
 ## Overview

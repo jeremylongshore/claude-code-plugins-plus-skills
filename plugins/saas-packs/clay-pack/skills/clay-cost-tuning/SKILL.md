@@ -1,17 +1,12 @@
 ---
 name: clay-cost-tuning
-description: |
-  Optimize Clay costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Clay billing, reducing API costs,
-  or implementing usage monitoring and budget alerts.
-  Trigger with phrases like "clay cost", "clay billing",
-  "reduce clay costs", "clay pricing", "clay expensive", "clay budget".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Optimize Clay costs through tier selection, sampling, and usage monitoring.
+  Use when analyzing Clay billing, reducing API costs, or implementing usage monitoring
+  and budget alerts. Trigger with phrases like "clay cost", "clay billing", "reduce
+  cla...
 ---
-
 # Clay Cost Tuning
 
 ## Overview

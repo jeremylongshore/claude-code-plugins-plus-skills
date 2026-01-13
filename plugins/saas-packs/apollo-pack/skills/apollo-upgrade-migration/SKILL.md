@@ -1,17 +1,12 @@
 ---
 name: apollo-upgrade-migration
-description: |
-  Plan and execute Apollo.io SDK upgrades.
-  Use when upgrading Apollo API versions, migrating to new endpoints,
-  or updating deprecated API usage.
-  Trigger with phrases like "apollo upgrade", "apollo migration",
-  "update apollo api", "apollo breaking changes", "apollo deprecation".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Plan and execute apollo.io sdk upgrades. use when upgrading apollo api
+  versions, migrating to new endpoints, or updating deprecated api usage. trigger
+  with phrases like "apollo upgrade", "apollo migration", "update apollo api", "apollo
+  breaking ch...
 ---
-
 # Apollo Upgrade Migration
 
 ## Overview
