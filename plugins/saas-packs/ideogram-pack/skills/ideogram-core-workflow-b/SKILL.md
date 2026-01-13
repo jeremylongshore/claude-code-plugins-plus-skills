@@ -1,12 +1,14 @@
 ---
-name: ideogram-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute ideogram secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "ideogram secondary workflow", "secondary task with ideogram".'
+name: ideogram-core-workflow-b
 ---
 # Ideogram Core Workflow B
+
+This skill provides automated assistance for ideogram core workflow b tasks.
 
 ## Overview
 Secondary workflow for Ideogram. Complements the primary workflow.

@@ -1,13 +1,15 @@
 ---
-name: ideogram-data-handling
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Implement ideogram pii handling, data retention, and gdpr/ccpa compliance
   patterns. use when handling sensitive data, implementing data redaction, configuring
   retention policies, or ensuring compliance with privacy regulations for ideogram
   integra...
+name: ideogram-data-handling
 ---
 # Ideogram Data Handling
+
+This skill provides automated assistance for ideogram data handling tasks.
 
 ## Overview
 Handle sensitive data correctly when integrating with Ideogram.
