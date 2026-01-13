@@ -1,11 +1,11 @@
 ---
 name: profiling-application-performance
-description: |
-  Execute this skill enables AI assistant to profile application performance, analyzing cpu usage, memory consumption, and execution time. it is triggered when the user requests performance analysis, bottleneck identification, or optimization recommendations. the... Use when optimizing performance. Trigger with phrases like 'optimize', 'performance', or 'speed up'.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute this skill enables ai assistant to profile application performance,
+  analyzing cpu usage, memory consumption, and execution time. it is triggered when
+  the user requests performance analysis, bottleneck identification, or optimization
+  recomm...
 ---
 # Application Profiler
 
