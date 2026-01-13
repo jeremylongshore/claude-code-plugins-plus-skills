@@ -1,10 +1,10 @@
 ---
 name: validating-pci-dss-compliance
-description: Validate PCI-DSS compliance for payment card data security. Use when auditing payment systems. Trigger with 'validate PCI-DSS', 'check payment security', or 'audit card data'.
-version: 1.0.0
-allowed-tools: "Read, Write, Edit, Grep, Glob, Bash"
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Validate PCI-DSS compliance for payment card data security. Use when
+  auditing payment systems. Trigger with 'validate PCI-DSS', 'check payment security',
+  or 'audit card data'.
 ---
 # Pci Dss Validator
 

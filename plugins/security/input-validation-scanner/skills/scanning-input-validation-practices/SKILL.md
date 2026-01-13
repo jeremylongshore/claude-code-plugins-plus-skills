@@ -1,10 +1,10 @@
 ---
 name: scanning-input-validation-practices
-description: Scan for input validation vulnerabilities and injection risks. Use when reviewing user input handling. Trigger with 'scan input validation', 'check injection vulnerabilities', or 'validate sanitization'.
-version: 1.0.0
-allowed-tools: "Read, Write, Edit, Grep, Glob, Bash"
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Scan for input validation vulnerabilities and injection risks. use when
+  reviewing user input handling. trigger with 'scan input validation', 'check injection
+  vulnerabilities', or 'validate sanitization'.
 ---
 # Input Validation Scanner
 

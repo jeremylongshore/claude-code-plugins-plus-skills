@@ -1,10 +1,10 @@
 ---
 name: checking-hipaa-compliance
-description: Check HIPAA compliance for healthcare data security requirements. Use when auditing healthcare applications. Trigger with 'check HIPAA compliance', 'validate health data security', or 'audit PHI protection'.
-version: 1.0.0
-allowed-tools: "Read, Write, Edit, Grep, Glob, Bash"
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Check hipaa compliance for healthcare data security requirements. use
+  when auditing healthcare applications. trigger with 'check hipaa compliance', 'validate
+  health data security', or 'audit phi protection'.
 ---
 # Hipaa Compliance Checker
 

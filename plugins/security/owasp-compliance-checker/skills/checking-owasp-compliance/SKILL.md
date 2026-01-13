@@ -1,10 +1,10 @@
 ---
 name: checking-owasp-compliance
-description: Check compliance with OWASP Top 10 security risks and best practices. Use when performing comprehensive security audits. Trigger with 'check OWASP compliance', 'audit web security', or 'validate OWASP'.
-version: 1.0.0
-allowed-tools: "Read, Write, Edit, Grep, Glob, Bash"
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Check compliance with owasp top 10 security risks and best practices.
+  use when performing comprehensive security audits. trigger with 'check owasp compliance',
+  'audit web security', or 'validate owasp'.
 ---
 # Owasp Compliance Checker
 
