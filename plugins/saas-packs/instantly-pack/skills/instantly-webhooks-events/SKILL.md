@@ -1,17 +1,12 @@
 ---
 name: instantly-webhooks-events
-description: |
-  Implement Instantly webhook signature validation and event handling.
-  Use when setting up webhook endpoints, implementing signature verification,
-  or handling Instantly event notifications securely.
-  Trigger with phrases like "instantly webhook", "instantly events",
-  "instantly webhook signature", "handle instantly events", "instantly notifications".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement instantly webhook signature validation and event handling.
+  use when setting up webhook endpoints, implementing signature verification, or handling
+  instantly event notifications securely. trigger with phrases like "instantly webhook",
+  "in...
 ---
-
 # Instantly Webhooks & Events
 
 ## Overview

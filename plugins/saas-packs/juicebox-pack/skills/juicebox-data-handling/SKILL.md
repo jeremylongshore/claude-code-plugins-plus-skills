@@ -1,17 +1,12 @@
 ---
 name: juicebox-data-handling
-description: |
-  Implement Juicebox data privacy and handling.
-  Use when managing personal data, implementing GDPR compliance,
-  or handling sensitive candidate information.
-  Trigger with phrases like "juicebox data privacy", "juicebox GDPR",
-  "juicebox PII handling", "juicebox data compliance".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement juicebox data privacy and handling. use when managing personal
+  data, implementing gdpr compliance, or handling sensitive candidate information.
+  trigger with phrases like "juicebox data privacy", "juicebox gdpr", "juicebox pii
+  handling", ...
 ---
-
 # Juicebox Data Handling
 
 ## Overview

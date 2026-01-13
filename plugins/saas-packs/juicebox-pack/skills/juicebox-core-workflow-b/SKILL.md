@@ -1,17 +1,12 @@
 ---
 name: juicebox-core-workflow-b
-description: |
-  Implement Juicebox candidate enrichment workflow.
-  Use when enriching profile data, gathering additional candidate details,
-  or building comprehensive candidate profiles.
-  Trigger with phrases like "juicebox enrich profile", "juicebox candidate details",
-  "enrich candidate data", "juicebox profile enrichment".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Implement juicebox candidate enrichment workflow. use when enriching
+  profile data, gathering additional candidate details, or building comprehensive
+  candidate profiles. trigger with phrases like "juicebox enrich profile", "juicebox
+  candidate detai...
 ---
-
 # Juicebox Candidate Enrichment Workflow
 
 ## Overview

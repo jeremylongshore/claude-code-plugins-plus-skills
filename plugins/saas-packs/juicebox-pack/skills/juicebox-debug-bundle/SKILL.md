@@ -1,17 +1,12 @@
 ---
 name: juicebox-debug-bundle
-description: |
-  Collect Juicebox debug evidence for support.
-  Use when creating support tickets, gathering diagnostic info,
-  or preparing error reports for Juicebox support team.
-  Trigger with phrases like "juicebox debug info", "juicebox support bundle",
-  "collect juicebox diagnostics", "juicebox troubleshooting".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Collect juicebox debug evidence for support. use when creating support
+  tickets, gathering diagnostic info, or preparing error reports for juicebox support
+  team. trigger with phrases like "juicebox debug info", "juicebox support bundle",
+  "collect j...
 ---
-
 # Juicebox Debug Bundle
 
 ## Overview

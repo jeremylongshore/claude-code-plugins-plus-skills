@@ -1,17 +1,12 @@
 ---
 name: juicebox-core-workflow-a
-description: |
-  Execute Juicebox people search workflow.
-  Use when building candidate sourcing pipelines, searching for professionals,
-  or implementing talent discovery features.
-  Trigger with phrases like "juicebox people search", "find candidates juicebox",
-  "juicebox talent search", "search professionals juicebox".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Execute juicebox people search workflow. use when building candidate
+  sourcing pipelines, searching for professionals, or implementing talent discovery
+  features. trigger with phrases like "juicebox people search", "find candidates juicebox",
+  "juice...
 ---
-
 # Juicebox People Search Workflow
 
 ## Overview

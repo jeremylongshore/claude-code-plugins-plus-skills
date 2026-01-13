@@ -1,17 +1,12 @@
 ---
 name: juicebox-common-errors
-description: |
-  Diagnose and fix Juicebox common errors.
-  Use when encountering API errors, debugging integration issues,
-  or troubleshooting Juicebox connection problems.
-  Trigger with phrases like "juicebox error", "fix juicebox issue",
-  "juicebox not working", "debug juicebox".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Diagnose and fix juicebox common errors. use when encountering api errors,
+  debugging integration issues, or troubleshooting juicebox connection problems. trigger
+  with phrases like "juicebox error", "fix juicebox issue", "juicebox not working",
+  "de...
 ---
-
 # Juicebox Common Errors
 
 ## Overview

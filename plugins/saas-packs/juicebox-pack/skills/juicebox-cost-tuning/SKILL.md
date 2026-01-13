@@ -1,17 +1,11 @@
 ---
 name: juicebox-cost-tuning
-description: |
-  Optimize Juicebox costs and usage.
-  Use when reducing API costs, optimizing quota usage,
-  or implementing cost-effective Juicebox patterns.
-  Trigger with phrases like "juicebox cost", "juicebox budget",
-  "optimize juicebox usage", "juicebox pricing".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Optimize Juicebox costs and usage. Use when reducing API costs, optimizing
+  quota usage, or implementing cost-effective Juicebox patterns. Trigger with phrases
+  like "juicebox cost", "juicebox budget", "optimize juicebox usage", "juicebox pricing".
 ---
-
 # Juicebox Cost Tuning
 
 ## Overview
