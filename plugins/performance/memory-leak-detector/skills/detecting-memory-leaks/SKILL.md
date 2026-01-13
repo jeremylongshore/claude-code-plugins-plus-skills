@@ -1,10 +1,11 @@
 ---
 name: detecting-memory-leaks
-description: Detect potential memory leaks and analyze memory usage patterns in code. Use when troubleshooting performance issues related to memory growth or identifying leak sources. Trigger with phrases like "detect memory leaks", "analyze memory usage", or "find memory issues".
-version: 1.0.0
-allowed-tools: "Read, Write, Edit, Grep, Glob, Bash"
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Detect potential memory leaks and analyze memory usage patterns in code.
+  use when troubleshooting performance issues related to memory growth or identifying
+  leak sources. trigger with phrases like "detect memory leaks", "analyze memory usage",
+  or ...
 ---
 # Memory Leak Detector
 

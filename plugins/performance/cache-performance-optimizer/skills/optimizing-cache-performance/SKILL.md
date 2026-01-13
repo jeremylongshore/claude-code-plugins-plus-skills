@@ -1,11 +1,11 @@
 ---
 name: optimizing-cache-performance
-description: |
-  Execute this skill enables AI assistant to analyze and improve application caching strategies. it optimizes cache hit rates, ttl configurations, cache key design, and invalidation strategies. use this skill when the user requests to "optimize cache performance"... Use when optimizing performance. Trigger with phrases like 'optimize', 'performance', or 'speed up'.
-allowed-tools: Read, Write, Bash, Grep
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Bash, Grep
+description: Execute this skill enables ai assistant to analyze and improve application
+  caching strategies. it optimizes cache hit rates, ttl configurations, cache key
+  design, and invalidation strategies. use this skill when the user requests to "optimize
+  cach...
 ---
 # Cache Performance Optimizer
 
