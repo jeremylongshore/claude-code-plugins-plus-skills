@@ -1,12 +1,14 @@
 ---
-name: analyzing-on-chain-data
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Process perform on-chain analysis including whale tracking, token flows,
   and network activity. Use when performing crypto analysis. Trigger with phrases
   like "analyze crypto", "check blockchain", or "monitor market".
+name: analyzing-on-chain-data
 ---
 # Analyzing On Chain Data
+
+This skill provides automated assistance for analyzing on chain data tasks.
 
 ## Overview
 

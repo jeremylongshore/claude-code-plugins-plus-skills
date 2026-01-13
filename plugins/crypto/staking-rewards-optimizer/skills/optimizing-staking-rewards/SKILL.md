@@ -1,12 +1,14 @@
 ---
-name: optimizing-staking-rewards
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute compare staking rewards across validators and networks with roi
   calculations. use when optimizing proof-of-stake rewards. trigger with phrases like
   "optimize staking", "compare validators", or "calculate rewards".
+name: optimizing-staking-rewards
 ---
 # Optimizing Staking Rewards
+
+This skill provides automated assistance for optimizing staking rewards tasks.
 
 ## Overview
 

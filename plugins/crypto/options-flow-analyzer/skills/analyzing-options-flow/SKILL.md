@@ -1,12 +1,14 @@
 ---
-name: analyzing-options-flow
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Track crypto options flow to identify institutional positioning and market
   sentiment. use when tracking institutional options flow. trigger with phrases like
   "track options flow", "analyze derivatives", or "check institutional".
+name: analyzing-options-flow
 ---
 # Analyzing Options Flow
+
+This skill provides automated assistance for analyzing options flow tasks.
 
 ## Overview
 

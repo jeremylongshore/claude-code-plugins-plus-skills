@@ -1,10 +1,10 @@
 ---
-name: validating-database-integrity
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Process use when you need to ensure database integrity through comprehensive
   data validation. This skill validates data types, ranges, formats, referential integrity,
   and business rules. Trigger with phrases like "validate database data", "impleme...
+name: validating-database-integrity
 ---
 # Data Validation Engine
 

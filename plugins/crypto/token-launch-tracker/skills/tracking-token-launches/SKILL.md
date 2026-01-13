@@ -1,12 +1,14 @@
 ---
-name: tracking-token-launches
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Monitor new token launches, IDOs, and fair launches with contract verification.
   Use when discovering new token launches. Trigger with phrases like "track launches",
   "find new tokens", or "monitor IDOs".
+name: tracking-token-launches
 ---
 # Tracking Token Launches
+
+This skill provides automated assistance for tracking token launches tasks.
 
 ## Overview
 

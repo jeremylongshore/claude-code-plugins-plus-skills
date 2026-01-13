@@ -1,11 +1,11 @@
 ---
-name: generating-database-seed-data
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Process this skill enables AI assistant to generate realistic test data
   and database seed scripts for development and testing environments. it uses faker
   libraries to create realistic data, maintains relational integrity, and allows configurable
   d...
+name: generating-database-seed-data
 ---
 # Data Seeder Generator
 

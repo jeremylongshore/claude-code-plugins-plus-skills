@@ -1,12 +1,14 @@
 ---
-name: monitoring-whale-activity
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Track large crypto transactions and whale wallet movements across blockchains.
   use when tracking large holder movements. trigger with phrases like "track whales",
   "monitor large transfers", or "check whale activity".
+name: monitoring-whale-activity
 ---
 # Monitoring Whale Activity
+
+This skill provides automated assistance for monitoring whale activity tasks.
 
 ## Overview
 
