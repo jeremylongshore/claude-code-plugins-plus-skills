@@ -1,13 +1,12 @@
 ---
 name: gh-actions-validator
-description: |
-  Validate use when validating GitHub Actions workflows for Google Cloud and Vertex AI deployments. Trigger with phrases like "validate github actions", "setup workload identity federation", "github actions security", "deploy agent with ci/cd", or "automate vertex ai deployment". Enforces Workload Identity Federation (WIF), validates OIDC permissions, ensures least privilege IAM, and implements security best practices.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Validate use when validating GitHub Actions workflows for Google Cloud
+  and Vertex AI deployments. Trigger with phrases like "validate github actions",
+  "setup workload identity federation", "github actions security", "deploy agent with
+  ci/cd", or "...
 ---
-
 # Gh Actions Validator
 
 ## Overview

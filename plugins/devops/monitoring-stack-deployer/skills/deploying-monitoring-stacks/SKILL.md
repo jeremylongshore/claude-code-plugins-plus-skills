@@ -1,11 +1,10 @@
 ---
 name: deploying-monitoring-stacks
-description: |
-  Monitor use when deploying monitoring stacks including Prometheus, Grafana, and Datadog. Trigger with phrases like "deploy monitoring stack", "setup prometheus", "configure grafana", or "install datadog agent". Generates production-ready configurations with metric collection, visualization dashboards, and alerting rules.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Monitor use when deploying monitoring stacks including Prometheus, Grafana,
+  and Datadog. Trigger with phrases like "deploy monitoring stack", "setup prometheus",
+  "configure grafana", or "install datadog agent". Generates production-ready configura...
 ---
 # Monitoring Stack Deployer
 

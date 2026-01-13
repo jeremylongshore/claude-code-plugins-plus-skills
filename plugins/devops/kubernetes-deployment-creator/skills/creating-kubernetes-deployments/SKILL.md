@@ -1,13 +1,12 @@
 ---
 name: creating-kubernetes-deployments
-description: |
-  Deploy use when generating Kubernetes deployment manifests and services. Trigger with phrases like "create kubernetes deployment", "generate k8s manifest", "deploy app to kubernetes", or "create service and ingress". Produces production-ready YAML with health checks, auto-scaling, resource limits, ingress configuration, and TLS termination.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Deploy use when generating Kubernetes deployment manifests and services.
+  Trigger with phrases like "create kubernetes deployment", "generate k8s manifest",
+  "deploy app to kubernetes", or "create service and ingress". Produces production-ready
+  YAML...
 ---
-
 # Creating Kubernetes Deployments
 
 ## Overview

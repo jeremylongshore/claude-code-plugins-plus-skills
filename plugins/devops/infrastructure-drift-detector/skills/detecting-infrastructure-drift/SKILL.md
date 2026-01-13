@@ -1,11 +1,11 @@
 ---
 name: detecting-infrastructure-drift
-description: |
-  Execute use when detecting infrastructure drift from desired state. Trigger with phrases like "check for drift", "infrastructure drift detection", "compare actual vs desired state", or "detect configuration changes". Identifies discrepancies between current infrastructure and IaC definitions using terraform plan, cloudformation drift detection, or manual comparison.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute use when detecting infrastructure drift from desired state. trigger
+  with phrases like "check for drift", "infrastructure drift detection", "compare
+  actual vs desired state", or "detect configuration changes". identifies discrepancies
+  betwe...
 ---
 # Infrastructure Drift Detector
 

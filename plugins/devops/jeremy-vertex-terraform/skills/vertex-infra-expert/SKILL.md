@@ -1,13 +1,12 @@
 ---
 name: vertex-infra-expert
-description: |
-  Execute use when provisioning Vertex AI infrastructure with Terraform. Trigger with phrases like "vertex ai terraform", "deploy gemini terraform", "model garden infrastructure", "vertex ai endpoints terraform", or "vector search terraform". Provisions Model Garden models, Gemini endpoints, vector search indices, ML pipelines, and production AI services with encryption and auto-scaling.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute use when provisioning vertex ai infrastructure with terraform.
+  trigger with phrases like "vertex ai terraform", "deploy gemini terraform", "model
+  garden infrastructure", "vertex ai endpoints terraform", or "vector search terraform".
+  provis...
 ---
-
 # Vertex Infra Expert
 
 ## Overview

@@ -1,11 +1,11 @@
 ---
 name: setting-up-log-aggregation
-description: |
-  Execute use when setting up log aggregation solutions using ELK, Loki, or Splunk. Trigger with phrases like "setup log aggregation", "deploy ELK stack", "configure Loki", or "install Splunk". Generates production-ready configurations for data ingestion, processing, storage, and visualization with proper security and scalability.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute use when setting up log aggregation solutions using elk, loki,
+  or splunk. trigger with phrases like "setup log aggregation", "deploy elk stack",
+  "configure loki", or "install splunk". generates production-ready configurations
+  for data inge...
 ---
 # Log Aggregation Setup
 
