@@ -1,17 +1,12 @@
 ---
 name: retellai-rate-limits
-description: |
-  Implement Retell AI rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for Retell AI.
-  Trigger with phrases like "retellai rate limit", "retellai throttling",
-  "retellai 429", "retellai retry", "retellai backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement retell ai rate limiting, backoff, and idempotency patterns.
+  use when handling rate limit errors, implementing retry logic, or optimizing api
+  request throughput for retell ai. trigger with phrases like "retellai rate limit",
+  "retellai thr...
 ---
-
 # Retell AI Rate Limits
 
 ## Overview

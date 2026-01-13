@@ -1,17 +1,12 @@
 ---
 name: retellai-reference-architecture
-description: |
-  Implement Retell AI reference architecture with best-practice project layout.
-  Use when designing new Retell AI integrations, reviewing project structure,
-  or establishing architecture standards for Retell AI applications.
-  Trigger with phrases like "retellai architecture", "retellai best practices",
-  "retellai project structure", "how to organize retellai", "retellai layout".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Implement retell ai reference architecture with best-practice project
+  layout. use when designing new retell ai integrations, reviewing project structure,
+  or establishing architecture standards for retell ai applications. trigger with
+  phrases like ...
 ---
-
 # Retell AI Reference Architecture
 
 ## Overview

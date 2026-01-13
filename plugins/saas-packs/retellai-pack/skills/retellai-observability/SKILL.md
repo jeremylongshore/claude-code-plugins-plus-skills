@@ -1,17 +1,12 @@
 ---
 name: retellai-observability
-description: |
-  Set up comprehensive observability for Retell AI integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for Retell AI operations, setting up dashboards,
-  or configuring alerting for Retell AI integration health.
-  Trigger with phrases like "retellai monitoring", "retellai metrics",
-  "retellai observability", "monitor retellai", "retellai alerts", "retellai tracing".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Set up comprehensive observability for retell ai integrations with metrics,
+  traces, and alerts. use when implementing monitoring for retell ai operations, setting
+  up dashboards, or configuring alerting for retell ai integration health. trigger
+  wit...
 ---
-
 # Retell AI Observability
 
 ## Overview

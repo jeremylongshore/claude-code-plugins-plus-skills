@@ -1,17 +1,12 @@
 ---
 name: retellai-prod-checklist
-description: |
-  Execute Retell AI production deployment checklist and rollback procedures.
-  Use when deploying Retell AI integrations to production, preparing for launch,
-  or implementing go-live procedures.
-  Trigger with phrases like "retellai production", "deploy retellai",
-  "retellai go-live", "retellai launch checklist".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Execute retell ai production deployment checklist and rollback procedures.
+  use when deploying retell ai integrations to production, preparing for launch, or
+  implementing go-live procedures. trigger with phrases like "retellai production",
+  "deploy ...
 ---
-
 # Retell AI Production Checklist
 
 ## Overview

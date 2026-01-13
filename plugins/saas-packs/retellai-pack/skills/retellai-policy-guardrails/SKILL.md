@@ -1,17 +1,12 @@
 ---
 name: retellai-policy-guardrails
-description: |
-  Implement Retell AI lint rules, policy enforcement, and automated guardrails.
-  Use when setting up code quality rules for Retell AI integrations, implementing
-  pre-commit hooks, or configuring CI policy checks for Retell AI best practices.
-  Trigger with phrases like "retellai policy", "retellai lint",
-  "retellai guardrails", "retellai best practices check", "retellai eslint".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement retell ai lint rules, policy enforcement, and automated guardrails.
+  use when setting up code quality rules for retell ai integrations, implementing
+  pre-commit hooks, or configuring ci policy checks for retell ai best practices.
+  trigger w...
 ---
-
 # Retell AI Policy & Guardrails
 
 ## Overview

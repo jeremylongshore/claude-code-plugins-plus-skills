@@ -1,17 +1,12 @@
 ---
 name: retellai-reliability-patterns
-description: |
-  Implement Retell AI reliability patterns including circuit breakers, idempotency, and graceful degradation.
-  Use when building fault-tolerant Retell AI integrations, implementing retry strategies,
-  or adding resilience to production Retell AI services.
-  Trigger with phrases like "retellai reliability", "retellai circuit breaker",
-  "retellai idempotent", "retellai resilience", "retellai fallback", "retellai bulkhead".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement retell ai reliability patterns including circuit breakers,
+  idempotency, and graceful degradation. use when building fault-tolerant retell ai
+  integrations, implementing retry strategies, or adding resilience to production
+  retell ai servic...
 ---
-
 # Retell AI Reliability Patterns
 
 ## Overview

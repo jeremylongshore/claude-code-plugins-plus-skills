@@ -1,17 +1,12 @@
 ---
 name: retellai-sdk-patterns
-description: |
-  Apply production-ready Retell AI SDK patterns for TypeScript and Python.
-  Use when implementing Retell AI integrations, refactoring SDK usage,
-  or establishing team coding standards for Retell AI.
-  Trigger with phrases like "retellai SDK patterns", "retellai best practices",
-  "retellai code patterns", "idiomatic retellai".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready retell ai sdk patterns for typescript and python.
+  use when implementing retell ai integrations, refactoring sdk usage, or establishing
+  team coding standards for retell ai. trigger with phrases like "retellai sdk patterns",
+  "...
 ---
-
 # Retell AI SDK Patterns
 
 ## Overview

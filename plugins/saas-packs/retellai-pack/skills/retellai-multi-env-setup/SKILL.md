@@ -1,17 +1,11 @@
 ---
 name: retellai-multi-env-setup
-description: |
-  Configure Retell AI across development, staging, and production environments.
-  Use when setting up multi-environment deployments, configuring per-environment secrets,
-  or implementing environment-specific Retell AI configurations.
-  Trigger with phrases like "retellai environments", "retellai staging",
-  "retellai dev prod", "retellai environment setup", "retellai config by env".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Retell AI across development, staging, and production environments.
+  Use when setting up multi-environment deployments, configuring per-environment secrets,
+  or implementing environment-specific Retell AI configurations. Trigger with phras...
 ---
-
 # Retell AI Multi-Environment Setup
 
 ## Overview
