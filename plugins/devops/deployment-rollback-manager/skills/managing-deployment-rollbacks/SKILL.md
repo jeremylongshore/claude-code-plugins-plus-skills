@@ -1,11 +1,11 @@
 ---
-name: managing-deployment-rollbacks
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Deploy use when you need to work with deployment and CI/CD. This skill
   provides deployment automation and orchestration with comprehensive guidance and
   automation. Trigger with phrases like "deploy application", "create pipeline", or
   "automate dep...
+name: managing-deployment-rollbacks
 ---
 # Deployment Rollback Manager
 

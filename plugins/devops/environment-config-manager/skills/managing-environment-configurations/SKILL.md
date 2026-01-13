@@ -1,11 +1,11 @@
 ---
-name: managing-environment-configurations
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Implement environment and configuration management with comprehensive
   guidance and automation. use when you need to work with environment configuration.
   trigger with phrases like "manage environments", "configure environments", or "sync
   configurat...
+name: managing-environment-configurations
 ---
 # Environment Config Manager
 

@@ -1,11 +1,11 @@
 ---
-name: fairdb-backup-manager
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Manage use when you need to work with backup and recovery. This skill
   provides backup automation and disaster recovery with comprehensive guidance and
   automation. Trigger with phrases like "create backups", "automate backups", or "implement
   disast...
+name: fairdb-backup-manager
 ---
 # Fairdb Backup Manager
 

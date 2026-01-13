@@ -1,11 +1,11 @@
 ---
-name: generating-docker-compose-files
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute use when you need to work with docker compose. this skill provides
   docker compose file generation with comprehensive guidance and automation. trigger
   with phrases like "generate docker-compose", "create compose file", or "configure
   multi-c...
+name: generating-docker-compose-files
 ---
 # Docker Compose Generator
 

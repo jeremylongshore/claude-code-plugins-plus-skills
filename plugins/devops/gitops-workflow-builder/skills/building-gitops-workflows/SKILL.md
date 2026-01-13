@@ -1,11 +1,11 @@
 ---
-name: building-gitops-workflows
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute use when constructing gitops workflows using argocd or flux.
   trigger with phrases like "create gitops workflow", "setup argocd", "configure flux",
   or "automate kubernetes deployments". generates production-ready configurations,
   implements ...
+name: building-gitops-workflows
 ---
 # Gitops Workflow Builder
 
