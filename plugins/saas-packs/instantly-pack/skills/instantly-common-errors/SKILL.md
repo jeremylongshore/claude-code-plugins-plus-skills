@@ -1,15 +1,14 @@
 ---
-name: instantly-common-errors
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Diagnose and fix instantly common errors and exceptions. use when encountering
   instantly errors, debugging failed requests, or troubleshooting integration issues.
   trigger with phrases like "instantly error", "fix instantly", "instantly not working...
+name: instantly-common-errors
 ---
 # Instantly Common Errors
 
-## Overview
-Quick reference for the top 10 most common Instantly errors and their solutions.
+This skill provides automated assistance for instantly common errors tasks.
 
 ## Prerequisites
 - Instantly SDK installed
@@ -34,72 +33,13 @@ Follow the solution steps for your specific error.
 
 ## Error Handling
 
-### Authentication Failed
-**Error Message:**
-```
-Authentication error: Invalid API key
-```
-
-**Cause:** API key is missing, expired, or invalid.
-
-**Solution:**
-```bash
-# Verify API key is set
-echo $INSTANTLY_API_KEY
-```
-
----
-
-### Rate Limit Exceeded
-**Error Message:**
-```
-Rate limit exceeded. Please retry after X seconds.
-```
-
-**Cause:** Too many requests in a short period.
-
-**Solution:**
-Implement exponential backoff. See `instantly-rate-limits` skill.
-
----
-
-### Network Timeout
-**Error Message:**
-```
-Request timeout after 30000ms
-```
-
-**Cause:** Network connectivity or server latency issues.
-
-**Solution:**
-```typescript
-// Increase timeout
-const client = new Client({ timeout: 60000 });
-```
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Diagnostic Commands
-```bash
-# Check Instantly status
-curl -s https://status.instantly.com
-
-# Verify API connectivity
-curl -I https://api.instantly.com
-
-# Check local configuration
-env | grep INSTANTLY
-```
-
-### Escalation Path
-1. Collect evidence with `instantly-debug-bundle`
-2. Check Instantly status page
-3. Contact support with request ID
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Instantly Status Page](https://status.instantly.com)
 - [Instantly Support](https://docs.instantly.com/support)
 - [Instantly Error Codes](https://docs.instantly.com/errors)
-
-## Next Steps
-For comprehensive debugging, see `instantly-debug-bundle`.
