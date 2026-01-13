@@ -1,17 +1,12 @@
 ---
 name: gamma-data-handling
-description: |
-  Handle data privacy, retention, and compliance for Gamma integrations.
-  Use when implementing GDPR compliance, data retention policies,
-  or managing user data within Gamma workflows.
-  Trigger with phrases like "gamma data", "gamma privacy",
-  "gamma GDPR", "gamma data retention", "gamma compliance".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Handle data privacy, retention, and compliance for gamma integrations.
+  use when implementing gdpr compliance, data retention policies, or managing user
+  data within gamma workflows. trigger with phrases like "gamma data", "gamma privacy",
+  "gamma gd...
 ---
-
 # Gamma Data Handling
 
 ## Overview

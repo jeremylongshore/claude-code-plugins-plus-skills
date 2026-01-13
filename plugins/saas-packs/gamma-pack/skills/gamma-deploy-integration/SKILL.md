@@ -1,17 +1,12 @@
 ---
 name: gamma-deploy-integration
-description: |
-  Deploy Gamma-integrated applications to production environments.
-  Use when deploying to Vercel, AWS, GCP, or other cloud platforms
-  with proper secret management and configuration.
-  Trigger with phrases like "gamma deploy", "gamma production",
-  "gamma vercel", "gamma AWS", "gamma cloud deployment".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Gamma-integrated applications to production environments. Use
+  when deploying to Vercel, AWS, GCP, or other cloud platforms with proper secret
+  management and configuration. Trigger with phrases like "gamma deploy", "gamma production",
+  "gamma...
 ---
-
 # Gamma Deploy Integration
 
 ## Overview

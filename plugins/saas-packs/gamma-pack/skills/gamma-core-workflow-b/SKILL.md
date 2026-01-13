@@ -1,17 +1,12 @@
 ---
 name: gamma-core-workflow-b
-description: |
-  Implement core Gamma workflow for presentation editing and export.
-  Use when modifying existing presentations, exporting to various formats,
-  or managing presentation assets.
-  Trigger with phrases like "gamma edit presentation", "gamma export",
-  "gamma PDF", "gamma update slides", "gamma modify".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement core gamma workflow for presentation editing and export. use
+  when modifying existing presentations, exporting to various formats, or managing
+  presentation assets. trigger with phrases like "gamma edit presentation", "gamma
+  export", "gamm...
 ---
-
 # Gamma Core Workflow B: Editing and Export
 
 ## Overview

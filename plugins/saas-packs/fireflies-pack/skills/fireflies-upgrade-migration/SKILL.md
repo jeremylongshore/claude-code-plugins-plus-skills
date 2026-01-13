@@ -1,17 +1,12 @@
 ---
 name: fireflies-upgrade-migration
-description: |
-  Analyze, plan, and execute Fireflies.ai SDK upgrades with breaking change detection.
-  Use when upgrading Fireflies.ai SDK versions, detecting deprecations,
-  or migrating to new API versions.
-  Trigger with phrases like "upgrade fireflies", "fireflies migration",
-  "fireflies breaking changes", "update fireflies SDK", "analyze fireflies version".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Analyze, plan, and execute Fireflies.ai SDK upgrades with breaking change
+  detection. Use when upgrading Fireflies.ai SDK versions, detecting deprecations,
+  or migrating to new API versions. Trigger with phrases like "upgrade fireflies",
+  "fireflies ...
 ---
-
 # Fireflies.ai Upgrade & Migration
 
 ## Overview

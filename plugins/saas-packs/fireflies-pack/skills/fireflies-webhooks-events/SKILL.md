@@ -1,17 +1,12 @@
 ---
 name: fireflies-webhooks-events
-description: |
-  Implement Fireflies.ai webhook signature validation and event handling.
-  Use when setting up webhook endpoints, implementing signature verification,
-  or handling Fireflies.ai event notifications securely.
-  Trigger with phrases like "fireflies webhook", "fireflies events",
-  "fireflies webhook signature", "handle fireflies events", "fireflies notifications".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement fireflies.ai webhook signature validation and event handling.
+  use when setting up webhook endpoints, implementing signature verification, or handling
+  fireflies.ai event notifications securely. trigger with phrases like "fireflies
+  webhook...
 ---
-
 # Fireflies.ai Webhooks & Events
 
 ## Overview

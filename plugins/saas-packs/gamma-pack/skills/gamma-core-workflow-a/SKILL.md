@@ -1,17 +1,12 @@
 ---
 name: gamma-core-workflow-a
-description: |
-  Implement core Gamma workflow for AI presentation generation.
-  Use when creating presentations from prompts, documents,
-  or structured content with AI assistance.
-  Trigger with phrases like "gamma generate presentation", "gamma AI slides",
-  "gamma from prompt", "gamma content to slides", "gamma automation".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement core gamma workflow for ai presentation generation. use when
+  creating presentations from prompts, documents, or structured content with ai assistance.
+  trigger with phrases like "gamma generate presentation", "gamma ai slides", "gamma
+  fro...
 ---
-
 # Gamma Core Workflow A: AI Presentation Generation
 
 ## Overview
