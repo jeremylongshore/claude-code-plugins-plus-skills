@@ -1,12 +1,14 @@
 ---
-name: retellai-core-workflow-a
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute retell ai primary workflow: core workflow a. use when implementing
   primary use case, building main features, or core integration tasks. trigger with
   phrases like "retellai main workflow", "primary task with retellai".'
+name: retellai-core-workflow-a
 ---
 # Retell AI Core Workflow A
+
+This skill provides automated assistance for retellai core workflow a tasks.
 
 ## Overview
 Primary money-path workflow for Retell AI. This is the most common use case.

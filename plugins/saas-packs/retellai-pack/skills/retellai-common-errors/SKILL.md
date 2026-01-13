@@ -1,16 +1,15 @@
 ---
-name: retellai-common-errors
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Diagnose and fix retell ai common errors and exceptions. use when encountering
   retell ai errors, debugging failed requests, or troubleshooting integration issues.
   trigger with phrases like "retellai error", "fix retellai", "retellai not working",
   ...
+name: retellai-common-errors
 ---
-# Retell AI Common Errors
+# Retellai Common Errors
 
-## Overview
-Quick reference for the top 10 most common Retell AI errors and their solutions.
+This skill provides automated assistance for retellai common errors tasks.
 
 ## Prerequisites
 - Retell AI SDK installed
@@ -35,72 +34,13 @@ Follow the solution steps for your specific error.
 
 ## Error Handling
 
-### Authentication Failed
-**Error Message:**
-```
-Authentication error: Invalid API key
-```
-
-**Cause:** API key is missing, expired, or invalid.
-
-**Solution:**
-```bash
-# Verify API key is set
-echo $RETELLAI_API_KEY
-```
-
----
-
-### Rate Limit Exceeded
-**Error Message:**
-```
-Rate limit exceeded. Please retry after X seconds.
-```
-
-**Cause:** Too many requests in a short period.
-
-**Solution:**
-Implement exponential backoff. See `retellai-rate-limits` skill.
-
----
-
-### Network Timeout
-**Error Message:**
-```
-Request timeout after 30000ms
-```
-
-**Cause:** Network connectivity or server latency issues.
-
-**Solution:**
-```typescript
-// Increase timeout
-const client = new Client({ timeout: 60000 });
-```
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Diagnostic Commands
-```bash
-# Check Retell AI status
-curl -s https://status.retellai.com
-
-# Verify API connectivity
-curl -I https://api.retellai.com
-
-# Check local configuration
-env | grep RETELLAI
-```
-
-### Escalation Path
-1. Collect evidence with `retellai-debug-bundle`
-2. Check Retell AI status page
-3. Contact support with request ID
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Retell AI Status Page](https://status.retellai.com)
 - [Retell AI Support](https://docs.retellai.com/support)
 - [Retell AI Error Codes](https://docs.retellai.com/errors)
-
-## Next Steps
-For comprehensive debugging, see `retellai-debug-bundle`.

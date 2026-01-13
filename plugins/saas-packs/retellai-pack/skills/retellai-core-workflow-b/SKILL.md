@@ -1,12 +1,14 @@
 ---
-name: retellai-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute retell ai secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "retellai secondary workflow", "secondary task with retellai".'
+name: retellai-core-workflow-b
 ---
 # Retell AI Core Workflow B
+
+This skill provides automated assistance for retellai core workflow b tasks.
 
 ## Overview
 Secondary workflow for Retell AI. Complements the primary workflow.
