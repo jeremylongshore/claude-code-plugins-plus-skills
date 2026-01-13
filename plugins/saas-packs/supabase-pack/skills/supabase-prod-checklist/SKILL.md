@@ -1,13 +1,15 @@
 ---
-name: supabase-prod-checklist
-license: MIT
 allowed-tools: Read, Bash, Grep
+license: MIT
 description: Execute supabase production deployment checklist and rollback procedures.
   use when deploying supabase integrations to production, preparing for launch, or
   implementing go-live procedures. trigger with phrases like "supabase production",
   "deploy su...
+name: supabase-prod-checklist
 ---
 # Supabase Prod Checklist
+
+This skill provides automated assistance for supabase prod checklist tasks.
 
 ## Prerequisites
 - Staging environment tested and verified

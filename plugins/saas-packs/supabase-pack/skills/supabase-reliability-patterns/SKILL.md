@@ -1,12 +1,14 @@
 ---
-name: supabase-reliability-patterns
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Implement supabase reliability patterns including circuit breakers, idempotency,
   and graceful degradation. use when building fault-tolerant supabase integrations,
   implementing retry strategies, or adding resilience to production supabase services....
+name: supabase-reliability-patterns
 ---
 # Supabase Reliability Patterns
+
+This skill provides automated assistance for supabase reliability patterns tasks.
 
 ## Prerequisites
 - Understanding of circuit breaker pattern

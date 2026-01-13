@@ -1,13 +1,15 @@
 ---
-name: supabase-performance-tuning
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Optimize Supabase API performance with caching, batching, and connection
   pooling. Use when experiencing slow API responses, implementing caching strategies,
   or optimizing request throughput for Supabase integrations. Trigger with phrases
   like "sup...
+name: supabase-performance-tuning
 ---
 # Supabase Performance Tuning
+
+This skill provides automated assistance for supabase performance tuning tasks.
 
 ## Prerequisites
 - Supabase SDK installed

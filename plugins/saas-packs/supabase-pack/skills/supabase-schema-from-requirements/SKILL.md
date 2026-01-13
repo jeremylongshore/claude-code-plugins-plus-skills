@@ -1,13 +1,15 @@
 ---
-name: supabase-schema-from-requirements
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute supabase primary workflow: schema from requirements. use when
   starting a new project with defined data requirements, refactoring an existing schema
   based on new features, or creating migrations from specification documents. trigger
   with ph...'
+name: supabase-schema-from-requirements
 ---
 # Supabase Schema from Requirements
+
+This skill provides automated assistance for supabase schema from requirements tasks.
 
 ## Overview
 Generate Supabase database schema from natural language requirements.

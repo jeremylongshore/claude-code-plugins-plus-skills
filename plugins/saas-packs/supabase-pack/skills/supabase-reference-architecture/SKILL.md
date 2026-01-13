@@ -1,13 +1,15 @@
 ---
-name: supabase-reference-architecture
-license: MIT
 allowed-tools: Read, Grep
+license: MIT
 description: Implement supabase reference architecture with best-practice project
   layout. use when designing new supabase integrations, reviewing project structure,
   or establishing architecture standards for supabase applications. trigger with phrases
   like "su...
+name: supabase-reference-architecture
 ---
 # Supabase Reference Architecture
+
+This skill provides automated assistance for supabase reference architecture tasks.
 
 ## Prerequisites
 - Understanding of layered architecture

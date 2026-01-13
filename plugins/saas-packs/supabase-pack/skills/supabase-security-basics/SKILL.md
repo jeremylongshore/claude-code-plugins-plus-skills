@@ -1,13 +1,15 @@
 ---
-name: supabase-security-basics
-license: MIT
 allowed-tools: Read, Write, Grep
+license: MIT
 description: Execute apply supabase security best practices for secrets and access
   control. use when securing api keys, implementing least privilege access, or auditing
   supabase security configuration. trigger with phrases like "supabase security",
   "supabase s...
+name: supabase-security-basics
 ---
 # Supabase Security Basics
+
+This skill provides automated assistance for supabase security basics tasks.
 
 ## Prerequisites
 - Supabase SDK installed

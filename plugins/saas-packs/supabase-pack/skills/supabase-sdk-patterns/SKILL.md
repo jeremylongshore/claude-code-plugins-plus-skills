@@ -1,12 +1,14 @@
 ---
-name: supabase-sdk-patterns
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Execute apply production-ready supabase sdk patterns for typescript and
   python. use when implementing supabase integrations, refactoring sdk usage, or establishing
   team coding standards for supabase. trigger with phrases like "supabase sdk pattern...
+name: supabase-sdk-patterns
 ---
 # Supabase Sdk Patterns
+
+This skill provides automated assistance for supabase sdk patterns tasks.
 
 ## Prerequisites
 - Completed `supabase-install-auth` setup

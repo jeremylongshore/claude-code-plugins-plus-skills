@@ -1,12 +1,14 @@
 ---
-name: supabase-policy-guardrails
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Implement supabase lint rules, policy enforcement, and automated guardrails.
   use when setting up code quality rules for supabase integrations, implementing pre-commit
   hooks, or configuring ci policy checks for supabase best practices. trigger with...
+name: supabase-policy-guardrails
 ---
 # Supabase Policy Guardrails
+
+This skill provides automated assistance for supabase policy guardrails tasks.
 
 ## Prerequisites
 - ESLint configured in project
