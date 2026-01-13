@@ -1,149 +1,21 @@
 ---
-name: exa-webhooks-events
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Implement exa webhook signature validation and event handling. use when
   setting up webhook endpoints, implementing signature verification, or handling exa
   event notifications securely. trigger with phrases like "exa webhook", "exa events",
   "exa we...
+name: exa-webhooks-events
 ---
-# Exa Webhooks & Events
+# Exa Webhooks Events
 
-## Overview
-Securely handle Exa webhooks with signature validation and replay protection.
+This skill provides automated assistance for exa webhooks events tasks.
 
 ## Prerequisites
 - Exa webhook secret configured
 - HTTPS endpoint accessible from internet
 - Understanding of cryptographic signatures
 - Redis or database for idempotency (optional)
-
-## Webhook Endpoint Setup
-
-### Express.js
-```typescript
-import express from 'express';
-import crypto from 'crypto';
-
-const app = express();
-
-// IMPORTANT: Raw body needed for signature verification
-app.post('/webhooks/exa',
-  express.raw({ type: 'application/json' }),
-  async (req, res) => {
-    const signature = req.headers['x-exa-signature'] as string;
-    const timestamp = req.headers['x-exa-timestamp'] as string;
-
-    if (!verifyExaSignature(req.body, signature, timestamp)) {
-      return res.status(401).json({ error: 'Invalid signature' });
-    }
-
-    const event = JSON.parse(req.body.toString());
-    await handleExaEvent(event);
-
-    res.status(200).json({ received: true });
-  }
-);
-```
-
-## Signature Verification
-
-```typescript
-function verifyExaSignature(
-  payload: Buffer,
-  signature: string,
-  timestamp: string
-): boolean {
-  const secret = process.env.EXA_WEBHOOK_SECRET!;
-
-  // Reject old timestamps (replay attack protection)
-  const timestampAge = Date.now() - parseInt(timestamp) * 1000;
-  if (timestampAge > 300000) { // 5 minutes
-    console.error('Webhook timestamp too old');
-    return false;
-  }
-
-  // Compute expected signature
-  const signedPayload = `${timestamp}.${payload.toString()}`;
-  const expectedSignature = crypto
-    .createHmac('sha256', secret)
-    .update(signedPayload)
-    .digest('hex');
-
-  // Timing-safe comparison
-  return crypto.timingSafeEqual(
-    Buffer.from(signature),
-    Buffer.from(expectedSignature)
-  );
-}
-```
-
-## Event Handler Pattern
-
-```typescript
-type ExaEventType = 'resource.created' | 'resource.updated' | 'resource.deleted';
-
-interface ExaEvent {
-  id: string;
-  type: ExaEventType;
-  data: Record<string, any>;
-  created: string;
-}
-
-const eventHandlers: Record<ExaEventType, (data: any) => Promise<void>> = {
-  'resource.created': async (data) => { /* handle */ },
-  'resource.updated': async (data) => { /* handle */ },
-  'resource.deleted': async (data) => { /* handle */ }
-};
-
-async function handleExaEvent(event: ExaEvent): Promise<void> {
-  const handler = eventHandlers[event.type];
-
-  if (!handler) {
-    console.log(`Unhandled event type: ${event.type}`);
-    return;
-  }
-
-  try {
-    await handler(event.data);
-    console.log(`Processed ${event.type}: ${event.id}`);
-  } catch (error) {
-    console.error(`Failed to process ${event.type}: ${event.id}`, error);
-    throw error; // Rethrow to trigger retry
-  }
-}
-```
-
-## Idempotency Handling
-
-```typescript
-import { Redis } from 'ioredis';
-
-const redis = new Redis(process.env.REDIS_URL);
-
-async function isEventProcessed(eventId: string): Promise<boolean> {
-  const key = `exa:event:${eventId}`;
-  const exists = await redis.exists(key);
-  return exists === 1;
-}
-
-async function markEventProcessed(eventId: string): Promise<void> {
-  const key = `exa:event:${eventId}`;
-  await redis.set(key, '1', 'EX', 86400 * 7); // 7 days TTL
-}
-```
-
-## Webhook Testing
-
-```bash
-# Use Exa CLI to send test events
-exa webhooks trigger resource.created --url http://localhost:3000/webhooks/exa
-
-# Or use webhook.site for debugging
-curl -X POST https://webhook.site/your-uuid \
-  -H "Content-Type: application/json" \
-  -d '{"type": "resource.created", "data": {}}'
-```
 
 ## Instructions
 
@@ -166,29 +38,13 @@ Prevent duplicate processing with event ID tracking.
 - Replay attack protection active
 
 ## Error Handling
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| Invalid signature | Wrong secret | Verify webhook secret |
-| Timestamp rejected | Clock drift | Check server time sync |
-| Duplicate events | Missing idempotency | Implement event ID tracking |
-| Handler timeout | Slow processing | Use async queue |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Testing Webhooks Locally
-```bash
-# Use ngrok to expose local server
-ngrok http 3000
-
-# Send test webhook
-curl -X POST https://your-ngrok-url/webhooks/exa \
-  -H "Content-Type: application/json" \
-  -d '{"type": "test", "data": {}}'
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Exa Webhooks Guide](https://docs.exa.com/webhooks)
 - [Webhook Security Best Practices](https://docs.exa.com/webhooks/security)
-
-## Next Steps
-For performance optimization, see `exa-performance-tuning`.
