@@ -1,17 +1,12 @@
 ---
 name: clerk-reference-architecture
-description: |
-  Reference architecture patterns for Clerk authentication.
-  Use when designing application architecture, planning auth flows,
-  or implementing enterprise-grade authentication.
-  Trigger with phrases like "clerk architecture", "clerk design",
-  "clerk system design", "clerk integration patterns".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Reference architecture patterns for clerk authentication. use when designing
+  application architecture, planning auth flows, or implementing enterprise-grade
+  authentication. trigger with phrases like "clerk architecture", "clerk design",
+  "clerk sys...
 ---
-
 # Clerk Reference Architecture
 
 ## Overview

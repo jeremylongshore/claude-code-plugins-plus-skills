@@ -1,17 +1,12 @@
 ---
 name: clerk-security-basics
-description: |
-  Implement security best practices with Clerk authentication.
-  Use when securing your application, reviewing auth implementation,
-  or hardening Clerk configuration.
-  Trigger with phrases like "clerk security", "secure clerk",
-  "clerk best practices", "clerk hardening".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement security best practices with clerk authentication. use when
+  securing your application, reviewing auth implementation, or hardening clerk configuration.
+  trigger with phrases like "clerk security", "secure clerk", "clerk best practices",
+  "...
 ---
-
 # Clerk Security Basics
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: coderabbit-ci-integration
-description: |
-  Configure CodeRabbit CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating CodeRabbit tests into your build process.
-  Trigger with phrases like "coderabbit CI", "coderabbit GitHub Actions",
-  "coderabbit automated tests", "CI coderabbit".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure CodeRabbit CI/CD integration with GitHub Actions and testing.
+  Use when setting up automated testing, configuring CI pipelines, or integrating
+  CodeRabbit tests into your build process. Trigger with phrases like "coderabbit
+  CI", "coderabbi...
 ---
-
 # CodeRabbit CI Integration
 
 ## Overview

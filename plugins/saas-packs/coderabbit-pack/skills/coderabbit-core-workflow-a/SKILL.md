@@ -1,17 +1,11 @@
 ---
 name: coderabbit-core-workflow-a
-description: |
-  Execute CodeRabbit primary workflow: Core Workflow A.
-  Use when implementing primary use case,
-  building main features, or core integration tasks.
-  Trigger with phrases like "coderabbit main workflow",
-  "primary task with coderabbit".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: 'Execute coderabbit primary workflow: core workflow a. use when implementing
+  primary use case, building main features, or core integration tasks. trigger with
+  phrases like "coderabbit main workflow", "primary task with coderabbit".'
 ---
-
 # CodeRabbit Core Workflow A
 
 ## Overview

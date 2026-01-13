@@ -1,17 +1,12 @@
 ---
 name: clerk-rate-limits
-description: |
-  Understand and manage Clerk rate limits and quotas.
-  Use when hitting rate limits, optimizing API usage,
-  or planning for high-traffic scenarios.
-  Trigger with phrases like "clerk rate limit", "clerk quota",
-  "clerk API limits", "clerk throttling".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Understand and manage clerk rate limits and quotas. use when hitting
+  rate limits, optimizing api usage, or planning for high-traffic scenarios. trigger
+  with phrases like "clerk rate limit", "clerk quota", "clerk api limits", "clerk
+  throttling".
 ---
-
 # Clerk Rate Limits
 
 ## Overview

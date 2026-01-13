@@ -1,17 +1,12 @@
 ---
 name: clerk-sdk-patterns
-description: |
-  Common Clerk SDK patterns and best practices.
-  Use when implementing authentication flows, accessing user data,
-  or integrating Clerk SDK methods in your application.
-  Trigger with phrases like "clerk SDK", "clerk patterns",
-  "clerk best practices", "clerk API usage".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Common clerk sdk patterns and best practices. use when implementing authentication
+  flows, accessing user data, or integrating clerk sdk methods in your application.
+  trigger with phrases like "clerk sdk", "clerk patterns", "clerk best practices",
+  "...
 ---
-
 # Clerk SDK Patterns
 
 ## Overview
