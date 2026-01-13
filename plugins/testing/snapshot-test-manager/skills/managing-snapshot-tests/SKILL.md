@@ -1,10 +1,10 @@
 ---
-name: managing-snapshot-tests
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Create and validate component snapshots for UI regression testing. Use
   when performing specialized testing. Trigger with phrases like "update snapshots",
   "test UI snapshots", or "validate component snapshots".
+name: managing-snapshot-tests
 ---
 # Snapshot Test Manager
 

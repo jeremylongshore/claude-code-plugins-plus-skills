@@ -1,10 +1,10 @@
 ---
-name: testing-load-balancers
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Validate load balancer behavior, failover, and traffic distribution.
   Use when performing specialized testing. Trigger with phrases like "test load balancer",
   "validate failover", or "check traffic distribution".
+name: testing-load-balancers
 ---
 # Load Balancer Tester
 

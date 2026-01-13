@@ -1,10 +1,10 @@
 ---
-name: running-mutation-tests
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute mutation testing to evaluate test suite effectiveness. use when
   performing specialized testing. trigger with phrases like "run mutation tests",
   "test the tests", or "validate test effectiveness".
+name: running-mutation-tests
 ---
 # Mutation Test Runner
 

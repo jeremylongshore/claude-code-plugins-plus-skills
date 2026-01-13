@@ -1,10 +1,10 @@
 ---
-name: running-smoke-tests
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute fast smoke tests validating critical functionality after deployment.
   use when performing specialized testing. trigger with phrases like "run smoke tests",
   "quick validation", or "test critical paths".
+name: running-smoke-tests
 ---
 # Smoke Test Runner
 

@@ -1,10 +1,10 @@
 ---
-name: tracking-regression-tests
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Track and manage regression test suites across releases. use when performing
   specialized testing. trigger with phrases like "track regressions", "manage regression
   suite", or "validate against baseline".
+name: tracking-regression-tests
 ---
 # Regression Test Tracker
 

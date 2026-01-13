@@ -1,10 +1,10 @@
 ---
-name: analyzing-test-coverage
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Analyze code coverage metrics and identify untested code paths. Use when
   analyzing untested code or coverage gaps. Trigger with phrases like "analyze coverage",
   "check test coverage", or "find untested code".
+name: analyzing-test-coverage
 ---
 # Test Coverage Analyzer
 

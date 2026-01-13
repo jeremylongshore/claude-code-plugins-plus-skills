@@ -1,10 +1,10 @@
 ---
-name: performing-security-testing
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Test automate security vulnerability testing covering OWASP Top 10, SQL
   injection, XSS, CSRF, and authentication issues. Use when performing security assessments,
   penetration tests, or vulnerability scans. Trigger with phrases like "scan for vulne...
+name: performing-security-testing
 ---
 # Security Test Scanner
 
