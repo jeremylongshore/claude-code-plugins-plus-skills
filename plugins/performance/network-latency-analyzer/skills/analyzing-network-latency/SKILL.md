@@ -1,11 +1,11 @@
 ---
-name: analyzing-network-latency
-license: MIT
 allowed-tools: Read, Write, Bash, Grep
+license: MIT
 description: Analyze network latency and optimize request patterns for faster communication.
   Use when diagnosing slow network performance or optimizing API calls. Trigger with
   phrases like "analyze network latency", "optimize API calls", or "reduce network
   del...
+name: analyzing-network-latency
 ---
 # Network Latency Analyzer
 

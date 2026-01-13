@@ -1,11 +1,11 @@
 ---
-name: aggregating-performance-metrics
-license: MIT
 allowed-tools: Read, Write, Bash, Grep
+license: MIT
 description: Aggregate and centralize performance metrics from applications, systems,
   databases, caches, and services. use when consolidating monitoring data from multiple
   sources. trigger with phrases like "aggregate metrics", "centralize monitoring",
   or "col...
+name: aggregating-performance-metrics
 ---
 # Metrics Aggregator
 

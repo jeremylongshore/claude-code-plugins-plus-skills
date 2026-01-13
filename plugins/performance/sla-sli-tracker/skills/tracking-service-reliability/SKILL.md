@@ -1,11 +1,11 @@
 ---
-name: tracking-service-reliability
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Define and track slas, slis, and slos for service reliability including
   availability, latency, and error rates. use when establishing reliability targets
   or monitoring service health. trigger with phrases like "define slos", "track sli
   metrics", o...
+name: tracking-service-reliability
 ---
 # Sla Sli Tracker
 

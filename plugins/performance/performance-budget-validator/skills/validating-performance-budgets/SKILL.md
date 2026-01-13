@@ -1,11 +1,11 @@
 ---
-name: validating-performance-budgets
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Validate application performance against defined budgets to identify
   regressions early. Use when checking page load times, bundle sizes, or API response
   times against thresholds. Trigger with phrases like "validate performance budget",
   "check perf...
+name: validating-performance-budgets
 ---
 # Performance Budget Validator
 

@@ -1,11 +1,11 @@
 ---
-name: detecting-performance-regressions
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Automatically detect performance regressions in ci/cd pipelines by comparing
   metrics against baselines. use when validating builds or analyzing performance trends.
   trigger with phrases like "detect performance regression", "compare performance
   met...
+name: detecting-performance-regressions
 ---
 # Performance Regression Detector
 

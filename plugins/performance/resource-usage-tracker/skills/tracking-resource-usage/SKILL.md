@@ -1,11 +1,11 @@
 ---
-name: tracking-resource-usage
-license: MIT
 allowed-tools: Read, Bash, Grep, Glob
+license: MIT
 description: Track and optimize resource usage across application stack including
   cpu, memory, disk, and network i/o. use when identifying bottlenecks or optimizing
   costs. trigger with phrases like "track resource usage", "monitor cpu and memory",
   or "optimize...
+name: tracking-resource-usage
 ---
 # Resource Usage Tracker
 
