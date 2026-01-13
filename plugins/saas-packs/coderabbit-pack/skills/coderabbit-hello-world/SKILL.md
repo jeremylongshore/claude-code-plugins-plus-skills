@@ -1,17 +1,12 @@
 ---
 name: coderabbit-hello-world
-description: |
-  Create a minimal working CodeRabbit example.
-  Use when starting a new CodeRabbit integration, testing your setup,
-  or learning basic CodeRabbit API patterns.
-  Trigger with phrases like "coderabbit hello world", "coderabbit example",
-  "coderabbit quick start", "simple coderabbit code".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Create a minimal working CodeRabbit example. Use when starting a new
+  CodeRabbit integration, testing your setup, or learning basic CodeRabbit API patterns.
+  Trigger with phrases like "coderabbit hello world", "coderabbit example", "coderabbit
+  quick...
 ---
-
 # CodeRabbit Hello World
 
 ## Overview

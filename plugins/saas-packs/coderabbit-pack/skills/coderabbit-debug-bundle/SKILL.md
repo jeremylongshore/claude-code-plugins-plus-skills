@@ -1,17 +1,12 @@
 ---
 name: coderabbit-debug-bundle
-description: |
-  Collect CodeRabbit debug evidence for support tickets and troubleshooting.
-  Use when encountering persistent issues, preparing support tickets,
-  or collecting diagnostic information for CodeRabbit problems.
-  Trigger with phrases like "coderabbit debug", "coderabbit support bundle",
-  "collect coderabbit logs", "coderabbit diagnostic".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Collect coderabbit debug evidence for support tickets and troubleshooting.
+  use when encountering persistent issues, preparing support tickets, or collecting
+  diagnostic information for coderabbit problems. trigger with phrases like "coderabbit
+  debu...
 ---
-
 # CodeRabbit Debug Bundle
 
 ## Overview

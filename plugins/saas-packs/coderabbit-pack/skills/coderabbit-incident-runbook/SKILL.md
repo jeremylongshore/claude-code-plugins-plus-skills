@@ -1,17 +1,12 @@
 ---
 name: coderabbit-incident-runbook
-description: |
-  Execute CodeRabbit incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to CodeRabbit-related outages, investigating errors,
-  or running post-incident reviews for CodeRabbit integration failures.
-  Trigger with phrases like "coderabbit incident", "coderabbit outage",
-  "coderabbit down", "coderabbit on-call", "coderabbit emergency", "coderabbit broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute coderabbit incident response procedures with triage, mitigation,
+  and postmortem. use when responding to coderabbit-related outages, investigating
+  errors, or running post-incident reviews for coderabbit integration failures. trigger
+  with ph...
 ---
-
 # CodeRabbit Incident Runbook
 
 ## Overview

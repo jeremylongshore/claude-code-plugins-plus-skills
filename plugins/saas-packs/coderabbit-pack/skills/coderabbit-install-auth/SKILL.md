@@ -1,17 +1,12 @@
 ---
 name: coderabbit-install-auth
-description: |
-  Install and configure CodeRabbit SDK/CLI authentication.
-  Use when setting up a new CodeRabbit integration, configuring API keys,
-  or initializing CodeRabbit in your project.
-  Trigger with phrases like "install coderabbit", "setup coderabbit",
-  "coderabbit auth", "configure coderabbit API key".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Install and configure coderabbit sdk/cli authentication. use when setting
+  up a new coderabbit integration, configuring api keys, or initializing coderabbit
+  in your project. trigger with phrases like "install coderabbit", "setup coderabbit",
+  "coder...
 ---
-
 # CodeRabbit Install & Auth
 
 ## Overview

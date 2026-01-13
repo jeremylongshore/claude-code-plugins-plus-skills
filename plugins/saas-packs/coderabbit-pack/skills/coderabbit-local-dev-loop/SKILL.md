@@ -1,17 +1,12 @@
 ---
 name: coderabbit-local-dev-loop
-description: |
-  Configure CodeRabbit local development with hot reload and testing.
-  Use when setting up a development environment, configuring test workflows,
-  or establishing a fast iteration cycle with CodeRabbit.
-  Trigger with phrases like "coderabbit dev setup", "coderabbit local development",
-  "coderabbit dev environment", "develop with coderabbit".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Configure CodeRabbit local development with hot reload and testing. Use
+  when setting up a development environment, configuring test workflows, or establishing
+  a fast iteration cycle with CodeRabbit. Trigger with phrases like "coderabbit dev
+  setup"...
 ---
-
 # CodeRabbit Local Dev Loop
 
 ## Overview

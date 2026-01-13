@@ -1,17 +1,12 @@
 ---
 name: coderabbit-migration-deep-dive
-description: |
-  Execute CodeRabbit major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from CodeRabbit, performing major version upgrades,
-  or re-platforming existing integrations to CodeRabbit.
-  Trigger with phrases like "migrate coderabbit", "coderabbit migration",
-  "switch to coderabbit", "coderabbit replatform", "coderabbit upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute coderabbit major re-architecture and migration strategies with
+  strangler fig pattern. use when migrating to or from coderabbit, performing major
+  version upgrades, or re-platforming existing integrations to coderabbit. trigger
+  with phrases ...
 ---
-
 # CodeRabbit Migration Deep Dive
 
 ## Overview
