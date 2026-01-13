@@ -1,17 +1,12 @@
 ---
 name: apollo-debug-bundle
-description: |
-  Collect Apollo.io debug evidence for support.
-  Use when preparing support tickets, documenting issues,
-  or gathering diagnostic information for Apollo problems.
-  Trigger with phrases like "apollo debug", "apollo support bundle",
-  "collect apollo diagnostics", "apollo troubleshooting info".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Collect apollo.io debug evidence for support. use when preparing support
+  tickets, documenting issues, or gathering diagnostic information for apollo problems.
+  trigger with phrases like "apollo debug", "apollo support bundle", "collect apollo
+  diagn...
 ---
-
 # Apollo Debug Bundle
 
 ## Overview

@@ -1,17 +1,11 @@
 ---
 name: apollo-deploy-integration
-description: |
-  Deploy Apollo.io integrations to production.
-  Use when deploying Apollo integrations, configuring production environments,
-  or setting up deployment pipelines.
-  Trigger with phrases like "deploy apollo", "apollo production deploy",
-  "apollo deployment pipeline", "apollo to production".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Apollo.io integrations to production. Use when deploying Apollo
+  integrations, configuring production environments, or setting up deployment pipelines.
+  Trigger with phrases like "deploy apollo", "apollo production deploy", "apollo deployment...
 ---
-
 # Apollo Deploy Integration
 
 ## Overview

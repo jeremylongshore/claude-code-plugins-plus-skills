@@ -1,17 +1,12 @@
 ---
 name: apollo-data-handling
-description: |
-  Apollo.io data management and compliance.
-  Use when handling contact data, implementing GDPR compliance,
-  or managing data exports and retention.
-  Trigger with phrases like "apollo data", "apollo gdpr", "apollo compliance",
-  "apollo data export", "apollo data retention", "apollo pii".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Apollo.io data management and compliance. use when handling contact data,
+  implementing gdpr compliance, or managing data exports and retention. trigger with
+  phrases like "apollo data", "apollo gdpr", "apollo compliance", "apollo data export",
+  "apo...
 ---
-
 # Apollo Data Handling
 
 ## Overview

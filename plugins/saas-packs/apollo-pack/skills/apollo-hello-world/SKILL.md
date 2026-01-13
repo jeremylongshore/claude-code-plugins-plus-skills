@@ -1,17 +1,12 @@
 ---
 name: apollo-hello-world
-description: |
-  Create a minimal working Apollo.io example.
-  Use when starting a new Apollo integration, testing your setup,
-  or learning basic Apollo API patterns.
-  Trigger with phrases like "apollo hello world", "apollo example",
-  "apollo quick start", "simple apollo code", "test apollo api".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Create a minimal working Apollo.io example. Use when starting a new Apollo
+  integration, testing your setup, or learning basic Apollo API patterns. Trigger
+  with phrases like "apollo hello world", "apollo example", "apollo quick start",
+  "simple apol...
 ---
-
 # Apollo Hello World
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: apollo-incident-runbook
-description: |
-  Apollo.io incident response procedures.
-  Use when handling Apollo outages, debugging production issues,
-  or responding to integration failures.
-  Trigger with phrases like "apollo incident", "apollo outage",
-  "apollo down", "apollo production issue", "apollo emergency".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Apollo.io incident response procedures. use when handling apollo outages,
+  debugging production issues, or responding to integration failures. trigger with
+  phrases like "apollo incident", "apollo outage", "apollo down", "apollo production
+  issue", "...
 ---
-
 # Apollo Incident Runbook
 
 ## Overview
