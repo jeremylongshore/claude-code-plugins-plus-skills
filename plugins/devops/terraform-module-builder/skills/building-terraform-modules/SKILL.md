@@ -1,11 +1,11 @@
 ---
 name: building-terraform-modules
-description: |
-  Execute this skill empowers AI assistant to build reusable terraform modules based on user specifications. it leverages the terraform-module-builder plugin to generate production-ready, well-documented terraform module code, incorporating best practices for sec... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute this skill empowers ai assistant to build reusable terraform
+  modules based on user specifications. it leverages the terraform-module-builder
+  plugin to generate production-ready, well-documented terraform module code, incorporating
+  best pra...
 ---
 # Terraform Module Builder
 
