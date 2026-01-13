@@ -1,17 +1,12 @@
 ---
 name: instantly-rate-limits
-description: |
-  Implement Instantly rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for Instantly.
-  Trigger with phrases like "instantly rate limit", "instantly throttling",
-  "instantly 429", "instantly retry", "instantly backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement instantly rate limiting, backoff, and idempotency patterns.
+  use when handling rate limit errors, implementing retry logic, or optimizing api
+  request throughput for instantly. trigger with phrases like "instantly rate limit",
+  "instantly t...
 ---
-
 # Instantly Rate Limits
 
 ## Overview

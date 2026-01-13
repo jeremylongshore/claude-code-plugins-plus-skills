@@ -1,17 +1,12 @@
 ---
 name: instantly-prod-checklist
-description: |
-  Execute Instantly production deployment checklist and rollback procedures.
-  Use when deploying Instantly integrations to production, preparing for launch,
-  or implementing go-live procedures.
-  Trigger with phrases like "instantly production", "deploy instantly",
-  "instantly go-live", "instantly launch checklist".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Execute instantly production deployment checklist and rollback procedures.
+  use when deploying instantly integrations to production, preparing for launch, or
+  implementing go-live procedures. trigger with phrases like "instantly production",
+  "deploy...
 ---
-
 # Instantly Production Checklist
 
 ## Overview

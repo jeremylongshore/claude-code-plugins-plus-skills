@@ -1,17 +1,12 @@
 ---
 name: instantly-observability
-description: |
-  Set up comprehensive observability for Instantly integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for Instantly operations, setting up dashboards,
-  or configuring alerting for Instantly integration health.
-  Trigger with phrases like "instantly monitoring", "instantly metrics",
-  "instantly observability", "monitor instantly", "instantly alerts", "instantly tracing".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Set up comprehensive observability for instantly integrations with metrics,
+  traces, and alerts. use when implementing monitoring for instantly operations, setting
+  up dashboards, or configuring alerting for instantly integration health. trigger
+  wit...
 ---
-
 # Instantly Observability
 
 ## Overview

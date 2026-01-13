@@ -1,17 +1,12 @@
 ---
 name: instantly-migration-deep-dive
-description: |
-  Execute Instantly major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from Instantly, performing major version upgrades,
-  or re-platforming existing integrations to Instantly.
-  Trigger with phrases like "migrate instantly", "instantly migration",
-  "switch to instantly", "instantly replatform", "instantly upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute instantly major re-architecture and migration strategies with
+  strangler fig pattern. use when migrating to or from instantly, performing major
+  version upgrades, or re-platforming existing integrations to instantly. trigger
+  with phrases lik...
 ---
-
 # Instantly Migration Deep Dive
 
 ## Overview

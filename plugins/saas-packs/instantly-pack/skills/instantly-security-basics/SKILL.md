@@ -1,17 +1,12 @@
 ---
 name: instantly-security-basics
-description: |
-  Apply Instantly security best practices for secrets and access control.
-  Use when securing API keys, implementing least privilege access,
-  or auditing Instantly security configuration.
-  Trigger with phrases like "instantly security", "instantly secrets",
-  "secure instantly", "instantly API key security".
-allowed-tools: Read, Write, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Grep
+description: Apply instantly security best practices for secrets and access control.
+  use when securing api keys, implementing least privilege access, or auditing instantly
+  security configuration. trigger with phrases like "instantly security", "instantly
+  secre...
 ---
-
 # Instantly Security Basics
 
 ## Overview

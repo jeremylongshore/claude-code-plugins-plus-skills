@@ -1,17 +1,12 @@
 ---
 name: instantly-local-dev-loop
-description: |
-  Configure Instantly local development with hot reload and testing.
-  Use when setting up a development environment, configuring test workflows,
-  or establishing a fast iteration cycle with Instantly.
-  Trigger with phrases like "instantly dev setup", "instantly local development",
-  "instantly dev environment", "develop with instantly".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Configure Instantly local development with hot reload and testing. Use
+  when setting up a development environment, configuring test workflows, or establishing
+  a fast iteration cycle with Instantly. Trigger with phrases like "instantly dev
+  setup", "...
 ---
-
 # Instantly Local Dev Loop
 
 ## Overview

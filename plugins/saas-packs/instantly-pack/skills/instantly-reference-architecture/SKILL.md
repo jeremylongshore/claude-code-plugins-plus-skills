@@ -1,17 +1,12 @@
 ---
 name: instantly-reference-architecture
-description: |
-  Implement Instantly reference architecture with best-practice project layout.
-  Use when designing new Instantly integrations, reviewing project structure,
-  or establishing architecture standards for Instantly applications.
-  Trigger with phrases like "instantly architecture", "instantly best practices",
-  "instantly project structure", "how to organize instantly", "instantly layout".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Implement instantly reference architecture with best-practice project
+  layout. use when designing new instantly integrations, reviewing project structure,
+  or establishing architecture standards for instantly applications. trigger with
+  phrases like ...
 ---
-
 # Instantly Reference Architecture
 
 ## Overview

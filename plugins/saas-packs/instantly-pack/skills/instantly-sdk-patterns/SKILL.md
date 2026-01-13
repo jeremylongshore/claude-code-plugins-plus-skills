@@ -1,17 +1,12 @@
 ---
 name: instantly-sdk-patterns
-description: |
-  Apply production-ready Instantly SDK patterns for TypeScript and Python.
-  Use when implementing Instantly integrations, refactoring SDK usage,
-  or establishing team coding standards for Instantly.
-  Trigger with phrases like "instantly SDK patterns", "instantly best practices",
-  "instantly code patterns", "idiomatic instantly".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready instantly sdk patterns for typescript and python.
+  use when implementing instantly integrations, refactoring sdk usage, or establishing
+  team coding standards for instantly. trigger with phrases like "instantly sdk patterns",
+  ...
 ---
-
 # Instantly SDK Patterns
 
 ## Overview
