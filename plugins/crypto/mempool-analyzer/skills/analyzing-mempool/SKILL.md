@@ -1,12 +1,14 @@
 ---
-name: analyzing-mempool
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Monitor blockchain mempools for pending transactions, front-running,
   and MEV opportunities. Use when monitoring pending blockchain transactions. Trigger
   with phrases like "check mempool", "scan pending txs", or "find MEV".
+name: analyzing-mempool
 ---
 # Analyzing Mempool
+
+This skill provides automated assistance for analyzing mempool tasks.
 
 ## Overview
 

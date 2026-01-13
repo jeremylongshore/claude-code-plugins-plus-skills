@@ -1,12 +1,14 @@
 ---
-name: routing-dex-trades
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Optimize trade routing across multiple DEXs to find optimal prices and
   minimize slippage. Use when routing trades for best execution. Trigger with phrases
   like "find best price", "route trade", or "check DEX prices".
+name: routing-dex-trades
 ---
 # Routing Dex Trades
+
+This skill provides automated assistance for routing dex trades tasks.
 
 ## Overview
 

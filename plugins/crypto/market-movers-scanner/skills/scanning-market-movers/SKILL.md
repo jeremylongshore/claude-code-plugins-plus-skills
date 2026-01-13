@@ -1,12 +1,14 @@
 ---
-name: scanning-market-movers
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Detect significant price movements and unusual volume across crypto markets.
   use when tracking significant price movements. trigger with phrases like "scan market
   movers", "check biggest gainers", or "find pumps".
+name: scanning-market-movers
 ---
 # Scanning Market Movers
+
+This skill provides automated assistance for scanning market movers tasks.
 
 ## Overview
 

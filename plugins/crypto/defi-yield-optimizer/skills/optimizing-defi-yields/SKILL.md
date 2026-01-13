@@ -1,12 +1,14 @@
 ---
-name: optimizing-defi-yields
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute find and compare defi yield opportunities across protocols with
   apy calculations. use when finding optimal defi yield opportunities. trigger with
   phrases like "find yield", "optimize returns", or "compare apy".
+name: optimizing-defi-yields
 ---
 # Optimizing Defi Yields
+
+This skill provides automated assistance for optimizing defi yields tasks.
 
 ## Overview
 

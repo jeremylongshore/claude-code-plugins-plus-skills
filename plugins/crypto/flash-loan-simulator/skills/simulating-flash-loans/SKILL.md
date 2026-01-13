@@ -1,12 +1,14 @@
 ---
-name: simulating-flash-loans
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute simulate flash loan arbitrage strategies and profitability across
   defi protocols. use when performing crypto analysis. trigger with phrases like "analyze
   crypto", "check blockchain", or "monitor market".
+name: simulating-flash-loans
 ---
 # Simulating Flash Loans
+
+This skill provides automated assistance for simulating flash loans tasks.
 
 ## Overview
 

@@ -1,12 +1,14 @@
 ---
-name: tracking-crypto-prices
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Track real-time cryptocurrency prices across exchanges with historical
   data and alerts. use when monitoring real-time cryptocurrency prices. trigger with
   phrases like "check price", "track prices", or "get price alert".
+name: tracking-crypto-prices
 ---
 # Tracking Crypto Prices
+
+This skill provides automated assistance for tracking crypto prices tasks.
 
 ## Overview
 

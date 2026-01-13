@@ -1,12 +1,14 @@
 ---
-name: optimizing-gas-fees
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute predict optimal gas prices and transaction timing to minimize
   blockchain transaction costs. use when optimizing blockchain transaction costs.
   trigger with phrases like "optimize gas", "check gas prices", or "minimize fees".
+name: optimizing-gas-fees
 ---
 # Optimizing Gas Fees
+
+This skill provides automated assistance for optimizing gas fees tasks.
 
 ## Overview
 

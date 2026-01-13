@@ -1,12 +1,14 @@
 ---
-name: analyzing-market-sentiment
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Analyze crypto market sentiment from social media, news, and on-chain
   metrics. Use when gauging market sentiment and social trends. Trigger with phrases
   like "analyze sentiment", "check market mood", or "gauge social trends".
+name: analyzing-market-sentiment
 ---
 # Analyzing Market Sentiment
+
+This skill provides automated assistance for analyzing market sentiment tasks.
 
 ## Overview
 

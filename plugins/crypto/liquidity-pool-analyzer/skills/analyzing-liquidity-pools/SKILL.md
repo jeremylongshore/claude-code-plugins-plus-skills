@@ -1,12 +1,14 @@
 ---
-name: analyzing-liquidity-pools
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Analyze liquidity pool metrics including TVL, volume, fees, and impermanent
   loss. Use when analyzing DEX liquidity pools. Trigger with phrases like "analyze
   pool", "check TVL", or "calculate impermanent loss".
+name: analyzing-liquidity-pools
 ---
 # Analyzing Liquidity Pools
+
+This skill provides automated assistance for analyzing liquidity pools tasks.
 
 ## Overview
 

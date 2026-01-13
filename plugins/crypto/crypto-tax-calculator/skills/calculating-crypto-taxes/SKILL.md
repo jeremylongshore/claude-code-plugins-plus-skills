@@ -1,13 +1,15 @@
 ---
-name: calculating-crypto-taxes
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute calculate cryptocurrency tax obligations with cost basis tracking
   and jurisdiction rules. use when calculating crypto tax obligations. trigger with
   phrases like "calculate crypto taxes", "compute tax liability", or "generate tax
   report".
+name: calculating-crypto-taxes
 ---
 # Calculating Crypto Taxes
+
+This skill provides automated assistance for calculating crypto taxes tasks.
 
 ## Overview
 
