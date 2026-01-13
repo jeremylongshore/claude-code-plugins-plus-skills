@@ -1,17 +1,11 @@
 ---
 name: vastai-migration-deep-dive
-description: |
-  Execute Vast.ai major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from Vast.ai, performing major version upgrades,
-  or re-platforming existing integrations to Vast.ai.
-  Trigger with phrases like "migrate vastai", "vastai migration",
-  "switch to vastai", "vastai replatform", "vastai upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute vast.ai major re-architecture and migration strategies with strangler
+  fig pattern. use when migrating to or from vast.ai, performing major version upgrades,
+  or re-platforming existing integrations to vast.ai. trigger with phrases like "mig...
 ---
-
 # Vast.ai Migration Deep Dive
 
 ## Overview

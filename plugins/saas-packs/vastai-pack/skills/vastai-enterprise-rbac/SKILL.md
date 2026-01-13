@@ -1,17 +1,12 @@
 ---
 name: vastai-enterprise-rbac
-description: |
-  Configure Vast.ai enterprise SSO, role-based access control, and organization management.
-  Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for Vast.ai.
-  Trigger with phrases like "vastai SSO", "vastai RBAC",
-  "vastai enterprise", "vastai roles", "vastai permissions", "vastai SAML".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure Vast.ai enterprise SSO, role-based access control, and organization
+  management. Use when implementing SSO integration, configuring role-based permissions,
+  or setting up organization-level controls for Vast.ai. Trigger with phrases like
+  "...
 ---
-
 # Vast.ai Enterprise RBAC
 
 ## Overview

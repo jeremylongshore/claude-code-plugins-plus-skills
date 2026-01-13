@@ -1,17 +1,12 @@
 ---
 name: vastai-local-dev-loop
-description: |
-  Configure Vast.ai local development with hot reload and testing.
-  Use when setting up a development environment, configuring test workflows,
-  or establishing a fast iteration cycle with Vast.ai.
-  Trigger with phrases like "vastai dev setup", "vastai local development",
-  "vastai dev environment", "develop with vastai".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Configure Vast.ai local development with hot reload and testing. Use
+  when setting up a development environment, configuring test workflows, or establishing
+  a fast iteration cycle with Vast.ai. Trigger with phrases like "vastai dev setup",
+  "vastai ...
 ---
-
 # Vast.ai Local Dev Loop
 
 ## Overview

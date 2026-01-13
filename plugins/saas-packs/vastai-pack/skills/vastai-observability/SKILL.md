@@ -1,17 +1,12 @@
 ---
 name: vastai-observability
-description: |
-  Set up comprehensive observability for Vast.ai integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for Vast.ai operations, setting up dashboards,
-  or configuring alerting for Vast.ai integration health.
-  Trigger with phrases like "vastai monitoring", "vastai metrics",
-  "vastai observability", "monitor vastai", "vastai alerts", "vastai tracing".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Set up comprehensive observability for vast.ai integrations with metrics,
+  traces, and alerts. use when implementing monitoring for vast.ai operations, setting
+  up dashboards, or configuring alerting for vast.ai integration health. trigger with
+  phra...
 ---
-
 # Vast.ai Observability
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: vastai-performance-tuning
-description: |
-  Optimize Vast.ai API performance with caching, batching, and connection pooling.
-  Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Vast.ai integrations.
-  Trigger with phrases like "vastai performance", "optimize vastai",
-  "vastai latency", "vastai caching", "vastai slow", "vastai batch".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize Vast.ai API performance with caching, batching, and connection
+  pooling. Use when experiencing slow API responses, implementing caching strategies,
+  or optimizing request throughput for Vast.ai integrations. Trigger with phrases
+  like "vasta...
 ---
-
 # Vast.ai Performance Tuning
 
 ## Overview

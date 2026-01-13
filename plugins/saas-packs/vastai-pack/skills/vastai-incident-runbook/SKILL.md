@@ -1,17 +1,12 @@
 ---
 name: vastai-incident-runbook
-description: |
-  Execute Vast.ai incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to Vast.ai-related outages, investigating errors,
-  or running post-incident reviews for Vast.ai integration failures.
-  Trigger with phrases like "vastai incident", "vastai outage",
-  "vastai down", "vastai on-call", "vastai emergency", "vastai broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute vast.ai incident response procedures with triage, mitigation,
+  and postmortem. use when responding to vast.ai-related outages, investigating errors,
+  or running post-incident reviews for vast.ai integration failures. trigger with
+  phrases lik...
 ---
-
 # Vast.ai Incident Runbook
 
 ## Overview

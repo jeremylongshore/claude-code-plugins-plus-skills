@@ -1,17 +1,12 @@
 ---
 name: vastai-hello-world
-description: |
-  Create a minimal working Vast.ai example.
-  Use when starting a new Vast.ai integration, testing your setup,
-  or learning basic Vast.ai API patterns.
-  Trigger with phrases like "vastai hello world", "vastai example",
-  "vastai quick start", "simple vastai code".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Create a minimal working Vast.ai example. Use when starting a new Vast.ai
+  integration, testing your setup, or learning basic Vast.ai API patterns. Trigger
+  with phrases like "vastai hello world", "vastai example", "vastai quick start",
+  "simple vast...
 ---
-
 # Vast.ai Hello World
 
 ## Overview

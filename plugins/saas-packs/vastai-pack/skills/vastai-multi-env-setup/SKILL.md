@@ -1,17 +1,12 @@
 ---
 name: vastai-multi-env-setup
-description: |
-  Configure Vast.ai across development, staging, and production environments.
-  Use when setting up multi-environment deployments, configuring per-environment secrets,
-  or implementing environment-specific Vast.ai configurations.
-  Trigger with phrases like "vastai environments", "vastai staging",
-  "vastai dev prod", "vastai environment setup", "vastai config by env".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Vast.ai across development, staging, and production environments.
+  Use when setting up multi-environment deployments, configuring per-environment secrets,
+  or implementing environment-specific Vast.ai configurations. Trigger with phrases
+  l...
 ---
-
 # Vast.ai Multi-Environment Setup
 
 ## Overview

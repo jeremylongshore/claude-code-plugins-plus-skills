@@ -1,17 +1,12 @@
 ---
 name: vastai-install-auth
-description: |
-  Install and configure Vast.ai SDK/CLI authentication.
-  Use when setting up a new Vast.ai integration, configuring API keys,
-  or initializing Vast.ai in your project.
-  Trigger with phrases like "install vastai", "setup vastai",
-  "vastai auth", "configure vastai API key".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Install and configure vast.ai sdk/cli authentication. use when setting
+  up a new vast.ai integration, configuring api keys, or initializing vast.ai in your
+  project. trigger with phrases like "install vastai", "setup vastai", "vastai auth",
+  "configu...
 ---
-
 # Vast.ai Install & Auth
 
 ## Overview
