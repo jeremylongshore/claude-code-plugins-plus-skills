@@ -1,17 +1,12 @@
 ---
 name: retellai-advanced-troubleshooting
-description: |
-  Apply Retell AI advanced debugging techniques for hard-to-diagnose issues.
-  Use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for Retell AI support escalation.
-  Trigger with phrases like "retellai hard bug", "retellai mystery error",
-  "retellai impossible to debug", "difficult retellai issue", "retellai deep debug".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Apply retell ai advanced debugging techniques for hard-to-diagnose issues.
+  use when standard troubleshooting fails, investigating complex race conditions,
+  or preparing evidence bundles for retell ai support escalation. trigger with phrases
+  like "r...
 ---
-
 # Retell AI Advanced Troubleshooting
 
 ## Overview

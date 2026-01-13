@@ -1,17 +1,12 @@
 ---
 name: retellai-architecture-variants
-description: |
-  Choose and implement Retell AI validated architecture blueprints for different scales.
-  Use when designing new Retell AI integrations, choosing between monolith/service/microservice
-  architectures, or planning migration paths for Retell AI applications.
-  Trigger with phrases like "retellai architecture", "retellai blueprint",
-  "how to structure retellai", "retellai project layout", "retellai microservice".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Choose and implement retell ai validated architecture blueprints for
+  different scales. use when designing new retell ai integrations, choosing between
+  monolith/service/microservice architectures, or planning migration paths for retell
+  ai applicati...
 ---
-
 # Retell AI Architecture Variants
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: retellai-common-errors
-description: |
-  Diagnose and fix Retell AI common errors and exceptions.
-  Use when encountering Retell AI errors, debugging failed requests,
-  or troubleshooting integration issues.
-  Trigger with phrases like "retellai error", "fix retellai",
-  "retellai not working", "debug retellai".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Diagnose and fix retell ai common errors and exceptions. use when encountering
+  retell ai errors, debugging failed requests, or troubleshooting integration issues.
+  trigger with phrases like "retellai error", "fix retellai", "retellai not working",
+  ...
 ---
-
 # Retell AI Common Errors
 
 ## Overview

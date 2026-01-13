@@ -1,17 +1,12 @@
 ---
 name: retellai-ci-integration
-description: |
-  Configure Retell AI CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating Retell AI tests into your build process.
-  Trigger with phrases like "retellai CI", "retellai GitHub Actions",
-  "retellai automated tests", "CI retellai".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Retell AI CI/CD integration with GitHub Actions and testing.
+  Use when setting up automated testing, configuring CI pipelines, or integrating
+  Retell AI tests into your build process. Trigger with phrases like "retellai CI",
+  "retellai GitH...
 ---
-
 # Retell AI CI Integration
 
 ## Overview

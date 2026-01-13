@@ -1,17 +1,12 @@
 ---
 name: replit-webhooks-events
-description: |
-  Implement Replit webhook signature validation and event handling.
-  Use when setting up webhook endpoints, implementing signature verification,
-  or handling Replit event notifications securely.
-  Trigger with phrases like "replit webhook", "replit events",
-  "replit webhook signature", "handle replit events", "replit notifications".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement replit webhook signature validation and event handling. use
+  when setting up webhook endpoints, implementing signature verification, or handling
+  replit event notifications securely. trigger with phrases like "replit webhook",
+  "replit even...
 ---
-
 # Replit Webhooks & Events
 
 ## Overview

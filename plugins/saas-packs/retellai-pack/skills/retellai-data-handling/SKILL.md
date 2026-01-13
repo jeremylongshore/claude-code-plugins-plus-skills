@@ -1,17 +1,12 @@
 ---
 name: retellai-data-handling
-description: |
-  Implement Retell AI PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for Retell AI integrations.
-  Trigger with phrases like "retellai data", "retellai PII",
-  "retellai GDPR", "retellai data retention", "retellai privacy", "retellai CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement retell ai pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for retell ai
+  integ...
 ---
-
 # Retell AI Data Handling
 
 ## Overview

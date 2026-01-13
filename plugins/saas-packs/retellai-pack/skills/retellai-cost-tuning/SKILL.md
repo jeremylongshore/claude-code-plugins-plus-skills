@@ -1,17 +1,12 @@
 ---
 name: retellai-cost-tuning
-description: |
-  Optimize Retell AI costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Retell AI billing, reducing API costs,
-  or implementing usage monitoring and budget alerts.
-  Trigger with phrases like "retellai cost", "retellai billing",
-  "reduce retellai costs", "retellai pricing", "retellai expensive", "retellai budget".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Optimize Retell AI costs through tier selection, sampling, and usage
+  monitoring. Use when analyzing Retell AI billing, reducing API costs, or implementing
+  usage monitoring and budget alerts. Trigger with phrases like "retellai cost", "retellai
+  bil...
 ---
-
 # Retell AI Cost Tuning
 
 ## Overview
