@@ -1,17 +1,11 @@
 ---
 name: perplexity-core-workflow-b
-description: |
-  Execute Perplexity secondary workflow: Core Workflow B.
-  Use when implementing secondary use case,
-  or complementing primary workflow.
-  Trigger with phrases like "perplexity secondary workflow",
-  "secondary task with perplexity".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: 'Execute perplexity secondary workflow: core workflow b. use when implementing
+  secondary use case, or complementing primary workflow. trigger with phrases like
+  "perplexity secondary workflow", "secondary task with perplexity".'
 ---
-
 # Perplexity Core Workflow B
 
 ## Overview

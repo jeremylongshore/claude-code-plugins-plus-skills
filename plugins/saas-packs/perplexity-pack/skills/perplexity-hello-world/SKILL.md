@@ -1,17 +1,12 @@
 ---
 name: perplexity-hello-world
-description: |
-  Create a minimal working Perplexity example.
-  Use when starting a new Perplexity integration, testing your setup,
-  or learning basic Perplexity API patterns.
-  Trigger with phrases like "perplexity hello world", "perplexity example",
-  "perplexity quick start", "simple perplexity code".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Create a minimal working Perplexity example. Use when starting a new
+  Perplexity integration, testing your setup, or learning basic Perplexity API patterns.
+  Trigger with phrases like "perplexity hello world", "perplexity example", "perplexity
+  quick...
 ---
-
 # Perplexity Hello World
 
 ## Overview

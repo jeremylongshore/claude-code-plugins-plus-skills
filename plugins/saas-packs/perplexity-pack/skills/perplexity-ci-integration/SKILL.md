@@ -1,17 +1,12 @@
 ---
 name: perplexity-ci-integration
-description: |
-  Configure Perplexity CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating Perplexity tests into your build process.
-  Trigger with phrases like "perplexity CI", "perplexity GitHub Actions",
-  "perplexity automated tests", "CI perplexity".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Perplexity CI/CD integration with GitHub Actions and testing.
+  Use when setting up automated testing, configuring CI pipelines, or integrating
+  Perplexity tests into your build process. Trigger with phrases like "perplexity
+  CI", "perplexit...
 ---
-
 # Perplexity CI Integration
 
 ## Overview

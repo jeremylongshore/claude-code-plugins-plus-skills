@@ -1,17 +1,11 @@
 ---
 name: perplexity-enterprise-rbac
-description: |
-  Configure Perplexity enterprise SSO, role-based access control, and organization management.
-  Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for Perplexity.
-  Trigger with phrases like "perplexity SSO", "perplexity RBAC",
-  "perplexity enterprise", "perplexity roles", "perplexity permissions", "perplexity SAML".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure Perplexity enterprise SSO, role-based access control, and organization
+  management. Use when implementing SSO integration, configuring role-based permissions,
+  or setting up organization-level controls for Perplexity. Trigger with phrases ...
 ---
-
 # Perplexity Enterprise RBAC
 
 ## Overview

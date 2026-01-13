@@ -1,17 +1,11 @@
 ---
 name: perplexity-deploy-integration
-description: |
-  Deploy Perplexity integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying Perplexity-powered applications to production,
-  configuring platform-specific secrets, or setting up deployment pipelines.
-  Trigger with phrases like "deploy perplexity", "perplexity Vercel",
-  "perplexity production deploy", "perplexity Cloud Run", "perplexity Fly.io".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Perplexity integrations to Vercel, Fly.io, and Cloud Run platforms.
+  Use when deploying Perplexity-powered applications to production, configuring platform-specific
+  secrets, or setting up deployment pipelines. Trigger with phrases like "depl...
 ---
-
 # Perplexity Deploy Integration
 
 ## Overview

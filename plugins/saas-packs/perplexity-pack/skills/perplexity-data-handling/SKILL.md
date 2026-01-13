@@ -1,17 +1,12 @@
 ---
 name: perplexity-data-handling
-description: |
-  Implement Perplexity PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for Perplexity integrations.
-  Trigger with phrases like "perplexity data", "perplexity PII",
-  "perplexity GDPR", "perplexity data retention", "perplexity privacy", "perplexity CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement perplexity pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for perplexity
+  int...
 ---
-
 # Perplexity Data Handling
 
 ## Overview

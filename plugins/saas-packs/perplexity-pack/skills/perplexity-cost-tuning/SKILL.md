@@ -1,17 +1,12 @@
 ---
 name: perplexity-cost-tuning
-description: |
-  Optimize Perplexity costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Perplexity billing, reducing API costs,
-  or implementing usage monitoring and budget alerts.
-  Trigger with phrases like "perplexity cost", "perplexity billing",
-  "reduce perplexity costs", "perplexity pricing", "perplexity expensive", "perplexity budget".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Optimize Perplexity costs through tier selection, sampling, and usage
+  monitoring. Use when analyzing Perplexity billing, reducing API costs, or implementing
+  usage monitoring and budget alerts. Trigger with phrases like "perplexity cost",
+  "perplexi...
 ---
-
 # Perplexity Cost Tuning
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: perplexity-debug-bundle
-description: |
-  Collect Perplexity debug evidence for support tickets and troubleshooting.
-  Use when encountering persistent issues, preparing support tickets,
-  or collecting diagnostic information for Perplexity problems.
-  Trigger with phrases like "perplexity debug", "perplexity support bundle",
-  "collect perplexity logs", "perplexity diagnostic".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Collect perplexity debug evidence for support tickets and troubleshooting.
+  use when encountering persistent issues, preparing support tickets, or collecting
+  diagnostic information for perplexity problems. trigger with phrases like "perplexity
+  debu...
 ---
-
 # Perplexity Debug Bundle
 
 ## Overview
