@@ -1,10 +1,11 @@
 ---
 name: tracking-resource-usage
-description: Track and optimize resource usage across application stack including CPU, memory, disk, and network I/O. Use when identifying bottlenecks or optimizing costs. Trigger with phrases like "track resource usage", "monitor CPU and memory", or "optimize resource allocation".
-version: 1.0.0
-allowed-tools: "Read, Bash, Grep, Glob"
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep, Glob
+description: Track and optimize resource usage across application stack including
+  cpu, memory, disk, and network i/o. use when identifying bottlenecks or optimizing
+  costs. trigger with phrases like "track resource usage", "monitor cpu and memory",
+  or "optimize...
 ---
 # Resource Usage Tracker
 

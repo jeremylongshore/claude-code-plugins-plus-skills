@@ -1,10 +1,11 @@
 ---
 name: validating-performance-budgets
-description: Validate application performance against defined budgets to identify regressions early. Use when checking page load times, bundle sizes, or API response times against thresholds. Trigger with phrases like "validate performance budget", "check performance metrics", or "detect performance regression".
-version: 1.0.0
-allowed-tools: "Read, Write, Edit, Grep, Glob, Bash"
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Validate application performance against defined budgets to identify
+  regressions early. Use when checking page load times, bundle sizes, or API response
+  times against thresholds. Trigger with phrases like "validate performance budget",
+  "check perf...
 ---
 # Performance Budget Validator
 
