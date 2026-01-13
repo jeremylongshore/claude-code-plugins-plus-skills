@@ -1,17 +1,12 @@
 ---
 name: posthog-upgrade-migration
-description: |
-  Analyze, plan, and execute PostHog SDK upgrades with breaking change detection.
-  Use when upgrading PostHog SDK versions, detecting deprecations,
-  or migrating to new API versions.
-  Trigger with phrases like "upgrade posthog", "posthog migration",
-  "posthog breaking changes", "update posthog SDK", "analyze posthog version".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Analyze, plan, and execute PostHog SDK upgrades with breaking change
+  detection. Use when upgrading PostHog SDK versions, detecting deprecations, or migrating
+  to new API versions. Trigger with phrases like "upgrade posthog", "posthog migration",
+  "p...
 ---
-
 # PostHog Upgrade & Migration
 
 ## Overview

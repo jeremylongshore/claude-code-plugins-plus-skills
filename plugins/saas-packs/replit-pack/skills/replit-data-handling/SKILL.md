@@ -1,17 +1,11 @@
 ---
 name: replit-data-handling
-description: |
-  Implement Replit PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for Replit integrations.
-  Trigger with phrases like "replit data", "replit PII",
-  "replit GDPR", "replit data retention", "replit privacy", "replit CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement replit pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for replit integration...
 ---
-
 # Replit Data Handling
 
 ## Overview

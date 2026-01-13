@@ -1,17 +1,12 @@
 ---
 name: replit-ci-integration
-description: |
-  Configure Replit CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating Replit tests into your build process.
-  Trigger with phrases like "replit CI", "replit GitHub Actions",
-  "replit automated tests", "CI replit".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Replit CI/CD integration with GitHub Actions and testing. Use
+  when setting up automated testing, configuring CI pipelines, or integrating Replit
+  tests into your build process. Trigger with phrases like "replit CI", "replit GitHub
+  Actions...
 ---
-
 # Replit CI Integration
 
 ## Overview

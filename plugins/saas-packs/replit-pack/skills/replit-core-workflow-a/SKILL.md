@@ -1,17 +1,11 @@
 ---
 name: replit-core-workflow-a
-description: |
-  Execute Replit primary workflow: Core Workflow A.
-  Use when implementing primary use case,
-  building main features, or core integration tasks.
-  Trigger with phrases like "replit main workflow",
-  "primary task with replit".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: 'Execute replit primary workflow: core workflow a. use when implementing
+  primary use case, building main features, or core integration tasks. trigger with
+  phrases like "replit main workflow", "primary task with replit".'
 ---
-
 # Replit Core Workflow A
 
 ## Overview

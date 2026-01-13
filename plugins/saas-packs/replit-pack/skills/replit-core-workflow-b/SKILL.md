@@ -1,17 +1,11 @@
 ---
 name: replit-core-workflow-b
-description: |
-  Execute Replit secondary workflow: Core Workflow B.
-  Use when implementing secondary use case,
-  or complementing primary workflow.
-  Trigger with phrases like "replit secondary workflow",
-  "secondary task with replit".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: 'Execute replit secondary workflow: core workflow b. use when implementing
+  secondary use case, or complementing primary workflow. trigger with phrases like
+  "replit secondary workflow", "secondary task with replit".'
 ---
-
 # Replit Core Workflow B
 
 ## Overview

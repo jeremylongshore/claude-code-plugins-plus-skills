@@ -1,17 +1,11 @@
 ---
 name: replit-architecture-variants
-description: |
-  Choose and implement Replit validated architecture blueprints for different scales.
-  Use when designing new Replit integrations, choosing between monolith/service/microservice
-  architectures, or planning migration paths for Replit applications.
-  Trigger with phrases like "replit architecture", "replit blueprint",
-  "how to structure replit", "replit project layout", "replit microservice".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Choose and implement replit validated architecture blueprints for different
+  scales. use when designing new replit integrations, choosing between monolith/service/microservice
+  architectures, or planning migration paths for replit applications. trig...
 ---
-
 # Replit Architecture Variants
 
 ## Overview

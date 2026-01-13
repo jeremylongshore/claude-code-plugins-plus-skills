@@ -1,17 +1,12 @@
 ---
 name: replit-advanced-troubleshooting
-description: |
-  Apply Replit advanced debugging techniques for hard-to-diagnose issues.
-  Use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for Replit support escalation.
-  Trigger with phrases like "replit hard bug", "replit mystery error",
-  "replit impossible to debug", "difficult replit issue", "replit deep debug".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Apply replit advanced debugging techniques for hard-to-diagnose issues.
+  use when standard troubleshooting fails, investigating complex race conditions,
+  or preparing evidence bundles for replit support escalation. trigger with phrases
+  like "replit ...
 ---
-
 # Replit Advanced Troubleshooting
 
 ## Overview
