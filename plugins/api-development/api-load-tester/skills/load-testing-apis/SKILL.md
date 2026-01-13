@@ -1,12 +1,14 @@
 ---
-name: load-testing-apis
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute comprehensive load and stress testing to validate api performance
   and scalability. use when validating api performance under load. trigger with phrases
   like "load test the api", "stress test api", or "benchmark api performance".
+name: load-testing-apis
 ---
 # Load Testing Apis
+
+This skill provides automated assistance for load testing apis tasks.
 
 ## Overview
 

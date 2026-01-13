@@ -1,12 +1,14 @@
 ---
-name: rate-limiting-apis
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Implement sophisticated rate limiting with sliding windows, token buckets,
   and quotas. use when protecting apis from excessive requests. trigger with phrases
   like "add rate limiting", "limit api requests", or "implement rate limits".
+name: rate-limiting-apis
 ---
 # Rate Limiting Apis
+
+This skill provides automated assistance for rate limiting apis tasks.
 
 ## Overview
 

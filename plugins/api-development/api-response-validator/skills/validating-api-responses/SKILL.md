@@ -1,12 +1,14 @@
 ---
-name: validating-api-responses
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Validate API responses against schemas to ensure contract compliance
   and data integrity. Use when ensuring API response correctness. Trigger with phrases
   like "validate responses", "check API responses", or "verify response format".
+name: validating-api-responses
 ---
 # Validating Api Responses
+
+This skill provides automated assistance for validating api responses tasks.
 
 ## Overview
 

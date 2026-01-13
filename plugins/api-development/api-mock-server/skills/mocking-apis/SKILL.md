@@ -1,12 +1,14 @@
 ---
-name: mocking-apis
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Generate mock API servers for testing and development with realistic
   response data. Use when creating mock APIs for development and testing. Trigger
   with phrases like "create mock API", "generate API mock", or "setup mock server".
+name: mocking-apis
 ---
 # Mocking Apis
+
+This skill provides automated assistance for mocking apis tasks.
 
 ## Overview
 

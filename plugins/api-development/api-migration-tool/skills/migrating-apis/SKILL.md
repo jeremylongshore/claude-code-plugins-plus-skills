@@ -1,12 +1,14 @@
 ---
-name: migrating-apis
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Implement api migrations between versions, platforms, or frameworks with
   minimal downtime. use when upgrading apis between versions. trigger with phrases
   like "migrate the api", "upgrade api version", or "migrate to new api".
+name: migrating-apis
 ---
 # Migrating Apis
+
+This skill provides automated assistance for migrating apis tasks.
 
 ## Overview
 

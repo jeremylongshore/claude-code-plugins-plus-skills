@@ -1,12 +1,14 @@
 ---
-name: generating-api-sdks
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Generate client SDKs in multiple languages from OpenAPI specifications.
   Use when generating client libraries for API consumption. Trigger with phrases like
   "generate SDK", "create client library", or "build API SDK".
+name: generating-api-sdks
 ---
 # Generating Api Sdks
+
+This skill provides automated assistance for generating api sdks tasks.
 
 ## Overview
 

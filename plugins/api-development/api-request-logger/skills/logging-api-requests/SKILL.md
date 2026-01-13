@@ -1,12 +1,14 @@
 ---
-name: logging-api-requests
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Monitor and log API requests with correlation IDs, performance metrics,
   and security audit trails. Use when auditing API requests and responses. Trigger
   with phrases like "log API requests", "add API logging", or "track API calls".
+name: logging-api-requests
 ---
 # Logging Api Requests
+
+This skill provides automated assistance for logging api requests tasks.
 
 ## Overview
 

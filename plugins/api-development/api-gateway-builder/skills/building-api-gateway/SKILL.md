@@ -1,12 +1,14 @@
 ---
-name: building-api-gateway
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Create API gateways with routing, load balancing, rate limiting, and
   authentication. Use when routing and managing multiple API services. Trigger with
   phrases like "build API gateway", "create API router", or "setup API gateway".
+name: building-api-gateway
 ---
 # Building Api Gateway
+
+This skill provides automated assistance for building api gateway tasks.
 
 ## Overview
 

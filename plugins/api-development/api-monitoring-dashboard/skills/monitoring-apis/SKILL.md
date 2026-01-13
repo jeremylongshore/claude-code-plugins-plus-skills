@@ -1,12 +1,14 @@
 ---
-name: monitoring-apis
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Build real-time API monitoring dashboards with metrics, alerts, and health
   checks. Use when tracking API health and performance metrics. Trigger with phrases
   like "monitor the API", "add API metrics", or "setup API monitoring".
+name: monitoring-apis
 ---
 # Monitoring Apis
+
+This skill provides automated assistance for monitoring apis tasks.
 
 ## Overview
 

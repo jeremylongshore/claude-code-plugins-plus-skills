@@ -1,12 +1,14 @@
 ---
-name: validating-api-schemas
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Validate API schemas against OpenAPI, JSON Schema, and GraphQL specifications.
   Use when validating API schemas and contracts. Trigger with phrases like "validate
   API schema", "check OpenAPI spec", or "verify schema".
+name: validating-api-schemas
 ---
 # Validating Api Schemas
+
+This skill provides automated assistance for validating api schemas tasks.
 
 ## Overview
 
