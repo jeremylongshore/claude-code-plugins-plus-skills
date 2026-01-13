@@ -1,17 +1,12 @@
 ---
 name: firecrawl-performance-tuning
-description: |
-  Optimize FireCrawl API performance with caching, batching, and connection pooling.
-  Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for FireCrawl integrations.
-  Trigger with phrases like "firecrawl performance", "optimize firecrawl",
-  "firecrawl latency", "firecrawl caching", "firecrawl slow", "firecrawl batch".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize FireCrawl API performance with caching, batching, and connection
+  pooling. Use when experiencing slow API responses, implementing caching strategies,
+  or optimizing request throughput for FireCrawl integrations. Trigger with phrases
+  like "f...
 ---
-
 # FireCrawl Performance Tuning
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: firecrawl-load-scale
-description: |
-  Implement FireCrawl load testing, auto-scaling, and capacity planning strategies.
-  Use when running performance tests, configuring horizontal scaling,
-  or planning capacity for FireCrawl integrations.
-  Trigger with phrases like "firecrawl load test", "firecrawl scale",
-  "firecrawl performance test", "firecrawl capacity", "firecrawl k6", "firecrawl benchmark".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement firecrawl load testing, auto-scaling, and capacity planning
+  strategies. use when running performance tests, configuring horizontal scaling,
+  or planning capacity for firecrawl integrations. trigger with phrases like "firecrawl
+  load test",...
 ---
-
 # FireCrawl Load & Scale
 
 ## Overview

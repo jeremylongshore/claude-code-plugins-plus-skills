@@ -1,17 +1,12 @@
 ---
 name: firecrawl-install-auth
-description: |
-  Install and configure FireCrawl SDK/CLI authentication.
-  Use when setting up a new FireCrawl integration, configuring API keys,
-  or initializing FireCrawl in your project.
-  Trigger with phrases like "install firecrawl", "setup firecrawl",
-  "firecrawl auth", "configure firecrawl API key".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Install and configure firecrawl sdk/cli authentication. use when setting
+  up a new firecrawl integration, configuring api keys, or initializing firecrawl
+  in your project. trigger with phrases like "install firecrawl", "setup firecrawl",
+  "firecrawl ...
 ---
-
 # FireCrawl Install & Auth
 
 ## Overview

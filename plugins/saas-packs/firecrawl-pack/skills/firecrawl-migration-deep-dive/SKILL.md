@@ -1,17 +1,12 @@
 ---
 name: firecrawl-migration-deep-dive
-description: |
-  Execute FireCrawl major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from FireCrawl, performing major version upgrades,
-  or re-platforming existing integrations to FireCrawl.
-  Trigger with phrases like "migrate firecrawl", "firecrawl migration",
-  "switch to firecrawl", "firecrawl replatform", "firecrawl upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute firecrawl major re-architecture and migration strategies with
+  strangler fig pattern. use when migrating to or from firecrawl, performing major
+  version upgrades, or re-platforming existing integrations to firecrawl. trigger
+  with phrases lik...
 ---
-
 # FireCrawl Migration Deep Dive
 
 ## Overview

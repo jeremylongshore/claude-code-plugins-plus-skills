@@ -1,17 +1,12 @@
 ---
 name: firecrawl-incident-runbook
-description: |
-  Execute FireCrawl incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to FireCrawl-related outages, investigating errors,
-  or running post-incident reviews for FireCrawl integration failures.
-  Trigger with phrases like "firecrawl incident", "firecrawl outage",
-  "firecrawl down", "firecrawl on-call", "firecrawl emergency", "firecrawl broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute firecrawl incident response procedures with triage, mitigation,
+  and postmortem. use when responding to firecrawl-related outages, investigating
+  errors, or running post-incident reviews for firecrawl integration failures. trigger
+  with phras...
 ---
-
 # FireCrawl Incident Runbook
 
 ## Overview

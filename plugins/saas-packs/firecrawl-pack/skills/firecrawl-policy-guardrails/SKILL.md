@@ -1,17 +1,12 @@
 ---
 name: firecrawl-policy-guardrails
-description: |
-  Implement FireCrawl lint rules, policy enforcement, and automated guardrails.
-  Use when setting up code quality rules for FireCrawl integrations, implementing
-  pre-commit hooks, or configuring CI policy checks for FireCrawl best practices.
-  Trigger with phrases like "firecrawl policy", "firecrawl lint",
-  "firecrawl guardrails", "firecrawl best practices check", "firecrawl eslint".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement firecrawl lint rules, policy enforcement, and automated guardrails.
+  use when setting up code quality rules for firecrawl integrations, implementing
+  pre-commit hooks, or configuring ci policy checks for firecrawl best practices.
+  trigger w...
 ---
-
 # FireCrawl Policy & Guardrails
 
 ## Overview

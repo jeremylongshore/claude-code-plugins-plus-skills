@@ -1,17 +1,11 @@
 ---
 name: firecrawl-multi-env-setup
-description: |
-  Configure FireCrawl across development, staging, and production environments.
-  Use when setting up multi-environment deployments, configuring per-environment secrets,
-  or implementing environment-specific FireCrawl configurations.
-  Trigger with phrases like "firecrawl environments", "firecrawl staging",
-  "firecrawl dev prod", "firecrawl environment setup", "firecrawl config by env".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure FireCrawl across development, staging, and production environments.
+  Use when setting up multi-environment deployments, configuring per-environment secrets,
+  or implementing environment-specific FireCrawl configurations. Trigger with phras...
 ---
-
 # FireCrawl Multi-Environment Setup
 
 ## Overview

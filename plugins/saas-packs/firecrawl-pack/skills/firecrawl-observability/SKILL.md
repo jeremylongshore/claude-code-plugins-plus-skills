@@ -1,17 +1,12 @@
 ---
 name: firecrawl-observability
-description: |
-  Set up comprehensive observability for FireCrawl integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for FireCrawl operations, setting up dashboards,
-  or configuring alerting for FireCrawl integration health.
-  Trigger with phrases like "firecrawl monitoring", "firecrawl metrics",
-  "firecrawl observability", "monitor firecrawl", "firecrawl alerts", "firecrawl tracing".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Set up comprehensive observability for firecrawl integrations with metrics,
+  traces, and alerts. use when implementing monitoring for firecrawl operations, setting
+  up dashboards, or configuring alerting for firecrawl integration health. trigger
+  wit...
 ---
-
 # FireCrawl Observability
 
 ## Overview
