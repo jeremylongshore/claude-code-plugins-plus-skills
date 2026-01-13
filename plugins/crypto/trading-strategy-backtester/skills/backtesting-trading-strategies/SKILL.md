@@ -1,16 +1,12 @@
 ---
 name: backtesting-trading-strategies
-description: |
-  Test backtest crypto trading strategies against historical data with performance metrics.
-  Use when validating trading strategies with historical data.
-  Trigger with phrases like "backtest strategy", "test trading signals", or "validate approach".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Test backtest crypto trading strategies against historical data with
+  performance metrics. Use when validating trading strategies with historical data.
+  Trigger with phrases like "backtest strategy", "test trading signals", or "validate
+  approach".
 ---
-
 # Backtesting Trading Strategies
 
 ## Overview

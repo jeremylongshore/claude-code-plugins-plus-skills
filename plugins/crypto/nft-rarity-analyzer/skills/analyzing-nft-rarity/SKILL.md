@@ -1,16 +1,11 @@
 ---
 name: analyzing-nft-rarity
-description: |
-  Execute calculate NFT rarity scores and floor prices across collections and marketplaces.
-  Use when analyzing NFT collections and rarity.
-  Trigger with phrases like "check NFT rarity", "analyze collection", or "calculate floor price".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute calculate nft rarity scores and floor prices across collections
+  and marketplaces. use when analyzing nft collections and rarity. trigger with phrases
+  like "check nft rarity", "analyze collection", or "calculate floor price".
 ---
-
 # Analyzing Nft Rarity
 
 ## Overview

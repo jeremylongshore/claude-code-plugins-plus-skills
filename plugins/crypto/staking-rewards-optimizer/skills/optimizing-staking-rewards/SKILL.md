@@ -1,16 +1,11 @@
 ---
 name: optimizing-staking-rewards
-description: |
-  Execute compare staking rewards across validators and networks with ROI calculations.
-  Use when optimizing proof-of-stake rewards.
-  Trigger with phrases like "optimize staking", "compare validators", or "calculate rewards".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute compare staking rewards across validators and networks with roi
+  calculations. use when optimizing proof-of-stake rewards. trigger with phrases like
+  "optimize staking", "compare validators", or "calculate rewards".
 ---
-
 # Optimizing Staking Rewards
 
 ## Overview

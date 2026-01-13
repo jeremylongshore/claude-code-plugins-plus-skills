@@ -1,16 +1,11 @@
 ---
 name: monitoring-whale-activity
-description: |
-  Track large crypto transactions and whale wallet movements across blockchains.
-  Use when tracking large holder movements.
-  Trigger with phrases like "track whales", "monitor large transfers", or "check whale activity".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Track large crypto transactions and whale wallet movements across blockchains.
+  use when tracking large holder movements. trigger with phrases like "track whales",
+  "monitor large transfers", or "check whale activity".
 ---
-
 # Monitoring Whale Activity
 
 ## Overview

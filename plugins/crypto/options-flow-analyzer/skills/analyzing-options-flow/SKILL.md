@@ -1,16 +1,11 @@
 ---
 name: analyzing-options-flow
-description: |
-  Track crypto options flow to identify institutional positioning and market sentiment.
-  Use when tracking institutional options flow.
-  Trigger with phrases like "track options flow", "analyze derivatives", or "check institutional".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Track crypto options flow to identify institutional positioning and market
+  sentiment. use when tracking institutional options flow. trigger with phrases like
+  "track options flow", "analyze derivatives", or "check institutional".
 ---
-
 # Analyzing Options Flow
 
 ## Overview

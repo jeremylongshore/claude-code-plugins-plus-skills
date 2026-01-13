@@ -1,16 +1,11 @@
 ---
 name: analyzing-on-chain-data
-description: |
-  Process perform on-chain analysis including whale tracking, token flows, and network activity.
-  Use when performing crypto analysis.
-  Trigger with phrases like "analyze crypto", "check blockchain", or "monitor market".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Process perform on-chain analysis including whale tracking, token flows,
+  and network activity. Use when performing crypto analysis. Trigger with phrases
+  like "analyze crypto", "check blockchain", or "monitor market".
 ---
-
 # Analyzing On Chain Data
 
 ## Overview
