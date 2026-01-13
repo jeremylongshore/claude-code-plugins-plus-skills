@@ -1,13 +1,15 @@
 ---
-name: klingai-team-setup
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Configure Kling AI for team and organization use. Use when setting up
   shared access, managing team API keys, or organizing projects. Trigger with phrases
   like 'klingai team', 'kling ai organization', 'klingai multi-user', 'shared klingai
   access'.
+name: klingai-team-setup
 ---
 # Klingai Team Setup
+
+This skill provides automated assistance for klingai team setup tasks.
 
 ## Overview
 

@@ -1,12 +1,14 @@
 ---
-name: klingai-usage-analytics
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Build usage analytics and reporting for Kling AI. Use when tracking generation
   patterns, analyzing costs, or creating dashboards. Trigger with phrases like 'klingai
   analytics', 'kling ai usage report', 'klingai metrics', 'video generation stats'.
+name: klingai-usage-analytics
 ---
 # Klingai Usage Analytics
+
+This skill provides automated assistance for klingai usage analytics tasks.
 
 ## Overview
 

@@ -1,12 +1,14 @@
 ---
-name: klingai-upgrade-migration
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute migrate and upgrade kling ai sdk versions safely. use when updating
   dependencies or migrating configurations. trigger with phrases like 'klingai upgrade',
   'kling ai migration', 'update klingai', 'klingai breaking changes'.
+name: klingai-upgrade-migration
 ---
 # Klingai Upgrade Migration
+
+This skill provides automated assistance for klingai upgrade migration tasks.
 
 ## Overview
 

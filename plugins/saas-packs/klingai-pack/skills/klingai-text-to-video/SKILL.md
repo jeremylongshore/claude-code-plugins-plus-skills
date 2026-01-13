@@ -1,12 +1,14 @@
 ---
-name: klingai-text-to-video
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Generate videos from text prompts with Kling AI. Use when creating videos
   from descriptions or learning prompt techniques. Trigger with phrases like 'kling
   ai text to video', 'klingai prompt', 'generate video from text', 'text2video kling'.
+name: klingai-text-to-video
 ---
 # Klingai Text To Video
+
+This skill provides automated assistance for klingai text to video tasks.
 
 ## Overview
 

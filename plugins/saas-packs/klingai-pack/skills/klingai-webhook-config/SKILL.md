@@ -1,13 +1,15 @@
 ---
-name: klingai-webhook-config
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Configure webhooks for Kling AI job completion notifications. Use when
   building event-driven video pipelines or need real-time job status updates. Trigger
   with phrases like 'klingai webhook', 'kling ai callback', 'klingai notifications',
   'video co...
+name: klingai-webhook-config
 ---
 # Kling AI Webhook Configuration
+
+This skill provides automated assistance for klingai webhook config tasks.
 
 ## Overview
 
