@@ -1,16 +1,11 @@
 ---
 name: optimizing-defi-yields
-description: |
-  Execute find and compare DeFi yield opportunities across protocols with APY calculations.
-  Use when finding optimal DeFi yield opportunities.
-  Trigger with phrases like "find yield", "optimize returns", or "compare APY".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute find and compare defi yield opportunities across protocols with
+  apy calculations. use when finding optimal defi yield opportunities. trigger with
+  phrases like "find yield", "optimize returns", or "compare apy".
 ---
-
 # Optimizing Defi Yields
 
 ## Overview

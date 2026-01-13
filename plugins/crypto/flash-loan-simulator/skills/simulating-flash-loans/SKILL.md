@@ -1,16 +1,11 @@
 ---
 name: simulating-flash-loans
-description: |
-  Execute simulate flash loan arbitrage strategies and profitability across DeFi protocols.
-  Use when performing crypto analysis.
-  Trigger with phrases like "analyze crypto", "check blockchain", or "monitor market".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute simulate flash loan arbitrage strategies and profitability across
+  defi protocols. use when performing crypto analysis. trigger with phrases like "analyze
+  crypto", "check blockchain", or "monitor market".
 ---
-
 # Simulating Flash Loans
 
 ## Overview
