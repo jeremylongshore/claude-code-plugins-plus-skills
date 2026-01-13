@@ -1,17 +1,12 @@
 ---
 name: retellai-upgrade-migration
-description: |
-  Analyze, plan, and execute Retell AI SDK upgrades with breaking change detection.
-  Use when upgrading Retell AI SDK versions, detecting deprecations,
-  or migrating to new API versions.
-  Trigger with phrases like "upgrade retellai", "retellai migration",
-  "retellai breaking changes", "update retellai SDK", "analyze retellai version".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Analyze, plan, and execute Retell AI SDK upgrades with breaking change
+  detection. Use when upgrading Retell AI SDK versions, detecting deprecations, or
+  migrating to new API versions. Trigger with phrases like "upgrade retellai", "retellai
+  migratio...
 ---
-
 # Retell AI Upgrade & Migration
 
 ## Overview

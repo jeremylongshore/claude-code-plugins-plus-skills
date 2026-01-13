@@ -1,17 +1,12 @@
 ---
 name: sentry-debug-bundle
-description: |
-  Execute collect debug information for Sentry support tickets.
-  Use when preparing support requests, debugging complex issues,
-  or gathering diagnostic information.
-  Trigger with phrases like "sentry debug info", "sentry support ticket",
-  "gather sentry diagnostics", "sentry debug bundle".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Execute collect debug information for sentry support tickets. use when
+  preparing support requests, debugging complex issues, or gathering diagnostic information.
+  trigger with phrases like "sentry debug info", "sentry support ticket", "gather
+  sentr...
 ---
-
 # Sentry Debug Bundle
 
 ## Prerequisites

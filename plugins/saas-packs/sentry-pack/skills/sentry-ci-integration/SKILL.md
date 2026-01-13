@@ -1,17 +1,12 @@
 ---
 name: sentry-ci-integration
-description: |
-  Manage integrate Sentry with CI/CD pipelines.
-  Use when setting up GitHub Actions, GitLab CI, or other CI systems
-  with Sentry releases and source maps.
-  Trigger with phrases like "sentry github actions", "sentry CI",
-  "sentry pipeline", "automate sentry releases".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Manage integrate Sentry with CI/CD pipelines. Use when setting up GitHub
+  Actions, GitLab CI, or other CI systems with Sentry releases and source maps. Trigger
+  with phrases like "sentry github actions", "sentry CI", "sentry pipeline", "automate
+  sen...
 ---
-
 # Sentry Ci Integration
 
 ## Prerequisites

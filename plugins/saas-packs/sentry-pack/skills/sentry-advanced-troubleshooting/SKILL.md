@@ -1,18 +1,12 @@
 ---
-name: "sentry-advanced-troubleshooting"
-description: |
-  Execute advanced Sentry troubleshooting techniques.
-  Use when debugging complex SDK issues, missing events,
-  source map problems, or performance anomalies.
-  Trigger with phrases like "sentry not working", "debug sentry",
-  "sentry events missing", "fix sentry issues".
-  
-allowed-tools: "Read, Write, Edit, Grep, Bash"
-version: 1.0.0
+name: sentry-advanced-troubleshooting
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit, Grep, Bash
+description: Execute advanced sentry troubleshooting techniques. use when debugging
+  complex sdk issues, missing events, source map problems, or performance anomalies.
+  trigger with phrases like "sentry not working", "debug sentry", "sentry events missing",
+  "fix...
 ---
-
 # Sentry Advanced Troubleshooting
 
 ## Prerequisites

@@ -1,17 +1,12 @@
 ---
 name: retellai-webhooks-events
-description: |
-  Implement Retell AI webhook signature validation and event handling.
-  Use when setting up webhook endpoints, implementing signature verification,
-  or handling Retell AI event notifications securely.
-  Trigger with phrases like "retellai webhook", "retellai events",
-  "retellai webhook signature", "handle retellai events", "retellai notifications".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement retell ai webhook signature validation and event handling.
+  use when setting up webhook endpoints, implementing signature verification, or handling
+  retell ai event notifications securely. trigger with phrases like "retellai webhook",
+  "ret...
 ---
-
 # Retell AI Webhooks & Events
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: sentry-common-errors
-description: |
-  Execute troubleshoot common Sentry integration issues and fixes.
-  Use when encountering Sentry errors, missing events,
-  or configuration problems.
-  Trigger with phrases like "sentry not working", "sentry errors missing",
-  "fix sentry", "sentry troubleshoot".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute troubleshoot common sentry integration issues and fixes. use
+  when encountering sentry errors, missing events, or configuration problems. trigger
+  with phrases like "sentry not working", "sentry errors missing", "fix sentry", "sentry
+  trouble...
 ---
-
 # Sentry Common Errors
 
 ## Prerequisites
