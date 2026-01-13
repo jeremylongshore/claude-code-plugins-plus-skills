@@ -1,17 +1,12 @@
 ---
 name: vercel-performance-tuning
-description: |
-  Optimize Vercel API performance with caching, batching, and connection pooling.
-  Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Vercel integrations.
-  Trigger with phrases like "vercel performance", "optimize vercel",
-  "vercel latency", "vercel caching", "vercel slow", "vercel batch".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize Vercel API performance with caching, batching, and connection
+  pooling. Use when experiencing slow API responses, implementing caching strategies,
+  or optimizing request throughput for Vercel integrations. Trigger with phrases like
+  "vercel ...
 ---
-
 # Vercel Performance Tuning
 
 ## Prerequisites

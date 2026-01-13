@@ -1,17 +1,11 @@
 ---
 name: vercel-migration-deep-dive
-description: |
-  Execute Vercel major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from Vercel, performing major version upgrades,
-  or re-platforming existing integrations to Vercel.
-  Trigger with phrases like "migrate vercel", "vercel migration",
-  "switch to vercel", "vercel replatform", "vercel upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute vercel major re-architecture and migration strategies with strangler
+  fig pattern. use when migrating to or from vercel, performing major version upgrades,
+  or re-platforming existing integrations to vercel. trigger with phrases like "migrat...
 ---
-
 # Vercel Migration Deep Dive
 
 ## Prerequisites

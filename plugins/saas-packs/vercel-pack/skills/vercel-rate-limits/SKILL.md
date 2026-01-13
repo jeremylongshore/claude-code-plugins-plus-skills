@@ -1,17 +1,12 @@
 ---
 name: vercel-rate-limits
-description: |
-  Implement Vercel rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for Vercel.
-  Trigger with phrases like "vercel rate limit", "vercel throttling",
-  "vercel 429", "vercel retry", "vercel backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement vercel rate limiting, backoff, and idempotency patterns. use
+  when handling rate limit errors, implementing retry logic, or optimizing api request
+  throughput for vercel. trigger with phrases like "vercel rate limit", "vercel throttling",
+  ...
 ---
-
 # Vercel Rate Limits
 
 ## Prerequisites

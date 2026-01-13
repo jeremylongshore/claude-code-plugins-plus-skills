@@ -1,17 +1,11 @@
 ---
 name: vercel-prod-checklist
-description: |
-  Execute Vercel production deployment checklist and rollback procedures.
-  Use when deploying Vercel integrations to production, preparing for launch,
-  or implementing go-live procedures.
-  Trigger with phrases like "vercel production", "deploy vercel",
-  "vercel go-live", "vercel launch checklist".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Execute vercel production deployment checklist and rollback procedures.
+  use when deploying vercel integrations to production, preparing for launch, or implementing
+  go-live procedures. trigger with phrases like "vercel production", "deploy vercel",...
 ---
-
 # Vercel Prod Checklist
 
 ## Prerequisites

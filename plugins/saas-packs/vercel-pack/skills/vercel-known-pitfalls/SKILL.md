@@ -1,17 +1,12 @@
 ---
 name: vercel-known-pitfalls
-description: |
-  Execute identify and avoid Vercel anti-patterns and common integration mistakes.
-  Use when reviewing Vercel code for issues, onboarding new developers,
-  or auditing existing Vercel integrations for best practices violations.
-  Trigger with phrases like "vercel mistakes", "vercel anti-patterns",
-  "vercel pitfalls", "vercel what not to do", "vercel code review".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Execute identify and avoid vercel anti-patterns and common integration
+  mistakes. use when reviewing vercel code for issues, onboarding new developers,
+  or auditing existing vercel integrations for best practices violations. trigger
+  with phrases lik...
 ---
-
 # Vercel Known Pitfalls
 
 ## Prerequisites

@@ -1,17 +1,11 @@
 ---
 name: vercel-policy-guardrails
-description: |
-  Implement Vercel lint rules, policy enforcement, and automated guardrails.
-  Use when setting up code quality rules for Vercel integrations, implementing
-  pre-commit hooks, or configuring CI policy checks for Vercel best practices.
-  Trigger with phrases like "vercel policy", "vercel lint",
-  "vercel guardrails", "vercel best practices check", "vercel eslint".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement vercel lint rules, policy enforcement, and automated guardrails.
+  use when setting up code quality rules for vercel integrations, implementing pre-commit
+  hooks, or configuring ci policy checks for vercel best practices. trigger with phras...
 ---
-
 # Vercel Policy Guardrails
 
 ## Prerequisites

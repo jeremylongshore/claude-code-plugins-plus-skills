@@ -1,17 +1,12 @@
 ---
 name: vercel-load-scale
-description: |
-  Implement Vercel load testing, auto-scaling, and capacity planning strategies.
-  Use when running performance tests, configuring horizontal scaling,
-  or planning capacity for Vercel integrations.
-  Trigger with phrases like "vercel load test", "vercel scale",
-  "vercel performance test", "vercel capacity", "vercel k6", "vercel benchmark".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement vercel load testing, auto-scaling, and capacity planning strategies.
+  use when running performance tests, configuring horizontal scaling, or planning
+  capacity for vercel integrations. trigger with phrases like "vercel load test",
+  "vercel ...
 ---
-
 # Vercel Load Scale
 
 ## Prerequisites

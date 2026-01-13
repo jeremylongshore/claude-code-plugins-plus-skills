@@ -1,17 +1,12 @@
 ---
 name: vercel-observability
-description: |
-  Execute set up comprehensive observability for Vercel integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for Vercel operations, setting up dashboards,
-  or configuring alerting for Vercel integration health.
-  Trigger with phrases like "vercel monitoring", "vercel metrics",
-  "vercel observability", "monitor vercel", "vercel alerts", "vercel tracing".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Execute set up comprehensive observability for vercel integrations with
+  metrics, traces, and alerts. use when implementing monitoring for vercel operations,
+  setting up dashboards, or configuring alerting for vercel integration health. trigger
+  with...
 ---
-
 # Vercel Observability
 
 ## Prerequisites
