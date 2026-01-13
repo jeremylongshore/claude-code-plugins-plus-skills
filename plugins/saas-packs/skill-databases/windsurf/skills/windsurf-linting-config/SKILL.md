@@ -1,13 +1,15 @@
 ---
-name: windsurf-linting-config
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Configure and enforce code quality with AI-assisted linting. Activate
   when users mention "configure linting", "eslint setup", "code quality rules", "linting
   configuration", or "code standards". Handles linting tool configuration. Use when
   configur...
+name: windsurf-linting-config
 ---
 # Windsurf Linting Config
+
+This skill provides automated assistance for windsurf linting config tasks.
 
 ## Overview
 

@@ -1,13 +1,15 @@
 ---
-name: windsurf-refactoring-large
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep, Glob
+license: MIT
 description: Manage large-scale refactoring with Cascade coordination. Activate when
   users mention "large refactoring", "codebase migration", "architecture refactor",
   "major refactoring", or "system-wide changes". Handles complex refactoring operations.
   Use wh...
+name: windsurf-refactoring-large
 ---
 # Windsurf Refactoring Large
+
+This skill provides automated assistance for windsurf refactoring large tasks.
 
 ## Overview
 

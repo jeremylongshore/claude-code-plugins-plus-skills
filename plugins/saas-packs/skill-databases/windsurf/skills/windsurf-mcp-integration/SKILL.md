@@ -1,13 +1,15 @@
 ---
-name: windsurf-mcp-integration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Manage integrate MCP servers with Windsurf for extended capabilities.
   Activate when users mention "mcp integration", "model context protocol", "external
   tools", "mcp server", or "cascade tools". Handles MCP server configuration and integration.
   Us...
+name: windsurf-mcp-integration
 ---
 # Windsurf Mcp Integration
+
+This skill provides automated assistance for windsurf mcp integration tasks.
 
 ## Overview
 

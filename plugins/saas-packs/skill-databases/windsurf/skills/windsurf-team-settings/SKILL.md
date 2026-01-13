@@ -1,13 +1,15 @@
 ---
-name: windsurf-team-settings
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Manage team-wide Windsurf settings and AI policies. Activate when users
   mention "team settings", "organization config", "team policies", "shared settings",
   or "team standardization". Handles team configuration management. Use when working
   with win...
+name: windsurf-team-settings
 ---
 # Windsurf Team Settings
+
+This skill provides automated assistance for windsurf team settings tasks.
 
 ## Overview
 

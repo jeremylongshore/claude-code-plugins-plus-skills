@@ -1,13 +1,15 @@
 ---
-name: windsurf-theme-customization
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Configure Windsurf themes and visual settings for accessibility. Activate
   when users mention "change theme", "customize colors", "accessibility settings",
   "visual preferences", or "dark mode". Handles theme configuration and accessibility
   complian...
+name: windsurf-theme-customization
 ---
 # Windsurf Theme Customization
+
+This skill provides automated assistance for windsurf theme customization tasks.
 
 ## Overview
 

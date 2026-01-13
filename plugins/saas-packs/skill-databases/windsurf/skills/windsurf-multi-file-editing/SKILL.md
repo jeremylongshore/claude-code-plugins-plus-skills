@@ -1,13 +1,15 @@
 ---
-name: windsurf-multi-file-editing
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob
+license: MIT
 description: Manage multi-file edits with Cascade coordination. Activate when users
   mention "multi-file edit", "edit multiple files", "cross-file changes", "refactor
   across files", or "batch modifications". Handles coordinated multi-file operations.
   Use when w...
+name: windsurf-multi-file-editing
 ---
 # Windsurf Multi File Editing
+
+This skill provides automated assistance for windsurf multi file editing tasks.
 
 ## Overview
 

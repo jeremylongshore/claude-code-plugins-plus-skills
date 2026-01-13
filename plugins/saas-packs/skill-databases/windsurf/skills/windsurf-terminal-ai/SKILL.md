@@ -1,13 +1,15 @@
 ---
-name: windsurf-terminal-ai
-license: MIT
 allowed-tools: Read, Bash, Grep
+license: MIT
 description: Execute leverage ai-assisted terminal commands and debugging. activate
   when users mention "terminal help", "command suggestion", "debug terminal", "shell
   assistance", or "cli help". handles ai-enhanced terminal operations. use when working
   with wi...
+name: windsurf-terminal-ai
 ---
 # Windsurf Terminal Ai
+
+This skill provides automated assistance for windsurf terminal ai tasks.
 
 ## Overview
 

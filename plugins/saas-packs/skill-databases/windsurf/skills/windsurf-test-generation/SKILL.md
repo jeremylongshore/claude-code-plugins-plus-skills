@@ -1,13 +1,15 @@
 ---
-name: windsurf-test-generation
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep, Glob
+license: MIT
 description: Generate comprehensive test suites using Cascade. Activate when users
   mention "generate tests", "test coverage", "write unit tests", "create test suite",
   or "tdd assistance". Handles AI-powered test generation. Use when writing or running
   tests. T...
+name: windsurf-test-generation
 ---
 # Windsurf Test Generation
+
+This skill provides automated assistance for windsurf test generation tasks.
 
 ## Overview
 

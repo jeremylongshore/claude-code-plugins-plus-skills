@@ -1,13 +1,15 @@
 ---
-name: windsurf-performance-profiling
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Profile and optimize code with ai-assisted analysis. activate when users
   mention "performance profiling", "optimize performance", "bottleneck analysis",
   "profiling", or "performance tuning". handles performance analysis and optimization.
   use when ...
+name: windsurf-performance-profiling
 ---
 # Windsurf Performance Profiling
+
+This skill provides automated assistance for windsurf performance profiling tasks.
 
 ## Overview
 

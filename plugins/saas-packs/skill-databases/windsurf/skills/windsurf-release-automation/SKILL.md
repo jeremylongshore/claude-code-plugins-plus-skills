@@ -1,13 +1,15 @@
 ---
-name: windsurf-release-automation
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Execute automate release processes with semantic versioning. activate
   when users mention "release automation", "version bump", "changelog generation",
   "semantic release", or "publish release". handles release engineering automation.
   use when worki...
+name: windsurf-release-automation
 ---
 # Windsurf Release Automation
+
+This skill provides automated assistance for windsurf release automation tasks.
 
 ## Overview
 
