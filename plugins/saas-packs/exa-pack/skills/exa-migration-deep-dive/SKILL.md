@@ -1,198 +1,21 @@
 ---
-name: exa-migration-deep-dive
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Execute exa major re-architecture and migration strategies with strangler
   fig pattern. use when migrating to or from exa, performing major version upgrades,
   or re-platforming existing integrations to exa. trigger with phrases like "migrate
   exa", "...
+name: exa-migration-deep-dive
 ---
 # Exa Migration Deep Dive
 
-## Overview
-Comprehensive guide for migrating to or from Exa, or major version upgrades.
+This skill provides automated assistance for exa migration deep dive tasks.
 
 ## Prerequisites
 - Current system documentation
 - Exa SDK installed
 - Feature flag infrastructure
 - Rollback strategy tested
-
-## Migration Types
-
-| Type | Complexity | Duration | Risk |
-|------|-----------|----------|------|
-| Fresh install | Low | Days | Low |
-| From competitor | Medium | Weeks | Medium |
-| Major version | Medium | Weeks | Medium |
-| Full replatform | High | Months | High |
-
-## Pre-Migration Assessment
-
-### Step 1: Current State Analysis
-```bash
-# Document current implementation
-find . -name "*.ts" -o -name "*.py" | xargs grep -l "exa" > exa-files.txt
-
-# Count integration points
-wc -l exa-files.txt
-
-# Identify dependencies
-npm list | grep exa
-pip freeze | grep exa
-```
-
-### Step 2: Data Inventory
-```typescript
-interface MigrationInventory {
-  dataTypes: string[];
-  recordCounts: Record<string, number>;
-  dependencies: string[];
-  integrationPoints: string[];
-  customizations: string[];
-}
-
-async function assessExaMigration(): Promise<MigrationInventory> {
-  return {
-    dataTypes: await getDataTypes(),
-    recordCounts: await getRecordCounts(),
-    dependencies: await analyzeDependencies(),
-    integrationPoints: await findIntegrationPoints(),
-    customizations: await documentCustomizations(),
-  };
-}
-```
-
-## Migration Strategy: Strangler Fig Pattern
-
-```
-Phase 1: Parallel Run
-┌─────────────┐     ┌─────────────┐
-│   Old       │     │   New       │
-│   System    │ ──▶ │  Exa   │
-│   (100%)    │     │   (0%)      │
-└─────────────┘     └─────────────┘
-
-Phase 2: Gradual Shift
-┌─────────────┐     ┌─────────────┐
-│   Old       │     │   New       │
-│   (50%)     │ ──▶ │   (50%)     │
-└─────────────┘     └─────────────┘
-
-Phase 3: Complete
-┌─────────────┐     ┌─────────────┐
-│   Old       │     │   New       │
-│   (0%)      │ ──▶ │   (100%)    │
-└─────────────┘     └─────────────┘
-```
-
-## Implementation Plan
-
-### Phase 1: Setup (Week 1-2)
-```bash
-# Install Exa SDK
-npm install @exa/sdk
-
-# Configure credentials
-cp .env.example .env.exa
-# Edit with new credentials
-
-# Verify connectivity
-node -e "require('@exa/sdk').ping()"
-```
-
-### Phase 2: Adapter Layer (Week 3-4)
-```typescript
-// src/adapters/exa.ts
-interface ServiceAdapter {
-  create(data: CreateInput): Promise<Resource>;
-  read(id: string): Promise<Resource>;
-  update(id: string, data: UpdateInput): Promise<Resource>;
-  delete(id: string): Promise<void>;
-}
-
-class ExaAdapter implements ServiceAdapter {
-  async create(data: CreateInput): Promise<Resource> {
-    const exaData = this.transform(data);
-    return exaClient.create(exaData);
-  }
-
-  private transform(data: CreateInput): ExaInput {
-    // Map from old format to Exa format
-  }
-}
-```
-
-### Phase 3: Data Migration (Week 5-6)
-```typescript
-async function migrateExaData(): Promise<MigrationResult> {
-  const batchSize = 100;
-  let processed = 0;
-  let errors: MigrationError[] = [];
-
-  for await (const batch of oldSystem.iterateBatches(batchSize)) {
-    try {
-      const transformed = batch.map(transform);
-      await exaClient.batchCreate(transformed);
-      processed += batch.length;
-    } catch (error) {
-      errors.push({ batch, error });
-    }
-
-    // Progress update
-    console.log(`Migrated ${processed} records`);
-  }
-
-  return { processed, errors };
-}
-```
-
-### Phase 4: Traffic Shift (Week 7-8)
-```typescript
-// Feature flag controlled traffic split
-function getServiceAdapter(): ServiceAdapter {
-  const exaPercentage = getFeatureFlag('exa_migration_percentage');
-
-  if (Math.random() * 100 < exaPercentage) {
-    return new ExaAdapter();
-  }
-
-  return new LegacyAdapter();
-}
-```
-
-## Rollback Plan
-
-```bash
-# Immediate rollback
-kubectl set env deployment/app EXA_ENABLED=false
-kubectl rollout restart deployment/app
-
-# Data rollback (if needed)
-./scripts/restore-from-backup.sh --date YYYY-MM-DD
-
-# Verify rollback
-curl https://app.yourcompany.com/health | jq '.services.exa'
-```
-
-## Post-Migration Validation
-
-```typescript
-async function validateExaMigration(): Promise<ValidationReport> {
-  const checks = [
-    { name: 'Data count match', fn: checkDataCounts },
-    { name: 'API functionality', fn: checkApiFunctionality },
-    { name: 'Performance baseline', fn: checkPerformance },
-    { name: 'Error rates', fn: checkErrorRates },
-  ];
-
-  const results = await Promise.all(
-    checks.map(async c => ({ name: c.name, result: await c.fn() }))
-  );
-
-  return { checks: results, passed: results.every(r => r.result.success) };
-}
-```
 
 ## Instructions
 
@@ -215,25 +38,13 @@ Gradually route traffic to new Exa integration.
 - Traffic fully shifted to Exa
 
 ## Error Handling
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| Data mismatch | Transform errors | Validate transform logic |
-| Performance drop | No caching | Add caching layer |
-| Rollback triggered | Errors spiked | Reduce traffic percentage |
-| Validation failed | Missing data | Check batch processing |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Migration Status
-```typescript
-const status = await validateExaMigration();
-console.log(`Migration ${status.passed ? 'PASSED' : 'FAILED'}`);
-status.checks.forEach(c => console.log(`  ${c.name}: ${c.result.success}`));
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Strangler Fig Pattern](https://martinfowler.com/bliki/StranglerFigApplication.html)
 - [Exa Migration Guide](https://docs.exa.com/migration)
-
-## Flagship+ Skills
-For advanced troubleshooting, see `exa-advanced-troubleshooting`.

@@ -1,13 +1,15 @@
 ---
-name: exa-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure exa sdk/cli authentication. use when setting up
   a new exa integration, configuring api keys, or initializing exa in your project.
   trigger with phrases like "install exa", "setup exa", "exa auth", "configure exa
   api key".
+name: exa-install-auth
 ---
 # Exa Install & Auth
+
+This skill provides automated assistance for exa install auth tasks.
 
 ## Overview
 Set up Exa SDK/CLI and configure authentication credentials.

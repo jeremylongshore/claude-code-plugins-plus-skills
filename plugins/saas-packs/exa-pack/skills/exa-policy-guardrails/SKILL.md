@@ -1,212 +1,21 @@
 ---
-name: exa-policy-guardrails
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Implement exa lint rules, policy enforcement, and automated guardrails.
   use when setting up code quality rules for exa integrations, implementing pre-commit
   hooks, or configuring ci policy checks for exa best practices. trigger with phrases
   like "...
+name: exa-policy-guardrails
 ---
-# Exa Policy & Guardrails
+# Exa Policy Guardrails
 
-## Overview
-Automated policy enforcement and guardrails for Exa integrations.
+This skill provides automated assistance for exa policy guardrails tasks.
 
 ## Prerequisites
 - ESLint configured in project
 - Pre-commit hooks infrastructure
 - CI/CD pipeline with policy checks
 - TypeScript for type enforcement
-
-## ESLint Rules
-
-### Custom Exa Plugin
-```javascript
-// eslint-plugin-exa/rules/no-hardcoded-keys.js
-module.exports = {
-  meta: {
-    type: 'problem',
-    docs: {
-      description: 'Disallow hardcoded Exa API keys',
-    },
-    fixable: 'code',
-  },
-  create(context) {
-    return {
-      Literal(node) {
-        if (typeof node.value === 'string') {
-          if (node.value.match(/^sk_(live|test)_[a-zA-Z0-9]{24,}/)) {
-            context.report({
-              node,
-              message: 'Hardcoded Exa API key detected',
-            });
-          }
-        }
-      },
-    };
-  },
-};
-```
-
-### ESLint Configuration
-```javascript
-// .eslintrc.js
-module.exports = {
-  plugins: ['exa'],
-  rules: {
-    'exa/no-hardcoded-keys': 'error',
-    'exa/require-error-handling': 'warn',
-    'exa/use-typed-client': 'warn',
-  },
-};
-```
-
-## Pre-Commit Hooks
-
-```yaml
-# .pre-commit-config.yaml
-repos:
-  - repo: local
-    hooks:
-      - id: exa-secrets-check
-        name: Check for Exa secrets
-        entry: bash -c 'git diff --cached --name-only | xargs grep -l "sk_live_" && exit 1 || exit 0'
-        language: system
-        pass_filenames: false
-
-      - id: exa-config-validate
-        name: Validate Exa configuration
-        entry: node scripts/validate-exa-config.js
-        language: node
-        files: '\.exa\.json$'
-```
-
-## TypeScript Strict Patterns
-
-```typescript
-// Enforce typed configuration
-interface ExaStrictConfig {
-  apiKey: string;  // Required
-  environment: 'development' | 'staging' | 'production';  // Enum
-  timeout: number;  // Required number, not optional
-  retries: number;
-}
-
-// Disallow any in Exa code
-// @ts-expect-error - Using any is forbidden
-const client = new Client({ apiKey: any });
-
-// Prefer this
-const client = new ExaClient(config satisfies ExaStrictConfig);
-```
-
-## Architecture Decision Records
-
-### ADR Template
-```markdown
-# ADR-001: Exa Client Initialization
-
-## Status
-Accepted
-
-## Context
-We need to decide how to initialize the Exa client across our application.
-
-## Decision
-We will use the singleton pattern with lazy initialization.
-
-## Consequences
-- Pro: Single client instance, connection reuse
-- Pro: Easy to mock in tests
-- Con: Global state requires careful lifecycle management
-
-## Enforcement
-- ESLint rule: exa/use-singleton-client
-- CI check: grep for "new ExaClient(" outside allowed files
-```
-
-## Policy-as-Code (OPA)
-
-```rego
-# exa-policy.rego
-package exa
-
-# Deny production API keys in non-production environments
-deny[msg] {
-  input.environment != "production"
-  startswith(input.apiKey, "sk_live_")
-  msg := "Production API keys not allowed in non-production environment"
-}
-
-# Require minimum timeout
-deny[msg] {
-  input.timeout < 10000
-  msg := sprintf("Timeout too low: %d < 10000ms minimum", [input.timeout])
-}
-
-# Require retry configuration
-deny[msg] {
-  not input.retries
-  msg := "Retry configuration is required"
-}
-```
-
-## CI Policy Checks
-
-```yaml
-# .github/workflows/exa-policy.yml
-name: Exa Policy Check
-
-on: [push, pull_request]
-
-jobs:
-  policy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Check for hardcoded secrets
-        run: |
-          if grep -rE "sk_(live|test)_[a-zA-Z0-9]{24,}" --include="*.ts" --include="*.js" .; then
-            echo "ERROR: Hardcoded Exa keys found"
-            exit 1
-          fi
-
-      - name: Validate configuration schema
-        run: |
-          npx ajv validate -s exa-config.schema.json -d config/exa/*.json
-
-      - name: Run ESLint Exa rules
-        run: npx eslint --plugin exa --rule 'exa/no-hardcoded-keys: error' src/
-```
-
-## Runtime Guardrails
-
-```typescript
-// Prevent dangerous operations in production
-const BLOCKED_IN_PROD = ['deleteAll', 'resetData', 'migrateDown'];
-
-function guardExaOperation(operation: string): void {
-  const isProd = process.env.NODE_ENV === 'production';
-
-  if (isProd && BLOCKED_IN_PROD.includes(operation)) {
-    throw new Error(`Operation '${operation}' blocked in production`);
-  }
-}
-
-// Rate limit protection
-function guardRateLimits(requestsInWindow: number): void {
-  const limit = parseInt(process.env.EXA_RATE_LIMIT || '100');
-
-  if (requestsInWindow > limit * 0.9) {
-    console.warn('Approaching Exa rate limit');
-  }
-
-  if (requestsInWindow >= limit) {
-    throw new Error('Exa rate limit exceeded - request blocked');
-  }
-}
-```
 
 ## Instructions
 
@@ -229,24 +38,14 @@ Add production safeguards for dangerous operations.
 - Runtime guardrails active
 
 ## Error Handling
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| ESLint rule not firing | Wrong config | Check plugin registration |
-| Pre-commit skipped | --no-verify | Enforce in CI |
-| Policy false positive | Regex too broad | Narrow pattern match |
-| Guardrail triggered | Actual issue | Fix or whitelist |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick ESLint Check
-```bash
-npx eslint --plugin exa --rule 'exa/no-hardcoded-keys: error' src/
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [ESLint Plugin Development](https://eslint.org/docs/latest/extend/plugins)
 - [Pre-commit Framework](https://pre-commit.com/)
 - [Open Policy Agent](https://www.openpolicyagent.org/)
-
-## Next Steps
-For architecture blueprints, see `exa-architecture-variants`.
