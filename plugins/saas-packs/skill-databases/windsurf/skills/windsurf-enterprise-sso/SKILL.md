@@ -1,13 +1,15 @@
 ---
-name: windsurf-enterprise-sso
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Configure enterprise SSO integration for Windsurf. Activate when users
   mention "sso configuration", "single sign-on", "enterprise authentication", "saml
   setup", or "identity provider". Handles enterprise identity integration. Use when
   working with...
+name: windsurf-enterprise-sso
 ---
 # Windsurf Enterprise Sso
+
+This skill provides automated assistance for windsurf enterprise sso tasks.
 
 ## Overview
 

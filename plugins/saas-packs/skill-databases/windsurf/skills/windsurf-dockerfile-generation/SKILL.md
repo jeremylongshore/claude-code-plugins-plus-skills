@@ -1,13 +1,15 @@
 ---
-name: windsurf-dockerfile-generation
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Create optimized Dockerfiles with AI-driven best practices. Activate
   when users mention "create dockerfile", "container image", "docker optimization",
   "containerize application", or "docker best practices". Handles Docker configuration
   generation....
+name: windsurf-dockerfile-generation
 ---
 # Windsurf Dockerfile Generation
+
+This skill provides automated assistance for windsurf dockerfile generation tasks.
 
 ## Overview
 

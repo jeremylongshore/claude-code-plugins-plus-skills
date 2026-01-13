@@ -1,13 +1,15 @@
 ---
-name: windsurf-extension-pack
-license: MIT
 allowed-tools: Read, Write, Bash
+license: MIT
 description: Install and configure essential windsurf extensions for productivity.
   activate when users mention "install extensions", "setup windsurf plugins", "configure
   extensions", "extension recommendations", or "productivity extensions". handles
   extension ...
+name: windsurf-extension-pack
 ---
 # Windsurf Extension Pack
+
+This skill provides automated assistance for windsurf extension pack tasks.
 
 ## Overview
 

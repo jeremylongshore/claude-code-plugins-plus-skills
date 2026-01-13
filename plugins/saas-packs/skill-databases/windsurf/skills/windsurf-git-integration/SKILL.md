@@ -1,13 +1,15 @@
 ---
-name: windsurf-git-integration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Configure Git integration with Cascade AI assistance. Activate when users
   mention "git setup", "version control", "commit messages", "branch management",
   or "source control". Handles Git configuration and AI-assisted workflows. Use when
   working wi...
+name: windsurf-git-integration
 ---
 # Windsurf Git Integration
+
+This skill provides automated assistance for windsurf git integration tasks.
 
 ## Overview
 

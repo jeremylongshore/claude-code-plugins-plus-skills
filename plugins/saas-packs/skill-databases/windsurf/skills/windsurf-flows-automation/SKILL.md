@@ -1,13 +1,15 @@
 ---
-name: windsurf-flows-automation
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Create and manage Windsurf Flows for repetitive tasks. Activate when
   users mention "windsurf flows", "task automation", "workflow automation", "repetitive
   tasks", or "process automation". Handles Flow creation and management. Use when
   working with...
+name: windsurf-flows-automation
 ---
 # Windsurf Flows Automation
+
+This skill provides automated assistance for windsurf flows automation tasks.
 
 ## Overview
 

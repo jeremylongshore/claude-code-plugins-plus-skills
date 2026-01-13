@@ -1,13 +1,15 @@
 ---
-name: windsurf-debugging-ai
-license: MIT
 allowed-tools: Read, Grep, Glob, Bash
+license: MIT
 description: Execute use cascade for intelligent debugging and error analysis. activate
   when users mention "debug with ai", "error analysis", "cascade debug", "find bug",
   or "troubleshoot code". handles ai-assisted debugging workflows. use when debugging
   issue...
+name: windsurf-debugging-ai
 ---
 # Windsurf Debugging Ai
+
+This skill provides automated assistance for windsurf debugging ai tasks.
 
 ## Overview
 

@@ -1,13 +1,15 @@
 ---
-name: windsurf-dependency-management
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Analyze and update dependencies with vulnerability scanning. Activate
   when users mention "update dependencies", "security audit", "npm audit", "vulnerability
   scan", or "dependency updates". Handles dependency analysis and updates. Use when
   working...
+name: windsurf-dependency-management
 ---
 # Windsurf Dependency Management
+
+This skill provides automated assistance for windsurf dependency management tasks.
 
 ## Overview
 

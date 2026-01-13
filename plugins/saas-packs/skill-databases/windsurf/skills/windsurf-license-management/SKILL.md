@@ -1,13 +1,15 @@
 ---
-name: windsurf-license-management
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Manage Windsurf licenses and seat allocation. Activate when users mention
   "license management", "seat allocation", "billing optimization", "user licenses",
   or "subscription management". Handles license administration. Use when working with
   windsur...
+name: windsurf-license-management
 ---
 # Windsurf License Management
+
+This skill provides automated assistance for windsurf license management tasks.
 
 ## Overview
 

@@ -1,12 +1,14 @@
 ---
-name: windsurf-keyboard-shortcuts
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Configure custom keyboard shortcuts for Cascade and AI features. Activate
   when users mention "keyboard shortcuts", "keybindings", "hotkeys", "shortcut configuration",
   or "customize shortcuts". Handles keybinding setup and optimization. Use when wo...
+name: windsurf-keyboard-shortcuts
 ---
 # Windsurf Keyboard Shortcuts
+
+This skill provides automated assistance for windsurf keyboard shortcuts tasks.
 
 ## Overview
 
