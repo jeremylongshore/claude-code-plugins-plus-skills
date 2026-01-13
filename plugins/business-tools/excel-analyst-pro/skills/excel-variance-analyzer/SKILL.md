@@ -1,13 +1,15 @@
 ---
-name: excel-variance-analyzer
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Analyze budget vs actual variances in Excel with drill-down and root
   cause analysis. Use when performing variance analysis or explaining budget differences.
   Trigger with phrases like 'excel variance', 'analyze budget variance', 'actual vs
   budget'.
+name: excel-variance-analyzer
 ---
 # Excel Variance Analyzer
+
+This skill provides automated assistance for excel variance analyzer tasks.
 
 ## Overview
 

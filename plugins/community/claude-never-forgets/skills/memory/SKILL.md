@@ -1,13 +1,15 @@
 ---
-name: memory
-license: MIT
 allowed-tools: Read, Write
+license: MIT
 description: Execute extract and use project memories from previous sessions for context-aware
   assistance. use when recalling past decisions, checking project conventions, or
   understanding user preferences. trigger with phrases like "remember when", "like
   befo...
+name: memory
 ---
 # Memory
+
+This skill provides automated assistance for memory tasks.
 
 ## Overview
 

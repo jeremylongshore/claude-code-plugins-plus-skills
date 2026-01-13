@@ -1,11 +1,11 @@
 ---
-name: firebase-vertex-ai
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute firebase platform expert with vertex ai gemini integration for
   authentication, firestore, storage, functions, hosting, and ai-powered features.
   use when asked to "setup firebase", "deploy to firebase", or "integrate vertex ai
   with firebase...
+name: firebase-vertex-ai
 ---
 # Firebase Vertex AI
 

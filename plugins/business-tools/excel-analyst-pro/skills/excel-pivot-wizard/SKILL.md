@@ -1,12 +1,14 @@
 ---
-name: excel-pivot-wizard
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Create advanced Excel pivot tables with calculated fields and slicers.
   Use when building data summaries or creating interactive dashboards. Trigger with
   phrases like 'excel pivot', 'create pivot table', 'data summary'.
+name: excel-pivot-wizard
 ---
 # Excel Pivot Wizard
+
+This skill provides automated assistance for excel pivot wizard tasks.
 
 ## Overview
 

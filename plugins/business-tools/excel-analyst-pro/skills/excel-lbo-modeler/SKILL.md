@@ -1,12 +1,14 @@
 ---
-name: excel-lbo-modeler
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Build leveraged buyout (LBO) models in Excel with debt schedules and
   IRR analysis. Use when structuring LBO transactions or analyzing PE returns. Trigger
   with phrases like 'excel lbo', 'build lbo model', 'calculate pe returns'.
+name: excel-lbo-modeler
 ---
 # Excel LBO Modeler
+
+This skill provides automated assistance for excel lbo modeler tasks.
 
 ## Overview
 

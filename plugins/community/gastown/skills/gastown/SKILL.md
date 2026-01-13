@@ -1,13 +1,15 @@
 ---
-name: gastown
-license: Apache-2.0
 allowed-tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch
+license: Apache-2.0
 description: Manage multi-agent orchestrator for Claude Code. Use when user mentions
   gastown, gas town, gt commands, bd commands, convoys, polecats, crew, rigs, slinging
   work, multi-agent coordination, beads, hooks, molecules, workflows, the witness,
   the mayor...
+name: gastown
 ---
 # Gastown
+
+This skill provides automated assistance for gastown tasks.
 
 ## Overview
 
@@ -52,5 +54,4 @@ See `{baseDir}/references/errors.md` for comprehensive error handling.
 See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
-
 

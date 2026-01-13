@@ -1,10 +1,10 @@
 ---
-name: firestore-operations-manager
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Manage Firebase/Firestore operations including CRUD, queries, batch processing,
   and index/rule guidance. Use when you need to create/update/query Firestore documents,
   run batch writes, troubleshoot missing indexes, or plan migrations. Trigger with...
+name: firestore-operations-manager
 ---
 # Firestore Operations Manager
 
