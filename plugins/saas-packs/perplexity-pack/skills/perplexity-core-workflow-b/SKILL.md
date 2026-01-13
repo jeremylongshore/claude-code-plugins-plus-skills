@@ -1,12 +1,14 @@
 ---
-name: perplexity-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute perplexity secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "perplexity secondary workflow", "secondary task with perplexity".'
+name: perplexity-core-workflow-b
 ---
 # Perplexity Core Workflow B
+
+This skill provides automated assistance for perplexity core workflow b tasks.
 
 ## Overview
 Secondary workflow for Perplexity. Complements the primary workflow.

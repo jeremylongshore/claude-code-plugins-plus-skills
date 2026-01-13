@@ -1,16 +1,15 @@
 ---
-name: perplexity-common-errors
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Diagnose and fix perplexity common errors and exceptions. use when encountering
   perplexity errors, debugging failed requests, or troubleshooting integration issues.
   trigger with phrases like "perplexity error", "fix perplexity", "perplexity not
   wo...
+name: perplexity-common-errors
 ---
 # Perplexity Common Errors
 
-## Overview
-Quick reference for the top 10 most common Perplexity errors and their solutions.
+This skill provides automated assistance for perplexity common errors tasks.
 
 ## Prerequisites
 - Perplexity SDK installed
@@ -35,72 +34,13 @@ Follow the solution steps for your specific error.
 
 ## Error Handling
 
-### Authentication Failed
-**Error Message:**
-```
-Authentication error: Invalid API key
-```
-
-**Cause:** API key is missing, expired, or invalid.
-
-**Solution:**
-```bash
-# Verify API key is set
-echo $PERPLEXITY_API_KEY
-```
-
----
-
-### Rate Limit Exceeded
-**Error Message:**
-```
-Rate limit exceeded. Please retry after X seconds.
-```
-
-**Cause:** Too many requests in a short period.
-
-**Solution:**
-Implement exponential backoff. See `perplexity-rate-limits` skill.
-
----
-
-### Network Timeout
-**Error Message:**
-```
-Request timeout after 30000ms
-```
-
-**Cause:** Network connectivity or server latency issues.
-
-**Solution:**
-```typescript
-// Increase timeout
-const client = new Client({ timeout: 60000 });
-```
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Diagnostic Commands
-```bash
-# Check Perplexity status
-curl -s https://status.perplexity.com
-
-# Verify API connectivity
-curl -I https://api.perplexity.com
-
-# Check local configuration
-env | grep PERPLEXITY
-```
-
-### Escalation Path
-1. Collect evidence with `perplexity-debug-bundle`
-2. Check Perplexity status page
-3. Contact support with request ID
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Perplexity Status Page](https://status.perplexity.com)
 - [Perplexity Support](https://docs.perplexity.com/support)
 - [Perplexity Error Codes](https://docs.perplexity.com/errors)
-
-## Next Steps
-For comprehensive debugging, see `perplexity-debug-bundle`.

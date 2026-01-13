@@ -1,13 +1,15 @@
 ---
-name: perplexity-data-handling
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Implement perplexity pii handling, data retention, and gdpr/ccpa compliance
   patterns. use when handling sensitive data, implementing data redaction, configuring
   retention policies, or ensuring compliance with privacy regulations for perplexity
   int...
+name: perplexity-data-handling
 ---
 # Perplexity Data Handling
+
+This skill provides automated assistance for perplexity data handling tasks.
 
 ## Overview
 Handle sensitive data correctly when integrating with Perplexity.

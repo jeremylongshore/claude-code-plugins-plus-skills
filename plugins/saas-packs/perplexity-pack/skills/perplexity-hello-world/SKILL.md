@@ -1,13 +1,15 @@
 ---
-name: perplexity-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working Perplexity example. Use when starting a new
   Perplexity integration, testing your setup, or learning basic Perplexity API patterns.
   Trigger with phrases like "perplexity hello world", "perplexity example", "perplexity
   quick...
+name: perplexity-hello-world
 ---
 # Perplexity Hello World
+
+This skill provides automated assistance for perplexity hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core Perplexity functionality.
