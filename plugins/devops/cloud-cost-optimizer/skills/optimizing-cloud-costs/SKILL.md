@@ -1,15 +1,10 @@
 ---
 name: optimizing-cloud-costs
-description: |
-  Execute use when you need to work with cloud cost optimization.
-  This skill provides cost analysis and optimization with comprehensive guidance and automation.
-  Trigger with phrases like "optimize costs", "analyze spending",
-  or "reduce costs".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute use when you need to work with cloud cost optimization. this
+  skill provides cost analysis and optimization with comprehensive guidance and automation.
+  trigger with phrases like "optimize costs", "analyze spending", or "reduce costs".
 ---
 # Cloud Cost Optimizer
 

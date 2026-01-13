@@ -1,15 +1,11 @@
 ---
 name: managing-container-registries
-description: |
-  Execute use when you need to work with containerization.
-  This skill provides container management and orchestration with comprehensive guidance and automation.
-  Trigger with phrases like "containerize app", "manage containers",
-  or "orchestrate deployment".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute use when you need to work with containerization. this skill provides
+  container management and orchestration with comprehensive guidance and automation.
+  trigger with phrases like "containerize app", "manage containers", or "orchestrate
+  depl...
 ---
 # Container Registry Manager
 

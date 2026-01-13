@@ -1,15 +1,10 @@
 ---
 name: configuring-auto-scaling-policies
-description: |
-  Configure use when you need to work with auto-scaling.
-  This skill provides auto-scaling configuration with comprehensive guidance and automation.
-  Trigger with phrases like "configure auto-scaling", "set up elastic scaling",
-  or "implement scaling".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Configure use when you need to work with auto-scaling. This skill provides
+  auto-scaling configuration with comprehensive guidance and automation. Trigger with
+  phrases like "configure auto-scaling", "set up elastic scaling", or "implement scaling".
 ---
 # Auto Scaling Configurator
 

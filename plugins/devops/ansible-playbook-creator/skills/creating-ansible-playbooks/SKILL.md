@@ -1,15 +1,11 @@
 ---
 name: creating-ansible-playbooks
-description: |
-  Execute use when you need to work with Ansible automation.
-  This skill provides Ansible playbook creation with comprehensive guidance and automation.
-  Trigger with phrases like "create Ansible playbook", "automate with Ansible",
-  or "configure with Ansible".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute use when you need to work with ansible automation. this skill
+  provides ansible playbook creation with comprehensive guidance and automation. trigger
+  with phrases like "create ansible playbook", "automate with ansible", or "configure
+  with a...
 ---
 # Ansible Playbook Creator
 

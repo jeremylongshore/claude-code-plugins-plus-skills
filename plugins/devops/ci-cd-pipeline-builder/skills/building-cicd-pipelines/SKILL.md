@@ -1,15 +1,11 @@
 ---
 name: building-cicd-pipelines
-description: |
-  Execute use when you need to work with deployment and CI/CD.
-  This skill provides deployment automation and pipeline orchestration with comprehensive guidance and automation.
-  Trigger with phrases like "deploy application", "create pipeline",
-  or "automate deployment".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute use when you need to work with deployment and ci/cd. this skill
+  provides deployment automation and pipeline orchestration with comprehensive guidance
+  and automation. trigger with phrases like "deploy application", "create pipeline",
+  or "au...
 ---
 # Ci Cd Pipeline Builder
 

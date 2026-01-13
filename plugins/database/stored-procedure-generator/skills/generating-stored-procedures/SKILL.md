@@ -1,15 +1,11 @@
 ---
 name: generating-stored-procedures
-description: |
-  Execute use when you need to work with stored procedure generation.
-  This skill provides stored procedure code generation with comprehensive guidance and automation.
-  Trigger with phrases like "generate stored procedures", "create database functions",
-  or "write SQL procedures".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute use when you need to work with stored procedure generation. this
+  skill provides stored procedure code generation with comprehensive guidance and
+  automation. trigger with phrases like "generate stored procedures", "create database
+  functions...
 ---
 # Stored Procedure Generator
 
