@@ -1,10 +1,10 @@
 ---
-name: configuring-auto-scaling-policies
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Configure use when you need to work with auto-scaling. This skill provides
   auto-scaling configuration with comprehensive guidance and automation. Trigger with
   phrases like "configure auto-scaling", "set up elastic scaling", or "implement scaling".
+name: configuring-auto-scaling-policies
 ---
 # Auto Scaling Configurator
 

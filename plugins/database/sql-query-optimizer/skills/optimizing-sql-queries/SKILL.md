@@ -1,11 +1,11 @@
 ---
-name: optimizing-sql-queries
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute use when you need to work with query optimization. this skill
   provides query performance analysis with comprehensive guidance and automation.
   trigger with phrases like "optimize queries", "analyze performance", or "improve
   query speed".
+name: optimizing-sql-queries
 ---
 # Sql Query Optimizer
 

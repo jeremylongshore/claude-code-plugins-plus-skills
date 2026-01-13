@@ -1,11 +1,11 @@
 ---
-name: generating-stored-procedures
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute use when you need to work with stored procedure generation. this
   skill provides stored procedure code generation with comprehensive guidance and
   automation. trigger with phrases like "generate stored procedures", "create database
   functions...
+name: generating-stored-procedures
 ---
 # Stored Procedure Generator
 
