@@ -1,17 +1,12 @@
 ---
 name: firecrawl-debug-bundle
-description: |
-  Collect FireCrawl debug evidence for support tickets and troubleshooting.
-  Use when encountering persistent issues, preparing support tickets,
-  or collecting diagnostic information for FireCrawl problems.
-  Trigger with phrases like "firecrawl debug", "firecrawl support bundle",
-  "collect firecrawl logs", "firecrawl diagnostic".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Collect firecrawl debug evidence for support tickets and troubleshooting.
+  use when encountering persistent issues, preparing support tickets, or collecting
+  diagnostic information for firecrawl problems. trigger with phrases like "firecrawl
+  debug",...
 ---
-
 # FireCrawl Debug Bundle
 
 ## Overview

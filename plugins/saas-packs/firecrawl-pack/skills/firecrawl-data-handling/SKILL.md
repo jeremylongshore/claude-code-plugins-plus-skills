@@ -1,17 +1,12 @@
 ---
 name: firecrawl-data-handling
-description: |
-  Implement FireCrawl PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for FireCrawl integrations.
-  Trigger with phrases like "firecrawl data", "firecrawl PII",
-  "firecrawl GDPR", "firecrawl data retention", "firecrawl privacy", "firecrawl CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement firecrawl pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for firecrawl
+  integ...
 ---
-
 # FireCrawl Data Handling
 
 ## Overview

@@ -1,17 +1,11 @@
 ---
 name: firecrawl-core-workflow-a
-description: |
-  Execute FireCrawl primary workflow: Core Workflow A.
-  Use when implementing primary use case,
-  building main features, or core integration tasks.
-  Trigger with phrases like "firecrawl main workflow",
-  "primary task with firecrawl".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: 'Execute firecrawl primary workflow: core workflow a. use when implementing
+  primary use case, building main features, or core integration tasks. trigger with
+  phrases like "firecrawl main workflow", "primary task with firecrawl".'
 ---
-
 # FireCrawl Core Workflow A
 
 ## Overview

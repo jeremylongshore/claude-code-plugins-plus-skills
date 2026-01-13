@@ -1,17 +1,12 @@
 ---
 name: firecrawl-cost-tuning
-description: |
-  Optimize FireCrawl costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing FireCrawl billing, reducing API costs,
-  or implementing usage monitoring and budget alerts.
-  Trigger with phrases like "firecrawl cost", "firecrawl billing",
-  "reduce firecrawl costs", "firecrawl pricing", "firecrawl expensive", "firecrawl budget".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Optimize FireCrawl costs through tier selection, sampling, and usage
+  monitoring. Use when analyzing FireCrawl billing, reducing API costs, or implementing
+  usage monitoring and budget alerts. Trigger with phrases like "firecrawl cost",
+  "firecrawl b...
 ---
-
 # FireCrawl Cost Tuning
 
 ## Overview

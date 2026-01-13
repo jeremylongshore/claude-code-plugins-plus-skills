@@ -1,17 +1,11 @@
 ---
 name: firecrawl-enterprise-rbac
-description: |
-  Configure FireCrawl enterprise SSO, role-based access control, and organization management.
-  Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for FireCrawl.
-  Trigger with phrases like "firecrawl SSO", "firecrawl RBAC",
-  "firecrawl enterprise", "firecrawl roles", "firecrawl permissions", "firecrawl SAML".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure FireCrawl enterprise SSO, role-based access control, and organization
+  management. Use when implementing SSO integration, configuring role-based permissions,
+  or setting up organization-level controls for FireCrawl. Trigger with phrases li...
 ---
-
 # FireCrawl Enterprise RBAC
 
 ## Overview
