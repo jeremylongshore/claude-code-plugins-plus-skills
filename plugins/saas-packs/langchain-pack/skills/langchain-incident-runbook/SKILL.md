@@ -1,17 +1,12 @@
 ---
 name: langchain-incident-runbook
-description: |
-  Incident response procedures for LangChain production issues.
-  Use when responding to production incidents, diagnosing outages,
-  or implementing emergency procedures for LLM applications.
-  Trigger with phrases like "langchain incident", "langchain outage",
-  "langchain production issue", "langchain emergency", "langchain down".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Incident response procedures for langchain production issues. use when
+  responding to production incidents, diagnosing outages, or implementing emergency
+  procedures for llm applications. trigger with phrases like "langchain incident",
+  "langchain ou...
 ---
-
 # LangChain Incident Runbook
 
 ## Overview

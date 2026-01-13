@@ -1,17 +1,12 @@
 ---
 name: langchain-debug-bundle
-description: |
-  Collect LangChain debug evidence for troubleshooting and support.
-  Use when preparing bug reports, collecting traces,
-  or gathering diagnostic information for complex issues.
-  Trigger with phrases like "langchain debug bundle", "langchain diagnostics",
-  "langchain support info", "collect langchain logs", "langchain trace".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Collect langchain debug evidence for troubleshooting and support. use
+  when preparing bug reports, collecting traces, or gathering diagnostic information
+  for complex issues. trigger with phrases like "langchain debug bundle", "langchain
+  diagnostics...
 ---
-
 # LangChain Debug Bundle
 
 ## Overview

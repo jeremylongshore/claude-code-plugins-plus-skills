@@ -1,17 +1,11 @@
 ---
 name: langchain-local-dev-loop
-description: |
-  Configure LangChain local development workflow with hot reload and testing.
-  Use when setting up development environment, configuring test fixtures,
-  or establishing a rapid iteration workflow for LangChain apps.
-  Trigger with phrases like "langchain dev setup", "langchain local development",
-  "langchain testing", "langchain development workflow".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure LangChain local development workflow with hot reload and testing.
+  Use when setting up development environment, configuring test fixtures, or establishing
+  a rapid iteration workflow for LangChain apps. Trigger with phrases like "langchain...
 ---
-
 # LangChain Local Dev Loop
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: langchain-hello-world
-description: |
-  Create a minimal working LangChain example.
-  Use when starting a new LangChain integration, testing your setup,
-  or learning basic LangChain patterns with chains and prompts.
-  Trigger with phrases like "langchain hello world", "langchain example",
-  "langchain quick start", "simple langchain code", "first langchain app".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Create a minimal working LangChain example. Use when starting a new LangChain
+  integration, testing your setup, or learning basic LangChain patterns with chains
+  and prompts. Trigger with phrases like "langchain hello world", "langchain example",
+  "l...
 ---
-
 # LangChain Hello World
 
 ## Overview

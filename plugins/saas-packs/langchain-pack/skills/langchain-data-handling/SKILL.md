@@ -1,17 +1,12 @@
 ---
 name: langchain-data-handling
-description: |
-  Implement LangChain data privacy and handling best practices.
-  Use when handling sensitive data, implementing PII protection,
-  or ensuring data compliance in LLM applications.
-  Trigger with phrases like "langchain data privacy", "langchain PII",
-  "langchain GDPR", "langchain data handling", "langchain compliance".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement langchain data privacy and handling best practices. use when
+  handling sensitive data, implementing pii protection, or ensuring data compliance
+  in llm applications. trigger with phrases like "langchain data privacy", "langchain
+  pii", "lan...
 ---
-
 # LangChain Data Handling
 
 ## Overview

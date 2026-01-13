@@ -1,17 +1,12 @@
 ---
 name: langchain-cost-tuning
-description: |
-  Optimize LangChain API costs and token usage.
-  Use when reducing LLM API expenses, implementing cost controls,
-  or optimizing token consumption in production.
-  Trigger with phrases like "langchain cost", "langchain tokens",
-  "reduce langchain cost", "langchain billing", "langchain budget".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize LangChain API costs and token usage. Use when reducing LLM API
+  expenses, implementing cost controls, or optimizing token consumption in production.
+  Trigger with phrases like "langchain cost", "langchain tokens", "reduce langchain
+  cost", "...
 ---
-
 # LangChain Cost Tuning
 
 ## Overview
