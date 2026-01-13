@@ -1,15 +1,10 @@
 ---
 name: detecting-database-deadlocks
-description: |
-  Process use when you need to work with deadlock detection.
-  This skill provides deadlock detection and resolution with comprehensive guidance and automation.
-  Trigger with phrases like "detect deadlocks", "resolve deadlocks",
-  or "prevent deadlocks".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Process use when you need to work with deadlock detection. This skill
+  provides deadlock detection and resolution with comprehensive guidance and automation.
+  Trigger with phrases like "detect deadlocks", "resolve deadlocks", or "prevent deadlocks".
 ---
 # Database Deadlock Detector
 

@@ -1,15 +1,11 @@
 ---
 name: optimizing-database-connection-pooling
-description: |
-  Process use when you need to work with connection management.
-  This skill provides connection pooling and management with comprehensive guidance and automation.
-  Trigger with phrases like "manage connections", "configure pooling",
-  or "optimize connection usage".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Process use when you need to work with connection management. This skill
+  provides connection pooling and management with comprehensive guidance and automation.
+  Trigger with phrases like "manage connections", "configure pooling", or "optimize
+  conne...
 ---
 # Database Connection Pooler
 

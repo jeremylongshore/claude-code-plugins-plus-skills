@@ -1,15 +1,11 @@
 ---
 name: archiving-databases
-description: |
-  Process use when you need to archive historical database records to reduce primary database size.
-  This skill automates moving old data to archive tables or cold storage (S3, Azure Blob, GCS).
-  Trigger with phrases like "archive old database records", "implement data retention policy",
-  "move historical data to cold storage", or "reduce database size with archival".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Process use when you need to archive historical database records to reduce
+  primary database size. This skill automates moving old data to archive tables or
+  cold storage (S3, Azure Blob, GCS). Trigger with phrases like "archive old database
+  records...
 ---
 # Database Archival System
 

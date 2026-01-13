@@ -1,15 +1,11 @@
 ---
 name: implementing-database-audit-logging
-description: |
-  Process use when you need to track database changes for compliance and security monitoring.
-  This skill implements audit logging using triggers, application-level logging, CDC, or native logs.
-  Trigger with phrases like "implement database audit logging", "add audit trails",
-  "track database changes", or "monitor database activity for compliance".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Process use when you need to track database changes for compliance and
+  security monitoring. This skill implements audit logging using triggers, application-level
+  logging, CDC, or native logs. Trigger with phrases like "implement database audit
+  log...
 ---
 # Database Audit Logger
 

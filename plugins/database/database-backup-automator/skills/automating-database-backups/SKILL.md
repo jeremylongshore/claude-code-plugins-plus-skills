@@ -1,15 +1,11 @@
 ---
 name: automating-database-backups
-description: |
-  Process use when you need to automate database backup processes with scheduling and encryption.
-  This skill creates backup scripts for PostgreSQL, MySQL, MongoDB, and SQLite with compression.
-  Trigger with phrases like "automate database backups", "schedule database dumps",
-  "create backup scripts", or "implement disaster recovery for database".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Process use when you need to automate database backup processes with
+  scheduling and encryption. This skill creates backup scripts for PostgreSQL, MySQL,
+  MongoDB, and SQLite with compression. Trigger with phrases like "automate database
+  backups", "...
 ---
 # Database Backup Automator
 
