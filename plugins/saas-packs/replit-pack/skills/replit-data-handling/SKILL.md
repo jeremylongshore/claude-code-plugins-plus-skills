@@ -1,12 +1,14 @@
 ---
-name: replit-data-handling
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Implement replit pii handling, data retention, and gdpr/ccpa compliance
   patterns. use when handling sensitive data, implementing data redaction, configuring
   retention policies, or ensuring compliance with privacy regulations for replit integration...
+name: replit-data-handling
 ---
 # Replit Data Handling
+
+This skill provides automated assistance for replit data handling tasks.
 
 ## Overview
 Handle sensitive data correctly when integrating with Replit.

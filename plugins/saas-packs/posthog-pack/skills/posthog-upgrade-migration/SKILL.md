@@ -1,16 +1,15 @@
 ---
-name: posthog-upgrade-migration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Analyze, plan, and execute PostHog SDK upgrades with breaking change
   detection. Use when upgrading PostHog SDK versions, detecting deprecations, or migrating
   to new API versions. Trigger with phrases like "upgrade posthog", "posthog migration",
   "p...
+name: posthog-upgrade-migration
 ---
-# PostHog Upgrade & Migration
+# Posthog Upgrade Migration
 
-## Overview
-Guide for upgrading PostHog SDK versions and handling breaking changes.
+This skill provides automated assistance for posthog upgrade migration tasks.
 
 ## Prerequisites
 - Current PostHog SDK installed
@@ -18,28 +17,8 @@ Guide for upgrading PostHog SDK versions and handling breaking changes.
 - Test suite available
 - Staging environment
 
-## Instructions
 
-### Step 1: Check Current Version
-```bash
-npm list @posthog/sdk
-npm view @posthog/sdk version
-```
-
-### Step 2: Review Changelog
-```bash
-open https://github.com/posthog/sdk/releases
-```
-
-### Step 3: Create Upgrade Branch
-```bash
-git checkout -b upgrade/posthog-sdk-vX.Y.Z
-npm install @posthog/sdk@latest
-npm test
-```
-
-### Step 4: Handle Breaking Changes
-Update import statements, configuration, and method signatures as needed.
+See `{baseDir}/references/implementation.md` for detailed implementation guide.
 
 ## Output
 - Updated SDK version
@@ -48,60 +27,13 @@ Update import statements, configuration, and method signatures as needed.
 - Documented rollback procedure
 
 ## Error Handling
-| SDK Version | API Version | Node.js | Breaking Changes |
-|-------------|-------------|---------|------------------|
-| 3.x | 2024-01 | 18+ | Major refactor |
-| 2.x | 2023-06 | 16+ | Auth changes |
-| 1.x | 2022-01 | 14+ | Initial release |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Import Changes
-```typescript
-// Before (v1.x)
-import { Client } from '@posthog/sdk';
-
-// After (v2.x)
-import { PostHogClient } from '@posthog/sdk';
-```
-
-### Configuration Changes
-```typescript
-// Before (v1.x)
-const client = new Client({ key: 'xxx' });
-
-// After (v2.x)
-const client = new PostHogClient({
-  apiKey: 'xxx',
-});
-```
-
-### Rollback Procedure
-```bash
-npm install @posthog/sdk@1.x.x --save-exact
-```
-
-### Deprecation Handling
-```typescript
-// Monitor for deprecation warnings in development
-if (process.env.NODE_ENV === 'development') {
-  process.on('warning', (warning) => {
-    if (warning.name === 'DeprecationWarning') {
-      console.warn('[PostHog]', warning.message);
-      // Log to tracking system for proactive updates
-    }
-  });
-}
-
-// Common deprecation patterns to watch for:
-// - Renamed methods: client.oldMethod() -> client.newMethod()
-// - Changed parameters: { key: 'x' } -> { apiKey: 'x' }
-// - Removed features: Check release notes before upgrading
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [PostHog Changelog](https://github.com/posthog/sdk/releases)
 - [PostHog Migration Guide](https://docs.posthog.com/migration)
-
-## Next Steps
-For CI integration during upgrades, see `posthog-ci-integration`.

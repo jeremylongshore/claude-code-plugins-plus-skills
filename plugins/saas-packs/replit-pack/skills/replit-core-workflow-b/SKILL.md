@@ -1,12 +1,14 @@
 ---
-name: replit-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute replit secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "replit secondary workflow", "secondary task with replit".'
+name: replit-core-workflow-b
 ---
 # Replit Core Workflow B
+
+This skill provides automated assistance for replit core workflow b tasks.
 
 ## Overview
 Secondary workflow for Replit. Complements the primary workflow.

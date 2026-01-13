@@ -1,16 +1,15 @@
 ---
-name: replit-common-errors
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Diagnose and fix replit common errors and exceptions. use when encountering
   replit errors, debugging failed requests, or troubleshooting integration issues.
   trigger with phrases like "replit error", "fix replit", "replit not working", "debug
   replit".
+name: replit-common-errors
 ---
 # Replit Common Errors
 
-## Overview
-Quick reference for the top 10 most common Replit errors and their solutions.
+This skill provides automated assistance for replit common errors tasks.
 
 ## Prerequisites
 - Replit SDK installed
@@ -35,72 +34,13 @@ Follow the solution steps for your specific error.
 
 ## Error Handling
 
-### Authentication Failed
-**Error Message:**
-```
-Authentication error: Invalid API key
-```
-
-**Cause:** API key is missing, expired, or invalid.
-
-**Solution:**
-```bash
-# Verify API key is set
-echo $REPLIT_API_KEY
-```
-
----
-
-### Rate Limit Exceeded
-**Error Message:**
-```
-Rate limit exceeded. Please retry after X seconds.
-```
-
-**Cause:** Too many requests in a short period.
-
-**Solution:**
-Implement exponential backoff. See `replit-rate-limits` skill.
-
----
-
-### Network Timeout
-**Error Message:**
-```
-Request timeout after 30000ms
-```
-
-**Cause:** Network connectivity or server latency issues.
-
-**Solution:**
-```typescript
-// Increase timeout
-const client = new Client({ timeout: 60000 });
-```
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Diagnostic Commands
-```bash
-# Check Replit status
-curl -s https://status.replit.com
-
-# Verify API connectivity
-curl -I https://api.replit.com
-
-# Check local configuration
-env | grep REPLIT
-```
-
-### Escalation Path
-1. Collect evidence with `replit-debug-bundle`
-2. Check Replit status page
-3. Contact support with request ID
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Replit Status Page](https://status.replit.com)
 - [Replit Support](https://docs.replit.com/support)
 - [Replit Error Codes](https://docs.replit.com/errors)
-
-## Next Steps
-For comprehensive debugging, see `replit-debug-bundle`.
