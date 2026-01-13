@@ -1,17 +1,12 @@
 ---
 name: exa-observability
-description: |
-  Set up comprehensive observability for Exa integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for Exa operations, setting up dashboards,
-  or configuring alerting for Exa integration health.
-  Trigger with phrases like "exa monitoring", "exa metrics",
-  "exa observability", "monitor exa", "exa alerts", "exa tracing".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Set up comprehensive observability for exa integrations with metrics,
+  traces, and alerts. use when implementing monitoring for exa operations, setting
+  up dashboards, or configuring alerting for exa integration health. trigger with
+  phrases like "ex...
 ---
-
 # Exa Observability
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: exa-local-dev-loop
-description: |
-  Configure Exa local development with hot reload and testing.
-  Use when setting up a development environment, configuring test workflows,
-  or establishing a fast iteration cycle with Exa.
-  Trigger with phrases like "exa dev setup", "exa local development",
-  "exa dev environment", "develop with exa".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Configure Exa local development with hot reload and testing. Use when
+  setting up a development environment, configuring test workflows, or establishing
+  a fast iteration cycle with Exa. Trigger with phrases like "exa dev setup", "exa
+  local developm...
 ---
-
 # Exa Local Dev Loop
 
 ## Overview

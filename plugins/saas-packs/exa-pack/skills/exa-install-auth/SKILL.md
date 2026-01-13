@@ -1,17 +1,12 @@
 ---
 name: exa-install-auth
-description: |
-  Install and configure Exa SDK/CLI authentication.
-  Use when setting up a new Exa integration, configuring API keys,
-  or initializing Exa in your project.
-  Trigger with phrases like "install exa", "setup exa",
-  "exa auth", "configure exa API key".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Install and configure exa sdk/cli authentication. use when setting up
+  a new exa integration, configuring api keys, or initializing exa in your project.
+  trigger with phrases like "install exa", "setup exa", "exa auth", "configure exa
+  api key".
 ---
-
 # Exa Install & Auth
 
 ## Overview

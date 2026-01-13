@@ -1,17 +1,12 @@
 ---
 name: exa-migration-deep-dive
-description: |
-  Execute Exa major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from Exa, performing major version upgrades,
-  or re-platforming existing integrations to Exa.
-  Trigger with phrases like "migrate exa", "exa migration",
-  "switch to exa", "exa replatform", "exa upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute exa major re-architecture and migration strategies with strangler
+  fig pattern. use when migrating to or from exa, performing major version upgrades,
+  or re-platforming existing integrations to exa. trigger with phrases like "migrate
+  exa", "...
 ---
-
 # Exa Migration Deep Dive
 
 ## Overview

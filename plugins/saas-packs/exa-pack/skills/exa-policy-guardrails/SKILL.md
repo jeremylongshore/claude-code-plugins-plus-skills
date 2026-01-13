@@ -1,17 +1,12 @@
 ---
 name: exa-policy-guardrails
-description: |
-  Implement Exa lint rules, policy enforcement, and automated guardrails.
-  Use when setting up code quality rules for Exa integrations, implementing
-  pre-commit hooks, or configuring CI policy checks for Exa best practices.
-  Trigger with phrases like "exa policy", "exa lint",
-  "exa guardrails", "exa best practices check", "exa eslint".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement exa lint rules, policy enforcement, and automated guardrails.
+  use when setting up code quality rules for exa integrations, implementing pre-commit
+  hooks, or configuring ci policy checks for exa best practices. trigger with phrases
+  like "...
 ---
-
 # Exa Policy & Guardrails
 
 ## Overview

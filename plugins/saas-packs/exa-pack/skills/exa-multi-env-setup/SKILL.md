@@ -1,17 +1,12 @@
 ---
 name: exa-multi-env-setup
-description: |
-  Configure Exa across development, staging, and production environments.
-  Use when setting up multi-environment deployments, configuring per-environment secrets,
-  or implementing environment-specific Exa configurations.
-  Trigger with phrases like "exa environments", "exa staging",
-  "exa dev prod", "exa environment setup", "exa config by env".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Exa across development, staging, and production environments.
+  Use when setting up multi-environment deployments, configuring per-environment secrets,
+  or implementing environment-specific Exa configurations. Trigger with phrases like
+  "exa...
 ---
-
 # Exa Multi-Environment Setup
 
 ## Overview
