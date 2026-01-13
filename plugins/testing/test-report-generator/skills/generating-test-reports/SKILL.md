@@ -1,14 +1,10 @@
 ---
 name: generating-test-reports
-description: |
-  Generate comprehensive test reports with metrics, coverage, and visualizations.
-  Use when performing specialized testing.
-  Trigger with phrases like "generate test report", "create test documentation", or "show test metrics".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Generate comprehensive test reports with metrics, coverage, and visualizations.
+  Use when performing specialized testing. Trigger with phrases like "generate test
+  report", "create test documentation", or "show test metrics".
 ---
 # Test Report Generator
 

@@ -1,14 +1,10 @@
 ---
 name: testing-visual-regression
-description: |
-  Detect visual changes in UI components using screenshot comparison.
-  Use when detecting unintended UI changes or pixel differences.
-  Trigger with phrases like "test visual changes", "compare screenshots", or "detect UI regressions".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Detect visual changes in ui components using screenshot comparison. use
+  when detecting unintended ui changes or pixel differences. trigger with phrases
+  like "test visual changes", "compare screenshots", or "detect ui regressions".
 ---
 # Visual Regression Tester
 

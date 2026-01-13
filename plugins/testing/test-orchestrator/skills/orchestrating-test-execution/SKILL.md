@@ -1,14 +1,10 @@
 ---
 name: orchestrating-test-execution
-description: |
-  Test coordinate parallel test execution across multiple environments and frameworks.
-  Use when performing specialized testing.
-  Trigger with phrases like "orchestrate tests", "run parallel tests", or "coordinate test execution".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Test coordinate parallel test execution across multiple environments
+  and frameworks. Use when performing specialized testing. Trigger with phrases like
+  "orchestrate tests", "run parallel tests", or "coordinate test execution".
 ---
 # Test Orchestrator
 

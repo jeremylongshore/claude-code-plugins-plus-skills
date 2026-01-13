@@ -1,14 +1,11 @@
 ---
 name: generating-unit-tests
-description: |
-  Test automatically generate comprehensive unit tests from source code covering happy paths, edge cases, and error conditions.
-  Use when creating test coverage for functions, classes, or modules.
-  Trigger with phrases like "generate unit tests", "create tests for", or "add test coverage".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Test automatically generate comprehensive unit tests from source code
+  covering happy paths, edge cases, and error conditions. Use when creating test coverage
+  for functions, classes, or modules. Trigger with phrases like "generate unit tests",
+  "cre...
 ---
 # Unit Test Generator
 

@@ -1,14 +1,10 @@
 ---
 name: managing-test-environments
-description: |
-  Test provision and manage isolated test environments with configuration and data.
-  Use when performing specialized testing.
-  Trigger with phrases like "manage test environment", "provision test env", or "setup test infrastructure".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Test provision and manage isolated test environments with configuration
+  and data. Use when performing specialized testing. Trigger with phrases like "manage
+  test environment", "provision test env", or "setup test infrastructure".
 ---
 # Test Environment Manager
 
