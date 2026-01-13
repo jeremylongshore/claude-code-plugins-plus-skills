@@ -1,17 +1,12 @@
 ---
 name: granola-multi-env-setup
-description: |
-  Configure Granola across multiple workspaces and team environments.
-  Use when setting up multi-team deployments, configuring workspace hierarchies,
-  or managing enterprise-scale Granola installations.
-  Trigger with phrases like "granola workspaces", "granola multi-team",
-  "granola environments", "granola organization", "granola multi-env".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure Granola across multiple workspaces and team environments. Use
+  when setting up multi-team deployments, configuring workspace hierarchies, or managing
+  enterprise-scale Granola installations. Trigger with phrases like "granola workspaces",
+  ...
 ---
-
 # Granola Multi-Environment Setup
 
 ## Overview

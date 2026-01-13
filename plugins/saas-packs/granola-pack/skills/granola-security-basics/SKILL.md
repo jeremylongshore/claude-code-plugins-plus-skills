@@ -1,17 +1,12 @@
 ---
 name: granola-security-basics
-description: |
-  Security best practices for Granola meeting data.
-  Use when implementing security controls, reviewing data handling,
-  or ensuring compliance with security policies.
-  Trigger with phrases like "granola security", "granola privacy",
-  "granola data protection", "secure granola", "granola compliance".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Security best practices for granola meeting data. use when implementing
+  security controls, reviewing data handling, or ensuring compliance with security
+  policies. trigger with phrases like "granola security", "granola privacy", "granola
+  data prote...
 ---
-
 # Granola Security Basics
 
 ## Overview

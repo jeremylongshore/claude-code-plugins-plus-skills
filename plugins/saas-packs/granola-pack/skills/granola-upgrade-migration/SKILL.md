@@ -1,17 +1,12 @@
 ---
 name: granola-upgrade-migration
-description: |
-  Upgrade Granola versions and migrate between plans.
-  Use when upgrading app versions, changing subscription plans,
-  or migrating data between Granola accounts.
-  Trigger with phrases like "upgrade granola", "granola migration",
-  "granola new version", "change granola plan", "granola update".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Upgrade granola versions and migrate between plans. use when upgrading
+  app versions, changing subscription plans, or migrating data between granola accounts.
+  trigger with phrases like "upgrade granola", "granola migration", "granola new version",
+  ...
 ---
-
 # Granola Upgrade & Migration
 
 ## Overview

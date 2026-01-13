@@ -1,17 +1,12 @@
 ---
 name: granola-rate-limits
-description: |
-  Understand Granola usage limits, quotas, and plan restrictions.
-  Use when hitting usage limits, planning capacity,
-  or understanding plan differences.
-  Trigger with phrases like "granola limits", "granola quota",
-  "granola usage", "granola plan limits", "granola restrictions".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Understand granola usage limits, quotas, and plan restrictions. use when
+  hitting usage limits, planning capacity, or understanding plan differences. trigger
+  with phrases like "granola limits", "granola quota", "granola usage", "granola plan
+  limits...
 ---
-
 # Granola Rate Limits
 
 ## Overview

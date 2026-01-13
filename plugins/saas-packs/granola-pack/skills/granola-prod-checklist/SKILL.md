@@ -1,17 +1,12 @@
 ---
 name: granola-prod-checklist
-description: |
-  Production readiness checklist for Granola deployment.
-  Use when preparing for team rollout, enterprise deployment,
-  or ensuring Granola is properly configured for production use.
-  Trigger with phrases like "granola production", "granola rollout",
-  "granola deployment", "granola checklist", "granola enterprise setup".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Production readiness checklist for granola deployment. use when preparing
+  for team rollout, enterprise deployment, or ensuring granola is properly configured
+  for production use. trigger with phrases like "granola production", "granola rollout",
+  "g...
 ---
-
 # Granola Production Checklist
 
 ## Overview

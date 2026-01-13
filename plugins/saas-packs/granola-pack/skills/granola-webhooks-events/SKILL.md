@@ -1,17 +1,12 @@
 ---
 name: granola-webhooks-events
-description: |
-  Handle Granola webhook events and build event-driven automations.
-  Use when building custom integrations, processing meeting events,
-  or creating real-time notification systems.
-  Trigger with phrases like "granola webhooks", "granola events",
-  "granola triggers", "granola real-time", "granola callbacks".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Handle granola webhook events and build event-driven automations. use
+  when building custom integrations, processing meeting events, or creating real-time
+  notification systems. trigger with phrases like "granola webhooks", "granola events",
+  "granol...
 ---
-
 # Granola Webhooks & Events
 
 ## Overview

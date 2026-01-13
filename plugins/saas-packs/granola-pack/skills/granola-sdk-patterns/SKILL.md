@@ -1,17 +1,12 @@
 ---
 name: granola-sdk-patterns
-description: |
-  Zapier integration patterns and automation workflows for Granola.
-  Use when building automated workflows, connecting Granola to other apps,
-  or creating custom integrations via Zapier.
-  Trigger with phrases like "granola zapier", "granola automation",
-  "granola integration patterns", "granola SDK", "granola API".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Zapier integration patterns and automation workflows for granola. use
+  when building automated workflows, connecting granola to other apps, or creating
+  custom integrations via zapier. trigger with phrases like "granola zapier", "granola
+  automation"...
 ---
-
 # Granola SDK Patterns
 
 ## Overview

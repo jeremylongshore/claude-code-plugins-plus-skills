@@ -1,17 +1,12 @@
 ---
 name: granola-reference-architecture
-description: |
-  Enterprise meeting workflow architecture with Granola.
-  Use when designing enterprise deployments, planning integrations,
-  or architecting meeting management systems.
-  Trigger with phrases like "granola architecture", "granola enterprise",
-  "granola system design", "meeting system", "granola infrastructure".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Enterprise meeting workflow architecture with granola. use when designing
+  enterprise deployments, planning integrations, or architecting meeting management
+  systems. trigger with phrases like "granola architecture", "granola enterprise",
+  "granola s...
 ---
-
 # Granola Reference Architecture
 
 ## Overview

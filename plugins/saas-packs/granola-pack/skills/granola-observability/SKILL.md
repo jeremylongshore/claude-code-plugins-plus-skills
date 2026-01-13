@@ -1,17 +1,11 @@
 ---
 name: granola-observability
-description: |
-  Monitor Granola usage, analytics, and meeting insights.
-  Use when tracking meeting patterns, analyzing team productivity,
-  or building meeting analytics dashboards.
-  Trigger with phrases like "granola analytics", "granola metrics",
-  "granola monitoring", "meeting insights", "granola observability".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Monitor Granola usage, analytics, and meeting insights. Use when tracking
+  meeting patterns, analyzing team productivity, or building meeting analytics dashboards.
+  Trigger with phrases like "granola analytics", "granola metrics", "granola monitorin...
 ---
-
 # Granola Observability
 
 ## Overview
