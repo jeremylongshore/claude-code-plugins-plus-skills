@@ -1,17 +1,12 @@
 ---
 name: sentry-reference-architecture
-description: |
-  Manage best-practice Sentry architecture patterns.
-  Use when designing Sentry integration architecture,
-  structuring projects, or planning enterprise rollout.
-  Trigger with phrases like "sentry architecture", "sentry best practices",
-  "design sentry integration", "sentry project structure".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Manage best-practice Sentry architecture patterns. Use when designing
+  Sentry integration architecture, structuring projects, or planning enterprise rollout.
+  Trigger with phrases like "sentry architecture", "sentry best practices", "design
+  sentry i...
 ---
-
 # Sentry Reference Architecture
 
 ## Prerequisites

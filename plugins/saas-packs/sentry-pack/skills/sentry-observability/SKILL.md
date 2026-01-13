@@ -1,17 +1,12 @@
 ---
 name: sentry-observability
-description: |
-  Execute integrate Sentry with observability stack.
-  Use when connecting Sentry to logging, metrics, APM tools,
-  or building unified observability dashboards.
-  Trigger with phrases like "sentry observability", "sentry logging integration",
-  "sentry metrics", "sentry datadog integration".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Execute integrate sentry with observability stack. use when connecting
+  sentry to logging, metrics, apm tools, or building unified observability dashboards.
+  trigger with phrases like "sentry observability", "sentry logging integration",
+  "sentry met...
 ---
-
 # Sentry Observability
 
 ## Prerequisites

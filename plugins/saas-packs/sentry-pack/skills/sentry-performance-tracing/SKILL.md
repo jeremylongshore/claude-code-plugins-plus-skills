@@ -1,17 +1,11 @@
 ---
 name: sentry-performance-tracing
-description: |
-  Execute set up performance monitoring and distributed tracing with Sentry.
-  Use when implementing performance tracking, tracing requests,
-  or monitoring application performance.
-  Trigger with phrases like "sentry performance", "sentry tracing",
-  "sentry APM", "monitor performance sentry".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Execute set up performance monitoring and distributed tracing with sentry.
+  use when implementing performance tracking, tracing requests, or monitoring application
+  performance. trigger with phrases like "sentry performance", "sentry tracing", "sent...
 ---
-
 # Sentry Performance Tracing
 
 ## Prerequisites

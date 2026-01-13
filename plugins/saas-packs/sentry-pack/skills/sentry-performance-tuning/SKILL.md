@@ -1,17 +1,12 @@
 ---
 name: sentry-performance-tuning
-description: |
-  Optimize Sentry performance monitoring configuration.
-  Use when tuning sample rates, reducing overhead,
-  or improving performance data quality.
-  Trigger with phrases like "sentry performance optimize", "tune sentry tracing",
-  "sentry overhead", "improve sentry performance".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Optimize Sentry performance monitoring configuration. Use when tuning
+  sample rates, reducing overhead, or improving performance data quality. Trigger
+  with phrases like "sentry performance optimize", "tune sentry tracing", "sentry
+  overhead", "impro...
 ---
-
 # Sentry Performance Tuning
 
 ## Prerequisites

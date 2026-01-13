@@ -1,17 +1,11 @@
 ---
 name: sentry-release-management
-description: |
-  Manage Sentry releases and associate commits.
-  Use when creating releases, tracking commits,
-  or managing release artifacts.
-  Trigger with phrases like "sentry release", "sentry commits",
-  "manage sentry versions", "sentry release workflow".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Manage Sentry releases and associate commits. Use when creating releases,
+  tracking commits, or managing release artifacts. Trigger with phrases like "sentry
+  release", "sentry commits", "manage sentry versions", "sentry release workflow".
 ---
-
 # Sentry Release Management
 
 ## Prerequisites

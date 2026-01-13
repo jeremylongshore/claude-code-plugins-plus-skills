@@ -1,17 +1,12 @@
 ---
 name: sentry-policy-guardrails
-description: |
-  Implement governance and policy guardrails for Sentry.
-  Use when enforcing organizational standards, compliance rules,
-  or standardizing Sentry usage across teams.
-  Trigger with phrases like "sentry governance", "sentry standards",
-  "sentry policy", "enforce sentry configuration".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement governance and policy guardrails for sentry. use when enforcing
+  organizational standards, compliance rules, or standardizing sentry usage across
+  teams. trigger with phrases like "sentry governance", "sentry standards", "sentry
+  policy", "...
 ---
-
 # Sentry Policy Guardrails
 
 ## Prerequisites
