@@ -1,176 +1,20 @@
 ---
-name: windsurf-multi-env-setup
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Configure Windsurf across development, staging, and production environments.
   Use when setting up multi-environment deployments, configuring per-environment secrets,
   or implementing environment-specific Windsurf configurations. Trigger with phrases...
+name: windsurf-multi-env-setup
 ---
-# Windsurf Multi-Environment Setup
+# Windsurf Multi Env Setup
 
-## Overview
-Configure Windsurf across development, staging, and production environments.
+This skill provides automated assistance for windsurf multi env setup tasks.
 
 ## Prerequisites
 - Separate Windsurf accounts or API keys per environment
 - Secret management solution (Vault, AWS Secrets Manager, etc.)
 - CI/CD pipeline with environment variables
 - Environment detection in application
-
-## Environment Strategy
-
-| Environment | Purpose | API Keys | Data |
-|-------------|---------|----------|------|
-| Development | Local dev | Test keys | Sandbox |
-| Staging | Pre-prod validation | Staging keys | Test data |
-| Production | Live traffic | Production keys | Real data |
-
-## Configuration Structure
-
-```
-config/
-├── windsurf/
-│   ├── base.json           # Shared config
-│   ├── development.json    # Dev overrides
-│   ├── staging.json        # Staging overrides
-│   └── production.json     # Prod overrides
-```
-
-### base.json
-```json
-{
-  "timeout": 30000,
-  "retries": 3,
-  "cache": {
-    "enabled": true,
-    "ttlSeconds": 60
-  }
-}
-```
-
-### development.json
-```json
-{
-  "apiKey": "${WINDSURF_API_KEY}",
-  "baseUrl": "https://api-sandbox.windsurf.com",
-  "debug": true,
-  "cache": {
-    "enabled": false
-  }
-}
-```
-
-### staging.json
-```json
-{
-  "apiKey": "${WINDSURF_API_KEY_STAGING}",
-  "baseUrl": "https://api-staging.windsurf.com",
-  "debug": false
-}
-```
-
-### production.json
-```json
-{
-  "apiKey": "${WINDSURF_API_KEY_PROD}",
-  "baseUrl": "https://api.windsurf.com",
-  "debug": false,
-  "retries": 5
-}
-```
-
-## Environment Detection
-
-```typescript
-// src/windsurf/config.ts
-import baseConfig from '../../config/windsurf/base.json';
-
-type Environment = 'development' | 'staging' | 'production';
-
-function detectEnvironment(): Environment {
-  const env = process.env.NODE_ENV || 'development';
-  const validEnvs: Environment[] = ['development', 'staging', 'production'];
-  return validEnvs.includes(env as Environment)
-    ? (env as Environment)
-    : 'development';
-}
-
-export function getWindsurfConfig() {
-  const env = detectEnvironment();
-  const envConfig = require(`../../config/windsurf/${env}.json`);
-
-  return {
-    ...baseConfig,
-    ...envConfig,
-    environment: env,
-  };
-}
-```
-
-## Secret Management by Environment
-
-### Local Development
-```bash
-# .env.local (git-ignored)
-WINDSURF_API_KEY=sk_test_dev_***
-```
-
-### CI/CD (GitHub Actions)
-```yaml
-env:
-  WINDSURF_API_KEY: ${{ secrets.WINDSURF_API_KEY_${{ matrix.environment }} }}
-```
-
-### Production (Vault/Secrets Manager)
-```bash
-# AWS Secrets Manager
-aws secretsmanager get-secret-value --secret-id windsurf/production/api-key
-
-# GCP Secret Manager
-gcloud secrets versions access latest --secret=windsurf-api-key
-
-# HashiCorp Vault
-vault kv get -field=api_key secret/windsurf/production
-```
-
-## Environment Isolation
-
-```typescript
-// Prevent production operations in non-prod
-function guardProductionOperation(operation: string): void {
-  const config = getWindsurfConfig();
-
-  if (config.environment !== 'production') {
-    console.warn(`[windsurf] ${operation} blocked in ${config.environment}`);
-    throw new Error(`${operation} only allowed in production`);
-  }
-}
-
-// Usage
-async function deleteAllData() {
-  guardProductionOperation('deleteAllData');
-  // Dangerous operation here
-}
-```
-
-## Feature Flags by Environment
-
-```typescript
-const featureFlags: Record<Environment, Record<string, boolean>> = {
-  development: {
-    newFeature: true,
-    betaApi: true,
-  },
-  staging: {
-    newFeature: true,
-    betaApi: false,
-  },
-  production: {
-    newFeature: false,
-    betaApi: false,
-  },
-};
-```
 
 ## Instructions
 
@@ -193,24 +37,13 @@ Implement safeguards for production-only operations.
 - Production safeguards enabled
 
 ## Error Handling
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| Wrong environment | Missing NODE_ENV | Set environment variable |
-| Secret not found | Wrong secret path | Verify secret manager config |
-| Config merge fails | Invalid JSON | Validate config files |
-| Production guard triggered | Wrong environment | Check NODE_ENV value |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Environment Check
-```typescript
-const env = getWindsurfConfig();
-console.log(`Running in ${env.environment} with ${env.baseUrl}`);
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Windsurf Environments Guide](https://docs.windsurf.com/environments)
 - [12-Factor App Config](https://12factor.net/config)
-
-## Next Steps
-For observability setup, see `windsurf-observability`.
