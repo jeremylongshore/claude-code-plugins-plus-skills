@@ -1,13 +1,15 @@
 ---
-name: sentry-error-capture
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute advanced error capture and context enrichment with sentry. use
   when implementing detailed error tracking, adding context, or customizing error
   capture behavior. trigger with phrases like "sentry error capture", "sentry context",
   "enrich se...
+name: sentry-error-capture
 ---
 # Sentry Error Capture
+
+This skill provides automated assistance for sentry error capture tasks.
 
 ## Prerequisites
 - Sentry SDK installed and configured

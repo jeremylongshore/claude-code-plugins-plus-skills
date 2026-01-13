@@ -1,13 +1,15 @@
 ---
-name: sentry-known-pitfalls
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute common sentry pitfalls and how to avoid them. use when troubleshooting
   sentry issues, reviewing configurations, or preventing common mistakes. trigger
   with phrases like "sentry mistakes", "sentry pitfalls", "sentry common issues",
   "sentry ...
+name: sentry-known-pitfalls
 ---
 # Sentry Known Pitfalls
+
+This skill provides automated assistance for sentry known pitfalls tasks.
 
 ## Prerequisites
 

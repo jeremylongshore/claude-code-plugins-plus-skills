@@ -1,13 +1,15 @@
 ---
-name: sentry-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Execute capture your first error with sentry and verify it appears in
   the dashboard. use when testing sentry integration or verifying error capture works.
   trigger with phrases like "test sentry", "sentry hello world", "verify sentry",
   "first sentr...
+name: sentry-hello-world
 ---
 # Sentry Hello World
+
+This skill provides automated assistance for sentry hello world tasks.
 
 ## Prerequisites
 - Sentry SDK installed and initialized

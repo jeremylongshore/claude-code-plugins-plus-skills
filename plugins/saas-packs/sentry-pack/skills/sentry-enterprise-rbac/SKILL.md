@@ -1,13 +1,15 @@
 ---
-name: sentry-enterprise-rbac
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Configure enterprise role-based access control in Sentry. Use when setting
   up team permissions, SSO integration, or managing organizational access. Trigger
   with phrases like "sentry rbac", "sentry permissions", "sentry team access", "sentry
   sso se...
+name: sentry-enterprise-rbac
 ---
 # Sentry Enterprise Rbac
+
+This skill provides automated assistance for sentry enterprise rbac tasks.
 
 ## Prerequisites
 

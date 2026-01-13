@@ -1,13 +1,15 @@
 ---
-name: sentry-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure sentry sdk authentication. use when setting up
   a new sentry integration, configuring dsn, or initializing sentry in your project.
   trigger with phrases like "install sentry", "setup sentry", "sentry auth", "configure
   sentry dsn".
+name: sentry-install-auth
 ---
 # Sentry Install Auth
+
+This skill provides automated assistance for sentry install auth tasks.
 
 ## Prerequisites
 - Node.js 18+ or Python 3.10+

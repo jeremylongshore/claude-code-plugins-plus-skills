@@ -1,12 +1,14 @@
 ---
-name: sentry-migration-deep-dive
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Execute migrate to sentry from other error tracking tools. use when migrating
   from rollbar, bugsnag, raygun, or other error tracking solutions. trigger with phrases
   like "migrate to sentry", "sentry migration", "switch from rollbar to sentry", "re...
+name: sentry-migration-deep-dive
 ---
 # Sentry Migration Deep Dive
+
+This skill provides automated assistance for sentry migration deep dive tasks.
 
 ## Prerequisites
 

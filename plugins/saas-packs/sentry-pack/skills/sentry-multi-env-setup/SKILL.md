@@ -1,12 +1,14 @@
 ---
-name: sentry-multi-env-setup
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Configure Sentry across multiple environments. Use when setting up Sentry
   for dev/staging/production, managing environment-specific configurations, or isolating
   data. Trigger with phrases like "sentry environments", "sentry staging setup", "multi-...
+name: sentry-multi-env-setup
 ---
 # Sentry Multi Env Setup
+
+This skill provides automated assistance for sentry multi env setup tasks.
 
 ## Prerequisites
 

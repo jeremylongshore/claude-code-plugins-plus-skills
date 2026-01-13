@@ -1,13 +1,15 @@
 ---
-name: sentry-local-dev-loop
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Execute set up local development workflow with sentry. use when configuring
   sentry for development environments, setting up debug mode, or testing error capture
   locally. trigger with phrases like "sentry local dev", "sentry development", "debug
   se...
+name: sentry-local-dev-loop
 ---
 # Sentry Local Dev Loop
+
+This skill provides automated assistance for sentry local dev loop tasks.
 
 ## Prerequisites
 - Sentry SDK installed

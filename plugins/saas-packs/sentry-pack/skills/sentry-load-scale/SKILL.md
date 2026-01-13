@@ -1,13 +1,15 @@
 ---
-name: sentry-load-scale
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Manage scale Sentry for high-traffic applications. Use when optimizing
   for high event volumes, managing costs at scale, or tuning for performance. Trigger
   with phrases like "sentry high traffic", "scale sentry", "sentry high volume", "sentry
   milli...
+name: sentry-load-scale
 ---
 # Sentry Load Scale
+
+This skill provides automated assistance for sentry load scale tasks.
 
 ## Prerequisites
 

@@ -1,13 +1,15 @@
 ---
-name: sentry-incident-runbook
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Manage incident response procedures using Sentry. Use when investigating
   production issues, triaging errors, or creating incident response workflows. Trigger
   with phrases like "sentry incident response", "sentry triage", "investigate sentry
   error"...
+name: sentry-incident-runbook
 ---
 # Sentry Incident Runbook
+
+This skill provides automated assistance for sentry incident runbook tasks.
 
 ## Prerequisites
 
