@@ -1,17 +1,12 @@
 ---
 name: ideogram-ci-integration
-description: |
-  Configure Ideogram CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating Ideogram tests into your build process.
-  Trigger with phrases like "ideogram CI", "ideogram GitHub Actions",
-  "ideogram automated tests", "CI ideogram".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Ideogram CI/CD integration with GitHub Actions and testing.
+  Use when setting up automated testing, configuring CI pipelines, or integrating
+  Ideogram tests into your build process. Trigger with phrases like "ideogram CI",
+  "ideogram GitHub...
 ---
-
 # Ideogram CI Integration
 
 ## Overview

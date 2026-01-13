@@ -1,17 +1,12 @@
 ---
 name: groq-upgrade-migration
-description: |
-  Analyze, plan, and execute Groq SDK upgrades with breaking change detection.
-  Use when upgrading Groq SDK versions, detecting deprecations,
-  or migrating to new API versions.
-  Trigger with phrases like "upgrade groq", "groq migration",
-  "groq breaking changes", "update groq SDK", "analyze groq version".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Analyze, plan, and execute Groq SDK upgrades with breaking change detection.
+  Use when upgrading Groq SDK versions, detecting deprecations, or migrating to new
+  API versions. Trigger with phrases like "upgrade groq", "groq migration", "groq
+  breaking...
 ---
-
 # Groq Upgrade & Migration
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: ideogram-data-handling
-description: |
-  Implement Ideogram PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for Ideogram integrations.
-  Trigger with phrases like "ideogram data", "ideogram PII",
-  "ideogram GDPR", "ideogram data retention", "ideogram privacy", "ideogram CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement ideogram pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for ideogram
+  integra...
 ---
-
 # Ideogram Data Handling
 
 ## Overview

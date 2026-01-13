@@ -1,17 +1,12 @@
 ---
 name: ideogram-common-errors
-description: |
-  Diagnose and fix Ideogram common errors and exceptions.
-  Use when encountering Ideogram errors, debugging failed requests,
-  or troubleshooting integration issues.
-  Trigger with phrases like "ideogram error", "fix ideogram",
-  "ideogram not working", "debug ideogram".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Diagnose and fix ideogram common errors and exceptions. use when encountering
+  ideogram errors, debugging failed requests, or troubleshooting integration issues.
+  trigger with phrases like "ideogram error", "fix ideogram", "ideogram not working",
+  "d...
 ---
-
 # Ideogram Common Errors
 
 ## Overview
