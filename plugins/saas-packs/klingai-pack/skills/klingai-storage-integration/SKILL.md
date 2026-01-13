@@ -1,13 +1,15 @@
 ---
-name: klingai-storage-integration
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute integrate kling ai video output with cloud storage providers.
   use when storing generated videos in s3, gcs, or azure blob. trigger with phrases
   like 'klingai storage', 'save klingai video', 'kling ai cloud storage', 'klingai
   s3 upload'.
+name: klingai-storage-integration
 ---
 # Klingai Storage Integration
+
+This skill provides automated assistance for klingai storage integration tasks.
 
 ## Overview
 

@@ -1,12 +1,14 @@
 ---
-name: klingai-model-catalog
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Build explore Kling AI models and their capabilities for video generation.
   Use when selecting models or understanding features. Trigger with phrases like 'kling
   ai models', 'klingai capabilities', 'kling video models', 'klingai features'.
+name: klingai-model-catalog
 ---
 # Klingai Model Catalog
+
+This skill provides automated assistance for klingai model catalog tasks.
 
 ## Overview
 

@@ -1,12 +1,14 @@
 ---
-name: klingai-pricing-basics
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Manage understand Kling AI pricing, credits, and cost optimization. Use
   when budgeting or optimizing costs for video generation. Trigger with phrases like
   'kling ai pricing', 'klingai credits', 'kling ai cost', 'klingai budget'.
+name: klingai-pricing-basics
 ---
 # Klingai Pricing Basics
+
+This skill provides automated assistance for klingai pricing basics tasks.
 
 ## Overview
 

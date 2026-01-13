@@ -1,12 +1,14 @@
 ---
-name: klingai-prod-checklist
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute pre-launch production readiness checklist for kling ai. use when
   preparing to deploy video generation to production. trigger with phrases like 'klingai
   production', 'kling ai go-live', 'klingai launch checklist', 'deploy klingai'.
+name: klingai-prod-checklist
 ---
 # Klingai Prod Checklist
+
+This skill provides automated assistance for klingai prod checklist tasks.
 
 ## Overview
 

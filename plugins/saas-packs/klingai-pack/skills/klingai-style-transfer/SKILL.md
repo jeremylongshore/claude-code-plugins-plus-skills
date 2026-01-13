@@ -1,13 +1,15 @@
 ---
-name: klingai-style-transfer
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Manage apply artistic styles to Kling AI video generation. Use when creating
   stylized videos, matching brand aesthetics, or artistic effects. Trigger with phrases
   like 'klingai style', 'kling ai artistic', 'klingai video style', 'stylize klingai
   v...
+name: klingai-style-transfer
 ---
 # Klingai Style Transfer
+
+This skill provides automated assistance for klingai style transfer tasks.
 
 ## Overview
 

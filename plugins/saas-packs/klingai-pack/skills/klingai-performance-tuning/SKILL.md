@@ -1,13 +1,15 @@
 ---
-name: klingai-performance-tuning
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Optimize Kling AI performance for speed and quality. Use when improving
   generation times, reducing costs, or enhancing output quality. Trigger with phrases
   like 'klingai performance', 'kling ai optimization', 'faster klingai', 'klingai
   quality set...
+name: klingai-performance-tuning
 ---
 # Klingai Performance Tuning
+
+This skill provides automated assistance for klingai performance tuning tasks.
 
 ## Overview
 

@@ -1,12 +1,14 @@
 ---
-name: klingai-known-pitfalls
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Manage avoid common mistakes when using Kling AI. Use when troubleshooting
   issues or learning best practices to prevent problems. Trigger with phrases like
   'klingai pitfalls', 'kling ai mistakes', 'klingai gotchas', 'klingai best practices'.
+name: klingai-known-pitfalls
 ---
 # Klingai Known Pitfalls
+
+This skill provides automated assistance for klingai known pitfalls tasks.
 
 ## Overview
 

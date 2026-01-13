@@ -1,12 +1,14 @@
 ---
-name: klingai-sdk-patterns
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement common sdk patterns for kling ai integration. use when building
   production applications with kling ai. trigger with phrases like 'klingai sdk',
   'kling ai client', 'klingai patterns', 'kling ai best practices'.
+name: klingai-sdk-patterns
 ---
 # Klingai Sdk Patterns
+
+This skill provides automated assistance for klingai sdk patterns tasks.
 
 ## Overview
 

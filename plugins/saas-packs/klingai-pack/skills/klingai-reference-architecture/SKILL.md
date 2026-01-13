@@ -1,13 +1,15 @@
 ---
-name: klingai-reference-architecture
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute production-ready reference architecture for kling ai video platforms.
   use when designing scalable video generation systems. trigger with phrases like
   'klingai architecture', 'kling ai system design', 'video platform architecture',
   'klingai...
+name: klingai-reference-architecture
 ---
 # Klingai Reference Architecture
+
+This skill provides automated assistance for klingai reference architecture tasks.
 
 ## Overview
 
