@@ -1,12 +1,14 @@
 ---
-name: openrouter-caching-strategy
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement response caching for openrouter efficiency. use when optimizing
   costs or reducing latency for repeated queries. trigger with phrases like 'openrouter
   cache', 'cache llm responses', 'openrouter redis', 'semantic caching'.
+name: openrouter-caching-strategy
 ---
 # Openrouter Caching Strategy
+
+This skill provides automated assistance for openrouter caching strategy tasks.
 
 ## Overview
 

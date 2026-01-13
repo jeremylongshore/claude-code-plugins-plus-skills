@@ -1,12 +1,14 @@
 ---
-name: openrouter-audit-logging
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement audit logging for openrouter compliance. use when meeting regulatory
   requirements or security audits. trigger with phrases like 'openrouter audit', 'openrouter
   compliance log', 'openrouter security log', 'audit trail'.
+name: openrouter-audit-logging
 ---
 # Openrouter Audit Logging
+
+This skill provides automated assistance for openrouter audit logging tasks.
 
 ## Overview
 
