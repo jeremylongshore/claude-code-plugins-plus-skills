@@ -1,17 +1,12 @@
 ---
 name: juicebox-migration-deep-dive
-description: |
-  Advanced Juicebox data migration strategies.
-  Use when migrating from other recruiting platforms, performing bulk data imports,
-  or implementing complex data transformation pipelines.
-  Trigger with phrases like "juicebox data migration", "migrate to juicebox",
-  "juicebox import", "juicebox bulk migration".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Advanced juicebox data migration strategies. use when migrating from
+  other recruiting platforms, performing bulk data imports, or implementing complex
+  data transformation pipelines. trigger with phrases like "juicebox data migration",
+  "migrate to ...
 ---
-
 # Juicebox Migration Deep Dive
 
 ## Overview

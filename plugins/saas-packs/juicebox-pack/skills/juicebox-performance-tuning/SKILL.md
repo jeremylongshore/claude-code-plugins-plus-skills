@@ -1,17 +1,11 @@
 ---
 name: juicebox-performance-tuning
-description: |
-  Optimize Juicebox API performance.
-  Use when improving response times, reducing latency,
-  or optimizing Juicebox integration throughput.
-  Trigger with phrases like "juicebox performance", "optimize juicebox",
-  "juicebox speed", "juicebox latency".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Optimize Juicebox API performance. Use when improving response times,
+  reducing latency, or optimizing Juicebox integration throughput. Trigger with phrases
+  like "juicebox performance", "optimize juicebox", "juicebox speed", "juicebox latency".
 ---
-
 # Juicebox Performance Tuning
 
 ## Overview

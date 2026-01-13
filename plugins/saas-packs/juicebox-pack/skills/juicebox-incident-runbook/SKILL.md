@@ -1,17 +1,12 @@
 ---
 name: juicebox-incident-runbook
-description: |
-  Execute Juicebox incident response procedures.
-  Use when responding to production incidents, troubleshooting outages,
-  or following incident management protocols.
-  Trigger with phrases like "juicebox incident", "juicebox outage",
-  "juicebox down", "juicebox emergency".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute juicebox incident response procedures. use when responding to
+  production incidents, troubleshooting outages, or following incident management
+  protocols. trigger with phrases like "juicebox incident", "juicebox outage", "juicebox
+  down", "ju...
 ---
-
 # Juicebox Incident Runbook
 
 ## Overview

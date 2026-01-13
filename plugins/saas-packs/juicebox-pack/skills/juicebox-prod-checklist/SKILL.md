@@ -1,17 +1,12 @@
 ---
 name: juicebox-prod-checklist
-description: |
-  Execute Juicebox production deployment checklist.
-  Use when preparing for production launch, validating deployment readiness,
-  or performing pre-launch reviews.
-  Trigger with phrases like "juicebox production", "deploy juicebox prod",
-  "juicebox launch checklist", "juicebox go-live".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute juicebox production deployment checklist. use when preparing
+  for production launch, validating deployment readiness, or performing pre-launch
+  reviews. trigger with phrases like "juicebox production", "deploy juicebox prod",
+  "juicebox launc...
 ---
-
 # Juicebox Production Checklist
 
 ## Overview

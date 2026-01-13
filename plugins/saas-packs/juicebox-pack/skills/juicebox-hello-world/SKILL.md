@@ -1,17 +1,12 @@
 ---
 name: juicebox-hello-world
-description: |
-  Create a minimal working Juicebox example.
-  Use when getting started with Juicebox, creating your first search,
-  or testing basic people search functionality.
-  Trigger with phrases like "juicebox hello world", "first juicebox search",
-  "simple juicebox example", "test juicebox".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Create a minimal working Juicebox example. Use when getting started with
+  Juicebox, creating your first search, or testing basic people search functionality.
+  Trigger with phrases like "juicebox hello world", "first juicebox search", "simple
+  juicebo...
 ---
-
 # Juicebox Hello World
 
 ## Overview
