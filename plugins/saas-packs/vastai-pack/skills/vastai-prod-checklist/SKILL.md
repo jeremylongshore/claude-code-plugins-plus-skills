@@ -1,16 +1,15 @@
 ---
-name: vastai-prod-checklist
-license: MIT
 allowed-tools: Read, Bash, Grep
+license: MIT
 description: Execute vast.ai production deployment checklist and rollback procedures.
   use when deploying vast.ai integrations to production, preparing for launch, or
   implementing go-live procedures. trigger with phrases like "vastai production",
   "deploy vastai...
+name: vastai-prod-checklist
 ---
-# Vast.ai Production Checklist
+# Vastai Prod Checklist
 
-## Overview
-Complete checklist for deploying Vast.ai integrations to production.
+This skill provides automated assistance for vastai prod checklist tasks.
 
 ## Prerequisites
 - Staging environment tested and verified
@@ -18,58 +17,8 @@ Complete checklist for deploying Vast.ai integrations to production.
 - Deployment pipeline configured
 - Monitoring and alerting ready
 
-## Instructions
 
-### Step 1: Pre-Deployment Configuration
-- [ ] Production API keys in secure vault
-- [ ] Environment variables set in deployment platform
-- [ ] API key scopes are minimal (least privilege)
-- [ ] Webhook endpoints configured with HTTPS
-- [ ] Webhook secrets stored securely
-
-### Step 2: Code Quality Verification
-- [ ] All tests passing (`npm test`)
-- [ ] No hardcoded credentials
-- [ ] Error handling covers all Vast.ai error types
-- [ ] Rate limiting/backoff implemented
-- [ ] Logging is production-appropriate
-
-### Step 3: Infrastructure Setup
-- [ ] Health check endpoint includes Vast.ai connectivity
-- [ ] Monitoring/alerting configured
-- [ ] Circuit breaker pattern implemented
-- [ ] Graceful degradation configured
-
-### Step 4: Documentation Requirements
-- [ ] Incident runbook created
-- [ ] Key rotation procedure documented
-- [ ] Rollback procedure documented
-- [ ] On-call escalation path defined
-
-### Step 5: Deploy with Gradual Rollout
-```bash
-# Pre-flight checks
-curl -f https://staging.example.com/health
-curl -s https://status.vastai.com
-
-# Gradual rollout - start with canary (10%)
-kubectl apply -f k8s/production.yaml
-kubectl set image deployment/vastai-integration app=image:new --record
-kubectl rollout pause deployment/vastai-integration
-
-# Monitor canary traffic for 10 minutes
-sleep 600
-# Check error rates and latency before continuing
-
-# If healthy, continue rollout to 50%
-kubectl rollout resume deployment/vastai-integration
-kubectl rollout pause deployment/vastai-integration
-sleep 300
-
-# Complete rollout to 100%
-kubectl rollout resume deployment/vastai-integration
-kubectl rollout status deployment/vastai-integration
-```
+See `{baseDir}/references/implementation.md` for detailed implementation guide.
 
 ## Output
 - Deployed Vast.ai integration
@@ -78,37 +27,13 @@ kubectl rollout status deployment/vastai-integration
 - Rollback procedure documented
 
 ## Error Handling
-| Alert | Condition | Severity |
-|-------|-----------|----------|
-| API Down | 5xx errors > 10/min | P1 |
-| High Latency | p99 > 5000ms | P2 |
-| Rate Limited | 429 errors > 5/min | P2 |
-| Auth Failures | 401/403 errors > 0 | P1 |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Health Check Implementation
-```typescript
-async function healthCheck(): Promise<{ status: string; vastai: any }> {
-  const start = Date.now();
-  try {
-    await vastaiClient.ping();
-    return { status: 'healthy', vastai: { connected: true, latencyMs: Date.now() - start } };
-  } catch (error) {
-    return { status: 'degraded', vastai: { connected: false, latencyMs: Date.now() - start } };
-  }
-}
-```
-
-### Immediate Rollback
-```bash
-kubectl rollout undo deployment/vastai-integration
-kubectl rollout status deployment/vastai-integration
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Vast.ai Status](https://status.vastai.com)
 - [Vast.ai Support](https://docs.vastai.com/support)
-
-## Next Steps
-For version upgrades, see `vastai-upgrade-migration`.

@@ -1,13 +1,15 @@
 ---
-name: vastai-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working Vast.ai example. Use when starting a new Vast.ai
   integration, testing your setup, or learning basic Vast.ai API patterns. Trigger
   with phrases like "vastai hello world", "vastai example", "vastai quick start",
   "simple vast...
+name: vastai-hello-world
 ---
 # Vast.ai Hello World
+
+This skill provides automated assistance for vastai hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core Vast.ai functionality.

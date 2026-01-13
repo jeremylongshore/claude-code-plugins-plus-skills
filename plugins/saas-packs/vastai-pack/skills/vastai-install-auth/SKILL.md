@@ -1,13 +1,15 @@
 ---
-name: vastai-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure vast.ai sdk/cli authentication. use when setting
   up a new vast.ai integration, configuring api keys, or initializing vast.ai in your
   project. trigger with phrases like "install vastai", "setup vastai", "vastai auth",
   "configu...
+name: vastai-install-auth
 ---
 # Vast.ai Install & Auth
+
+This skill provides automated assistance for vastai install auth tasks.
 
 ## Overview
 Set up Vast.ai SDK/CLI and configure authentication credentials.
