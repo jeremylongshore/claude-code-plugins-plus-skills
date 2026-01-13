@@ -1,13 +1,15 @@
 ---
-name: juicebox-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure juicebox sdk/cli authentication. use when setting
   up a new juicebox integration, configuring api keys, or initializing juicebox in
   your project. trigger with phrases like "install juicebox", "setup juicebox", "juicebox
   auth",...
+name: juicebox-install-auth
 ---
 # Juicebox Install & Auth
+
+This skill provides automated assistance for juicebox install auth tasks.
 
 ## Overview
 Set up Juicebox SDK and configure authentication credentials for the AI-powered people search platform.
