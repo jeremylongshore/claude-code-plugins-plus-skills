@@ -1,17 +1,12 @@
 ---
 name: windsurf-advanced-troubleshooting
-description: |
-  Apply Windsurf advanced debugging techniques for hard-to-diagnose issues.
-  Use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for Windsurf support escalation.
-  Trigger with phrases like "windsurf hard bug", "windsurf mystery error",
-  "windsurf impossible to debug", "difficult windsurf issue", "windsurf deep debug".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Apply windsurf advanced debugging techniques for hard-to-diagnose issues.
+  use when standard troubleshooting fails, investigating complex race conditions,
+  or preparing evidence bundles for windsurf support escalation. trigger with phrases
+  like "win...
 ---
-
 # Windsurf Advanced Troubleshooting
 
 ## Overview

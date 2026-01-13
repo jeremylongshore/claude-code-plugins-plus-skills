@@ -1,17 +1,12 @@
 ---
 name: vercel-upgrade-migration
-description: |
-  Execute analyze, plan, and execute Vercel SDK upgrades with breaking change detection.
-  Use when upgrading Vercel SDK versions, detecting deprecations,
-  or migrating to new API versions.
-  Trigger with phrases like "upgrade vercel", "vercel migration",
-  "vercel breaking changes", "update vercel SDK", "analyze vercel version".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute analyze, plan, and execute vercel sdk upgrades with breaking
+  change detection. use when upgrading vercel sdk versions, detecting deprecations,
+  or migrating to new api versions. trigger with phrases like "upgrade vercel", "vercel
+  migration"...
 ---
-
 # Vercel Upgrade Migration
 
 ## Prerequisites

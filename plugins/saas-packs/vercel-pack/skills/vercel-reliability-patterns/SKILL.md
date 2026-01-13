@@ -1,17 +1,12 @@
 ---
 name: vercel-reliability-patterns
-description: |
-  Implement Vercel reliability patterns including circuit breakers, idempotency, and graceful degradation.
-  Use when building fault-tolerant Vercel integrations, implementing retry strategies,
-  or adding resilience to production Vercel services.
-  Trigger with phrases like "vercel reliability", "vercel circuit breaker",
-  "vercel idempotent", "vercel resilience", "vercel fallback", "vercel bulkhead".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement vercel reliability patterns including circuit breakers, idempotency,
+  and graceful degradation. use when building fault-tolerant vercel integrations,
+  implementing retry strategies, or adding resilience to production vercel services.
+  trigg...
 ---
-
 # Vercel Reliability Patterns
 
 ## Prerequisites

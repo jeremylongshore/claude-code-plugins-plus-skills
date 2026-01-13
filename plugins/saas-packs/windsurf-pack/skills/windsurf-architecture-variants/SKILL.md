@@ -1,17 +1,11 @@
 ---
 name: windsurf-architecture-variants
-description: |
-  Choose and implement Windsurf validated architecture blueprints for different scales.
-  Use when designing new Windsurf integrations, choosing between monolith/service/microservice
-  architectures, or planning migration paths for Windsurf applications.
-  Trigger with phrases like "windsurf architecture", "windsurf blueprint",
-  "how to structure windsurf", "windsurf project layout", "windsurf microservice".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Choose and implement windsurf validated architecture blueprints for different
+  scales. use when designing new windsurf integrations, choosing between monolith/service/microservice
+  architectures, or planning migration paths for windsurf applications...
 ---
-
 # Windsurf Architecture Variants
 
 ## Overview

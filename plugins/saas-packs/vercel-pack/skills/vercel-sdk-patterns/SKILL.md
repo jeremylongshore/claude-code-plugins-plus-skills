@@ -1,17 +1,12 @@
 ---
 name: vercel-sdk-patterns
-description: |
-  Execute apply production-ready Vercel SDK patterns for TypeScript and Python.
-  Use when implementing Vercel integrations, refactoring SDK usage,
-  or establishing team coding standards for Vercel.
-  Trigger with phrases like "vercel SDK patterns", "vercel best practices",
-  "vercel code patterns", "idiomatic vercel".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Execute apply production-ready vercel sdk patterns for typescript and
+  python. use when implementing vercel integrations, refactoring sdk usage, or establishing
+  team coding standards for vercel. trigger with phrases like "vercel sdk patterns",
+  "ver...
 ---
-
 # Vercel Sdk Patterns
 
 ## Prerequisites
