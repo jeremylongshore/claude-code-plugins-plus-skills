@@ -1,12 +1,14 @@
 ---
-name: overnight-development
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Automates software development overnight using git hooks to enforce test-driven
   use when appropriate context detected. trigger with relevant phrases based on skill
   purpose.
+name: overnight-development
 ---
 # Overnight Development
+
+This skill provides automated assistance for overnight development tasks.
 
 ## Overview
 

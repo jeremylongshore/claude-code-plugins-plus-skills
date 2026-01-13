@@ -1,10 +1,10 @@
 ---
-name: yaml-master
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: 'Execute proactive yaml intelligence: automatically activates when working
   with yaml files. use when appropriate context detected. trigger with relevant phrases
   based on skill purpose.'
+name: yaml-master
 ---
 # YAML Master
 

@@ -1,12 +1,14 @@
 ---
-name: agent-context-loader
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: 'Execute proactive auto-loading: automatically detects and loads agents.md
   files. use when appropriate context detected. trigger with relevant phrases based
   on skill purpose.'
+name: agent-context-loader
 ---
 # Agent Context Loader
+
+This skill provides automated assistance for agent context loader tasks.
 
 ## Overview
 

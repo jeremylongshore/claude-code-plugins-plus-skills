@@ -1,13 +1,15 @@
 ---
-name: 000-jeremy-content-consistency-validator
-license: MIT
 allowed-tools: Read, WebFetch, WebSearch, Grep, Bash
+license: MIT
 description: Validate messaging consistency across website, GitHub repos, and local
   documentation generating read-only discrepancy reports. Use when checking content
   alignment or finding mixed messaging. Trigger with phrases like "check consistency",
   "validate...
+name: 000-jeremy-content-consistency-validator
 ---
 # 000 Jeremy Content Consistency Validator
+
+This skill provides automated assistance for 000 jeremy content consistency validator tasks.
 
 ## Overview
 
