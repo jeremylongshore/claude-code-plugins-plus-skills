@@ -1,17 +1,12 @@
 ---
 name: exa-enterprise-rbac
-description: |
-  Configure Exa enterprise SSO, role-based access control, and organization management.
-  Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for Exa.
-  Trigger with phrases like "exa SSO", "exa RBAC",
-  "exa enterprise", "exa roles", "exa permissions", "exa SAML".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure Exa enterprise SSO, role-based access control, and organization
+  management. Use when implementing SSO integration, configuring role-based permissions,
+  or setting up organization-level controls for Exa. Trigger with phrases like "exa
+  SSO"...
 ---
-
 # Exa Enterprise RBAC
 
 ## Overview

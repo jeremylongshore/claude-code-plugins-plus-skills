@@ -1,17 +1,12 @@
 ---
 name: exa-debug-bundle
-description: |
-  Collect Exa debug evidence for support tickets and troubleshooting.
-  Use when encountering persistent issues, preparing support tickets,
-  or collecting diagnostic information for Exa problems.
-  Trigger with phrases like "exa debug", "exa support bundle",
-  "collect exa logs", "exa diagnostic".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Collect exa debug evidence for support tickets and troubleshooting. use
+  when encountering persistent issues, preparing support tickets, or collecting diagnostic
+  information for exa problems. trigger with phrases like "exa debug", "exa support
+  bund...
 ---
-
 # Exa Debug Bundle
 
 ## Overview

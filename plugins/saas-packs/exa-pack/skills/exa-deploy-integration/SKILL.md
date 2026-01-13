@@ -1,17 +1,12 @@
 ---
 name: exa-deploy-integration
-description: |
-  Deploy Exa integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying Exa-powered applications to production,
-  configuring platform-specific secrets, or setting up deployment pipelines.
-  Trigger with phrases like "deploy exa", "exa Vercel",
-  "exa production deploy", "exa Cloud Run", "exa Fly.io".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Exa integrations to Vercel, Fly.io, and Cloud Run platforms. Use
+  when deploying Exa-powered applications to production, configuring platform-specific
+  secrets, or setting up deployment pipelines. Trigger with phrases like "deploy exa",
+  "exa ...
 ---
-
 # Exa Deploy Integration
 
 ## Overview

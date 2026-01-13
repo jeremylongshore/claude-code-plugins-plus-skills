@@ -1,17 +1,11 @@
 ---
 name: exa-hello-world
-description: |
-  Create a minimal working Exa example.
-  Use when starting a new Exa integration, testing your setup,
-  or learning basic Exa API patterns.
-  Trigger with phrases like "exa hello world", "exa example",
-  "exa quick start", "simple exa code".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Create a minimal working Exa example. Use when starting a new Exa integration,
+  testing your setup, or learning basic Exa API patterns. Trigger with phrases like
+  "exa hello world", "exa example", "exa quick start", "simple exa code".
 ---
-
 # Exa Hello World
 
 ## Overview

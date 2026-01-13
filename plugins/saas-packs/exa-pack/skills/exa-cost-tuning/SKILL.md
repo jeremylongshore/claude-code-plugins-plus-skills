@@ -1,17 +1,12 @@
 ---
 name: exa-cost-tuning
-description: |
-  Optimize Exa costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Exa billing, reducing API costs,
-  or implementing usage monitoring and budget alerts.
-  Trigger with phrases like "exa cost", "exa billing",
-  "reduce exa costs", "exa pricing", "exa expensive", "exa budget".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Optimize Exa costs through tier selection, sampling, and usage monitoring.
+  Use when analyzing Exa billing, reducing API costs, or implementing usage monitoring
+  and budget alerts. Trigger with phrases like "exa cost", "exa billing", "reduce
+  exa cos...
 ---
-
 # Exa Cost Tuning
 
 ## Overview

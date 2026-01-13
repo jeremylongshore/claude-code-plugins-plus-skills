@@ -1,17 +1,12 @@
 ---
 name: exa-ci-integration
-description: |
-  Configure Exa CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating Exa tests into your build process.
-  Trigger with phrases like "exa CI", "exa GitHub Actions",
-  "exa automated tests", "CI exa".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Exa CI/CD integration with GitHub Actions and testing. Use
+  when setting up automated testing, configuring CI pipelines, or integrating Exa
+  tests into your build process. Trigger with phrases like "exa CI", "exa GitHub Actions",
+  "exa auto...
 ---
-
 # Exa CI Integration
 
 ## Overview

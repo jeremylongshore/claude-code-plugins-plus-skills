@@ -1,17 +1,12 @@
 ---
 name: exa-data-handling
-description: |
-  Implement Exa PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for Exa integrations.
-  Trigger with phrases like "exa data", "exa PII",
-  "exa GDPR", "exa data retention", "exa privacy", "exa CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement exa pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for exa integrations.
+  tri...
 ---
-
 # Exa Data Handling
 
 ## Overview
