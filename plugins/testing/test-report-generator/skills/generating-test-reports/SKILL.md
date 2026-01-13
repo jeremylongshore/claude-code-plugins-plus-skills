@@ -1,10 +1,10 @@
 ---
-name: generating-test-reports
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Generate comprehensive test reports with metrics, coverage, and visualizations.
   Use when performing specialized testing. Trigger with phrases like "generate test
   report", "create test documentation", or "show test metrics".
+name: generating-test-reports
 ---
 # Test Report Generator
 

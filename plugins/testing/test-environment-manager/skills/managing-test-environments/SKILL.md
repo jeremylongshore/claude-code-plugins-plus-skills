@@ -1,10 +1,10 @@
 ---
-name: managing-test-environments
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Test provision and manage isolated test environments with configuration
   and data. Use when performing specialized testing. Trigger with phrases like "manage
   test environment", "provision test env", or "setup test infrastructure".
+name: managing-test-environments
 ---
 # Test Environment Manager
 

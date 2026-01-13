@@ -1,11 +1,11 @@
 ---
-name: generating-unit-tests
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Test automatically generate comprehensive unit tests from source code
   covering happy paths, edge cases, and error conditions. Use when creating test coverage
   for functions, classes, or modules. Trigger with phrases like "generate unit tests",
   "cre...
+name: generating-unit-tests
 ---
 # Unit Test Generator
 

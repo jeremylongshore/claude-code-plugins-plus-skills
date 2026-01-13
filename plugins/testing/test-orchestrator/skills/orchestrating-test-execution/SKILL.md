@@ -1,10 +1,10 @@
 ---
-name: orchestrating-test-execution
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Test coordinate parallel test execution across multiple environments
   and frameworks. Use when performing specialized testing. Trigger with phrases like
   "orchestrate tests", "run parallel tests", or "coordinate test execution".
+name: orchestrating-test-execution
 ---
 # Test Orchestrator
 

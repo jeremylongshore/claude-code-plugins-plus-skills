@@ -1,10 +1,10 @@
 ---
-name: testing-visual-regression
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Detect visual changes in ui components using screenshot comparison. use
   when detecting unintended ui changes or pixel differences. trigger with phrases
   like "test visual changes", "compare screenshots", or "detect ui regressions".
+name: testing-visual-regression
 ---
 # Visual Regression Tester
 

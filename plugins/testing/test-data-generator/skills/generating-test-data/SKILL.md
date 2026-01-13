@@ -1,10 +1,10 @@
 ---
-name: generating-test-data
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Generate realistic test data including edge cases and boundary conditions.
   Use when creating realistic fixtures or edge case test data. Trigger with phrases
   like "generate test data", "create fixtures", or "setup test database".
+name: generating-test-data
 ---
 # Test Data Generator
 

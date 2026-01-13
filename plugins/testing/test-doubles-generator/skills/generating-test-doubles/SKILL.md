@@ -1,10 +1,10 @@
 ---
-name: generating-test-doubles
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Generate mocks, stubs, spies, and fakes for dependency isolation. Use
   when creating mocks, stubs, or test isolation fixtures. Trigger with phrases like
   "generate mocks", "create test doubles", or "setup stubs".
+name: generating-test-doubles
 ---
 # Test Doubles Generator
 
