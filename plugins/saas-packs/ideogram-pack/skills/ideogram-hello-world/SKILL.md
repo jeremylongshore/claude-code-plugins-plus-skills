@@ -1,13 +1,15 @@
 ---
-name: ideogram-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working Ideogram example. Use when starting a new Ideogram
   integration, testing your setup, or learning basic Ideogram API patterns. Trigger
   with phrases like "ideogram hello world", "ideogram example", "ideogram quick start",
   "si...
+name: ideogram-hello-world
 ---
 # Ideogram Hello World
+
+This skill provides automated assistance for ideogram hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core Ideogram functionality.

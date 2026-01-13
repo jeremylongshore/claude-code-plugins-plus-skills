@@ -1,69 +1,23 @@
 ---
-name: ideogram-debug-bundle
-license: MIT
 allowed-tools: Read, Bash, Grep
+license: MIT
 description: Collect ideogram debug evidence for support tickets and troubleshooting.
   use when encountering persistent issues, preparing support tickets, or collecting
   diagnostic information for ideogram problems. trigger with phrases like "ideogram
   debug", "i...
+name: ideogram-debug-bundle
 ---
 # Ideogram Debug Bundle
 
-## Overview
-Collect all necessary diagnostic information for Ideogram support tickets.
+This skill provides automated assistance for ideogram debug bundle tasks.
 
 ## Prerequisites
 - Ideogram SDK installed
 - Access to application logs
 - Permission to collect environment info
 
-## Instructions
 
-### Step 1: Create Debug Bundle Script
-```bash
-#!/bin/bash
-# ideogram-debug-bundle.sh
-
-BUNDLE_DIR="ideogram-debug-$(date +%Y%m%d-%H%M%S)"
-mkdir -p "$BUNDLE_DIR"
-
-echo "=== Ideogram Debug Bundle ===" > "$BUNDLE_DIR/summary.txt"
-echo "Generated: $(date)" >> "$BUNDLE_DIR/summary.txt"
-```
-
-### Step 2: Collect Environment Info
-```bash
-# Environment info
-echo "--- Environment ---" >> "$BUNDLE_DIR/summary.txt"
-node --version >> "$BUNDLE_DIR/summary.txt" 2>&1
-npm --version >> "$BUNDLE_DIR/summary.txt" 2>&1
-echo "IDEOGRAM_API_KEY: ${IDEOGRAM_API_KEY:+[SET]}" >> "$BUNDLE_DIR/summary.txt"
-```
-
-### Step 3: Gather SDK and Logs
-```bash
-# SDK version
-npm list @ideogram/sdk 2>/dev/null >> "$BUNDLE_DIR/summary.txt"
-
-# Recent logs (redacted)
-grep -i "ideogram" ~/.npm/_logs/*.log 2>/dev/null | tail -50 >> "$BUNDLE_DIR/logs.txt"
-
-# Configuration (redacted - secrets masked)
-echo "--- Config (redacted) ---" >> "$BUNDLE_DIR/summary.txt"
-cat .env 2>/dev/null | sed 's/=.*/=***REDACTED***/' >> "$BUNDLE_DIR/config-redacted.txt"
-
-# Network connectivity test
-echo "--- Network Test ---" >> "$BUNDLE_DIR/summary.txt"
-echo -n "API Health: " >> "$BUNDLE_DIR/summary.txt"
-curl -s -o /dev/null -w "%{http_code}" https://api.ideogram.com/health >> "$BUNDLE_DIR/summary.txt"
-echo "" >> "$BUNDLE_DIR/summary.txt"
-```
-
-### Step 4: Package Bundle
-```bash
-tar -czf "$BUNDLE_DIR.tar.gz" "$BUNDLE_DIR"
-echo "Bundle created: $BUNDLE_DIR.tar.gz"
-```
+See `{baseDir}/references/implementation.md` for detailed implementation guide.
 
 ## Output
 - `ideogram-debug-YYYYMMDD-HHMMSS.tar.gz` archive containing:
@@ -72,35 +26,13 @@ echo "Bundle created: $BUNDLE_DIR.tar.gz"
   - `config-redacted.txt` - Configuration (secrets removed)
 
 ## Error Handling
-| Item | Purpose | Included |
-|------|---------|----------|
-| Environment versions | Compatibility check | ✓ |
-| SDK version | Version-specific bugs | ✓ |
-| Error logs (redacted) | Root cause analysis | ✓ |
-| Config (redacted) | Configuration issues | ✓ |
-| Network test | Connectivity issues | ✓ |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Sensitive Data Handling
-**ALWAYS REDACT:**
-- API keys and tokens
-- Passwords and secrets
-- PII (emails, names, IDs)
-
-**Safe to Include:**
-- Error messages
-- Stack traces (redacted)
-- SDK/runtime versions
-
-### Submit to Support
-1. Create bundle: `bash ideogram-debug-bundle.sh`
-2. Review for sensitive data
-3. Upload to Ideogram support portal
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Ideogram Support](https://docs.ideogram.com/support)
 - [Ideogram Status](https://status.ideogram.com)
-
-## Next Steps
-For rate limit issues, see `ideogram-rate-limits`.

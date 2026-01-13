@@ -1,13 +1,15 @@
 ---
-name: ideogram-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure ideogram sdk/cli authentication. use when setting
   up a new ideogram integration, configuring api keys, or initializing ideogram in
   your project. trigger with phrases like "install ideogram", "setup ideogram", "ideogram
   auth",...
+name: ideogram-install-auth
 ---
 # Ideogram Install & Auth
+
+This skill provides automated assistance for ideogram install auth tasks.
 
 ## Overview
 Set up Ideogram SDK/CLI and configure authentication credentials.
