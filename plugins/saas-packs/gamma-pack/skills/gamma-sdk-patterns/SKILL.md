@@ -1,17 +1,12 @@
 ---
 name: gamma-sdk-patterns
-description: |
-  Learn idiomatic Gamma SDK patterns and best practices.
-  Use when implementing complex presentation workflows,
-  handling async operations, or structuring Gamma code.
-  Trigger with phrases like "gamma patterns", "gamma best practices",
-  "gamma SDK usage", "gamma async", "gamma code structure".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Learn idiomatic gamma sdk patterns and best practices. use when implementing
+  complex presentation workflows, handling async operations, or structuring gamma
+  code. trigger with phrases like "gamma patterns", "gamma best practices", "gamma
+  sdk usage...
 ---
-
 # Gamma SDK Patterns
 
 ## Overview

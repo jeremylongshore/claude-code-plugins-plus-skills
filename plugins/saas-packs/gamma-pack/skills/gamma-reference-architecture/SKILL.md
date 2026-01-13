@@ -1,17 +1,12 @@
 ---
 name: gamma-reference-architecture
-description: |
-  Reference architecture for enterprise Gamma integrations.
-  Use when designing systems, planning integrations,
-  or implementing best-practice Gamma architectures.
-  Trigger with phrases like "gamma architecture", "gamma design",
-  "gamma system design", "gamma integration pattern", "gamma enterprise".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Reference architecture for enterprise gamma integrations. use when designing
+  systems, planning integrations, or implementing best-practice gamma architectures.
+  trigger with phrases like "gamma architecture", "gamma design", "gamma system design",
+  ...
 ---
-
 # Gamma Reference Architecture
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: gamma-security-basics
-description: |
-  Implement security best practices for Gamma integration.
-  Use when securing API keys, implementing access controls,
-  or auditing Gamma security configuration.
-  Trigger with phrases like "gamma security", "gamma API key security",
-  "gamma secure", "gamma credentials", "gamma access control".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement security best practices for gamma integration. use when securing
+  api keys, implementing access controls, or auditing gamma security configuration.
+  trigger with phrases like "gamma security", "gamma api key security", "gamma secure",
+  "gam...
 ---
-
 # Gamma Security Basics
 
 ## Overview

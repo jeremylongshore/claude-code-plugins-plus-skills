@@ -1,17 +1,12 @@
 ---
 name: granola-ci-integration
-description: |
-  Configure Granola CI/CD integration with automated workflows.
-  Use when setting up automated meeting note processing,
-  integrating with development pipelines, or building Zapier automations.
-  Trigger with phrases like "granola CI", "granola automation pipeline",
-  "granola workflow", "automated granola", "granola DevOps".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Granola CI/CD integration with automated workflows. Use when
+  setting up automated meeting note processing, integrating with development pipelines,
+  or building Zapier automations. Trigger with phrases like "granola CI", "granola
+  automatio...
 ---
-
 # Granola CI Integration
 
 ## Overview

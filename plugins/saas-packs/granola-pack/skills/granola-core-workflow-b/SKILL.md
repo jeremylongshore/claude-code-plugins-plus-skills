@@ -1,17 +1,12 @@
 ---
 name: granola-core-workflow-b
-description: |
-  Post-meeting note processing and sharing workflow with Granola.
-  Use when reviewing meeting notes, sharing with team members,
-  or processing action items after meetings.
-  Trigger with phrases like "granola post meeting", "share granola notes",
-  "granola follow up", "process meeting notes", "granola action items".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Post-meeting note processing and sharing workflow with granola. use when
+  reviewing meeting notes, sharing with team members, or processing action items after
+  meetings. trigger with phrases like "granola post meeting", "share granola notes",
+  "grano...
 ---
-
 # Granola Core Workflow B: Post-Meeting Processing
 
 ## Overview
