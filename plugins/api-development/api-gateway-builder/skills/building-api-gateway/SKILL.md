@@ -1,16 +1,11 @@
 ---
 name: building-api-gateway
-description: |
-  Create API gateways with routing, load balancing, rate limiting, and authentication.
-  Use when routing and managing multiple API services.
-  Trigger with phrases like "build API gateway", "create API router", or "setup API gateway".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Create API gateways with routing, load balancing, rate limiting, and
+  authentication. Use when routing and managing multiple API services. Trigger with
+  phrases like "build API gateway", "create API router", or "setup API gateway".
 ---
-
 # Building Api Gateway
 
 ## Overview

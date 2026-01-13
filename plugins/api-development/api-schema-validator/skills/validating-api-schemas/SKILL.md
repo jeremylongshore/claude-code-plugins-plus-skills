@@ -1,16 +1,11 @@
 ---
 name: validating-api-schemas
-description: |
-  Validate API schemas against OpenAPI, JSON Schema, and GraphQL specifications.
-  Use when validating API schemas and contracts.
-  Trigger with phrases like "validate API schema", "check OpenAPI spec", or "verify schema".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Validate API schemas against OpenAPI, JSON Schema, and GraphQL specifications.
+  Use when validating API schemas and contracts. Trigger with phrases like "validate
+  API schema", "check OpenAPI spec", or "verify schema".
 ---
-
 # Validating Api Schemas
 
 ## Overview

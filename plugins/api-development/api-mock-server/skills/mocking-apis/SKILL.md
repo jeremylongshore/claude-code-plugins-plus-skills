@@ -1,16 +1,11 @@
 ---
 name: mocking-apis
-description: |
-  Generate mock API servers for testing and development with realistic response data.
-  Use when creating mock APIs for development and testing.
-  Trigger with phrases like "create mock API", "generate API mock", or "setup mock server".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Generate mock API servers for testing and development with realistic
+  response data. Use when creating mock APIs for development and testing. Trigger
+  with phrases like "create mock API", "generate API mock", or "setup mock server".
 ---
-
 # Mocking Apis
 
 ## Overview

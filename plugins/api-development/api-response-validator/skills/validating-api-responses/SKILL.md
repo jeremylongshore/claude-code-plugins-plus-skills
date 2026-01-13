@@ -1,16 +1,11 @@
 ---
 name: validating-api-responses
-description: |
-  Validate API responses against schemas to ensure contract compliance and data integrity.
-  Use when ensuring API response correctness.
-  Trigger with phrases like "validate responses", "check API responses", or "verify response format".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Validate API responses against schemas to ensure contract compliance
+  and data integrity. Use when ensuring API response correctness. Trigger with phrases
+  like "validate responses", "check API responses", or "verify response format".
 ---
-
 # Validating Api Responses
 
 ## Overview

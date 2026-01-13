@@ -1,16 +1,11 @@
 ---
 name: migrating-apis
-description: |
-  Implement API migrations between versions, platforms, or frameworks with minimal downtime.
-  Use when upgrading APIs between versions.
-  Trigger with phrases like "migrate the API", "upgrade API version", or "migrate to new API".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Implement api migrations between versions, platforms, or frameworks with
+  minimal downtime. use when upgrading apis between versions. trigger with phrases
+  like "migrate the api", "upgrade api version", or "migrate to new api".
 ---
-
 # Migrating Apis
 
 ## Overview
