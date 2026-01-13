@@ -1,16 +1,12 @@
 ---
 name: versioning-apis
-description: |
-  Implement API versioning with backward compatibility, deprecation notices, and migration paths.
-  Use when managing API versions and backward compatibility.
-  Trigger with phrases like "version the API", "manage API versions", or "handle API versioning".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Implement api versioning with backward compatibility, deprecation notices,
+  and migration paths. use when managing api versions and backward compatibility.
+  trigger with phrases like "version the api", "manage api versions", or "handle api
+  versioning".
 ---
-
 # Versioning Apis
 
 ## Overview

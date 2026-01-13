@@ -1,16 +1,11 @@
 ---
 name: generating-rest-apis
-description: |
-  Generate complete REST API implementations from OpenAPI specifications or database schemas.
-  Use when generating RESTful API implementations.
-  Trigger with phrases like "generate REST API", "create RESTful API", or "build REST endpoints".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Generate complete REST API implementations from OpenAPI specifications
+  or database schemas. Use when generating RESTful API implementations. Trigger with
+  phrases like "generate REST API", "create RESTful API", or "build REST endpoints".
 ---
-
 # Generating Rest Apis
 
 ## Overview

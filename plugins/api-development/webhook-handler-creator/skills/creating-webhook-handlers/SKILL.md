@@ -1,16 +1,11 @@
 ---
 name: creating-webhook-handlers
-description: |
-  Create webhook endpoints with signature verification, retry logic, and payload validation.
-  Use when receiving and processing webhook events.
-  Trigger with phrases like "create webhook", "handle webhook events", or "setup webhook handler".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Create webhook endpoints with signature verification, retry logic, and
+  payload validation. Use when receiving and processing webhook events. Trigger with
+  phrases like "create webhook", "handle webhook events", or "setup webhook handler".
 ---
-
 # Creating Webhook Handlers
 
 ## Overview

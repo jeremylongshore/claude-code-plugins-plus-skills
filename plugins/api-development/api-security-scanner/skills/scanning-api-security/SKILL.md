@@ -1,16 +1,12 @@
 ---
 name: scanning-api-security
-description: |
-  Detect API security vulnerabilities including injection, broken auth, and data exposure.
-  Use when scanning APIs for security vulnerabilities.
-  Trigger with phrases like "scan API security", "check for vulnerabilities", or "audit API security".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Detect api security vulnerabilities including injection, broken auth,
+  and data exposure. use when scanning apis for security vulnerabilities. trigger
+  with phrases like "scan api security", "check for vulnerabilities", or "audit api
+  security".
 ---
-
 # Scanning Api Security
 
 ## Overview
