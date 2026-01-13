@@ -1,17 +1,11 @@
 ---
 name: supabase-sdk-patterns
-description: |
-  Execute apply production-ready Supabase SDK patterns for TypeScript and Python.
-  Use when implementing Supabase integrations, refactoring SDK usage,
-  or establishing team coding standards for Supabase.
-  Trigger with phrases like "supabase SDK patterns", "supabase best practices",
-  "supabase code patterns", "idiomatic supabase".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Execute apply production-ready supabase sdk patterns for typescript and
+  python. use when implementing supabase integrations, refactoring sdk usage, or establishing
+  team coding standards for supabase. trigger with phrases like "supabase sdk pattern...
 ---
-
 # Supabase Sdk Patterns
 
 ## Prerequisites

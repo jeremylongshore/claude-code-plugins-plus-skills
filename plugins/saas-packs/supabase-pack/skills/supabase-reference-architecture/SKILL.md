@@ -1,17 +1,12 @@
 ---
 name: supabase-reference-architecture
-description: |
-  Implement Supabase reference architecture with best-practice project layout.
-  Use when designing new Supabase integrations, reviewing project structure,
-  or establishing architecture standards for Supabase applications.
-  Trigger with phrases like "supabase architecture", "supabase best practices",
-  "supabase project structure", "how to organize supabase", "supabase layout".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Implement supabase reference architecture with best-practice project
+  layout. use when designing new supabase integrations, reviewing project structure,
+  or establishing architecture standards for supabase applications. trigger with phrases
+  like "su...
 ---
-
 # Supabase Reference Architecture
 
 ## Prerequisites

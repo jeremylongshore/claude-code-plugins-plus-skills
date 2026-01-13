@@ -1,17 +1,12 @@
 ---
 name: supabase-rate-limits
-description: |
-  Implement Supabase rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for Supabase.
-  Trigger with phrases like "supabase rate limit", "supabase throttling",
-  "supabase 429", "supabase retry", "supabase backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement supabase rate limiting, backoff, and idempotency patterns.
+  use when handling rate limit errors, implementing retry logic, or optimizing api
+  request throughput for supabase. trigger with phrases like "supabase rate limit",
+  "supabase throt...
 ---
-
 # Supabase Rate Limits
 
 ## Prerequisites

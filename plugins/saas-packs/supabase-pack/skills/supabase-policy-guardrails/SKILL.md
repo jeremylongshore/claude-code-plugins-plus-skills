@@ -1,17 +1,11 @@
 ---
 name: supabase-policy-guardrails
-description: |
-  Implement Supabase lint rules, policy enforcement, and automated guardrails.
-  Use when setting up code quality rules for Supabase integrations, implementing
-  pre-commit hooks, or configuring CI policy checks for Supabase best practices.
-  Trigger with phrases like "supabase policy", "supabase lint",
-  "supabase guardrails", "supabase best practices check", "supabase eslint".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement supabase lint rules, policy enforcement, and automated guardrails.
+  use when setting up code quality rules for supabase integrations, implementing pre-commit
+  hooks, or configuring ci policy checks for supabase best practices. trigger with...
 ---
-
 # Supabase Policy Guardrails
 
 ## Prerequisites

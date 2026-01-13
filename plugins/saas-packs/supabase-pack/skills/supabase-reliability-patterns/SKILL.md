@@ -1,17 +1,11 @@
 ---
 name: supabase-reliability-patterns
-description: |
-  Implement Supabase reliability patterns including circuit breakers, idempotency, and graceful degradation.
-  Use when building fault-tolerant Supabase integrations, implementing retry strategies,
-  or adding resilience to production Supabase services.
-  Trigger with phrases like "supabase reliability", "supabase circuit breaker",
-  "supabase idempotent", "supabase resilience", "supabase fallback", "supabase bulkhead".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement supabase reliability patterns including circuit breakers, idempotency,
+  and graceful degradation. use when building fault-tolerant supabase integrations,
+  implementing retry strategies, or adding resilience to production supabase services....
 ---
-
 # Supabase Reliability Patterns
 
 ## Prerequisites
