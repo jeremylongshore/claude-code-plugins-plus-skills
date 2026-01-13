@@ -1,12 +1,14 @@
 ---
-name: openrouter-debug-bundle
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute set up comprehensive logging and debugging for openrouter. use
   when investigating issues or monitoring requests. trigger with phrases like 'openrouter
   debug', 'openrouter logging', 'openrouter trace', 'monitor openrouter'.
+name: openrouter-debug-bundle
 ---
 # Openrouter Debug Bundle
+
+This skill provides automated assistance for openrouter debug bundle tasks.
 
 ## Overview
 

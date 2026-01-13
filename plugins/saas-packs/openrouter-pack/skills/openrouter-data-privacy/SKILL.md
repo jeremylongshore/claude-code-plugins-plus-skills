@@ -1,12 +1,14 @@
 ---
-name: openrouter-data-privacy
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement data privacy controls for openrouter requests. use when handling
   pii or meeting compliance requirements. trigger with phrases like 'openrouter privacy',
   'openrouter pii', 'openrouter gdpr', 'openrouter data protection'.
+name: openrouter-data-privacy
 ---
 # Openrouter Data Privacy
+
+This skill provides automated assistance for openrouter data privacy tasks.
 
 ## Overview
 

@@ -1,12 +1,14 @@
 ---
-name: openrouter-context-optimization
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Optimize context window usage and token efficiency. Use when managing
   costs or hitting context limits. Trigger with phrases like 'openrouter context',
   'openrouter tokens', 'reduce tokens', 'context window'.
+name: openrouter-context-optimization
 ---
 # Openrouter Context Optimization
+
+This skill provides automated assistance for openrouter context optimization tasks.
 
 ## Overview
 

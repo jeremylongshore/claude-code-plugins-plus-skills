@@ -1,12 +1,14 @@
 ---
-name: openrouter-common-errors
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute diagnose and fix common openrouter api errors. use when troubleshooting
   failed requests. trigger with phrases like 'openrouter error', 'openrouter not working',
   'openrouter 401', 'openrouter 429', 'fix openrouter'.
+name: openrouter-common-errors
 ---
 # Openrouter Common Errors
+
+This skill provides automated assistance for openrouter common errors tasks.
 
 ## Overview
 

@@ -1,13 +1,15 @@
 ---
-name: openrouter-compliance-review
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute conduct security and compliance review of openrouter integration.
   use when preparing for audits or security assessments. trigger with phrases like
   'openrouter security review', 'openrouter compliance', 'openrouter audit', 'security
   assessm...
+name: openrouter-compliance-review
 ---
 # Openrouter Compliance Review
+
+This skill provides automated assistance for openrouter compliance review tasks.
 
 ## Overview
 

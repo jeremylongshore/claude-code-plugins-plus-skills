@@ -1,12 +1,14 @@
 ---
-name: openrouter-fallback-config
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Configure model fallback chains for high availability. Use when building
   fault-tolerant LLM systems. Trigger with phrases like 'openrouter fallback', 'openrouter
   backup model', 'openrouter redundancy', 'model failover'.
+name: openrouter-fallback-config
 ---
 # Openrouter Fallback Config
+
+This skill provides automated assistance for openrouter fallback config tasks.
 
 ## Overview
 

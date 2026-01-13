@@ -1,12 +1,14 @@
 ---
-name: openrouter-function-calling
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement function/tool calling with openrouter models. use when building
   agents or structured outputs. trigger with phrases like 'openrouter functions',
   'openrouter tools', 'openrouter agent', 'function calling'.
+name: openrouter-function-calling
 ---
 # Openrouter Function Calling
+
+This skill provides automated assistance for openrouter function calling tasks.
 
 ## Overview
 

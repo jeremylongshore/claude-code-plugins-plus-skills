@@ -1,12 +1,14 @@
 ---
-name: openrouter-cost-controls
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement budget controls and cost limits for openrouter. use when managing
   spending or preventing overruns. trigger with phrases like 'openrouter budget',
   'openrouter spending limit', 'cost control', 'openrouter billing alert'.
+name: openrouter-cost-controls
 ---
 # Openrouter Cost Controls
+
+This skill provides automated assistance for openrouter cost controls tasks.
 
 ## Overview
 

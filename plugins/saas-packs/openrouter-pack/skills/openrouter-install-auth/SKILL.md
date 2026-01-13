@@ -1,13 +1,15 @@
 ---
-name: openrouter-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute set up openrouter api authentication and configure api keys.
   use when starting a new openrouter integration or troubleshooting auth issues. trigger
   with phrases like 'openrouter setup', 'openrouter api key', 'openrouter authentication',
   'c...
+name: openrouter-install-auth
 ---
 # Openrouter Install Auth
+
+This skill provides automated assistance for openrouter install auth tasks.
 
 ## Overview
 

@@ -1,12 +1,14 @@
 ---
-name: openrouter-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Create your first OpenRouter API request with a simple example. Use when
   learning OpenRouter or testing your setup. Trigger with phrases like 'openrouter
   hello world', 'openrouter first request', 'openrouter quickstart', 'test openrouter'.
+name: openrouter-hello-world
 ---
 # Openrouter Hello World
+
+This skill provides automated assistance for openrouter hello world tasks.
 
 ## Overview
 
