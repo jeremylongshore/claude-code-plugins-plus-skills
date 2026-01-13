@@ -1,10 +1,10 @@
 ---
-name: performing-security-code-review
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute this skill enables ai assistant to conduct a security-focused
   code review using the security-agent plugin. it analyzes code for potential vulnerabilities
   like sql injection, xss, authentication flaws, and insecure dependencies. ai assistan...
+name: performing-security-code-review
 ---
 # Security Agent
 

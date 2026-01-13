@@ -1,11 +1,11 @@
 ---
-name: adk-agent-builder
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Bash
+license: MIT
 description: Build production-ready AI agents using Google's Agent Development Kit
   with AI assistant integration, React patterns, multi-agent orchestration, and comprehensive
   tool libraries. Use when appropriate context detected. Trigger with relevant phrases
   ...
+name: adk-agent-builder
 ---
 # ADK Agent Builder
 

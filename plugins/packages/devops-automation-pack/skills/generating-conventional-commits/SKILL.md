@@ -1,11 +1,11 @@
 ---
-name: generating-conventional-commits
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute generates conventional commit messages using ai. it analyzes
   code changes and suggests a commit message adhering to the conventional commits
   specification. use this skill when you need help writing clear, standardized commit
   messages, espe...
+name: generating-conventional-commits
 ---
 # Devops Automation Pack
 

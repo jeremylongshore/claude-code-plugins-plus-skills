@@ -1,11 +1,11 @@
 ---
-name: creating-alerting-rules
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute this skill enables ai assistant to create intelligent alerting
   rules for proactive performance monitoring. it is triggered when the user requests
   to "create alerts", "define monitoring rules", or "set up alerting". the skill helps
   define t...
+name: creating-alerting-rules
 ---
 # Alerting Rule Creator
 

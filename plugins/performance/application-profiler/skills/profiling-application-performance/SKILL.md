@@ -1,11 +1,11 @@
 ---
-name: profiling-application-performance
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute this skill enables ai assistant to profile application performance,
   analyzing cpu usage, memory consumption, and execution time. it is triggered when
   the user requests performance analysis, bottleneck identification, or optimization
   recomm...
+name: profiling-application-performance
 ---
 # Application Profiler
 

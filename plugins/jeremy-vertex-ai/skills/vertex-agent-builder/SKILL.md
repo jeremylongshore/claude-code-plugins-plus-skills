@@ -1,11 +1,11 @@
 ---
-name: vertex-agent-builder
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Bash
+license: MIT
 description: Build and deploy production-ready generative AI agents using Vertex AI,
   Gemini models, and Google Cloud infrastructure with RAG, function calling, and multi-modal
   capabilities. Use when appropriate context detected. Trigger with relevant phrases
   b...
+name: vertex-agent-builder
 ---
 # Vertex AI Agent Builder
 
