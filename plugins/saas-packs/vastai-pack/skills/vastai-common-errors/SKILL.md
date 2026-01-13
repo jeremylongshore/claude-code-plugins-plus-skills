@@ -1,16 +1,15 @@
 ---
-name: vastai-common-errors
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Diagnose and fix vast.ai common errors and exceptions. use when encountering
   vast.ai errors, debugging failed requests, or troubleshooting integration issues.
   trigger with phrases like "vastai error", "fix vastai", "vastai not working", "debug
   vas...
+name: vastai-common-errors
 ---
-# Vast.ai Common Errors
+# Vastai Common Errors
 
-## Overview
-Quick reference for the top 10 most common Vast.ai errors and their solutions.
+This skill provides automated assistance for vastai common errors tasks.
 
 ## Prerequisites
 - Vast.ai SDK installed
@@ -35,72 +34,13 @@ Follow the solution steps for your specific error.
 
 ## Error Handling
 
-### Authentication Failed
-**Error Message:**
-```
-Authentication error: Invalid API key
-```
-
-**Cause:** API key is missing, expired, or invalid.
-
-**Solution:**
-```bash
-# Verify API key is set
-echo $VASTAI_API_KEY
-```
-
----
-
-### Rate Limit Exceeded
-**Error Message:**
-```
-Rate limit exceeded. Please retry after X seconds.
-```
-
-**Cause:** Too many requests in a short period.
-
-**Solution:**
-Implement exponential backoff. See `vastai-rate-limits` skill.
-
----
-
-### Network Timeout
-**Error Message:**
-```
-Request timeout after 30000ms
-```
-
-**Cause:** Network connectivity or server latency issues.
-
-**Solution:**
-```typescript
-// Increase timeout
-const client = new Client({ timeout: 60000 });
-```
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Diagnostic Commands
-```bash
-# Check Vast.ai status
-curl -s https://status.vastai.com
-
-# Verify API connectivity
-curl -I https://api.vastai.com
-
-# Check local configuration
-env | grep VASTAI
-```
-
-### Escalation Path
-1. Collect evidence with `vastai-debug-bundle`
-2. Check Vast.ai status page
-3. Contact support with request ID
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Vast.ai Status Page](https://status.vastai.com)
 - [Vast.ai Support](https://docs.vastai.com/support)
 - [Vast.ai Error Codes](https://docs.vastai.com/errors)
-
-## Next Steps
-For comprehensive debugging, see `vastai-debug-bundle`.

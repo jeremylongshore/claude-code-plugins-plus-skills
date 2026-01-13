@@ -1,13 +1,15 @@
 ---
-name: supabase-webhooks-events
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Implement supabase webhook signature validation and event handling. use
   when setting up webhook endpoints, implementing signature verification, or handling
   supabase event notifications securely. trigger with phrases like "supabase webhook",
   "supab...
+name: supabase-webhooks-events
 ---
 # Supabase Webhooks Events
+
+This skill provides automated assistance for supabase webhooks events tasks.
 
 ## Prerequisites
 - Supabase webhook secret configured

@@ -1,13 +1,15 @@
 ---
-name: supabase-upgrade-migration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Execute analyze, plan, and execute supabase sdk upgrades with breaking
   change detection. use when upgrading supabase sdk versions, detecting deprecations,
   or migrating to new api versions. trigger with phrases like "upgrade supabase",
   "supabase mi...
+name: supabase-upgrade-migration
 ---
 # Supabase Upgrade Migration
+
+This skill provides automated assistance for supabase upgrade migration tasks.
 
 ## Prerequisites
 - Current Supabase SDK installed

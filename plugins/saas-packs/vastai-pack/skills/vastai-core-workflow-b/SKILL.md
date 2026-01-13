@@ -1,12 +1,14 @@
 ---
-name: vastai-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute vast.ai secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "vastai secondary workflow", "secondary task with vastai".'
+name: vastai-core-workflow-b
 ---
 # Vast.ai Core Workflow B
+
+This skill provides automated assistance for vastai core workflow b tasks.
 
 ## Overview
 Secondary workflow for Vast.ai. Complements the primary workflow.
