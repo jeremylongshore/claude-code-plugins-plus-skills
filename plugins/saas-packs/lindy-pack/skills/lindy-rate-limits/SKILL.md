@@ -1,17 +1,11 @@
 ---
 name: lindy-rate-limits
-description: |
-  Manage and optimize Lindy AI rate limits.
-  Use when hitting rate limits, optimizing API usage,
-  or implementing rate limit handling.
-  Trigger with phrases like "lindy rate limit", "lindy quota",
-  "lindy throttling", "lindy API limits".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Manage and optimize Lindy AI rate limits. Use when hitting rate limits,
+  optimizing API usage, or implementing rate limit handling. Trigger with phrases
+  like "lindy rate limit", "lindy quota", "lindy throttling", "lindy API limits".
 ---
-
 # Lindy Rate Limits
 
 ## Overview

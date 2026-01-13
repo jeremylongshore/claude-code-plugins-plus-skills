@@ -1,16 +1,11 @@
 ---
 name: lindy-local-dev-loop
-description: |
-  Set up local development workflow for Lindy AI agents.
-  Use when configuring local testing, hot reload, or development environment.
-  Trigger with phrases like "lindy local dev", "lindy development",
-  "lindy hot reload", "test lindy locally".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Set up local development workflow for lindy ai agents. use when configuring
+  local testing, hot reload, or development environment. trigger with phrases like
+  "lindy local dev", "lindy development", "lindy hot reload", "test lindy locally".
 ---
-
 # Lindy Local Dev Loop
 
 ## Overview

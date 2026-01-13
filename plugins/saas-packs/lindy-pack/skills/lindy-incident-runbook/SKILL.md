@@ -1,17 +1,11 @@
 ---
 name: lindy-incident-runbook
-description: |
-  Incident response runbook for Lindy AI integrations.
-  Use when responding to incidents, troubleshooting outages,
-  or creating on-call procedures.
-  Trigger with phrases like "lindy incident", "lindy outage",
-  "lindy on-call", "lindy runbook".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Incident response runbook for lindy ai integrations. use when responding
+  to incidents, troubleshooting outages, or creating on-call procedures. trigger with
+  phrases like "lindy incident", "lindy outage", "lindy on-call", "lindy runbook".
 ---
-
 # Lindy Incident Runbook
 
 ## Overview

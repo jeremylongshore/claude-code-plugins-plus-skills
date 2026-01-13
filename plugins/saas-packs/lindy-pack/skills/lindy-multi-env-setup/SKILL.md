@@ -1,17 +1,12 @@
 ---
 name: lindy-multi-env-setup
-description: |
-  Configure Lindy AI across development, staging, and production environments.
-  Use when setting up multi-environment deployments, configuring per-environment secrets,
-  or implementing environment-specific Lindy configurations.
-  Trigger with phrases like "lindy environments", "lindy staging",
-  "lindy dev prod", "lindy environment setup", "lindy config by env".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Lindy AI across development, staging, and production environments.
+  Use when setting up multi-environment deployments, configuring per-environment secrets,
+  or implementing environment-specific Lindy configurations. Trigger with phrases
+  li...
 ---
-
 # Lindy Multi Env Setup
 
 ## Overview

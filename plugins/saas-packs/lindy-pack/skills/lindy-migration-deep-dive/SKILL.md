@@ -1,17 +1,12 @@
 ---
 name: lindy-migration-deep-dive
-description: |
-  Advanced migration strategies for Lindy AI integrations.
-  Use when migrating from other platforms, consolidating agents,
-  or performing major architecture changes.
-  Trigger with phrases like "lindy migration", "migrate to lindy",
-  "lindy platform migration", "switch to lindy".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Advanced migration strategies for lindy ai integrations. use when migrating
+  from other platforms, consolidating agents, or performing major architecture changes.
+  trigger with phrases like "lindy migration", "migrate to lindy", "lindy platform
+  migr...
 ---
-
 # Lindy Migration Deep Dive
 
 ## Overview
