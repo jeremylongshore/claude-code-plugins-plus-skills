@@ -1,15 +1,12 @@
 ---
-name: "windsurf-mcp-integration"
-description: |
-  Manage integrate MCP servers with Windsurf for extended capabilities. Activate when users mention
-  "mcp integration", "model context protocol", "external tools", "mcp server",
-  or "cascade tools". Handles MCP server configuration and integration. Use when working with windsurf mcp integration functionality. Trigger with phrases like "windsurf mcp integration", "windsurf integration", "windsurf".
-allowed-tools: "Read,Write,Edit,Bash"
-version: 1.0.0
+name: windsurf-mcp-integration
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit, Bash
+description: Manage integrate MCP servers with Windsurf for extended capabilities.
+  Activate when users mention "mcp integration", "model context protocol", "external
+  tools", "mcp server", or "cascade tools". Handles MCP server configuration and integration.
+  Us...
 ---
-
 # Windsurf Mcp Integration
 
 ## Overview

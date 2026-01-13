@@ -1,15 +1,12 @@
 ---
-name: "windsurf-team-settings"
-description: |
-  Manage team-wide Windsurf settings and AI policies. Activate when users mention
-  "team settings", "organization config", "team policies", "shared settings",
-  or "team standardization". Handles team configuration management. Use when working with windsurf team settings functionality. Trigger with phrases like "windsurf team settings", "windsurf settings", "windsurf".
-allowed-tools: Read,Write,Edit
-version: 1.0.0
+name: windsurf-team-settings
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit
+description: Manage team-wide Windsurf settings and AI policies. Activate when users
+  mention "team settings", "organization config", "team policies", "shared settings",
+  or "team standardization". Handles team configuration management. Use when working
+  with win...
 ---
-
 # Windsurf Team Settings
 
 ## Overview

@@ -1,15 +1,12 @@
 ---
-name: "windsurf-linting-config"
-description: |
-  Configure and enforce code quality with AI-assisted linting. Activate when users mention
-  "configure linting", "eslint setup", "code quality rules", "linting configuration",
-  or "code standards". Handles linting tool configuration. Use when configuring systems or services. Trigger with phrases like "windsurf linting config", "windsurf config", "windsurf".
-allowed-tools: "Read,Write,Edit,Bash"
-version: 1.0.0
+name: windsurf-linting-config
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit, Bash
+description: Configure and enforce code quality with AI-assisted linting. Activate
+  when users mention "configure linting", "eslint setup", "code quality rules", "linting
+  configuration", or "code standards". Handles linting tool configuration. Use when
+  configur...
 ---
-
 # Windsurf Linting Config
 
 ## Overview

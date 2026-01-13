@@ -1,15 +1,12 @@
 ---
-name: "windsurf-release-automation"
-description: |
-  Execute automate release processes with semantic versioning. Activate when users mention
-  "release automation", "version bump", "changelog generation", "semantic release",
-  or "publish release". Handles release engineering automation. Use when working with windsurf release automation functionality. Trigger with phrases like "windsurf release automation", "windsurf automation", "windsurf".
-allowed-tools: "Read,Write,Edit,Bash"
-version: 1.0.0
+name: windsurf-release-automation
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit, Bash
+description: Execute automate release processes with semantic versioning. activate
+  when users mention "release automation", "version bump", "changelog generation",
+  "semantic release", or "publish release". handles release engineering automation.
+  use when worki...
 ---
-
 # Windsurf Release Automation
 
 ## Overview
