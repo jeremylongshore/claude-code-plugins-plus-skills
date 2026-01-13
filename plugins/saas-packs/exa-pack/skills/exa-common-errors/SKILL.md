@@ -1,15 +1,14 @@
 ---
-name: exa-common-errors
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Diagnose and fix exa common errors and exceptions. use when encountering
   exa errors, debugging failed requests, or troubleshooting integration issues. trigger
   with phrases like "exa error", "fix exa", "exa not working", "debug exa".
+name: exa-common-errors
 ---
 # Exa Common Errors
 
-## Overview
-Quick reference for the top 10 most common Exa errors and their solutions.
+This skill provides automated assistance for exa common errors tasks.
 
 ## Prerequisites
 - Exa SDK installed
@@ -34,72 +33,13 @@ Follow the solution steps for your specific error.
 
 ## Error Handling
 
-### Authentication Failed
-**Error Message:**
-```
-Authentication error: Invalid API key
-```
-
-**Cause:** API key is missing, expired, or invalid.
-
-**Solution:**
-```bash
-# Verify API key is set
-echo $EXA_API_KEY
-```
-
----
-
-### Rate Limit Exceeded
-**Error Message:**
-```
-Rate limit exceeded. Please retry after X seconds.
-```
-
-**Cause:** Too many requests in a short period.
-
-**Solution:**
-Implement exponential backoff. See `exa-rate-limits` skill.
-
----
-
-### Network Timeout
-**Error Message:**
-```
-Request timeout after 30000ms
-```
-
-**Cause:** Network connectivity or server latency issues.
-
-**Solution:**
-```typescript
-// Increase timeout
-const client = new Client({ timeout: 60000 });
-```
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Diagnostic Commands
-```bash
-# Check Exa status
-curl -s https://status.exa.com
-
-# Verify API connectivity
-curl -I https://api.exa.com
-
-# Check local configuration
-env | grep EXA
-```
-
-### Escalation Path
-1. Collect evidence with `exa-debug-bundle`
-2. Check Exa status page
-3. Contact support with request ID
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Exa Status Page](https://status.exa.com)
 - [Exa Support](https://docs.exa.com/support)
 - [Exa Error Codes](https://docs.exa.com/errors)
-
-## Next Steps
-For comprehensive debugging, see `exa-debug-bundle`.

@@ -1,12 +1,14 @@
 ---
-name: exa-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute exa secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "exa secondary workflow", "secondary task with exa".'
+name: exa-core-workflow-b
 ---
 # Exa Core Workflow B
+
+This skill provides automated assistance for exa core workflow b tasks.
 
 ## Overview
 Secondary workflow for Exa. Complements the primary workflow.

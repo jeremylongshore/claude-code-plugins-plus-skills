@@ -1,12 +1,14 @@
 ---
-name: exa-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working Exa example. Use when starting a new Exa integration,
   testing your setup, or learning basic Exa API patterns. Trigger with phrases like
   "exa hello world", "exa example", "exa quick start", "simple exa code".
+name: exa-hello-world
 ---
 # Exa Hello World
+
+This skill provides automated assistance for exa hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core Exa functionality.

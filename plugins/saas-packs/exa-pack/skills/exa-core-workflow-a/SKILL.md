@@ -1,12 +1,14 @@
 ---
-name: exa-core-workflow-a
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute exa primary workflow: core workflow a. use when implementing
   primary use case, building main features, or core integration tasks. trigger with
   phrases like "exa main workflow", "primary task with exa".'
+name: exa-core-workflow-a
 ---
 # Exa Core Workflow A
+
+This skill provides automated assistance for exa core workflow a tasks.
 
 ## Overview
 Primary money-path workflow for Exa. This is the most common use case.
