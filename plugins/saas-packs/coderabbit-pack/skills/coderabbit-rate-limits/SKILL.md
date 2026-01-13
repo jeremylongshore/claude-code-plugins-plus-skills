@@ -1,17 +1,12 @@
 ---
 name: coderabbit-rate-limits
-description: |
-  Implement CodeRabbit rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for CodeRabbit.
-  Trigger with phrases like "coderabbit rate limit", "coderabbit throttling",
-  "coderabbit 429", "coderabbit retry", "coderabbit backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement coderabbit rate limiting, backoff, and idempotency patterns.
+  use when handling rate limit errors, implementing retry logic, or optimizing api
+  request throughput for coderabbit. trigger with phrases like "coderabbit rate limit",
+  "coderabb...
 ---
-
 # CodeRabbit Rate Limits
 
 ## Overview

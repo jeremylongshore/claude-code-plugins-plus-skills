@@ -1,17 +1,12 @@
 ---
 name: coderabbit-security-basics
-description: |
-  Apply CodeRabbit security best practices for secrets and access control.
-  Use when securing API keys, implementing least privilege access,
-  or auditing CodeRabbit security configuration.
-  Trigger with phrases like "coderabbit security", "coderabbit secrets",
-  "secure coderabbit", "coderabbit API key security".
-allowed-tools: Read, Write, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Grep
+description: Apply coderabbit security best practices for secrets and access control.
+  use when securing api keys, implementing least privilege access, or auditing coderabbit
+  security configuration. trigger with phrases like "coderabbit security", "coderabbit
+  s...
 ---
-
 # CodeRabbit Security Basics
 
 ## Overview

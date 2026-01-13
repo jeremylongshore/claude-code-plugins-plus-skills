@@ -1,17 +1,12 @@
 ---
 name: coderabbit-upgrade-migration
-description: |
-  Analyze, plan, and execute CodeRabbit SDK upgrades with breaking change detection.
-  Use when upgrading CodeRabbit SDK versions, detecting deprecations,
-  or migrating to new API versions.
-  Trigger with phrases like "upgrade coderabbit", "coderabbit migration",
-  "coderabbit breaking changes", "update coderabbit SDK", "analyze coderabbit version".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Analyze, plan, and execute CodeRabbit SDK upgrades with breaking change
+  detection. Use when upgrading CodeRabbit SDK versions, detecting deprecations, or
+  migrating to new API versions. Trigger with phrases like "upgrade coderabbit", "coderabbit
+  mi...
 ---
-
 # CodeRabbit Upgrade & Migration
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: coderabbit-webhooks-events
-description: |
-  Implement CodeRabbit webhook signature validation and event handling.
-  Use when setting up webhook endpoints, implementing signature verification,
-  or handling CodeRabbit event notifications securely.
-  Trigger with phrases like "coderabbit webhook", "coderabbit events",
-  "coderabbit webhook signature", "handle coderabbit events", "coderabbit notifications".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement coderabbit webhook signature validation and event handling.
+  use when setting up webhook endpoints, implementing signature verification, or handling
+  coderabbit event notifications securely. trigger with phrases like "coderabbit webhook",
+  ...
 ---
-
 # CodeRabbit Webhooks & Events
 
 ## Overview

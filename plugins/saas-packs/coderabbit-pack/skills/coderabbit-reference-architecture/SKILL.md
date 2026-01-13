@@ -1,17 +1,12 @@
 ---
 name: coderabbit-reference-architecture
-description: |
-  Implement CodeRabbit reference architecture with best-practice project layout.
-  Use when designing new CodeRabbit integrations, reviewing project structure,
-  or establishing architecture standards for CodeRabbit applications.
-  Trigger with phrases like "coderabbit architecture", "coderabbit best practices",
-  "coderabbit project structure", "how to organize coderabbit", "coderabbit layout".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Implement coderabbit reference architecture with best-practice project
+  layout. use when designing new coderabbit integrations, reviewing project structure,
+  or establishing architecture standards for coderabbit applications. trigger with
+  phrases li...
 ---
-
 # CodeRabbit Reference Architecture
 
 ## Overview

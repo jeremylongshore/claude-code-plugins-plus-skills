@@ -1,17 +1,12 @@
 ---
 name: coderabbit-performance-tuning
-description: |
-  Optimize CodeRabbit API performance with caching, batching, and connection pooling.
-  Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for CodeRabbit integrations.
-  Trigger with phrases like "coderabbit performance", "optimize coderabbit",
-  "coderabbit latency", "coderabbit caching", "coderabbit slow", "coderabbit batch".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize CodeRabbit API performance with caching, batching, and connection
+  pooling. Use when experiencing slow API responses, implementing caching strategies,
+  or optimizing request throughput for CodeRabbit integrations. Trigger with phrases
+  like ...
 ---
-
 # CodeRabbit Performance Tuning
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: coderabbit-sdk-patterns
-description: |
-  Apply production-ready CodeRabbit SDK patterns for TypeScript and Python.
-  Use when implementing CodeRabbit integrations, refactoring SDK usage,
-  or establishing team coding standards for CodeRabbit.
-  Trigger with phrases like "coderabbit SDK patterns", "coderabbit best practices",
-  "coderabbit code patterns", "idiomatic coderabbit".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready coderabbit sdk patterns for typescript and python.
+  use when implementing coderabbit integrations, refactoring sdk usage, or establishing
+  team coding standards for coderabbit. trigger with phrases like "coderabbit sdk
+  pattern...
 ---
-
 # CodeRabbit SDK Patterns
 
 ## Overview
