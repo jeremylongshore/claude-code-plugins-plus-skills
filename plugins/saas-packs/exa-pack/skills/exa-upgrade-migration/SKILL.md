@@ -1,17 +1,12 @@
 ---
 name: exa-upgrade-migration
-description: |
-  Analyze, plan, and execute Exa SDK upgrades with breaking change detection.
-  Use when upgrading Exa SDK versions, detecting deprecations,
-  or migrating to new API versions.
-  Trigger with phrases like "upgrade exa", "exa migration",
-  "exa breaking changes", "update exa SDK", "analyze exa version".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Analyze, plan, and execute Exa SDK upgrades with breaking change detection.
+  Use when upgrading Exa SDK versions, detecting deprecations, or migrating to new
+  API versions. Trigger with phrases like "upgrade exa", "exa migration", "exa breaking
+  chan...
 ---
-
 # Exa Upgrade & Migration
 
 ## Overview

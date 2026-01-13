@@ -1,17 +1,12 @@
 ---
 name: firecrawl-advanced-troubleshooting
-description: |
-  Apply FireCrawl advanced debugging techniques for hard-to-diagnose issues.
-  Use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for FireCrawl support escalation.
-  Trigger with phrases like "firecrawl hard bug", "firecrawl mystery error",
-  "firecrawl impossible to debug", "difficult firecrawl issue", "firecrawl deep debug".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Apply firecrawl advanced debugging techniques for hard-to-diagnose issues.
+  use when standard troubleshooting fails, investigating complex race conditions,
+  or preparing evidence bundles for firecrawl support escalation. trigger with phrases
+  like "f...
 ---
-
 # FireCrawl Advanced Troubleshooting
 
 ## Overview

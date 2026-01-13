@@ -1,17 +1,12 @@
 ---
 name: exa-reliability-patterns
-description: |
-  Implement Exa reliability patterns including circuit breakers, idempotency, and graceful degradation.
-  Use when building fault-tolerant Exa integrations, implementing retry strategies,
-  or adding resilience to production Exa services.
-  Trigger with phrases like "exa reliability", "exa circuit breaker",
-  "exa idempotent", "exa resilience", "exa fallback", "exa bulkhead".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement exa reliability patterns including circuit breakers, idempotency,
+  and graceful degradation. use when building fault-tolerant exa integrations, implementing
+  retry strategies, or adding resilience to production exa services. trigger with
+  p...
 ---
-
 # Exa Reliability Patterns
 
 ## Overview

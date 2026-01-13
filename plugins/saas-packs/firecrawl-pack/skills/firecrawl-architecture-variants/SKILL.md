@@ -1,17 +1,12 @@
 ---
 name: firecrawl-architecture-variants
-description: |
-  Choose and implement FireCrawl validated architecture blueprints for different scales.
-  Use when designing new FireCrawl integrations, choosing between monolith/service/microservice
-  architectures, or planning migration paths for FireCrawl applications.
-  Trigger with phrases like "firecrawl architecture", "firecrawl blueprint",
-  "how to structure firecrawl", "firecrawl project layout", "firecrawl microservice".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Choose and implement firecrawl validated architecture blueprints for
+  different scales. use when designing new firecrawl integrations, choosing between
+  monolith/service/microservice architectures, or planning migration paths for firecrawl
+  applicati...
 ---
-
 # FireCrawl Architecture Variants
 
 ## Overview

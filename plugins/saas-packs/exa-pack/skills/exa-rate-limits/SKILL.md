@@ -1,17 +1,12 @@
 ---
 name: exa-rate-limits
-description: |
-  Implement Exa rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for Exa.
-  Trigger with phrases like "exa rate limit", "exa throttling",
-  "exa 429", "exa retry", "exa backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement exa rate limiting, backoff, and idempotency patterns. use when
+  handling rate limit errors, implementing retry logic, or optimizing api request
+  throughput for exa. trigger with phrases like "exa rate limit", "exa throttling",
+  "exa 429", "...
 ---
-
 # Exa Rate Limits
 
 ## Overview

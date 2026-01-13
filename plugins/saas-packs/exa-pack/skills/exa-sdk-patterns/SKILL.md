@@ -1,17 +1,12 @@
 ---
 name: exa-sdk-patterns
-description: |
-  Apply production-ready Exa SDK patterns for TypeScript and Python.
-  Use when implementing Exa integrations, refactoring SDK usage,
-  or establishing team coding standards for Exa.
-  Trigger with phrases like "exa SDK patterns", "exa best practices",
-  "exa code patterns", "idiomatic exa".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready exa sdk patterns for typescript and python. use
+  when implementing exa integrations, refactoring sdk usage, or establishing team
+  coding standards for exa. trigger with phrases like "exa sdk patterns", "exa best
+  practices", "e...
 ---
-
 # Exa SDK Patterns
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: exa-security-basics
-description: |
-  Apply Exa security best practices for secrets and access control.
-  Use when securing API keys, implementing least privilege access,
-  or auditing Exa security configuration.
-  Trigger with phrases like "exa security", "exa secrets",
-  "secure exa", "exa API key security".
-allowed-tools: Read, Write, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Grep
+description: Apply exa security best practices for secrets and access control. use
+  when securing api keys, implementing least privilege access, or auditing exa security
+  configuration. trigger with phrases like "exa security", "exa secrets", "secure
+  exa", "exa ...
 ---
-
 # Exa Security Basics
 
 ## Overview
