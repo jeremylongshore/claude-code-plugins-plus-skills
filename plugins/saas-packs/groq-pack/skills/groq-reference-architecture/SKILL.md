@@ -1,190 +1,20 @@
 ---
-name: groq-reference-architecture
-license: MIT
 allowed-tools: Read, Grep
+license: MIT
 description: Implement groq reference architecture with best-practice project layout.
   use when designing new groq integrations, reviewing project structure, or establishing
   architecture standards for groq applications. trigger with phrases like "groq architect...
+name: groq-reference-architecture
 ---
 # Groq Reference Architecture
 
-## Overview
-Production-ready architecture patterns for Groq integrations.
+This skill provides automated assistance for groq reference architecture tasks.
 
 ## Prerequisites
 - Understanding of layered architecture
 - Groq SDK knowledge
 - TypeScript project setup
 - Testing framework configured
-
-## Project Structure
-
-```
-my-groq-project/
-├── src/
-│   ├── groq/
-│   │   ├── client.ts           # Singleton client wrapper
-│   │   ├── config.ts           # Environment configuration
-│   │   ├── types.ts            # TypeScript types
-│   │   ├── errors.ts           # Custom error classes
-│   │   └── handlers/
-│   │       ├── webhooks.ts     # Webhook handlers
-│   │       └── events.ts       # Event processing
-│   ├── services/
-│   │   └── groq/
-│   │       ├── index.ts        # Service facade
-│   │       ├── sync.ts         # Data synchronization
-│   │       └── cache.ts        # Caching layer
-│   ├── api/
-│   │   └── groq/
-│   │       └── webhook.ts      # Webhook endpoint
-│   └── jobs/
-│       └── groq/
-│           └── sync.ts         # Background sync job
-├── tests/
-│   ├── unit/
-│   │   └── groq/
-│   └── integration/
-│       └── groq/
-├── config/
-│   ├── groq.development.json
-│   ├── groq.staging.json
-│   └── groq.production.json
-└── docs/
-    └── groq/
-        ├── SETUP.md
-        └── RUNBOOK.md
-```
-
-## Layer Architecture
-
-```
-┌─────────────────────────────────────────┐
-│             API Layer                    │
-│   (Controllers, Routes, Webhooks)        │
-├─────────────────────────────────────────┤
-│           Service Layer                  │
-│  (Business Logic, Orchestration)         │
-├─────────────────────────────────────────┤
-│          Groq Layer        │
-│   (Client, Types, Error Handling)        │
-├─────────────────────────────────────────┤
-│         Infrastructure Layer             │
-│    (Cache, Queue, Monitoring)            │
-└─────────────────────────────────────────┘
-```
-
-## Key Components
-
-### Step 1: Client Wrapper
-```typescript
-// src/groq/client.ts
-export class GroqService {
-  private client: GroqClient;
-  private cache: Cache;
-  private monitor: Monitor;
-
-  constructor(config: GroqConfig) {
-    this.client = new GroqClient(config);
-    this.cache = new Cache(config.cacheOptions);
-    this.monitor = new Monitor('groq');
-  }
-
-  async get(id: string): Promise<Resource> {
-    return this.cache.getOrFetch(id, () =>
-      this.monitor.track('get', () => this.client.get(id))
-    );
-  }
-}
-```
-
-### Step 2: Error Boundary
-```typescript
-// src/groq/errors.ts
-export class GroqServiceError extends Error {
-  constructor(
-    message: string,
-    public readonly code: string,
-    public readonly retryable: boolean,
-    public readonly originalError?: Error
-  ) {
-    super(message);
-    this.name = 'GroqServiceError';
-  }
-}
-
-export function wrapGroqError(error: unknown): GroqServiceError {
-  // Transform SDK errors to application errors
-}
-```
-
-### Step 3: Health Check
-```typescript
-// src/groq/health.ts
-export async function checkGroqHealth(): Promise<HealthStatus> {
-  try {
-    const start = Date.now();
-    await groqClient.ping();
-    return {
-      status: 'healthy',
-      latencyMs: Date.now() - start,
-    };
-  } catch (error) {
-    return { status: 'unhealthy', error: error.message };
-  }
-}
-```
-
-## Data Flow Diagram
-
-```
-User Request
-     │
-     ▼
-┌─────────────┐
-│   API       │
-│   Gateway   │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐    ┌─────────────┐
-│   Service   │───▶│   Cache     │
-│   Layer     │    │   (Redis)   │
-└──────┬──────┘    └─────────────┘
-       │
-       ▼
-┌─────────────┐
-│ Groq    │
-│   Client    │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│ Groq    │
-│   API       │
-└─────────────┘
-```
-
-## Configuration Management
-
-```typescript
-// config/groq.ts
-export interface GroqConfig {
-  apiKey: string;
-  environment: 'development' | 'staging' | 'production';
-  timeout: number;
-  retries: number;
-  cache: {
-    enabled: boolean;
-    ttlSeconds: number;
-  };
-}
-
-export function loadGroqConfig(): GroqConfig {
-  const env = process.env.NODE_ENV || 'development';
-  return require(`./groq.${env}.json`);
-}
-```
 
 ## Instructions
 
@@ -207,26 +37,13 @@ Add health check endpoint for Groq connectivity.
 - Health checks configured
 
 ## Error Handling
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| Circular dependencies | Wrong layering | Separate concerns by layer |
-| Config not loading | Wrong paths | Verify config file locations |
-| Type errors | Missing types | Add Groq types |
-| Test isolation | Shared state | Use dependency injection |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Setup Script
-```bash
-# Create reference structure
-mkdir -p src/groq/{handlers} src/services/groq src/api/groq
-touch src/groq/{client,config,types,errors}.ts
-touch src/services/groq/{index,sync,cache}.ts
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Groq SDK Documentation](https://docs.groq.com/sdk)
 - [Groq Best Practices](https://docs.groq.com/best-practices)
-
-## Flagship Skills
-For multi-environment setup, see `groq-multi-env-setup`.

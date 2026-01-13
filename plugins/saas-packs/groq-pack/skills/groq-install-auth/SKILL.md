@@ -1,13 +1,15 @@
 ---
-name: groq-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure groq sdk/cli authentication. use when setting up
   a new groq integration, configuring api keys, or initializing groq in your project.
   trigger with phrases like "install groq", "setup groq", "groq auth", "configure
   groq api key".
+name: groq-install-auth
 ---
 # Groq Install & Auth
+
+This skill provides automated assistance for groq install auth tasks.
 
 ## Overview
 Set up Groq SDK/CLI and configure authentication credentials.
