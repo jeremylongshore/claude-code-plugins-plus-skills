@@ -1,13 +1,15 @@
 ---
-name: supabase-migration-deep-dive
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Execute supabase major re-architecture and migration strategies with
   strangler fig pattern. use when migrating to or from supabase, performing major
   version upgrades, or re-platforming existing integrations to supabase. trigger with
   phrases like "...
+name: supabase-migration-deep-dive
 ---
 # Supabase Migration Deep Dive
+
+This skill provides automated assistance for supabase migration deep dive tasks.
 
 ## Prerequisites
 - Current system documentation

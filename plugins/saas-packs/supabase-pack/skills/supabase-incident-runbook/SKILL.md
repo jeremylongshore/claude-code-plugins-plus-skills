@@ -1,13 +1,15 @@
 ---
-name: supabase-incident-runbook
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Execute supabase incident response procedures with triage, mitigation,
   and postmortem. use when responding to supabase-related outages, investigating errors,
   or running post-incident reviews for supabase integration failures. trigger with
   phrases ...
+name: supabase-incident-runbook
 ---
 # Supabase Incident Runbook
+
+This skill provides automated assistance for supabase incident runbook tasks.
 
 ## Prerequisites
 - Access to Supabase dashboard and status page

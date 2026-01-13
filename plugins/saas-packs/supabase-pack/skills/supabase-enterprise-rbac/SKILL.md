@@ -1,12 +1,14 @@
 ---
-name: supabase-enterprise-rbac
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Configure Supabase enterprise SSO, role-based access control, and organization
   management. Use when implementing SSO integration, configuring role-based permissions,
   or setting up organization-level controls for Supabase. Trigger with phrases like...
+name: supabase-enterprise-rbac
 ---
 # Supabase Enterprise Rbac
+
+This skill provides automated assistance for supabase enterprise rbac tasks.
 
 ## Prerequisites
 - Supabase Enterprise tier subscription

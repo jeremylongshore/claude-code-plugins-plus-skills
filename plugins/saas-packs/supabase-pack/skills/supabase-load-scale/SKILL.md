@@ -1,13 +1,15 @@
 ---
-name: supabase-load-scale
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Implement supabase load testing, auto-scaling, and capacity planning
   strategies. use when running performance tests, configuring horizontal scaling,
   or planning capacity for supabase integrations. trigger with phrases like "supabase
   load test", "s...
+name: supabase-load-scale
 ---
 # Supabase Load Scale
+
+This skill provides automated assistance for supabase load scale tasks.
 
 ## Prerequisites
 - k6 load testing tool installed

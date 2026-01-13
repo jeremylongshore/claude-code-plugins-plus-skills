@@ -1,12 +1,14 @@
 ---
-name: supabase-multi-env-setup
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Configure Supabase across development, staging, and production environments.
   Use when setting up multi-environment deployments, configuring per-environment secrets,
   or implementing environment-specific Supabase configurations. Trigger with phrases...
+name: supabase-multi-env-setup
 ---
 # Supabase Multi Env Setup
+
+This skill provides automated assistance for supabase multi env setup tasks.
 
 ## Prerequisites
 - Separate Supabase accounts or API keys per environment

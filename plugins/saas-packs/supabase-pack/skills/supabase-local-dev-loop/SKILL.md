@@ -1,13 +1,15 @@
 ---
-name: supabase-local-dev-loop
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Configure Supabase local development with hot reload and testing. Use
   when setting up a development environment, configuring test workflows, or establishing
   a fast iteration cycle with Supabase. Trigger with phrases like "supabase dev setup",
   "sup...
+name: supabase-local-dev-loop
 ---
 # Supabase Local Dev Loop
+
+This skill provides automated assistance for supabase local dev loop tasks.
 
 ## Prerequisites
 - Completed `supabase-install-auth` setup

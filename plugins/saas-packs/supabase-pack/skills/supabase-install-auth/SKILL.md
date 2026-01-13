@@ -1,13 +1,15 @@
 ---
-name: supabase-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure supabase sdk/cli authentication. use when setting
   up a new supabase integration, configuring api keys, or initializing supabase in
   your project. trigger with phrases like "install supabase", "setup supabase", "supabase
   auth",...
+name: supabase-install-auth
 ---
 # Supabase Install & Auth
+
+This skill provides automated assistance for supabase install auth tasks.
 
 ## Overview
 Set up Supabase SDK/CLI and configure authentication credentials.

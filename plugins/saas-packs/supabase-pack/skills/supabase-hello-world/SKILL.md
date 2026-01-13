@@ -1,13 +1,15 @@
 ---
-name: supabase-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working Supabase example. Use when starting a new Supabase
   integration, testing your setup, or learning basic Supabase API patterns. Trigger
   with phrases like "supabase hello world", "supabase example", "supabase quick start",
   "si...
+name: supabase-hello-world
 ---
 # Supabase Hello World
+
+This skill provides automated assistance for supabase hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core Supabase functionality.

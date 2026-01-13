@@ -1,12 +1,14 @@
 ---
-name: supabase-deploy-integration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Deploy Supabase integrations to Vercel, Fly.io, and Cloud Run platforms.
   Use when deploying Supabase-powered applications to production, configuring platform-specific
   secrets, or setting up deployment pipelines. Trigger with phrases like "deploy s...
+name: supabase-deploy-integration
 ---
 # Supabase Deploy Integration
+
+This skill provides automated assistance for supabase deploy integration tasks.
 
 ## Prerequisites
 - Supabase API keys for production environment

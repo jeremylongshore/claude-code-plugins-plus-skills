@@ -1,13 +1,15 @@
 ---
-name: supabase-known-pitfalls
-license: MIT
 allowed-tools: Read, Grep
+license: MIT
 description: Execute identify and avoid supabase anti-patterns and common integration
   mistakes. use when reviewing supabase code for issues, onboarding new developers,
   or auditing existing supabase integrations for best practices violations. trigger
   with phras...
+name: supabase-known-pitfalls
 ---
 # Supabase Known Pitfalls
+
+This skill provides automated assistance for supabase known pitfalls tasks.
 
 ## Prerequisites
 - Access to Supabase codebase for review
