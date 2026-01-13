@@ -1,17 +1,11 @@
 ---
 name: linear-hello-world
-description: |
-  Create your first Linear issue and query using the GraphQL API.
-  Use when making initial API calls, testing Linear connection,
-  or learning basic Linear operations.
-  Trigger with phrases like "linear hello world", "first linear issue",
-  "create linear issue", "linear API example", "test linear connection".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Create your first Linear issue and query using the GraphQL API. Use when
+  making initial API calls, testing Linear connection, or learning basic Linear operations.
+  Trigger with phrases like "linear hello world", "first linear issue", "create linear...
 ---
-
 # Linear Hello World
 
 ## Overview

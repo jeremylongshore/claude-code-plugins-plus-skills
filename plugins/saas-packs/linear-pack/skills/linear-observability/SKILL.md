@@ -1,17 +1,12 @@
 ---
 name: linear-observability
-description: |
-  Implement monitoring, logging, and alerting for Linear integrations.
-  Use when setting up metrics collection, creating dashboards,
-  or configuring alerts for Linear API usage.
-  Trigger with phrases like "linear monitoring", "linear observability",
-  "linear metrics", "linear logging", "monitor linear integration".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement monitoring, logging, and alerting for linear integrations.
+  use when setting up metrics collection, creating dashboards, or configuring alerts
+  for linear api usage. trigger with phrases like "linear monitoring", "linear observability",
+  "l...
 ---
-
 # Linear Observability
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: linear-multi-env-setup
-description: |
-  Configure Linear across development, staging, and production environments.
-  Use when setting up multi-environment deployments, managing per-environment API keys,
-  or implementing environment-specific Linear configurations.
-  Trigger with phrases like "linear environments", "linear staging",
-  "linear dev prod", "linear environment setup", "multi-environment linear".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Linear across development, staging, and production environments.
+  Use when setting up multi-environment deployments, managing per-environment API
+  keys, or implementing environment-specific Linear configurations. Trigger with phrases
+  like ...
 ---
-
 # Linear Multi-Environment Setup
 
 ## Overview

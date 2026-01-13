@@ -1,17 +1,12 @@
 ---
 name: linear-debug-bundle
-description: |
-  Comprehensive debugging toolkit for Linear integrations.
-  Use when setting up logging, tracing API calls,
-  or building debug utilities for Linear.
-  Trigger with phrases like "debug linear integration", "linear logging",
-  "trace linear API", "linear debugging tools", "linear troubleshooting".
-allowed-tools: Read, Write, Edit, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep, Bash
+description: Comprehensive debugging toolkit for linear integrations. use when setting
+  up logging, tracing api calls, or building debug utilities for linear. trigger with
+  phrases like "debug linear integration", "linear logging", "trace linear api", "linear
+  de...
 ---
-
 # Linear Debug Bundle
 
 ## Overview

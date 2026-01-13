@@ -1,17 +1,12 @@
 ---
 name: linear-deploy-integration
-description: |
-  Deploy Linear-integrated applications and track deployments.
-  Use when deploying to production, setting up deployment tracking,
-  or integrating Linear with deployment platforms.
-  Trigger with phrases like "deploy linear integration", "linear deployment",
-  "linear vercel", "linear production deploy", "track linear deployments".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Linear-integrated applications and track deployments. Use when
+  deploying to production, setting up deployment tracking, or integrating Linear with
+  deployment platforms. Trigger with phrases like "deploy linear integration", "linear
+  deployme...
 ---
-
 # Linear Deploy Integration
 
 ## Overview

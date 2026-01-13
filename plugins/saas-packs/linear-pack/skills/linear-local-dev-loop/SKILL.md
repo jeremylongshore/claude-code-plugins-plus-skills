@@ -1,17 +1,12 @@
 ---
 name: linear-local-dev-loop
-description: |
-  Set up local Linear development environment and testing workflow.
-  Use when configuring local development, testing integrations,
-  or setting up a development workflow with Linear.
-  Trigger with phrases like "linear local development", "linear dev setup",
-  "test linear locally", "linear development environment".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Set up local linear development environment and testing workflow. use
+  when configuring local development, testing integrations, or setting up a development
+  workflow with linear. trigger with phrases like "linear local development", "linear
+  dev set...
 ---
-
 # Linear Local Dev Loop
 
 ## Overview

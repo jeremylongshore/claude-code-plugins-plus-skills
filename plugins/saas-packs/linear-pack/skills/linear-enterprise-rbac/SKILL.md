@@ -1,17 +1,12 @@
 ---
 name: linear-enterprise-rbac
-description: |
-  Implement enterprise role-based access control with Linear.
-  Use when setting up team permissions, implementing SSO,
-  or managing access control for Linear integrations.
-  Trigger with phrases like "linear RBAC", "linear permissions",
-  "linear enterprise access", "linear SSO", "linear role management".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement enterprise role-based access control with linear. use when
+  setting up team permissions, implementing sso, or managing access control for linear
+  integrations. trigger with phrases like "linear rbac", "linear permissions", "linear
+  enterpri...
 ---
-
 # Linear Enterprise RBAC
 
 ## Overview

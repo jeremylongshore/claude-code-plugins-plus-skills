@@ -1,17 +1,12 @@
 ---
 name: linear-migration-deep-dive
-description: |
-  Migrate from Jira, Asana, GitHub Issues, or other tools to Linear.
-  Use when planning a migration to Linear, executing data transfer,
-  or mapping workflows between tools.
-  Trigger with phrases like "migrate to linear", "jira to linear",
-  "asana to linear", "import to linear", "linear migration".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Migrate from jira, asana, github issues, or other tools to linear. use
+  when planning a migration to linear, executing data transfer, or mapping workflows
+  between tools. trigger with phrases like "migrate to linear", "jira to linear",
+  "asana to lin...
 ---
-
 # Linear Migration Deep Dive
 
 ## Overview
