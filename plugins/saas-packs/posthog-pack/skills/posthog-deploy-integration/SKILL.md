@@ -1,17 +1,11 @@
 ---
 name: posthog-deploy-integration
-description: |
-  Deploy PostHog integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying PostHog-powered applications to production,
-  configuring platform-specific secrets, or setting up deployment pipelines.
-  Trigger with phrases like "deploy posthog", "posthog Vercel",
-  "posthog production deploy", "posthog Cloud Run", "posthog Fly.io".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy PostHog integrations to Vercel, Fly.io, and Cloud Run platforms.
+  Use when deploying PostHog-powered applications to production, configuring platform-specific
+  secrets, or setting up deployment pipelines. Trigger with phrases like "deploy pos...
 ---
-
 # PostHog Deploy Integration
 
 ## Overview

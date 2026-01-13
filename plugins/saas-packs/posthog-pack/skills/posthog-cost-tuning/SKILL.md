@@ -1,17 +1,11 @@
 ---
 name: posthog-cost-tuning
-description: |
-  Optimize PostHog costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing PostHog billing, reducing API costs,
-  or implementing usage monitoring and budget alerts.
-  Trigger with phrases like "posthog cost", "posthog billing",
-  "reduce posthog costs", "posthog pricing", "posthog expensive", "posthog budget".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Optimize PostHog costs through tier selection, sampling, and usage monitoring.
+  Use when analyzing PostHog billing, reducing API costs, or implementing usage monitoring
+  and budget alerts. Trigger with phrases like "posthog cost", "posthog billing",...
 ---
-
 # PostHog Cost Tuning
 
 ## Overview

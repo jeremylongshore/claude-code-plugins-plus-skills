@@ -1,17 +1,12 @@
 ---
 name: posthog-incident-runbook
-description: |
-  Execute PostHog incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to PostHog-related outages, investigating errors,
-  or running post-incident reviews for PostHog integration failures.
-  Trigger with phrases like "posthog incident", "posthog outage",
-  "posthog down", "posthog on-call", "posthog emergency", "posthog broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute posthog incident response procedures with triage, mitigation,
+  and postmortem. use when responding to posthog-related outages, investigating errors,
+  or running post-incident reviews for posthog integration failures. trigger with
+  phrases lik...
 ---
-
 # PostHog Incident Runbook
 
 ## Overview

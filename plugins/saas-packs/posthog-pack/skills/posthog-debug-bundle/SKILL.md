@@ -1,17 +1,12 @@
 ---
 name: posthog-debug-bundle
-description: |
-  Collect PostHog debug evidence for support tickets and troubleshooting.
-  Use when encountering persistent issues, preparing support tickets,
-  or collecting diagnostic information for PostHog problems.
-  Trigger with phrases like "posthog debug", "posthog support bundle",
-  "collect posthog logs", "posthog diagnostic".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Collect posthog debug evidence for support tickets and troubleshooting.
+  use when encountering persistent issues, preparing support tickets, or collecting
+  diagnostic information for posthog problems. trigger with phrases like "posthog
+  debug", "post...
 ---
-
 # PostHog Debug Bundle
 
 ## Overview

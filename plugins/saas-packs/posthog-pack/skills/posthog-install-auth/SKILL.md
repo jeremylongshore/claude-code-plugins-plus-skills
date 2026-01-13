@@ -1,17 +1,12 @@
 ---
 name: posthog-install-auth
-description: |
-  Install and configure PostHog SDK/CLI authentication.
-  Use when setting up a new PostHog integration, configuring API keys,
-  or initializing PostHog in your project.
-  Trigger with phrases like "install posthog", "setup posthog",
-  "posthog auth", "configure posthog API key".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Install and configure posthog sdk/cli authentication. use when setting
+  up a new posthog integration, configuring api keys, or initializing posthog in your
+  project. trigger with phrases like "install posthog", "setup posthog", "posthog
+  auth", "conf...
 ---
-
 # PostHog Install & Auth
 
 ## Overview

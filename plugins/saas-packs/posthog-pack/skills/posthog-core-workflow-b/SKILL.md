@@ -1,17 +1,11 @@
 ---
 name: posthog-core-workflow-b
-description: |
-  Execute PostHog secondary workflow: Core Workflow B.
-  Use when implementing secondary use case,
-  or complementing primary workflow.
-  Trigger with phrases like "posthog secondary workflow",
-  "secondary task with posthog".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: 'Execute posthog secondary workflow: core workflow b. use when implementing
+  secondary use case, or complementing primary workflow. trigger with phrases like
+  "posthog secondary workflow", "secondary task with posthog".'
 ---
-
 # PostHog Core Workflow B
 
 ## Overview
