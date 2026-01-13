@@ -1,17 +1,11 @@
 ---
 name: supabase-cost-tuning
-description: |
-  Optimize Supabase costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Supabase billing, reducing API costs,
-  or implementing usage monitoring and budget alerts.
-  Trigger with phrases like "supabase cost", "supabase billing",
-  "reduce supabase costs", "supabase pricing", "supabase expensive", "supabase budget".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Optimize Supabase costs through tier selection, sampling, and usage monitoring.
+  Use when analyzing Supabase billing, reducing API costs, or implementing usage monitoring
+  and budget alerts. Trigger with phrases like "supabase cost", "supabase billi...
 ---
-
 # Supabase Cost Tuning
 
 ## Prerequisites

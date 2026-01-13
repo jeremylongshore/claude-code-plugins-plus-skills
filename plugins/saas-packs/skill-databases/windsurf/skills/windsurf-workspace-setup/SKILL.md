@@ -1,15 +1,12 @@
 ---
-name: "windsurf-workspace-setup"
-description: |
-  Initialize Windsurf workspace with project-specific AI rules. Activate when users mention
-  "create windsurfrules", "setup workspace", "configure project ai", "initialize windsurf workspace",
-  or "migrate to windsurf". Handles workspace configuration and team standardization. Use when working with windsurf workspace setup functionality. Trigger with phrases like "windsurf workspace setup", "windsurf setup", "windsurf".
-allowed-tools: "Read,Write,Edit,Bash"
-version: 1.0.0
+name: windsurf-workspace-setup
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit, Bash
+description: Initialize windsurf workspace with project-specific ai rules. activate
+  when users mention "create windsurfrules", "setup workspace", "configure project
+  ai", "initialize windsurf workspace", or "migrate to windsurf". handles workspace
+  configuration...
 ---
-
 # Windsurf Workspace Setup
 
 ## Overview

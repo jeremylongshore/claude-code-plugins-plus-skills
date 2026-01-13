@@ -1,17 +1,12 @@
 ---
 name: supabase-advanced-troubleshooting
-description: |
-  Execute apply Supabase advanced debugging techniques for hard-to-diagnose issues.
-  Use when standard troubleshooting fails, investigating complex race conditions,
-  or preparing evidence bundles for Supabase support escalation.
-  Trigger with phrases like "supabase hard bug", "supabase mystery error",
-  "supabase impossible to debug", "difficult supabase issue", "supabase deep debug".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute apply supabase advanced debugging techniques for hard-to-diagnose
+  issues. use when standard troubleshooting fails, investigating complex race conditions,
+  or preparing evidence bundles for supabase support escalation. trigger with phrases
+  l...
 ---
-
 # Supabase Advanced Troubleshooting
 
 ## Prerequisites

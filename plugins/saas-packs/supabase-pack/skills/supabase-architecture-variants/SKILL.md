@@ -1,17 +1,12 @@
 ---
 name: supabase-architecture-variants
-description: |
-  Execute choose and implement Supabase validated architecture blueprints for different scales.
-  Use when designing new Supabase integrations, choosing between monolith/service/microservice
-  architectures, or planning migration paths for Supabase applications.
-  Trigger with phrases like "supabase architecture", "supabase blueprint",
-  "how to structure supabase", "supabase project layout", "supabase microservice".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Execute choose and implement supabase validated architecture blueprints
+  for different scales. use when designing new supabase integrations, choosing between
+  monolith/service/microservice architectures, or planning migration paths for supabase
+  appl...
 ---
-
 # Supabase Architecture Variants
 
 ## Prerequisites

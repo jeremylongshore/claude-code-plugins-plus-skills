@@ -1,17 +1,12 @@
 ---
 name: supabase-data-handling
-description: |
-  Implement Supabase PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for Supabase integrations.
-  Trigger with phrases like "supabase data", "supabase PII",
-  "supabase GDPR", "supabase data retention", "supabase privacy", "supabase CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement supabase pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for supabase
+  integra...
 ---
-
 # Supabase Data Handling
 
 ## Overview

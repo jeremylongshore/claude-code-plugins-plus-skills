@@ -1,17 +1,12 @@
 ---
 name: supabase-debug-bundle
-description: |
-  Execute collect Supabase debug evidence for support tickets and troubleshooting.
-  Use when encountering persistent issues, preparing support tickets,
-  or collecting diagnostic information for Supabase problems.
-  Trigger with phrases like "supabase debug", "supabase support bundle",
-  "collect supabase logs", "supabase diagnostic".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Execute collect supabase debug evidence for support tickets and troubleshooting.
+  use when encountering persistent issues, preparing support tickets, or collecting
+  diagnostic information for supabase problems. trigger with phrases like "supabase
+  de...
 ---
-
 # Supabase Debug Bundle
 
 ## Prerequisites

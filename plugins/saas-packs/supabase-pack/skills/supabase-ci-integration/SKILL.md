@@ -1,17 +1,12 @@
 ---
 name: supabase-ci-integration
-description: |
-  Configure Supabase CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating Supabase tests into your build process.
-  Trigger with phrases like "supabase CI", "supabase GitHub Actions",
-  "supabase automated tests", "CI supabase".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Supabase CI/CD integration with GitHub Actions and testing.
+  Use when setting up automated testing, configuring CI pipelines, or integrating
+  Supabase tests into your build process. Trigger with phrases like "supabase CI",
+  "supabase GitHub...
 ---
-
 # Supabase Ci Integration
 
 ## Prerequisites
