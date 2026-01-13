@@ -1,17 +1,12 @@
 ---
 name: customerio-performance-tuning
-description: |
-  Optimize Customer.io API performance.
-  Use when improving response times, reducing latency,
-  or optimizing high-volume integrations.
-  Trigger with phrases like "customer.io performance", "optimize customer.io",
-  "customer.io latency", "customer.io speed".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Optimize Customer.io API performance. Use when improving response times,
+  reducing latency, or optimizing high-volume integrations. Trigger with phrases like
+  "customer.io performance", "optimize customer.io", "customer.io latency", "customer.io
+  spe...
 ---
-
 # Customer.io Performance Tuning
 
 ## Overview

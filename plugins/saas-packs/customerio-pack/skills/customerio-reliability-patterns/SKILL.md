@@ -1,17 +1,12 @@
 ---
 name: customerio-reliability-patterns
-description: |
-  Implement Customer.io reliability patterns.
-  Use when building fault-tolerant integrations,
-  implementing circuit breakers, or handling failures.
-  Trigger with phrases like "customer.io reliability", "customer.io resilience",
-  "customer.io circuit breaker", "customer.io fault tolerance".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement customer.io reliability patterns. use when building fault-tolerant
+  integrations, implementing circuit breakers, or handling failures. trigger with
+  phrases like "customer.io reliability", "customer.io resilience", "customer.io circuit
+  bre...
 ---
-
 # Customer.io Reliability Patterns
 
 ## Overview

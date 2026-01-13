@@ -1,17 +1,12 @@
 ---
 name: customerio-reference-architecture
-description: |
-  Implement Customer.io reference architecture.
-  Use when designing integrations, planning architecture,
-  or implementing enterprise patterns.
-  Trigger with phrases like "customer.io architecture", "customer.io design",
-  "customer.io enterprise", "customer.io integration pattern".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement customer.io reference architecture. use when designing integrations,
+  planning architecture, or implementing enterprise patterns. trigger with phrases
+  like "customer.io architecture", "customer.io design", "customer.io enterprise",
+  "custo...
 ---
-
 # Customer.io Reference Architecture
 
 ## Overview

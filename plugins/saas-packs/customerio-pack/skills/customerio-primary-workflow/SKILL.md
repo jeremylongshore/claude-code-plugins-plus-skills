@@ -1,17 +1,12 @@
 ---
 name: customerio-primary-workflow
-description: |
-  Execute Customer.io primary messaging workflow.
-  Use when setting up email campaigns, push notifications,
-  SMS messaging, or in-app message workflows.
-  Trigger with phrases like "customer.io campaign", "customer.io workflow",
-  "customer.io email automation", "customer.io messaging".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Execute customer.io primary messaging workflow. use when setting up email
+  campaigns, push notifications, sms messaging, or in-app message workflows. trigger
+  with phrases like "customer.io campaign", "customer.io workflow", "customer.io email
+  autom...
 ---
-
 # Customer.io Primary Workflow
 
 ## Overview

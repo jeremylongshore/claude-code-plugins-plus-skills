@@ -1,17 +1,12 @@
 ---
 name: customerio-prod-checklist
-description: |
-  Execute Customer.io production deployment checklist.
-  Use when preparing for production launch, reviewing
-  integration quality, or performing pre-launch audits.
-  Trigger with phrases like "customer.io production", "customer.io checklist",
-  "deploy customer.io", "customer.io go-live".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute customer.io production deployment checklist. use when preparing
+  for production launch, reviewing integration quality, or performing pre-launch audits.
+  trigger with phrases like "customer.io production", "customer.io checklist", "deploy
+  cus...
 ---
-
 # Customer.io Production Checklist
 
 ## Overview

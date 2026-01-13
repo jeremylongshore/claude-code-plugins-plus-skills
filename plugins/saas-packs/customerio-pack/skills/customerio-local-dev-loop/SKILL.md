@@ -1,17 +1,11 @@
 ---
 name: customerio-local-dev-loop
-description: |
-  Configure Customer.io local development workflow.
-  Use when setting up local testing, development environment,
-  or offline development for Customer.io integrations.
-  Trigger with phrases like "customer.io local dev", "test customer.io locally",
-  "customer.io development environment", "customer.io sandbox".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Configure Customer.io local development workflow. Use when setting up
+  local testing, development environment, or offline development for Customer.io integrations.
+  Trigger with phrases like "customer.io local dev", "test customer.io locally", "cust...
 ---
-
 # Customer.io Local Dev Loop
 
 ## Overview

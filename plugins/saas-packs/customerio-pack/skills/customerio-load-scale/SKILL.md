@@ -1,17 +1,12 @@
 ---
 name: customerio-load-scale
-description: |
-  Implement Customer.io load testing and scaling.
-  Use when preparing for high traffic, load testing,
-  or scaling integrations for enterprise workloads.
-  Trigger with phrases like "customer.io load test", "customer.io scale",
-  "customer.io high volume", "customer.io performance test".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement customer.io load testing and scaling. use when preparing for
+  high traffic, load testing, or scaling integrations for enterprise workloads. trigger
+  with phrases like "customer.io load test", "customer.io scale", "customer.io high
+  volume",...
 ---
-
 # Customer.io Load & Scale
 
 ## Overview

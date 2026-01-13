@@ -1,17 +1,12 @@
 ---
 name: customerio-multi-env-setup
-description: |
-  Configure Customer.io multi-environment setup.
-  Use when setting up development, staging, and production
-  environments with proper isolation.
-  Trigger with phrases like "customer.io environments", "customer.io staging",
-  "customer.io dev prod", "customer.io workspace".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Customer.io multi-environment setup. Use when setting up development,
+  staging, and production environments with proper isolation. Trigger with phrases
+  like "customer.io environments", "customer.io staging", "customer.io dev prod",
+  "custo...
 ---
-
 # Customer.io Multi-Environment Setup
 
 ## Overview

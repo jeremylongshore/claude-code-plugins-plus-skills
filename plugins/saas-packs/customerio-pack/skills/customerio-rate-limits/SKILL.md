@@ -1,17 +1,11 @@
 ---
 name: customerio-rate-limits
-description: |
-  Implement Customer.io rate limiting and backoff.
-  Use when handling high-volume API calls, implementing
-  retry logic, or optimizing API usage.
-  Trigger with phrases like "customer.io rate limit", "customer.io throttle",
-  "customer.io 429", "customer.io backoff".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Implement customer.io rate limiting and backoff. use when handling high-volume
+  api calls, implementing retry logic, or optimizing api usage. trigger with phrases
+  like "customer.io rate limit", "customer.io throttle", "customer.io 429", "customer.i...
 ---
-
 # Customer.io Rate Limits
 
 ## Overview

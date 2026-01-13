@@ -1,17 +1,12 @@
 ---
 name: customerio-observability
-description: |
-  Set up Customer.io monitoring and observability.
-  Use when implementing metrics, logging, alerting,
-  or dashboards for Customer.io integrations.
-  Trigger with phrases like "customer.io monitoring", "customer.io metrics",
-  "customer.io dashboard", "customer.io alerts".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Set up customer.io monitoring and observability. use when implementing
+  metrics, logging, alerting, or dashboards for customer.io integrations. trigger
+  with phrases like "customer.io monitoring", "customer.io metrics", "customer.io
+  dashboard", "cus...
 ---
-
 # Customer.io Observability
 
 ## Overview
