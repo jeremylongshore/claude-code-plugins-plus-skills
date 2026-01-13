@@ -1,10 +1,10 @@
 ---
-name: checking-hipaa-compliance
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Check hipaa compliance for healthcare data security requirements. use
   when auditing healthcare applications. trigger with 'check hipaa compliance', 'validate
   health data security', or 'audit phi protection'.
+name: checking-hipaa-compliance
 ---
 # Hipaa Compliance Checker
 

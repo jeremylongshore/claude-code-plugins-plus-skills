@@ -1,10 +1,10 @@
 ---
-name: validating-csrf-protection
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Validate CSRF protection implementations for security gaps. Use when
   reviewing form security or state-changing operations. Trigger with 'validate CSRF',
   'check CSRF protection', or 'review token security'.
+name: validating-csrf-protection
 ---
 # Csrf Protection Validator
 

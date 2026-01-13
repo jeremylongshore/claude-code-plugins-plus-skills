@@ -1,10 +1,10 @@
 ---
-name: scanning-for-data-privacy-issues
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Scan for data privacy issues and sensitive information exposure. use
   when reviewing data handling practices. trigger with 'scan privacy issues', 'check
   sensitive data', or 'validate data protection'.
+name: scanning-for-data-privacy-issues
 ---
 # Data Privacy Scanner
 

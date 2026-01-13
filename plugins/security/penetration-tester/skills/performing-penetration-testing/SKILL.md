@@ -1,10 +1,10 @@
 ---
-name: performing-penetration-testing
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Perform security penetration testing to identify vulnerabilities. use
   when conducting security assessments. trigger with 'run pentest', 'security testing',
   or 'find vulnerabilities'.
+name: performing-penetration-testing
 ---
 # Penetration Tester
 

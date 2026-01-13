@@ -1,10 +1,10 @@
 ---
-name: checking-owasp-compliance
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Check compliance with owasp top 10 security risks and best practices.
   use when performing comprehensive security audits. trigger with 'check owasp compliance',
   'audit web security', or 'validate owasp'.
+name: checking-owasp-compliance
 ---
 # Owasp Compliance Checker
 

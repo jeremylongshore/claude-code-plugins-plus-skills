@@ -1,10 +1,10 @@
 ---
-name: scanning-input-validation-practices
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Scan for input validation vulnerabilities and injection risks. use when
   reviewing user input handling. trigger with 'scan input validation', 'check injection
   vulnerabilities', or 'validate sanitization'.
+name: scanning-input-validation-practices
 ---
 # Input Validation Scanner
 

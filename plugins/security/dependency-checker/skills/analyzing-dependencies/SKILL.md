@@ -1,10 +1,10 @@
 ---
-name: analyzing-dependencies
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Analyze dependencies for known security vulnerabilities and outdated
   versions. Use when auditing third-party libraries. Trigger with 'check dependencies',
   'scan for vulnerabilities', or 'audit packages'.
+name: analyzing-dependencies
 ---
 # Dependency Checker
 

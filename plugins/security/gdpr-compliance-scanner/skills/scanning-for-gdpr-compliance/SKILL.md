@@ -1,10 +1,10 @@
 ---
-name: scanning-for-gdpr-compliance
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Scan for gdpr compliance issues in data handling and privacy practices.
   use when ensuring eu data protection compliance. trigger with 'scan gdpr compliance',
   'check data privacy', or 'validate gdpr'.
+name: scanning-for-gdpr-compliance
 ---
 # Gdpr Compliance Scanner
 

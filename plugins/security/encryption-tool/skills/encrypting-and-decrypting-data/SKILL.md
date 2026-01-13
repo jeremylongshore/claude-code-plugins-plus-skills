@@ -1,10 +1,10 @@
 ---
-name: encrypting-and-decrypting-data
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Validate encryption implementations and cryptographic practices. Use
   when reviewing data security measures. Trigger with 'check encryption', 'validate
   crypto', or 'review security keys'.
+name: encrypting-and-decrypting-data
 ---
 # Encryption Tool
 
