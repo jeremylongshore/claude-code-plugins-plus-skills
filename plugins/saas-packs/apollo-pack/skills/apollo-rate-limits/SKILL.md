@@ -1,17 +1,12 @@
 ---
 name: apollo-rate-limits
-description: |
-  Implement Apollo.io rate limiting and backoff.
-  Use when handling rate limits, implementing retry logic,
-  or optimizing API request throughput.
-  Trigger with phrases like "apollo rate limit", "apollo 429",
-  "apollo throttling", "apollo backoff", "apollo request limits".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Implement apollo.io rate limiting and backoff. use when handling rate
+  limits, implementing retry logic, or optimizing api request throughput. trigger
+  with phrases like "apollo rate limit", "apollo 429", "apollo throttling", "apollo
+  backoff", "apol...
 ---
-
 # Apollo Rate Limits
 
 ## Overview

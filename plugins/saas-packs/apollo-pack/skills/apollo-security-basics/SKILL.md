@@ -1,17 +1,12 @@
 ---
 name: apollo-security-basics
-description: |
-  Apply Apollo.io API security best practices.
-  Use when securing Apollo integrations, managing API keys,
-  or implementing secure data handling.
-  Trigger with phrases like "apollo security", "secure apollo api",
-  "apollo api key security", "apollo data protection".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Apply apollo.io api security best practices. use when securing apollo
+  integrations, managing api keys, or implementing secure data handling. trigger with
+  phrases like "apollo security", "secure apollo api", "apollo api key security",
+  "apollo data ...
 ---
-
 # Apollo Security Basics
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: apollo-observability
-description: |
-  Set up Apollo.io monitoring and observability.
-  Use when implementing logging, metrics, tracing, and alerting
-  for Apollo integrations.
-  Trigger with phrases like "apollo monitoring", "apollo metrics",
-  "apollo observability", "apollo logging", "apollo alerts".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Set up apollo.io monitoring and observability. use when implementing
+  logging, metrics, tracing, and alerting for apollo integrations. trigger with phrases
+  like "apollo monitoring", "apollo metrics", "apollo observability", "apollo logging",
+  "apoll...
 ---
-
 # Apollo Observability
 
 ## Overview

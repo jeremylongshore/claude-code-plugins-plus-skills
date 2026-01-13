@@ -1,17 +1,12 @@
 ---
 name: apollo-multi-env-setup
-description: |
-  Configure Apollo.io multi-environment setup.
-  Use when setting up development, staging, and production environments,
-  or managing multiple Apollo configurations.
-  Trigger with phrases like "apollo environments", "apollo staging",
-  "apollo dev prod", "apollo multi-tenant", "apollo env config".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Apollo.io multi-environment setup. Use when setting up development,
+  staging, and production environments, or managing multiple Apollo configurations.
+  Trigger with phrases like "apollo environments", "apollo staging", "apollo dev prod",
+  "...
 ---
-
 # Apollo Multi-Environment Setup
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: apollo-migration-deep-dive
-description: |
-  Comprehensive Apollo.io migration strategies.
-  Use when migrating from other CRMs to Apollo, consolidating data sources,
-  or executing large-scale data migrations.
-  Trigger with phrases like "apollo migration", "migrate to apollo",
-  "apollo data import", "crm to apollo", "apollo migration strategy".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Comprehensive apollo.io migration strategies. use when migrating from
+  other crms to apollo, consolidating data sources, or executing large-scale data
+  migrations. trigger with phrases like "apollo migration", "migrate to apollo", "apollo
+  data impor...
 ---
-
 # Apollo Migration Deep Dive
 
 ## Overview

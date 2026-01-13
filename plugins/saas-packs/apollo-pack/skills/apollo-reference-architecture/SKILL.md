@@ -1,17 +1,12 @@
 ---
 name: apollo-reference-architecture
-description: |
-  Implement Apollo.io reference architecture.
-  Use when designing Apollo integrations, establishing patterns,
-  or building production-grade sales intelligence systems.
-  Trigger with phrases like "apollo architecture", "apollo system design",
-  "apollo integration patterns", "apollo best practices architecture".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement apollo.io reference architecture. use when designing apollo
+  integrations, establishing patterns, or building production-grade sales intelligence
+  systems. trigger with phrases like "apollo architecture", "apollo system design",
+  "apollo in...
 ---
-
 # Apollo Reference Architecture
 
 ## Overview

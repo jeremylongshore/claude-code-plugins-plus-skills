@@ -1,17 +1,12 @@
 ---
 name: apollo-sdk-patterns
-description: |
-  Apply production-ready Apollo.io SDK patterns.
-  Use when implementing Apollo integrations, refactoring API usage,
-  or establishing team coding standards.
-  Trigger with phrases like "apollo sdk patterns", "apollo best practices",
-  "apollo code patterns", "idiomatic apollo", "apollo client wrapper".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready apollo.io sdk patterns. use when implementing
+  apollo integrations, refactoring api usage, or establishing team coding standards.
+  trigger with phrases like "apollo sdk patterns", "apollo best practices", "apollo
+  code patterns...
 ---
-
 # Apollo SDK Patterns
 
 ## Overview

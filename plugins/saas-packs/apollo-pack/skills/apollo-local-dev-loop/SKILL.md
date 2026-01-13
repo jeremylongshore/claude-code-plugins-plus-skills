@@ -1,17 +1,12 @@
 ---
 name: apollo-local-dev-loop
-description: |
-  Configure Apollo.io local development workflow.
-  Use when setting up development environment, testing API calls locally,
-  or establishing team development practices.
-  Trigger with phrases like "apollo local dev", "apollo development setup",
-  "apollo dev environment", "apollo testing locally".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Configure Apollo.io local development workflow. Use when setting up development
+  environment, testing API calls locally, or establishing team development practices.
+  Trigger with phrases like "apollo local dev", "apollo development setup", "apollo
+  d...
 ---
-
 # Apollo Local Dev Loop
 
 ## Overview
