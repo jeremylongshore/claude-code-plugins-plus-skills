@@ -1,13 +1,15 @@
 ---
-name: klingai-audit-logging
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement comprehensive audit logging for kling ai operations. use when
   tracking api usage, compliance requirements, or security audits. trigger with phrases
   like 'klingai audit', 'kling ai logging', 'klingai compliance log', 'video generation
   aud...
+name: klingai-audit-logging
 ---
 # Klingai Audit Logging
+
+This skill provides automated assistance for klingai audit logging tasks.
 
 ## Overview
 

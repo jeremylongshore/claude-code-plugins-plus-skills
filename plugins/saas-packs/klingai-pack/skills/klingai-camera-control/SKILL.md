@@ -1,13 +1,15 @@
 ---
-name: klingai-camera-control
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Manage control camera movements in Kling AI video generation. Use when
   creating cinematic effects, dynamic shots, or specific camera movements. Trigger
   with phrases like 'klingai camera', 'kling ai camera motion', 'klingai cinematic',
   'klingai pan...
+name: klingai-camera-control
 ---
 # Klingai Camera Control
+
+This skill provides automated assistance for klingai camera control tasks.
 
 ## Overview
 

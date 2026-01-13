@@ -1,12 +1,14 @@
 ---
-name: klingai-async-workflows
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Build asynchronous video generation workflows with Kling AI. Use when
   integrating video generation into larger systems or pipelines. Trigger with phrases
   like 'klingai async', 'kling ai workflow', 'klingai pipeline', 'async video generation'.
+name: klingai-async-workflows
 ---
 # Klingai Async Workflows
+
+This skill provides automated assistance for klingai async workflows tasks.
 
 ## Overview
 
