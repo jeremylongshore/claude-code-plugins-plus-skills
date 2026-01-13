@@ -1,17 +1,12 @@
 ---
 name: langchain-ci-integration
-description: |
-  Configure LangChain CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating LangChain tests into your build process.
-  Trigger with phrases like "langchain CI", "langchain GitHub Actions",
-  "langchain automated tests", "CI langchain", "langchain pipeline".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure LangChain CI/CD integration with GitHub Actions and testing.
+  Use when setting up automated testing, configuring CI pipelines, or integrating
+  LangChain tests into your build process. Trigger with phrases like "langchain CI",
+  "langchain Gi...
 ---
-
 # LangChain CI Integration
 
 ## Overview

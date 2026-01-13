@@ -1,17 +1,11 @@
 ---
 name: langchain-common-errors
-description: |
-  Diagnose and fix common LangChain errors and exceptions.
-  Use when encountering LangChain errors, debugging failures,
-  or troubleshooting integration issues.
-  Trigger with phrases like "langchain error", "langchain exception",
-  "debug langchain", "langchain not working", "langchain troubleshoot".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Diagnose and fix common langchain errors and exceptions. use when encountering
+  langchain errors, debugging failures, or troubleshooting integration issues. trigger
+  with phrases like "langchain error", "langchain exception", "debug langchain", "lan...
 ---
-
 # LangChain Common Errors
 
 ## Overview

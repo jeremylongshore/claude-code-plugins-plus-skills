@@ -1,17 +1,12 @@
 ---
 name: langchain-core-workflow-a
-description: |
-  Build LangChain chains and prompts for structured LLM workflows.
-  Use when creating prompt templates, building LCEL chains,
-  or implementing sequential processing pipelines.
-  Trigger with phrases like "langchain chains", "langchain prompts",
-  "LCEL workflow", "langchain pipeline", "prompt template".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Build LangChain chains and prompts for structured LLM workflows. Use
+  when creating prompt templates, building LCEL chains, or implementing sequential
+  processing pipelines. Trigger with phrases like "langchain chains", "langchain prompts",
+  "LCEL wo...
 ---
-
 # LangChain Core Workflow A: Chains & Prompts
 
 ## Overview

@@ -1,15 +1,11 @@
 ---
 name: klingai-text-to-video
-description: |
-  Generate videos from text prompts with Kling AI. Use when creating videos from descriptions or
-  learning prompt techniques. Trigger with phrases like 'kling ai text to video', 'klingai prompt',
-  'generate video from text', 'text2video kling'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Generate videos from text prompts with Kling AI. Use when creating videos
+  from descriptions or learning prompt techniques. Trigger with phrases like 'kling
+  ai text to video', 'klingai prompt', 'generate video from text', 'text2video kling'.
 ---
-
 # Klingai Text To Video
 
 ## Overview
