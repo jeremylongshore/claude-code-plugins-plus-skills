@@ -1,12 +1,14 @@
 ---
-name: groq-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working Groq example. Use when starting a new Groq integration,
   testing your setup, or learning basic Groq API patterns. Trigger with phrases like
   "groq hello world", "groq example", "groq quick start", "simple groq code".
+name: groq-hello-world
 ---
 # Groq Hello World
+
+This skill provides automated assistance for groq hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core Groq functionality.

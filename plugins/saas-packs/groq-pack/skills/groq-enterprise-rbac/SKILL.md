@@ -1,175 +1,21 @@
 ---
-name: groq-enterprise-rbac
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Configure Groq enterprise SSO, role-based access control, and organization
   management. Use when implementing SSO integration, configuring role-based permissions,
   or setting up organization-level controls for Groq. Trigger with phrases like "groq
   S...
+name: groq-enterprise-rbac
 ---
-# Groq Enterprise RBAC
+# Groq Enterprise Rbac
 
-## Overview
-Configure enterprise-grade access control for Groq integrations.
+This skill provides automated assistance for groq enterprise rbac tasks.
 
 ## Prerequisites
 - Groq Enterprise tier subscription
 - Identity Provider (IdP) with SAML/OIDC support
 - Understanding of role-based access patterns
 - Audit logging infrastructure
-
-## Role Definitions
-
-| Role | Permissions | Use Case |
-|------|-------------|----------|
-| Admin | Full access | Platform administrators |
-| Developer | Read/write, no delete | Active development |
-| Viewer | Read-only | Stakeholders, auditors |
-| Service | API access only | Automated systems |
-
-## Role Implementation
-
-```typescript
-enum GroqRole {
-  Admin = 'admin',
-  Developer = 'developer',
-  Viewer = 'viewer',
-  Service = 'service',
-}
-
-interface GroqPermissions {
-  read: boolean;
-  write: boolean;
-  delete: boolean;
-  admin: boolean;
-}
-
-const ROLE_PERMISSIONS: Record<GroqRole, GroqPermissions> = {
-  admin: { read: true, write: true, delete: true, admin: true },
-  developer: { read: true, write: true, delete: false, admin: false },
-  viewer: { read: true, write: false, delete: false, admin: false },
-  service: { read: true, write: true, delete: false, admin: false },
-};
-
-function checkPermission(
-  role: GroqRole,
-  action: keyof GroqPermissions
-): boolean {
-  return ROLE_PERMISSIONS[role][action];
-}
-```
-
-## SSO Integration
-
-### SAML Configuration
-
-```typescript
-// Groq SAML setup
-const samlConfig = {
-  entryPoint: 'https://idp.company.com/saml/sso',
-  issuer: 'https://groq.com/saml/metadata',
-  cert: process.env.SAML_CERT,
-  callbackUrl: 'https://app.yourcompany.com/auth/groq/callback',
-};
-
-// Map IdP groups to Groq roles
-const groupRoleMapping: Record<string, GroqRole> = {
-  'Engineering': GroqRole.Developer,
-  'Platform-Admins': GroqRole.Admin,
-  'Data-Team': GroqRole.Viewer,
-};
-```
-
-### OAuth2/OIDC Integration
-
-```typescript
-import { OAuth2Client } from '@groq/sdk';
-
-const oauthClient = new OAuth2Client({
-  clientId: process.env.GROQ_OAUTH_CLIENT_ID!,
-  clientSecret: process.env.GROQ_OAUTH_CLIENT_SECRET!,
-  redirectUri: 'https://app.yourcompany.com/auth/groq/callback',
-  scopes: ['read', 'write'],
-});
-```
-
-## Organization Management
-
-```typescript
-interface GroqOrganization {
-  id: string;
-  name: string;
-  ssoEnabled: boolean;
-  enforceSso: boolean;
-  allowedDomains: string[];
-  defaultRole: GroqRole;
-}
-
-async function createOrganization(
-  config: GroqOrganization
-): Promise<void> {
-  await groqClient.organizations.create({
-    ...config,
-    settings: {
-      sso: {
-        enabled: config.ssoEnabled,
-        enforced: config.enforceSso,
-        domains: config.allowedDomains,
-      },
-    },
-  });
-}
-```
-
-## Access Control Middleware
-
-```typescript
-function requireGroqPermission(
-  requiredPermission: keyof GroqPermissions
-) {
-  return async (req: Request, res: Response, next: NextFunction) => {
-    const user = req.user as { groqRole: GroqRole };
-
-    if (!checkPermission(user.groqRole, requiredPermission)) {
-      return res.status(403).json({
-        error: 'Forbidden',
-        message: `Missing permission: ${requiredPermission}`,
-      });
-    }
-
-    next();
-  };
-}
-
-// Usage
-app.delete('/groq/resource/:id',
-  requireGroqPermission('delete'),
-  deleteResourceHandler
-);
-```
-
-## Audit Trail
-
-```typescript
-interface GroqAuditEntry {
-  timestamp: Date;
-  userId: string;
-  role: GroqRole;
-  action: string;
-  resource: string;
-  success: boolean;
-  ipAddress: string;
-}
-
-async function logGroqAccess(entry: GroqAuditEntry): Promise<void> {
-  await auditDb.insert(entry);
-
-  // Alert on suspicious activity
-  if (entry.action === 'delete' && !entry.success) {
-    await alertOnSuspiciousActivity(entry);
-  }
-}
-```
 
 ## Instructions
 
@@ -192,26 +38,14 @@ Track all access for compliance.
 - Audit trail enabled
 
 ## Error Handling
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| SSO login fails | Wrong callback URL | Verify IdP config |
-| Permission denied | Missing role mapping | Update group mappings |
-| Token expired | Short TTL | Refresh token logic |
-| Audit gaps | Async logging failed | Check log pipeline |
+
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Permission Check
-```typescript
-if (!checkPermission(user.role, 'write')) {
-  throw new ForbiddenError('Write permission required');
-}
-```
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Groq Enterprise Guide](https://docs.groq.com/enterprise)
 - [SAML 2.0 Specification](https://wiki.oasis-open.org/security/FrontPage)
 - [OpenID Connect Spec](https://openid.net/specs/openid-connect-core-1_0.html)
-
-## Next Steps
-For major migrations, see `groq-migration-deep-dive`.

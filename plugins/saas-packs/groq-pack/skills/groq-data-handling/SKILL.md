@@ -1,13 +1,15 @@
 ---
-name: groq-data-handling
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Implement groq pii handling, data retention, and gdpr/ccpa compliance
   patterns. use when handling sensitive data, implementing data redaction, configuring
   retention policies, or ensuring compliance with privacy regulations for groq integrations.
   t...
+name: groq-data-handling
 ---
 # Groq Data Handling
+
+This skill provides automated assistance for groq data handling tasks.
 
 ## Overview
 Handle sensitive data correctly when integrating with Groq.

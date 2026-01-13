@@ -1,12 +1,14 @@
 ---
-name: groq-core-workflow-b
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: 'Execute groq secondary workflow: core workflow b. use when implementing
   secondary use case, or complementing primary workflow. trigger with phrases like
   "groq secondary workflow", "secondary task with groq".'
+name: groq-core-workflow-b
 ---
 # Groq Core Workflow B
+
+This skill provides automated assistance for groq core workflow b tasks.
 
 ## Overview
 Secondary workflow for Groq. Complements the primary workflow.

@@ -1,15 +1,14 @@
 ---
-name: groq-common-errors
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Diagnose and fix groq common errors and exceptions. use when encountering
   groq errors, debugging failed requests, or troubleshooting integration issues. trigger
   with phrases like "groq error", "fix groq", "groq not working", "debug groq".
+name: groq-common-errors
 ---
 # Groq Common Errors
 
-## Overview
-Quick reference for the top 10 most common Groq errors and their solutions.
+This skill provides automated assistance for groq common errors tasks.
 
 ## Prerequisites
 - Groq SDK installed
@@ -34,72 +33,13 @@ Follow the solution steps for your specific error.
 
 ## Error Handling
 
-### Authentication Failed
-**Error Message:**
-```
-Authentication error: Invalid API key
-```
-
-**Cause:** API key is missing, expired, or invalid.
-
-**Solution:**
-```bash
-# Verify API key is set
-echo $GROQ_API_KEY
-```
-
----
-
-### Rate Limit Exceeded
-**Error Message:**
-```
-Rate limit exceeded. Please retry after X seconds.
-```
-
-**Cause:** Too many requests in a short period.
-
-**Solution:**
-Implement exponential backoff. See `groq-rate-limits` skill.
-
----
-
-### Network Timeout
-**Error Message:**
-```
-Request timeout after 30000ms
-```
-
-**Cause:** Network connectivity or server latency issues.
-
-**Solution:**
-```typescript
-// Increase timeout
-const client = new Client({ timeout: 60000 });
-```
+See `{baseDir}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-### Quick Diagnostic Commands
-```bash
-# Check Groq status
-curl -s https://status.groq.com
-
-# Verify API connectivity
-curl -I https://api.groq.com
-
-# Check local configuration
-env | grep GROQ
-```
-
-### Escalation Path
-1. Collect evidence with `groq-debug-bundle`
-2. Check Groq status page
-3. Contact support with request ID
+See `{baseDir}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Groq Status Page](https://status.groq.com)
 - [Groq Support](https://docs.groq.com/support)
 - [Groq Error Codes](https://docs.groq.com/errors)
-
-## Next Steps
-For comprehensive debugging, see `groq-debug-bundle`.
