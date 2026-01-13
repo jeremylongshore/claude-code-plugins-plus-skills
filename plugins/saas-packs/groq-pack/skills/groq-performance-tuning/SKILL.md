@@ -1,17 +1,12 @@
 ---
 name: groq-performance-tuning
-description: |
-  Optimize Groq API performance with caching, batching, and connection pooling.
-  Use when experiencing slow API responses, implementing caching strategies,
-  or optimizing request throughput for Groq integrations.
-  Trigger with phrases like "groq performance", "optimize groq",
-  "groq latency", "groq caching", "groq slow", "groq batch".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Optimize Groq API performance with caching, batching, and connection
+  pooling. Use when experiencing slow API responses, implementing caching strategies,
+  or optimizing request throughput for Groq integrations. Trigger with phrases like
+  "groq perfor...
 ---
-
 # Groq Performance Tuning
 
 ## Overview

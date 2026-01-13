@@ -1,17 +1,12 @@
 ---
 name: groq-observability
-description: |
-  Set up comprehensive observability for Groq integrations with metrics, traces, and alerts.
-  Use when implementing monitoring for Groq operations, setting up dashboards,
-  or configuring alerting for Groq integration health.
-  Trigger with phrases like "groq monitoring", "groq metrics",
-  "groq observability", "monitor groq", "groq alerts", "groq tracing".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Set up comprehensive observability for groq integrations with metrics,
+  traces, and alerts. use when implementing monitoring for groq operations, setting
+  up dashboards, or configuring alerting for groq integration health. trigger with
+  phrases like ...
 ---
-
 # Groq Observability
 
 ## Overview

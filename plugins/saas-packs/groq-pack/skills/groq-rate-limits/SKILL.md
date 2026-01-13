@@ -1,17 +1,12 @@
 ---
 name: groq-rate-limits
-description: |
-  Implement Groq rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for Groq.
-  Trigger with phrases like "groq rate limit", "groq throttling",
-  "groq 429", "groq retry", "groq backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement groq rate limiting, backoff, and idempotency patterns. use
+  when handling rate limit errors, implementing retry logic, or optimizing api request
+  throughput for groq. trigger with phrases like "groq rate limit", "groq throttling",
+  "groq 42...
 ---
-
 # Groq Rate Limits
 
 ## Overview

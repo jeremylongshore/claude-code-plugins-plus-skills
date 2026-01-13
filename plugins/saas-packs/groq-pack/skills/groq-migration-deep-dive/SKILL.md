@@ -1,17 +1,12 @@
 ---
 name: groq-migration-deep-dive
-description: |
-  Execute Groq major re-architecture and migration strategies with strangler fig pattern.
-  Use when migrating to or from Groq, performing major version upgrades,
-  or re-platforming existing integrations to Groq.
-  Trigger with phrases like "migrate groq", "groq migration",
-  "switch to groq", "groq replatform", "groq upgrade major".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Execute groq major re-architecture and migration strategies with strangler
+  fig pattern. use when migrating to or from groq, performing major version upgrades,
+  or re-platforming existing integrations to groq. trigger with phrases like "migrate
+  groq...
 ---
-
 # Groq Migration Deep Dive
 
 ## Overview

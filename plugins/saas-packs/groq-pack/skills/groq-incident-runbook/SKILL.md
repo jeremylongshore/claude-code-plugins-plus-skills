@@ -1,17 +1,12 @@
 ---
 name: groq-incident-runbook
-description: |
-  Execute Groq incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to Groq-related outages, investigating errors,
-  or running post-incident reviews for Groq integration failures.
-  Trigger with phrases like "groq incident", "groq outage",
-  "groq down", "groq on-call", "groq emergency", "groq broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute groq incident response procedures with triage, mitigation, and
+  postmortem. use when responding to groq-related outages, investigating errors, or
+  running post-incident reviews for groq integration failures. trigger with phrases
+  like "groq i...
 ---
-
 # Groq Incident Runbook
 
 ## Overview

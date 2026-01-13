@@ -1,17 +1,12 @@
 ---
 name: groq-prod-checklist
-description: |
-  Execute Groq production deployment checklist and rollback procedures.
-  Use when deploying Groq integrations to production, preparing for launch,
-  or implementing go-live procedures.
-  Trigger with phrases like "groq production", "deploy groq",
-  "groq go-live", "groq launch checklist".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Execute groq production deployment checklist and rollback procedures.
+  use when deploying groq integrations to production, preparing for launch, or implementing
+  go-live procedures. trigger with phrases like "groq production", "deploy groq",
+  "groq g...
 ---
-
 # Groq Production Checklist
 
 ## Overview

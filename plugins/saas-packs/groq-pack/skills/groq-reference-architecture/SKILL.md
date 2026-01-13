@@ -1,17 +1,11 @@
 ---
 name: groq-reference-architecture
-description: |
-  Implement Groq reference architecture with best-practice project layout.
-  Use when designing new Groq integrations, reviewing project structure,
-  or establishing architecture standards for Groq applications.
-  Trigger with phrases like "groq architecture", "groq best practices",
-  "groq project structure", "how to organize groq", "groq layout".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Implement groq reference architecture with best-practice project layout.
+  use when designing new groq integrations, reviewing project structure, or establishing
+  architecture standards for groq applications. trigger with phrases like "groq architect...
 ---
-
 # Groq Reference Architecture
 
 ## Overview
