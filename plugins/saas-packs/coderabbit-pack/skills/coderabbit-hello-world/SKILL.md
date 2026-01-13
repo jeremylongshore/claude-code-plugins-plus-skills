@@ -1,13 +1,15 @@
 ---
-name: coderabbit-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working CodeRabbit example. Use when starting a new
   CodeRabbit integration, testing your setup, or learning basic CodeRabbit API patterns.
   Trigger with phrases like "coderabbit hello world", "coderabbit example", "coderabbit
   quick...
+name: coderabbit-hello-world
 ---
 # CodeRabbit Hello World
+
+This skill provides automated assistance for coderabbit hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core CodeRabbit functionality.

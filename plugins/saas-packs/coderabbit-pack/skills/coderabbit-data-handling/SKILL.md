@@ -1,13 +1,15 @@
 ---
-name: coderabbit-data-handling
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Implement coderabbit pii handling, data retention, and gdpr/ccpa compliance
   patterns. use when handling sensitive data, implementing data redaction, configuring
   retention policies, or ensuring compliance with privacy regulations for coderabbit
   int...
+name: coderabbit-data-handling
 ---
 # CodeRabbit Data Handling
+
+This skill provides automated assistance for coderabbit data handling tasks.
 
 ## Overview
 Handle sensitive data correctly when integrating with CodeRabbit.

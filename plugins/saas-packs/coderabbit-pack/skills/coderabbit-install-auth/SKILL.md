@@ -1,13 +1,15 @@
 ---
-name: coderabbit-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure coderabbit sdk/cli authentication. use when setting
   up a new coderabbit integration, configuring api keys, or initializing coderabbit
   in your project. trigger with phrases like "install coderabbit", "setup coderabbit",
   "coder...
+name: coderabbit-install-auth
 ---
 # CodeRabbit Install & Auth
+
+This skill provides automated assistance for coderabbit install auth tasks.
 
 ## Overview
 Set up CodeRabbit SDK/CLI and configure authentication credentials.
