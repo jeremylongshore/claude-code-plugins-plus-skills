@@ -1,10 +1,10 @@
 ---
-name: running-chaos-tests
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute chaos engineering experiments to test system resilience. use
   when performing specialized testing. trigger with phrases like "run chaos tests",
   "test resilience", or "inject failures".
+name: running-chaos-tests
 ---
 # Chaos Engineering Toolkit
 

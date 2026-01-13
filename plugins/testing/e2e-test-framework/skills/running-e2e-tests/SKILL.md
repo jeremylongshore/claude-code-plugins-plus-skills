@@ -1,10 +1,10 @@
 ---
-name: running-e2e-tests
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Execute end-to-end tests covering full user workflows across frontend
   and backend. use when performing specialized testing. trigger with phrases like
   "run end-to-end tests", "test user flows", or "execute e2e suite".
+name: running-e2e-tests
 ---
 # E2E Test Framework
 

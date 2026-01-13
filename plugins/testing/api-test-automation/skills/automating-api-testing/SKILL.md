@@ -1,11 +1,11 @@
 ---
-name: automating-api-testing
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Test automate API endpoint testing including request generation, validation,
   and comprehensive test coverage for REST and GraphQL APIs. Use when testing API
   contracts, validating OpenAPI specifications, or ensuring endpoint reliability.
   Trigger wi...
+name: automating-api-testing
 ---
 # Api Test Automation
 

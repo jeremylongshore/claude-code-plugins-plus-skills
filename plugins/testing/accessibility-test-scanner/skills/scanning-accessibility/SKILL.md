@@ -1,11 +1,11 @@
 ---
-name: scanning-accessibility
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Validate WCAG compliance and accessibility standards (ARIA, keyboard
   navigation). Use when auditing WCAG compliance or screen reader compatibility. Trigger
   with phrases like "scan accessibility", "check WCAG compliance", or "validate screen
   readers".
+name: scanning-accessibility
 ---
 # Accessibility Test Scanner
 

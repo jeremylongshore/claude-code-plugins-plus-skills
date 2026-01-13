@@ -1,10 +1,10 @@
 ---
-name: creating-github-issues-from-web-research
-license: MIT
 allowed-tools: Read, WebFetch, WebSearch, Grep
+license: MIT
 description: Execute this skill enhances ai assistant's ability to conduct web research
   and translate findings into actionable github issues. it automates the process of
   extracting key information from web search results and formatting it into a well-structure...
+name: creating-github-issues-from-web-research
 ---
 # Web To Github Issue
 

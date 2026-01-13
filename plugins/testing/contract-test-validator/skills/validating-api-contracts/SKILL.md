@@ -1,10 +1,10 @@
 ---
-name: validating-api-contracts
-license: MIT
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+license: MIT
 description: Validate API contracts using consumer-driven contract testing (Pact,
   Spring Cloud Contract). Use when performing specialized testing. Trigger with phrases
   like "validate API contract", "run contract tests", or "check consumer contracts".
+name: validating-api-contracts
 ---
 # Contract Test Validator
 
