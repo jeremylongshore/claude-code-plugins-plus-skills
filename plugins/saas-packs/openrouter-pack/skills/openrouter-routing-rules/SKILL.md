@@ -1,12 +1,14 @@
 ---
-name: openrouter-routing-rules
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement intelligent model routing based on request characteristics.
   use when optimizing for cost, speed, or quality per request. trigger with phrases
   like 'openrouter routing', 'model selection', 'smart routing', 'dynamic model'.
+name: openrouter-routing-rules
 ---
 # OpenRouter Routing Rules
+
+This skill provides automated assistance for openrouter routing rules tasks.
 
 ## Overview
 

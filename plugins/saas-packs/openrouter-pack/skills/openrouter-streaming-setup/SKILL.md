@@ -1,12 +1,14 @@
 ---
-name: openrouter-streaming-setup
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement streaming responses with openrouter. use when building real-time
   chat interfaces or reducing time-to-first-token. trigger with phrases like 'openrouter
   streaming', 'openrouter sse', 'stream response', 'real-time openrouter'.
+name: openrouter-streaming-setup
 ---
 # Openrouter Streaming Setup
+
+This skill provides automated assistance for openrouter streaming setup tasks.
 
 ## Overview
 

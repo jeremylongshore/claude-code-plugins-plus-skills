@@ -1,12 +1,14 @@
 ---
-name: openrouter-usage-analytics
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Track and analyze openrouter usage patterns. use when optimizing costs
   or understanding usage. trigger with phrases like 'openrouter analytics', 'openrouter
   usage', 'openrouter metrics', 'track openrouter'.
+name: openrouter-usage-analytics
 ---
 # Openrouter Usage Analytics
+
+This skill provides automated assistance for openrouter usage analytics tasks.
 
 ## Overview
 

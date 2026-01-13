@@ -1,13 +1,15 @@
 ---
-name: openrouter-rate-limits
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Handle openrouter rate limits with proper backoff strategies. use when
   experiencing 429 errors or building high-throughput systems. trigger with phrases
   like 'openrouter rate limit', 'openrouter 429', 'openrouter throttle', 'openrouter
   backoff'.
+name: openrouter-rate-limits
 ---
 # Openrouter Rate Limits
+
+This skill provides automated assistance for openrouter rate limits tasks.
 
 ## Overview
 

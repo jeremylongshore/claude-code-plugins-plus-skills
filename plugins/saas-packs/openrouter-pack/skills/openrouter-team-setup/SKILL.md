@@ -1,12 +1,14 @@
 ---
-name: openrouter-team-setup
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Configure OpenRouter for team and organizational use. Use when setting
   up multi-user access or department billing. Trigger with phrases like 'openrouter
   team', 'openrouter organization', 'multi-user openrouter', 'openrouter rbac'.
+name: openrouter-team-setup
 ---
 # Openrouter Team Setup
+
+This skill provides automated assistance for openrouter team setup tasks.
 
 ## Overview
 

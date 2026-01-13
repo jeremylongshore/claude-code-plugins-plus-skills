@@ -1,12 +1,14 @@
 ---
-name: openrouter-sdk-patterns
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement common sdk patterns for openrouter integration. use when building
   production applications. trigger with phrases like 'openrouter sdk', 'openrouter
   client pattern', 'openrouter best practices', 'openrouter code patterns'.
+name: openrouter-sdk-patterns
 ---
 # OpenRouter SDK Patterns
+
+This skill provides automated assistance for openrouter sdk patterns tasks.
 
 ## Overview
 

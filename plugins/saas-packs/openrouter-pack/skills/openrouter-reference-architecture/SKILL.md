@@ -1,12 +1,14 @@
 ---
-name: openrouter-reference-architecture
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute production reference architecture for openrouter deployments.
   use when designing or reviewing system architecture. trigger with phrases like 'openrouter
   architecture', 'openrouter design', 'production openrouter', 'openrouter infrastructure'.
+name: openrouter-reference-architecture
 ---
 # Openrouter Reference Architecture
+
+This skill provides automated assistance for openrouter reference architecture tasks.
 
 ## Overview
 

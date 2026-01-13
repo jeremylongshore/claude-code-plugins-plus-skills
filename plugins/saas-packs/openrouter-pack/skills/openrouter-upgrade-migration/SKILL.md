@@ -1,12 +1,14 @@
 ---
-name: openrouter-upgrade-migration
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute migrate and upgrade openrouter sdk versions safely. use when
   updating dependencies or migrating configurations. trigger with phrases like 'openrouter
   upgrade', 'openrouter migration', 'update openrouter', 'openrouter breaking changes'.
+name: openrouter-upgrade-migration
 ---
 # Openrouter Upgrade Migration
+
+This skill provides automated assistance for openrouter upgrade migration tasks.
 
 ## Overview
 
