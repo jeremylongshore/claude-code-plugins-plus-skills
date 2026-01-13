@@ -1,17 +1,11 @@
 ---
 name: fireflies-data-handling
-description: |
-  Implement Fireflies.ai PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for Fireflies.ai integrations.
-  Trigger with phrases like "fireflies data", "fireflies PII",
-  "fireflies GDPR", "fireflies data retention", "fireflies privacy", "fireflies CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement fireflies.ai pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for fireflies.ai...
 ---
-
 # Fireflies.ai Data Handling
 
 ## Overview

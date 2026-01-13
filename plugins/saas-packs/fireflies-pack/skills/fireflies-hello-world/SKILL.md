@@ -1,17 +1,12 @@
 ---
 name: fireflies-hello-world
-description: |
-  Create a minimal working Fireflies.ai example.
-  Use when starting a new Fireflies.ai integration, testing your setup,
-  or learning basic Fireflies.ai API patterns.
-  Trigger with phrases like "fireflies hello world", "fireflies example",
-  "fireflies quick start", "simple fireflies code".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Create a minimal working Fireflies.ai example. Use when starting a new
+  Fireflies.ai integration, testing your setup, or learning basic Fireflies.ai API
+  patterns. Trigger with phrases like "fireflies hello world", "fireflies example",
+  "fireflies qu...
 ---
-
 # Fireflies.ai Hello World
 
 ## Overview

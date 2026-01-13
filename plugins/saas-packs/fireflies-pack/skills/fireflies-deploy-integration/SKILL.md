@@ -1,17 +1,12 @@
 ---
 name: fireflies-deploy-integration
-description: |
-  Deploy Fireflies.ai integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying Fireflies.ai-powered applications to production,
-  configuring platform-specific secrets, or setting up deployment pipelines.
-  Trigger with phrases like "deploy fireflies", "fireflies Vercel",
-  "fireflies production deploy", "fireflies Cloud Run", "fireflies Fly.io".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Fireflies.ai integrations to Vercel, Fly.io, and Cloud Run platforms.
+  Use when deploying Fireflies.ai-powered applications to production, configuring
+  platform-specific secrets, or setting up deployment pipelines. Trigger with phrases
+  like "...
 ---
-
 # Fireflies.ai Deploy Integration
 
 ## Overview

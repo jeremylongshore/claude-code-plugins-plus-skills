@@ -1,17 +1,12 @@
 ---
 name: fireflies-cost-tuning
-description: |
-  Optimize Fireflies.ai costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Fireflies.ai billing, reducing API costs,
-  or implementing usage monitoring and budget alerts.
-  Trigger with phrases like "fireflies cost", "fireflies billing",
-  "reduce fireflies costs", "fireflies pricing", "fireflies expensive", "fireflies budget".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Optimize Fireflies.ai costs through tier selection, sampling, and usage
+  monitoring. Use when analyzing Fireflies.ai billing, reducing API costs, or implementing
+  usage monitoring and budget alerts. Trigger with phrases like "fireflies cost",
+  "firef...
 ---
-
 # Fireflies.ai Cost Tuning
 
 ## Overview

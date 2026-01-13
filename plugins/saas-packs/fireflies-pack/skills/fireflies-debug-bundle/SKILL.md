@@ -1,17 +1,12 @@
 ---
 name: fireflies-debug-bundle
-description: |
-  Collect Fireflies.ai debug evidence for support tickets and troubleshooting.
-  Use when encountering persistent issues, preparing support tickets,
-  or collecting diagnostic information for Fireflies.ai problems.
-  Trigger with phrases like "fireflies debug", "fireflies support bundle",
-  "collect fireflies logs", "fireflies diagnostic".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Collect fireflies.ai debug evidence for support tickets and troubleshooting.
+  use when encountering persistent issues, preparing support tickets, or collecting
+  diagnostic information for fireflies.ai problems. trigger with phrases like "fireflies
+  d...
 ---
-
 # Fireflies.ai Debug Bundle
 
 ## Overview

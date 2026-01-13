@@ -1,17 +1,12 @@
 ---
 name: fireflies-enterprise-rbac
-description: |
-  Configure Fireflies.ai enterprise SSO, role-based access control, and organization management.
-  Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for Fireflies.ai.
-  Trigger with phrases like "fireflies SSO", "fireflies RBAC",
-  "fireflies enterprise", "fireflies roles", "fireflies permissions", "fireflies SAML".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure Fireflies.ai enterprise SSO, role-based access control, and
+  organization management. Use when implementing SSO integration, configuring role-based
+  permissions, or setting up organization-level controls for Fireflies.ai. Trigger
+  with phra...
 ---
-
 # Fireflies.ai Enterprise RBAC
 
 ## Overview

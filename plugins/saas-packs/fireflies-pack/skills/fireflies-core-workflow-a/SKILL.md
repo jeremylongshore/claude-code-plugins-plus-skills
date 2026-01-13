@@ -1,17 +1,11 @@
 ---
 name: fireflies-core-workflow-a
-description: |
-  Execute Fireflies.ai primary workflow: Core Workflow A.
-  Use when implementing primary use case,
-  building main features, or core integration tasks.
-  Trigger with phrases like "fireflies main workflow",
-  "primary task with fireflies".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: 'Execute fireflies.ai primary workflow: core workflow a. use when implementing
+  primary use case, building main features, or core integration tasks. trigger with
+  phrases like "fireflies main workflow", "primary task with fireflies".'
 ---
-
 # Fireflies.ai Core Workflow A
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: fireflies-incident-runbook
-description: |
-  Execute Fireflies.ai incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to Fireflies.ai-related outages, investigating errors,
-  or running post-incident reviews for Fireflies.ai integration failures.
-  Trigger with phrases like "fireflies incident", "fireflies outage",
-  "fireflies down", "fireflies on-call", "fireflies emergency", "fireflies broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute fireflies.ai incident response procedures with triage, mitigation,
+  and postmortem. use when responding to fireflies.ai-related outages, investigating
+  errors, or running post-incident reviews for fireflies.ai integration failures.
+  trigger w...
 ---
-
 # Fireflies.ai Incident Runbook
 
 ## Overview
