@@ -1,13 +1,15 @@
 ---
-name: retellai-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure retell ai sdk/cli authentication. use when setting
   up a new retell ai integration, configuring api keys, or initializing retell ai
   in your project. trigger with phrases like "install retellai", "setup retellai",
   "retellai aut...
+name: retellai-install-auth
 ---
 # Retell AI Install & Auth
+
+This skill provides automated assistance for retellai install auth tasks.
 
 ## Overview
 Set up Retell AI SDK/CLI and configure authentication credentials.

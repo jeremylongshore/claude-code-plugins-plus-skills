@@ -1,13 +1,15 @@
 ---
-name: retellai-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit
+license: MIT
 description: Create a minimal working Retell AI example. Use when starting a new Retell
   AI integration, testing your setup, or learning basic Retell AI API patterns. Trigger
   with phrases like "retellai hello world", "retellai example", "retellai quick start",
   ...
+name: retellai-hello-world
 ---
 # Retell AI Hello World
+
+This skill provides automated assistance for retellai hello world tasks.
 
 ## Overview
 Minimal working example demonstrating core Retell AI functionality.
