@@ -1,13 +1,15 @@
 ---
-name: cursor-git-integration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Manage integrate Git workflows with Cursor IDE. Triggers on "cursor git",
   "git in cursor", "cursor version control", "cursor commit", "cursor branch". Use
   when working with cursor git integration functionality. Trigger with phrases like
   "cursor gi...
+name: cursor-git-integration
 ---
 # Cursor Git Integration
+
+This skill provides automated assistance for cursor git integration tasks.
 
 ## Overview
 

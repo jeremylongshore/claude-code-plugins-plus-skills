@@ -1,13 +1,15 @@
 ---
-name: cursor-extension-integration
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Manage integrate VS Code extensions with Cursor. Triggers on "cursor
   extensions", "cursor vscode extensions", "cursor plugins", "cursor marketplace".
   Use when working with cursor extension integration functionality. Trigger with phrases
   like "curs...
+name: cursor-extension-integration
 ---
 # Cursor Extension Integration
+
+This skill provides automated assistance for cursor extension integration tasks.
 
 ## Overview
 

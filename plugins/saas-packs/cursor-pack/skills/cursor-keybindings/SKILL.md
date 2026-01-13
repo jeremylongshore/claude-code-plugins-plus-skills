@@ -1,13 +1,15 @@
 ---
-name: cursor-keybindings
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Manage master Cursor keyboard shortcuts and customize keybindings. Triggers
   on "cursor shortcuts", "cursor keybindings", "cursor keyboard", "cursor hotkeys",
   "cursor commands". Use when working with cursor keybindings functionality. Trigger
   with p...
+name: cursor-keybindings
 ---
 # Cursor Keybindings
+
+This skill provides automated assistance for cursor keybindings tasks.
 
 ## Overview
 

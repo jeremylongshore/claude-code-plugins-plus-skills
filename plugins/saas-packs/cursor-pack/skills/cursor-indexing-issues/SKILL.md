@@ -1,13 +1,15 @@
 ---
-name: cursor-indexing-issues
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Manage troubleshoot Cursor codebase indexing problems. Triggers on "cursor
   indexing", "cursor index", "cursor codebase", "@codebase not working", "cursor search
   broken". Use when working with cursor indexing issues functionality. Trigger with
   phra...
+name: cursor-indexing-issues
 ---
 # Cursor Indexing Issues
+
+This skill provides automated assistance for cursor indexing issues tasks.
 
 ## Overview
 

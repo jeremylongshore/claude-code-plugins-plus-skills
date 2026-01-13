@@ -1,13 +1,15 @@
 ---
-name: cursor-multi-repo
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Manage work with multiple repositories in Cursor. Triggers on "cursor
   multi repo", "cursor multiple projects", "cursor monorepo", "cursor workspace".
   Use when working with cursor multi repo functionality. Trigger with phrases like
   "cursor multi re...
+name: cursor-multi-repo
 ---
 # Cursor Multi Repo
+
+This skill provides automated assistance for cursor multi repo tasks.
 
 ## Overview
 

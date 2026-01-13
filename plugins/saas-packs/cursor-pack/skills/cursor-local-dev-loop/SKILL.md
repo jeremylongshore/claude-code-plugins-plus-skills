@@ -1,13 +1,15 @@
 ---
-name: cursor-local-dev-loop
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Optimize local development workflow with Cursor. Triggers on "cursor
   workflow", "cursor development loop", "cursor productivity", "cursor daily workflow".
   Use when working with cursor local dev loop functionality. Trigger with phrases
   like "cursor...
+name: cursor-local-dev-loop
 ---
 # Cursor Local Dev Loop
+
+This skill provides automated assistance for cursor local dev loop tasks.
 
 ## Overview
 

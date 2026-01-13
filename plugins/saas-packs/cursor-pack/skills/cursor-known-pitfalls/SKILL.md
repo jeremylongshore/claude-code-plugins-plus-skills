@@ -1,13 +1,15 @@
 ---
-name: cursor-known-pitfalls
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Manage avoid common Cursor IDE pitfalls and mistakes. Triggers on "cursor
   pitfalls", "cursor mistakes", "cursor gotchas", "cursor issues", "cursor problems".
   Use when working with cursor known pitfalls functionality. Trigger with phrases
   like "cur...
+name: cursor-known-pitfalls
 ---
 # Cursor Known Pitfalls
+
+This skill provides automated assistance for cursor known pitfalls tasks.
 
 ## Overview
 

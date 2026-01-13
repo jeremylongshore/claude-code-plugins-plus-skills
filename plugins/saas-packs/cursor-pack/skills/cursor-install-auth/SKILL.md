@@ -1,13 +1,15 @@
 ---
-name: cursor-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Install cursor ide and configure authentication. triggers on "install
   cursor", "setup cursor", "cursor authentication", "cursor login", "cursor license".
   use when working with cursor install auth functionality. trigger with phrases like
   "cursor in...
+name: cursor-install-auth
 ---
 # Cursor Install Auth
+
+This skill provides automated assistance for cursor install auth tasks.
 
 ## Overview
 

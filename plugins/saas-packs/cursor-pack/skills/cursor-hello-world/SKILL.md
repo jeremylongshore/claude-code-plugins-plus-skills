@@ -1,13 +1,15 @@
 ---
-name: cursor-hello-world
-license: MIT
 allowed-tools: Read, Write, Edit, Bash
+license: MIT
 description: Create your first project with Cursor AI features. Triggers on "cursor
   hello world", "first cursor project", "cursor getting started", "try cursor ai",
   "cursor basics". Use when working with cursor hello world functionality. Trigger
   with phrases l...
+name: cursor-hello-world
 ---
 # Cursor Hello World
+
+This skill provides automated assistance for cursor hello world tasks.
 
 ## Overview
 
