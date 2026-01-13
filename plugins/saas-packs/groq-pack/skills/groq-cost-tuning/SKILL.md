@@ -1,17 +1,12 @@
 ---
 name: groq-cost-tuning
-description: |
-  Optimize Groq costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Groq billing, reducing API costs,
-  or implementing usage monitoring and budget alerts.
-  Trigger with phrases like "groq cost", "groq billing",
-  "reduce groq costs", "groq pricing", "groq expensive", "groq budget".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Optimize Groq costs through tier selection, sampling, and usage monitoring.
+  Use when analyzing Groq billing, reducing API costs, or implementing usage monitoring
+  and budget alerts. Trigger with phrases like "groq cost", "groq billing", "reduce
+  gro...
 ---
-
 # Groq Cost Tuning
 
 ## Overview

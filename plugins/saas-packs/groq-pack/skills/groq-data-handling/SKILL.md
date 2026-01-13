@@ -1,17 +1,12 @@
 ---
 name: groq-data-handling
-description: |
-  Implement Groq PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for Groq integrations.
-  Trigger with phrases like "groq data", "groq PII",
-  "groq GDPR", "groq data retention", "groq privacy", "groq CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement groq pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for groq integrations.
+  t...
 ---
-
 # Groq Data Handling
 
 ## Overview

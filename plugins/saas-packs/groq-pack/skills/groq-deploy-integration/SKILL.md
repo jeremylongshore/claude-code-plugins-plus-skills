@@ -1,17 +1,12 @@
 ---
 name: groq-deploy-integration
-description: |
-  Deploy Groq integrations to Vercel, Fly.io, and Cloud Run platforms.
-  Use when deploying Groq-powered applications to production,
-  configuring platform-specific secrets, or setting up deployment pipelines.
-  Trigger with phrases like "deploy groq", "groq Vercel",
-  "groq production deploy", "groq Cloud Run", "groq Fly.io".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Deploy Groq integrations to Vercel, Fly.io, and Cloud Run platforms.
+  Use when deploying Groq-powered applications to production, configuring platform-specific
+  secrets, or setting up deployment pipelines. Trigger with phrases like "deploy groq",
+  "g...
 ---
-
 # Groq Deploy Integration
 
 ## Overview

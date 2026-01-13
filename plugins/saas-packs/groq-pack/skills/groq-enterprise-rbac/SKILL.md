@@ -1,17 +1,12 @@
 ---
 name: groq-enterprise-rbac
-description: |
-  Configure Groq enterprise SSO, role-based access control, and organization management.
-  Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for Groq.
-  Trigger with phrases like "groq SSO", "groq RBAC",
-  "groq enterprise", "groq roles", "groq permissions", "groq SAML".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure Groq enterprise SSO, role-based access control, and organization
+  management. Use when implementing SSO integration, configuring role-based permissions,
+  or setting up organization-level controls for Groq. Trigger with phrases like "groq
+  S...
 ---
-
 # Groq Enterprise RBAC
 
 ## Overview
