@@ -1,17 +1,12 @@
 ---
 name: windsurf-security-basics
-description: |
-  Apply Windsurf security best practices for secrets and access control.
-  Use when securing API keys, implementing least privilege access,
-  or auditing Windsurf security configuration.
-  Trigger with phrases like "windsurf security", "windsurf secrets",
-  "secure windsurf", "windsurf API key security".
-allowed-tools: Read, Write, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Grep
+description: Apply windsurf security best practices for secrets and access control.
+  use when securing api keys, implementing least privilege access, or auditing windsurf
+  security configuration. trigger with phrases like "windsurf security", "windsurf
+  secrets",...
 ---
-
 # Windsurf Security Basics
 
 ## Overview

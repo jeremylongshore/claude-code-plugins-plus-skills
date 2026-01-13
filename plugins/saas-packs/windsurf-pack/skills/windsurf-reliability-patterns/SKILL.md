@@ -1,17 +1,11 @@
 ---
 name: windsurf-reliability-patterns
-description: |
-  Implement Windsurf reliability patterns including circuit breakers, idempotency, and graceful degradation.
-  Use when building fault-tolerant Windsurf integrations, implementing retry strategies,
-  or adding resilience to production Windsurf services.
-  Trigger with phrases like "windsurf reliability", "windsurf circuit breaker",
-  "windsurf idempotent", "windsurf resilience", "windsurf fallback", "windsurf bulkhead".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement windsurf reliability patterns including circuit breakers, idempotency,
+  and graceful degradation. use when building fault-tolerant windsurf integrations,
+  implementing retry strategies, or adding resilience to production windsurf services....
 ---
-
 # Windsurf Reliability Patterns
 
 ## Overview

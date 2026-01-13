@@ -1,17 +1,12 @@
 ---
 name: windsurf-webhooks-events
-description: |
-  Implement Windsurf webhook signature validation and event handling.
-  Use when setting up webhook endpoints, implementing signature verification,
-  or handling Windsurf event notifications securely.
-  Trigger with phrases like "windsurf webhook", "windsurf events",
-  "windsurf webhook signature", "handle windsurf events", "windsurf notifications".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement windsurf webhook signature validation and event handling. use
+  when setting up webhook endpoints, implementing signature verification, or handling
+  windsurf event notifications securely. trigger with phrases like "windsurf webhook",
+  "winds...
 ---
-
 # Windsurf Webhooks & Events
 
 ## Overview

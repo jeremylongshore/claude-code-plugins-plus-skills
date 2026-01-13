@@ -1,17 +1,12 @@
 ---
 name: windsurf-sdk-patterns
-description: |
-  Apply production-ready Windsurf SDK patterns for TypeScript and Python.
-  Use when implementing Windsurf integrations, refactoring SDK usage,
-  or establishing team coding standards for Windsurf.
-  Trigger with phrases like "windsurf SDK patterns", "windsurf best practices",
-  "windsurf code patterns", "idiomatic windsurf".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready windsurf sdk patterns for typescript and python.
+  use when implementing windsurf integrations, refactoring sdk usage, or establishing
+  team coding standards for windsurf. trigger with phrases like "windsurf sdk patterns",
+  "win...
 ---
-
 # Windsurf SDK Patterns
 
 ## Overview
