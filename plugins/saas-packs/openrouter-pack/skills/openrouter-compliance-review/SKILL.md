@@ -1,13 +1,12 @@
 ---
 name: openrouter-compliance-review
-description: |
-  Execute conduct security and compliance review of OpenRouter integration. Use when preparing for audits or security assessments. Trigger with phrases like 'openrouter security review', 'openrouter compliance', 'openrouter audit', 'security assessment'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Execute conduct security and compliance review of openrouter integration.
+  use when preparing for audits or security assessments. trigger with phrases like
+  'openrouter security review', 'openrouter compliance', 'openrouter audit', 'security
+  assessm...
 ---
-
 # Openrouter Compliance Review
 
 ## Overview

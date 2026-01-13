@@ -1,13 +1,11 @@
 ---
 name: openrouter-function-calling
-description: |
-  Implement function/tool calling with OpenRouter models. Use when building agents or structured outputs. Trigger with phrases like 'openrouter functions', 'openrouter tools', 'openrouter agent', 'function calling'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement function/tool calling with openrouter models. use when building
+  agents or structured outputs. trigger with phrases like 'openrouter functions',
+  'openrouter tools', 'openrouter agent', 'function calling'.
 ---
-
 # Openrouter Function Calling
 
 ## Overview

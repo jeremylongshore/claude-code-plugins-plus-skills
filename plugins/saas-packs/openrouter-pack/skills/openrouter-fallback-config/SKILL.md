@@ -1,13 +1,11 @@
 ---
 name: openrouter-fallback-config
-description: |
-  Configure model fallback chains for high availability. Use when building fault-tolerant LLM systems. Trigger with phrases like 'openrouter fallback', 'openrouter backup model', 'openrouter redundancy', 'model failover'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Configure model fallback chains for high availability. Use when building
+  fault-tolerant LLM systems. Trigger with phrases like 'openrouter fallback', 'openrouter
+  backup model', 'openrouter redundancy', 'model failover'.
 ---
-
 # Openrouter Fallback Config
 
 ## Overview

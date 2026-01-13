@@ -1,13 +1,11 @@
 ---
 name: openrouter-common-errors
-description: |
-  Execute diagnose and fix common OpenRouter API errors. Use when troubleshooting failed requests. Trigger with phrases like 'openrouter error', 'openrouter not working', 'openrouter 401', 'openrouter 429', 'fix openrouter'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Execute diagnose and fix common openrouter api errors. use when troubleshooting
+  failed requests. trigger with phrases like 'openrouter error', 'openrouter not working',
+  'openrouter 401', 'openrouter 429', 'fix openrouter'.
 ---
-
 # Openrouter Common Errors
 
 ## Overview

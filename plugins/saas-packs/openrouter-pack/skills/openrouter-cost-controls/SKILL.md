@@ -1,13 +1,11 @@
 ---
 name: openrouter-cost-controls
-description: |
-  Implement budget controls and cost limits for OpenRouter. Use when managing spending or preventing overruns. Trigger with phrases like 'openrouter budget', 'openrouter spending limit', 'cost control', 'openrouter billing alert'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement budget controls and cost limits for openrouter. use when managing
+  spending or preventing overruns. trigger with phrases like 'openrouter budget',
+  'openrouter spending limit', 'cost control', 'openrouter billing alert'.
 ---
-
 # Openrouter Cost Controls
 
 ## Overview

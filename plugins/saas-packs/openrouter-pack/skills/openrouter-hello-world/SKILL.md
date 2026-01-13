@@ -1,13 +1,11 @@
 ---
 name: openrouter-hello-world
-description: |
-  Create your first OpenRouter API request with a simple example. Use when learning OpenRouter or testing your setup. Trigger with phrases like 'openrouter hello world', 'openrouter first request', 'openrouter quickstart', 'test openrouter'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Create your first OpenRouter API request with a simple example. Use when
+  learning OpenRouter or testing your setup. Trigger with phrases like 'openrouter
+  hello world', 'openrouter first request', 'openrouter quickstart', 'test openrouter'.
 ---
-
 # Openrouter Hello World
 
 ## Overview

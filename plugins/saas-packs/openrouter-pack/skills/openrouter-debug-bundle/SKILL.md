@@ -1,13 +1,11 @@
 ---
 name: openrouter-debug-bundle
-description: |
-  Execute set up comprehensive logging and debugging for OpenRouter. Use when investigating issues or monitoring requests. Trigger with phrases like 'openrouter debug', 'openrouter logging', 'openrouter trace', 'monitor openrouter'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Execute set up comprehensive logging and debugging for openrouter. use
+  when investigating issues or monitoring requests. trigger with phrases like 'openrouter
+  debug', 'openrouter logging', 'openrouter trace', 'monitor openrouter'.
 ---
-
 # Openrouter Debug Bundle
 
 ## Overview

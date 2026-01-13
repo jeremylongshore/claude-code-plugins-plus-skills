@@ -1,13 +1,11 @@
 ---
 name: openrouter-data-privacy
-description: |
-  Implement data privacy controls for OpenRouter requests. Use when handling PII or meeting compliance requirements. Trigger with phrases like 'openrouter privacy', 'openrouter pii', 'openrouter gdpr', 'openrouter data protection'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Implement data privacy controls for openrouter requests. use when handling
+  pii or meeting compliance requirements. trigger with phrases like 'openrouter privacy',
+  'openrouter pii', 'openrouter gdpr', 'openrouter data protection'.
 ---
-
 # Openrouter Data Privacy
 
 ## Overview

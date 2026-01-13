@@ -1,13 +1,11 @@
 ---
 name: openrouter-context-optimization
-description: |
-  Optimize context window usage and token efficiency. Use when managing costs or hitting context limits. Trigger with phrases like 'openrouter context', 'openrouter tokens', 'reduce tokens', 'context window'.
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Optimize context window usage and token efficiency. Use when managing
+  costs or hitting context limits. Trigger with phrases like 'openrouter context',
+  'openrouter tokens', 'reduce tokens', 'context window'.
 ---
-
 # Openrouter Context Optimization
 
 ## Overview
