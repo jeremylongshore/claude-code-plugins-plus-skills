@@ -1,17 +1,12 @@
 ---
 name: perplexity-webhooks-events
-description: |
-  Implement Perplexity webhook signature validation and event handling.
-  Use when setting up webhook endpoints, implementing signature verification,
-  or handling Perplexity event notifications securely.
-  Trigger with phrases like "perplexity webhook", "perplexity events",
-  "perplexity webhook signature", "handle perplexity events", "perplexity notifications".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Implement perplexity webhook signature validation and event handling.
+  use when setting up webhook endpoints, implementing signature verification, or handling
+  perplexity event notifications securely. trigger with phrases like "perplexity webhook",
+  ...
 ---
-
 # Perplexity Webhooks & Events
 
 ## Overview

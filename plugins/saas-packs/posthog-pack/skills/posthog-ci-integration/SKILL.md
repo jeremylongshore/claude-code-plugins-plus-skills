@@ -1,17 +1,12 @@
 ---
 name: posthog-ci-integration
-description: |
-  Configure PostHog CI/CD integration with GitHub Actions and testing.
-  Use when setting up automated testing, configuring CI pipelines,
-  or integrating PostHog tests into your build process.
-  Trigger with phrases like "posthog CI", "posthog GitHub Actions",
-  "posthog automated tests", "CI posthog".
-allowed-tools: Read, Write, Edit, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash
+description: Configure PostHog CI/CD integration with GitHub Actions and testing.
+  Use when setting up automated testing, configuring CI pipelines, or integrating
+  PostHog tests into your build process. Trigger with phrases like "posthog CI", "posthog
+  GitHub Act...
 ---
-
 # PostHog CI Integration
 
 ## Overview

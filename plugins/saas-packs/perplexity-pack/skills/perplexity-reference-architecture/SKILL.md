@@ -1,17 +1,12 @@
 ---
 name: perplexity-reference-architecture
-description: |
-  Implement Perplexity reference architecture with best-practice project layout.
-  Use when designing new Perplexity integrations, reviewing project structure,
-  or establishing architecture standards for Perplexity applications.
-  Trigger with phrases like "perplexity architecture", "perplexity best practices",
-  "perplexity project structure", "how to organize perplexity", "perplexity layout".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Implement perplexity reference architecture with best-practice project
+  layout. use when designing new perplexity integrations, reviewing project structure,
+  or establishing architecture standards for perplexity applications. trigger with
+  phrases li...
 ---
-
 # Perplexity Reference Architecture
 
 ## Overview

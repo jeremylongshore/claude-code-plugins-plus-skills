@@ -1,17 +1,12 @@
 ---
 name: perplexity-sdk-patterns
-description: |
-  Apply production-ready Perplexity SDK patterns for TypeScript and Python.
-  Use when implementing Perplexity integrations, refactoring SDK usage,
-  or establishing team coding standards for Perplexity.
-  Trigger with phrases like "perplexity SDK patterns", "perplexity best practices",
-  "perplexity code patterns", "idiomatic perplexity".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Apply production-ready perplexity sdk patterns for typescript and python.
+  use when implementing perplexity integrations, refactoring sdk usage, or establishing
+  team coding standards for perplexity. trigger with phrases like "perplexity sdk
+  pattern...
 ---
-
 # Perplexity SDK Patterns
 
 ## Overview

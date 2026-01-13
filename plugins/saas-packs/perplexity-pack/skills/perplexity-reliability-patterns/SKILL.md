@@ -1,17 +1,12 @@
 ---
 name: perplexity-reliability-patterns
-description: |
-  Implement Perplexity reliability patterns including circuit breakers, idempotency, and graceful degradation.
-  Use when building fault-tolerant Perplexity integrations, implementing retry strategies,
-  or adding resilience to production Perplexity services.
-  Trigger with phrases like "perplexity reliability", "perplexity circuit breaker",
-  "perplexity idempotent", "perplexity resilience", "perplexity fallback", "perplexity bulkhead".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement perplexity reliability patterns including circuit breakers,
+  idempotency, and graceful degradation. use when building fault-tolerant perplexity
+  integrations, implementing retry strategies, or adding resilience to production
+  perplexity ser...
 ---
-
 # Perplexity Reliability Patterns
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: perplexity-rate-limits
-description: |
-  Implement Perplexity rate limiting, backoff, and idempotency patterns.
-  Use when handling rate limit errors, implementing retry logic,
-  or optimizing API request throughput for Perplexity.
-  Trigger with phrases like "perplexity rate limit", "perplexity throttling",
-  "perplexity 429", "perplexity retry", "perplexity backoff".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement perplexity rate limiting, backoff, and idempotency patterns.
+  use when handling rate limit errors, implementing retry logic, or optimizing api
+  request throughput for perplexity. trigger with phrases like "perplexity rate limit",
+  "perplexi...
 ---
-
 # Perplexity Rate Limits
 
 ## Overview

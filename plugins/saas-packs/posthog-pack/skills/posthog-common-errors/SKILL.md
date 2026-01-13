@@ -1,17 +1,12 @@
 ---
 name: posthog-common-errors
-description: |
-  Diagnose and fix PostHog common errors and exceptions.
-  Use when encountering PostHog errors, debugging failed requests,
-  or troubleshooting integration issues.
-  Trigger with phrases like "posthog error", "fix posthog",
-  "posthog not working", "debug posthog".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Diagnose and fix posthog common errors and exceptions. use when encountering
+  posthog errors, debugging failed requests, or troubleshooting integration issues.
+  trigger with phrases like "posthog error", "fix posthog", "posthog not working",
+  "debug ...
 ---
-
 # PostHog Common Errors
 
 ## Overview
