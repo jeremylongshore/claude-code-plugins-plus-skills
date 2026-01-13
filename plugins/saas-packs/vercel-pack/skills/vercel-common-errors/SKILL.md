@@ -1,13 +1,15 @@
 ---
-name: vercel-common-errors
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Execute diagnose and fix vercel common errors and exceptions. use when
   encountering vercel errors, debugging failed requests, or troubleshooting integration
   issues. trigger with phrases like "vercel error", "fix vercel", "vercel not working",
   "deb...
+name: vercel-common-errors
 ---
 # Vercel Common Errors
+
+This skill provides automated assistance for vercel common errors tasks.
 
 ## Prerequisites
 - Vercel SDK installed

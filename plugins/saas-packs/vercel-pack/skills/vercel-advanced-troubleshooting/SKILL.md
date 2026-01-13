@@ -1,13 +1,15 @@
 ---
-name: vercel-advanced-troubleshooting
-license: MIT
 allowed-tools: Read, Grep, Bash
+license: MIT
 description: Execute apply vercel advanced debugging techniques for hard-to-diagnose
   issues. use when standard troubleshooting fails, investigating complex race conditions,
   or preparing evidence bundles for vercel support escalation. trigger with phrases
   like ...
+name: vercel-advanced-troubleshooting
 ---
 # Vercel Advanced Troubleshooting
+
+This skill provides automated assistance for vercel advanced troubleshooting tasks.
 
 ## Prerequisites
 - Access to production logs and metrics
