@@ -1,12 +1,14 @@
 ---
-name: openrouter-prod-checklist
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute pre-launch production readiness checklist for openrouter. use
   when preparing to deploy to production. trigger with phrases like 'openrouter production',
   'openrouter go-live', 'openrouter launch checklist', 'deploy openrouter'.
+name: openrouter-prod-checklist
 ---
 # Openrouter Prod Checklist
+
+This skill provides automated assistance for openrouter prod checklist tasks.
 
 ## Overview
 

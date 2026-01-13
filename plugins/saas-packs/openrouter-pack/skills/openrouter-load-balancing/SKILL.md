@@ -1,13 +1,15 @@
 ---
-name: openrouter-load-balancing
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute distribute requests across multiple openrouter configurations.
   use when scaling or implementing geographic distribution. trigger with phrases like
   'openrouter load balance', 'distribute requests', 'openrouter scaling', 'multi-key
   openrouter'.
+name: openrouter-load-balancing
 ---
 # Openrouter Load Balancing
+
+This skill provides automated assistance for openrouter load balancing tasks.
 
 ## Overview
 

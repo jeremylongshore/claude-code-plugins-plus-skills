@@ -1,12 +1,14 @@
 ---
-name: openrouter-openai-compat
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Configure OpenRouter as an OpenAI API drop-in replacement. Use when migrating
   from OpenAI or using OpenAI-compatible libraries. Trigger with phrases like 'openrouter
   openai', 'openrouter drop-in', 'openrouter compatibility', 'migrate to openrouter'.
+name: openrouter-openai-compat
 ---
 # Openrouter Openai Compat
+
+This skill provides automated assistance for openrouter openai compat tasks.
 
 ## Overview
 

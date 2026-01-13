@@ -1,12 +1,14 @@
 ---
-name: openrouter-multi-provider
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute work with multiple providers through openrouter. use when comparing
   providers or building provider-agnostic systems. trigger with phrases like 'openrouter
   providers', 'openrouter multi-model', 'compare models', 'provider selection'.
+name: openrouter-multi-provider
 ---
 # Openrouter Multi Provider
+
+This skill provides automated assistance for openrouter multi provider tasks.
 
 ## Overview
 

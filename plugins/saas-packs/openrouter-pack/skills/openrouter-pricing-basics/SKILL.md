@@ -1,12 +1,14 @@
 ---
-name: openrouter-pricing-basics
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute understand openrouter pricing and cost estimation. use when budgeting
   or optimizing costs. trigger with phrases like 'openrouter pricing', 'openrouter
   costs', 'openrouter budget', 'openrouter token pricing'.
+name: openrouter-pricing-basics
 ---
 # Openrouter Pricing Basics
+
+This skill provides automated assistance for openrouter pricing basics tasks.
 
 ## Overview
 

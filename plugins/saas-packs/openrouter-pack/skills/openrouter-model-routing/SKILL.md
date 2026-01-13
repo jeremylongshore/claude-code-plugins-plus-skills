@@ -1,12 +1,14 @@
 ---
-name: openrouter-model-routing
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Implement advanced model routing with a/b testing. use when optimizing
   model selection or running experiments. trigger with phrases like 'openrouter a/b
   test', 'model experiment', 'openrouter routing', 'model comparison'.
+name: openrouter-model-routing
 ---
 # OpenRouter Model Routing
+
+This skill provides automated assistance for openrouter model routing tasks.
 
 ## Overview
 

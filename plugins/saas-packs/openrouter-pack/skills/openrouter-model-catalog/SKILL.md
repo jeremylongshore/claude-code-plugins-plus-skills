@@ -1,13 +1,15 @@
 ---
-name: openrouter-model-catalog
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Build explore and query the OpenRouter model catalog programmatically.
   Use when selecting models or checking availability. Trigger with phrases like 'openrouter
   models', 'list openrouter models', 'openrouter model catalog', 'available models
   openr...
+name: openrouter-model-catalog
 ---
 # Openrouter Model Catalog
+
+This skill provides automated assistance for openrouter model catalog tasks.
 
 ## Overview
 

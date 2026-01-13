@@ -1,12 +1,14 @@
 ---
-name: openrouter-performance-tuning
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Optimize OpenRouter performance and latency. Use when reducing response
   times or improving throughput. Trigger with phrases like 'openrouter performance',
   'openrouter latency', 'speed up openrouter', 'openrouter optimization'.
+name: openrouter-performance-tuning
 ---
 # Openrouter Performance Tuning
+
+This skill provides automated assistance for openrouter performance tuning tasks.
 
 ## Overview
 

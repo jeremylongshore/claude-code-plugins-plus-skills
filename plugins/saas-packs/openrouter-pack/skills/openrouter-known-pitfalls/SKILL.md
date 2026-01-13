@@ -1,12 +1,14 @@
 ---
-name: openrouter-known-pitfalls
-license: MIT
 allowed-tools: Read, Write, Edit, Grep
+license: MIT
 description: Execute avoid common openrouter mistakes and anti-patterns. use when
   reviewing code or onboarding developers. trigger with phrases like 'openrouter pitfalls',
   'openrouter mistakes', 'openrouter gotchas', 'openrouter common issues'.
+name: openrouter-known-pitfalls
 ---
 # Openrouter Known Pitfalls
+
+This skill provides automated assistance for openrouter known pitfalls tasks.
 
 ## Overview
 
