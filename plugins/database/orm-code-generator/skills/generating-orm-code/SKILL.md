@@ -1,15 +1,11 @@
 ---
 name: generating-orm-code
-description: |
-  Execute use when you need to work with ORM code generation.
-  This skill provides ORM model and code generation with comprehensive guidance and automation.
-  Trigger with phrases like "generate ORM models", "create entity classes",
-  or "scaffold database models".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute use when you need to work with orm code generation. this skill
+  provides orm model and code generation with comprehensive guidance and automation.
+  trigger with phrases like "generate orm models", "create entity classes", or "scaffold
+  databa...
 ---
 # Orm Code Generator
 

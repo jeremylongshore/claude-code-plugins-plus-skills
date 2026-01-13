@@ -1,15 +1,11 @@
 ---
 name: modeling-nosql-data
-description: |
-  Build use when you need to work with NoSQL data modeling.
-  This skill provides NoSQL database design with comprehensive guidance and automation.
-  Trigger with phrases like "model NoSQL data", "design document structure",
-  or "optimize NoSQL schema".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Build use when you need to work with NoSQL data modeling. This skill
+  provides NoSQL database design with comprehensive guidance and automation. Trigger
+  with phrases like "model NoSQL data", "design document structure", or "optimize
+  NoSQL schema".
 ---
 # Nosql Data Modeler
 

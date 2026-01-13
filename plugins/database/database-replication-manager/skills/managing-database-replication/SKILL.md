@@ -1,15 +1,10 @@
 ---
 name: managing-database-replication
-description: |
-  Process use when you need to work with database scalability.
-  This skill provides replication and sharding with comprehensive guidance and automation.
-  Trigger with phrases like "set up replication", "implement sharding",
-  or "scale database".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Process use when you need to work with database scalability. This skill
+  provides replication and sharding with comprehensive guidance and automation. Trigger
+  with phrases like "set up replication", "implement sharding", or "scale database".
 ---
 # Database Replication Manager
 

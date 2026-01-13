@@ -1,15 +1,11 @@
 ---
 name: managing-database-recovery
-description: |
-  Process use when you need to work with database operations.
-  This skill provides database management and optimization with comprehensive guidance and automation.
-  Trigger with phrases like "manage database", "optimize database",
-  or "configure database".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Process use when you need to work with database operations. This skill
+  provides database management and optimization with comprehensive guidance and automation.
+  Trigger with phrases like "manage database", "optimize database", or "configure
+  databa...
 ---
 # Database Recovery Manager
 

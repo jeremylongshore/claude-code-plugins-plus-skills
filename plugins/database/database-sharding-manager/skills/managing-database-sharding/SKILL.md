@@ -1,15 +1,11 @@
 ---
 name: managing-database-sharding
-description: |
-  Process use when you need to work with database sharding.
-  This skill provides horizontal sharding strategies with comprehensive guidance and automation.
-  Trigger with phrases like "implement sharding", "shard database",
-  or "distribute data".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Process use when you need to work with database sharding. This skill
+  provides horizontal sharding strategies with comprehensive guidance and automation.
+  Trigger with phrases like "implement sharding", "shard database", or "distribute
+  data".
 ---
 # Database Sharding Manager
 

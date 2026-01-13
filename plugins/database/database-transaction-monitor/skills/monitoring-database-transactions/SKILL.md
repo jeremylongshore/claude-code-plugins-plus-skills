@@ -1,15 +1,11 @@
 ---
 name: monitoring-database-transactions
-description: |
-  Monitor use when you need to work with monitoring and observability.
-  This skill provides health monitoring and alerting with comprehensive guidance and automation.
-  Trigger with phrases like "monitor system health", "set up alerts",
-  or "track metrics".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Monitor use when you need to work with monitoring and observability.
+  This skill provides health monitoring and alerting with comprehensive guidance and
+  automation. Trigger with phrases like "monitor system health", "set up alerts",
+  or "track metri...
 ---
 # Database Transaction Monitor
 

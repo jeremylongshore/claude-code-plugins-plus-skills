@@ -1,15 +1,11 @@
 ---
 name: managing-database-partitions
-description: |
-  Process use when you need to work with database partitioning.
-  This skill provides table partitioning strategies with comprehensive guidance and automation.
-  Trigger with phrases like "partition tables", "implement partitioning",
-  or "optimize large tables".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Process use when you need to work with database partitioning. This skill
+  provides table partitioning strategies with comprehensive guidance and automation.
+  Trigger with phrases like "partition tables", "implement partitioning", or "optimize
+  large ...
 ---
 # Database Partition Manager
 

@@ -1,15 +1,11 @@
 ---
 name: managing-database-migrations
-description: |
-  Process use when you need to work with database migrations.
-  This skill provides schema migration management with comprehensive guidance and automation.
-  Trigger with phrases like "create migration", "run migrations",
-  or "manage schema versions".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Process use when you need to work with database migrations. This skill
+  provides schema migration management with comprehensive guidance and automation.
+  Trigger with phrases like "create migration", "run migrations", or "manage schema
+  versions".
 ---
 # Database Migration Manager
 
