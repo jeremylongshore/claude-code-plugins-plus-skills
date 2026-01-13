@@ -1,15 +1,12 @@
 ---
-name: "windsurf-debugging-ai"
-description: |
-  Execute use Cascade for intelligent debugging and error analysis. Activate when users mention
-  "debug with ai", "error analysis", "cascade debug", "find bug",
-  or "troubleshoot code". Handles AI-assisted debugging workflows. Use when debugging issues or troubleshooting. Trigger with phrases like "windsurf debugging ai", "windsurf ai", "windsurf".
-allowed-tools: "Read,Grep,Glob,Bash"
-version: 1.0.0
+name: windsurf-debugging-ai
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Grep, Glob, Bash
+description: Execute use cascade for intelligent debugging and error analysis. activate
+  when users mention "debug with ai", "error analysis", "cascade debug", "find bug",
+  or "troubleshoot code". handles ai-assisted debugging workflows. use when debugging
+  issue...
 ---
-
 # Windsurf Debugging Ai
 
 ## Overview

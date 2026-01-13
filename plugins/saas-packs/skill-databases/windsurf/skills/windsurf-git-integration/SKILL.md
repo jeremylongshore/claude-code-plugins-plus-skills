@@ -1,15 +1,12 @@
 ---
-name: "windsurf-git-integration"
-description: |
-  Configure Git integration with Cascade AI assistance. Activate when users mention
-  "git setup", "version control", "commit messages", "branch management",
-  or "source control". Handles Git configuration and AI-assisted workflows. Use when working with windsurf git integration functionality. Trigger with phrases like "windsurf git integration", "windsurf integration", "windsurf".
-allowed-tools: "Read,Write,Edit,Bash"
-version: 1.0.0
+name: windsurf-git-integration
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit, Bash
+description: Configure Git integration with Cascade AI assistance. Activate when users
+  mention "git setup", "version control", "commit messages", "branch management",
+  or "source control". Handles Git configuration and AI-assisted workflows. Use when
+  working wi...
 ---
-
 # Windsurf Git Integration
 
 ## Overview

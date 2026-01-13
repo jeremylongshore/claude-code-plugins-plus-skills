@@ -1,15 +1,12 @@
 ---
-name: "windsurf-dockerfile-generation"
-description: |
-  Create optimized Dockerfiles with AI-driven best practices. Activate when users mention
-  "create dockerfile", "container image", "docker optimization", "containerize application",
-  or "docker best practices". Handles Docker configuration generation. Use when working with windsurf dockerfile generation functionality. Trigger with phrases like "windsurf dockerfile generation", "windsurf generation", "windsurf".
-allowed-tools: "Read,Write,Edit,Bash"
-version: 1.0.0
+name: windsurf-dockerfile-generation
 license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+allowed-tools: Read, Write, Edit, Bash
+description: Create optimized Dockerfiles with AI-driven best practices. Activate
+  when users mention "create dockerfile", "container image", "docker optimization",
+  "containerize application", or "docker best practices". Handles Docker configuration
+  generation....
 ---
-
 # Windsurf Dockerfile Generation
 
 ## Overview
