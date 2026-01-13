@@ -1,17 +1,11 @@
 ---
 name: sentry-multi-env-setup
-description: |
-  Configure Sentry across multiple environments.
-  Use when setting up Sentry for dev/staging/production,
-  managing environment-specific configurations, or isolating data.
-  Trigger with phrases like "sentry environments", "sentry staging setup",
-  "multi-environment sentry", "sentry dev vs prod".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Configure Sentry across multiple environments. Use when setting up Sentry
+  for dev/staging/production, managing environment-specific configurations, or isolating
+  data. Trigger with phrases like "sentry environments", "sentry staging setup", "multi-...
 ---
-
 # Sentry Multi Env Setup
 
 ## Prerequisites

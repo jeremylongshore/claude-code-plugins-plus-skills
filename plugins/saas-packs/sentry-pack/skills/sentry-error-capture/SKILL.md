@@ -1,17 +1,12 @@
 ---
 name: sentry-error-capture
-description: |
-  Execute advanced error capture and context enrichment with Sentry.
-  Use when implementing detailed error tracking, adding context,
-  or customizing error capture behavior.
-  Trigger with phrases like "sentry error capture", "sentry context",
-  "enrich sentry errors", "sentry exception handling".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Execute advanced error capture and context enrichment with sentry. use
+  when implementing detailed error tracking, adding context, or customizing error
+  capture behavior. trigger with phrases like "sentry error capture", "sentry context",
+  "enrich se...
 ---
-
 # Sentry Error Capture
 
 ## Prerequisites

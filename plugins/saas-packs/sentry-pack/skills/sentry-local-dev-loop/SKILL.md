@@ -1,17 +1,12 @@
 ---
 name: sentry-local-dev-loop
-description: |
-  Execute set up local development workflow with Sentry.
-  Use when configuring Sentry for development environments,
-  setting up debug mode, or testing error capture locally.
-  Trigger with phrases like "sentry local dev", "sentry development",
-  "debug sentry", "sentry dev environment".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: Execute set up local development workflow with sentry. use when configuring
+  sentry for development environments, setting up debug mode, or testing error capture
+  locally. trigger with phrases like "sentry local dev", "sentry development", "debug
+  se...
 ---
-
 # Sentry Local Dev Loop
 
 ## Prerequisites

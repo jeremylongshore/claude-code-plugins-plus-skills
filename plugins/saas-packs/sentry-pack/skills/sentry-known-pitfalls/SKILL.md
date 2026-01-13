@@ -1,17 +1,12 @@
 ---
 name: sentry-known-pitfalls
-description: |
-  Execute common Sentry pitfalls and how to avoid them.
-  Use when troubleshooting Sentry issues, reviewing configurations,
-  or preventing common mistakes.
-  Trigger with phrases like "sentry mistakes", "sentry pitfalls",
-  "sentry common issues", "sentry anti-patterns".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Execute common sentry pitfalls and how to avoid them. use when troubleshooting
+  sentry issues, reviewing configurations, or preventing common mistakes. trigger
+  with phrases like "sentry mistakes", "sentry pitfalls", "sentry common issues",
+  "sentry ...
 ---
-
 # Sentry Known Pitfalls
 
 ## Prerequisites

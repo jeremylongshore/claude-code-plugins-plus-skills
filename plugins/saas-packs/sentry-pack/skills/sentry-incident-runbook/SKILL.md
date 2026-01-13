@@ -1,17 +1,12 @@
 ---
 name: sentry-incident-runbook
-description: |
-  Manage incident response procedures using Sentry.
-  Use when investigating production issues, triaging errors,
-  or creating incident response workflows.
-  Trigger with phrases like "sentry incident response", "sentry triage",
-  "investigate sentry error", "sentry runbook".
-allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Grep
+description: Manage incident response procedures using Sentry. Use when investigating
+  production issues, triaging errors, or creating incident response workflows. Trigger
+  with phrases like "sentry incident response", "sentry triage", "investigate sentry
+  error"...
 ---
-
 # Sentry Incident Runbook
 
 ## Prerequisites
