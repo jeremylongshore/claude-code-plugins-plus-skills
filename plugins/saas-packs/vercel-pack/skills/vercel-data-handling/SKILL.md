@@ -1,17 +1,11 @@
 ---
 name: vercel-data-handling
-description: |
-  Implement Vercel PII handling, data retention, and GDPR/CCPA compliance patterns.
-  Use when handling sensitive data, implementing data redaction, configuring retention policies,
-  or ensuring compliance with privacy regulations for Vercel integrations.
-  Trigger with phrases like "vercel data", "vercel PII",
-  "vercel GDPR", "vercel data retention", "vercel privacy", "vercel CCPA".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Implement vercel pii handling, data retention, and gdpr/ccpa compliance
+  patterns. use when handling sensitive data, implementing data redaction, configuring
+  retention policies, or ensuring compliance with privacy regulations for vercel integration...
 ---
-
 # Vercel Data Handling
 
 ## Overview

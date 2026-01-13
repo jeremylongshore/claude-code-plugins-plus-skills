@@ -1,17 +1,11 @@
 ---
 name: vercel-edge-functions
-description: |
-  Execute Vercel secondary workflow: Edge Functions.
-  Use when API routes with minimal latency,
-  or complementing primary workflow.
-  Trigger with phrases like "vercel edge function",
-  "deploy edge function with vercel".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: 'Execute vercel secondary workflow: edge functions. use when api routes
+  with minimal latency, or complementing primary workflow. trigger with phrases like
+  "vercel edge function", "deploy edge function with vercel".'
 ---
-
 # Vercel Edge Functions
 
 ## Overview

@@ -1,17 +1,11 @@
 ---
 name: vercel-cost-tuning
-description: |
-  Optimize Vercel costs through tier selection, sampling, and usage monitoring.
-  Use when analyzing Vercel billing, reducing API costs,
-  or implementing usage monitoring and budget alerts.
-  Trigger with phrases like "vercel cost", "vercel billing",
-  "reduce vercel costs", "vercel pricing", "vercel expensive", "vercel budget".
-allowed-tools: Read, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep
+description: Optimize Vercel costs through tier selection, sampling, and usage monitoring.
+  Use when analyzing Vercel billing, reducing API costs, or implementing usage monitoring
+  and budget alerts. Trigger with phrases like "vercel cost", "vercel billing", "re...
 ---
-
 # Vercel Cost Tuning
 
 ## Prerequisites

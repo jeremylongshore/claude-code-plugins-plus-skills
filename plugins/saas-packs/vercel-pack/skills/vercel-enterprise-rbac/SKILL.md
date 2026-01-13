@@ -1,17 +1,12 @@
 ---
 name: vercel-enterprise-rbac
-description: |
-  Configure Vercel enterprise SSO, role-based access control, and organization management.
-  Use when implementing SSO integration, configuring role-based permissions,
-  or setting up organization-level controls for Vercel.
-  Trigger with phrases like "vercel SSO", "vercel RBAC",
-  "vercel enterprise", "vercel roles", "vercel permissions", "vercel SAML".
-allowed-tools: Read, Write, Edit
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit
+description: Configure Vercel enterprise SSO, role-based access control, and organization
+  management. Use when implementing SSO integration, configuring role-based permissions,
+  or setting up organization-level controls for Vercel. Trigger with phrases like
+  "ve...
 ---
-
 # Vercel Enterprise Rbac
 
 ## Prerequisites

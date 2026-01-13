@@ -1,17 +1,12 @@
 ---
 name: vercel-deploy-preview
-description: |
-  Execute Vercel primary workflow: Deploy Preview.
-  Use when Deploying a preview for a pull request,
-  Testing changes before production, or Sharing preview URLs with stakeholders.
-  Trigger with phrases like "vercel deploy preview",
-  "create preview deployment with vercel".
-allowed-tools: Read, Write, Edit, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Write, Edit, Bash, Grep
+description: 'Execute vercel primary workflow: deploy preview. use when deploying
+  a preview for a pull request, testing changes before production, or sharing preview
+  urls with stakeholders. trigger with phrases like "vercel deploy preview", "create
+  preview depl...'
 ---
-
 # Vercel Deploy Preview
 
 ## Overview

@@ -1,17 +1,12 @@
 ---
 name: vercel-incident-runbook
-description: |
-  Execute Vercel incident response procedures with triage, mitigation, and postmortem.
-  Use when responding to Vercel-related outages, investigating errors,
-  or running post-incident reviews for Vercel integration failures.
-  Trigger with phrases like "vercel incident", "vercel outage",
-  "vercel down", "vercel on-call", "vercel emergency", "vercel broken".
-allowed-tools: Read, Grep, Bash
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Grep, Bash
+description: Execute vercel incident response procedures with triage, mitigation,
+  and postmortem. use when responding to vercel-related outages, investigating errors,
+  or running post-incident reviews for vercel integration failures. trigger with phrases
+  like "...
 ---
-
 # Vercel Incident Runbook
 
 ## Prerequisites

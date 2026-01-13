@@ -1,17 +1,12 @@
 ---
 name: vercel-debug-bundle
-description: |
-  Execute collect Vercel debug evidence for support tickets and troubleshooting.
-  Use when encountering persistent issues, preparing support tickets,
-  or collecting diagnostic information for Vercel problems.
-  Trigger with phrases like "vercel debug", "vercel support bundle",
-  "collect vercel logs", "vercel diagnostic".
-allowed-tools: Read, Bash, Grep
-version: 1.0.0
 license: MIT
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+allowed-tools: Read, Bash, Grep
+description: Execute collect vercel debug evidence for support tickets and troubleshooting.
+  use when encountering persistent issues, preparing support tickets, or collecting
+  diagnostic information for vercel problems. trigger with phrases like "vercel debug",
+  ...
 ---
-
 # Vercel Debug Bundle
 
 ## Prerequisites
