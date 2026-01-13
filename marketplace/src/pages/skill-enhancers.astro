@@ -138,7 +138,7 @@ const collectionSchema = {
   <meta name="keywords" content={seo.keywords} slot="head" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" slot="head" />
   <meta name="author" content={seo.author} slot="head" />
-  <meta name="theme-color" content="#10b981" slot="head" />
+  <meta name="theme-color" content="#d97757" slot="head" />
 
   <!-- Open Graph -->
   <meta property="og:type" content={seo.type} slot="head" />
@@ -663,8 +663,8 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   /* Hero Section */
   .hero {
     padding: 6rem 1rem 4rem;
-    background: linear-gradient(180deg, var(--slate-900) 0%, var(--slate-950) 100%);
-    border-bottom: 1px solid var(--slate-800);
+    background: linear-gradient(180deg, var(--brand-light) 0%, var(--brand-dark) 100%);
+    border-bottom: 1px solid var(--brand-light-gray);
   }
 
   .hero-badge {
@@ -677,7 +677,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
 
   .badge-new {
     padding: 0.5rem 1rem;
-    background: linear-gradient(135deg, var(--green-600), var(--green-500));
+    background: linear-gradient(135deg, var(--brand-orange-dark), var(--brand-orange));
     color: white;
     border-radius: 0.5rem;
     font-size: 0.75rem;
@@ -688,9 +688,9 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
 
   .badge-count {
     padding: 0.5rem 1rem;
-    background: var(--slate-800);
-    color: var(--slate-400);
-    border: 1px solid var(--slate-700);
+    background: var(--brand-light-gray);
+    color: var(--brand-mid-gray);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.5rem;
     font-size: 0.75rem;
     font-weight: 600;
@@ -707,7 +707,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
 
   .hero-description {
     font-size: 1.25rem;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     text-align: center;
     max-width: 50rem;
     margin: 0 auto 3rem;
@@ -724,7 +724,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
 
   .btn-primary {
     padding: 1rem 2rem;
-    background: linear-gradient(135deg, var(--green-600), var(--green-500));
+    background: linear-gradient(135deg, var(--brand-orange-dark), var(--brand-orange));
     color: white;
     border-radius: 0.5rem;
     font-weight: 600;
@@ -743,8 +743,8 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   .btn-secondary {
     padding: 1rem 2rem;
     background: transparent;
-    color: var(--green-400);
-    border: 2px solid var(--green-500);
+    color: var(--brand-orange);
+    border: 2px solid var(--brand-orange);
     border-radius: 0.5rem;
     font-weight: 600;
     font-size: 1rem;
@@ -754,7 +754,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   }
 
   .btn-secondary:hover {
-    background: rgba(16, 185, 129, 0.1);
+    background: rgba(217, 119, 87, 0.1);
     transform: translateY(-2px);
   }
 
@@ -772,7 +772,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   .stat-value {
     font-size: 3rem;
     font-weight: 800;
-    background: linear-gradient(135deg, var(--green-400), var(--blue-400));
+    background: linear-gradient(135deg, var(--brand-orange), var(--brand-orange));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -781,7 +781,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
 
   .stat-label {
     font-size: 0.875rem;
-    color: var(--slate-500);
+    color: var(--brand-mid-gray);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-top: 0.5rem;
@@ -795,7 +795,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   .section-use-cases,
   .section-install {
     padding: 4rem 1rem;
-    border-bottom: 1px solid var(--slate-800);
+    border-bottom: 1px solid var(--brand-light-gray);
   }
 
   .section-title {
@@ -803,12 +803,12 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     font-weight: 700;
     text-align: center;
     margin-bottom: 1.5rem;
-    color: var(--slate-100);
+    color: var(--brand-dark);
   }
 
   .section-intro {
     font-size: 1.125rem;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     text-align: center;
     max-width: 45rem;
     margin: 0 auto 3rem;
@@ -824,8 +824,8 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   }
 
   .concept-card {
-    background: var(--slate-900);
-    border: 1px solid var(--slate-800);
+    background: var(--brand-light);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.75rem;
     padding: 2rem;
     text-align: center;
@@ -833,7 +833,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   }
 
   .concept-card:hover {
-    border-color: var(--green-500);
+    border-color: var(--brand-orange);
     box-shadow: var(--shadow-glow);
     transform: translateY(-4px);
   }
@@ -847,11 +847,11 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: var(--slate-100);
+    color: var(--brand-dark);
   }
 
   .concept-description {
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     line-height: 1.6;
   }
 
@@ -866,8 +866,8 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   }
 
   .flow-step {
-    background: var(--slate-900);
-    border: 1px solid var(--slate-800);
+    background: var(--brand-light);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.75rem;
     padding: 2rem;
     flex: 1;
@@ -878,7 +878,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   .flow-number {
     width: 3rem;
     height: 3rem;
-    background: linear-gradient(135deg, var(--green-600), var(--green-500));
+    background: linear-gradient(135deg, var(--brand-orange-dark), var(--brand-orange));
     color: white;
     border-radius: 50%;
     display: flex;
@@ -893,11 +893,11 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
-    color: var(--slate-100);
+    color: var(--brand-dark);
   }
 
   .flow-description {
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     margin-bottom: 1rem;
     line-height: 1.6;
   }
@@ -905,24 +905,24 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   .flow-example {
     display: block;
     padding: 0.75rem;
-    background: var(--slate-800);
-    border: 1px solid var(--slate-700);
+    background: var(--brand-light-gray);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.5rem;
     font-family: var(--font-mono);
     font-size: 0.875rem;
-    color: var(--green-400);
+    color: var(--brand-orange);
     overflow-x: auto;
   }
 
   .flow-arrow {
     font-size: 2rem;
-    color: var(--slate-600);
+    color: var(--brand-mid-gray);
     font-weight: 700;
   }
 
   /* Featured Section */
   .section-featured {
-    background: linear-gradient(180deg, var(--slate-950) 0%, var(--slate-900) 100%);
+    background: linear-gradient(180deg, var(--brand-dark) 0%, var(--brand-light) 100%);
   }
 
   .featured-badge {
@@ -932,7 +932,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
 
   .badge-tier-free {
     padding: 0.5rem 1rem;
-    background: linear-gradient(135deg, var(--green-600), var(--green-500));
+    background: linear-gradient(135deg, var(--brand-orange-dark), var(--brand-orange));
     color: white;
     border-radius: 0.5rem;
     font-size: 0.75rem;
@@ -958,12 +958,12 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     font-size: 1.75rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: var(--slate-100);
+    color: var(--brand-dark);
   }
 
   .featured-description {
     font-size: 1.125rem;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     line-height: 1.6;
     margin-bottom: 2rem;
   }
@@ -979,19 +979,19 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    color: var(--slate-300);
+    color: var(--brand-dark);
   }
 
   .benefit-icon {
     width: 1.5rem;
     height: 1.5rem;
-    color: var(--green-400);
+    color: var(--brand-orange);
     flex-shrink: 0;
   }
 
   .install-section {
-    background: var(--slate-900);
-    border: 1px solid var(--slate-800);
+    background: var(--brand-light);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.75rem;
     padding: 2rem;
     margin-top: 2rem;
@@ -1001,12 +1001,12 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: var(--slate-100);
+    color: var(--brand-dark);
   }
 
   .install-code {
-    background: var(--slate-950);
-    border: 1px solid var(--slate-800);
+    background: var(--brand-dark);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.5rem;
     padding: 1rem;
     margin-bottom: 1.5rem;
@@ -1016,7 +1016,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   .install-code code {
     font-family: var(--font-mono);
     font-size: 0.875rem;
-    color: var(--green-400);
+    color: var(--brand-orange);
     background: transparent;
     border: none;
     padding: 0;
@@ -1029,15 +1029,15 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   }
 
   .demo-card {
-    background: var(--slate-900);
-    border: 1px solid var(--slate-800);
+    background: var(--brand-light);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.75rem;
     padding: 1.5rem;
   }
 
   .demo-card-after {
-    border-color: var(--green-600);
-    box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+    border-color: var(--brand-orange-dark);
+    box-shadow: 0 0 20px rgba(217, 119, 87, 0.2);
   }
 
   .demo-header {
@@ -1046,13 +1046,13 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     align-items: center;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid var(--slate-800);
+    border-bottom: 1px solid var(--brand-light-gray);
   }
 
   .demo-label {
     font-size: 0.75rem;
     font-weight: 700;
-    color: var(--slate-500);
+    color: var(--brand-mid-gray);
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
@@ -1060,28 +1060,28 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   .demo-time {
     font-family: var(--font-mono);
     font-size: 0.875rem;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
   }
 
   .demo-time-saved {
-    color: var(--green-400);
+    color: var(--brand-orange);
     font-weight: 600;
   }
 
   .demo-steps {
     list-style: decimal;
     padding-left: 1.5rem;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     line-height: 1.8;
   }
 
   .demo-badge {
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    background: rgba(16, 185, 129, 0.1);
-    border: 1px solid var(--green-600);
+    background: rgba(217, 119, 87, 0.1);
+    border: 1px solid var(--brand-orange-dark);
     border-radius: 0.5rem;
-    color: var(--green-400);
+    color: var(--brand-orange);
     font-size: 0.875rem;
     font-weight: 600;
     text-align: center;
@@ -1096,25 +1096,25 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   }
 
   .premium-card {
-    background: var(--slate-900);
-    border: 1px solid var(--slate-800);
+    background: var(--brand-light);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.75rem;
     padding: 2rem;
     transition: all var(--transition-base);
   }
 
   .premium-card:hover {
-    border-color: var(--green-500);
+    border-color: var(--brand-orange);
     transform: translateY(-4px);
   }
 
   .premium-card-enterprise {
-    border-color: var(--blue-500);
+    border-color: var(--brand-orange);
   }
 
   .premium-card-enterprise:hover {
-    border-color: var(--blue-400);
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+    border-color: var(--brand-orange);
+    box-shadow: 0 0 20px rgba(217, 119, 87, 0.3);
   }
 
   .premium-tier {
@@ -1131,12 +1131,12 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   }
 
   .tier-pro {
-    background: linear-gradient(135deg, var(--green-600), var(--green-500));
+    background: linear-gradient(135deg, var(--brand-orange-dark), var(--brand-orange));
     color: white;
   }
 
   .tier-enterprise {
-    background: linear-gradient(135deg, var(--blue-500), var(--blue-400));
+    background: linear-gradient(135deg, var(--brand-orange), var(--brand-orange));
     color: white;
   }
 
@@ -1144,12 +1144,12 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: var(--slate-100);
+    color: var(--brand-dark);
     font-family: var(--font-mono);
   }
 
   .premium-description {
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     line-height: 1.6;
     margin-bottom: 1.5rem;
   }
@@ -1162,7 +1162,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
 
   .premium-features li {
     padding: 0.5rem 0;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     padding-left: 1.5rem;
     position: relative;
   }
@@ -1171,7 +1171,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     content: "→";
     position: absolute;
     left: 0;
-    color: var(--green-400);
+    color: var(--brand-orange);
     font-weight: 700;
   }
 
@@ -1180,12 +1180,12 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     align-items: center;
     gap: 0.5rem;
     padding-top: 1rem;
-    border-top: 1px solid var(--slate-800);
+    border-top: 1px solid var(--brand-light-gray);
   }
 
   .status-label {
     font-size: 0.875rem;
-    color: var(--slate-500);
+    color: var(--brand-mid-gray);
     font-weight: 600;
   }
 
@@ -1206,20 +1206,20 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     text-align: center;
     margin-top: 3rem;
     padding: 2rem;
-    background: var(--slate-900);
-    border: 1px solid var(--slate-800);
+    background: var(--brand-light);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.75rem;
   }
 
   .sponsor-text {
     font-size: 1.125rem;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     margin-bottom: 1.5rem;
   }
 
   .btn-sponsor {
     padding: 1rem 2rem;
-    background: linear-gradient(135deg, var(--blue-500), var(--blue-400));
+    background: linear-gradient(135deg, var(--brand-orange), var(--brand-orange));
     color: white;
     border-radius: 0.5rem;
     font-weight: 600;
@@ -1230,7 +1230,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
 
   .btn-sponsor:hover {
     transform: translateY(-2px);
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 0 20px rgba(217, 119, 87, 0.3);
   }
 
   /* Use Cases Grid */
@@ -1241,8 +1241,8 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   }
 
   .use-case-card {
-    background: var(--slate-900);
-    border: 1px solid var(--slate-800);
+    background: var(--brand-light);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.75rem;
     padding: 2rem;
   }
@@ -1250,7 +1250,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   .use-case-number {
     width: 2.5rem;
     height: 2.5rem;
-    background: linear-gradient(135deg, var(--green-600), var(--green-500));
+    background: linear-gradient(135deg, var(--brand-orange-dark), var(--brand-orange));
     color: white;
     border-radius: 50%;
     display: flex;
@@ -1265,11 +1265,11 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: var(--slate-100);
+    color: var(--brand-dark);
   }
 
   .use-case-scenario {
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     margin-bottom: 1.5rem;
     line-height: 1.6;
   }
@@ -1287,21 +1287,21 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   }
 
   .comparison-item {
-    background: var(--slate-950);
-    border: 1px solid var(--slate-800);
+    background: var(--brand-dark);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.5rem;
     padding: 1.5rem;
   }
 
   .comparison-item-better {
-    border-color: var(--green-600);
-    box-shadow: 0 0 15px rgba(16, 185, 129, 0.1);
+    border-color: var(--brand-orange-dark);
+    box-shadow: 0 0 15px rgba(217, 119, 87, 0.1);
   }
 
   .comparison-label {
     font-size: 0.75rem;
     font-weight: 700;
-    color: var(--slate-500);
+    color: var(--brand-mid-gray);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 1rem;
@@ -1310,7 +1310,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   .comparison-steps {
     list-style: disc;
     padding-left: 1.5rem;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     margin-bottom: 1rem;
     line-height: 1.8;
   }
@@ -1318,17 +1318,17 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   .comparison-time {
     font-family: var(--font-mono);
     font-size: 0.875rem;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     padding: 0.5rem 1rem;
-    background: var(--slate-900);
+    background: var(--brand-light);
     border-radius: 0.25rem;
     display: inline-block;
   }
 
   .comparison-time-saved {
-    color: var(--green-400);
-    background: rgba(16, 185, 129, 0.1);
-    border: 1px solid var(--green-600);
+    color: var(--brand-orange);
+    background: rgba(217, 119, 87, 0.1);
+    border: 1px solid var(--brand-orange-dark);
     font-weight: 600;
   }
 
@@ -1336,23 +1336,23 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     text-align: center;
     margin-top: 3rem;
     padding: 2rem;
-    background: var(--slate-900);
-    border: 1px solid var(--green-600);
+    background: var(--brand-light);
+    border: 1px solid var(--brand-orange-dark);
     border-radius: 0.75rem;
-    box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+    box-shadow: 0 0 20px rgba(217, 119, 87, 0.2);
   }
 
   .summary-title {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: var(--slate-100);
+    color: var(--brand-dark);
   }
 
   .summary-stat {
     font-size: 4rem;
     font-weight: 800;
-    background: linear-gradient(135deg, var(--green-400), var(--blue-400));
+    background: linear-gradient(135deg, var(--brand-orange), var(--brand-orange));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1370,8 +1370,8 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   .step-card {
     display: flex;
     gap: 1.5rem;
-    background: var(--slate-900);
-    border: 1px solid var(--slate-800);
+    background: var(--brand-light);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.75rem;
     padding: 2rem;
   }
@@ -1379,7 +1379,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   .step-number {
     width: 3rem;
     height: 3rem;
-    background: linear-gradient(135deg, var(--green-600), var(--green-500));
+    background: linear-gradient(135deg, var(--brand-orange-dark), var(--brand-orange));
     color: white;
     border-radius: 50%;
     display: flex;
@@ -1398,19 +1398,19 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: var(--slate-100);
+    color: var(--brand-dark);
   }
 
   .step-list {
     list-style: disc;
     padding-left: 1.5rem;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     line-height: 1.8;
   }
 
   .step-code {
-    background: var(--slate-950);
-    border: 1px solid var(--slate-800);
+    background: var(--brand-dark);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.5rem;
     padding: 1rem;
     overflow-x: auto;
@@ -1419,7 +1419,7 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
   .step-code code {
     font-family: var(--font-mono);
     font-size: 0.875rem;
-    color: var(--green-400);
+    color: var(--brand-orange);
     background: transparent;
     border: none;
     padding: 0;
@@ -1429,23 +1429,23 @@ export GITHUB_DEFAULT_REPO=owner/repo</code></pre>
     text-align: center;
     margin-top: 3rem;
     padding: 2rem;
-    background: var(--slate-900);
-    border: 1px solid var(--slate-800);
+    background: var(--brand-light);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.75rem;
   }
 
   .help-text {
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     font-size: 1rem;
   }
 
   .help-text a {
-    color: var(--green-400);
+    color: var(--brand-orange);
     text-decoration: underline;
   }
 
   .help-text a:hover {
-    color: var(--green-300);
+    color: var(--brand-orange-light);
   }
 
   /* Responsive Adjustments */

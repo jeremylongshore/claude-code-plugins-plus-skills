@@ -75,14 +75,14 @@ const categories = [
 <style>
   .search-section {
     padding: 2rem 0;
-    background: var(--slate-900);
-    border-top: 1px solid var(--slate-800);
-    border-bottom: 1px solid var(--slate-800);
+    background: var(--brand-light);
+    border-top: 1px solid var(--brand-light-gray);
+    border-bottom: 1px solid var(--brand-light-gray);
     position: sticky;
     top: 0;
     z-index: 100;
     backdrop-filter: blur(10px);
-    background: rgba(15, 23, 42, 0.95);
+    background: rgba(250, 249, 245, 0.95);
   }
 
   .search-bar {
@@ -103,17 +103,17 @@ const categories = [
     transform: translateY(-50%);
     width: 1.25rem;
     height: 1.25rem;
-    color: var(--slate-500);
+    color: var(--brand-mid-gray);
     pointer-events: none;
   }
 
   .search-input {
     width: 100%;
     padding: 0.875rem 3rem 0.875rem 3rem;
-    background: var(--slate-800);
-    border: 2px solid var(--slate-700);
+    background: var(--brand-light-gray);
+    border: 2px solid var(--brand-light-gray);
     border-radius: 0.75rem;
-    color: var(--slate-200);
+    color: var(--brand-dark);
     font-size: 1rem;
     font-family: var(--font-sans);
     transition: all var(--transition-base);
@@ -121,12 +121,12 @@ const categories = [
 
   .search-input:focus {
     outline: none;
-    border-color: var(--green-500);
-    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+    border-color: var(--brand-orange);
+    box-shadow: 0 0 0 3px rgba(217, 119, 87, 0.1);
   }
 
   .search-input::placeholder {
-    color: var(--slate-500);
+    color: var(--brand-mid-gray);
   }
 
   .search-hint {
@@ -135,15 +135,15 @@ const categories = [
     top: 50%;
     transform: translateY(-50%);
     font-size: 0.75rem;
-    color: var(--slate-500);
+    color: var(--brand-mid-gray);
     pointer-events: none;
   }
 
   .search-hint kbd {
     display: inline-block;
     padding: 0.125rem 0.375rem;
-    background: var(--slate-700);
-    border: 1px solid var(--slate-600);
+    background: var(--brand-light-gray);
+    border: 1px solid var(--brand-mid-gray);
     border-radius: 0.25rem;
     font-family: monospace;
     font-size: 0.6875rem;
@@ -157,10 +157,10 @@ const categories = [
     width: 1.5rem;
     height: 1.5rem;
     padding: 0;
-    background: var(--slate-700);
+    background: var(--brand-light-gray);
     border: none;
     border-radius: 50%;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     cursor: pointer;
     transition: all var(--transition-base);
     display: flex;
@@ -169,8 +169,8 @@ const categories = [
   }
 
   .clear-btn:hover {
-    background: var(--slate-600);
-    color: var(--slate-200);
+    background: var(--brand-mid-gray);
+    color: var(--brand-dark);
   }
 
   .clear-btn svg {
@@ -188,10 +188,10 @@ const categories = [
     flex: 1;
     min-width: 200px;
     padding: 0.75rem 1rem;
-    background: var(--slate-800);
-    border: 2px solid var(--slate-700);
+    background: var(--brand-light-gray);
+    border: 2px solid var(--brand-light-gray);
     border-radius: 0.75rem;
-    color: var(--slate-200);
+    color: var(--brand-dark);
     font-size: 0.875rem;
     font-family: var(--font-sans);
     cursor: pointer;
@@ -200,12 +200,12 @@ const categories = [
 
   .filter-select:focus {
     outline: none;
-    border-color: var(--green-500);
-    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+    border-color: var(--brand-orange);
+    box-shadow: 0 0 0 3px rgba(217, 119, 87, 0.1);
   }
 
   .filter-select:hover {
-    border-color: var(--slate-600);
+    border-color: var(--brand-mid-gray);
   }
 
   .search-results-info {
@@ -219,25 +219,25 @@ const categories = [
 
   .results-count {
     font-size: 0.875rem;
-    color: var(--slate-500);
+    color: var(--brand-mid-gray);
     font-weight: 500;
   }
 
   .search-mode {
     font-size: 0.75rem;
-    color: var(--green-500);
+    color: var(--brand-orange);
     font-weight: 500;
     padding: 0.25rem 0.5rem;
-    background: rgba(16, 185, 129, 0.1);
+    background: rgba(217, 119, 87, 0.1);
     border-radius: 0.375rem;
   }
 
   .reset-btn {
     padding: 0.5rem 1rem;
-    background: var(--slate-800);
-    border: 1px solid var(--slate-700);
+    background: var(--brand-light-gray);
+    border: 1px solid var(--brand-light-gray);
     border-radius: 0.5rem;
-    color: var(--slate-400);
+    color: var(--brand-mid-gray);
     font-size: 0.875rem;
     font-weight: 500;
     cursor: pointer;
@@ -246,9 +246,9 @@ const categories = [
   }
 
   .reset-btn:hover {
-    background: var(--slate-700);
-    border-color: var(--slate-600);
-    color: var(--slate-200);
+    background: var(--brand-light-gray);
+    border-color: var(--brand-mid-gray);
+    color: var(--brand-dark);
   }
 
   @media (max-width: 768px) {

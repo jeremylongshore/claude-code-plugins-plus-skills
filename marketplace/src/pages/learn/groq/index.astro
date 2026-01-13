@@ -42,7 +42,7 @@ const vendorIcon = iconMap[vendor.icon] || '\u{1F4E6}';
 <BaseLayout title={pageTitle} description={pageDescription}>
   <style>
     .pack-hero {
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      background: linear-gradient(135deg, var(--brand-orange) 0%, var(--brand-orange-dark) 100%);
       color: white;
       padding: 4rem 2rem 3rem;
     }
@@ -108,12 +108,12 @@ const vendorIcon = iconMap[vendor.icon] || '\u{1F4E6}';
 
     .tier-badge.flagship-plus {
       background: linear-gradient(135deg, #FFD700, #FFA500);
-      color: #1a1a2e;
+      color: var(--brand-dark);
     }
 
     .tier-badge.flagship {
       background: linear-gradient(135deg, #C0C0C0, #A0A0A0);
-      color: #1a1a2e;
+      color: var(--brand-dark);
     }
 
     .tier-badge.pro {
@@ -151,8 +151,8 @@ const vendorIcon = iconMap[vendor.icon] || '\u{1F4E6}';
     }
 
     .copy-btn {
-      background: #3ECF8E;
-      color: #1a1a2e;
+      background: var(--brand-orange);
+      color: var(--brand-dark);
       border: none;
       padding: 0.5rem 1rem;
       border-radius: 6px;
@@ -208,7 +208,7 @@ const vendorIcon = iconMap[vendor.icon] || '\u{1F4E6}';
     }
 
     .skill-card:hover {
-      border-color: #3ECF8E;
+      border-color: var(--brand-orange);
       box-shadow: 0 4px 12px rgba(62, 207, 142, 0.15);
     }
 
@@ -258,7 +258,7 @@ const vendorIcon = iconMap[vendor.icon] || '\u{1F4E6}';
 
     .link-url {
       font-size: 0.85rem;
-      color: #3ECF8E;
+      color: var(--brand-orange);
     }
 
     @media (max-width: 768px) {

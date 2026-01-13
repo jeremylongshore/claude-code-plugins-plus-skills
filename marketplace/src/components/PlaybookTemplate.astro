@@ -123,8 +123,8 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
 
     /* Header Styles */
     .playbook-header {
-      background: var(--slate-900);
-      border-bottom: 1px solid var(--slate-800);
+      background: var(--brand-light);
+      border-bottom: 1px solid var(--brand-light-gray);
       padding: 2rem 0;
     }
 
@@ -134,24 +134,24 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
       gap: 0.5rem;
       font-size: 0.875rem;
       margin-bottom: 2rem;
-      color: var(--slate-400);
+      color: var(--brand-mid-gray);
     }
 
     .breadcrumbs a {
-      color: var(--slate-400);
+      color: var(--brand-mid-gray);
       transition: color var(--transition-fast);
     }
 
     .breadcrumbs a:hover {
-      color: var(--green-400);
+      color: var(--brand-orange);
     }
 
     .breadcrumb-separator {
-      color: var(--slate-600);
+      color: var(--brand-mid-gray);
     }
 
     .breadcrumb-current {
-      color: var(--slate-200);
+      color: var(--brand-dark);
     }
 
     .playbook-hero {
@@ -160,29 +160,29 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
 
     .category-badge {
       display: inline-block;
-      background: rgba(16, 185, 129, 0.1);
-      color: var(--green-400);
+      background: rgba(217, 119, 87, 0.1);
+      color: var(--brand-orange);
       padding: 0.375rem 0.75rem;
       border-radius: 0.375rem;
       font-size: 0.75rem;
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      border: 1px solid rgba(16, 185, 129, 0.2);
+      border: 1px solid rgba(217, 119, 87, 0.2);
       margin-bottom: 1rem;
     }
 
     .playbook-title {
       font-size: clamp(2rem, 4vw, 3rem);
       font-weight: 900;
-      color: var(--slate-100);
+      color: var(--brand-dark);
       margin-bottom: 1rem;
       line-height: 1.1;
     }
 
     .playbook-description {
       font-size: 1.125rem;
-      color: var(--slate-400);
+      color: var(--brand-mid-gray);
       line-height: 1.6;
       margin-bottom: 1rem;
     }
@@ -192,11 +192,11 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
       align-items: center;
       gap: 0.75rem;
       font-size: 0.875rem;
-      color: var(--slate-500);
+      color: var(--brand-mid-gray);
     }
 
     .meta-divider {
-      color: var(--slate-700);
+      color: var(--brand-light-gray);
     }
 
     /* Main Content Layout */
@@ -227,7 +227,7 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      color: var(--slate-400);
+      color: var(--brand-mid-gray);
       margin-bottom: 1rem;
     }
 
@@ -239,22 +239,22 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
 
     .toc-nav a {
       display: block;
-      color: var(--slate-500);
+      color: var(--brand-mid-gray);
       font-size: 0.875rem;
       padding: 0.375rem 0.75rem;
-      border-left: 2px solid var(--slate-800);
+      border-left: 2px solid var(--brand-light-gray);
       transition: all var(--transition-fast);
     }
 
     .toc-nav a:hover {
-      color: var(--green-400);
-      border-left-color: var(--green-500);
-      background: rgba(16, 185, 129, 0.05);
+      color: var(--brand-orange);
+      border-left-color: var(--brand-orange);
+      background: rgba(217, 119, 87, 0.05);
     }
 
     .toc-nav a.active {
-      color: var(--green-400);
-      border-left-color: var(--green-500);
+      color: var(--brand-orange);
+      border-left-color: var(--brand-orange);
       font-weight: 600;
     }
 
@@ -267,18 +267,18 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
     .playbook-content :global(h2) {
       font-size: 2rem;
       font-weight: 800;
-      color: var(--slate-100);
+      color: var(--brand-dark);
       margin-top: 3rem;
       margin-bottom: 1.5rem;
       padding-bottom: 0.5rem;
-      border-bottom: 2px solid var(--slate-800);
+      border-bottom: 2px solid var(--brand-light-gray);
       scroll-margin-top: 2rem;
     }
 
     .playbook-content :global(h3) {
       font-size: 1.5rem;
       font-weight: 700;
-      color: var(--slate-200);
+      color: var(--brand-dark);
       margin-top: 2rem;
       margin-bottom: 1rem;
       scroll-margin-top: 2rem;
@@ -287,7 +287,7 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
     .playbook-content :global(h4) {
       font-size: 1.25rem;
       font-weight: 600;
-      color: var(--slate-300);
+      color: var(--brand-dark);
       margin-top: 1.5rem;
       margin-bottom: 0.75rem;
       scroll-margin-top: 2rem;
@@ -296,7 +296,7 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
     .playbook-content :global(p) {
       margin-bottom: 1.25rem;
       line-height: 1.7;
-      color: var(--slate-300);
+      color: var(--brand-dark);
     }
 
     .playbook-content :global(ul),
@@ -308,32 +308,32 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
     .playbook-content :global(li) {
       margin-bottom: 0.5rem;
       line-height: 1.7;
-      color: var(--slate-300);
+      color: var(--brand-dark);
     }
 
     .playbook-content :global(table) {
       width: 100%;
       margin: 2rem 0;
       border-collapse: collapse;
-      background: var(--slate-900);
-      border: 1px solid var(--slate-800);
+      background: var(--brand-light);
+      border: 1px solid var(--brand-light-gray);
       border-radius: 0.5rem;
       overflow: hidden;
     }
 
     .playbook-content :global(th) {
-      background: var(--slate-800);
-      color: var(--slate-200);
+      background: var(--brand-light-gray);
+      color: var(--brand-dark);
       font-weight: 600;
       text-align: left;
       padding: 0.75rem 1rem;
-      border-bottom: 2px solid var(--slate-700);
+      border-bottom: 2px solid var(--brand-light-gray);
     }
 
     .playbook-content :global(td) {
       padding: 0.75rem 1rem;
-      border-bottom: 1px solid var(--slate-800);
-      color: var(--slate-300);
+      border-bottom: 1px solid var(--brand-light-gray);
+      color: var(--brand-dark);
     }
 
     .playbook-content :global(tr:last-child td) {
@@ -341,8 +341,8 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
     }
 
     .playbook-content :global(pre) {
-      background: var(--slate-900);
-      border: 1px solid var(--slate-800);
+      background: var(--brand-light);
+      border: 1px solid var(--brand-light-gray);
       border-radius: 0.5rem;
       padding: 1.5rem;
       overflow-x: auto;
@@ -357,24 +357,24 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
     }
 
     .playbook-content :global(blockquote) {
-      border-left: 4px solid var(--green-500);
-      background: rgba(16, 185, 129, 0.05);
+      border-left: 4px solid var(--brand-orange);
+      background: rgba(217, 119, 87, 0.05);
       padding: 1rem 1.5rem;
       margin: 1.5rem 0;
-      color: var(--slate-300);
+      color: var(--brand-dark);
       font-style: italic;
     }
 
     .playbook-content :global(hr) {
       border: none;
-      border-top: 1px solid var(--slate-800);
+      border-top: 1px solid var(--brand-light-gray);
       margin: 3rem 0;
     }
 
     /* Footer Navigation */
     .playbook-footer {
-      background: var(--slate-900);
-      border-top: 1px solid var(--slate-800);
+      background: var(--brand-light);
+      border-top: 1px solid var(--brand-light-gray);
       padding: 2rem 0;
       margin-top: 4rem;
     }
@@ -391,15 +391,15 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
       flex-direction: column;
       gap: 0.5rem;
       padding: 1.5rem;
-      background: var(--slate-850);
-      border: 1px solid var(--slate-800);
+      background: var(--brand-light-gray);
+      border: 1px solid var(--brand-light-gray);
       border-radius: 0.75rem;
       transition: all var(--transition-base);
     }
 
     .nav-link:hover {
-      border-color: var(--green-500);
-      box-shadow: 0 0 0 1px var(--green-500);
+      border-color: var(--brand-orange);
+      box-shadow: 0 0 0 1px var(--brand-orange);
       transform: translateY(-2px);
     }
 
@@ -417,29 +417,29 @@ const nextPlaybook = currentIndex < playbooks.length - 1 ? playbooks[currentInde
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      color: var(--slate-500);
+      color: var(--brand-mid-gray);
     }
 
     .nav-title {
       font-size: 1rem;
       font-weight: 600;
-      color: var(--slate-200);
+      color: var(--brand-dark);
     }
 
     .back-to-index {
       text-align: center;
       padding-top: 1.5rem;
-      border-top: 1px solid var(--slate-800);
+      border-top: 1px solid var(--brand-light-gray);
     }
 
     .back-link {
-      color: var(--green-400);
+      color: var(--brand-orange);
       font-weight: 600;
       transition: color var(--transition-fast);
     }
 
     .back-link:hover {
-      color: var(--green-300);
+      color: var(--brand-orange-light);
     }
 
     /* Responsive Design */

@@ -14,7 +14,7 @@ const sortedVendors = [...vendorPacks.vendors].sort((a, b) => {
 <BaseLayout title={pageTitle} description={pageDescription}>
   <style>
     .learn-hero {
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      background: linear-gradient(135deg, var(--brand-orange) 0%, var(--brand-orange-dark) 100%);
       color: white;
       padding: 4rem 2rem 3rem;
       text-align: center;
@@ -47,7 +47,7 @@ const sortedVendors = [...vendorPacks.vendors].sort((a, b) => {
       font-weight: 700;
       font-size: 1.4rem;
       display: block;
-      color: #3ECF8E;
+      color: var(--brand-orange);
     }
 
     .vendors-section {
@@ -77,12 +77,12 @@ const sortedVendors = [...vendorPacks.vendors].sort((a, b) => {
 
     .tier-badge.flagship-plus {
       background: linear-gradient(135deg, #FFD700, #FFA500);
-      color: #1a1a2e;
+      color: var(--brand-dark);
     }
 
     .tier-badge.flagship {
       background: linear-gradient(135deg, #C0C0C0, #A0A0A0);
-      color: #1a1a2e;
+      color: var(--brand-dark);
     }
 
     .tier-badge.pro {
