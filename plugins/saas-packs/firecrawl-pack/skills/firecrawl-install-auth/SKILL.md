@@ -1,13 +1,15 @@
 ---
-name: firecrawl-install-auth
-license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep
+license: MIT
 description: Install and configure firecrawl sdk/cli authentication. use when setting
   up a new firecrawl integration, configuring api keys, or initializing firecrawl
   in your project. trigger with phrases like "install firecrawl", "setup firecrawl",
   "firecrawl ...
+name: firecrawl-install-auth
 ---
 # FireCrawl Install & Auth
+
+This skill provides automated assistance for firecrawl install auth tasks.
 
 ## Overview
 Set up FireCrawl SDK/CLI and configure authentication credentials.
