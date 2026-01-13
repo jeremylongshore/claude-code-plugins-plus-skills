@@ -1,15 +1,11 @@
 ---
 name: planning-disaster-recovery
-description: |
-  Execute use when you need to work with backup and recovery.
-  This skill provides backup automation and disaster recovery with comprehensive guidance and automation.
-  Trigger with phrases like "create backups", "automate backups",
-  or "implement disaster recovery".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute use when you need to work with backup and recovery. this skill
+  provides backup automation and disaster recovery with comprehensive guidance and
+  automation. trigger with phrases like "create backups", "automate backups", or "implement
+  disas...
 ---
 # Disaster Recovery Planner
 

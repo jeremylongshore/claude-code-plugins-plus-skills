@@ -1,11 +1,11 @@
 ---
 name: building-gitops-workflows
-description: |
-  Execute use when constructing GitOps workflows using ArgoCD or Flux. Trigger with phrases like "create GitOps workflow", "setup ArgoCD", "configure Flux", or "automate Kubernetes deployments". Generates production-ready configurations, implements best practices, and ensures security-first approach for continuous deployment.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute use when constructing gitops workflows using argocd or flux.
+  trigger with phrases like "create gitops workflow", "setup argocd", "configure flux",
+  or "automate kubernetes deployments". generates production-ready configurations,
+  implements ...
 ---
 # Gitops Workflow Builder
 

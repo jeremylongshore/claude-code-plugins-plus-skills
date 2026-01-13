@@ -1,15 +1,11 @@
 ---
 name: managing-environment-configurations
-description: |
-  Implement environment and configuration management with comprehensive guidance and automation.
-  Use when you need to work with environment configuration.
-  Trigger with phrases like "manage environments", "configure environments",
-  or "sync configurations".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Implement environment and configuration management with comprehensive
+  guidance and automation. use when you need to work with environment configuration.
+  trigger with phrases like "manage environments", "configure environments", or "sync
+  configurat...
 ---
 # Environment Config Manager
 

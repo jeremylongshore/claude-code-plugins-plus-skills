@@ -1,15 +1,11 @@
 ---
 name: orchestrating-deployment-pipelines
-description: |
-  Deploy use when you need to work with deployment and CI/CD.
-  This skill provides deployment automation and orchestration with comprehensive guidance and automation.
-  Trigger with phrases like "deploy application", "create pipeline",
-  or "automate deployment".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Deploy use when you need to work with deployment and CI/CD. This skill
+  provides deployment automation and orchestration with comprehensive guidance and
+  automation. Trigger with phrases like "deploy application", "create pipeline", or
+  "automate dep...
 ---
 # Deployment Pipeline Orchestrator
 

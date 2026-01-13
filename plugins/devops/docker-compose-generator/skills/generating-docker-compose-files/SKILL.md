@@ -1,15 +1,11 @@
 ---
 name: generating-docker-compose-files
-description: |
-  Execute use when you need to work with Docker Compose.
-  This skill provides Docker Compose file generation with comprehensive guidance and automation.
-  Trigger with phrases like "generate docker-compose", "create compose file",
-  or "configure multi-container app".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+description: Execute use when you need to work with docker compose. this skill provides
+  docker compose file generation with comprehensive guidance and automation. trigger
+  with phrases like "generate docker-compose", "create compose file", or "configure
+  multi-c...
 ---
 # Docker Compose Generator
 
