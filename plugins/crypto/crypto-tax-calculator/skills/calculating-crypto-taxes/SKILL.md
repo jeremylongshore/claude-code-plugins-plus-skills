@@ -1,12 +1,12 @@
 ---
 name: calculating-crypto-taxes
 description: |
-  Execute calculate cryptocurrency tax obligations with cost basis tracking and jurisdiction rules.
-  Use when calculating crypto tax obligations.
-  Trigger with phrases like "calculate crypto taxes", "compute tax liability", or "generate tax report".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:tax-*)
-version: 1.0.0
+  Calculate cryptocurrency tax obligations with cost basis tracking, capital gains computation, and Form 8949 generation.
+  Use when calculating crypto taxes, generating tax reports, comparing cost basis methods, or identifying taxable events.
+  Trigger with phrases like "calculate crypto taxes", "generate tax report", "cost basis FIFO", "capital gains", "Form 8949", or "crypto taxable events".
+
+allowed-tools: Read, Write, Bash(crypto:tax-*)
+version: 2.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
 ---
@@ -15,54 +15,197 @@ license: MIT
 
 ## Overview
 
-This skill provides automated assistance for the described functionality.
+Calculate cryptocurrency tax obligations from transaction history. Supports multiple cost basis methods (FIFO, LIFO, HIFO), identifies taxable events (trades, staking, airdrops), and generates Form 8949 compatible reports.
+
+**DISCLAIMER**: This tool provides informational calculations only, not tax advice. Consult a qualified tax professional for your specific situation.
 
 ## Prerequisites
 
 Before using this skill, ensure you have:
-- Access to crypto market data APIs (CoinGecko, CoinMarketCap, or similar)
-- Blockchain RPC endpoints or node access (Infura, Alchemy, or self-hosted)
-- API keys for exchanges if trading or querying account data
-- Web3 libraries installed (ethers.js, web3.py, or equivalent)
-- Understanding of blockchain concepts and crypto market dynamics
+
+- Transaction history exported as CSV from your exchanges (Coinbase, Binance, Kraken, etc.)
+- Python 3.8+ installed
+- Understanding of your tax jurisdiction's crypto rules
 
 ## Instructions
 
-1. Use Read tool to load API credentials from {baseDir}/config/crypto-apis.env
-2. Configure blockchain RPC endpoints for target networks
-3. Set up exchange API connections if required
-4. Verify rate limits and subscription tiers
-5. Test connectivity and authentication
-1. Use Bash(crypto:tax-*) to execute crypto data queries
-2. Fetch real-time prices, volumes, and market cap data
-3. Query blockchain for on-chain metrics and transactions
-4. Retrieve exchange order book and trade history
-5. Aggregate data from multiple sources for accuracy
+### Step 1: Prepare Transaction Data
 
+Export your transaction history from each exchange as CSV. Supported formats:
 
-See `{baseDir}/references/implementation.md` for detailed implementation guide.
+| Exchange | Export Location |
+|----------|-----------------|
+| Coinbase | Reports → Tax documents → Transaction history CSV |
+| Binance | Orders → Trade History → Export |
+| Kraken | History → Export |
+| Generic | See `{baseDir}/references/exchange_formats.md` for column mapping |
+
+### Step 2: Run Basic Tax Calculation
+
+Execute the tax calculator with your transaction file:
+
+```bash
+python {baseDir}/scripts/tax_calculator.py --transactions your_trades.csv --year 2025
+```
+
+This uses FIFO (IRS default) and outputs:
+- Total capital gains/losses
+- Short-term vs long-term breakdown
+- Summary of taxable events
+
+### Step 3: Choose Cost Basis Method
+
+Compare different methods to understand tax implications:
+
+```bash
+python {baseDir}/scripts/tax_calculator.py --transactions trades.csv --compare-methods
+```
+
+Or specify a method:
+
+| Method | Flag | Description |
+|--------|------|-------------|
+| FIFO | `--method fifo` | First In First Out (IRS default) |
+| LIFO | `--method lifo` | Last In First Out |
+| HIFO | `--method hifo` | Highest In First Out (minimize gains) |
+
+### Step 4: Generate Tax Report
+
+Create Form 8949 compatible CSV:
+
+```bash
+python {baseDir}/scripts/tax_calculator.py --transactions trades.csv --method fifo --year 2025 --output form_8949.csv --format csv
+```
+
+Output includes:
+- Description of property
+- Date acquired
+- Date sold
+- Proceeds
+- Cost basis
+- Gain or loss
+
+### Step 5: Handle Income Events (Optional)
+
+For staking, airdrops, or mining income:
+
+```bash
+python {baseDir}/scripts/tax_calculator.py --transactions all_events.csv --income-report
+```
+
+This identifies:
+- Staking rewards (valued at receipt)
+- Airdrops (valued at receipt)
+- Mining income
+- DeFi yield
+
+### Step 6: Multi-Exchange Consolidation
+
+Combine multiple exchange exports:
+
+```bash
+python {baseDir}/scripts/tax_calculator.py --transactions coinbase.csv binance.csv kraken.csv --year 2025
+```
+
+The tool:
+- Merges all transactions
+- Sorts by date
+- Calculates unified cost basis
+- Handles transfers between exchanges
 
 ## Output
 
-- Current prices across exchanges with spread analysis
-- 24h volume, market cap, and circulating supply
-- Price changes across multiple timeframes (1h, 24h, 7d, 30d)
-- Trading volume distribution by exchange
-- Liquidity metrics and slippage estimates
-- Transaction count and network activity
+### Tax Report (Form 8949)
+```
+============================================================
+  CRYPTO TAX REPORT - 2025
+============================================================
+
+SHORT-TERM CAPITAL GAINS/LOSSES (< 1 year)
+------------------------------------------------------------
+Description      Acquired    Sold        Proceeds    Cost      Gain/Loss
+0.5 BTC          03/15/25    06/20/25    $52,500     $47,500   $5,000
+2.0 ETH          04/01/25    08/15/25    $7,200      $6,400    $800
+------------------------------------------------------------
+Short-term Total:                                              $5,800
+
+LONG-TERM CAPITAL GAINS/LOSSES (>= 1 year)
+------------------------------------------------------------
+Description      Acquired    Sold        Proceeds    Cost      Gain/Loss
+1.0 BTC          01/10/24    02/15/25    $95,000     $42,000   $53,000
+------------------------------------------------------------
+Long-term Total:                                               $53,000
+
+============================================================
+SUMMARY
+------------------------------------------------------------
+Total Proceeds:           $154,700
+Total Cost Basis:         $95,900
+Net Capital Gain:         $58,800
+
+Short-term Gains:         $5,800
+Long-term Gains:          $53,000
+============================================================
+```
+
+### Income Report
+```
+CRYPTO INCOME - 2025
+------------------------------------------------------------
+Type            Date        Asset    Quantity    FMV (USD)
+Staking         01/15/25    ETH      0.05        $160.00
+Staking         02/15/25    ETH      0.05        $175.00
+Airdrop         03/01/25    ARB      100         $150.00
+------------------------------------------------------------
+Total Income:                                     $485.00
+```
 
 ## Error Handling
 
 See `{baseDir}/references/errors.md` for comprehensive error handling.
 
+Common issues:
+- **Missing columns**: Verify CSV format matches exchange template
+- **Unknown transaction type**: Review and manually categorize
+- **Insufficient lots**: Check for missing buy transactions
+
 ## Examples
 
-See `{baseDir}/references/examples.md` for detailed examples.
+See `{baseDir}/references/examples.md` for detailed usage examples.
+
+### Quick Examples
+
+**Basic tax calculation**:
+```bash
+python tax_calculator.py --transactions trades.csv --year 2025
+```
+
+**HIFO to minimize gains**:
+```bash
+python tax_calculator.py --transactions trades.csv --method hifo --year 2025
+```
+
+**JSON output for processing**:
+```bash
+python tax_calculator.py --transactions trades.csv --format json --output tax_data.json
+```
+
+**Verbose with lot details**:
+```bash
+python tax_calculator.py --transactions trades.csv --verbose --show-lots
+```
+
+## Configuration
+
+Settings in `{baseDir}/config/settings.yaml`:
+
+- **Default method**: Cost basis method (fifo, lifo, hifo)
+- **Tax year start**: January 1 (US) or fiscal year
+- **Exchange formats**: Column mappings for CSV parsing
+- **Holding period**: Days for long-term (default: 365)
 
 ## Resources
 
-- CoinGecko API for market data across thousands of assets
-- Etherscan API for Ethereum blockchain data
-- Dune Analytics for on-chain SQL queries
-- The Graph for decentralized blockchain indexing
-- ethers.js for Ethereum smart contract interaction
+- IRS Virtual Currency Guidance: https://www.irs.gov/businesses/small-businesses-self-employed/virtual-currencies
+- Form 8949 Instructions: https://www.irs.gov/instructions/i8949
+- CoinGecko API for historical prices
