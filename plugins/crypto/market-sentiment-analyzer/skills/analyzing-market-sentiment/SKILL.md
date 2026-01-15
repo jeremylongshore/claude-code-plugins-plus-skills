@@ -1,12 +1,12 @@
 ---
 name: analyzing-market-sentiment
 description: |
-  Analyze crypto market sentiment from social media, news, and on-chain metrics.
-  Use when gauging market sentiment and social trends.
-  Trigger with phrases like "analyze sentiment", "check market mood", or "gauge social trends".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:sentiment-*)
-version: 1.0.0
+  Analyze cryptocurrency market sentiment using Fear & Greed Index, news analysis, and market momentum.
+  Use when gauging overall market mood, checking if markets are fearful or greedy, or analyzing sentiment for specific coins.
+  Trigger with phrases like "analyze crypto sentiment", "check market mood", "is the market fearful", "sentiment for Bitcoin", or "Fear and Greed index".
+
+allowed-tools: Read, Bash(crypto:sentiment-*)
+version: 2.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
 ---
@@ -15,54 +15,184 @@ license: MIT
 
 ## Overview
 
-This skill provides automated assistance for the described functionality.
+This skill provides comprehensive cryptocurrency market sentiment analysis by combining multiple data sources:
+
+- **Fear & Greed Index**: Market-wide sentiment from Alternative.me
+- **News Sentiment**: Keyword-based analysis of recent crypto news
+- **Market Momentum**: Price and volume trends from CoinGecko
+
+**Key Capabilities:**
+- Composite sentiment score (0-100) with classification
+- Coin-specific sentiment analysis
+- Detailed breakdown of sentiment components
+- Multiple output formats (table, JSON, CSV)
 
 ## Prerequisites
 
-Before using this skill, ensure you have:
-- Access to crypto market data APIs (CoinGecko, CoinMarketCap, or similar)
-- Blockchain RPC endpoints or node access (Infura, Alchemy, or self-hosted)
-- API keys for exchanges if trading or querying account data
-- Web3 libraries installed (ethers.js, web3.py, or equivalent)
-- Understanding of blockchain concepts and crypto market dynamics
+Before using this skill, ensure:
+
+1. **Python 3.8+** is installed
+2. **requests** library is available: `pip install requests`
+3. Internet connectivity for API access (Alternative.me, CoinGecko)
+4. Optional: `crypto-news-aggregator` skill for enhanced news analysis
 
 ## Instructions
 
-1. Use Read tool to load API credentials from {baseDir}/config/crypto-apis.env
-2. Configure blockchain RPC endpoints for target networks
-3. Set up exchange API connections if required
-4. Verify rate limits and subscription tiers
-5. Test connectivity and authentication
-1. Use Bash(crypto:sentiment-*) to execute crypto data queries
-2. Fetch real-time prices, volumes, and market cap data
-3. Query blockchain for on-chain metrics and transactions
-4. Retrieve exchange order book and trade history
-5. Aggregate data from multiple sources for accuracy
+### Step 1: Assess User Intent
 
+Determine what sentiment analysis the user needs:
+- **Overall market**: No specific coin, general sentiment
+- **Coin-specific**: Extract coin symbol (BTC, ETH, etc.)
+- **Quick vs detailed**: Quick score or full breakdown
 
-See `{baseDir}/references/implementation.md` for detailed implementation guide.
+### Step 2: Execute Sentiment Analysis
+
+Run the sentiment analyzer with appropriate options:
+
+```bash
+# Quick sentiment check (default)
+python {baseDir}/scripts/sentiment_analyzer.py
+
+# Coin-specific sentiment
+python {baseDir}/scripts/sentiment_analyzer.py --coin BTC
+
+# Detailed analysis with component breakdown
+python {baseDir}/scripts/sentiment_analyzer.py --detailed
+
+# Export to JSON
+python {baseDir}/scripts/sentiment_analyzer.py --format json --output sentiment.json
+
+# Custom time period
+python {baseDir}/scripts/sentiment_analyzer.py --period 7d --detailed
+```
+
+### Step 3: Present Results
+
+Format and present the sentiment analysis:
+- Show composite score and classification
+- Explain what the sentiment means
+- Highlight any extreme readings
+- For detailed mode, show component breakdown
+
+### Command-Line Options
+
+| Option | Description | Default |
+|--------|-------------|---------|
+| `--coin` | Analyze specific coin (BTC, ETH, etc.) | All market |
+| `--period` | Time period (1h, 4h, 24h, 7d) | 24h |
+| `--detailed` | Show full component breakdown | false |
+| `--format` | Output format (table, json, csv) | table |
+| `--output` | Output file path | stdout |
+| `--weights` | Custom weights (e.g., "news:0.5,fng:0.3,momentum:0.2") | Default |
+| `--verbose` | Enable verbose output | false |
+
+### Sentiment Classifications
+
+| Score Range | Classification | Description |
+|-------------|----------------|-------------|
+| 0-20 | Extreme Fear | Market panic, potential bottom |
+| 21-40 | Fear | Cautious sentiment, bearish |
+| 41-60 | Neutral | Balanced, no strong bias |
+| 61-80 | Greed | Optimistic, bullish sentiment |
+| 81-100 | Extreme Greed | Euphoria, potential top |
 
 ## Output
 
-- Current prices across exchanges with spread analysis
-- 24h volume, market cap, and circulating supply
-- Price changes across multiple timeframes (1h, 24h, 7d, 30d)
-- Trading volume distribution by exchange
-- Liquidity metrics and slippage estimates
-- Transaction count and network activity
+### Table Format (Default)
+```
+==============================================================================
+  MARKET SENTIMENT ANALYZER                         Updated: 2026-01-14 15:30
+==============================================================================
+
+  COMPOSITE SENTIMENT
+------------------------------------------------------------------------------
+  Score: 65.5 / 100                         Classification: GREED
+
+  Component Breakdown:
+  - Fear & Greed Index:  72.0  (weight: 40%)  → 28.8 pts
+  - News Sentiment:      58.5  (weight: 40%)  → 23.4 pts
+  - Market Momentum:     66.5  (weight: 20%)  → 13.3 pts
+
+  Interpretation: Market is moderately greedy. Consider taking profits or
+  reducing position sizes. Watch for reversal signals.
+
+==============================================================================
+```
+
+### JSON Format
+```json
+{
+  "composite_score": 65.5,
+  "classification": "Greed",
+  "components": {
+    "fear_greed": {
+      "score": 72,
+      "classification": "Greed",
+      "weight": 0.40,
+      "contribution": 28.8
+    },
+    "news_sentiment": {
+      "score": 58.5,
+      "articles_analyzed": 25,
+      "positive": 12,
+      "negative": 5,
+      "neutral": 8,
+      "weight": 0.40,
+      "contribution": 23.4
+    },
+    "market_momentum": {
+      "score": 66.5,
+      "btc_change_24h": 3.5,
+      "weight": 0.20,
+      "contribution": 13.3
+    }
+  },
+  "meta": {
+    "timestamp": "2026-01-14T15:30:00Z",
+    "period": "24h"
+  }
+}
+```
 
 ## Error Handling
 
 See `{baseDir}/references/errors.md` for comprehensive error handling.
 
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Fear & Greed unavailable | API down | Uses cached value with warning |
+| News fetch failed | Network issue | Reduces weight of news component |
+| Invalid coin | Unknown symbol | Proceeds with market-wide analysis |
+
 ## Examples
 
 See `{baseDir}/references/examples.md` for detailed examples.
 
+### Quick Examples
+
+```bash
+# Quick market sentiment check
+python {baseDir}/scripts/sentiment_analyzer.py
+
+# Bitcoin-specific sentiment
+python {baseDir}/scripts/sentiment_analyzer.py --coin BTC
+
+# Detailed analysis
+python {baseDir}/scripts/sentiment_analyzer.py --detailed
+
+# Export for trading model
+python {baseDir}/scripts/sentiment_analyzer.py --format json --output sentiment.json
+
+# Custom weights (emphasize news)
+python {baseDir}/scripts/sentiment_analyzer.py --weights "news:0.5,fng:0.3,momentum:0.2"
+
+# Weekly sentiment comparison
+python {baseDir}/scripts/sentiment_analyzer.py --period 7d --detailed
+```
+
 ## Resources
 
-- CoinGecko API for market data across thousands of assets
-- Etherscan API for Ethereum blockchain data
-- Dune Analytics for on-chain SQL queries
-- The Graph for decentralized blockchain indexing
-- ethers.js for Ethereum smart contract interaction
+- **Alternative.me Fear & Greed Index**: https://alternative.me/crypto/fear-and-greed-index/
+- **CoinGecko API**: https://www.coingecko.com/en/api
+- **Sentiment Analysis Theory**: Contrarian indicator - extreme readings often precede reversals
+- See `{baseDir}/config/settings.yaml` for configuration options
