@@ -2,11 +2,12 @@
 name: tracking-crypto-prices
 description: |
   Track real-time cryptocurrency prices across exchanges with historical data and alerts.
-  Use when monitoring real-time cryptocurrency prices.
-  Trigger with phrases like "check price", "track prices", or "get price alert".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:price-*)
-version: 1.0.0
+  Provides price data infrastructure for dependent skills (portfolio, tax, DeFi, arbitrage).
+  Use when checking crypto prices, monitoring markets, or fetching historical price data.
+  Trigger with phrases like "check price", "BTC price", "crypto prices", "price history",
+  "get quote for", "what's ETH trading at", "show me top coins", or "track my watchlist".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(python:*)
+version: 2.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
 ---
@@ -15,54 +16,308 @@ license: MIT
 
 ## Overview
 
-This skill provides automated assistance for the described functionality.
+Foundation skill providing real-time and historical cryptocurrency price data. This skill is the data layer for the crypto plugin ecosystem - 10+ other skills depend on it for price information.
+
+**Key Capabilities:**
+- Real-time prices for 10,000+ cryptocurrencies
+- Historical OHLCV data (1 day to all-time)
+- Multi-currency support (USD, EUR, GBP, 30+ currencies)
+- Intelligent caching to minimize API calls
+- Predefined and custom watchlists
+- Export to CSV/JSON for analysis
+
+**Dependent Skills:**
+This skill provides price data to: market-movers-scanner, crypto-portfolio-tracker, crypto-tax-calculator, defi-yield-optimizer, liquidity-pool-analyzer, staking-rewards-optimizer, crypto-derivatives-tracker, dex-aggregator-router, options-flow-analyzer, arbitrage-opportunity-finder.
 
 ## Prerequisites
 
-Before using this skill, ensure you have:
-- Access to crypto market data APIs (CoinGecko, CoinMarketCap, or similar)
-- Blockchain RPC endpoints or node access (Infura, Alchemy, or self-hosted)
-- API keys for exchanges if trading or querying account data
-- Web3 libraries installed (ethers.js, web3.py, or equivalent)
-- Understanding of blockchain concepts and crypto market dynamics
+Install required dependencies:
+
+```bash
+pip install requests pandas yfinance
+```
+
+Optional for advanced features:
+```bash
+pip install python-dotenv  # For API key management
+```
+
+**API Setup** (optional, for higher rate limits):
+1. Get free API key from https://www.coingecko.com/en/api
+2. Add to `{baseDir}/config/settings.yaml` or set environment variable `COINGECKO_API_KEY`
 
 ## Instructions
 
-1. Use Read tool to load API credentials from {baseDir}/config/crypto-apis.env
-2. Configure blockchain RPC endpoints for target networks
-3. Set up exchange API connections if required
-4. Verify rate limits and subscription tiers
-5. Test connectivity and authentication
-1. Use Bash(crypto:price-*) to execute crypto data queries
-2. Fetch real-time prices, volumes, and market cap data
-3. Query blockchain for on-chain metrics and transactions
-4. Retrieve exchange order book and trade history
-5. Aggregate data from multiple sources for accuracy
+### Step 1: Quick Price Check
 
+Get current price for any cryptocurrency:
 
-See `{baseDir}/references/implementation.md` for detailed implementation guide.
+```bash
+python {baseDir}/scripts/price_tracker.py --symbol BTC
+```
+
+Check multiple assets:
+
+```bash
+python {baseDir}/scripts/price_tracker.py --symbols BTC,ETH,SOL
+```
+
+### Step 2: Use Watchlists
+
+Scan predefined watchlists:
+
+```bash
+# Top 10 by market cap
+python {baseDir}/scripts/price_tracker.py --watchlist top10
+
+# DeFi tokens
+python {baseDir}/scripts/price_tracker.py --watchlist defi
+
+# Layer 2 tokens
+python {baseDir}/scripts/price_tracker.py --watchlist layer2
+```
+
+Available watchlists: `top10`, `defi`, `layer2`, `stablecoins`, `memecoins`
+
+### Step 3: Fetch Historical Data
+
+Get OHLCV (Open, High, Low, Close, Volume) history:
+
+```bash
+# Last 30 days
+python {baseDir}/scripts/price_tracker.py --symbol BTC --period 30d
+
+# Last 90 days with CSV export
+python {baseDir}/scripts/price_tracker.py --symbol BTC --period 90d --output csv
+
+# Custom date range
+python {baseDir}/scripts/price_tracker.py --symbol ETH --start 2024-01-01 --end 2024-12-31
+```
+
+### Step 4: Configure Settings
+
+Edit `{baseDir}/config/settings.yaml` to customize:
+
+```yaml
+cache:
+  spot_ttl: 30          # Seconds to cache spot prices
+  historical_ttl: 3600  # Seconds to cache historical data
+
+currency:
+  default: usd          # Default fiat currency
+
+watchlists:
+  custom:               # Add your own watchlist
+    - BTC
+    - ETH
+    - SOL
+```
 
 ## Output
 
-- Current prices across exchanges with spread analysis
-- 24h volume, market cap, and circulating supply
-- Price changes across multiple timeframes (1h, 24h, 7d, 30d)
-- Trading volume distribution by exchange
-- Liquidity metrics and slippage estimates
-- Transaction count and network activity
+### Price Table (Default)
+
+```
+================================================================================
+  CRYPTO PRICES                                           Updated: [timestamp]
+================================================================================
+
+  Symbol     Price (USD)      24h Change     Volume (24h)      Market Cap
+--------------------------------------------------------------------------------
+  BTC       $97,234.56          +2.34%      $28.5B            $1.92T
+  ETH        $3,456.78          +1.87%      $12.3B            $415.2B
+  SOL          $142.34          +5.12%       $2.1B             $61.4B
+--------------------------------------------------------------------------------
+
+  Total 24h Change: +2.44% (weighted)
+
+================================================================================
+```
+
+### JSON Output (--format json)
+
+```json
+{
+  "prices": [
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "price": 97234.56,
+      "currency": "USD",
+      "change_24h": 2.34,
+      "volume_24h": 28500000000,
+      "market_cap": 1920000000000,
+      "timestamp": "[timestamp]",
+      "source": "coingecko"
+    }
+  ],
+  "meta": {
+    "count": 1,
+    "currency": "USD",
+    "cached": false
+  }
+}
+```
+
+### Historical CSV Export
+
+```csv
+date,open,high,low,close,volume
+[date],95000.00,96500.00,94200.00,96100.00,25000000000
+[date],96100.00,97800.00,95800.00,97500.00,27000000000
+```
+
+## Configuration
+
+Edit `{baseDir}/config/settings.yaml`:
+
+```yaml
+# API Configuration
+api:
+  coingecko:
+    api_key: ${COINGECKO_API_KEY}  # Optional, from env
+    use_pro: false
+  yfinance:
+    enabled: true                   # Fallback source
+
+# Cache Configuration
+cache:
+  enabled: true
+  spot_ttl: 30                      # Spot price TTL (seconds)
+  historical_ttl: 3600              # Historical data TTL (seconds)
+  directory: ./data
+
+# Display Configuration
+currency:
+  default: usd
+  supported:
+    - usd
+    - eur
+    - gbp
+    - jpy
+    - cad
+    - aud
+
+# Predefined Watchlists
+watchlists:
+  top10:
+    - bitcoin
+    - ethereum
+    - tether
+    - binancecoin
+    - solana
+    - ripple
+    - cardano
+    - avalanche-2
+    - dogecoin
+    - polkadot
+
+  defi:
+    - uniswap
+    - aave
+    - chainlink
+    - maker
+    - compound-governance-token
+    - curve-dao-token
+    - sushi
+
+  layer2:
+    - matic-network
+    - arbitrum
+    - optimism
+    - immutable-x
+```
 
 ## Error Handling
 
 See `{baseDir}/references/errors.md` for comprehensive error handling.
 
+### Common Errors
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| `Unknown symbol: XYZ` | Invalid cryptocurrency ticker | Check spelling, use `--list` to search |
+| `Rate limit exceeded` | Too many API calls | Wait 60s, or use API key for higher limits |
+| `Network error` | No internet connection | Check connection, cached data will be used |
+| `Cache stale` | Cached data older than TTL | Data still shown with warning, will refresh |
+
+### Rate Limit Handling
+
+The skill automatically:
+1. Uses cached data when available
+2. Applies exponential backoff on rate limits
+3. Falls back to yfinance if CoinGecko fails
+4. Shows stale cache data with warning as last resort
+
 ## Examples
 
-See `{baseDir}/references/examples.md` for detailed examples.
+See `{baseDir}/references/examples.md` for detailed examples including:
+- Multi-timeframe analysis
+- Portfolio value calculation
+- Price alert setup
+- Integration with other skills
+
+### Example 1: Quick Price Check
+
+```bash
+python {baseDir}/scripts/price_tracker.py --symbol BTC
+```
+
+Output:
+```
+BTC (Bitcoin)
+$97,234.56 USD
++2.34% (24h) | Vol: $28.5B | MCap: $1.92T
+```
+
+### Example 2: Watchlist Scan
+
+```bash
+python {baseDir}/scripts/price_tracker.py --watchlist top10
+```
+
+### Example 3: Historical Export
+
+```bash
+python {baseDir}/scripts/price_tracker.py --symbol ETH --period 90d --output csv
+```
+
+Creates: `{baseDir}/data/ETH_90d_[date].csv`
+
+## Integration with Other Skills
+
+This skill provides the price data foundation for other crypto skills.
+
+**Direct Import** (recommended for Python skills):
+```python
+from price_tracker import get_current_prices, get_historical_prices
+
+# Get prices for portfolio valuation
+prices = get_current_prices(["BTC", "ETH", "SOL"])
+```
+
+**CLI Subprocess** (for non-Python or isolation):
+```bash
+PRICES=$(python {baseDir}/scripts/price_tracker.py --symbols BTC,ETH --format json)
+```
+
+**Shared Cache** (efficient for batch):
+Multiple skills can read from `{baseDir}/data/cache.json` to avoid redundant API calls.
+
+## Files
+
+| File | Purpose |
+|------|---------|
+| `scripts/price_tracker.py` | Main CLI entry point |
+| `scripts/api_client.py` | CoinGecko/yfinance abstraction |
+| `scripts/cache_manager.py` | Cache read/write/invalidation |
+| `scripts/formatters.py` | Output formatting |
+| `config/settings.yaml` | User configuration |
+| `data/cache.json` | Price cache (auto-generated) |
 
 ## Resources
 
-- CoinGecko API for market data across thousands of assets
-- Etherscan API for Ethereum blockchain data
-- Dune Analytics for on-chain SQL queries
-- The Graph for decentralized blockchain indexing
-- ethers.js for Ethereum smart contract interaction
+- [CoinGecko API](https://www.coingecko.com/en/api) - Primary data source
+- [yfinance](https://github.com/ranaroussi/yfinance) - Fallback for historical data
+- PRD.md - Product requirements
+- ARD.md - Architecture documentation
