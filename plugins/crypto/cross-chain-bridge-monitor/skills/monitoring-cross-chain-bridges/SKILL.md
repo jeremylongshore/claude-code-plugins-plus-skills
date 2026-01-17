@@ -1,68 +1,143 @@
 ---
 name: monitoring-cross-chain-bridges
 description: |
-  Monitor cross-chain bridge security, liquidity, and transaction status across networks.
-  Use when monitoring cross-chain asset transfers.
-  Trigger with phrases like "monitor bridges", "check cross-chain", or "track bridge transfers".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:bridge-*)
+  Monitor cross-chain bridge TVL, volume, fees, and transaction status across networks.
+  Use when researching bridges, comparing routes, or tracking bridge transactions.
+  Trigger with phrases like "monitor bridges", "compare bridge fees", "track bridge tx",
+  "bridge TVL", or "cross-chain transfer status".
+
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(python*bridge_monitor*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
 ---
 
-# Monitoring Cross Chain Bridges
+# Cross-Chain Bridge Monitor
 
 ## Overview
 
-This skill provides automated assistance for the described functionality.
+Monitor cross-chain bridge activity across multiple protocols. Track TVL, compare fees and transfer times, and monitor transaction status for bridges like Stargate, Across, Wormhole, and LayerZero.
 
 ## Prerequisites
 
 Before using this skill, ensure you have:
-- Access to crypto market data APIs (CoinGecko, CoinMarketCap, or similar)
-- Blockchain RPC endpoints or node access (Infura, Alchemy, or self-hosted)
-- API keys for exchanges if trading or querying account data
-- Web3 libraries installed (ethers.js, web3.py, or equivalent)
-- Understanding of blockchain concepts and crypto market dynamics
+- Python 3.8+ with `requests` library
+- Internet access for DefiLlama and bridge APIs
+- Optional: Custom RPC URLs for on-chain verification
+
+## Commands
+
+### tvl - Bridge TVL Rankings
+```bash
+python bridge_monitor.py tvl --limit 20
+```
+Shows bridges ranked by Total Value Locked.
+
+### bridges - List All Bridges
+```bash
+python bridge_monitor.py bridges
+python bridge_monitor.py bridges --chain arbitrum
+```
+Lists bridges by 24h volume with optional chain filter.
+
+### detail - Bridge Details
+```bash
+python bridge_monitor.py detail --bridge stargate
+```
+Shows detailed info including volume, chains, and TVL breakdown.
+
+### compare - Compare Routes
+```bash
+python bridge_monitor.py compare --source ethereum --dest arbitrum --amount 1000 --token USDC
+```
+Compares fees and transfer times across bridges for a route.
+
+### tx - Track Transaction
+```bash
+python bridge_monitor.py tx --tx-hash 0x...
+python bridge_monitor.py tx --tx-hash 0x... --bridge wormhole
+```
+Tracks bridge transaction status across protocols.
+
+### chains - List Chains
+```bash
+python bridge_monitor.py chains
+```
+Shows all supported chains.
+
+### protocols - List Protocols
+```bash
+python bridge_monitor.py protocols
+```
+Shows supported bridge protocols with their chains.
 
 ## Instructions
 
-1. Use Read tool to load API credentials from {baseDir}/config/crypto-apis.env
-2. Configure blockchain RPC endpoints for target networks
-3. Set up exchange API connections if required
-4. Verify rate limits and subscription tiers
-5. Test connectivity and authentication
-1. Use Bash(crypto:bridge-*) to execute crypto data queries
-2. Fetch real-time prices, volumes, and market cap data
-3. Query blockchain for on-chain metrics and transactions
-4. Retrieve exchange order book and trade history
-5. Aggregate data from multiple sources for accuracy
+1. **Check bridge TVL rankings**:
+   ```bash
+   cd {baseDir}/scripts
+   python bridge_monitor.py tvl
+   ```
 
+2. **Compare bridge routes** before transferring:
+   ```bash
+   python bridge_monitor.py compare -s ethereum -d base -a 5000 -t USDC
+   ```
 
-See `{baseDir}/references/implementation.md` for detailed implementation guide.
+3. **Get bridge details** for research:
+   ```bash
+   python bridge_monitor.py detail --bridge across
+   ```
+
+4. **Track a transaction**:
+   ```bash
+   python bridge_monitor.py tx --tx-hash 0x1234...
+   ```
+
+5. **Export to JSON** for analysis:
+   ```bash
+   python bridge_monitor.py -f json bridges > bridges.json
+   ```
+
+## Supported Bridges
+
+| Bridge | Type | Avg Time | Typical Fee |
+|--------|------|----------|-------------|
+| Wormhole | Messaging | ~15 min | ~0.1% |
+| LayerZero | Messaging | ~3 min | ~0.06% |
+| Stargate | Liquidity | ~2 min | ~0.06% |
+| Across | Liquidity | ~1 min | ~0.04% |
+
+## Supported Chains
+
+- Ethereum, BSC, Polygon, Arbitrum, Optimism
+- Base, Avalanche, Fantom, Solana (Wormhole)
+- 45+ total chains via DefiLlama
 
 ## Output
 
-- Current prices across exchanges with spread analysis
-- 24h volume, market cap, and circulating supply
-- Price changes across multiple timeframes (1h, 24h, 7d, 30d)
-- Trading volume distribution by exchange
-- Liquidity metrics and slippage estimates
-- Transaction count and network activity
+- **TVL rankings**: Bridges sorted by locked value
+- **Fee comparison**: Side-by-side fee and time estimates
+- **TX status**: Source/destination confirmation status
+- **JSON format**: Structured data with `-f json` flag
 
 ## Error Handling
 
-See `{baseDir}/references/errors.md` for comprehensive error handling.
+See `{baseDir}/references/errors.md` for comprehensive error handling including:
+- API unavailability and fallback behavior
+- Transaction tracking edge cases
+- Rate limiting mitigation
 
 ## Examples
 
-See `{baseDir}/references/examples.md` for detailed examples.
+See `{baseDir}/references/examples.md` for detailed examples including:
+- Finding best route for large transfers
+- Monitoring transactions after bridging
+- Research workflows for bridge safety
 
 ## Resources
 
-- CoinGecko API for market data across thousands of assets
-- Etherscan API for Ethereum blockchain data
-- Dune Analytics for on-chain SQL queries
-- The Graph for decentralized blockchain indexing
-- ethers.js for Ethereum smart contract interaction
+- [DefiLlama Bridges](https://defillama.com/bridges) - Bridge TVL and volume
+- [Wormhole Scan](https://wormholescan.io/) - Wormhole transaction explorer
+- [LayerZero Scan](https://layerzeroscan.com/) - LayerZero message explorer
+- [Across Protocol](https://across.to/) - Optimistic bridge
