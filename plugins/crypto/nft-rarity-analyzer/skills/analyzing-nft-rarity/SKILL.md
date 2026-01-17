@@ -1,68 +1,125 @@
 ---
 name: analyzing-nft-rarity
 description: |
-  Execute calculate NFT rarity scores and floor prices across collections and marketplaces.
-  Use when analyzing NFT collections and rarity.
-  Trigger with phrases like "check NFT rarity", "analyze collection", or "calculate floor price".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:nft-*)
+  Calculate NFT rarity scores and rank tokens by trait uniqueness.
+  Use when analyzing NFT collections, checking token rarity, or comparing NFTs.
+  Trigger with phrases like "check NFT rarity", "analyze collection", "rank tokens", "compare NFTs".
+allowed-tools: Read, Bash(python3 *)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
 ---
 
-# Analyzing Nft Rarity
+# Analyzing NFT Rarity
 
 ## Overview
 
-This skill provides automated assistance for the described functionality.
+NFT rarity analysis skill that:
+- Fetches collection metadata from OpenSea API
+- Parses and normalizes trait attributes
+- Calculates rarity using multiple algorithms
+- Ranks tokens by composite rarity score
+- Exports data in JSON and CSV formats
 
 ## Prerequisites
 
-Before using this skill, ensure you have:
-- Access to crypto market data APIs (CoinGecko, CoinMarketCap, or similar)
-- Blockchain RPC endpoints or node access (Infura, Alchemy, or self-hosted)
-- API keys for exchanges if trading or querying account data
-- Web3 libraries installed (ethers.js, web3.py, or equivalent)
-- Understanding of blockchain concepts and crypto market dynamics
+- Python 3.8+ with requests library
+- Optional: `OPENSEA_API_KEY` for higher rate limits
+- Optional: `ALCHEMY_API_KEY` for direct metadata fetching
 
 ## Instructions
 
-1. Use Read tool to load API credentials from {baseDir}/config/crypto-apis.env
-2. Configure blockchain RPC endpoints for target networks
-3. Set up exchange API connections if required
-4. Verify rate limits and subscription tiers
-5. Test connectivity and authentication
-1. Use Bash(crypto:nft-*) to execute crypto data queries
-2. Fetch real-time prices, volumes, and market cap data
-3. Query blockchain for on-chain metrics and transactions
-4. Retrieve exchange order book and trade history
-5. Aggregate data from multiple sources for accuracy
+### 1. Analyze a Collection
 
+```bash
+cd {baseDir}/scripts && python3 rarity_analyzer.py collection boredapeyachtclub
+```
 
-See `{baseDir}/references/implementation.md` for detailed implementation guide.
+Options:
+- `--limit 500`: Fetch more tokens for analysis
+- `--top 50`: Show top 50 tokens
+- `--traits`: Include trait distribution
+- `--rarest`: Show rarest traits
+- `--algorithm [statistical|rarity_score|average|information]`
+
+### 2. Check Specific Token
+
+```bash
+cd {baseDir}/scripts && python3 rarity_analyzer.py token pudgypenguins 1234
+```
+
+### 3. Compare Multiple Tokens
+
+```bash
+cd {baseDir}/scripts && python3 rarity_analyzer.py compare azuki 1234,5678,9012
+```
+
+### 4. View Trait Distribution
+
+```bash
+cd {baseDir}/scripts && python3 rarity_analyzer.py traits doodles
+```
+
+### 5. Export Rankings
+
+JSON:
+```bash
+cd {baseDir}/scripts && python3 rarity_analyzer.py export coolcats > rankings.json
+```
+
+CSV:
+```bash
+cd {baseDir}/scripts && python3 rarity_analyzer.py export coolcats --format csv > rankings.csv
+```
+
+### 6. Manage Cache
+
+```bash
+cd {baseDir}/scripts && python3 rarity_analyzer.py cache --list
+cd {baseDir}/scripts && python3 rarity_analyzer.py cache --clear
+```
+
+## Rarity Algorithms
+
+| Algorithm | Description | Best For |
+|-----------|-------------|----------|
+| `rarity_score` | Sum of 1/frequency (default) | General use, matches rarity.tools |
+| `statistical` | Same as rarity_score | Backward compatibility |
+| `average` | Mean of trait rarities | Balanced scoring |
+| `information` | Entropy-based (-log2) | Information theory approach |
 
 ## Output
 
-- Current prices across exchanges with spread analysis
-- 24h volume, market cap, and circulating supply
-- Price changes across multiple timeframes (1h, 24h, 7d, 30d)
-- Trading volume distribution by exchange
-- Liquidity metrics and slippage estimates
-- Transaction count and network activity
+- **Collection Summary**: Name, supply, trait types
+- **Rankings**: Tokens sorted by rarity score with percentile
+- **Token Detail**: Full trait breakdown with contribution
+- **Comparison**: Side-by-side trait comparison
+
+## Supported Collections
+
+Works with any ERC-721/ERC-1155 collection that has:
+- OpenSea listing
+- Standard attributes array format
+- Accessible metadata
 
 ## Error Handling
 
-See `{baseDir}/references/errors.md` for comprehensive error handling.
+See `{baseDir}/references/errors.md` for:
+- API rate limiting
+- IPFS gateway issues
+- Collection not found
+- Token ID not found
 
 ## Examples
 
-See `{baseDir}/references/examples.md` for detailed examples.
+See `{baseDir}/references/examples.md` for:
+- Collection analysis workflows
+- Token comparison
+- Export and caching
+- Algorithm comparison
 
 ## Resources
 
-- CoinGecko API for market data across thousands of assets
-- Etherscan API for Ethereum blockchain data
-- Dune Analytics for on-chain SQL queries
-- The Graph for decentralized blockchain indexing
-- ethers.js for Ethereum smart contract interaction
+- [OpenSea API](https://docs.opensea.io/reference/api-overview) - Metadata source
+- [Rarity Tools](https://rarity.tools/) - Reference rankings
+- [IPFS](https://ipfs.io/) - Decentralized metadata
