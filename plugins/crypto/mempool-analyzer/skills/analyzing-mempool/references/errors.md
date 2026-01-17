@@ -1,19 +1,119 @@
-# Error Handling Reference
+# Error Handling Guide
 
-Common issues and solutions:
+## RPC Connection Errors
 
-**API Rate Limit Exceeded**
-- Error: Too many requests to crypto data API
-- Solution: Implement request throttling; use caching for frequently accessed data; upgrade API tier if needed
+### Connection Refused
+```
+Error: Connection refused to RPC endpoint
+```
+**Cause**: RPC endpoint is down or unreachable
+**Solution**:
+- Check if RPC URL is correct
+- Try alternative endpoint (Infura, Alchemy, public RPC)
+- Verify network connectivity
 
-**Blockchain RPC Errors**
-- Error: Cannot connect to blockchain node or timeout
-- Solution: Switch to backup RPC endpoint; verify network connectivity; check if node is synced
+### Timeout
+```
+Error: Request timed out
+```
+**Cause**: RPC node is slow or overloaded
+**Solution**:
+- Increase timeout setting
+- Switch to faster RPC provider
+- Reduce request frequency
 
-**Invalid Address or Transaction**
-- Error: Blockchain address format invalid or transaction not found
-- Solution: Validate address checksums; verify network (mainnet vs testnet); allow time for transaction confirmation
+### Rate Limited
+```
+Error: Too many requests (429)
+```
+**Cause**: Exceeded RPC provider rate limits
+**Solution**:
+- Reduce polling frequency
+- Upgrade RPC tier (Infura, Alchemy paid plans)
+- Use multiple RPC endpoints
 
-**Exchange API Authentication Failed**
-- Error: Invalid API key or signature mismatch
-- Solution: Regenerate API keys; verify permissions (read/trade); check system clock synchronization for signatures
+## Mempool Access Errors
+
+### txpool_content Not Available
+```
+Error: txpool_content not supported
+```
+**Cause**: Not all nodes support txpool methods
+**Solution**:
+- Use Geth node with txpool enabled
+- Try eth_pendingTransactions instead
+- Use mock data for demo purposes
+
+### Empty Mempool
+```
+No pending transactions found
+```
+**Cause**: Mempool is empty or access limited
+**Solution**:
+- Normal during low activity periods
+- Verify RPC supports mempool access
+- Check if node is fully synced
+
+## Transaction Decoding Errors
+
+### Unknown Method Signature
+```
+Warning: Unknown method 0x12345678
+```
+**Cause**: Method signature not in known ABI list
+**Solution**:
+- Transaction will show as "Unknown" type
+- Add ABI to decoder if needed
+- Use Etherscan to look up contract ABI
+
+### Invalid Input Data
+```
+Error: Cannot decode input data
+```
+**Cause**: Malformed or non-standard input
+**Solution**:
+- Skip transaction, continue analysis
+- Raw data still available
+
+## Gas Analysis Errors
+
+### No Sample Data
+```
+Warning: Insufficient data for gas analysis
+```
+**Cause**: Too few pending transactions
+**Solution**:
+- Use default recommendations
+- Wait for more mempool activity
+- Reduce sample requirements
+
+## MEV Detection Errors
+
+### Pool Data Unavailable
+```
+Warning: Cannot fetch pool reserves
+```
+**Cause**: DEX subgraph or pool query failed
+**Solution**:
+- MEV detection will have lower confidence
+- Use estimated values
+- Check subgraph health
+
+## Debugging
+
+### Enable Verbose Mode
+```bash
+python mempool_analyzer.py -v pending
+```
+
+### Check Connection
+```bash
+python mempool_analyzer.py status
+```
+
+### Test RPC Endpoint
+```bash
+curl -X POST -H "Content-Type: application/json" \
+  --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}' \
+  YOUR_RPC_URL
+```
