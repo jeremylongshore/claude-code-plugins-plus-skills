@@ -11,10 +11,9 @@ License: MIT
 
 import argparse
 import json
-import os
 import sys
 from datetime import datetime
-from typing import Dict, Any, List, Optional
+from typing import Dict, List
 
 # Local imports
 from dex_sources import (
@@ -29,9 +28,7 @@ from formatters import (
     format_launch_detail,
     format_chain_summary,
     format_dex_summary,
-    format_json,
     format_risk_badge,
-    format_age,
 )
 
 

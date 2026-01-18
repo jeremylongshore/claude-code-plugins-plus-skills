@@ -9,7 +9,6 @@ Version: 1.0.0
 License: MIT
 """
 
-import json
 import os
 import time
 from dataclasses import dataclass
@@ -75,7 +74,10 @@ class EventMonitor:
             self.config.rpc_url
         )
         self.verbose = verbose
+        # Use a size-limited cache to prevent memory leaks on long-running instances
+        # Keeps most recent 1000 block timestamps
         self._block_cache = {}
+        self._block_cache_max_size = 1000
 
     def _rpc_call(self, method: str, params: List = None) -> Any:
         """Make JSON-RPC call."""
@@ -105,7 +107,7 @@ class EventMonitor:
         return result.get("result")
 
     def _get_block_timestamp(self, block_number: int) -> int:
-        """Get block timestamp."""
+        """Get block timestamp with size-limited caching."""
         if block_number in self._block_cache:
             return self._block_cache[block_number]
 
@@ -116,6 +118,14 @@ class EventMonitor:
 
         if block:
             timestamp = int(block.get("timestamp", "0x0"), 16)
+
+            # Evict old entries if cache is full
+            if len(self._block_cache) >= self._block_cache_max_size:
+                # Remove oldest entries (first 100)
+                oldest_keys = sorted(self._block_cache.keys())[:100]
+                for key in oldest_keys:
+                    del self._block_cache[key]
+
             self._block_cache[block_number] = timestamp
             return timestamp
 

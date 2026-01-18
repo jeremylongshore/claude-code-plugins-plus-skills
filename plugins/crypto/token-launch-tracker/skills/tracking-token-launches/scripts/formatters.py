@@ -11,7 +11,7 @@ License: MIT
 
 import json
 from datetime import datetime
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any
 
 
 def format_timestamp(ts: int) -> str:

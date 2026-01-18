@@ -11,7 +11,7 @@ License: MIT
 
 import os
 from dataclasses import dataclass, field
-from typing import Dict, Any, List, Optional
+from typing import Any, List, Optional
 
 try:
     import requests
@@ -55,9 +55,10 @@ class ContractAnalysis:
 
 
 # Known risky function signatures
+# Note: 0xa9059cbb is the standard ERC20 transfer function, not blacklist
 RISKY_FUNCTIONS = {
     "0x40c10f19": ("mint", "high", "Contract has mint function"),
-    "0xa9059cbb7": ("blacklist", "medium", "Contract has blacklist functionality"),
+    "0x44337ea1": ("blacklist", "medium", "Contract has blacklist functionality"),  # addToBlacklist(address)
     "0x42966c68": ("burn", "info", "Contract has burn function"),
     "0x23b872dd": ("transferFrom", "info", "Standard ERC20 transferFrom"),
     "0x8da5cb5b": ("owner", "info", "Contract has owner"),
@@ -360,7 +361,7 @@ class TokenAnalyzer:
             if storage and storage != "0x" + "0" * 64:
                 return True
         except Exception:
-            pass
+            pass  # Storage read failed - likely not a proxy or access issue
 
         return False
 
