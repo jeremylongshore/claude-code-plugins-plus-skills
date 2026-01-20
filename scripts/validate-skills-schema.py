@@ -1396,6 +1396,225 @@ def validate_resource_files_exist(path: Path, body: str) -> Tuple[List[str], Lis
     return errors, warnings
 
 
+# === CONTENT QUALITY VALIDATION (Phase 4: Hightower Feedback) ===
+#
+# These functions catch content quality issues that structural validation misses:
+# - Files listed in README.md but don't exist
+# - Python scripts that are stubs (only contain 'pass')
+# - Placeholder text like REPLACE_ME, {variable}
+# - Generic boilerplate descriptions
+
+# Patterns for detecting stub scripts
+STUB_SCRIPT_PATTERNS = [
+    re.compile(r'def\s+\w+\([^)]*\):\s*\n\s*pass\s*$', re.MULTILINE),  # Function with only pass
+    re.compile(r'Add processing logic here', re.IGNORECASE),
+    re.compile(r'This is a template', re.IGNORECASE),
+    re.compile(r'Customize based on', re.IGNORECASE),
+    re.compile(r'#\s*TODO:\s*implement', re.IGNORECASE),
+    re.compile(r'raise NotImplementedError'),
+]
+
+# Patterns for detecting placeholder text
+PLACEHOLDER_PATTERNS = [
+    re.compile(r'\{[a-z_]+\}'),           # {table_name}, {database}, etc.
+    re.compile(r'REPLACE_ME', re.IGNORECASE),
+    re.compile(r'\[YOUR_[A-Z_]+\]'),      # [YOUR_API_KEY], etc.
+    re.compile(r'<insert\s+.+>', re.IGNORECASE),  # <insert description here>
+    re.compile(r'\bTBD\b'),
+    re.compile(r'\bFIXME\b'),
+    re.compile(r'to be determined', re.IGNORECASE),
+    re.compile(r'\bplaceholder\b', re.IGNORECASE),
+]
+
+# Patterns for detecting generic boilerplate
+BOILERPLATE_PATTERNS = [
+    re.compile(r'This skill provides automated assistance for \[?\w*\]? tasks', re.IGNORECASE),
+    re.compile(r'This skill enables Claude to', re.IGNORECASE),
+    re.compile(r'Step \d+: Assess Current State\s*$', re.MULTILINE | re.IGNORECASE),
+    re.compile(r'Step \d+: Design Solution\s*$', re.MULTILINE | re.IGNORECASE),
+    re.compile(r'Step \d+: Implement Changes\s*$', re.MULTILINE | re.IGNORECASE),
+    re.compile(r'This is a template that can be customized', re.IGNORECASE),
+    re.compile(r'Customize based on your requirements', re.IGNORECASE),
+]
+
+
+def validate_references_readme(skill_path: Path) -> Tuple[List[str], List[str]]:
+    """
+    Parse references/README.md for checkbox file lists.
+    Verify each listed file actually exists.
+    Returns (errors, warnings).
+
+    Catches issues like:
+    - references/README.md lists "postgresql_best_practices.md" but file doesn't exist
+    """
+    errors: List[str] = []
+    warnings: List[str] = []
+    skill_dir = skill_path.parent.resolve()
+
+    # Check references/README.md
+    refs_readme = skill_dir / "references" / "README.md"
+    if refs_readme.exists():
+        try:
+            content = refs_readme.read_text(encoding='utf-8')
+            # Match checkbox patterns: - [x] filename.md or - [ ] filename.md
+            checkbox_pattern = re.compile(r'-\s*\[[ xX]\]\s*([^\s:]+\.(?:md|yaml|json|py|sh))')
+            matches = checkbox_pattern.findall(content)
+
+            for filename in matches:
+                file_path = skill_dir / "references" / filename
+                if not file_path.exists():
+                    warnings.append(
+                        f"[content-quality] references/README.md lists '{filename}' but file doesn't exist"
+                    )
+        except Exception as e:
+            warnings.append(f"[content-quality] Could not parse references/README.md: {e}")
+
+    # Check assets/README.md
+    assets_readme = skill_dir / "assets" / "README.md"
+    if assets_readme.exists():
+        try:
+            content = assets_readme.read_text(encoding='utf-8')
+            checkbox_pattern = re.compile(r'-\s*\[[ xX]\]\s*([^\s:]+\.(?:md|yaml|json|py|sh|template))')
+            matches = checkbox_pattern.findall(content)
+
+            for filename in matches:
+                file_path = skill_dir / "assets" / filename
+                if not file_path.exists():
+                    warnings.append(
+                        f"[content-quality] assets/README.md lists '{filename}' but file doesn't exist"
+                    )
+        except Exception as e:
+            warnings.append(f"[content-quality] Could not parse assets/README.md: {e}")
+
+    return errors, warnings
+
+
+def detect_stub_scripts(skill_path: Path) -> Tuple[List[str], List[str]]:
+    """
+    Scan Python scripts for stub patterns:
+    - Functions with only 'pass' in body
+    - "Add processing logic here"
+    - "This is a template"
+    - TODO/FIXME without implementation
+    Returns (errors, warnings).
+    """
+    errors: List[str] = []
+    warnings: List[str] = []
+    skill_dir = skill_path.parent.resolve()
+    scripts_dir = skill_dir / "scripts"
+
+    if not scripts_dir.exists():
+        return errors, warnings
+
+    for script in scripts_dir.glob("*.py"):
+        try:
+            content = script.read_text(encoding='utf-8')
+            script_name = script.name
+
+            # Check for stub patterns
+            for pattern in STUB_SCRIPT_PATTERNS:
+                if pattern.search(content):
+                    warnings.append(
+                        f"[content-quality] scripts/{script_name} appears to be a stub (contains placeholder code)"
+                    )
+                    break  # One warning per file is enough
+
+            # Additional check: file is mostly empty or just imports
+            lines = [l.strip() for l in content.splitlines() if l.strip() and not l.strip().startswith('#')]
+            non_import_lines = [l for l in lines if not l.startswith(('import ', 'from '))]
+            if len(non_import_lines) < 5 and len(lines) > 0:
+                warnings.append(
+                    f"[content-quality] scripts/{script_name} has minimal implementation ({len(non_import_lines)} non-import lines)"
+                )
+
+        except Exception as e:
+            warnings.append(f"[content-quality] Could not read scripts/{script.name}: {e}")
+
+    return errors, warnings
+
+
+def detect_placeholder_text(skill_path: Path) -> Tuple[List[str], List[str]]:
+    """
+    Scan SKILL.md, templates, and config for placeholder patterns:
+    - REPLACE_ME, {table_name}, {PLACEHOLDER}
+    - TBD, TODO, FIXME in prose (not code comments)
+    - "to be determined", "placeholder"
+    Returns (errors, warnings).
+    """
+    errors: List[str] = []
+    warnings: List[str] = []
+    skill_dir = skill_path.parent.resolve()
+
+    # Files to scan (exclude code files where placeholders might be intentional)
+    files_to_scan = [
+        skill_path,  # SKILL.md
+    ]
+
+    # Add templates and config files
+    for pattern in ['assets/*.yaml', 'assets/*.yml', 'config/*.yaml', 'config/*.yml']:
+        files_to_scan.extend(skill_dir.glob(pattern))
+
+    for file_path in files_to_scan:
+        if not file_path.exists():
+            continue
+
+        try:
+            content = file_path.read_text(encoding='utf-8')
+            rel_path = file_path.relative_to(skill_dir)
+
+            # Skip checking inside code blocks for SKILL.md
+            if file_path.name == 'SKILL.md':
+                # Remove code blocks before checking
+                content_no_code = re.sub(r'```.*?```', '', content, flags=re.DOTALL)
+            else:
+                content_no_code = content
+
+            for pattern in PLACEHOLDER_PATTERNS:
+                matches = pattern.findall(content_no_code)
+                if matches:
+                    # Limit to first 3 unique matches per file
+                    unique_matches = list(set(matches))[:3]
+                    warnings.append(
+                        f"[content-quality] {rel_path} contains placeholder text: {', '.join(unique_matches)}"
+                    )
+                    break  # One warning per file
+
+        except Exception as e:
+            warnings.append(f"[content-quality] Could not scan {file_path.name}: {e}")
+
+    return errors, warnings
+
+
+def detect_boilerplate(skill_path: Path) -> Tuple[List[str], List[str]]:
+    """
+    Detect generic boilerplate phrases in SKILL.md:
+    - "This skill provides automated assistance for"
+    - "This skill enables Claude to"
+    - Generic step descriptions without specifics
+    Returns (errors, warnings).
+    """
+    errors: List[str] = []
+    warnings: List[str] = []
+
+    try:
+        content = skill_path.read_text(encoding='utf-8')
+
+        for pattern in BOILERPLATE_PATTERNS:
+            if pattern.search(content):
+                match = pattern.search(content)
+                if match:
+                    # Truncate long matches
+                    matched_text = match.group()[:60] + ('...' if len(match.group()) > 60 else '')
+                    warnings.append(
+                        f"[content-quality] SKILL.md contains generic boilerplate: '{matched_text}'"
+                    )
+
+    except Exception as e:
+        warnings.append(f"[content-quality] Could not scan SKILL.md for boilerplate: {e}")
+
+    return errors, warnings
+
+
 def validate_skill(path: Path) -> Dict[str, Any]:
     """
     Validate a single SKILL.md file.
@@ -1443,6 +1662,27 @@ def validate_skill(path: Path) -> Dict[str, Any]:
     resource_errors, resource_warnings = validate_resource_files_exist(path, body)
     errors.extend(resource_errors)
     warnings.extend(resource_warnings)
+
+    # === CONTENT QUALITY VALIDATION (Hightower feedback) ===
+    # Validate files listed in references/README.md and assets/README.md actually exist
+    readme_errors, readme_warnings = validate_references_readme(path)
+    errors.extend(readme_errors)
+    warnings.extend(readme_warnings)
+
+    # Detect stub Python scripts
+    stub_errors, stub_warnings = detect_stub_scripts(path)
+    errors.extend(stub_errors)
+    warnings.extend(stub_warnings)
+
+    # Detect placeholder text (REPLACE_ME, {variable}, etc.)
+    placeholder_errors, placeholder_warnings = detect_placeholder_text(path)
+    errors.extend(placeholder_errors)
+    warnings.extend(placeholder_warnings)
+
+    # Detect generic boilerplate
+    boilerplate_errors, boilerplate_warnings = detect_boilerplate(path)
+    errors.extend(boilerplate_errors)
+    warnings.extend(boilerplate_warnings)
 
     description = str(fm.get("description") or "")
 
