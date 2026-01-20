@@ -1,140 +1,153 @@
 ---
 name: automating-database-backups
 description: |
-  Process use when you need to automate database backup processes with scheduling and encryption.
-  This skill creates backup scripts for PostgreSQL, MySQL, MongoDB, and SQLite with compression.
-  Trigger with phrases like "automate database backups", "schedule database dumps",
-  "create backup scripts", or "implement disaster recovery for database".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(pg_dump:*), Bash(mysqldump:*), Bash(mongodump:*), Bash(cron:*)
-version: 1.0.0
+  Automate database backup processes with scheduling, compression, and encryption.
+  Supports PostgreSQL (pg_dump), MySQL (mysqldump), MongoDB (mongodump), and SQLite.
+  Generates production-ready backup scripts with retention policies and restore procedures.
+  Trigger: "automate database backups", "schedule backups", "create backup script", "disaster recovery".
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(pg_dump:*), Bash(mysqldump:*), Bash(mongodump:*), Bash(cron:*), Bash(gpg:*)
+version: 2.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
 ---
-# Database Backup Automator
 
-This skill provides automated assistance for database backup automator tasks.
+# Database Backup Automation
 
-## Prerequisites
+Generate production-ready backup scripts for PostgreSQL, MySQL, MongoDB, and SQLite with compression, encryption, scheduling, and retention policies.
 
-Before using this skill, ensure:
-- Database credentials with backup permissions (SELECT on all tables)
-- Sufficient disk space for backup files (estimate 2-3x database size with compression)
-- Cron or task scheduler access for automated scheduling
-- Backup destination storage (local disk, NFS, S3, GCS, Azure Blob)
-- Encryption tools installed (gpg, openssl) for secure backups
-- Test database available for restore validation
+## Quick Start
+
+### PostgreSQL Backup
+```bash
+#!/bin/bash
+BACKUP_DIR="/var/backups/postgresql"
+DB_NAME="mydb"
+DATE=$(date +%Y%m%d_%H%M%S)
+BACKUP_FILE="${BACKUP_DIR}/${DB_NAME}_${DATE}.sql.gz"
+
+pg_dump -h localhost -U postgres -d "$DB_NAME" \
+  --format=custom \
+  --compress=9 \
+  --file="$BACKUP_FILE"
+
+# Encrypt with GPG (optional)
+gpg --symmetric --cipher-algo AES256 --batch --passphrase-file /etc/backup.key "$BACKUP_FILE"
+rm "$BACKUP_FILE"
+```
+
+### MySQL Backup
+```bash
+#!/bin/bash
+BACKUP_DIR="/var/backups/mysql"
+DB_NAME="mydb"
+DATE=$(date +%Y%m%d_%H%M%S)
+
+mysqldump -h localhost -u root -p"${MYSQL_PASSWORD}" \
+  --single-transaction \
+  --routines \
+  --triggers \
+  "$DB_NAME" | gzip > "${BACKUP_DIR}/${DB_NAME}_${DATE}.sql.gz"
+```
+
+### MongoDB Backup
+```bash
+#!/bin/bash
+mongodump --uri="mongodb://localhost:27017" \
+  --db=mydb \
+  --out=/var/backups/mongodb/$(date +%Y%m%d_%H%M%S) \
+  --gzip
+```
 
 ## Instructions
 
-### Step 1: Assess Backup Requirements
-1. Identify database type (PostgreSQL, MySQL, MongoDB, SQLite)
-2. Determine backup frequency (hourly, daily, weekly, monthly)
-3. Define retention policy (how long to keep backups)
-4. Calculate expected backup size and storage needs
-5. Document RTO (Recovery Time Objective) and RPO (Recovery Point Objective)
+### Step 1: Gather Requirements
+Ask the user for:
+- Database type (PostgreSQL, MySQL, MongoDB, SQLite)
+- Database connection details (host, port, database name)
+- Backup schedule (cron expression or frequency)
+- Retention policy (days to keep)
+- Encryption requirement (yes/no)
+- Backup destination (local path, S3, GCS)
 
-### Step 2: Design Backup Strategy
-1. Choose backup type: full, incremental, or differential
-2. Select backup destination (local, network storage, cloud)
-3. Plan backup scheduling to avoid peak usage times
-4. Define backup naming convention with timestamps
-5. Determine compression and encryption requirements
+### Step 2: Generate Backup Script
+Use `scripts/backup_script_generator.py` to create a customized backup script:
+```bash
+python3 {baseDir}/scripts/backup_script_generator.py \
+  --db-type postgresql \
+  --database mydb \
+  --output /opt/backup-scripts/mydb-backup.sh \
+  --compression gzip \
+  --encryption gpg
+```
 
-### Step 3: Generate Backup Scripts
-1. Create database-specific backup command (pg_dump, mysqldump, mongodump)
-2. Add compression using gzip or zstd for storage efficiency
-3. Implement encryption using gpg or openssl for security
-4. Add error handling and logging to backup script
-5. Include backup verification (checksum, test restore)
+### Step 3: Schedule with Cron
+Use `scripts/backup_scheduler.py` to create cron entries:
+```bash
+python3 {baseDir}/scripts/backup_scheduler.py \
+  --script /opt/backup-scripts/mydb-backup.sh \
+  --schedule "0 2 * * *" \
+  --user postgres
+```
 
-### Step 4: Configure Backup Schedule
-1. Create cron job entry for automated execution
-2. Set appropriate schedule based on backup frequency
-3. Configure environment variables for credentials
-4. Set up log rotation for backup logs
-5. Test manual execution before enabling automation
+### Step 4: Validate Backup
+After backup completes, validate integrity:
+```bash
+python3 {baseDir}/scripts/backup_validator.py \
+  --backup-file /var/backups/postgresql/mydb_20250115.sql.gz \
+  --db-type postgresql
+```
 
-### Step 5: Implement Retention Policy
-1. Create cleanup script to remove old backups
-2. Implement tiered retention (daily 7 days, weekly 4 weeks, monthly 12 months)
-3. Schedule retention cleanup after backup completion
-4. Add safeguards to prevent accidental deletion of recent backups
-5. Log all backup deletions for audit trail
+### Step 5: Generate Restore Procedure
+Create matching restore script:
+```bash
+python3 {baseDir}/scripts/restore_script_generator.py \
+  --db-type postgresql \
+  --database mydb \
+  --output /opt/backup-scripts/mydb-restore.sh
+```
 
-### Step 6: Create Restore Procedures
-1. Document step-by-step restore process
-2. Create restore scripts for each database type
-3. Include procedures for point-in-time recovery
-4. Test restore process on non-production environment
-5. Document restore time estimates and validation steps
+## Cron Schedule Reference
+
+| Schedule | Cron Expression | Description |
+|----------|-----------------|-------------|
+| Daily 2 AM | `0 2 * * *` | Low-traffic window |
+| Every 6 hours | `0 */6 * * *` | Frequent backups |
+| Weekly Sunday | `0 2 * * 0` | Weekly full backup |
+| Monthly 1st | `0 2 1 * *` | Monthly archive |
+
+## Retention Policy Example
+
+```bash
+# Keep daily backups for 7 days
+# Keep weekly backups for 4 weeks
+# Keep monthly backups for 12 months
+
+find /var/backups -name "*.gz" -mtime +7 -delete  # Daily cleanup
+find /var/backups/weekly -mtime +28 -delete       # Weekly cleanup
+find /var/backups/monthly -mtime +365 -delete     # Monthly cleanup
+```
 
 ## Output
 
-This skill produces:
-
-**Backup Scripts**: Shell scripts for database dumps with compression and encryption
-
-**Cron Configurations**: Crontab entries for automated backup scheduling
-
-**Retention Scripts**: Automated cleanup scripts implementing retention policies
-
-**Restore Procedures**: Step-by-step documentation and scripts for database restoration
-
-**Monitoring Configuration**: Log file locations and success/failure notification setup
+- **Backup Scripts**: Database-specific shell scripts with compression and encryption
+- **Cron Entries**: Ready-to-install crontab configurations
+- **Restore Scripts**: Matching restore procedures for each backup type
+- **Validation Reports**: Integrity check results for backup files
 
 ## Error Handling
 
-**Backup Failures**:
-- Check database connectivity and credentials
-- Verify sufficient disk space for backup files
-- Review database logs for lock or permission issues
-- Implement retry logic with exponential backoff
-- Send alerts on backup failures
-
-**Insufficient Disk Space**:
-- Monitor disk usage before backup execution
-- Implement pre-backup cleanup of old backups
-- Use incremental backups to reduce space requirements
-- Compress backups more aggressively
-- Move backups to remote storage immediately after creation
-
-**Encryption Errors**:
-- Verify encryption tools (gpg, openssl) are installed
-- Check encryption key availability and permissions
-- Test encryption/decryption process manually
-- Document key management procedures
-- Store encryption keys securely separate from backups
-
-**Schedule Conflicts**:
-- Ensure only one backup runs at a time (use lock files)
-- Adjust backup schedule to avoid peak database usage
-- Implement backup queuing for multiple databases
-- Monitor backup duration and adjust schedule if needed
-- Alert if backup duration exceeds acceptable window
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Connection refused | DB not running | Check service status: `systemctl status postgresql` |
+| Permission denied | Wrong credentials | Verify user has backup privileges |
+| Disk full | No space | Check space: `df -h`, clean old backups |
+| Lock timeout | Active transactions | Use `--single-transaction` for MySQL |
 
 ## Resources
 
-**Backup Script Templates**:
-- PostgreSQL: `{baseDir}/templates/backup-scripts/postgresql-backup.sh`
-- MySQL: `{baseDir}/templates/backup-scripts/mysql-backup.sh`
-- MongoDB: `{baseDir}/templates/backup-scripts/mongodb-backup.sh`
-- SQLite: `{baseDir}/templates/backup-scripts/sqlite-backup.sh`
-
-**Restore Procedures**: `{baseDir}/docs/restore-procedures/`
-- Point-in-time recovery
-- Full database restore
-- Selective table restore
-- Cross-server migration
-
-**Retention Policy Templates**: `{baseDir}/templates/retention-policies.yaml`
-**Cron Job Examples**: `{baseDir}/examples/crontab-entries.txt`
-**Monitoring Scripts**: `{baseDir}/scripts/backup-monitoring.sh`
-
-## Overview
-
-This skill provides automated assistance for the described functionality.
-
-## Examples
-
-Example usage patterns will be demonstrated in context.
+- `{baseDir}/references/postgresql_backup_restore.md` - PostgreSQL backup guide
+- `{baseDir}/references/mysql_backup_restore.md` - MySQL backup guide
+- `{baseDir}/references/mongodb_backup_restore.md` - MongoDB backup guide
+- `{baseDir}/references/sqlite_backup_restore.md` - SQLite backup guide
+- `{baseDir}/references/backup_best_practices.md` - Security and storage best practices
+- `{baseDir}/references/cron_syntax.md` - Cron scheduling reference

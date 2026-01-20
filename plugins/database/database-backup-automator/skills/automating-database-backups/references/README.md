@@ -2,9 +2,9 @@
 
 Bundled resources for database-backup-automator skill
 
-- [ ] postgresql_backup_restore.md: Detailed guide on PostgreSQL backup and restore procedures.
-- [ ] mysql_backup_restore.md: Detailed guide on MySQL backup and restore procedures.
-- [ ] mongodb_backup_restore.md: Detailed guide on MongoDB backup and restore procedures.
-- [ ] sqlite_backup_restore.md: Detailed guide on SQLite backup and restore procedures.
-- [ ] backup_best_practices.md: General best practices for database backups, including security and storage considerations.
-- [ ] cron_syntax.md: A quick reference guide to cron syntax for scheduling backups.
+- [x] postgresql_backup_restore.md: PostgreSQL backup and restore guide with pg_dump, pg_restore, PITR
+- [x] mysql_backup_restore.md: MySQL backup and restore guide with mysqldump, XtraBackup
+- [x] mongodb_backup_restore.md: MongoDB backup and restore guide with mongodump, mongorestore
+- [x] sqlite_backup_restore.md: SQLite backup and restore guide with .backup, .dump
+- [x] backup_best_practices.md: Security, encryption, retention, and monitoring best practices
+- [x] cron_syntax.md: Complete cron scheduling reference with examples
