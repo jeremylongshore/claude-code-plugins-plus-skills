@@ -1,3 +1,42 @@
+## [4.12.0] - 2026-01-20
+
+### 🎯 Release Highlights
+
+**Quality Improvements + Crypto Trading Plugins** - This release addresses skill quality feedback from Richard Hightower, adds 5 crypto trading plugins, and introduces content quality validation to prevent future issues.
+
+### 🙏 Contributors
+
+- **[@RichardHightower](https://github.com/RichardHightower)** - Quality reviews that drove validator improvements (#293, #294, #295)
+- **Jeremy Longshore** - Skill fixes, validator enhancements, crypto plugins
+
+### ✨ New Features
+
+- **5 Crypto Trading Plugins** - arbitrage-opportunity-finder, crypto-derivatives-tracker, crypto-signal-generator, options-flow-analyzer, trading-strategy-backtester
+- **Content Quality Validation** - New validator checks for stub scripts, missing referenced files, placeholder text, and generic boilerplate
+- **Richard Hightower Contributor** - Added to README with links to skilz and SkillzWave
+
+### 🔧 Quality Fixes (Hightower Feedback)
+
+- **generating-stored-procedures** - Rewrote SKILL.md, implemented scripts, created 5 reference files (34→85+ score)
+- **automating-database-backups** - Applied Progressive Disclosure, implemented 4 scripts, created 6 references (54→85+ score)
+- **creating-kubernetes-deployments** - Expanded to 15+ error solutions, 8 examples, 4 references, 3 templates (57→85+ score)
+
+### 🎨 UI Improvements
+
+- Intent Solutions branding and booking banner
+- Mobile banner spacing and link visibility fixes
+
+### 📊 Statistics
+
+| Metric | v4.11.0 | v4.12.0 | Change |
+|--------|---------|---------|--------|
+| Plugins | 270 | 275 | +5 |
+| Skills | 739 | 744 | +5 |
+| Files Changed | - | 161 | - |
+| Lines Added | - | +29,994 | - |
+
+---
+
 ## [4.6.0] - 2025-01-04
 
 ### 🎯 Release Highlights

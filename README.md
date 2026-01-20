@@ -1,6 +1,6 @@
 # Claude Code Skills & Plugins Hub
 
-[![Version](https://img.shields.io/badge/version-4.6.0-brightgreen)](000-docs/247-OD-CHNG-changelog.md)
+[![Version](https://img.shields.io/badge/version-4.12.0-brightgreen)](000-docs/247-OD-CHNG-changelog.md)
 [![CLI](https://img.shields.io/badge/CLI-ccpi-blueviolet?logo=npm)](https://www.npmjs.com/package/@intentsolutionsio/ccpi)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-739%20Skills-orange?logo=sparkles)](000-docs/247-OD-CHNG-changelog.md)
 [![Plugins](https://img.shields.io/badge/Total%20Plugins-270-blue)](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)
@@ -57,9 +57,9 @@
 
 **Claude Code plugins with embedded agent skills and interactive tutorials**
 
-**v4.5.0:** CLI 2.0 + vibe-guide plugin + Website Unification (521 routes).
+**v4.12.0:** Quality improvements + 5 crypto trading plugins + validator content checks.
 
-**Latest:** [v4.5.0 Release](https://github.com/jeremylongshore/claude-code-plugins/releases/tag/v4.5.0)
+**Latest:** [v4.12.0 Release](https://github.com/jeremylongshore/claude-code-plugins/releases/tag/v4.12.0)
 
 ```bash
 /plugin marketplace add jeremylongshore/claude-code-plugins
@@ -698,4 +698,4 @@ Made with dedication by the Claude Code community
 
 ---
 
-**Status**: Public Beta | **Version**: 4.5.0 | **Last Updated**: December 2025 | **Skills**: 739
+**Status**: Public Beta | **Version**: 4.12.0 | **Last Updated**: January 2026 | **Skills**: 739
