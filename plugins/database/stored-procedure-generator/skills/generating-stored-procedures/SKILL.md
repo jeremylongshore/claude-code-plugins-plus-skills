@@ -1,129 +1,265 @@
 ---
 name: generating-stored-procedures
 description: |
-  Execute use when you need to work with stored procedure generation.
-  This skill provides stored procedure code generation with comprehensive guidance and automation.
-  Trigger with phrases like "generate stored procedures", "create database functions",
-  or "write SQL procedures".
-  
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
-version: 1.0.0
+  Use when you need to generate, validate, or deploy stored procedures for PostgreSQL, MySQL, or SQL Server.
+  Creates database functions, triggers, and procedures with proper error handling and transaction management.
+  Trigger with phrases like "generate stored procedure", "create database function", "write SQL procedure",
+  "add trigger to table", or "create CRUD procedures".
+
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:psql,cmd:mysql,cmd:sqlcmd,cmd:python3)
+version: 2.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
 ---
+
 # Stored Procedure Generator
 
-This skill provides automated assistance for stored procedure generator tasks.
+Generate production-ready stored procedures for PostgreSQL, MySQL, and SQL Server with proper error handling, transaction management, and security best practices.
 
 ## Prerequisites
 
-Before using this skill, ensure:
-- Required credentials and permissions for the operations
-- Understanding of the system architecture and dependencies
-- Backup of critical data before making structural changes
-- Access to relevant documentation and configuration files
-- Monitoring tools configured for observability
-- Development or staging environment available for testing
+- Database connection credentials (host, port, database, user, password)
+- Appropriate permissions: CREATE PROCEDURE, CREATE FUNCTION, EXECUTE
+- Target database type identified (PostgreSQL, MySQL, or SQL Server)
 
 ## Instructions
 
-### Step 1: Assess Current State
-1. Review current configuration, setup, and baseline metrics
-2. Identify specific requirements, goals, and constraints
-3. Document existing patterns, issues, and pain points
-4. Analyze dependencies and integration points
-5. Validate all prerequisites are met before proceeding
+### 1. Identify Database Type and Requirements
 
-### Step 2: Design Solution
-1. Define optimal approach based on best practices
-2. Create detailed implementation plan with clear steps
-3. Identify potential risks and mitigation strategies
-4. Document expected outcomes and success criteria
-5. Review plan with team or stakeholders if needed
+Determine the target database and procedure requirements:
 
-### Step 3: Implement Changes
-1. Execute implementation in non-production environment first
-2. Verify changes work as expected with thorough testing
-3. Monitor for any issues, errors, or performance impacts
-4. Document all changes, decisions, and configurations
-5. Prepare rollback plan and recovery procedures
+```sql
+-- PostgreSQL: Check version and extensions
+SELECT version();
+\dx
 
-### Step 4: Validate Implementation
-1. Run comprehensive tests to verify all functionality
-2. Compare performance metrics against baseline
-3. Confirm no unintended side effects or regressions
-4. Update all relevant documentation
-5. Obtain approval before production deployment
+-- MySQL: Check version and settings
+SELECT VERSION();
+SHOW VARIABLES LIKE 'sql_mode';
 
-### Step 5: Deploy to Production
-1. Schedule deployment during appropriate maintenance window
-2. Execute implementation with real-time monitoring
-3. Watch closely for any issues or anomalies
-4. Verify successful deployment and functionality
-5. Document completion, metrics, and lessons learned
+-- SQL Server: Check version and edition
+SELECT @@VERSION;
+```
+
+### 2. Generate Stored Procedure
+
+**PostgreSQL Function (PL/pgSQL):**
+
+```sql
+CREATE OR REPLACE FUNCTION get_user_by_id(p_user_id INTEGER)
+RETURNS TABLE(id INTEGER, username VARCHAR, email VARCHAR, created_at TIMESTAMP)
+LANGUAGE plpgsql
+AS $$
+BEGIN
+    RETURN QUERY
+    SELECT u.id, u.username, u.email, u.created_at
+    FROM users u
+    WHERE u.id = p_user_id;
+
+    IF NOT FOUND THEN
+        RAISE EXCEPTION 'User with ID % not found', p_user_id
+            USING ERRCODE = 'P0002';
+    END IF;
+END;
+$$;
+```
+
+**MySQL Stored Procedure:**
+
+```sql
+DELIMITER //
+CREATE PROCEDURE GetUserById(IN p_user_id INT)
+BEGIN
+    DECLARE user_exists INT DEFAULT 0;
+
+    SELECT COUNT(*) INTO user_exists FROM users WHERE id = p_user_id;
+
+    IF user_exists = 0 THEN
+        SIGNAL SQLSTATE '45000'
+            SET MESSAGE_TEXT = 'User not found';
+    END IF;
+
+    SELECT id, username, email, created_at
+    FROM users
+    WHERE id = p_user_id;
+END //
+DELIMITER ;
+```
+
+**SQL Server Stored Procedure (T-SQL):**
+
+```sql
+CREATE PROCEDURE dbo.GetUserById
+    @UserId INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF NOT EXISTS (SELECT 1 FROM dbo.Users WHERE Id = @UserId)
+    BEGIN
+        RAISERROR('User with ID %d not found', 16, 1, @UserId);
+        RETURN;
+    END
+
+    SELECT Id, Username, Email, CreatedAt
+    FROM dbo.Users
+    WHERE Id = @UserId;
+END;
+GO
+```
+
+### 3. Add Transaction Management
+
+**PostgreSQL with Transaction:**
+
+```sql
+CREATE OR REPLACE FUNCTION transfer_funds(
+    p_from_account INTEGER,
+    p_to_account INTEGER,
+    p_amount NUMERIC(15,2)
+)
+RETURNS BOOLEAN
+LANGUAGE plpgsql
+AS $$
+BEGIN
+    -- Debit source account
+    UPDATE accounts SET balance = balance - p_amount
+    WHERE id = p_from_account AND balance >= p_amount;
+
+    IF NOT FOUND THEN
+        RAISE EXCEPTION 'Insufficient funds or invalid source account';
+    END IF;
+
+    -- Credit destination account
+    UPDATE accounts SET balance = balance + p_amount
+    WHERE id = p_to_account;
+
+    IF NOT FOUND THEN
+        RAISE EXCEPTION 'Invalid destination account';
+    END IF;
+
+    RETURN TRUE;
+EXCEPTION
+    WHEN OTHERS THEN
+        RAISE;
+END;
+$$;
+```
+
+**MySQL with Transaction:**
+
+```sql
+DELIMITER //
+CREATE PROCEDURE TransferFunds(
+    IN p_from_account INT,
+    IN p_to_account INT,
+    IN p_amount DECIMAL(15,2)
+)
+BEGIN
+    DECLARE EXIT HANDLER FOR SQLEXCEPTION
+    BEGIN
+        ROLLBACK;
+        RESIGNAL;
+    END;
+
+    START TRANSACTION;
+
+    UPDATE accounts SET balance = balance - p_amount
+    WHERE id = p_from_account AND balance >= p_amount;
+
+    IF ROW_COUNT() = 0 THEN
+        SIGNAL SQLSTATE '45000'
+            SET MESSAGE_TEXT = 'Insufficient funds';
+    END IF;
+
+    UPDATE accounts SET balance = balance + p_amount
+    WHERE id = p_to_account;
+
+    COMMIT;
+END //
+DELIMITER ;
+```
+
+### 4. Validate Syntax
+
+Use the validation script to check procedure syntax:
+
+```bash
+# Validate PostgreSQL procedure
+python3 {baseDir}/scripts/stored_procedure_syntax_validator.py \
+    --db-type postgresql \
+    --file procedure.sql
+
+# Validate MySQL procedure
+python3 {baseDir}/scripts/stored_procedure_syntax_validator.py \
+    --db-type mysql \
+    --file procedure.sql
+```
+
+### 5. Deploy to Database
+
+```bash
+# Deploy to PostgreSQL
+python3 {baseDir}/scripts/stored_procedure_deployer.py \
+    --db-type postgresql \
+    --host localhost \
+    --database mydb \
+    --file procedure.sql
+
+# Deploy to MySQL
+python3 {baseDir}/scripts/stored_procedure_deployer.py \
+    --db-type mysql \
+    --host localhost \
+    --database mydb \
+    --file procedure.sql
+```
 
 ## Output
 
-This skill produces:
-
-**Implementation Artifacts**: Scripts, configuration files, code, and automation tools
-
-**Documentation**: Comprehensive documentation of changes, procedures, and architecture
-
-**Test Results**: Validation reports, test coverage, and quality metrics
-
-**Monitoring Configuration**: Dashboards, alerts, metrics, and observability setup
-
-**Runbooks**: Operational procedures for maintenance, troubleshooting, and incident response
+- SQL procedure file with proper syntax for target database
+- Validation report confirming syntax correctness
+- Deployment confirmation with execution results
+- Rollback script for procedure removal
 
 ## Error Handling
 
-**Permission and Access Issues**:
-- Verify credentials and permissions for all operations
-- Request elevated access if required for specific tasks
-- Document all permission requirements for automation
-- Use separate service accounts for privileged operations
-- Implement least-privilege access principles
-
-**Connection and Network Failures**:
-- Check network connectivity, firewalls, and security groups
-- Verify service endpoints, DNS resolution, and routing
-- Test connections using diagnostic and troubleshooting tools
-- Review network policies, ACLs, and security configurations
-- Implement retry logic with exponential backoff
-
-**Resource Constraints**:
-- Monitor resource usage (CPU, memory, disk, network)
-- Implement throttling, rate limiting, or queue mechanisms
-- Schedule resource-intensive tasks during low-traffic periods
-- Scale infrastructure resources if consistently hitting limits
-- Optimize queries, code, or configurations for efficiency
-
-**Configuration and Syntax Errors**:
-- Validate all configuration syntax before applying changes
-- Test configurations thoroughly in non-production first
-- Implement automated configuration validation checks
-- Maintain version control for all configuration files
-- Keep previous working configuration for quick rollback
-
-## Resources
-
-**Configuration Templates**: `{baseDir}/templates/stored-procedure-generator/`
-
-**Documentation and Guides**: `{baseDir}/docs/stored-procedure-generator/`
-
-**Example Scripts and Code**: `{baseDir}/examples/stored-procedure-generator/`
-
-**Troubleshooting Guide**: `{baseDir}/docs/stored-procedure-generator-troubleshooting.md`
-
-**Best Practices**: `{baseDir}/docs/stored-procedure-generator-best-practices.md`
-
-**Monitoring Setup**: `{baseDir}/monitoring/stored-procedure-generator-dashboard.json`
-
-## Overview
-
-This skill provides automated assistance for the described functionality.
+| Error | Cause | Solution |
+|-------|-------|----------|
+| `permission denied` | Missing CREATE PROCEDURE privilege | `GRANT CREATE PROCEDURE ON database TO user;` |
+| `syntax error` | Invalid SQL for database type | Use database-specific syntax validator |
+| `function already exists` | Procedure exists without OR REPLACE | Add `OR REPLACE` or `DROP` first |
+| `undefined column` | Referenced column doesn't exist | Verify table schema before deployment |
+| `transaction aborted` | Error during transaction | Check EXCEPTION handler and ROLLBACK logic |
 
 ## Examples
 
-Example usage patterns will be demonstrated in context.
+**Generate CRUD procedures for a table:**
+
+```
+User: Generate CRUD stored procedures for the 'products' table in PostgreSQL
+
+Claude: I'll create four procedures for the products table:
+1. create_product - Insert new product
+2. get_product - Retrieve by ID
+3. update_product - Update existing product
+4. delete_product - Soft delete product
+```
+
+**Create audit trigger:**
+
+```
+User: Create a trigger to log all changes to the orders table
+
+Claude: I'll create an audit trigger that:
+1. Creates an orders_audit table if not exists
+2. Captures INSERT, UPDATE, DELETE operations
+3. Records old/new values, user, and timestamp
+```
+
+## Resources
+
+- `{baseDir}/references/postgresql_stored_procedure_best_practices.md`
+- `{baseDir}/references/mysql_stored_procedure_best_practices.md`
+- `{baseDir}/references/sqlserver_stored_procedure_best_practices.md`
+- `{baseDir}/references/database_security_guidelines.md`
+- `{baseDir}/references/stored_procedure_optimization_techniques.md`

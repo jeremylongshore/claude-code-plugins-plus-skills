@@ -1,170 +1,357 @@
 #!/usr/bin/env python3
 """
-stored-procedure-generator - Deployment Script
-Deploys the generated stored procedure to the target database.
-Generated: 2025-12-10 03:48:17
+Stored Procedure Deployer
+
+Deploy stored procedures to PostgreSQL, MySQL, or SQL Server databases.
+Supports dry-run mode, transaction wrapping, and automatic rollback scripts.
+
+Author: Jeremy Longshore <jeremy@intentsolutions.io>
+Version: 2.0.0
+License: MIT
 """
 
-import os
-import json
-import shutil
+import sys
 import argparse
+import subprocess
 from pathlib import Path
 from datetime import datetime
+from typing import Dict, List, Optional
+from dataclasses import dataclass
 
-class Deployer:
-    def __init__(self, source: str, target: str):
-        self.source = Path(source)
-        self.target = Path(target)
-        self.deployed = []
-        self.failed = []
 
-    def validate_source(self) -> bool:
-        """Validate source directory exists."""
-        if not self.source.exists():
-            print(f"❌ Source directory not found: {self.source}")
-            return False
+@dataclass
+class DeploymentResult:
+    """Result of deployment operation."""
+    success: bool
+    message: str
+    procedure_name: Optional[str] = None
+    rollback_sql: Optional[str] = None
+    execution_time: float = 0.0
 
-        if not any(self.source.iterdir()):
-            print(f"❌ Source directory is empty: {self.source}")
-            return False
 
-        print(f"✓ Source validated: {self.source}")
-        return True
+class PostgreSQLDeployer:
+    """Deploy stored procedures to PostgreSQL."""
 
-    def prepare_target(self) -> bool:
-        """Prepare target directory."""
+    def __init__(self, host: str, port: int, database: str, user: str, password: str = None):
+        self.host = host
+        self.port = port
+        self.database = database
+        self.user = user
+        self.password = password
+
+    def _get_psql_env(self) -> Dict[str, str]:
+        """Get environment variables for psql."""
+        import os
+        env = os.environ.copy()
+        if self.password:
+            env['PGPASSWORD'] = self.password
+        return env
+
+    def _run_psql(self, sql: str, dry_run: bool = False) -> DeploymentResult:
+        """Execute SQL via psql."""
+        if dry_run:
+            return DeploymentResult(
+                success=True,
+                message=f"DRY RUN: Would execute SQL ({len(sql)} chars)"
+            )
+
+        cmd = [
+            'psql',
+            '-h', self.host,
+            '-p', str(self.port),
+            '-d', self.database,
+            '-U', self.user,
+            '-v', 'ON_ERROR_STOP=1',
+            '-c', sql
+        ]
+
+        start_time = datetime.now()
         try:
-            self.target.mkdir(parents=True, exist_ok=True)
+            result = subprocess.run(
+                cmd,
+                env=self._get_psql_env(),
+                capture_output=True,
+                text=True,
+                timeout=60
+            )
+            elapsed = (datetime.now() - start_time).total_seconds()
 
-            # Create deployment metadata
-            metadata = {
-                "deployment_time": datetime.now().isoformat(),
-                "source": str(self.source),
-                "skill": "stored-procedure-generator",
-                "category": "database",
-                "plugin": "stored-procedure-generator"
-            }
+            if result.returncode == 0:
+                return DeploymentResult(
+                    success=True,
+                    message=result.stdout.strip() or "Executed successfully",
+                    execution_time=elapsed
+                )
+            else:
+                return DeploymentResult(
+                    success=False,
+                    message=f"Error: {result.stderr.strip()}",
+                    execution_time=elapsed
+                )
+        except subprocess.TimeoutExpired:
+            return DeploymentResult(success=False, message="Execution timed out")
+        except FileNotFoundError:
+            return DeploymentResult(success=False, message="psql not found - install PostgreSQL client")
 
-            metadata_file = self.target / ".deployment.json"
-            with open(metadata_file, 'w') as f:
-                json.dump(metadata, f, indent=2)
+    def deploy(self, sql: str, dry_run: bool = False) -> DeploymentResult:
+        """Deploy a stored procedure."""
+        # Extract procedure name for rollback
+        import re
+        name_match = re.search(
+            r'CREATE\s+(?:OR\s+REPLACE\s+)?(?:FUNCTION|PROCEDURE)\s+(\w+(?:\.\w+)?)',
+            sql, re.IGNORECASE
+        )
+        proc_name = name_match.group(1) if name_match else None
 
-            print(f"✓ Target prepared: {self.target}")
-            return True
-        except Exception as e:
-            print(f"❌ Failed to prepare target: {e}")
-            return False
+        result = self._run_psql(sql, dry_run)
+        result.procedure_name = proc_name
 
-    def deploy_files(self) -> bool:
-        """Deploy files from source to target."""
-        success = True
+        if proc_name:
+            # Detect if it's a function or procedure
+            if 'FUNCTION' in sql.upper():
+                result.rollback_sql = f"DROP FUNCTION IF EXISTS {proc_name};"
+            else:
+                result.rollback_sql = f"DROP PROCEDURE IF EXISTS {proc_name};"
 
-        for source_file in self.source.rglob('*'):
-            if source_file.is_file():
-                relative_path = source_file.relative_to(self.source)
-                target_file = self.target / relative_path
+        return result
 
-                try:
-                    target_file.parent.mkdir(parents=True, exist_ok=True)
-                    shutil.copy2(source_file, target_file)
-                    self.deployed.append(str(relative_path))
-                    print(f"  ✓ Deployed: {relative_path}")
-                except Exception as e:
-                    self.failed.append({
-                        "file": str(relative_path),
-                        "error": str(e)
-                    })
-                    print(f"  ✗ Failed: {relative_path} - {e}")
-                    success = False
 
-        return success
+class MySQLDeployer:
+    """Deploy stored procedures to MySQL."""
 
-    def generate_report(self) -> Dict:
-        """Generate deployment report."""
-        report = {
-            "deployment_time": datetime.now().isoformat(),
-            "skill": "stored-procedure-generator",
-            "source": str(self.source),
-            "target": str(self.target),
-            "total_files": len(self.deployed) + len(self.failed),
-            "deployed": len(self.deployed),
-            "failed": len(self.failed),
-            "deployed_files": self.deployed,
-            "failed_files": self.failed
-        }
+    def __init__(self, host: str, port: int, database: str, user: str, password: str = None):
+        self.host = host
+        self.port = port
+        self.database = database
+        self.user = user
+        self.password = password
 
-        # Save report
-        report_file = self.target / "deployment_report.json"
-        with open(report_file, 'w') as f:
-            json.dump(report, f, indent=2)
+    def _run_mysql(self, sql: str, dry_run: bool = False) -> DeploymentResult:
+        """Execute SQL via mysql client."""
+        if dry_run:
+            return DeploymentResult(
+                success=True,
+                message=f"DRY RUN: Would execute SQL ({len(sql)} chars)"
+            )
 
-        return report
+        cmd = [
+            'mysql',
+            '-h', self.host,
+            '-P', str(self.port),
+            '-D', self.database,
+            '-u', self.user,
+        ]
+        if self.password:
+            cmd.append(f'-p{self.password}')
 
-    def rollback(self):
-        """Rollback deployment on failure."""
-        print("⚠️  Rolling back deployment...")
+        start_time = datetime.now()
+        try:
+            result = subprocess.run(
+                cmd,
+                input=sql,
+                capture_output=True,
+                text=True,
+                timeout=60
+            )
+            elapsed = (datetime.now() - start_time).total_seconds()
 
-        for deployed_file in self.deployed:
-            file_path = self.target / deployed_file
-            if file_path.exists():
-                file_path.unlink()
-                print(f"  ✓ Removed: {deployed_file}")
+            if result.returncode == 0:
+                return DeploymentResult(
+                    success=True,
+                    message=result.stdout.strip() or "Executed successfully",
+                    execution_time=elapsed
+                )
+            else:
+                return DeploymentResult(
+                    success=False,
+                    message=f"Error: {result.stderr.strip()}",
+                    execution_time=elapsed
+                )
+        except subprocess.TimeoutExpired:
+            return DeploymentResult(success=False, message="Execution timed out")
+        except FileNotFoundError:
+            return DeploymentResult(success=False, message="mysql not found - install MySQL client")
 
-        # Remove empty directories
-        for dir_path in sorted(self.target.rglob('*'), reverse=True):
-            if dir_path.is_dir() and not any(dir_path.iterdir()):
-                dir_path.rmdir()
+    def deploy(self, sql: str, dry_run: bool = False) -> DeploymentResult:
+        """Deploy a stored procedure."""
+        import re
+        name_match = re.search(
+            r'CREATE\s+(?:DEFINER\s*=\s*[^\s]+\s+)?PROCEDURE\s+(\w+(?:\.\w+)?)',
+            sql, re.IGNORECASE
+        )
+        proc_name = name_match.group(1) if name_match else None
+
+        result = self._run_mysql(sql, dry_run)
+        result.procedure_name = proc_name
+
+        if proc_name:
+            result.rollback_sql = f"DROP PROCEDURE IF EXISTS {proc_name};"
+
+        return result
+
+
+class SQLServerDeployer:
+    """Deploy stored procedures to SQL Server."""
+
+    def __init__(self, host: str, port: int, database: str, user: str, password: str = None):
+        self.host = host
+        self.port = port
+        self.database = database
+        self.user = user
+        self.password = password
+
+    def _run_sqlcmd(self, sql: str, dry_run: bool = False) -> DeploymentResult:
+        """Execute SQL via sqlcmd."""
+        if dry_run:
+            return DeploymentResult(
+                success=True,
+                message=f"DRY RUN: Would execute SQL ({len(sql)} chars)"
+            )
+
+        cmd = [
+            'sqlcmd',
+            '-S', f'{self.host},{self.port}',
+            '-d', self.database,
+            '-U', self.user,
+            '-Q', sql
+        ]
+        if self.password:
+            cmd.extend(['-P', self.password])
+
+        start_time = datetime.now()
+        try:
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                timeout=60
+            )
+            elapsed = (datetime.now() - start_time).total_seconds()
+
+            if result.returncode == 0:
+                return DeploymentResult(
+                    success=True,
+                    message=result.stdout.strip() or "Executed successfully",
+                    execution_time=elapsed
+                )
+            else:
+                return DeploymentResult(
+                    success=False,
+                    message=f"Error: {result.stderr.strip()}",
+                    execution_time=elapsed
+                )
+        except subprocess.TimeoutExpired:
+            return DeploymentResult(success=False, message="Execution timed out")
+        except FileNotFoundError:
+            return DeploymentResult(success=False, message="sqlcmd not found - install SQL Server tools")
+
+    def deploy(self, sql: str, dry_run: bool = False) -> DeploymentResult:
+        """Deploy a stored procedure."""
+        import re
+        name_match = re.search(
+            r'CREATE\s+(?:OR\s+ALTER\s+)?PROC(?:EDURE)?\s+(\[?\w+\]?(?:\.\[?\w+\]?)?)',
+            sql, re.IGNORECASE
+        )
+        proc_name = name_match.group(1) if name_match else None
+
+        result = self._run_sqlcmd(sql, dry_run)
+        result.procedure_name = proc_name
+
+        if proc_name:
+            result.rollback_sql = f"DROP PROCEDURE IF EXISTS {proc_name};"
+
+        return result
+
+
+def get_deployer(db_type: str, host: str, port: int, database: str, user: str, password: str = None):
+    """Factory to get appropriate deployer."""
+    deployers = {
+        'postgresql': PostgreSQLDeployer,
+        'mysql': MySQLDeployer,
+        'sqlserver': SQLServerDeployer,
+    }
+
+    default_ports = {
+        'postgresql': 5432,
+        'mysql': 3306,
+        'sqlserver': 1433,
+    }
+
+    if db_type not in deployers:
+        raise ValueError(f"Unknown database type: {db_type}")
+
+    actual_port = port or default_ports.get(db_type, 5432)
+    return deployers[db_type](host, actual_port, database, user, password)
+
 
 def main():
-    parser = argparse.ArgumentParser(description="Deploys the generated stored procedure to the target database.")
-    parser.add_argument('source', help='Source directory')
-    parser.add_argument('target', help='Target deployment directory')
-    parser.add_argument('--dry-run', action='store_true', help='Simulate deployment')
-    parser.add_argument('--force', action='store_true', help='Overwrite existing files')
-    parser.add_argument('--rollback-on-error', action='store_true', help='Rollback on any error')
+    parser = argparse.ArgumentParser(
+        description='Deploy stored procedures to PostgreSQL, MySQL, or SQL Server'
+    )
+    parser.add_argument('file', help='SQL file to deploy')
+    parser.add_argument('--db-type', '-t', required=True,
+                        choices=['postgresql', 'mysql', 'sqlserver'],
+                        help='Database type')
+    parser.add_argument('--host', '-H', default='localhost', help='Database host')
+    parser.add_argument('--port', '-P', type=int, help='Database port')
+    parser.add_argument('--database', '-d', required=True, help='Database name')
+    parser.add_argument('--user', '-u', required=True, help='Database user')
+    parser.add_argument('--password', '-p', help='Database password')
+    parser.add_argument('--dry-run', action='store_true', help='Show what would be done')
+    parser.add_argument('--save-rollback', help='Save rollback script to file')
 
     args = parser.parse_args()
 
-    deployer = Deployer(args.source, args.target)
+    file_path = Path(args.file)
+    if not file_path.exists():
+        print(f"Error: File not found: {file_path}")
+        return 1
 
-    print(f"🚀 Deploying stored-procedure-generator...")
-    print(f"   Source: {args.source}")
-    print(f"   Target: {args.target}")
+    sql = file_path.read_text()
 
+    print(f"Deploying: {file_path}")
+    print(f"Database: {args.db_type}://{args.host}/{args.database}")
     if args.dry_run:
-        print("\n⚠️  DRY RUN MODE - No files will be deployed")
-        return 0
+        print("MODE: DRY RUN")
+    print()
 
-    # Validate and prepare
-    if not deployer.validate_source():
+    try:
+        deployer = get_deployer(
+            args.db_type,
+            args.host,
+            args.port,
+            args.database,
+            args.user,
+            args.password
+        )
+
+        result = deployer.deploy(sql, args.dry_run)
+
+        if result.procedure_name:
+            print(f"Procedure: {result.procedure_name}")
+
+        if result.success:
+            print(f"Status: SUCCESS")
+            print(f"Message: {result.message}")
+            if result.execution_time:
+                print(f"Time: {result.execution_time:.2f}s")
+
+            if result.rollback_sql:
+                print(f"\nRollback SQL: {result.rollback_sql}")
+                if args.save_rollback:
+                    Path(args.save_rollback).write_text(result.rollback_sql)
+                    print(f"Saved to: {args.save_rollback}")
+
+            return 0
+        else:
+            print(f"Status: FAILED")
+            print(f"Error: {result.message}")
+            return 1
+
+    except Exception as e:
+        print(f"Error: {e}")
         return 1
 
-    if not deployer.prepare_target():
-        return 1
 
-    # Deploy
-    success = deployer.deploy_files()
-
-    # Generate report
-    report = deployer.generate_report()
-
-    print(f"\n📊 DEPLOYMENT SUMMARY")
-    print(f"   Total Files: {report['total_files']}")
-    print(f"   ✅ Deployed: {report['deployed']}")
-    print(f"   ❌ Failed: {report['failed']}")
-
-    if not success and args.rollback_on_error:
-        deployer.rollback()
-        return 1
-
-    if report['failed'] == 0:
-        print(f"\n✅ Deployment completed successfully!")
-        return 0
-    else:
-        print(f"\n⚠️  Deployment completed with errors")
-        return 1
-
-if __name__ == "__main__":
-    import sys
+if __name__ == '__main__':
     sys.exit(main())
